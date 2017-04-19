@@ -247,14 +247,15 @@ body{
     color: #1f64a0;
     font-weight: 500;
     font-size: 22px;
-    margin-top: 8vh;
+    width: 100%;
+    height: 100%;
 }
 .whats-happening .col-sm-6 .spacing .center span{
     font-weight: 300;
     font-size: 29px;
     color: #649db1;
     letter-spacing: 1px;
-        margin-bottom: -15px;
+    margin-bottom: -15px;
 }
 .whats-happening .col-sm-6:first-child{
     background: #444444;
@@ -273,10 +274,10 @@ body{
     position: absolute;
     right: -30px;
     top: calc(50% - 30px);
-    z-index: 1;
+    z-index: 2;
 }
 .whats-happening .col-sm-6:nth-child(3){
-    background:url('../images/bg-image2.png');
+    background-color: #fff;
     background-position: center center;
 }
 .whats-happening .col-sm-6:nth-child(3) span.gradient{
@@ -905,9 +906,18 @@ body{
 
 /* animated arrow circle */
 /*Awards*/
- ul.awards{display:block !important; position:inherit !important;}
- .awards-content{ position: absolute !important; left:100px; top:100px;}
-
+ ul.awards{display:block !important; position:inherit !important;
+  border-bottom:none;}
+ .awards-content{ position: absolute !important; left:0; top:0;}
+  ul.awards li a{
+  transition: 1s all ease;
+  }
+ ul.awards li.active a{
+  color: #0d0923;
+ }
+ .award_holder{
+  margin-top: 130px; position: relative; z-index: 1;
+ }
 /* bran_tabs */
 
 .brand_tabs{

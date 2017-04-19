@@ -77,8 +77,7 @@
 		        <ul class="nav nav-tabs awards" role="tablist">
 		        <li role="presentation" class="active"><a href="#gartner" role="tab" data-toggle="tab">Gartner,</a></li>
 		        <li role="presentation"><a href="#forrester" role="tab" data-toggle="tab">Forrester,</a></li>
-		        <li role="presentation"><a href="#frost" role="tab" data-toggle="tab">Frost &nbsp;</a> </li>
-		        <li role="presentation"><a href="#sullivan" role="tab" data-toggle="tab">Sullivan</a></li>
+		        <li role="presentation"><a href="#frost" role="tab" data-toggle="tab">Frost & <br> Sullivan</a> </li>
 		        </ul>
 		        <span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
 					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -104,28 +103,32 @@
         </div>
         <div class="col-sm-6 col-md-3">
         	<div class="spacing tab-content " style="height: 100%; text-align: center;">
-        		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner">
-	        		<img src="<?= IMAGE ?>gartner.png">
-	        		<span>COOL vendor in</span>
-	        		consumer dynamics
+        		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?= IMAGE ?>award_logo/bg1.png');">
+        			<span class="gradient"></span>
+        			<div class="award_holder">
+		        		<img src="<?= IMAGE ?>award_logo/gartner.png">
+		        		<span>COOL vendor in</span>
+		        		consumer dynamics
+	        		</div>
         		</div>
-        		<div role="tabpanel" class="center tab-pane fade in  awards-content" id="forrester">
-	        		<img src="<?= IMAGE ?>gartner.png">
-	        		<span>vendor in</span>
-	        		consumer dynamics
+        		<div role="tabpanel" class="center tab-pane fade awards-content" id="forrester" style="background:url('<?= IMAGE ?>award_logo/bg2.png');">
+        			<span class="gradient"></span>
+        			<div class="award_holder">
+		        		<img src="<?= IMAGE ?>award_logo/forrester.png">
+		        		<span>COOL vendor in</span>
+		        		consumer dynamics
+	        		</div>
         		</div>
-        		<div role="tabpanel" class="center tab-pane fade in  awards-content" id="frost">
-	        		<img src="<?= IMAGE ?>gartner.png">
-	        		<span> in</span>
-	        		consumer dynamics
-        		</div>
-        		<div role="tabpanel" class="center tab-pane fade in  awards-content" id="sullivan">
-	        		<img src="<?= IMAGE ?>gartner.png">
-	        		<span>COOL  in</span>
-	        		consumer dynamics
+        		<div role="tabpanel" class="center tab-pane fade awards-content" id="frost" style="background:url('<?= IMAGE ?>award_logo/bg3.png');">
+        			<span class="gradient"></span>
+        			<div class="award_holder">
+		        		<img src="<?= IMAGE ?>award_logo/frost-and-sullivan.png">
+		        		<span>COOL vendor in</span>
+		        		consumer dynamics
+	        		</div>
         		</div>
         	</div>
-        	<span class="gradient"></span>
+        	
         </div>
         <div class="col-sm-6 col-md-3 whats-new">
         	<div class="spacing">

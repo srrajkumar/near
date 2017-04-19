@@ -1,7 +1,7 @@
 <?php
 ini_set("display_errors", 0);
 define('SITE_NAME', 'Near');
-$mainurl = 'http://localhost/near-v3/';
+$mainurl = 'http://localhost/near_v3/';
 //$mainurl = 'https://near.co/'; 
 //$cdnurl = 'https://druq9h2796z7c.cloudfront.net/';
 #$cdnurl = 'https://d2828ihewbtgvd.cloudfront.net/';
