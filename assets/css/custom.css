@@ -1124,7 +1124,7 @@ body{
 .newsletter  .row{float:left;}
 .newsletter .row:before { position: absolute; content: ""; display: block; top: 0; left: -5000px; height: 100%; z-index: -1; background: inherit;}
 .newsletter .row span { position: relative; display: inline-block; margin-top:23px; }
-.newsletter .balloon { display: inline-block;z-index: 1; position: relative; width: 195px; font-size:12px; height: 25px;  padding: 0 0 0 5px;   font-family: 'GothamRounded-Book', sans-serif; color: transparent; font-weight:normal; background: transparent;  outline: 0; text-indent: 60px; transition: all .5s ease !important; border-bottom: 1px solid #ec222b !important; text-shadow:0px 0px 0px transparent;}
+.newsletter .balloon { display: inline-block;z-index: 1; position: relative; width: 195px; font-size:12px; height: 25px;  padding: 0 0 0 5px;   font-family: 'GothamRounded-Book', sans-serif; color: transparent; font-weight:normal; background: transparent;  outline: 0; text-indent: 60px; transition: all .5s ease !important; border-bottom: 1px solid #ec222b !important; text-shadow:0px 0px 0px transparent;    border: none;}
 .newsletter .balloon::-webkit-input-placeholder {  color: transparent; text-indent: 0; font-weight:normal;}
 .newsletter .balloon + label {font-family: 'GothamRounded-Book',sans-serif; font-size:11px; display: inline-block; position: absolute; top: -1px; left: 0; bottom: 6px;  padding: 5px;line-height: 15px; height: 25px; color: #6b6b6b;font-weight:normal;  transition: all .5s ease !important; border-radius: 3px; background: rgba(122, 184, 147, 0); margin-bottom:0px;}
 .newsletter .balloon + label:after { position: absolute; content: ""; width: 0; height: 0; top: 100%; left: 50%; margin-left: -3px;  border-left: 3px solid transparent; border-right: 3px solid transparent; border-top: 3px solid rgba(122, 184, 147, 0); transition: all .5s ease;}
@@ -1136,3 +1136,13 @@ body{
 .newsletter .email:focus { outline:none; border:none; border-bottom:solid 1px #ec222b !important; transition: border-color 1s ease; }
 .newsletter .submit { float:left;appearance: none; width:80px; height:28px;  font-family: 'GothamRounded-Light', sans-serif; text-shadow:0px 0px 0px #fff; font-size:11px; font-weight:normal; background:#ec222b;color: #ffffff;line-height: 6px; padding: 5px; border-radius: 3px; border:none; letter-spacing:normal; text-align:center; text-transform:uppercase; transition: color 0.5s ease;  outline:none; margin-left:5px;}
 .newsletter .submit:hover { background:#F26167; cursor:pointer; transition: color 0.5s ease;}
+
+
+/*** Footer ***/
+.footer-links a{display:block;}
+.fun1, .fun2, .fun3, .fun4, .fun5, .fun6{ background:url(../images/fun-life-near.png); background-size:100% auto;}
+.fun1{background-position: 0 0;}.fun2{background-position: 0 20%;}.fun3{background-position: 0 40%;}.fun4{background-position: 0 60%;}.fun5{background-position: 0 80%;}.fun6{background-position: 0 100%;}
+.life a{ display:inline-block;}
+.life img{float:left; margin-right:5px;}
+.footer-links, .life{margin-top:15px; }
+.truste, .copyrights{float:left;}

@@ -556,13 +556,12 @@
     	</div>
     	
     	</div><!--- row -->
-    	
-    	<div class="newsletter" id="mc_embed_signup">
-			
+    	<div class="container text-center">
+    			<div class="newsletter" id="mc_embed_signup">			
 					<form action="//adnear.us5.list-manage.com/subscribe/post?u=615363801d3bb1408b807339c&amp;id=4456f1cf9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						<div id="mc_embed_signup_scroll">
 					<div class="row">
-					  <h2><span>SIGN UP</span> TO STAY UPDATED</h2><span>
+					  <h2><span class="red">SIGN UP</span> TO STAY UPDATED</h2><span>
 						<input class="balloon" type="email" value="" name="EMAIL" required id="state"  placeholder="Enter email to subscribe" /><label for="state">Subscribe to Newsletter</label>
 					  </span>
 					  </div>
@@ -571,7 +570,8 @@
 						<div class="clear"><input type="submit" class="submit btn-xs" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
 						</div>
 					</form>
-					</div>
+				 </div>
+		   </div>
     </div>
 </div>
 
@@ -582,7 +582,7 @@
     	<span class="line"></span>
     	<div class="row">
     	<div class="col-sm-8">
-    	<!--<div class="loc-dots usa"><div class="pulse"></div></div>
+    	<div class="loc-dots usa"><div class="pulse"></div></div>
                             <div class="loc-dots uk"><div class="pulse"></div></div>
                             <div class="loc-dots india"><div class="pulse"></div></div>
                             <div class="loc-dots singapore c-active"><div class="pulse"></div></div>
@@ -630,7 +630,7 @@
                                 <p>Level 21, 201 Sussex St.<br>
                                   Sydney NSW 2000<br>
                                    E: <a href="mailto:australia@near.co" target="_blank">australia@near.co</a></p>
-                            </div>-->
+                            </div>
     		<svg version="1.1" x="0px" y="0px" viewBox="0 0 723 365" xml:space="preserve" class="map-anim">
             <style type="text/css">
                 .map-dots{fill:#adadad;}
@@ -1818,6 +1818,95 @@
     	</div><!--- row -->
     </div>
 </div>
+
+<footer style="padding:15px; background:#f5f5f5;">
+			<div class="container spacing_margin">
+				<div class="row">
+				   <div style="width:100%; margin-left:15px;">
+				   <span style="width:102px; display:block;">
+					   <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
+        <style type="text/css">
+            .near-logo{fill:#5C5C5C;}
+            .a-logo{fill:#ED1C24;}
+        </style>
+        <polygon class="near-logo" points="447.4,126.7 451,126.7 451,136.4 452.6,136.4 452.6,126.7 456.2,126.7 456.2,125.2 447.4,125.2 "></polygon>
+        <polygon class="near-logo" points="463.6,133.7 463.5,133.7 459.9,125.2 457.7,125.2 457.7,136.4 459.2,136.4 459.2,127.2 459.2,127.2 
+                 463,136.4 464,136.4 467.8,127.2 467.8,127.2 467.8,136.4 469.4,136.4 469.4,125.2 467.1,125.2 "></polygon>
+        <path class="a-logo" d="M298.8,74.8L298.8,74.8c0-20.9,16.9-37.8,37.8-37.8c20.9,0,37.8,16.9,37.8,37.8c0,20.9-16.9,37.7-37.8,37.7
+              C315.7,112.6,298.8,95.7,298.8,74.8 M398,74.8c0-33.8-27.5-61.3-61.4-61.3c-33.8,0-61.3,27.4-61.3,61.3c0,33.8,27.4,61.3,61.3,61.3
+              h42.7c19.4,0,18.6-19.6,18.6-19.6V74.8z"></path>
+        <path class="near-logo" d="M107.5,126.2c0,5.4,4.8,10.2,11.8,10.2c6.6,0,11.8-5,11.8-11.6V75c0-33.8-27.4-61.3-61.3-61.3
+              C36.1,13.7,8.7,41.2,8.7,75v51.2c0,5.4,4.8,10.2,11.8,10.2c6.6,0,11.8-5,11.8-11.6V75h0c0-20.8,16.8-37.6,37.6-37.6
+              c20.8,0,37.6,16.8,37.6,37.6h0V126.2z"></path>
+        <path class="near-logo" d="M237.2,64.7h-33.5C198,64.7,193,69.3,193,75c0,5.7,4.9,10.2,10.6,10.2H249c4,0,7.5-2.1,10-5.2
+              c0,0,10-13.4,0.3-31.8c-9.9-20.4-31.5-34.5-55.7-34.5C169.8,13.7,143,41.1,143,75c0,33.8,26.8,61.2,60.6,61.2
+              c16.6,0,32.3-6,43.4-16.8h0c4.6-4.6,4.6-12,0-16.6c-4.5-4.5-11.7-4.6-16.3-0.2l0,0c-6.8,6.6-16.7,10.3-27,10.3
+              c-20.9,0-37.1-17.1-37.1-38s16.3-37.8,37.1-37.8c26.4,0,36,21.8,36,23.6C239.6,60.8,240.2,64.7,237.2,64.7"></path>
+        <path class="near-logo" d="M471.3,13.6c-14.3,0-27.3,3.7-37.7,11.9c0-6.5-5.4-11.8-11.9-11.8c-6.5,0-11.7,5.2-11.8,11.6h0l0,49.5h0
+              c0,0.1,0,0.3,0,0.4v50.9c0,5.4,4.8,10.3,11.9,10.3c6.6,0,11.9-5,11.9-11.7l0-49.5c0-20.8,16.9-37.9,37.7-37.8
+              c6.6,0,11.9-5.3,11.9-11.9C483.2,19,477.8,13.6,471.3,13.6"></path>
+        </svg>   </span></div>         
+					<div class="col-sm-3 footer-links">
+					   <a  href="#" >CAREERS</a>   
+                       <a  href="#" >CULTURE</a>   
+                       <a  href="#" >NEWSROOM</a>   
+                       <a  href="#" >BLOG</a>   
+                       <a  href="#" >EVENTS</a>   
+                       <a  href="#" >CONTACT US</a> 
+                    </div>
+					<div class="col-sm-3 footer-links">
+					   <a  href="#" >DATA</a>   
+                       <a  href="#" >PARTNERS</a>   
+                       <a  href="#" >PRIVACY</a>   
+                       <span>CONNECT</span>   
+                       <p class="social-links" style="margin-top:-5px;">
+						<a target="_blank" href="#"><i class="fa fa-twitter" ></i></a>
+                           <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+						   <a target="_blank" href="#"><i class="fa fa-linkedin" ></i></a>
+						</p>
+                       </div>
+                      <div class="col-sm-6 life">
+                      <span style="display: block;">LIFE @ NEAR</span><br/>
+                       
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun1" alt="life @ Near" /></a>
+													
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun2" alt="life @ Near" /></a>
+							
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun3" alt="life @ Near" /></a>
+							
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun4" alt="life @ Near" /></a>
+						
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun5" alt="life @ Near" /></a>
+						
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun6" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun1" alt="life @ Near" /></a>
+													
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun2" alt="life @ Near" /></a>
+							
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun3" alt="life @ Near" /></a>
+							
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun4" alt="life @ Near" /></a>
+						
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun5" alt="life @ Near" /></a>
+						
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun6" alt="life @ Near" /></a>
+						
+                       </div>
+					 
+				</div>
+				<div class="col-sm-12">
+					 <hr style=" text-align:center; border-color: #000000;">
+					 <div class="col-md-10 copyrights" style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | Privacy Policy | Sitemap</div>
+					 <div class="col-md-2 truste">
+					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=79c90252-7a59-4f23-8681-9180af7a58de" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=79c90252-7a59-4f23-8681-9180af7a58de" alt="TRUSTe"/></a></div>
+			</div>
+				</div>
+			</div>
+            
+				
+		</footer>
+
+
 </body>
 	<?php include('includes/_java_scripts.php'); ?>
 </html>
