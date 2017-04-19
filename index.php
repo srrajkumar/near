@@ -278,19 +278,25 @@
     	<div class="col-sm-6 platform-leverage">
     		<ul id="accord1" class="accordian">
 			  <li>
-				<header class="accordian-header">CROSSMATRIX</header>
+				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
+				<section class="accordian-section">
+				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
+				</section>
+			  </li>
+			  <li>
+				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Placematrix&trade;</header>
 				<section class="accordian-section">
 				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
 				</section>
 			  </li>
 			  <li>
-				<header class="accordian-header">Two</header>
+				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
 				<section class="accordian-section">
 				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
 				</section>
 			  </li>
-			  <li>
-				<header class="accordian-header">Three</header>
+			   <li>
+				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Highly Accurate Data</header>
 				<section class="accordian-section">
 				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
 				</section>
@@ -300,6 +306,118 @@
     	</div><!--- row -->
     </div>
 </div>
+
+
+<div class="row whats-happening">
+        <div class="col-sm-6 col-md-3 whats-new">
+        	<div class="spacing">
+		        <span class="news-red">USE CASES</span>
+		        NEAR
+		        <div class="research-content">
+					<span>AMBIENT INTELLIGENCE PLATFORM</span>
+				</div>
+				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+						<g class="st0" style="opacity:0.4;">
+							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
+							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
+						</g>
+						<g>
+							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
+						</g>
+					</svg>
+
+					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
+						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
+					</svg>
+
+					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
+						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
+					</svg>        
+					<div class="wobble"  style="animation-delay:6s;"><i class="icon ion-arrow-right-c "></i></div>
+				</span>
+	        </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+        	<div class="spacing">
+		        <span>DATA DRIVEN MARKETING</span>
+		        
+		        <span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+						<g class="st0" style="opacity:0.4;">
+							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
+							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
+						</g>
+						<g>
+							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
+						</g>
+					</svg>
+
+					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
+						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
+					</svg>
+
+					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
+						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
+					</svg>        
+					<div class="wobble"  style="animation-delay:3s;"><i class="icon ion-arrow-right-c "></i></div>
+				</span>
+	        </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+        	<div class="spacing" style="height: 100%; text-align: center;">
+        		<span>CONSUMER INSIGHTS</span>
+        	</div>
+        	<span class="gradient"></span>
+        </div>
+        
+        <div class="col-sm-6 col-md-3">
+        	<div class="spacing">
+		        <span>DATA-AS-A-SERVICE</span>
+		       
+				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+						<g class="st0" style="opacity:0.4;">
+							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
+							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
+						</g>
+						<g>
+							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
+						</g>
+					</svg>
+
+					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
+						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
+					</svg>
+
+					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
+						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
+					</svg>        
+					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+				</span>
+	        </div>
+
+        </div>
+    </div>
+
+<div style="padding: 10px; background-color: #f2f3f6;">
+     <div class="container spacing_margin text-center" >
+     
+    	<h1 class="bold">LATEST RESOURCES</h1>
+    	<span class="line"></span>
+    	<div class="row">
+    	<div class="col-sm-6">
+    		<img src="<?= IMAGE ?>img2.png">
+    	</div>
+    	
+    	<div class="col-sm-6 platform-leverage">
+    		
+    	</div>
+    	</div><!--- row -->
+    </div>
+</div>
+
+
 </body>
 	<?php include('includes/_java_scripts.php'); ?>
 </html>

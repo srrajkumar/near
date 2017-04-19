@@ -955,7 +955,7 @@ body{
 
 
 /* Platform Leverage */
-
+.platform-leverage {margin:50px 0 0 0 ;}
 .platform-leverage ul{
   padding: 0;
   margin:0;
@@ -975,13 +975,19 @@ body{
   padding:1em;
   cursor:pointer;
   text-align: left;	
+  text-transform: uppercase;
 }
+.accordian-header.active{color:#e21e27;}
 .platform-leverage .accordian section {
   display:none;
-  padding:0px 15px 0 15px;
+  padding:0px 15px 0 35px;
 	text-align: left;
-  
+	width:50%;  
 }
+.platform-leverage .plus-icon{margin-right:10px;}
 .platform-leverage .accordian section.active {
   display:block;
 }
+
+
+
