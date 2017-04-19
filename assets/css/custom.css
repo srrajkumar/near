@@ -1144,5 +1144,10 @@ body{
 .fun1{background-position: 0 0;}.fun2{background-position: 0 20%;}.fun3{background-position: 0 40%;}.fun4{background-position: 0 60%;}.fun5{background-position: 0 80%;}.fun6{background-position: 0 100%;}
 .life a{ display:inline-block;}
 .life img{float:left; margin-right:5px;}
+.social-links a{display:inline-block; color:#ffffff; position: relative; background:#aeaeae; border-radius:50%; width:40px; height:40px; text-decoration: none; margin-right:5px;}
+.social-links i{color:#ffffff;  position: absolute;
+    top: 5px;
+    left: 13px;
+    font-size: 20px;}
 .footer-links, .life{margin-top:15px; }
 .truste, .copyrights{float:left;}

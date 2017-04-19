@@ -1821,7 +1821,7 @@
 
 <footer style="padding:15px; background:#f5f5f5;">
 			<div class="container spacing_margin">
-				<div class="row">
+				<div class="row" style="border-bottom:1px solid #000000; margin-bottom:10px; padding-bottom:10px;">
 				   <div style="width:100%; margin-left:15px;">
 				   <span style="width:102px; display:block;">
 					   <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
@@ -1859,43 +1859,44 @@
                        <a  href="#" >PARTNERS</a>   
                        <a  href="#" >PRIVACY</a>   
                        <span>CONNECT</span>   
-                       <p class="social-links" style="margin-top:-5px;">
-						<a target="_blank" href="#"><i class="fa fa-twitter" ></i></a>
-                           <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-						   <a target="_blank" href="#"><i class="fa fa-linkedin" ></i></a>
+                       <p class="social-links" style="margin-top:12px;">
+                       <a target="_blank" href="#"><i class="ion-social-facebook" style="left:17px;"></i></a>
+						<a target="_blank" href="#"><i class="ion-social-twitter"></i></a>
+                           
+						   <a target="_blank" href="#"><i class="ion-social-linkedin-outline" ></i></a>
 						</p>
                        </div>
                       <div class="col-sm-6 life">
                       <span style="display: block;">LIFE @ NEAR</span><br/>
                        
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun1" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
 													
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun2" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun3" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun4" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun5" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun6" alt="life @ Near" /></a>
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun1" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun6" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
 													
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun2" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun3" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun4" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun5" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="70" height="70" class=" fun6" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun6" alt="life @ Near" /></a>
 						
                        </div>
 					 
 				</div>
-				<div class="col-sm-12">
-					 <hr style=" text-align:center; border-color: #000000;">
+				<div class="row">
+					
 					 <div class="col-md-10 copyrights" style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | Privacy Policy | Sitemap</div>
 					 <div class="col-md-2 truste">
 					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=79c90252-7a59-4f23-8681-9180af7a58de" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=79c90252-7a59-4f23-8681-9180af7a58de" alt="TRUSTe"/></a></div>
