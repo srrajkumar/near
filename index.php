@@ -182,26 +182,26 @@
 
 			<div class="tab-content" style="margin-top: 50px;">
 			    <div role="tabpanel" class="tab-pane fade in active" id="auto">
-			       <img src="<?= IMAGE ?>auto/audi.png" width="63" alt="audi" />
-			        <img src="<?= IMAGE ?>auto/volkswagen.png"  width="63"  alt="volkswagen" />
-			         <img src="<?= IMAGE ?>auto/bmw.png"  width="63"  alt="bmw" />
-			          <img src="<?= IMAGE ?>auto/toyota.png"  width="63"   alt="toyota" />
-			           <img src="<?= IMAGE ?>auto/ford.png"  width="63"  alt="ford" />
-			            <img src="<?= IMAGE ?>auto/renault.png"  width="63"  alt="renault" />
-			             <img src="<?= IMAGE ?>auto/nissan.png"  width="63"  alt="nissan" />
-			              <img src="<?= IMAGE ?>auto/skoda.png"  width="63" alt="skoda" />
-			               <img src="<?= IMAGE ?>auto/hyundai.png" width="63"  alt="hyundai" />
-			                <img src="<?= IMAGE ?>auto/volvo.png" width="63"  alt="volvo" />
-			                 <img src="<?= IMAGE ?>auto/bridgestone.png"  width="126"  alt="bridgestone" />
+					<img src="<?= IMAGE ?>auto/audi.png" width="63" alt="audi" />
+					<img src="<?= IMAGE ?>auto/volkswagen.png"  width="63"  alt="volkswagen" />
+					<img src="<?= IMAGE ?>auto/bmw.png"  width="63"  alt="bmw" />
+					<img src="<?= IMAGE ?>auto/toyota.png"  width="63"   alt="toyota" />
+					<img src="<?= IMAGE ?>auto/ford.png"  width="63"  alt="ford" />
+					<img src="<?= IMAGE ?>auto/renault.png"  width="63"  alt="renault" />
+					<img src="<?= IMAGE ?>auto/nissan.png"  width="63"  alt="nissan" />
+					<img src="<?= IMAGE ?>auto/skoda.png"  width="63" alt="skoda" />
+					<img src="<?= IMAGE ?>auto/hyundai.png" width="63"  alt="hyundai" />
+					<img src="<?= IMAGE ?>auto/volvo.png" width="63"  alt="volvo" />
+					<img src="<?= IMAGE ?>auto/bridgestone.png"  width="126"  alt="bridgestone" />
 			    </div>
-			    <div role="tabpanel" class="tab-pane fade" id="tab2">
-			        	
-           	<img alt="Pepsi" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 60%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="P&G" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 80%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="CocaCola" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 0%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="Lindt" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 20%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="Nestle" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 40%; background-size: 100% auto;"  width="62" height="62" />
-           <img alt="Unilever" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 100%; background-size: 100% auto;"  width="62" height="62" />
+
+				<div role="tabpanel" class="tab-pane fade" id="tab2">
+					<img alt="Pepsi" src="<?= IMAGE ?>bb.png" style=" background: url('<?= IMAGE ?>brands-fmcg.png'); background-position: 0 60%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="P&G" src="<?= IMAGE ?>bb.png" style=" background: url('<?= IMAGE ?>brands-fmcg.png'); background-position: 0 80%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="CocaCola" src="<?= IMAGE ?>bb.png" style=" background: url('<?= IMAGE ?>brands-fmcg.png'); background-position: 0 0%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Lindt" src="<?= IMAGE ?>bb.png" style=" background: url('<?= IMAGE ?>brands-fmcg.png'); background-position: 0 20%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Nestle" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 40%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Unilever" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-fmcg.png); background-position: 0 100%; background-size: 100% auto;"  width="62" height="62" />
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="tab3">
 			       <img alt="Standard Chartered" src="<?= IMAGE ?>bb.png" style=" background: url(assets/images/brands-bfsi.png); background-position: 0 80%; background-size: 100% auto;"  width="62" height="62" />
@@ -271,7 +271,7 @@
 <div style="padding: 10px; background-color: #f2f3f6;">
      <div class="container spacing_margin text-center" >
      
-    	<h1 class="bold">The NEAR PLATFROM LEVERAGE</h1>
+    	<h1 class="bold">The NEAR PLATFORM LEVERAGE</h1>
     	<span class="line"></span>
     	<div class="row">
     	<div class="col-sm-6">
@@ -281,27 +281,27 @@
     	<div class="col-sm-6 platform-leverage">
     		<ul id="accord1" class="accordian">
 			  <li>
-				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
-				<section class="accordian-section">
+				<header class="accordian-header active"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
+				<section class="accordian-section" style="display: block;">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
 			  </li>
 			  <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Placematrix&trade;</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
+				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
 			  </li>
 			  <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
+				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
 			  </li>
 			   <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Highly Accurate Data</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
+				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
 			  </li>
 			</ul>
