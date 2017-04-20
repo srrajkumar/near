@@ -135,7 +135,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .whats-happening .col-sm-6{
   position: relative;
 }
-.whats-happening .col-sm-6:after{
+.research_container .col-sm-6:after{
   background:linear-gradient(135deg, #00c7ff 0%,#007f9c 100%);
   content: "";
   position: absolute;
@@ -1196,6 +1196,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
   text-align: center;
   width: 100%;
   border-radius: 20px;
+	    z-index: 2;
 }
 .research a figure img {
   width: 100%;
