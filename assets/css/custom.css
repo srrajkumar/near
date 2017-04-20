@@ -139,8 +139,8 @@ body{
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
   transition-property: opacity;
-	transition-delay: 0.5s;
-	transition-duration: 5s;
+	transition-delay: 0.2s;
+	transition-duration: 4s;
 }
 .carousel-fade .carousel-inner .item,
 .carousel-fade .carousel-inner .active.left,
@@ -165,16 +165,16 @@ body{
 .carousel-inner .item {
   height: 100%;
 }
-.item.active span{animation: slide-up-fade-in ease 4s;  
+.item.active span{animation: slide-up-fade-in ease 1s;  
     transform-origin: 50% 50%;
     animation-fill-mode:forwards; 
-    -webkit-animation: slide-up-fade-in ease 4s;   
+    -webkit-animation: slide-up-fade-in ease 1s;   
     -webkit-transform-origin: 50% 50%;
     -webkit-animation-fill-mode:forwards; 
-    -moz-animation: slide-up-fade-in ease 4s;  
+    -moz-animation: slide-up-fade-in ease1s;  
     -moz-transform-origin: 50% 50%;
     -moz-animation-fill-mode:forwards; 
-    -o-animation: slide-up-fade-in ease 4s;
+    -o-animation: slide-up-fade-in ease 1s;
     opacity:0;
          }
        
@@ -224,10 +224,10 @@ body{
 
 
         
-.item.active span:nth-child(1){animation-delay:1s;}
-.item.active span:nth-child(2){animation-delay:1.5s;}
-.item.active span:nth-child(3){animation-delay:2s;}
-.item.active span:nth-child(4){animation-delay:2.5s;}
+.item.active span:nth-child(1){animation-delay:.5s;}
+.item.active span:nth-child(2){animation-delay:1s;}
+.item.active span:nth-child(3){animation-delay:1.5s;}
+.item.active span:nth-child(4){animation-delay:2s;}
 
 
 .banner-content span:nth-child(6){

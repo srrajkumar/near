@@ -194,6 +194,8 @@ $.fn.ashCordian = function() {
 
 $('#accord1').ashCordian();
 $('#accord2').ashCordian();
+$('.carousel-news').carousel();
+
 
 // map Location //
 
