@@ -1931,7 +1931,7 @@
 						   <a target="_blank" href="#"><i class="ion-social-linkedin-outline" ></i></a>
 						</p>
                        </div>
-                      <div class="col-sm-6 life  fade-in">
+                      <div class="col-sm-5 life  fade-in">
                       <span style="display: block;">LIFE @ NEAR</span><br/>
                        
 								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
