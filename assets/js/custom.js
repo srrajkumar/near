@@ -181,12 +181,13 @@ $.fn.ashCordian = function() {
   container.find('.accordian-header').click(function() {
     if($(this).siblings('.accordian-section').css('display') == 'block'){
        container.find('.accordian-section').slideUp(300);
+       $('.accordian-header').removeClass('active');
 		
     } else {
       container.find('.accordian-section').slideUp(300);	
        $(this).siblings('.accordian-section').slideDown(300);
-		
-		
+       $('.accordian-header').removeClass('active');
+       $(this).addClass('active');
     }
   });
 };
