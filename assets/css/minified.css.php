@@ -13,4 +13,5 @@ include('custom.css');
 include('navigation.css');
 include('ionicons.css');
 include('h-style.css');
+include('aos.css');
 ob_end_flush();

@@ -43,8 +43,8 @@
 		<div class="mouse"></div>
 	</div>
 
-	<div class="row whats-happening">
-        <div class="col-sm-6 col-md-3 button_animate">
+	<div class="row whats-happening perspective">
+        <div class="col-sm-6 col-md-3 button_animate " data-aos="3dflip" data-aos-delay="200">
         	<div class="spacing">
 		        <span>Processing data from Over</span>
 		        1 BILLION<br> DEVICES <br>in over <br>40 countries
@@ -71,7 +71,7 @@
 	        </div>
 
         </div>
-        <div class="col-sm-6 col-md-3 button_animate">
+        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="400">
         	<div class="spacing">
 		        <span>Globally recognised by</span>
 		        <ul class="nav nav-tabs awards" role="tablist">
@@ -101,7 +101,7 @@
 				</span>
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3 button_animate">
+        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="600">
         	<div class="spacing tab-content " style="height: 100%; text-align: center;">
         		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?= IMAGE ?>award_logo/bg1.png');">
         			<span class="gradient"></span>
@@ -130,7 +130,7 @@
         	</div>
         	
         </div>
-        <div class="col-sm-6 col-md-3 whats-new button_animate">
+        <div class="col-sm-6 col-md-3 whats-new button_animate" data-aos="3dflip" data-aos-delay="800">
         	<div id="carousel" class="spacing carousel-news slide carousel-fade" data-ride="carousel">
 		        <span class="news-red">UPDATES</span>
 		        WHAT’S NEW
@@ -227,10 +227,10 @@
     </div>
 
     <div class="container spacing_margin text-center">
-    	<h1>TRUSTED BY WORLD’S BEST</h1>
-    	<h2>1 in 5 Forbes Top 100 brands use Near</h2>
-    	<span class="line"></span>
-    	<div class="brand_tabs">
+    	<h1 data-aos="fade-zoom-in" data-aos-delay="200">TRUSTED BY WORLD’S BEST</h1>
+    	<h2 data-aos="fade-zoom-in" data-aos-delay="400">1 in 5 Forbes Top 100 brands use Near</h2>
+    	<span class="line"  data-aos="flip-in" data-aos-delay="600"></span>
+    	<div class="brand_tabs"  data-aos="flip-in" data-aos-delay="800">
 	    	<ul class="nav nav-tabs " role="tablist">
 			    <li role="presentation" class="active"><a href="#auto" role="tab" data-toggle="tab">AUTO</a></li>
 			    <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">FMCG</a></li>
@@ -331,16 +331,16 @@
 		</div>
     </div>
 <div style="padding: 10px; background-color: #f2f3f6;">
-     <div class="container spacing_margin text-center" >
+     <div class="container spacing_margin text-center " >
      
-    	<h1 class="bold">The NEAR PLATFORM LEVERAGE</h1>
-    	<span class="line"></span>
+    	<h1 class="bold"  data-aos="fade-zoom-in" data-aos-delay="200">The NEAR PLATFORM LEVERAGE</h1>
+    	<span class="line" data-aos="flip-in" data-aos-delay="400"></span>
     	<div class="row">
-    	<div class="col-sm-6">
+    	<div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
     		<img src="<?= IMAGE ?>img2.png">
     	</div>
     	
-    	<div class="col-sm-6 platform-leverage">
+    	<div class="col-sm-6 platform-leverage"  data-aos="fade-up" data-aos-delay="800">
     		<ul id="accord1" class="accordian">
 			  <li>
 				<header class="accordian-header active"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
@@ -373,8 +373,8 @@
 </div>
 
 
-<div class="row whats-happening research_container">
-        <div class="col-sm-6 col-md-3 whats-new color-blue-bg use-cases">
+<div class="row whats-happening research_container perspective">
+        <div class="col-sm-6 col-md-3 whats-new color-blue-bg use-cases"  data-aos="3dflip" data-aos-delay="200">
         	<div class="spacing">
 		        USE CASES
 		        <div class="color-red">NEAR</div>
@@ -403,7 +403,7 @@
 				</span>
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3 use-cases">
+        <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="400">
         	<div class="spacing">
 		        DATA DRIVEN MARKETING
 		        
@@ -430,7 +430,7 @@
 	        </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 use-cases" style="background:url('<?= IMAGE ?>video_bg/img2.png'); background-size: cover;">
+        <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="600" style="background:url('<?= IMAGE ?>video_bg/img2.png'); background-size: cover;">
         	<div class="spacing" style="height: 100%;">
         		CONSUMER INSIGHTS
         		<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
@@ -457,7 +457,7 @@
         </div>
         
 
-        <div class="col-sm-6 col-md-3 use-cases" style="background:url('<?= IMAGE ?>video_bg/img3.png');  background-size: cover;">
+        <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="800" style="background:url('<?= IMAGE ?>video_bg/img3.png');  background-size: cover;">
         	<div class="spacing">
 		        DATA-AS-A-SERVICE
 		       
@@ -487,13 +487,13 @@
     </div>
 
 <div style="padding: 20px; background-color: #f2f3f6;">
-     <div class="spacing_margin text-center research" >
+     <div class="spacing_margin text-center research perspective" >
      
-    	<h1 class="bold">LATEST RESOURCES</h1>
-    	<span class="line"></span>
+    	<h1 class="bold" data-aos="fade-zoom-in" data-aos-delay="200">LATEST RESOURCES</h1>
+    	<span class="line" data-aos="flip-in" data-aos-delay="400"></span>
     	
     	<div class="row" style="margin:0 50px;">
-    	<div class="col-sm-3">
+    	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="600">
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/subway.png"/>
@@ -524,7 +524,7 @@
 				</figure>
 			</a> 
     	</div>
-    	<div class="col-sm-3">
+    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="800">
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/telco.png"/>
@@ -555,7 +555,7 @@
 				</figure>
 			</a> 
     	</div>
-    	<div class="col-sm-3">
+    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="1000">
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/mobile.png"/>
@@ -586,7 +586,7 @@
 				</figure>
 			</a> 
     	</div>
-    	<div class="col-sm-3">
+    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="1200">
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/laptop.png"/>
@@ -620,7 +620,7 @@
 
     	
     	</div><!--- row -->
-		<div class="container text-center">
+		<div class="container text-center" data-aos="fade-zoom-in" data-aos-delay="800">
 			<div class="newsletter" id="mc_embed_signup">			
 				<form action="//adnear.us5.list-manage.com/subscribe/post?u=615363801d3bb1408b807339c&amp;id=4456f1cf9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
@@ -643,10 +643,10 @@
 <div style="padding: 10px; background-color: #ffffff;" class="contact-us">
      <div class="container spacing_margin text-center" >
      
-    	<h1 class="bold">CONTACT US</h1>
-    	<span class="line"></span>
+    	<h1 class="bold" data-aos="fade-zoom-in" data-aos-delay="200">CONTACT US</h1>
+    	<span class="line" data-aos="fade-up" data-aos-delay="400"></span>
     	<div class="row">
-    	<div class="col-sm-8">
+    	<div class="col-sm-8" data-aos="fade-up" data-aos-delay="600">
     	<div class="loc-dots usa"><div class="pulse"></div></div>
                             <div class="loc-dots uk"><div class="pulse"></div></div>
                             <div class="loc-dots india"><div class="pulse"></div></div>
@@ -1845,7 +1845,7 @@
             </svg>
     	</div>
     	
-    	<div class="col-sm-4 platform-leverage contact-reason">
+    	<div class="col-sm-4 platform-leverage contact-reason" data-aos="fade-up" data-aos-delay="800">
     	<h2 style="text-align:left;margin-left:20px; margin-bottom:20px;">GET IN TOUCH FOR</h2>
     		<ul id="accord2" class="accordian">
 			  <li>
@@ -1885,9 +1885,9 @@
 </div>
 
 <footer style="padding:15px; background:#f5f5f5;">
-			<div class="container spacing_margin  animation-element bounce-up">
+			<div class="container spacing_margin">
 				<div class="row" >
-				   <div style="width:100%; margin-left:15px;" class=" fade-in">
+				   <div style="width:100%; margin-left:15px;" data-aos="fade-up" data-aos-delay="200">
 				   <span style="width:102px; display:block;">
 					   <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
         <style type="text/css">
@@ -1911,7 +1911,7 @@
               c0,0.1,0,0.3,0,0.4v50.9c0,5.4,4.8,10.3,11.9,10.3c6.6,0,11.9-5,11.9-11.7l0-49.5c0-20.8,16.9-37.9,37.7-37.8
               c6.6,0,11.9-5.3,11.9-11.9C483.2,19,477.8,13.6,471.3,13.6"></path>
         </svg>   </span></div>         
-					<div class="col-sm-3 footer-links fade-in">
+					<div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="400">
 					   <a href="#" >CAREERS</a>   
                        <a href="#" >CULTURE</a>   
                        <a href="#" >NEWSROOM</a>   
@@ -1919,7 +1919,7 @@
                        <a href="#" >EVENTS</a>   
                        <a href="#" >CONTACT US</a> 
                     </div>
-					<div class="col-sm-4 footer-links fade-in">
+					<div class="col-sm-4 footer-links"  data-aos="fade-up" data-aos-delay="600">
 					   <a  href="#" >DATA</a>   
                        <a  href="#" >PARTNERS</a>   
                        <a  href="#" >PRIVACY</a>   
@@ -1931,7 +1931,7 @@
 						   <a target="_blank" href="#"><i class="ion-social-linkedin-outline" ></i></a>
 						</p>
                        </div>
-                      <div class="col-sm-5 life  fade-in">
+                      <div class="col-sm-5 life"  data-aos="fade-up" data-aos-delay="800">
                       <span style="display: block;">LIFE @ NEAR</span><br/>
                        
 								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
@@ -1961,13 +1961,13 @@
 					 
 				</div>
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-12" >
 						<hr style="border-top:1px solid rgba(0,0,0,0.5); margin-bottom:10px; padding-bottom:10px;"/>
 					</div>
 				</div>
-				<div class="row  fade-in">
+				<div class="row">
 					
-					 <div class="col-md-10 copyrights" style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank"> Sitemap</a></div>
+					 <div class="col-md-10 copyrights"  style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank"> Sitemap</a></div>
 					 <div class="col-md-2 truste">
 					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=79c90252-7a59-4f23-8681-9180af7a58de" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=79c90252-7a59-4f23-8681-9180af7a58de" alt="TRUSTe"/></a></div>
 			</div>

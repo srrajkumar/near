@@ -4,4 +4,5 @@
 <script src="<?= JS ?>modernizr.js"></script>
 <script src="<?= JS ?>typed.js"></script>
 <script src="<?= JS ?>particles.js"></script>
+<script src="<?= JS ?>aos.js"></script>
 <script src="<?= JS ?>custom.js"></script>
