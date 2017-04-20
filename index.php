@@ -131,7 +131,7 @@
         	
         </div>
         <div class="col-sm-6 col-md-3 whats-new">
-        	<div id="carousel" class="spacing carousel slide carousel-fade" data-ride="carousel">
+        	<div id="carousel" class="spacing carousel-news slide carousel-fade" data-ride="carousel">
 		        <span class="news-red">UPDATES</span>
 		        WHAT’S NEW
 		        
