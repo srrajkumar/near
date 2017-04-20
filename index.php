@@ -311,13 +311,13 @@
 </div>
 
 
-<div class="row whats-happening">
-        <div class="col-sm-6 col-md-3 whats-new">
+<div class="row whats-happening research_container">
+        <div class="col-sm-6 col-md-3 whats-new color-blue-bg">
         	<div class="spacing">
-		        <span class="news-red">USE CASES</span>
-		        NEAR
+		        USE CASES
+		        <div class="color-red">NEAR</div>
 		        <div class="research-content">
-					<span>AMBIENT INTELLIGENCE PLATFORM</span>
+					AMBIENT INTELLIGENCE PLATFORM
 				</div>
 				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
 					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -341,11 +341,11 @@
 				</span>
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-3" style="background:url('<?= IMAGE ?>video_bg/img1.png'); background-size: cover;">
         	<div class="spacing">
-		        <span>DATA DRIVEN MARKETING</span>
+		        DATA DRIVEN MARKETING
 		        
-		        <span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+		        <span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
 					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 						<g class="st0" style="opacity:0.4;">
 							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
@@ -367,10 +367,11 @@
 				</span>
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-        	<div class="spacing" style="height: 100%; text-align: center;">
-        		<span>CONSUMER INSIGHTS</span>
-        		<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+
+        <div class="col-sm-6 col-md-3" style="background:url('<?= IMAGE ?>video_bg/img2.png'); background-size: cover;">
+        	<div class="spacing" style="height: 100%; text-align: center; ">
+        		CONSUMER INSIGHTS
+        		<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
 					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 						<g class="st0" style="opacity:0.4;">
 							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
@@ -391,14 +392,14 @@
 					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
 				</span>
         	</div>
-        	<span class="gradient"></span>
         </div>
         
-        <div class="col-sm-6 col-md-3">
+
+        <div class="col-sm-6 col-md-3" style="background:url('<?= IMAGE ?>video_bg/img3.png');  background-size: cover;">
         	<div class="spacing">
-		        <span>DATA-AS-A-SERVICE</span>
+		        DATA-AS-A-SERVICE
 		       
-				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
 					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 						<g class="st0" style="opacity:0.4;">
 							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
@@ -429,11 +430,11 @@
     	<h1 class="bold">LATEST RESOURCES</h1>
     	<span class="line"></span>
     	
-    	<div class="row">
+    	<div class="row" style="margin:0 50px;">
     	<div class="col-sm-3">
     		<a href="#" target="_blank">
 				<figure>
-					<img src="https://d13yacurqjgara.cloudfront.net/users/545884/screenshots/2744519/001.gif"/>
+					<img src="<?= IMAGE ?>research/subway.png"/>
 					<h1 class="title">Case Studies</h1>
 					<p>Subway</p>
 					<div class="description">
@@ -464,7 +465,7 @@
     	<div class="col-sm-3">
     		<a href="#" target="_blank">
 				<figure>
-					<img src="https://d13yacurqjgara.cloudfront.net/users/545884/screenshots/2744519/001.gif"/>
+					<img src="<?= IMAGE ?>research/telco.png"/>
 					<h1 class="title">Latest Research</h1>
 					<p>Telco</p>
 					<div class="description">
@@ -495,7 +496,7 @@
     	<div class="col-sm-3">
     		<a href="#" target="_blank">
 				<figure>
-					<img src="https://d13yacurqjgara.cloudfront.net/users/545884/screenshots/2744519/001.gif"/>
+					<img src="<?= IMAGE ?>research/mobile.png"/>
 					<h1 class="title">Whitepaper</h1>
 					<p>Lorem</p>
 					<div class="description">
@@ -526,7 +527,7 @@
     	<div class="col-sm-3">
     		<a href="#" target="_blank">
 				<figure>
-					<img src="https://d13yacurqjgara.cloudfront.net/users/545884/screenshots/2744519/001.gif"/>
+					<img src="<?= IMAGE ?>research/laptop.png"/>
 					<h1 class="title">Industry Report</h1>
 					<p>Lorem</p>
 					<div class="description">
@@ -554,6 +555,7 @@
 				</figure>
 			</a> 
     	</div>
+
     	
     	</div><!--- row -->
     	<div class="container text-center">
