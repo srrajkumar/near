@@ -1290,17 +1290,23 @@ body{
 .loc-dots.india{right: 32%;top: 54%;}
 .loc-dots.japan{right: 10%;top: 31%;}
 .usaloc.loc-active, .usa.c-active .pulse, .australialoc.loc-active, .australia.c-active .pulse, .ukloc.loc-active, .uk.c-active .pulse, .indialoc.loc-active, .india.c-active .pulse, .singaporeloc.loc-active, .singapore.c-active .pulse, .japanloc.loc-active, .japan.c-active .pulse{ opacity:1;}
-.usaloc{left: 2%;top: 41%;}
+.usaloc{       left: 14.5%;
+    top: 41%}
 .ukloc{	left: 36%;top: 32%;}
-.singaporeloc{right: 22%;top: 61%;}
-.australialoc{right: 6%;bottom: -2%;}
-.indialoc{right: 23%;top: 54%;}
-.japanloc{right: 0%;top: 31%;}
+.singaporeloc{right: 21%;top: 59%;}
+.australialoc{right: 5%;bottom: -9%;}
+.indialoc{right: 26%;top: 54%;}
+.japanloc{right: -5%;top: 30%;}
 .contact-location{position:absolute;background:rgba(255,255,255,0.85);	padding-left:8px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; opacity:0; border-radius:4px;}
 .contact-location h2{font-family: 'Roboto',sans-serif;  font-size:22px;text-align:left; margin-top: 10px;margin-bottom: 5px;line-height:30px;}
 .contact-location p{ line-height:18px; font-family: 'Roboto',sans-serif; font-size:13px; text-align: left;}
 .loc-dots.c-active{background:transparent; border:4px solid #db1a21;}
-
+.singaporeloc .mobile{
+    color: #db1a21;
+    display: block;
+    font-size: 19px;
+    line-height: 18px;
+  }
 /*** Footer ***/
 footer .spacing_margin{
   margin-top: 40px;
