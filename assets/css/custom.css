@@ -132,6 +132,20 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     color: #0d7cb1;
     font-weight: 500;
 }
+.whats-happening .col-sm-6{
+  position: relative;
+}
+.whats-happening .col-sm-6:after{
+  background:linear-gradient(135deg, #00c7ff 0%,#007f9c 100%);
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  opacity: 0.8;
+  transition: all 0.8s;
+}
+.whats-happening .col-sm-6:hover:after{
+  opacity: 0.2;
+}
 .whats-new{
     color: #fff;
     font-weight: 300;
@@ -357,7 +371,10 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     margin-bottom: -15px;
 }
 .whats-happening .col-sm-6:first-child{
-    background: #444444;
+    background-color: #444444;
+}
+.whats-happening .col-sm-6:first-child:after{
+  background: #444444;
 }
 .whats-happening .col-sm-6:nth-child(2){
     background: #0d7cb1;
@@ -1157,7 +1174,11 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .research_container .use-cases:hover{cursor:pointer;}
 .whats-happening .button_animate:hover .button-icon-animate .icon, .research_container .use-cases:hover .button-icon-animate .icon{color:#fff;}
 .research_container .use-cases:nth-child(2){background:url('../images/video_bg/img1.png') !important;background-size: cover !important; }
-.research_container .use-cases:hover:nth-child(2){background:url(../images/video_bg/source.gif)  !important;background-size: cover !important;}
+.research_container .use-cases:hover:nth-child(2){background:url(../images/video_bg/data.gif)  !important;background-size: cover !important;}
+.research_container .use-cases:nth-child(3){background:url('../images/video_bg/img2.png') !important;background-size: cover !important; }
+.research_container .use-cases:hover:nth-child(3){background:url(../images/video_bg/city.gif)  !important;background-size: cover !important;}
+.research_container .use-cases:nth-child(4){background:url('../images/video_bg/img3.png') !important;background-size: cover !important; }
+.research_container .use-cases:hover:nth-child(4){background:url(../images/video_bg/data-service.gif)  !important;background-size: cover !important;}
 .research a {
   width: 100%;
   display: table;
