@@ -558,22 +558,23 @@
 
     	
     	</div><!--- row -->
-    	<div class="container text-center">
-    			<div class="newsletter" id="mc_embed_signup">			
-					<form action="//adnear.us5.list-manage.com/subscribe/post?u=615363801d3bb1408b807339c&amp;id=4456f1cf9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div id="mc_embed_signup_scroll">
-					<div class="row">
-					  <h2><span class="red">SIGN UP</span> TO STAY UPDATED</h2><span>
-						<input class="balloon" type="email" value="" name="EMAIL" required id="state"  placeholder="Enter email to subscribe" /><label for="state">Subscribe to Newsletter</label>
-					  </span>
-					  </div>
-						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;"><input type="text" name="b_615363801d3bb1408b807339c_4456f1cf9b" tabindex="-1" value=""></div>
-						<div class="clear"><input type="submit" class="submit btn-xs" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+		<div class="container text-center">
+			<div class="newsletter" id="mc_embed_signup">			
+				<form action="//adnear.us5.list-manage.com/subscribe/post?u=615363801d3bb1408b807339c&amp;id=4456f1cf9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+						<div class="row">
+							<h2><span class="color-red-bold">SIGN UP</span> TO STAY UPDATED</h2>
+							<span>
+								<input class="balloon" type="email" value="" name="EMAIL" required id="state"  placeholder="Enter email to subscribe" /><label for="state">Subscribe to Newsletter</label>
+							</span>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;"><input type="text" name="b_615363801d3bb1408b807339c_4456f1cf9b" tabindex="-1" value=""></div>
+							<div class="submit_button"><input type="submit" class="submit btn-xs" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
 						</div>
-					</form>
-				 </div>
-		   </div>
+					</div>
+				</form>
+			</div>
+		</div>
     </div>
 </div>
 
