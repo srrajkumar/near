@@ -44,7 +44,7 @@
 	</div>
 
 	<div class="row whats-happening">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-3 button_animate">
         	<div class="spacing">
 		        <span>Processing data from Over</span>
 		        1 BILLION<br> DEVICES <br>in over <br>40 countries
@@ -71,7 +71,7 @@
 	        </div>
 
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-3 button_animate">
         	<div class="spacing">
 		        <span>Globally recognised by</span>
 		        <ul class="nav nav-tabs awards" role="tablist">
@@ -101,7 +101,7 @@
 				</span>
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-3 button_animate">
         	<div class="spacing tab-content " style="height: 100%; text-align: center;">
         		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?= IMAGE ?>award_logo/bg1.png');">
         			<span class="gradient"></span>
@@ -130,7 +130,7 @@
         	</div>
         	
         </div>
-        <div class="col-sm-6 col-md-3 whats-new">
+        <div class="col-sm-6 col-md-3 whats-new button_animate">
         	<div id="carousel" class="spacing carousel-news slide carousel-fade" data-ride="carousel">
 		        <span class="news-red">UPDATES</span>
 		        WHAT’S NEW
@@ -374,7 +374,7 @@
 
 
 <div class="row whats-happening research_container">
-        <div class="col-sm-6 col-md-3 whats-new color-blue-bg">
+        <div class="col-sm-6 col-md-3 whats-new color-blue-bg use-cases">
         	<div class="spacing">
 		        USE CASES
 		        <div class="color-red">NEAR</div>
@@ -403,7 +403,7 @@
 				</span>
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3" style="background:url('<?= IMAGE ?>video_bg/img1.png'); background-size: cover;">
+        <div class="col-sm-6 col-md-3 use-cases">
         	<div class="spacing">
 		        DATA DRIVEN MARKETING
 		        
@@ -430,8 +430,8 @@
 	        </div>
         </div>
 
-        <div class="col-sm-6 col-md-3" style="background:url('<?= IMAGE ?>video_bg/img2.png'); background-size: cover;">
-        	<div class="spacing" style="height: 100%; text-align: center; ">
+        <div class="col-sm-6 col-md-3 use-cases" style="background:url('<?= IMAGE ?>video_bg/img2.png'); background-size: cover;">
+        	<div class="spacing" style="height: 100%;">
         		CONSUMER INSIGHTS
         		<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
 					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -457,7 +457,7 @@
         </div>
         
 
-        <div class="col-sm-6 col-md-3" style="background:url('<?= IMAGE ?>video_bg/img3.png');  background-size: cover;">
+        <div class="col-sm-6 col-md-3 use-cases" style="background:url('<?= IMAGE ?>video_bg/img3.png');  background-size: cover;">
         	<div class="spacing">
 		        DATA-AS-A-SERVICE
 		       
