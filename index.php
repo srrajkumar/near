@@ -640,7 +640,7 @@
     </div>
 </div>
 
-<div style="padding: 10px; background-color: #ffffff;">
+<div style="padding: 10px; background-color: #ffffff;" class="contact-us">
      <div class="container spacing_margin text-center" >
      
     	<h1 class="bold">CONTACT US</h1>
@@ -1845,7 +1845,7 @@
             </svg>
     	</div>
     	
-    	<div class="col-sm-4 platform-leverage">
+    	<div class="col-sm-4 platform-leverage contact-reason">
     	<h2 style="text-align:left;margin-left:20px; margin-bottom:20px;">GET IN TOUCH FOR</h2>
     		<ul id="accord2" class="accordian">
 			  <li>
@@ -1857,25 +1857,25 @@
 			  <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Joining the team</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
+				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. </p>
 				</section>
 			  </li>
 			  <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Media Queries</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
+				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. </p>
 				</section>
 			  </li>
 			   <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i>Data Partnerships</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
+				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. </p>
 				</section>
 			  </li>
 			   <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i>Others</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. I've done everything the Bible says &mdash; even the stuff that contradicts the other stuff! Donuts. Is there anything they can't do?</p>
+				  <p>Kids, you tried your best and you failed miserably. </p>
 				</section>
 			  </li>
 			</ul>
@@ -1886,7 +1886,7 @@
 
 <footer style="padding:15px; background:#f5f5f5;">
 			<div class="container spacing_margin  animation-element bounce-up">
-				<div class="row" style="border-bottom:1px solid rgba(0,0,0,0.5); margin-bottom:10px; padding-bottom:10px;">
+				<div class="row" >
 				   <div style="width:100%; margin-left:15px;" class=" fade-in">
 				   <span style="width:102px; display:block;">
 					   <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
@@ -1919,7 +1919,7 @@
                        <a href="#" >EVENTS</a>   
                        <a href="#" >CONTACT US</a> 
                     </div>
-					<div class="col-sm-3 footer-links fade-in">
+					<div class="col-sm-4 footer-links fade-in">
 					   <a  href="#" >DATA</a>   
                        <a  href="#" >PARTNERS</a>   
                        <a  href="#" >PRIVACY</a>   
@@ -1960,9 +1960,14 @@
                        </div>
 					 
 				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<hr style="border-top:1px solid rgba(0,0,0,0.5); margin-bottom:10px; padding-bottom:10px;"/>
+					</div>
+				</div>
 				<div class="row  fade-in">
 					
-					 <div class="col-md-10 copyrights" style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | Privacy Policy | Sitemap</div>
+					 <div class="col-md-10 copyrights" style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank"> Sitemap</a></div>
 					 <div class="col-md-2 truste">
 					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=79c90252-7a59-4f23-8681-9180af7a58de" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=79c90252-7a59-4f23-8681-9180af7a58de" alt="TRUSTe"/></a></div>
 			</div>
