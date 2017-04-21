@@ -150,8 +150,8 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     color: #fff;
     font-weight: 300;
 }
-.item{position:relative;}
-.item.active{position: absolute;  top: 0px;}
+.item{position:relative;    background: #0d0923; min-height: 300px !important;}
+.item.active{position: absolute;  top: 0px; }
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
   transition-property: opacity;
@@ -392,7 +392,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     top: calc(50% - 30px);
     z-index: 4;
 }
-.whats-happening.research_container .col-sm-6:nth-child(2):before{
+.whats-happening.research_container .col-sm-6:nth-child(3):before{
   border: none;
 }
 .whats-happening .col-sm-6:nth-child(3){
@@ -1343,6 +1343,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .contact-reason h2{ font-size:24px; color:#db1a21;}
 .contact-reason .accordian-header{font-size:16px !important; text-transform:none !important;}
 .contact-reason .accordian-section{font-size:14px !important;} 
+.contact-us .col-sm-8{position:realtive; height:365px;}
 /*** Footer ***/
 footer .spacing_margin{
   margin-top: 40px;
