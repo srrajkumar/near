@@ -39,10 +39,10 @@
                        <a  href="#" >PRIVACY</a>   
                        <span>CONNECT</span>   
                        <p class="social-links" style="margin-top:12px;">
-                       <a target="_blank" href="#"><i class="ion-social-facebook" style="left:17px;"></i></a>
-						<a target="_blank" href="#"><i class="ion-social-twitter"></i></a>
+                       <a target="_blank" href="#"><i class="fa fa-facebook" style="left: 14px;top: 11px;"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
                            
-						   <a target="_blank" href="#"><i class="ion-social-linkedin-outline" ></i></a>
+						   <a target="_blank" href="#"><i class="fa fa-linkedin" ></i></a>
 						</p>
                        </div>
                       <div class="col-sm-5 life"  data-aos="fade-up" data-aos-delay="800">

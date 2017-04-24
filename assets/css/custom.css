@@ -1328,7 +1328,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .singaporeloc{right: 21%;top: 59%;}
 .australialoc{right: 5%;bottom: -9%;}
 .indialoc{right: 26%;top: 54%;}
-.japanloc{right: -5%;top: 30%;}
+.japanloc{right: -3%;top: 29%;}
 .contact-location{position:absolute;background:rgba(255,255,255,0.85);	padding-left:8px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; opacity:0; border-radius:4px;}
 .contact-location h2{font-family: 'Roboto',sans-serif;  font-size:22px;text-align:left; margin-top: 10px;margin-bottom: 5px;line-height:30px; color:#db1a21;}
 .contact-location p{ line-height:18px; font-family: 'Roboto',sans-serif; font-size:13px; text-align: left;}
@@ -1369,7 +1369,7 @@ footer .spacing_margin{
 .life a{ display:inline-block;}
 .life img{float:left; margin-right:5px; width: 65px; height: 65px;}
 .social-links a{display:inline-block; color:#ffffff; position: relative; background:#aeaeae; border-radius:50%; width:40px; height:40px; text-decoration: none; margin-right:5px;}
-.social-links i{color:#ffffff;  position: absolute; top: 5px; left: 13px; font-size: 20px;}
+.social-links i{color:#ffffff;  position: absolute; top: 9px; left: 12px; font-size: 20px;}
 .footer-links, .life{margin-top:15px; }
 .truste, .copyrights{float:left; color:#686868;font-family: 'Roboto', sans-serif; font-weight:normal;    line-height: 18px; font-size:12px; }
 .copyrights a{color:#686868;font-family: 'Roboto', sans-serif; font-weight:normal;    line-height: 18px; font-size:12px;}

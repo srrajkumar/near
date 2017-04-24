@@ -1,4 +1,8 @@
-<?php include('includes/_config.php'); ?>
+<?php include('includes/_config.php');
+$meta_title="";
+$meta_desc="";
+$meta_keywords="";
+?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -10,6 +14,7 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title><?php echo $meta_title; ?></title>
+	<meta name="title" content="<?php echo $meta_title; ?>">
 	<meta name="description" content="<?php echo $meta_desc; ?>">
 	<meta name="author" content="Near">
     <meta name="KEYWORDS" content="<?php echo $meta_keywords; ?>" />
@@ -23,9 +28,7 @@
 
 	<?php include('home.php'); ?>
 
-<?php include('includes/_footer.php'); ?>
-
-
+	<?php include('includes/_footer.php'); ?>
 </body>
 	<?php include('includes/_java_scripts.php'); ?>
 </html>

@@ -14,4 +14,5 @@ include('navigation.css');
 include('ionicons.css');
 include('h-style.css');
 include('aos.css');
+include('font-awesome.min.css');
 ob_end_flush();

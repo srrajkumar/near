@@ -11,7 +11,7 @@
             <div id="typed-strings" class="type">
                 <span>Wifi</span>
                 <span>Location</span>
-                <span>Ambient Intelligents Platform</span>
+                <span>Ambient Intelligence Platform</span>
             </div>
             <span id="typed" style="white-space:pre;"></span>"</span>
             <div style="clear: both"></div>
