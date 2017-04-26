@@ -17,13 +17,13 @@
                                    35<sup>th</sup> Floor, UOB Plaza 1 <br>
                                    80 Raffles Place<br>
                                    Singapore 048624<br>
-                                   E : <a href="mailto:singapore@near.co">singapore@near.co</a></p>
+                                  </p>
                             </div>
                             <div class="contact-location usaloc">
                             	<h2>San Francisco</h2>
                                 <p>228 Hamilton Ave, 3<sup>rd</sup> Floor<br>
                                 Palo Alto, CA 94301 <br>                               
-                                   E : <a href="mailto:singapore@near.co">us@near.co</a></p>
+                                </p>
                             </div>
                             <div class="contact-location ukloc">
                             	<h2>London</h2>
@@ -31,14 +31,14 @@
                                   4<sup>th</sup> Floor, Rex House<br>
                                   4-12 Regent Street <br>
                                   London, SW1Y 4PE<br>
-                                  E: <a href="mailto:uk@near.co">uk@near.co</a></p>
+                                  </p>
                             </div>
                             <div class="contact-location indialoc">
                             	<h2>Bangalore</h2>
                                 <p>No. 71/72, 4<sup>th</sup> Floor<br>
                                    JNC Rd, Koramangala 5<sup>th</sup> B<br>
                                    Bangalore 560 095<br>
-                                   E: <a href="mailto:bangalore@near.co" target="_blank">bangalore@near.co</a></p>
+                                  </p>
                             </div>
                             <div class="contact-location japanloc">
                             	<h2>Tokyo</h2>
@@ -46,13 +46,13 @@
 									8F Humax Ebisu building,<br>
                                     Ebisu minami 1-1-1, Shibuya-ku,<br>
                                    Tokyo 150-0022<br>
-                                   E:<a href="mailto:japan@near.co">japan@near.co</a></p>
+                                  </p>
                             </div>
                             <div class="contact-location australialoc">
                             	<h2>Sydney</h2>
                                 <p>Level 21, 201 Sussex St.<br>
                                   Sydney NSW 2000<br>
-                                   E: <a href="mailto:australia@near.co" target="_blank">australia@near.co</a></p>
+                                  </p>
                             </div>
     		<svg version="1.1" x="0px" y="0px" viewBox="0 0 723 365" xml:space="preserve" class="map-anim">
             <style type="text/css">

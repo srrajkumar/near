@@ -268,7 +268,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
   animation: widthize100 .8s 1 .3s cubic-bezier(.7, 0, .175, 1) forwards;
   -webkit-animation: widthize100 .8s 1 .3s cubic-bezier(.7, 0, .175, 1) forwards;
   animation-delay:3s;
-  width: 0% !important;
+  width: 0% ;
   white-space: nowrap;
   overflow: hidden;
   float: left;
@@ -1374,8 +1374,8 @@ footer .spacing_margin{
 .truste, .copyrights{float:left; color:#686868;font-family: 'Roboto', sans-serif; font-weight:normal;    line-height: 18px; font-size:12px; }
 .copyrights a{color:#686868;font-family: 'Roboto', sans-serif; font-weight:normal;    line-height: 18px; font-size:12px;}
 .perspective {
-  -webkit-perspective: 1000;
-          perspective: 1000;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 [data-aos="3dflip"] {
   -webkit-transition-duration: .7s;

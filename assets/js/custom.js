@@ -214,6 +214,7 @@ $('.carousel-news').carousel();
 			$(".japanloc").removeClass("loc-active");
 			$(".singaporeloc").removeClass("loc-active");
 		});
+
 		$(".australia").mouseover(function(){
 			$(this).addClass("c-active");
 			$(".usa").removeClass("c-active");
