@@ -106,7 +106,7 @@
 			    <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab">Travel</a></li>
 			    <li role="presentation"><a href="#tab8" role="tab" data-toggle="tab">Telcos</a></li>
 			</ul>
-
+ 
 			<div class="tab-content" style="margin-top: 50px;">
 			    <div role="tabpanel" class="tab-pane fade in active" id="auto">
 					<img src="<?= IMAGE ?>auto/audi.png" width="63" alt="audi" />
@@ -202,7 +202,7 @@
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
     	<div class="row">
     	<div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
-    		<img src="<?= IMAGE ?>img2.png">
+    		<img src="<?= IMAGE ?>img2.png" alt="Crossmatrix" class="crossmatrix">
     	</div>
     	
     	<div class="col-sm-6 platform-leverage"  data-aos="fade-up" data-aos-delay="800">
@@ -356,7 +356,7 @@
     	<h1 class="bold" data-aos="fade-up" data-aos-delay="200">LATEST RESOURCES</h1>
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
     	
-    	<div class="row" style="margin:0 50px;">
+    	<div class="row">
     	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="600">
     		<a href="#" target="_blank">
 				<figure>

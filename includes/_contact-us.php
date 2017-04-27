@@ -1,4 +1,4 @@
-<div style="padding: 10px; background-color: #ffffff; height:600px;" class="contact-us">
+<div class="contact-us">
      <div class="container spacing_margin text-center" >
      
     	<h1 class="bold" data-aos="fade-up" data-aos-delay="200">CONTACT US</h1>
