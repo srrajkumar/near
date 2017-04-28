@@ -48,28 +48,28 @@
                       <div class="col-sm-5 life"  data-aos="fade-up" data-aos-delay="800">
                       <span style="display: block; margin-top: 5px;">LIFE @ NEAR</span><br/>
                        
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
 													
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun6" alt="life @ Near" /></a>
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun6" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
 													
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?= IMAGE ?>bb.png" width="80" height="80" class=" fun6" alt="life @ Near" /></a>
+								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun6" alt="life @ Near" /></a>
 						
                        </div>
 					 

@@ -8,9 +8,9 @@ $mainurl = 'http://localhost/near_v3/';
 //$cdnurl = 'https://near.co/';
 define('SITE_URL', $mainurl );
 define(ROOT_PATH, dirname(__FILE__) );
-define('CSS', $mainurl .'assets/css/minified.css.php');
-define('JS', $mainurl .'assets/js/');
-define('IMAGE', $mainurl .'assets/images/');
+define('CSS_ASSETS_URL', $mainurl .'assets/css/minified.css.php');
+define('JS_ASSETS_URL', $mainurl .'assets/js/');
+define('IMAGE_ASSETS_URL', $mainurl .'assets/images/');
 //define('VDO_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/lib/vdo/');
 //define('IMAGES_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/images/');
 #define('PDF_ASSETS_URL', $cdnurl .'pdf/');
@@ -21,6 +21,26 @@ define('LINKEDIN_ACCOUNT_URL', 'https://www.linkedin.com/company/2811352?trk=pro
 define('DEFAULT_COUNTRY_OPTION', 'INDIA');
 
 header("Access-Control-Allow-Origin: *");	
+
+function CSS($urlparam){
+  echo CSS_ASSETS_URL. $urlparam;
+}
+function JS($urlparam){
+  echo JS_ASSETS_URL. $urlparam;
+}
+function IMAGE($urlparam){
+  echo IMAGE_ASSETS_URL. $urlparam;
+}
+
+
+
+
+
+
+
+
+
+
 
 ?>
 

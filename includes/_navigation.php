@@ -1,7 +1,7 @@
 <nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <!--img src="<?= IMAGE ?>near-logo.png"-->
+     
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
         <style type="text/css">
             .near-logo{fill:#5C5C5C;}

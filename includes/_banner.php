@@ -1,5 +1,5 @@
-<div id="particles-js" class="col-lg-12 brj k" style="background-image:url('<?= IMAGE ?>banner.jpeg'); ">
-	<div class="anim-imag" style="background-image:url('<?= IMAGE ?>anim-imag1.png');"></div>
+<div id="particles-js" class="col-lg-12 brj k" style="background-image:url('<?php IMAGE('banner.jpeg'); ?>'); ">
+	<div class="anim-imag" style="background-image:url('<?php IMAGE('anim-imag1.png'); ?>"></div>
 		<div class="banner-space container"></div>
 		<div class="container banner-content">
 		<div><span>The platform processing</span></div>
