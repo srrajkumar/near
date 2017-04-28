@@ -288,3 +288,8 @@ $('.carousel-news').carousel();
 AOS.init({
         easing: 'ease-in-out-sine'
       });
+
+$('#myselect').on('change', function (e) {
+    var id = $(this).val();
+    $('a[href="' + id + '"]').tab('show');
+});

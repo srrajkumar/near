@@ -106,7 +106,18 @@
 			    <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab">Travel</a></li>
 			    <li role="presentation"><a href="#tab8" role="tab" data-toggle="tab">Telcos</a></li>
 			</ul>
- 
+ <form>
+    <select id='myselect' class="form-control">
+        <option value='#auto'>AUTO</option>
+        <option value='#tab2'>FMCG</option>
+        <option value='#tab3'>BFSI</option>
+        <option value='#tab4'>Technology</option>
+        <option value='#tab5'>QSR</option>
+        <option value='#tab6'>RETAIL</option>
+        <option value='#tab7'>Travel</option>
+        <option value='#tab8'>Telcos</option>
+    </select>
+</form>
 			<div class="tab-content" style="margin-top: 50px;">
 			    <div role="tabpanel" class="tab-pane fade in active" id="auto">
 					<img src="<?= IMAGE ?>auto/audi.png" width="63" alt="audi" />
