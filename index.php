@@ -18,7 +18,7 @@ $meta_keywords="";
 	<meta name="description" content="<?php echo $meta_desc; ?>">
 	<meta name="author" content="Near">
     <meta name="KEYWORDS" content="<?php echo $meta_keywords; ?>" />
-    <link rel="stylesheet" href="<?php echo CSS ?>" />
+    <link rel="stylesheet" href="<?= CSS ?>" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900" rel="stylesheet">
     <script src="<?= JS ?>modernizr.js"></script>
     <!-- Favicons

@@ -372,6 +372,7 @@
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/subway.png"/>
+						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
 					<h1 class="title">Case Studies</h1>
 					<p>Subway</p>
 					<div class="description">
@@ -396,6 +397,7 @@
 					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
 				</span>
 					</div>
+					</figcaption>
 				</figure>
 			</a> 
     	</div>
@@ -403,6 +405,7 @@
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/telco.png"/>
+						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
 					<h1 class="title">Latest Research</h1>
 					<p>Telco</p>
 					<div class="description">
@@ -427,6 +430,7 @@
 					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
 				</span>
 					</div>
+					</figcaption>
 				</figure>
 			</a> 
     	</div>
@@ -434,6 +438,7 @@
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/mobile.png"/>
+					<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
 					<h1 class="title">Whitepaper</h1>
 					<p>Lorem</p>
 					<div class="description">
@@ -458,6 +463,7 @@
 					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
 				</span>
 					</div>
+					</figcaption>
 				</figure>
 			</a> 
     	</div>
@@ -465,6 +471,7 @@
     		<a href="#" target="_blank">
 				<figure>
 					<img src="<?= IMAGE ?>research/laptop.png"/>
+						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
 					<h1 class="title">Industry Report</h1>
 					<p>Lorem</p>
 					<div class="description">
@@ -489,6 +496,7 @@
 					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
 				</span>
 					</div>
+					</figcaption>
 				</figure>
 			</a> 
     	</div>
