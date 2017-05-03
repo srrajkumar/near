@@ -2,9 +2,10 @@
      <div class="container spacing_margin text-center" >
      
     	<h1 class="bold" data-aos="fade-up" data-aos-delay="200">CONTACT US</h1>
-    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
+    	<p style="margin-bottom:0px;" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"><button type="button" class="btn btn-danger">Get in Touch</button></p>
+    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
     	<div class="row">
-    	<div class="col-sm-8" data-aos="fade-up" data-aos-delay="600">
+    	<div class="col-sm-12" data-aos="fade-up" data-aos-delay="600">
     	<div class="loc-dots usa"><div class="pulse"></div></div>
                             <div class="loc-dots usa-ny"><div class="pulse"></div></div>
                             <div class="loc-dots uk"><div class="pulse"></div></div>
@@ -1210,7 +1211,7 @@
             </svg>
     	</div>
     	
-    	<div class="col-sm-4 platform-leverage contact-reason" data-aos="fade-up" data-aos-delay="800">
+    	<!--<div class="col-sm-4 platform-leverage contact-reason" data-aos="fade-up" data-aos-delay="800">
     	<h2 style="text-align:left;margin-left:20px; margin-bottom:20px;">GET IN TOUCH FOR</h2>
     		<ul id="accord2" class="accordian">
 			  <li>
@@ -1244,7 +1245,7 @@
 				</section>
 			  </li>
 			</ul>
-    	</div>
+    	</div>-->
     	</div><!--- row -->
     </div>
 </div>
