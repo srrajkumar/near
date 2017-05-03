@@ -1498,7 +1498,7 @@ footer .spacing_margin{
 	#typed, .typed-cursor{font-size:18px !important; }
 	.footer-links {margin-top:0px;}
 	
-	
+	.whats-happening .col-sm-6 span.news-red, .kroll span.news-red{margin-bottom:0px;}
 	.truste, .copyrights{text-align:center; margin-top:10px;}
 	footer svg{display:none;}
 }
@@ -1516,7 +1516,7 @@ h2 {font-size: 16px !important;}
 }
 
 @media (max-width:575px){
-	.whats-happening .col-sm-6:nth-child(3):before{left: calc(50% - 30px); top: -15px; transform: rotate(90deg); -webkit-transform:rotate(90deg); } 
+	.whats-happening .col-sm-6:nth-child(3):before{left: calc(50% - 20px); top: -15px; transform: rotate(90deg); -webkit-transform:rotate(90deg); } 
 .banner-content span{font-size:20px; line-height: 28px;}
 	.banner-content span.red{font-size:30px; line-height: 38px;}
 	.footer-links a,.footer-links span{font-size:14px; text-align: center;border-bottom: 1px solid #e4e1e1;}
