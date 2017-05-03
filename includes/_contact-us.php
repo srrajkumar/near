@@ -6,6 +6,7 @@
     	<div class="row">
     	<div class="col-sm-8" data-aos="fade-up" data-aos-delay="600">
     	<div class="loc-dots usa"><div class="pulse"></div></div>
+                            <div class="loc-dots usa-ny"><div class="pulse"></div></div>
                             <div class="loc-dots uk"><div class="pulse"></div></div>
                             <div class="loc-dots india"><div class="pulse"></div></div>
                             <div class="loc-dots singapore c-active"><div class="pulse"></div></div>
@@ -24,6 +25,12 @@
                                 <p>228 Hamilton Ave, 3<sup>rd</sup> Floor<br>
                                 Palo Alto, CA 94301 <br>                               
                                 </p>
+                            </div>
+                              <div class="contact-location usa-nyloc">
+                            	<h2>New York</h2>
+                                <p>222 Broadway, 19<sup>th</sup> Floor<br>
+                                New York, NY 10038 <br>                               
+                                 </p>
                             </div>
                             <div class="contact-location ukloc">
                             	<h2>London</h2>
@@ -1215,25 +1222,25 @@
 			  <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Joining the team</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. </p>
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</section>
 			  </li>
 			  <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Media Queries</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. </p>
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</section>
 			  </li>
 			   <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i>Data Partnerships</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. The lesson is, never try. </p>
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</section>
 			  </li>
 			   <li>
 				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i>Others</header>
 				<section class="accordian-section">
-				  <p>Kids, you tried your best and you failed miserably. </p>
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</section>
 			  </li>
 			</ul>

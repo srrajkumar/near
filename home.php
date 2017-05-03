@@ -92,6 +92,7 @@
     </div>
 
     <div class="container spacing_margin text-center">
+    <div class="row">
     	<h1 data-aos="fade-zoom-in" data-aos-delay="200">TRUSTED BY WORLD’S BEST</h1>
     	<h2 data-aos="fade-zoom-in" data-aos-delay="400">1 in 5 Forbes Top 100 brands use Near</h2>
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
@@ -106,18 +107,18 @@
 			    <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab">Travel</a></li>
 			    <li role="presentation"><a href="#tab8" role="tab" data-toggle="tab">Telcos</a></li>
 			</ul>
- <form>
-    <select id='myselect' class="form-control">
-        <option value='#auto'>AUTO</option>
-        <option value='#tab2'>FMCG</option>
-        <option value='#tab3'>BFSI</option>
-        <option value='#tab4'>Technology</option>
-        <option value='#tab5'>QSR</option>
-        <option value='#tab6'>RETAIL</option>
-        <option value='#tab7'>Travel</option>
-        <option value='#tab8'>Telcos</option>
-    </select>
-</form>
+			 <form>
+				<select id='myselect' class="form-control">
+					<option value='#auto'>AUTO</option>
+					<option value='#tab2'>FMCG</option>
+					<option value='#tab3'>BFSI</option>
+					<option value='#tab4'>Technology</option>
+					<option value='#tab5'>QSR</option>
+					<option value='#tab6'>RETAIL</option>
+					<option value='#tab7'>Travel</option>
+					<option value='#tab8'>Telcos</option>
+				</select>
+			</form>
 			<div class="tab-content" style="margin-top: 50px;">
 			    <div role="tabpanel" class="tab-pane fade in active" id="auto">
 					<img src="<?php IMAGE('auto/audi.png'); ?>" width="63" alt="audi" />
@@ -205,6 +206,7 @@
 			    
 			</div>
 		</div>
+   </div>
     </div>
 <div style="padding: 10px; background-color: #f2f3f6;">
      <div class="container spacing_margin text-center " >
