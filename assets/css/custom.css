@@ -1508,6 +1508,8 @@ footer .spacing_margin{
 	.whats-happening .col-sm-6 .award_holder span{line-height:80px;}
 	.nav-tabs > li { float:none; }
 h2 {font-size: 16px !important;}
+	.banner-content span.red {font-size: 32px !important;}
+	.banner-content span {font-size: 24px !important;}
 	
 }
 
