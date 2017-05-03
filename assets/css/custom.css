@@ -1501,13 +1501,13 @@ footer .spacing_margin{
 	footer svg{display:none;}
 }
 @media (max-width:480px){
-	.banner-content span:nth-child(6){font-size:14px;}
-	.banner-space{height: 100px;}
+	.banner-content span:nth-child(6){font-size:14px !important;}
+	.banner-space{height: 100px !important;}
 	#typed, .typed-cursor{font-size:18px !important; }
-	.whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 28px;}
+	.whats-happening .col-sm-6{max-height:383px; line-height: 35px; font-size: 24px;}
 	.whats-happening .col-sm-6 .award_holder span{line-height:80px;}
 	.nav-tabs > li { float:none; }
-
+h2 {font-size: 16px !important;}
 	
 }
 
