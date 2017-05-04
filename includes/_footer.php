@@ -74,6 +74,7 @@
                        </div>
 					 
 				</div>
+				<div class="container">
 				<div class="row">
 					<div class="col-sm-12" >
 						<hr style="border-top:1px solid rgba(0,0,0,0.5); margin-bottom:10px; padding-bottom:10px;"/>
@@ -85,6 +86,7 @@
 					 <div class="col-md-2 truste">
 					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=79c90252-7a59-4f23-8681-9180af7a58de" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=79c90252-7a59-4f23-8681-9180af7a58de" alt="TRUSTe"/></a></div>
 			</div>
+				</div>
 				</div>
 			</div>
             

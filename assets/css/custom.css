@@ -1526,7 +1526,7 @@ h2 {font-size: 16px !important;}
 }
 @media(min-width:575px) and (max-width:1200px){.research .col-sm-3{max-width: 50% !important; flex: 0 0 50% !important; padding: 0px 15px !important;} .whats-happening .col-sm-6:nth-child(3):before{display:none;}}
 @media(min-width:640px) and (max-width:1200px){.col-sm-6{max-width: 50% !important; flex: 0 0 50% !important;}.whats-happening .col-sm-6:nth-child(3):before{display:none;}}
-
+@media(min-width:768px) and (max-width:1199px){.truste img{width:100%;}}
 @media (max-width: 991px) {
 	body{overflow-x:hidden;}
 	.banner-content span:nth-child(6){font-size:18px;}
