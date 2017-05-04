@@ -992,7 +992,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     font-size: 28px !important;
     color: rgba(255,255,255,0.4);
     position: relative;
-    top: 8px;
+    top: 6px;
     left: 16px; transition: 1s all ease;
 }
 .wobble{
