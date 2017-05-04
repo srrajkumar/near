@@ -1326,10 +1326,10 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .loc-dots.usa-ny{left: 32%; top: 28%;}
 .usa-nyloc{left: 22%; top: 28%;}
 .ukloc{	left: 36%;top: 32%;}
-.singaporeloc{right: 21%;top: 59%;}
-.australialoc{right: 5%;bottom: -9%;}
-.indialoc{right: 26%;top: 54%;}
-.japanloc{right: -3%;top: 29%;}
+.singaporeloc{right: 24%;top: 59%;}
+.australialoc{right: 8%;bottom: 2%;}
+.indialoc{right: 29%;top: 54%;}
+.japanloc{right: 1%;top: 29%;}
 .contact-location{position:absolute;background:rgba(255,255,255,0.85);	padding-left:8px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; opacity:0; border-radius:4px;}
 .contact-location h2{font-family: 'Roboto',sans-serif;  font-size:22px;text-align:left; margin-top: 10px;margin-bottom: 5px;line-height:30px; color:#db1a21;}
 .contact-location p{ line-height:18px; font-family: 'Roboto',sans-serif; font-size:13px; text-align: left;}
@@ -1503,7 +1503,7 @@ footer .spacing_margin{
 	footer svg{display:none;}
 }
 @media (max-width:480px){
-	.banner-content span:nth-child(6){font-size:14px !important;}
+	.banner-content span:nth-child(6){font-size:15px !important;}
 	.banner-space{height: 100px !important;}
 	#typed, .typed-cursor{font-size:18px !important; }
 	.whats-happening .col-sm-6{max-height:383px; line-height: 35px; font-size: 24px;}
