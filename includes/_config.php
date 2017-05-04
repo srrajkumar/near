@@ -11,6 +11,7 @@ define(ROOT_PATH, dirname(__FILE__) );
 define('CSS_ASSETS_URL', $mainurl .'assets/css/minified.css.php');
 define('JS_ASSETS_URL', $mainurl .'assets/js/');
 define('IMAGE_ASSETS_URL', $mainurl .'assets/images/');
+define('VIDEO_ASSETS_URL', $mainurl .'assets/videos/');
 //define('VDO_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/lib/vdo/');
 //define('IMAGES_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/images/');
 #define('PDF_ASSETS_URL', $cdnurl .'pdf/');
@@ -31,16 +32,8 @@ function JS($urlparam){
 function IMAGE($urlparam){
   echo IMAGE_ASSETS_URL. $urlparam;
 }
-
-
-
-
-
-
-
-
-
-
-
+function VIDEO($urlparam){
+  echo VIDEO_ASSETS_URL. $urlparam;
+}
 ?>
 

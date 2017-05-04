@@ -80,11 +80,9 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 900px;
-    height:768px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 1020px;
+    height: 878px;
+    overflow: hidden;
 }
 .banner-content span{
     display: block;
