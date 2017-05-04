@@ -322,3 +322,273 @@ $('#myselect').on('change', function (e) {
 
 
 
+"use strict";
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+
+var angle = function angle(p1, p2) {
+  return Math.atan2(p2.y - p1.y, p2.x - p1.x);
+};
+
+ctx.strokeStyle = "rgba(140,211,255,1)";
+ctx.fillStyle = "rgba(232,137,118,1)";
+ctx.lineWidth = 0.5;
+
+var Particle = function () {
+  function Particle(x, y, life, angle, speed) {
+    _classCallCheck(this, Particle);
+
+    this.position = {
+      x: x,
+      y: y
+    };
+
+    this.group = '';
+    this.closest = {};
+    this.id = Math.random() * 1000000;
+    this.life = life;
+    this.speed = speed;
+    this.age = 0;
+    this.color = 'rgba(140,211,255,1)';
+    this.angle = angle;
+    this.static = false;
+    this.infinite = true;
+    this.opacity = 0;
+    this.velocity = {
+      x: speed * Math.cos(this.angle),
+      y: speed * Math.sin(this.angle)
+    };
+  }
+
+  Particle.prototype.update = function update(dt) {
+    if (this.infinite !== true) {
+      this.life -= dt;
+    }
+
+    this.age += 1;
+
+    this.velocity = {
+      x: this.speed * Math.cos(this.angle),
+      y: this.speed * Math.sin(this.angle)
+    };
+
+    this.position.x += this.velocity.x * dt;
+    this.position.y += this.velocity.y * dt;
+  };
+
+  return Particle;
+}();
+
+var particles = [];
+
+setInterval(function () {
+  if (particles.length < 500) {
+    var particleCount = 30 + 60 * Math.random();
+    var speed = -1 + Math.random() * 2;
+    var group = 'middle' + Math.random();
+    var r = 160 + Math.random()* 260;
+
+    if (r > 200) {
+      speed = 1 * Math.random();
+    }
+
+    if (r < 200) {
+      speed = -1 * Math.random();
+    }
+
+    for (var i = 0; i < particleCount; i++) {
+      var theta = Math.PI * 2 / particleCount * i;
+      var x = canvas.width / 2 + r * Math.cos(theta);
+      var y = canvas.height / 2 + r * Math.sin(theta);
+
+      var rotation = angle({
+        x: x,
+        y: y
+      }, {
+        x: canvas.width / 2,
+        y: canvas.height / 2
+      });
+
+      var rnd = Math.round(Math.random() * 1);
+      var particle = new Particle(x, y, 100 + 100 * Math.random(), rotation, speed);
+
+      particle.infinite = false;
+      particle.group = group;
+
+      particles.push(particle);
+    }
+  }
+}, 200);
+
+setInterval(function () {
+  if (particles.length < 700) {
+    var rnd = Math.round(Math.random() * 1);
+    var particle = new Particle(Math.random() * c.width, Math.random() * c.height, 100 + 100 * Math.random(), Math.random(), 0.8 + Math.random());
+    particle.group = 'nonsense' + Math.random();
+    particles.push(particle);
+  }
+}, 50);
+
+var count = 40;
+var time;
+function draw() {
+  var start = new Date().getTime();
+
+  ctx.clearRect(0, 0, c.width, c.height);
+  ctx.save();
+
+  for (var i = particles.length - 1; i >= 0; i--) {
+    var particle = particles[i];
+
+    if (particle.life <= 0) {
+      particles.splice(i, 1);
+    }
+
+    if (particle.position.x <= 0 || particle.position.x > canvas.width) {
+      particles.splice(i, 1);
+    }
+
+    if (particle.position.y <= 0 || particle.position.y > canvas.height) {
+      particles.splice(i, 1);
+    }
+  }
+
+  for (var _i = particles.length - 1; _i >= 0; _i--) {
+    var _particle = particles[_i];
+
+    _particle.update(1);
+
+    var closest = [];
+    for (var j = particles.length - 1; j >= 0; j--) {
+      var closestParticle = particles[j];
+      var closestParticlePosition = closestParticle.position;
+      var d = Math.sqrt(Math.pow(_particle.position.x - closestParticlePosition.x, 2) + Math.pow(_particle.position.y - closestParticlePosition.y, 2));
+      if (d < 30 && d > 1 && _particle.group !== closestParticle.group) {
+        closest.push([closestParticlePosition.x, closestParticlePosition.y, d]);
+        if (closest.length > 2) {
+          break;
+        }
+      }
+    }
+
+    for (var _i2 = closest.length - 1; _i2 >= 0; _i2--) {
+      var _closestParticle = closest[_i2];
+      //console.log(closestParticle);
+      //particle.life += 100;
+      ctx.beginPath();
+      ctx.lineWidth = 0.5;
+      var strokeOpacity = _closestParticle[2] / 50;
+      ctx.strokeStyle = "rgba(140,211,255, " + strokeOpacity + ")";
+
+      ctx.moveTo(_closestParticle[0], _closestParticle[1]);
+      ctx.lineTo(_particle.position.x, _particle.position.y);
+      ctx.stroke();
+      ctx.closePath();
+    }
+
+    var particleOpacity = 1;
+    if (_particle.life < 100) {
+      particleOpacity = _particle.life / 100;
+    }
+
+    if (_particle.age < 100) {
+      particleOpacity = _particle.age / 100;
+    }
+
+    ctx.beginPath();
+    ctx.rect(_particle.position.x, _particle.position.y, 1, 1);
+    ctx.fillStyle = "rgba(232,137,118, " + particleOpacity + ")";
+    ctx.fill();
+    ctx.closePath();
+  }
+
+  ctx.restore();
+
+  var end = new Date().getTime();
+  time = end - start;
+
+  window.requestAnimationFrame(draw);
+}
+
+window.requestAnimationFrame(draw);
+
+
+var Circle = (function () {
+    function Circle() {
+        this.canvas = document.getElementById('circle');
+        this.ctx = this.canvas.getContext('2d');
+        this.particles = [];
+      	this.ratio = window.innerHeight < 400 ? 0.6 : 1;
+        this.r = 250;
+        this.counter = 0;
+    }
+    Circle.prototype.init = function () {
+        this.createElement();
+        this.loop();
+    };
+    Circle.prototype.createElement = function () {
+        var scale = this.ratio;
+        this.canvas.width = 600;
+        this.canvas.height =600;
+        this.canvas.style.background = 'transparent';
+        this.ctx.transform(scale, 0, 0, -scale, this.canvas.width / 2, this.canvas.height / 2);
+        document.body.appendChild(this.canvas);
+        for (var i = 0; i < 100; i++) {
+            this.createParticle();
+        }
+    };
+    Circle.prototype.createParticle = function () { 
+        this.particles.push({
+            color: Math.random() > 0.5 ? "#e88976" : "#8cd3ff",
+            radius: Math.random() * 3,
+            x: Math.cos(Math.random() * 7 + Math.PI) * this.r,
+            y: Math.sin(Math.random() * 7 + Math.PI) * this.r,
+            ring: Math.random() * this.r,
+            move: ((Math.random() * 3) + 1) / 500000,
+            random: Math.random() * 190
+        });
+    };
+    Circle.prototype.moveParticle = function (p) {
+        p.ring = Math.min(p.ring + 1, this.r);
+        p.random += p.move;
+        p.x = Math.cos(p.random + Math.PI) * p.ring;
+        p.y = Math.sin(p.random + Math.PI) * p.ring;
+    };
+    Circle.prototype.resetParticle = function (p) {
+        p.ring = Math.random() * this.r;
+        p.radius = Math.random() * 3;
+    };
+    Circle.prototype.disappear = function (p) {
+        if (p.radius < 0.8) {
+            this.resetParticle(p);
+        }
+        p.radius *= 0.992;
+    };
+    Circle.prototype.draw = function (p) {
+        this.ctx.beginPath();
+        this.ctx.fillStyle = p.color;
+        this.ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        this.ctx.fill();
+    };
+    Circle.prototype.loop = function () {
+        var _this = this;
+        this.ctx.clearRect(-this.canvas.width / 2, -this.canvas.height , this.canvas.width, this.canvas.height * 2);
+        if (this.counter < this.particles.length) {
+            this.counter++;
+        }
+        for (var i = 0; i < this.counter; i++) {
+            this.disappear(this.particles[i]);
+            this.moveParticle(this.particles[i]);
+            this.draw(this.particles[i]);
+        }
+        requestAnimationFrame(function () { return _this.loop(); });
+    };
+    return Circle;
+})();
+window.onload = function () {
+		var canvas = new Circle();
+		canvas.init();
+};

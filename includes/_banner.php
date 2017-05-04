@@ -26,7 +26,12 @@
             <div style="clear: both"></div>
 			<a href="#" class=" hp-cta-video " style="margin-top: 20px;">Play Video</a>
 		</div>
+		
 		<div class="mouse"></div>
+		<div class="anim-particles">
+      <canvas id="canvas" width="800" height="600"></canvas>
+     <canvas id="circle" width="600" height="600"></canvas>
+   </div>
 	</div>
 <style type="text/css">
 	#buffer{
