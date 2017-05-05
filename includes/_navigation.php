@@ -3,10 +3,6 @@
     <a class="navbar-brand" href="#">
      
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
-        <style type="text/css">
-            .near-logo{fill:#5C5C5C;}
-            .a-logo{fill:#ED1C24;}
-        </style>
         <polygon class="near-logo" points="447.4,126.7 451,126.7 451,136.4 452.6,136.4 452.6,126.7 456.2,126.7 456.2,125.2 447.4,125.2 "></polygon>
         <polygon class="near-logo" points="463.6,133.7 463.5,133.7 459.9,125.2 457.7,125.2 457.7,136.4 459.2,136.4 459.2,127.2 459.2,127.2 
                  463,136.4 464,136.4 467.8,127.2 467.8,127.2 467.8,136.4 469.4,136.4 469.4,125.2 467.1,125.2 "></polygon>
@@ -124,3 +120,7 @@
 
 
 
+<style type="text/css">
+    .near-logo{fill:#5C5C5C;}
+    .a-logo{fill:#ED1C24;}
+</style>

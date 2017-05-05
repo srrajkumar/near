@@ -1,0 +1,30 @@
+<?php include('includes/_config.php');
+$meta_title="";
+$meta_desc="";
+$meta_keywords="";
+?>
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html>
+<head>
+	<?php include('includes/_head.php'); ?>
+</head>
+
+<body>
+	<?php include('includes/_navigation.php'); ?>
+
+	<?php include('allspark/container.php'); ?>
+
+	<?php include('includes/_footer.php'); ?>
+</body>
+	<?php include('includes/_java_scripts.php'); ?>
+</html>
+
+
+<style type="text/css">
+    .near-logo{fill:#ffffff;}
+    .a-logo{fill:#ED1C24;}
+</style>

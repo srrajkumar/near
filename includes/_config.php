@@ -9,6 +9,7 @@ $mainurl = 'http://localhost/near_v3/';
 define('SITE_URL', $mainurl );
 define(ROOT_PATH, dirname(__FILE__) );
 define('CSS_ASSETS_URL', $mainurl .'assets/css/minified.css.php');
+define('CSS_ASSETS_URL_PATH', $mainurl .'assets/css/');
 define('JS_ASSETS_URL', $mainurl .'assets/js/');
 define('IMAGE_ASSETS_URL', $mainurl .'assets/images/');
 define('VIDEO_ASSETS_URL', $mainurl .'assets/videos/');
@@ -25,6 +26,9 @@ header("Access-Control-Allow-Origin: *");
 
 function CSS($urlparam){
   echo CSS_ASSETS_URL. $urlparam;
+}
+function CSS_PATH($urlparam){
+  echo CSS_ASSETS_URL_PATH. $urlparam;
 }
 function JS($urlparam){
   echo JS_ASSETS_URL. $urlparam;
