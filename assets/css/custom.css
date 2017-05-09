@@ -1474,6 +1474,19 @@ footer .spacing_margin{
 
 #circle{position: absolute;bottom: -10px;left: 100px;}
 
+/*@keyframes blink {
+	0%{opacity: 1}
+	30% { opacity: 0 }
+    70%{opacity: 1}
+	100%{opacity: 1}
+}
+.map-dots { animation: 3s blink linear infinite }
+.map-dots:nth-child(2n+1) { animation-delay: 2s }
+.map-dots:nth-child(2n+2) { animation-delay: 3s }
+.map-dots:nth-child(2n+3){ animation-delay: 6s }
+.map-dots:nth-child(2n+4){ animation-delay: 8s }*/
+
+
 @media (max-width: 768px){
 	.navbar-nav {display:none;}
 	.nav-pills{top: 20px;}
@@ -1529,7 +1542,7 @@ h2 {font-size: 16px !important;}
 	.life{display:none;}
 }
 @media(min-width:575px) and (max-width:1200px){.research .col-sm-3{max-width: 50% !important; flex: 0 0 50% !important; padding: 0px 15px !important;} .whats-happening .col-sm-6:nth-child(3):before{display:none;}}
-@media(min-width:640px) and (max-width:1200px){.col-sm-6{max-width: 50% !important; flex: 0 0 50% !important;}.whats-happening .col-sm-6:nth-child(3):before{display:none;}}
+@media(min-width:640px) and (max-width:1250px){.col-sm-6{max-width: 50% !important; flex: 0 0 50% !important;}.whats-happening .col-sm-6:nth-child(3):before{display:none;}}
 @media(min-width:768px) and (max-width:1199px){.truste img{width:100%;}}
 @media (max-width: 991px) {
 	body{overflow-x:hidden;}

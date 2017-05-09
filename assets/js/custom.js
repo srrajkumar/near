@@ -592,3 +592,16 @@ window.onload = function () {
 		var canvas = new Circle();
 		canvas.init();
 };
+
+
+
+function blink(){
+    $('.map-dots').eq(Math.round(Math.random() * (50 * 1) + 25))
+    .fadeOut(2000)
+    .fadeIn(2000);
+    
+    setTimeout(blink,50);
+}
+
+blink();
+
