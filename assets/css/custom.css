@@ -84,6 +84,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     width: 1020px;
     height: 878px;
     overflow: hidden;
+    z-index: 3;
 }
 .banner-content span{
     display: block;
@@ -103,6 +104,16 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     font-weight: 700;
     text-transform: uppercase;
     line-height: 64px;
+}
+.banner-content span.blue{
+    font-size: 62px;
+    color: #44aacc;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 64px;
+}
+.color-blue{
+  background: #44aacc;
 }
 .row h1, .row h2{width:100%;}
 .whats-happening .col-sm-6.whats-new .kroll{
@@ -480,6 +491,75 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 
 
 /* Play Button */
+
+/* Play Button2 */
+
+.hp-cta-video_transparent {
+    display: inline-block;
+    padding: 17px 17px 17px 50px;
+    position: relative;
+    transition: color 0.3s cubic-bezier(0.77,0,0.175,1) 0.1s;
+    z-index: 1;
+    color: #fff;
+    font-size: 0.75rem;
+    letter-spacing: .058em;
+    line-height: .9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    transition: all 1s ease;
+}
+
+.hp-cta-video_transparent:before,.hp-cta-video_transparent:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: -1;
+}
+
+.hp-cta-video_transparent:before {
+    width:100%;
+    height: 2.625rem;
+    background-color: rgba(255, 255, 255, 0);
+    border:1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 1.3125rem;
+    transition: width 0.4s cubic-bezier(0.77,0,0.175,1);
+    transition: all 0.4s ease;
+}
+
+.hp-cta-video_transparent:after {
+    top: 0.875rem;
+    
+  left: 1.625rem;
+    border-top: 0.4375rem dashed transparent;
+    border-bottom: 0.4375rem dashed transparent;
+    border-left: 0.625rem solid #fff;
+    transition: left 0.4s cubic-bezier(0.77,0,0.175,1);
+    transition: all 0.4s ease;
+}
+
+.hp-cta-video_transparent:hover {
+    color: #44aacc;
+    text-decoration: none;
+}
+
+.hp-cta-video_transparent:hover:before {
+    width:  2.625rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border:1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hp-cta-video_transparent:hover:after {
+    left: 1.125rem;
+    border-left: 0.625rem solid #031428;
+}
+
+
+/* Play Button2 */
 
 /* code for animated blinking cursor */
 .typed-cursor{
@@ -1168,6 +1248,193 @@ a:hover,a:focus{text-decoration:none; outline:none;}
   margin-bottom: -9px;
 }
 /* Research */
+
+
+/* circle animation */
+
+.round_animate_wrap {
+  position: relative;
+  right: -200px;
+  bottom: -100px;
+  z-index: 0;
+}
+.round_animate {
+  width: 900px;
+  height: 900px;
+  position: relative;
+}
+.round_animate .shape_1 {
+  border: 1px solid #dff0ff;
+  border-radius: 50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(23deg);
+  animation: shape_1 35s linear infinite;
+}
+.round_animate .shape_1 span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #96ceff;
+  position: absolute;
+  left: 50%;
+}
+.round_animate .shape_1 span.r_1 {
+  top: -5px;
+  margin-left: -5px;
+}
+.round_animate .shape_1 span.r_2 {
+  margin-left: -420px;
+  top: 270px;
+}
+.round_animate .shape_1 span.r_3 {
+  margin-left: -317px;
+  top: 769px;
+}
+.round_animate .shape_1 span.r_4 {
+  margin-left: 441px;
+  top: 495px;
+}
+.round_animate .shape_2 {
+  border: 1px solid #eaf5ff;
+  width: 800px;
+  top: 50px;
+  height: 800px;
+  left: 50px;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(-41deg);
+  animation: shape_2 25s linear infinite;
+}
+.round_animate .shape_2 span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbdfff;
+  position: absolute;
+  left: 50%;
+}
+.round_animate .shape_2 span.r_1 {
+  top: -5px;
+  margin-left: -5px;
+}
+.round_animate .shape_2 span.r_2 {
+  margin-left: 87px;
+  top: 782px;
+}
+.round_animate .shape_2 span.r_3 {
+  margin-left: -405px;
+  top: 398px;
+}
+.round_animate .shape_2 span.r_4 {
+  margin-left: 386px;
+  top: 315px;
+}
+.round_animate .shape_3 {
+  border: 1px solid #f1f8ff;
+  width: 700px;
+  top: 100px;
+  height: 700px;
+  left: 100px;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(0deg);
+  animation: shape_3 15s linear infinite;
+}
+.round_animate .shape_3 span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d0e9ff;
+  position: absolute;
+  left: 50%;
+}
+.round_animate .shape_3 span.r_1 {
+  top: 693px;
+  margin-left: -5px;
+}
+.round_animate .shape_3 span.r_2 {
+  margin-left: -85px;
+  top: 4px;
+}
+.round_animate .shape_3 span.r_3 {
+  margin-left: -355px;
+  top: 340px;
+}
+.round_animate .shape_3 span.r_4 {
+  margin-left: 339px;
+  top: 285px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes shape_1 {
+ 0% {
+ transform: rotate(0deg);
+}
+ 100% {
+ transform: rotate(360deg);
+}
+}
+/* Standard syntax */
+@keyframes shape_1 {
+ 0% {
+ transform: rotate(0deg);
+}
+ 100% {
+ transform: rotate(360deg);
+}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes shape_2 {
+ 0% {
+ transform: rotate(0deg);
+}
+ 100% {
+ transform: rotate(360deg);
+}
+}
+/* Standard syntax */
+@keyframes shape_2 {
+ 0% {
+ transform: rotate(0deg);
+}
+ 100% {
+ transform: rotate(360deg);
+}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes shape_3 {
+ 0% {
+ transform: rotate(0deg);
+}
+ 100% {
+ transform: rotate(360deg);
+}
+}
+/* Standard syntax */
+@keyframes shape_3 {
+ 0% {
+ transform: rotate(0deg);
+}
+ 100% {
+ transform: rotate(360deg);
+}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animate_color {
+ 60% {
+ color: #ef473a;
+}
+}
+/* Standard syntax */
+@keyframes animate_color {
+ 60% {
+ color: #ef473a;
+}
+}
+
+/* circle animation */
 
 .whats-happening .button_animate:hover .button-icon-animate .button-icon-animate__circle--right, .whats-happening .button_animate:hover .button-icon-animate .button-icon-animate__circle--left,.research a:hover .button-icon-animate .button-icon-animate__circle--right, .research a:hover .button-icon-animate .button-icon-animate__circle--left,.research_container .use-cases:hover .button-icon-animate .button-icon-animate__circle--right,.research_container .use-cases:hover .button-icon-animate .button-icon-animate__circle--left{stroke-dashoffset: 0;}
 .research_container .use-cases:hover{cursor:pointer;}

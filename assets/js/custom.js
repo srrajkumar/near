@@ -319,7 +319,7 @@ $('#myselect').on('change', function (e) {
     var id = $(this).val();
     $('a[href="' + id + '"]').tab('show');
 });
-
+$('.carousel-allspark').carousel({interval:2500});
 
 
 "use strict";
@@ -594,7 +594,6 @@ window.onload = function () {
 };
 
 
-
 function blink(){
     $('.map-dots').eq(Math.round(Math.random() * (50 * 1) + 25))
     .fadeOut(2000)
@@ -604,4 +603,11 @@ function blink(){
 }
 
 blink();
+
+
+$(document).ready(function() {
+    $('#myCarousel').carousel({
+      interval: 10000
+  })
+});
 
