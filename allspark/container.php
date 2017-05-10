@@ -57,7 +57,7 @@
   <path d="M349.74,228.51c4,24.22,21.84,37.32,43.14,46.31,4.69,2,9.94,1.46,12.77-3.35,2.31-4,1.34-10.79-3.37-12.77-7.77-3.3-15.9-6.74-22.45-12.2-7.21-6-10.58-13.88-12.06-23-2-11.85-20-6.81-18,5Zm0,0" transform="translate(-102.58 -35.89)" style="fill:#e21e27"/>
   <path d="M314.4,268.58c11.14,27.44,36.68,48.17,64.8,56.84,11.54,3.53,16.42-14.49,4.95-18-7-2.14-12.32-4.87-19.74-9.26-13.59-8-26-19.67-32-34.53-1.93-4.69-6.15-8-11.49-6.5-4.47,1.22-8.43,6.74-6.53,11.47Zm0,0" transform="translate(-102.58 -35.89)" style="fill:#e21e27"/>
 </svg>
-<p style="text-align: center;color: #e21e27;font-size: 20px; position: relative;top: -10px;">A Branded<br> Product Experience</p>
+<p style="text-align: center;color: #e21e27;font-size: 20px; position: relative;top: -20px;">A Branded<br> Product Experience</p>
 </div>
     		</div>
     		<div class="col-sm-3">
