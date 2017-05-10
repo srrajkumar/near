@@ -78,8 +78,8 @@
 /*---------- LEFT/RIGHT ROUND CONTROL ----------*/
 .control-round .carousel-control {
     bottom: 50px;
-    width: 45px;
-    height: 45px;
+   width: 35px;
+    height: 35px;
     z-index: 100;
     color: #ffffff;
     display: block;
@@ -93,13 +93,14 @@
     background: transparent;
     -webkit-border-radius: 100px;
     border-radius: 100px;
-    left: -20px;
+	border: 1px solid #fff;
+   
 }
 .control-round:hover .carousel-control{
     opacity: 1;
 }
 .control-round .carousel-control.left {
-    bottom:80px;
+    bottom:100px;
 }
 /*.control-round .carousel-control.right {
     right: 1%;
@@ -107,16 +108,18 @@
 .control-round .carousel-control.left:hover,
 .control-round .carousel-control.right:hover{
     color: #fdfdfd;
-    background: rgba(0, 0, 0, 0.5);
-    border: 0px transparent;
+    background: rgba(255, 255, 255, 0.5);
+    
 }
 .control-round .carousel-control.left>span:nth-child(1){
-    left: 17px;
+    left: 12px;
     position: relative;
+	    top: -8px;
 }
 .control-round .carousel-control.right>span:nth-child(1){
-    right: -17px;
+       right: -13px;
     position: relative;
+	top:-8px;
 }
 
 

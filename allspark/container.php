@@ -1,101 +1,31 @@
 <?php include('_banner.php'); ?>
 
-	<div class="row whats-happening perspective">
+	<div class="container-fluid" style="padding:0px;">
 
-        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="200">
-        	<div class="spacing">
-		        <span>Processing data from Over</span>
-		        1 BILLION<br> DEVICES <br>in over <br>40 countries
-				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
+			<div class="slider responsive" style="margin-bottom:0px !important">
+                  <div><span class="overlay1"></span><img u="image" alt="Slide 3" src="<?php IMAGE('allspark/bfsi-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay"></span><img u="image" alt="Slide 1" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider" style="z-index:2;"><img src="<?php IMAGE('allspark/retail-icon.png') ;?>" style="width: 58px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">RETAIL</h3></div></div>
+                    <div><span class="overlay2" ></span><img u="image" alt="Slide 2" src="<?php IMAGE('allspark/qsr-bg.png') ;?>" /><div class="content-slider" style="z-index:2;"><img src="<?php IMAGE('allspark/qsr-icon.png') ;?>" style="width: 58px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">QSR</h3></div></div>
+                   
+                    <div><span class="overlay3"></span><img u="image" alt="Slide 4" src="<?php IMAGE('allspark/auto-bg.png') ;?>" /><div class="content-slider" ><img src="<?php IMAGE('allspark/auto-icon.png') ;?>" style="width: 57px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">AUTO</h3></div></div>
+                    <div><span class="overlay3"></span><img u="image" alt="Slide 5" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay3"></span><img u="image" alt="Slide 6" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay3"></span><img u="image" alt="Slide 7" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline; position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay3"></span><img u="image" alt="Slide 8" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+   
+				</div>									
+				
+<button type="button" class="slick-prev">Previous</button>
+   <button type="button" class="slick-next">Next</button>
+</div>
 
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
-				</span>
-	        </div>
-
-        </div>
-        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="400">
-        	<div class="spacing">
-		        <span>Globally recognised by</span>
-		        <ul class="nav nav-tabs awards" role="tablist">
-		        <li role="presentation" class="active"><a href="#gartner" role="tab" data-toggle="tab">Gartner,</a></li>
-		        <li role="presentation"><a href="#forrester" role="tab" data-toggle="tab">Forrester,</a></li>
-		        <li role="presentation"><a href="#frost" role="tab" data-toggle="tab">Frost & <br> Sullivan</a> </li>
-		        </ul>
-		        <span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<div class="wobble"  style="animation-delay:3s;"><i class="icon ion-arrow-right-c "></i></div>
-				</span>
-	        </div>
-        </div>
-        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="600">
-        	<div class="spacing tab-content " style="height: 100%; text-align: center;">
-        		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?php IMAGE('award_logo/bg1.png') ;?>');">
-        			<span class="gradient"></span>
-        			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/gartner.png'); ?>">
-		        		<span>COOL vendor in</span>
-		        		consumer dynamics
-	        		</div>
-        		</div>
-        		<div role="tabpanel" class="center tab-pane fade awards-content" id="forrester" style="background:url('<?php IMAGE('award_logo/bg2.png') ;?> ');">
-        			<span class="gradient"></span>
-        			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/forrester.png'); ?>">
-		        		<span>COOL vendor in</span>
-		        		consumer dynamics
-	        		</div>
-        		</div>
-        		<div role="tabpanel" class="center tab-pane fade awards-content" id="frost" style="background:url('<?php IMAGE('award_logo/bg3.png');?>');">
-        			<span class="gradient"></span>
-        			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/frost-and-sullivan.png') ;?>">
-		        		<span>COOL vendor in</span>
-		        		consumer dynamics
-	        		</div>
-        		</div>
-        	</div>
-        	
-        </div>
-        <?php include('../includes/_whats-new.php'); ?>
-        </div>
-    </div>
+	
+  
 
     <div class="container spacing_margin text-center">
     <div class="row">
-    	<h1 data-aos="fade-zoom-in" data-aos-delay="200">TRUSTED BY WORLD’S BEST</h1>
-    	<h2 data-aos="fade-zoom-in" data-aos-delay="400">1 in 5 Forbes Top 100 brands use Near</h2>
+    	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="text-transform:none;">THE FIRST OF ITS KIND SaaS PRODUCT</h1>
+    	<h2 data-aos="fade-zoom-in" data-aos-delay="400">for Data-Driven Decisions with</h2>
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
     	<div class="brand_tabs"  data-aos="fade-up" data-aos-delay="800">
 	    	<ul class="nav nav-tabs " role="tablist">
