@@ -1768,7 +1768,55 @@ footer .spacing_margin{
 .responsive span.overlay1,.responsive span.overlay2{ width: 100%; height: 100%; background: rgba(68,68,68,0.5); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}
 .responsive span.overlay3{ width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}
 .responsive div.content-slider {position: absolute; width:100%; height:100%; display: inline-block; text-align: center;top:50%; color:#fff;}
-
+.icons svg{ display: block;  margin: 0 auto;  width: 69px;  height: 69px; }
+.fingerprint path{fill:rgba(226, 30, 39, 0.35); -webkit-animation: dash1 2s linear alternate forwards;}
+.icons sup{font-size:14px;}
+ path {
+  stroke-dasharray: 700;
+  fill: none;
+  stroke-width: 1;
+  stroke: #e21e27;
+  stroke-dashoffset: 700;
+  -webkit-animation: dash 2s linear alternate forwards;
+}
+@-webkit-keyframes dash1 {
+  0% {
+    fill: transparent;
+    stroke: #e21e27;
+    stroke-dashoffset: 700;
+  }
+  80% {
+    fill: transparent;
+  }
+  90% {
+    stroke-width: 1;
+  }
+  100% {
+   fill:rgba(226, 30, 39, 0.35);
+    stroke: #e21e27;
+    stroke-dashoffset: 0;
+    stroke-width: 0;
+  }
+}
+@-webkit-keyframes dash {
+  0% {
+    fill: transparent;
+    stroke: #e21e27;
+    stroke-dashoffset: 700;
+  }
+  80% {
+    fill: transparent;
+  }
+  90% {
+    stroke-width: 1;
+  }
+  100% {
+    fill: #e21e27;
+    stroke: #e21e27;
+    stroke-dashoffset: 0;
+    stroke-width: 0;
+  }
+}
 
 @media (max-width: 768px){
 	.navbar-nav {display:none;}
