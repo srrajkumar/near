@@ -603,11 +603,3 @@ function blink(){
 }
 
 blink();
-
-
-$(document).ready(function() {
-    $('#myCarousel').carousel({
-      interval: 10000
-  })
-});
-
