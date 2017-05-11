@@ -13,8 +13,8 @@ $meta_keywords="";
 <head>
 	<?php include('../includes/_head.php'); ?>
     <style type="text/css">
-    .near-logo{fill:#ffffff;}
-    .a-logo{fill:#ED1C24;}
+    .navbar-brand .near-logo{fill:#ffffff !important;}
+    .navbar-brand .a-logo{fill:#ffffff !important;}
     .navbar .nav ul li a, .banner-content span:nth-child(6){
         color: #fff;
     }
@@ -22,7 +22,7 @@ $meta_keywords="";
         background:#fff;
     }
     .banner-content span {
-    color: #fff;
+    color: #fff !important;
     text-transform: uppercase;
     font-size: 65px;
     font-weight: 200;

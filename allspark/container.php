@@ -246,7 +246,7 @@
     	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
     	
-			<div class="allspark-slider responsive1" style="margin-bottom:0px !important">
+			<div class="allspark-slider responsive1" style="margin-bottom:0px !important; margin-top: 30px;">
 			
 			<div><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" u="image" alt /><div class=" allspark-content"><h3>Audience Curation</h3><p>Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Phasellus velit purus.</p></div></div>
@@ -263,9 +263,11 @@ adipiscing elit. Phasellus velit purus.</p></div></div>
 
 
 <div class="container spacing_margin text-center">
-    <div class="row">
-    	<h1 data-aos="fade-zoom-in" data-aos-delay="200">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span></h1>
+    
+    	<h1 data-aos="fade-zoom-in" data-aos-delay="200">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span><a href="#" class="button button--primary button--rounded users">Setup a demo</a></h1>
+       
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
+      <div class="row">
     	<div class="brand_tabs"  data-aos="fade-up" data-aos-delay="800">
 	    	<ul class="nav nav-tabs " role="tablist">
 			    <li role="presentation" class="active"><a href="#auto" role="tab" data-toggle="tab">AUTO</a></li>

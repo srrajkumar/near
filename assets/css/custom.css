@@ -218,15 +218,16 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     line-height: 64px;
 }
 .banner-content span.blue{
-    font-size: 62px;
-    color: #44aacc;
+    font-size: 52px;
+    color: #44aacc !important;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 64px;
 }
-.color-blue{
-  background: #44aacc;
-}
+.allspark-page.banner-content span{font-size: 42px; line-height: 58px;}
+.allspark-page.banner-content span:nth-child(6){font-size:18px !important;}
+.allspark-page #typed,.allspark-page .typed-cursor{font-size:18px !important;}
+.color-blue{background: #44aacc !important;}
 .row h1, .row h2{width:100%;}
 .whats-happening .col-sm-6.whats-new .kroll{
     margin-top: -5px;
@@ -1885,7 +1886,7 @@ footer .spacing_margin{
 .responsive span.overlay3{ width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}
 .responsive div.content-slider {position: absolute; width:100%; height:100%; display: inline-block; text-align: center;top:50%; color:#fff;}
 .icons svg{ display: block;  margin: 0 auto;  width: 69px;  height: 69px; }
-svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s linear alternate forwards;}
+.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s linear alternate forwards;}
 .icons sup{font-size:14px;}
  .icons path {
   stroke-dasharray: 700;

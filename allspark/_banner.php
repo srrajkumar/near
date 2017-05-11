@@ -50,12 +50,12 @@
 </div>
 	</div>
 	<div class="banner-space container"></div>
-	<div class="container banner-content">
+	<div class="container banner-content allspark-page">
     <div><span><img src="<?php IMAGE('allspark-logo.png'); ?>" /></span></div>
   	<div><span>The World's most</span></div>
   	<div><span class="blue">Intuitive real-time</span></div>
   	<div><span>audience product</span></div>
-  	<div class="line_break" class="color-blue"></div>
+  	<div class="line_break color-blue"></div>
     <span class="line-2">Get started with Allspark for <br class="add">
       <div id="typed-strings" class="type">
           <span>Wifi</span>
@@ -66,6 +66,7 @@
     </span>
     <div style="clear: both"></div>
   	<a href="#" class=" hp-cta-video_transparent " style="margin-top: 20px;">Play Video</a>
+    <a href="#" class="button button--primary button--rounded">Setup a demo</a>
 	</div>
 		
 	<div class="mouse"></div>

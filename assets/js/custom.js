@@ -416,6 +416,7 @@ $('.responsive1').slick({
    
   ]
 });
+
 jQuery(document).ready(function($){
 	//create the slider
 	$('.cd-testimonials-wrapper').flexslider({
