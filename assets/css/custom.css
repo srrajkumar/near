@@ -1,5 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .anim-imag .icon-div{
@@ -44,50 +45,72 @@ body{
     display: inherit;
 }
 .anim-imag .icon-div .icon.one{
-    top: 72%;
+    top: 42%;
     left: 30%;
     -webkit-animation-name: Floating2;
     -webkit-animation-duration: 7.5s;
 }
 .anim-imag .icon-div .icon.two{
-    top: 42%;
+    top: 32%;
     left: 40%;
     -webkit-animation-name: Floating3;
     -webkit-animation-duration: 8s;
 }
 .anim-imag .icon-div .icon.three{
-    top: 14%;
+    top: 18%;
     left: 60%;
     -webkit-animation-duration: 5.7s;
 }
 .anim-imag .icon-div .icon.four{
-    top: 28%;
-    left: 78%;
+    top: 25%;
+    left: 80%;
     -webkit-animation-name: Floating2;
     -webkit-animation-duration: 9.3s;
 }
 .anim-imag .icon-div .icon.five{
-    top: 42%;
+    top: 34%;
     left: 90%;
     -webkit-animation-name: Floating3;
     -webkit-animation-duration: 8.4s;
 }
 .anim-imag .icon-div .icon.six{
-    top: 42%;
-    left: 58%;
+    top: 35%;
+    left: 59%;
     -webkit-animation-duration: 4.9s;
 }
 .anim-imag .icon-div .icon.seven{
-    top: 84%;
-    left: 48%;
+    top: 50%;
+    left: 44%;
     -webkit-animation-name: Floating2;
     -webkit-animation-duration: 8.5s;
 }
 .anim-imag .icon-div .icon.eight{
-    top: 74%;
+    top: 44%;
     left: 74%;
     background-color: transparent !important;
     -webkit-animation-name: Floating4;
+}
+.spin{
+    animation: spin 120s linear 0s infinite reverse;
+    -moz-animation: 120s linear 0s reverse none infinite spin;
+    -webkit-animation: spin 120s linear 0s infinite reverse;
+    -0-animation: spin 120s linear 0s infinite reverse;
+}
+@keyframes spin {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(360deg); }
+    100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+    0% {-webkit-transform: rotate(360deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+@-o-keyframes spin {
+    0% { -o-transform: rotate(360deg); }
+    100% { -o-transform: rotate(0deg); }
 }
 
 a:hover,a:focus{text-decoration:none; outline:none;}
@@ -167,11 +190,11 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     margin-bottom: 60px;
 }
 .anim-imag{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 1020px;
-    height: 828px;
+        position: absolute;
+    right: 0px;
+    top: -50px;
+    width: 1130px;
+    height: 1009px;
     overflow: hidden;
     z-index: 3;
 }
@@ -1732,6 +1755,8 @@ footer .spacing_margin{
 .perspective {
   -webkit-perspective: 1000px;
           perspective: 1000px;
+          position: relative;
+          z-index: 99;
 }
 [data-aos="3dflip"] {
   -webkit-transition-duration: .7s;
@@ -1826,9 +1851,10 @@ footer .spacing_margin{
   text-indent: 0px;
 }
 
-.anim-particles{width:800px;position:absolute; bottom:-140px; }
+.anim-particles{position:absolute;     right: -330px;
+    bottom: -410px; }
 
-#circle{position: absolute;bottom: -10px;left: 100px;}
+#circle{position: absolute; bottom: -400px;right: -400px;}
 
 
 /*@keyframes blink {
@@ -1861,7 +1887,7 @@ footer .spacing_margin{
 .icons svg{ display: block;  margin: 0 auto;  width: 69px;  height: 69px; }
 .fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s linear alternate forwards;}
 .icons sup{font-size:14px;}
- path {
+ .icons path {
   stroke-dasharray: 700;
   fill: none;
   stroke-width: 1;
