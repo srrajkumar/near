@@ -1,5 +1,5 @@
 <div id="particles-js" class="col-lg-12 brj k" style="background-color: #031428; ">
-	<div class="anim-imag">
+	<div class="anim-imag anim1">
     <div class="round_animate_wrap">
     <div class="carsousel-banner">
 
