@@ -87,7 +87,7 @@
     		<div class="col-sm-3">
     			<div class="icons">
 	<svg id="gloabl-places" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.6 409.6">
-  <title>gloabal-places</title>
+  <title>global-places</title>
   <path d="M346.54,193.48a36.65,36.65,0,1,0-36.65-36.65,36.69,36.69,0,0,0,36.65,36.65Zm0-60.36a23.71,23.71,0,1,1-23.71,23.71,23.74,23.74,0,0,1,23.71-23.71Zm0,0" transform="translate(-51.2 -51.2)" style="fill:#e21e27"/>
   <path d="M419.84,288.34H404.75V263.28a58.23,58.23,0,0,0-75.27-55.66,79.8,79.8,0,0,0-68.75-39.37h-9.46A79.81,79.81,0,0,0,181.74,209a6.5,6.5,0,0,0-1.19-.57,58.23,58.23,0,0,0-77.61,54.89v25.06H92.16a41,41,0,1,0,0,81.92h75.91a97.18,97.18,0,0,0,81.46,55.83v28.25a6.47,6.47,0,0,0,12.93,0V426.09a97.19,97.19,0,0,0,81.46-55.83h75.91a41,41,0,1,0,0-81.92ZM184.44,248a66.91,66.91,0,0,1,66.83-66.83h9.46A66.91,66.91,0,0,1,327.56,248v15.86a96.81,96.81,0,0,0-65.09-31.36V204.26a6.47,6.47,0,0,0-12.94,0v28.25a96.82,96.82,0,0,0-65.09,31.36Zm155.39,74.83H322.51a66.94,66.94,0,0,0-60-60V245.47a84.22,84.22,0,0,1,77.36,77.36Zm-90.3-77.36v17.32a66.94,66.94,0,0,0-60,60H172.17a84.2,84.2,0,0,1,77.36-77.36ZM92.16,357.32a28,28,0,1,1,0-56.05h10.78v21.56H94.32a6.47,6.47,0,1,0,0,12.93h64.89a96.32,96.32,0,0,0,3.91,21.56Zm79.35-75.64a96.33,96.33,0,0,0-12.3,41.15H115.87V263.28a45.3,45.3,0,0,1,60.36-42.69l.12,0A79.42,79.42,0,0,0,171.5,248v33.68Zm78,131.45a84.21,84.21,0,0,1-77.36-77.36h17.32a66.94,66.94,0,0,0,60,60ZM256,370.26a6.47,6.47,0,0,0-6.47,6.46v6.07a54,54,0,0,1-47-47h3.91a6.47,6.47,0,0,0,0-12.93h-3.91a54,54,0,0,1,47-47v6.06a6.47,6.47,0,1,0,12.93,0v-6.06a54,54,0,0,1,47,47h-3.91a6.47,6.47,0,1,0,0,12.93h3.91a54,54,0,0,1-47,47v-6.07a6.47,6.47,0,0,0-6.46-6.46Zm6.46,42.87V395.81a66.93,66.93,0,0,0,60-60h17.32a84.21,84.21,0,0,1-77.36,77.36Zm78-131.45V248a79.39,79.39,0,0,0-5.29-28.56,45.3,45.3,0,0,1,56.61,43.84v59.55h-39a96.38,96.38,0,0,0-12.3-41.15Zm79.35,75.64h-71a96.32,96.32,0,0,0,3.91-21.55h64.89a6.47,6.47,0,1,0,0-12.94H404.75V301.28h15.09a28,28,0,0,1,0,56Zm0,0" transform="translate(-51.2 -51.2)" style="fill:#e21e27"/>
   <path d="M256,155.17a52,52,0,1,0-52-52,52,52,0,0,0,52,52Zm0-91a39,39,0,1,1-39,39,39.09,39.09,0,0,1,39-39Zm0,0" transform="translate(-51.2 -51.2)" style="fill:#e21e27"/>
@@ -241,17 +241,21 @@
 
 
 <?php include('_client-testimonials.php'); ?>
-<div class="container-fluid spacing_margin text-center allspark-content">
+<div class="container-fluid spacing_margin text-center">
   
     	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
     	
 			<div class="allspark-slider responsive1" style="margin-bottom:0px !important">
 			
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-			<div>4</div>
+			<div><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" u="image" alt /><div class=" allspark-content"><h3>Audience Curation</h3><p>Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Phasellus velit purus.</p></div></div>
+			<div><img src="<?php IMAGE('allspark/media-planning.png'); ?>" u="image" alt /><div class=" allspark-content"><h3>Media Planning</h3><p>Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Phasellus velit purus.</p></div></div>
+			<div><img src="<?php IMAGE('allspark/out-of-home-analytics.png'); ?>" u="image" alt /><div class=" allspark-content"><h3>Out-of-Home Analytics</h3><p>Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Phasellus velit purus.</p></div></div>
+			<div><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" u="image" alt /><div class=" allspark-content"><h3>Audience Curation</h3><p>Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Phasellus velit purus.</p></div></div>
 			</div>
 
 	
