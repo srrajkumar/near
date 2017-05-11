@@ -4,7 +4,9 @@
 
 			<div class="slider responsive" style="margin-bottom:0px !important">
                   <div><span class="overlay1"></span><img u="image" alt="Slide 3" src="<?php IMAGE('allspark/bfsi-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                   
                     <div><span class="overlay"></span><img u="image" alt="Slide 1" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider" style="z-index:2;"><img src="<?php IMAGE('allspark/retail-icon.png') ;?>" style="width: 58px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">RETAIL</h3></div></div>
+                    
                     <div><span class="overlay2" ></span><img u="image" alt="Slide 2" src="<?php IMAGE('allspark/qsr-bg.png') ;?>" /><div class="content-slider" style="z-index:2;"><img src="<?php IMAGE('allspark/qsr-icon.png') ;?>" style="width: 58px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">QSR</h3></div></div>
                    
                     <div><span class="overlay3"></span><img u="image" alt="Slide 4" src="<?php IMAGE('allspark/auto-bg.png') ;?>" /><div class="content-slider" ><img src="<?php IMAGE('allspark/auto-icon.png') ;?>" style="width: 57px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">AUTO</h3></div></div>
