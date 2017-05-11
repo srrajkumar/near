@@ -9,7 +9,9 @@
 			<canvas width="1280" height="1280" id="buffer"></canvas>
 			<canvas width="1280" height="2560" id="output"></canvas>
 		</div-->
-    
+    <div style="width:600px;">
+      <?php include('includes/graph-animation.php'); ?>
+    </div>
       <span class="icon one"><img src="<?php IMAGE('icon1.png') ?>" /></span>
       <span class="icon two"><img src="<?php IMAGE('icon2.png') ?>" /></span>
       <span class="icon three"><img src="<?php IMAGE('icon3.png') ?>" /></span>
@@ -18,7 +20,7 @@
       <span class="icon six"><img src="<?php IMAGE('icon6.png') ?>" /></span>
       <span class="icon seven"><img src="<?php IMAGE('icon7.png') ?>" /></span>
       <span class="icon eight"><img src="<?php IMAGE('near-logo-alpha.png') ?>" /></span>
-      <img src="<?php VIDEO('banner/graph.png') ?>" style="opacity: 0.5" />
+     
     </div>
 	</div>
 		<div class="banner-space container"></div>
@@ -40,50 +42,8 @@
 		</div>
 		
 		<div class="mouse"></div>
-		<div class="anim-particles">
+		<!--<div class="anim-particles">
       <canvas id="canvas" width="800" height="600"></canvas>
      <canvas id="circle" width="600" height="600"></canvas>
-   </div>
+   </div>-->
 	</div>
-<style type="text/css">
-	#buffer{
-		display: none;
-	}
-</style>
-	<script type="text/javascript">
-(function(){
-      var outputCanvas = document.getElementById('output'),
-        output = outputCanvas.getContext('2d'),
-        bufferCanvas = document.getElementById('buffer'),
-        buffer = bufferCanvas.getContext('2d'),
-        video = document.getElementById('video'),
-        width = outputCanvas.width,
-        height = outputCanvas.height,
-        interval;
-        
-      function processFrame() {
-        buffer.drawImage(video, 0, 0);
-        
-        // this can be done without alphaData, except in Firefox which doesn't like it when image is bigger than the canvas
-        var image = buffer.getImageData(0, 0, width, height),
-          imageData = image.data,
-          alphaData = buffer.getImageData(0, height, width, height).data;
-        
-        for (var i = 3, len = imageData.length; i < len; i = i + 4) {
-          imageData[i] = alphaData[i-1];
-        }
-        
-        output.putImageData(image, 0, 0, 0, 0, width, height);
-      }
-      
-      video.addEventListener('play', function() {
-        clearInterval(interval);
-        interval = setInterval(processFrame, 40)
-      }, false);
-      
-      // Firefox doesn't support looping video, so we emulate it this way
-      video.addEventListener('ended', function() {
-        video.play();
-      }, false);
-    })();
-	</script>

@@ -8,4 +8,6 @@
 <script src="<?php JS('typed.js'); ?>"></script>
 <script src="<?php JS('particles.js'); ?>"></script>
 <script src="<?php JS('aos.js'); ?>"></script>
+<script src="<?php JS('masonry.pkgd.min.js'); ?>"></script>
+	<script src="<?php JS('jquery.flexslider-min.js'); ?>"></script>
 <script src="<?php JS('custom.js'); ?>"></script>
