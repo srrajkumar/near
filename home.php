@@ -260,6 +260,7 @@
 
 <div class="row whats-happening research_container perspective">
         <div class="col-sm-6 col-md-3 whats-new color-blue-bg use-cases"  data-aos="3dflip" data-aos-delay="200">
+        
         	<div class="spacing">
 		        USE CASES
 		        <div class="color-red">NEAR</div>

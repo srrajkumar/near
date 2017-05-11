@@ -732,14 +732,24 @@ window.onload = function () {
 
 
 function blink(){
-    $('.map-dots').eq(Math.round(Math.random() * (50 * 1) + 25))
-    .fadeOut(2000)
-    .fadeIn(2000);
-    
-    setTimeout(blink,50);
+    $('.map-dots').eq(Math.round(Math.random() * 100) + 1)
+    .fadeOut(1000)
+    .fadeIn(1000);
+    setTimeout(blink,5);
 }
-
+function blink2(){
+    $('.map-dots').eq(Math.round(Math.random() * 255) + 1)
+    .fadeOut(500)
+    .fadeIn(500);
+    setTimeout(blink,7);
+}
+function blink3(){
+    $('.map-dots').eq(Math.round(Math.random() * 200) + 1)
+    .fadeOut(300)
+    .fadeIn(300);
+    setTimeout(blink,10);
+}
 blink();
-
-
+blink2();
+blink3();
 
