@@ -1,4 +1,4 @@
-<div id="particles-js" class="col-lg-12 brj k" style="background-image:url('<?php IMAGE('banner.jpg'); ?>'); ">
+<div id="particles-js" class="col-lg-12 brj k" style="background-image:url('<?php IMAGE('banner.jpg'); ?>'); overflow: hidden; ">
 <!--tyle="background-image:url('<?#php IMAGE('anim-imag1.png'); ?>"-->
 	<div class="anim-imag">
     <div class="icon-div">
@@ -9,9 +9,6 @@
 			<canvas width="1280" height="1280" id="buffer"></canvas>
 			<canvas width="1280" height="2560" id="output"></canvas>
 		</div-->
-    <div style="width:600px;">
-      <?php include('includes/graph-animation.php'); ?>
-    </div>
       <span class="icon one"><img src="<?php IMAGE('icon1.png') ?>" /></span>
       <span class="icon two"><img src="<?php IMAGE('icon2.png') ?>" /></span>
       <span class="icon three"><img src="<?php IMAGE('icon3.png') ?>" /></span>
@@ -20,7 +17,7 @@
       <span class="icon six"><img src="<?php IMAGE('icon6.png') ?>" /></span>
       <span class="icon seven"><img src="<?php IMAGE('icon7.png') ?>" /></span>
       <span class="icon eight"><img src="<?php IMAGE('near-logo-alpha.png') ?>" /></span>
-     
+      <img src="<?php IMAGE('spin.png') ?>" class="spin" style="opacity: 0.7" />
     </div>
 	</div>
 		<div class="banner-space container"></div>
@@ -42,8 +39,10 @@
 		</div>
 		
 		<div class="mouse"></div>
-		<!--<div class="anim-particles">
-      <canvas id="canvas" width="800" height="600"></canvas>
+
+
+		<div class="anim-particles">
+      <canvas id="canvas" width="1200" height="1200"></canvas>
      <canvas id="circle" width="600" height="600"></canvas>
-   </div>-->
+   </div>
 	</div>
