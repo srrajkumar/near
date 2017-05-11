@@ -389,7 +389,7 @@ var angle = function angle(p1, p2) {
 
 ctx.strokeStyle = "rgba(140,211,255,1)";
 ctx.fillStyle = "rgba(232,137,118,1)";
-ctx.lineWidth = 0.5;
+ctx.lineWidth = 2;
 
 var Particle = function () {
   function Particle(x, y, life, angle, speed) {
@@ -439,17 +439,17 @@ var Particle = function () {
 var particles = [];
 
 setInterval(function () {
-  if (particles.length < 500) {
+  if (particles.length < 1500) {
     var particleCount = 30 + 60 * Math.random();
     var speed = -1 + Math.random() * 2;
     var group = 'middle' + Math.random();
-    var r = 160 + Math.random()* 260;
+    var r = 260 + Math.random()* 360;
 
-    if (r > 200) {
+    if (r > 400) {
       speed = 1 * Math.random();
     }
 
-    if (r < 200) {
+    if (r < 400) {
       speed = -1 * Math.random();
     }
 
@@ -575,8 +575,8 @@ var Circle = (function () {
         this.canvas = document.getElementById('circle');
         this.ctx = this.canvas.getContext('2d');
         this.particles = [];
-      	this.ratio = window.innerHeight < 400 ? 0.6 : 1;
-        this.r = 250;
+        this.ratio = window.innerHeight < 400 ? 0.6 : 1;
+        this.r = 1250;
         this.counter = 0;
     }
     Circle.prototype.init = function () {
@@ -585,12 +585,12 @@ var Circle = (function () {
     };
     Circle.prototype.createElement = function () {
         var scale = this.ratio;
-        this.canvas.width = 600;
-        this.canvas.height =600;
+        this.canvas.width = 1200;
+        this.canvas.height =1200;
         this.canvas.style.background = 'transparent';
         this.ctx.transform(scale, 0, 0, -scale, this.canvas.width / 2, this.canvas.height / 2);
         document.body.appendChild(this.canvas);
-        for (var i = 0; i < 100; i++) {
+        for (var i = 0; i < 1000; i++) {
             this.createParticle();
         }
     };
@@ -602,7 +602,7 @@ var Circle = (function () {
             y: Math.sin(Math.random() * 7 + Math.PI) * this.r,
             ring: Math.random() * this.r,
             move: ((Math.random() * 3) + 1) / 500000,
-            random: Math.random() * 190
+            random: Math.random() * 1190
         });
     };
     Circle.prototype.moveParticle = function (p) {
@@ -643,8 +643,8 @@ var Circle = (function () {
     return Circle;
 })();
 window.onload = function () {
-		var canvas = new Circle();
-		canvas.init();
+    var canvas = new Circle();
+    canvas.init();
 };
 
 
