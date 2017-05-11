@@ -1,6 +1,6 @@
 <nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?php echo SITE_URL; ?>">
      
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
         <polygon class="near-logo" points="447.4,126.7 451,126.7 451,136.4 452.6,136.4 452.6,126.7 456.2,126.7 456.2,125.2 447.4,125.2 "></polygon>
@@ -25,7 +25,7 @@
     <div class="nav nav-pills float-right">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Allspark</a>
+          <a class="nav-link" href="<?php echo SITE_URL; ?>allspark">Allspark</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">The Data</a>

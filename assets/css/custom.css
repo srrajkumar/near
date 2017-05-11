@@ -2054,12 +2054,13 @@ svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s li
 	.list-unstyled.s-header__nav-menu.col-lg-4{padding-right:60px;}
 	.s-header__action--lb,.s-header__action--rb{bottom: 0.875rem !important;}
 	.s--header__action--rb{right: 0.5em !important;}
-	.s-header__trigger{top: 8px !important;    left: 20px !important;}
+	.s-header__trigger{top: 8px !important;    left: 5px !important;}
 	.banner-content span{font-size:24px; line-height: 28px;}
 	.banner-content span.red{font-size:34px; line-height: 38px;}
 	.k{padding: 30px 20px;}
 	.shrink .navbar-brand svg{padding-top:10px;}
 	.navbar.shrink{  height:65px;  padding: 0rem 1rem;}
+    #platform_leverage .platform-image object{top:30%;}
 	
 	h1{font-size:22px !important;} h2{font-size:20px !important;}
 	#auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img {
@@ -2089,6 +2090,7 @@ h2 {font-size: 16px !important;}
 }
 
 @media (max-width:575px){
+    .research_container .col-sm-6:nth-child(3):before{opacity: 0!important;}
 	.whats-happening .col-sm-6:nth-child(3):before{left: calc(50% - 20px); top: -15px; transform: rotate(90deg); -webkit-transform:rotate(90deg); } 
 .banner-content span{font-size:20px; line-height: 28px;}
 	.banner-content span.red{font-size:30px; line-height: 38px;}
@@ -2096,6 +2098,7 @@ h2 {font-size: 16px !important;}
 	.footer-links p{text-align: center;}
 	.footer hr{margin-top: 0px;}
 	.life{display:none;}
+
 }
 @media(min-width:575px) and (max-width:1200px){.research .col-sm-3{max-width: 50% !important; flex: 0 0 50% !important; padding: 0px 15px !important;} .whats-happening .col-sm-6:nth-child(3):before{display:none;}}
 @media(min-width:640px) and (max-width:1250px){.col-sm-6{max-width: 50% !important; flex: 0 0 50% !important;}.whats-happening .col-sm-6:nth-child(3):before{display:none;}}
@@ -2149,9 +2152,17 @@ span.mobile{display:block;}
 	.whats-happening .col-sm-6:after {opacity: 0.2;}
 		.effect.effect-1 {text-indent: -20px; color: #fff;}
 	.effect.effect-1:before {opacity: 1; text-indent: 0px;}
+    .research_container .col-sm-6:before {
+    background-color: #000000 !important;
+    opacity: 0.7 !important;
+}
+.research-container .col-sm-6:nth-child(3):before{display:none !important;}
+.research_container .col-sm-6:nth-child(3):after{background: #000000 !important;opacity: 0.7 !important;
+}
 }
 @media (max-width:1100px){.brj{height:100% !important}.research a .description { -webkit-transform: translate(69px, 40px);-moz-transform: translate(69px, 40px); transform: translate(69px, 40px);}
-	.research a .title, .research a figure p {-webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px);transform: translate(0, -50px);} .research .description{left:-68px;background:#ffffff;} .research .description .button-icon-animate{left:15px;} footer .row{width:100%;} .anim-img, .anim-particles, #circle, #output{display:none;}}
+	.research a .title, .research a figure p {-webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px);transform: translate(0, -50px);} .research .description{left:-68px;background:#ffffff;} .research .description .button-icon-animate{left:15px;} footer .row{width:100%;} .anim-imag, .anim-particles, #circle{display:none;}
+}
 
 @media (min-width:1201px) and (max-width:1342px){.whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 28px;}}
 
