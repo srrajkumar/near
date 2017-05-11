@@ -1,6 +1,95 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+.anim-imag .icon-div{
+    position: relative;
+}
+.anim-imag .icon-div .icon{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgba(233, 38, 45, 0.8);
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    -webkit-animation-name: Floating;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(20px, 15px);}
+    to {-webkit-transform: translate(-0px, -0px);    }    
+}
+
+@-webkit-keyframes Floating2{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(-20px, 15px);}
+    to {-webkit-transform: translate(-0px, -0px);    }    
+}
+
+@-webkit-keyframes Floating3{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(10px, -10px);}
+    to {-webkit-transform: translate(-0px, -0px);    }    
+}
+@-webkit-keyframes Floating4{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0px, 0px);}
+    to {-webkit-transform: translate(-0px, -0px);    }    
+}
+.anim-imag .icon-div .icon img{
+    display: inherit;
+}
+.anim-imag .icon-div .icon.one{
+    top: 72%;
+    left: 30%;
+    -webkit-animation-name: Floating2;
+    -webkit-animation-duration: 7.5s;
+}
+.anim-imag .icon-div .icon.two{
+    top: 42%;
+    left: 40%;
+    -webkit-animation-name: Floating3;
+    -webkit-animation-duration: 8s;
+}
+.anim-imag .icon-div .icon.three{
+    top: 14%;
+    left: 60%;
+    -webkit-animation-duration: 5.7s;
+}
+.anim-imag .icon-div .icon.four{
+    top: 28%;
+    left: 78%;
+    -webkit-animation-name: Floating2;
+    -webkit-animation-duration: 9.3s;
+}
+.anim-imag .icon-div .icon.five{
+    top: 42%;
+    left: 90%;
+    -webkit-animation-name: Floating3;
+    -webkit-animation-duration: 8.4s;
+}
+.anim-imag .icon-div .icon.six{
+    top: 42%;
+    left: 58%;
+    -webkit-animation-duration: 4.9s;
+}
+.anim-imag .icon-div .icon.seven{
+    top: 84%;
+    left: 48%;
+    -webkit-animation-name: Floating2;
+    -webkit-animation-duration: 8.5s;
+}
+.anim-imag .icon-div .icon.eight{
+    top: 74%;
+    left: 74%;
+    background-color: transparent !important;
+    -webkit-animation-name: Floating4;
+}
+
 a:hover,a:focus{text-decoration:none; outline:none;}
 .particles-js-canvas-el{
     position: absolute;
@@ -82,7 +171,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     right: 0;
     bottom: 0;
     width: 1020px;
-    height: 878px;
+    height: 828px;
     overflow: hidden;
     z-index: 3;
 }

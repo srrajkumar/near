@@ -1,13 +1,25 @@
 <div id="particles-js" class="col-lg-12 brj k" style="background-image:url('<?php IMAGE('banner.jpg'); ?>'); ">
 <!--tyle="background-image:url('<?#php IMAGE('anim-imag1.png'); ?>"-->
 	<div class="anim-imag">
-		<div>
+    <div class="icon-div">
+		<!--div>
 			<video id="video" style="display:none" autoplay="" data-video="0">
-				<source src="<?php VIDEO('banner/near.mp4'); ?>" type="video/mp4; codecs=&quot;avc1.42E01E&quot;">
+				<source src="<?#php VIDEO('banner/near.mp4'); ?>" type="video/mp4; codecs=&quot;avc1.42E01E&quot;">
 			</video>
-			<canvas width="1280" height="2560" id="buffer"></canvas>
-			<canvas width="1280" height="1280" id="output"></canvas>
-		</div>
+			<canvas width="1280" height="1280" id="buffer"></canvas>
+			<canvas width="1280" height="2560" id="output"></canvas>
+		</div-->
+    
+      <span class="icon one"><img src="<?php IMAGE('icon1.png') ?>" /></span>
+      <span class="icon two"><img src="<?php IMAGE('icon2.png') ?>" /></span>
+      <span class="icon three"><img src="<?php IMAGE('icon3.png') ?>" /></span>
+      <span class="icon four"><img src="<?php IMAGE('icon4.png') ?>" /></span>
+      <span class="icon five"><img src="<?php IMAGE('icon5.png') ?>" /></span>
+      <span class="icon six"><img src="<?php IMAGE('icon6.png') ?>" /></span>
+      <span class="icon seven"><img src="<?php IMAGE('icon7.png') ?>" /></span>
+      <span class="icon eight"><img src="<?php IMAGE('near-logo-alpha.png') ?>" /></span>
+      <img src="<?php VIDEO('banner/graph.png') ?>" style="opacity: 0.5" />
+    </div>
 	</div>
 		<div class="banner-space container"></div>
 		<div class="container banner-content">
