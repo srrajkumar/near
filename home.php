@@ -208,38 +208,42 @@
 		</div>
    </div>
     </div>
-<div style="padding: 10px; background-color: #f2f3f6;">
+<div id="platform_leverage" style="padding: 10px; background-color: #f2f3f6;">
      <div class="container spacing_margin text-center " >
      
     	<h1 class="bold"  data-aos="fade-up" data-aos-delay="200">The NEAR PLATFORM LEVERAGE</h1>
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
     	<div class="row">
-    	<div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
-    		<img src="<?php IMAGE('img2.png'); ?>" alt="Crossmatrix" class="crossmatrix">
+    	<div class="col-sm-6 platform-image" data-aos="fade-up" data-aos-delay="600">
+    		<img src="<?php IMAGE('spin.png'); ?>" alt="Crossmatrix" class="platform spin2">
+    		<object data="<?php IMAGE('platform_leverage/crossmatrix.svg') ?>" class="crossmatrix active"></object>
+    		<object data="<?php IMAGE('platform_leverage/placematrix.svg') ?>" style="opacity: 0;" class="placematrix"></object>
+    		<object data="<?php IMAGE('platform_leverage/unique_data.svg') ?>" style="opacity: 0;" class="unique_data"></object>
+    		<object data="<?php IMAGE('platform_leverage/accurate_data.svg') ?>" style="opacity: 0;" class="accurate_data"></object>
     	</div>
     	
     	<div class="col-sm-6 platform-leverage"  data-aos="fade-up" data-aos-delay="800">
     		<ul id="accord1" class="accordian">
 			  <li>
-				<header class="accordian-header active"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
+				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
 				<section class="accordian-section" style="display: block;">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
 			  </li>
 			  <li>
-				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Placematrix&trade;</header>
+				<header class="accordian-header" id="placematrix"><i class="ion-plus-round plus-icon"></i> Placematrix&trade;</header>
 				<section class="accordian-section">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
 			  </li>
 			  <li>
-				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
+				<header class="accordian-header" id="unique_data"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
 				<section class="accordian-section">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
 			  </li>
 			   <li>
-				<header class="accordian-header"><i class="ion-plus-round plus-icon"></i> Highly Accurate Data</header>
+				<header class="accordian-header" id="accurate_data"><i class="ion-plus-round plus-icon"></i> Highly Accurate Data</header>
 				<section class="accordian-section">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</section>
@@ -248,51 +252,7 @@
     	</div>
 
 
-    	<div id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="card">
-    <div class="card-header" role="tab" id="headingOne">
-      <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h5>
-    </div>
-
-    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-      <div class="card-block">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingTwo">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="card-block">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingThree">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="card-block">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
+    	
     	</div><!--- row -->
     </div>
 </div>

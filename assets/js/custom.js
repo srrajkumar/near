@@ -177,12 +177,14 @@ function newTyped(){ /* A new typed object */ }
 $.fn.ashCordian = function() {
   
   var container = $(this);
-
+  var fs = $("#platform_leverage");
   container.find('.accordian-header').click(function() {
+    var newClass = $(this).attr("id");
+    fs.find(".active").addClass("anim").removeClass("active");
+    fs.find("." + newClass).addClass('active').removeClass("anim");
     if($(this).siblings('.accordian-section').css('display') == 'block'){
        container.find('.accordian-section').slideUp(300);
        $('.accordian-header').removeClass('active');
-		
     } else {
       container.find('.accordian-section').slideUp(300);	
        $(this).siblings('.accordian-section').slideDown(300);
@@ -191,6 +193,8 @@ $.fn.ashCordian = function() {
     }
   });
 };
+
+
 
 
 $('#accord1').ashCordian();
