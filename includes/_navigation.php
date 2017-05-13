@@ -51,7 +51,7 @@
         <div class="container-fluid row">
           <!-- Menu List -->                                
           <ul class="list-unstyled s-header__nav-menu col-lg-4">
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="#">Allspark</a></li>
+            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="<?php echo SITE_URL; ?>allspark">Allspark</a></li>
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Research</a></li>
           </ul>
           <!-- End Menu List -->

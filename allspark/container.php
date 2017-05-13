@@ -2,22 +2,20 @@
 
 	<div class="container-fluid" style="padding:0px;">
 
-			<div class="slider responsive" style="margin-bottom:0px !important">
+			<div class="slider responsive case-studies" style="margin-bottom:0px !important">
                   <div><span class="overlay1"></span><img u="image" alt="Slide 3" src="<?php IMAGE('allspark/bfsi-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
                    
-                    <div><span class="overlay"></span><img u="image" alt="Slide 1" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider" style="z-index:2;"><img src="<?php IMAGE('allspark/retail-icon.png') ;?>" style="width: 58px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">RETAIL</h3></div></div>
+                    <div><span class="overlay"></span><img u="image" alt="Slide 1" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/retail-icon.png') ;?>" style="width: 58px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">RETAIL</h3></div></div>
                     
-                    <div><span class="overlay2" ></span><img u="image" alt="Slide 2" src="<?php IMAGE('allspark/qsr-bg.png') ;?>" /><div class="content-slider" style="z-index:2;"><img src="<?php IMAGE('allspark/qsr-icon.png') ;?>" style="width: 58px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">QSR</h3></div></div>
+                    <div><span class="overlay2" ></span><img u="image" alt="Slide 2" src="<?php IMAGE('allspark/qsr-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/qsr-icon.png') ;?>" style="width: 58px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">QSR</h3></div></div>
                    
-                    <div><span class="overlay3"></span><img u="image" alt="Slide 4" src="<?php IMAGE('allspark/auto-bg.png') ;?>" /><div class="content-slider" ><img src="<?php IMAGE('allspark/auto-icon.png') ;?>" style="width: 57px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">AUTO</h3></div></div>
-                    <div><span class="overlay3"></span><img u="image" alt="Slide 5" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
-                    <div><span class="overlay3"></span><img u="image" alt="Slide 6" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
-                    <div><span class="overlay3"></span><img u="image" alt="Slide 7" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline; position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
-                    <div><span class="overlay3"></span><img u="image" alt="Slide 8" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay2"></span><img u="image" alt="Slide 4" src="<?php IMAGE('allspark/auto-bg.png') ;?>" /><div class="content-slider" ><img src="<?php IMAGE('allspark/auto-icon.png') ;?>" style="width: 57px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">AUTO</h3></div></div>
+                    <div><span class="overlay2"></span><img u="image" alt="Slide 5" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay2"></span><img u="image" alt="Slide 6" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay2"></span><img u="image" alt="Slide 7" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline; position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay2"></span><img u="image" alt="Slide 8" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
    
 				</div>									
-				
-
 </div>
 
 	
@@ -29,7 +27,7 @@
     	<h2 data-aos="fade-zoom-in" data-aos-delay="400">for Data-Driven Decisions with</h2>
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
     	<div class="row">
-    		<div class="col-sm-3">
+    		<div class="col-sm-3"  data-aos="fade-up" data-aos-delay="800">
     			<div class="icons">
 	<svg id="fingerprint" class="fingerprint" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 304.26 437.46">
   <defs>
@@ -61,7 +59,7 @@
 <p style="text-align: center;color: #e21e27;font-size: 20px; position: relative;top: -20px;">A Branded<br> Product Experience</p>
 </div>
     		</div>
-    		<div class="col-sm-3">
+    		<div class="col-sm-3"  data-aos="fade-up" data-aos-delay="900">
     			<div class="icons">
 	<svg id="svg-circle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <title>circle</title>
@@ -84,7 +82,7 @@
 <p style="text-align: center;color: #e21e27;font-size: 20px; position: relative; top: 10px;">Over a Billion Devices</p>
 </div>
     		</div>
-    		<div class="col-sm-3">
+    		<div class="col-sm-3"  data-aos="fade-up" data-aos-delay="1000">
     			<div class="icons">
 	<svg id="gloabl-places" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.6 409.6">
   <title>global-places</title>
@@ -97,7 +95,7 @@
 <p style="text-align: center;color: #e21e27;font-size: 20px; position: relative; top: 10px;">Global Places</p>
 </div>
     		</div>
-    		<div class="col-sm-3">
+    		<div class="col-sm-3"  data-aos="fade-up" data-aos-delay="1100">
     			<div class="icons">
 	<svg id="placematrix" viewBox="0 0 215.85 215.85" version="1.1" x="0px" y="0px" xml:space="preserve" style="height:100%">
 	<path d="M712.55,417.45a3.6,3.6,0,0,0-7.19,0v7.2a3.6,3.6,0,0,0,7.19,0Zm0,0" transform="translate(-575.85 -277.15)" style="fill:#ec222b"/>
@@ -154,7 +152,7 @@
     		
     	</div>
 		<div class="row" style="margin-top: 20px;">
-			<div class="col-sm-3">
+			<div class="col-sm-3"  data-aos="fade-up" data-aos-delay="1200">
     			<div class="icons">
 	<svg id="crossmatrix" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.6 395.2">
   <title>crossmatrix</title>
@@ -165,7 +163,7 @@
 <p style="text-align: center;color: #e21e27;font-size: 20px; position: relative; top: 10px;">CrossMatrix<sup>TM</sup></p>
 </div>
     		</div>
-    		<div class="col-sm-3">
+    		<div class="col-sm-3"  data-aos="fade-up" data-aos-delay="1300">
     			<div class="icons">
 	 <svg id="real-time-audience"   viewBox="0 0 180.53 168.5" version="1.1" x="0px" y="0px" xml:space="preserve" style="height:100%">
 						<style>.st0{stroke-width:2px;}</style>
@@ -186,7 +184,7 @@
 <p style="text-align: center;color: #e21e27;font-size: 20px; position: relative; top: 10px;">Real-time Audience</p>
 </div>
     		</div>
-    		<div class="col-sm-3">
+    		<div class="col-sm-3"  data-aos="fade-up" data-aos-delay="1400">
     			<div class="icons">
 	<svg id="powerful-insights" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 349.87">
   <title>powerful-insights</title>
@@ -210,7 +208,7 @@
 <p style="text-align: center;color: #e21e27;font-size: 20px; position: relative; top: 10px;">Powerful Insights</p>
 </div>
     		</div>
-    		<div class="col-sm-3">
+    		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1500">
     			<div class="icons">
 	<svg id="api-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 397.49 408.8">
   <defs>
