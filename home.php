@@ -238,7 +238,7 @@
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
     	<div class="row">
     	<div class="col-sm-6 platform-image" data-aos="fade-up" data-aos-delay="600">
-    		<img src="<?php IMAGE('spin.png'); ?>" alt="Crossmatrix" class="platform spin2">
+    		<img src="<?php IMAGE('spin-2.png'); ?>" alt="Crossmatrix" class="platform spin2">
     		<object data="<?php IMAGE('platform_leverage/crossmatrix.svg') ?>" class="crossmatrix active"></object>
     		<object data="<?php IMAGE('platform_leverage/placematrix.svg') ?>" style="opacity: 0;" class="placematrix"></object>
     		<object data="<?php IMAGE('platform_leverage/unique_data.svg') ?>" style="opacity: 0;" class="unique_data"></object>

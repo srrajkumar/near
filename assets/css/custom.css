@@ -20,7 +20,7 @@ body{
     -webkit-animation-timing-function: ease-in-out;
 }
 
-@-webkit-keyframes Floating{
+/*@-webkit-keyframes Floating{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(20px, 15px);}
     to {-webkit-transform: translate(-0px, -0px);    }    
@@ -41,7 +41,7 @@ body{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0px, 0px);}
     to {-webkit-transform: translate(-0px, -0px);    }    
-}
+}*/
 .anim-imag .icon-div .icon img{
     display: inherit;
 }
@@ -1989,13 +1989,110 @@ footer .spacing_margin{
 .slider .slick-next,.carousel .slick-next{right:180px; border:1px solid #fff; border-radius:50%;width: 50px; height: 50px;}
 .slider .slick-next:before,.carousel .slick-next:before{content:"\f105";position: absolute; top: 10px;right: 17px; }
 .responsive div{position:relative;}
-.responsive span.overlay{ width: 100%; height: 100%; background: rgba(13,124,177,0.5); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}
+/*.responsive span.overlay{ width: 100%; height: 100%; background: rgba(13,124,177,0.5); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}
 .responsive span.overlay1,.responsive span.overlay2{ width: 100%; height: 100%; background: rgba(68,68,68,0.5); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}
-.responsive span.overlay3{ width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}
-.responsive div.content-slider {position: absolute; width:100%; height:100%; display: inline-block; text-align: center;top:50%; color:#fff;}
+.responsive span.overlay3{ width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}*/
+.responsive div.content-slider {position: absolute; width:100%; display: inline-block; text-align: center;top:42%; color:#fff;}
 .icons svg{ display: block;  margin: 0 auto;  width: 69px;  height: 69px; }
 svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s linear alternate forwards;}
 .icons sup{font-size:14px;}
+.slider .bg{
+    position: relative;
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+    background-size: cover;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    height: 300px;
+}
+.slick-slide::after {
+    background: linear-gradient(to bottom left, #1592cd, #0d7cb1);
+    opacity: 0;
+    transition: 0.3s;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.slick-slide h3{
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: top;
+    margin: 0;
+    margin-top: 10px;
+}
+.slick-slide > span {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.slick-slide:hover:after {
+  opacity: 0.75;
+}
+.case-studies .bg svg {
+  max-width: 40px;
+  stroke: #fff;
+  fill: none;
+  stroke-width: 2px;
+}
+.slick-slide > span {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.slick-slide > span > span {
+  display: block;
+}
+
+.case-studies .bg:hover svg {
+  animation: draw-icon 1s forwards;
+}
+.case-studies .bg:hover[data-title="Website"] svg {
+  stroke-dasharray: 174;
+  stroke-dashoffset: 174;
+}
+.case-studies .bg:hover[data-title="Social"] svg {
+  stroke-dasharray: 172;
+  stroke-dashoffset: 172;
+}
+.case-studies .bg:hover[data-title="Builder"] svg {
+  stroke-dasharray: 172;
+  stroke-dashoffset: 172;
+}
+.case-studies .bg:hover[data-title="Staff"] svg {
+  stroke-dasharray: 132;
+  stroke-dashoffset: 132;
+}
+.case-studies .bg:hover[data-title="Blueprint"] svg {
+  stroke-dasharray: 176;
+  stroke-dashoffset: 176;
+}
+.case-studies .bg:hover[data-title="Get Started"] svg {
+  stroke-dasharray: 51;
+  stroke-dashoffset: 51;
+}
+.case-studies .bg:hover[data-title="Customers"] svg {
+  stroke-dasharray: 182;
+  stroke-dashoffset: 182;
+}
+
+@keyframes draw-icon {
+  2% {
+    stroke: #ff5722;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
  .icons path {
   stroke-dasharray: 700;
   fill: none;

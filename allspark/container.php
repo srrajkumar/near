@@ -1,19 +1,58 @@
 <?php include('_banner.php'); ?>
 
 	<div class="container-fluid" style="padding:0px;">
-
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="53.625px" height="47px" viewBox="0 0 53.625 47" style="enable-background:new 0 0 53.625 47;" xml:space="preserve">
+  <g id="website">
+    <path d="M28.324,32.699h-3.199c-0.441,0-0.801,0.359-0.801,0.801s0.36,0.801,0.801,0.801h3.199   c0.441,0,0.801-0.359,0.801-0.801S28.766,32.699,28.324,32.699z"></path>
+    <path d="M34.926,44.699h-2.602v-6.398h16.801c1.766,0,3.199-1.434,3.199-3.199V4.699c0-1.765-1.434-3.199-3.199-3.199   H4.324c-1.765,0-3.199,1.434-3.199,3.199v30.402c0,1.766,1.434,3.199,3.199,3.199h16.801v6.398h-2.602 M32.727,44.699h-12    M20.727,38.301h12"></path>
+    <path d="M45.926,6.301H7.523c-0.882,0-1.597,0.715-1.597,1.597v20.801c0,0.883,0.715,1.602,1.597,1.602h38.403   c0.883,0,1.598-0.719,1.598-1.602V7.898C47.523,7.016,46.809,6.301,45.926,6.301z"></path>
+  </g>
+  <g id="blueprint">
+    <path d="M43,1.5H5.5c-2.3,0-4.2,1.9-4.2,4.2v37.5c0,2.3,1.9,4.2,4.2,4.2H43c2.3,0,4.2-1.9,4.2-4.2V5.8   C47.2,3.4,45.3,1.5,43,1.5z M1.3,10h46"/>
+    <line x1="38.3" y1="33.9" x2="10.2" y2="33.9"/>
+    <line x1="38.3" y1="26.4" x2="10.2" y2="26.4"/>
+    <line x1="38.3" y1="18.9" x2="10.2" y2="18.9"/>
+  </g>
+  <g id="social">
+    <path d="M19.648,17.801H9.25"/>
+    <path d="M30.051,22.602H9.25"/>
+    <path d="M30.051,27.399H9.25"/>
+    <path d="M44.508,1.055L17.195,1c-2.617,0-4.746,2.129-4.746,4.742v4.102L5.992,9.856c-2.613,0-4.742,2.129-4.742,4.746   v16.91c0,2.617,2.129,4.746,4.742,4.746h4.86v8c0,0.328,0.203,0.625,0.511,0.746c0.094,0.035,0.192,0.055,0.285,0.055   c0.223,0,0.438-0.094,0.594-0.262l7.762-8.543l13.301-0.055c2.617,0,4.746-2.125,4.746-4.742v-0.09l4.207,4.629   c0.156,0.168,0.371,0.262,0.594,0.262c0.094,0,0.191-0.02,0.285-0.055c0.309-0.117,0.512-0.414,0.512-0.746v-8h0.859   c2.613,0,4.742-2.129,4.742-4.742V5.801C49.25,3.184,47.121,1.059,44.508,1.055z M38.051,31.988V14.543   c0-2.613-2.129-4.742-4.746-4.742L12.051,9.84"/>
+  </g>
+  <g id="staff">
+  <path d="M9.5,44.3v-2c0-2,1.1-3.8,2.8-4.7l6.5-3.6c1-0.6,1.7-1.6,1.7-2.8v-2.8l-0.1-0.1c-0.1-0.1-1.9-2.3-2.6-5.3  l-0.1-0.2l-0.2-0.2c-0.5-0.4-0.8-0.9-0.8-1.4v-2.9c0-0.4,0.2-0.9,0.6-1.3l0.1-0.1v-4.6c0,0-0.3-2.1,1.3-3.9c1.4-1.4,3.5-2.1,6.4-2.1  c3,0,5,0.7,6.3,2.2c0.5,0.6,0.9,1.3,1.2,2.2v0.1V17l0.1,0.1c0.4,0.4,0.6,0.8,0.6,1.3v3c0,0.7-0.5,1.4-1.2,1.6l-0.3,0.1l-0.1,0.2  c-0.5,1.5-1.2,3-2.1,4.3c-0.1,0.2-0.3,0.5-0.5,0.6l0,0v3.1c0,0.1,0.3,1.3,0.4,1.3l0.1,0.2c0.1,0.2,1.1,1,1.4,1l7.1,3.5  C40,38.2,41,40,41,42.1v2.2H9.5z"/></g>
+  <g id="builder">
+  <path d="M44.051,21.062l-2.504-0.48c-1.473-0.281-2.68-1.285-3.227-2.684c-0.55-1.394-0.347-2.949,0.543-4.16   l1.571-2.144c0.234-0.317,0.199-0.758-0.082-1.039L36.961,7.16c-0.273-0.269-0.699-0.308-1.016-0.094l-2.109,1.426   c-1.242,0.844-2.805,0.988-4.18,0.387c-1.375-0.598-2.332-1.844-2.562-3.324l-0.403-2.629c-0.062-0.387-0.394-0.676-0.793-0.676   h-4.796c-0.383,0-0.715,0.273-0.79,0.648l-0.621,3.235c-0.277,1.441-1.25,2.637-2.605,3.195c-1.356,0.563-2.891,0.406-4.106-0.414   l-2.726-1.848C9.938,6.852,9.512,6.891,9.242,7.164l-3.394,3.391c-0.282,0.281-0.313,0.722-0.082,1.039l1.57,2.144   c0.891,1.211,1.09,2.766,0.543,4.164c-0.547,1.395-1.754,2.399-3.227,2.68l-2.504,0.484C1.773,21.137,1.5,21.469,1.5,21.852v4.796   c0,0.395,0.289,0.731,0.68,0.793l2.625,0.403c1.484,0.23,2.726,1.183,3.324,2.562c0.601,1.375,0.457,2.938-0.383,4.18l-1.43,2.109   c-0.214,0.317-0.175,0.742,0.098,1.016l3.391,3.394c0.281,0.278,0.722,0.313,1.039,0.079l2.144-1.571   c1.211-0.886,2.766-1.093,4.16-0.543c1.399,0.547,2.403,1.754,2.684,3.227l0.48,2.504c0.075,0.379,0.407,0.648,0.79,0.648h4.796   c0.399,0,0.735-0.289,0.793-0.676l0.282-1.847c0.234-1.52,1.218-2.774,2.636-3.36c1.418-0.586,3-0.394,4.239,0.512l1.507,1.106   c0.317,0.234,0.758,0.199,1.04-0.082l3.39-3.391c0.274-0.274,0.313-0.699,0.098-1.016l-1.43-2.109   c-0.84-1.242-0.984-2.805-0.383-4.18c0.598-1.379,1.84-2.336,3.325-2.562l2.625-0.403c0.39-0.062,0.679-0.398,0.679-0.793v-4.796   C44.699,21.469,44.43,21.137,44.051,21.062L44.051,21.062z M43.102,25.965"/>
+  <path  d="M23.5,15.852c-4.633,0-8.398,3.765-8.398,8.398s3.765,8.398,8.398,8.398c4.633,0,8.398-3.765,8.398-8.398   S28.133,15.852,23.5,15.852L23.5,15.852z M23.5,31.051"/>
+  <path d="M23.5,19.852c-2.426,0-4.398,1.972-4.398,4.398s1.972,4.398,4.398,4.398c2.426,0,4.398-1.972,4.398-4.398   S25.926,19.852,23.5,19.852L23.5,19.852z M23.5,27.051"/>
+</g>
+  <g id="get-started">
+        <path id="rocket-13" d="M25.002,1.014c-0.413-0.029-0.817-0.043-1.214-0.043c-8.601,0-13.497,6.557-15.278,11.833  l4.727,4.727c5.429-1.945,11.817-6.66,11.817-15.169C25.053,1.924,25.037,1.474,25.002,1.014z M15.773,18.654  c-0.495,0.225-0.966,0.419-1.414,0.589c0.66,1.709-0.012,2.971-0.915,4.154c1.296-0.099,2.656-0.732,3.728-1.806  c1.156-1.155,1.968-2.822,2.023-4.862c-0.547,0.373-1.09,0.711-1.628,1.011L15.773,18.654z M8.269,8.475  c0.314-0.553,0.667-1.098,1.039-1.634C7.269,6.897,5.6,7.708,4.444,8.865c-1.071,1.071-1.706,2.433-1.804,3.727  c1.184-0.904,2.446-1.576,4.155-0.914c0.173-0.471,0.366-0.943,0.58-1.418L8.269,8.475z M14.113,11.923  c-0.391-0.391-0.391-1.024,0-1.414c0.391-0.391,1.023-0.391,1.414,0c0.391,0.392,0.391,1.024,0,1.415  C15.136,12.315,14.504,12.315,14.113,11.923z M20.062,5.973c-0.78-0.78-2.047-0.78-2.828,0c-0.781,0.781-0.781,2.049,0,2.829  c0.781,0.781,2.048,0.781,2.829,0C20.843,8.022,20.843,6.754,20.062,5.973z M18.154,7.883c-0.274-0.273-0.274-0.718,0-0.99  c0.271-0.273,0.717-0.273,0.99,0c0.273,0.272,0.271,0.717,0,0.99C18.871,8.156,18.426,8.156,18.154,7.883z M10.611,17.735  l0.796,0.799c-1.491,3.81-5.803,6.207-10.353,6.438c0.219-4.289,2.657-8.676,6.64-10.153l0.805,0.806L10.611,17.735z"/>
+  </g>
+  <g id="customers">
+    <path d="M45.414,36.071l-7.82-3.383c-0.184-0.093-0.387-0.32-0.563-0.617l5.223-0.004   c0.09,0.008,2.242,0.204,3.969-0.539c0.652-0.281,1.136-0.836,1.332-1.523c0.199-0.695,0.074-1.43-0.34-2.02   c-1.492-2.121-4.973-7.672-5.082-13.297c-0.004-0.097-0.321-9.667-9.77-9.746c-1.39,0.012-2.675,0.25-3.847,0.684   c-0.254-0.652-0.629-1.328-1.192-1.969c-1.64-1.875-4.308-2.824-7.926-2.824c-3.617,0-6.281,0.949-7.925,2.824   c-1.895,2.16-1.719,4.781-1.672,5.219v4.258C9.289,13.716,9,14.462,9,15.231v3.2c0,0.976,0.441,1.882,1.199,2.488   c0.731,2.902,2.266,5.09,2.801,5.789v2.648c0,0.774-0.422,1.485-1.102,1.856l-7.136,3.894C2.441,36.372,1,38.798,1,41.442v3.391h48   v-2.957C49,39.403,47.625,37.181,45.414,36.071L45.414,36.071z M37.801,45.231v-3.632c0-2.75-1.531-5.223-3.989-6.454l-5.488-2.746   c0.137-0.308,0.153-0.66,0.035-1.004c-0.195-0.562-0.707-0.925-1.304-0.925h-1.774c-0.035-0.067-0.058-0.137-0.09-0.207   c-0.039-0.09-0.086-0.18-0.113-0.278C25.027,29.806,25,29.622,25,29.431v-2.703c0.184-0.227,0.375-0.481,0.574-0.762   c0.992-1.399,1.785-2.957,2.364-4.641c1.128-0.515,1.863-1.633,1.863-2.89v-3.204c0-0.769-0.289-1.515-0.801-2.097V8.876   c0.02-0.199,0.066-0.852-0.066-1.711l-0.418-1.539 M47.398,43.231"/>
+  </g>
+</svg>
 			<div class="slider responsive case-studies" style="margin-bottom:0px !important">
-                  <div><span class="overlay1"></span><img u="image" alt="Slide 3" src="<?php IMAGE('allspark/bfsi-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                  <div class="bg" style="background-image: url('<?php IMAGE('allspark/bfsi-bg.png') ;?>')">
+
+                    <div class="content-slider">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="53.625px" height="47px" viewBox="0 0 53.625 47" style="enable-background:new 0 0 53.625 47;" xml:space="preserve">
+                          <use xlink:href="#blueprint"></use>
+                        </svg>
+                      <h3>BFSI</h3>
+                    </div>
+                  </div>
                    
                     <div><span class="overlay"></span><img u="image" alt="Slide 1" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/retail-icon.png') ;?>" style="width: 58px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">RETAIL</h3></div></div>
                     
-                    <div><span class="overlay2" ></span><img u="image" alt="Slide 2" src="<?php IMAGE('allspark/qsr-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/qsr-icon.png') ;?>" style="width: 58px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">QSR</h3></div></div>
+                    <div><span class="overlay" ></span><img u="image" alt="Slide 2" src="<?php IMAGE('allspark/qsr-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/qsr-icon.png') ;?>" style="width: 58px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">QSR</h3></div></div>
                    
-                    <div><span class="overlay2"></span><img u="image" alt="Slide 4" src="<?php IMAGE('allspark/auto-bg.png') ;?>" /><div class="content-slider" ><img src="<?php IMAGE('allspark/auto-icon.png') ;?>" style="width: 57px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">AUTO</h3></div></div>
-                    <div><span class="overlay2"></span><img u="image" alt="Slide 5" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
-                    <div><span class="overlay2"></span><img u="image" alt="Slide 6" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
-                    <div><span class="overlay2"></span><img u="image" alt="Slide 7" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline; position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
-                    <div><span class="overlay2"></span><img u="image" alt="Slide 8" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay"></span><img u="image" alt="Slide 4" src="<?php IMAGE('allspark/auto-bg.png') ;?>" /><div class="content-slider" ><img src="<?php IMAGE('allspark/auto-icon.png') ;?>" style="width: 57px;display:inline; position: relative;bottom: 7px;right: 10px;" alt="" /><h3 style="display:inline; white-space:nowrap;">AUTO</h3></div></div>
+                    <div><span class="overlay"></span><img u="image" alt="Slide 5" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay"></span><img u="image" alt="Slide 6" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay"></span><img u="image" alt="Slide 7" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline; position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
+                    <div><span class="overlay"></span><img u="image" alt="Slide 8" src="<?php IMAGE('allspark/retail-bg.png') ;?>" /><div class="content-slider"><img src="<?php IMAGE('allspark/bfsi-icon.png') ;?>" style="width: 69px; display:inline;position: relative;bottom: 15px;right: 10px;" alt=""  /><h3 style="display:inline; white-space:nowrap;">BFSI</h3></div></div>
    
 				</div>									
 </div>

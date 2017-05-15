@@ -14,7 +14,7 @@ $meta_keywords="";
 	<?php include('../includes/_head.php'); ?>
     <style type="text/css">
     .navbar-brand .near-logo{fill:#ffffff !important;}
-    .navbar-brand .a-logo{fill:#ffffff !important;}
+    .navbar-brand .a-logo{fill:#e9262d !important;}
     .navbar .nav ul li a, .banner-content span:nth-child(6){
         color: #fff;
     }

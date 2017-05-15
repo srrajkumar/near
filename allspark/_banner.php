@@ -36,12 +36,12 @@
 
               <div class="item">
                 <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-dashboard.png'); ?>"/>
+                <img src="<?php IMAGE('allspark/allspark-builderpage.png'); ?>"/>
               </div>
 
               <div class="item">
                 <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-dashboard.png'); ?>"/>
+                <img src="<?php IMAGE('allspark/allspark-campaign-view.png'); ?>"/>
               </div>
 
             </div><!-- End of Wrapper For Slides -->
