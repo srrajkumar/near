@@ -2005,9 +2005,9 @@ svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s li
     background-size: cover;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
     transition: 0.3s;
-    height: 300px;
+    min-height: 300px;
 }
-.slick-slide::after {
+.slick-slide:after {
     background: linear-gradient(to bottom left, #1592cd, #0d7cb1);
     opacity: 0;
     transition: 0.3s;
@@ -2055,31 +2055,31 @@ svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s li
 .case-studies .bg:hover svg {
   animation: draw-icon 1s forwards;
 }
-.case-studies .bg:hover[data-title="Website"] svg {
+.case-studies .bg:hover a[data-title="Website"] svg {
   stroke-dasharray: 174;
   stroke-dashoffset: 174;
 }
-.case-studies .bg:hover[data-title="Social"] svg {
+.case-studies .bg:hover a[data-title="Social"] svg {
   stroke-dasharray: 172;
   stroke-dashoffset: 172;
 }
-.case-studies .bg:hover[data-title="Builder"] svg {
+.case-studies .bg:hover a[data-title="Builder"] svg {
   stroke-dasharray: 172;
   stroke-dashoffset: 172;
 }
-.case-studies .bg:hover[data-title="Staff"] svg {
+.case-studies .bg:hover a[data-title="Staff"] svg {
   stroke-dasharray: 132;
   stroke-dashoffset: 132;
 }
-.case-studies .bg:hover[data-title="Blueprint"] svg {
+.case-studies .bg:hover a[data-title="blueprint"] svg {
   stroke-dasharray: 176;
   stroke-dashoffset: 176;
 }
-.case-studies .bg:hover[data-title="Get Started"] svg {
+.case-studies .bg:hover a[data-title="Get Started"] svg {
   stroke-dasharray: 51;
   stroke-dashoffset: 51;
 }
-.case-studies .bg:hover[data-title="Customers"] svg {
+.case-studies .bg:hover a[data-title="Customers"] svg {
   stroke-dasharray: 182;
   stroke-dashoffset: 182;
 }
