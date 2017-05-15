@@ -2,6 +2,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script> 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script> 
 <script src="<?php JS('jquery.min.js'); ?>"></script>
+<script src="<?php JS('sine-waves.min.js'); ?>"></script>
 <script src="<?php JS('bootstrap.min.js'); ?>"></script>
 <script src="<?php JS('slick.min.js'); ?>"></script>
 <script src="<?php JS('modernizr.js'); ?>"></script>

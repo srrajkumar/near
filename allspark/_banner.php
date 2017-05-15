@@ -62,13 +62,15 @@
         
 
     </div>
-  <div class="round_animate">
+  <!--div class="round_animate">
     <div class="shape_1"> <span class="r_1"></span> <span class="r_2"></span> <span class="r_3"></span> <span class="r_4"></span> </div>
     <div class="shape_2"> <span class="r_1"></span> <span class="r_2"></span> <span class="r_3"></span> <span class="r_4"></span> </div>
     <div class="shape_3"> <span class="r_1"></span> <span class="r_2"></span> <span class="r_3"></span> <span class="r_4"></span> </div>
-  </div>
+  </div-->
+    
 </div>
   </div>
+  <canvas id="waves"></canvas>
 	<div class="mouse"></div>
   <div class="animation-wrapper">
     <div class="particle particle-1"></div>

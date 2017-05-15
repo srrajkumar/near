@@ -1,3 +1,6 @@
+
+
+
 $(function(){
  var shrinkHeader = 100;
     $(window).scroll(function() {
@@ -374,6 +377,91 @@ $(document).ready(function() {
 
 
 });
+
+/*
+ * Demo of https://github.com/isuttell/sine-waves  -- allspark banner wave
+ */
+
+var waves = new SineWaves({
+  el: document.getElementById('waves'),
+  
+  speed: 4,
+  
+  width: function() {
+    return $(window).width();
+  },
+  
+  height: function() {
+    return $(window).height();
+  },
+  
+  ease: 'SineInOut',
+  
+  wavesWidth: '100%',
+  
+  waves: [
+    {
+      timeModifier: 4,
+      lineWidth: 1,
+      amplitude: -25,
+      wavelength: 25
+    },
+    {
+      timeModifier: 2,
+      lineWidth: 2,
+      amplitude: -50,
+      wavelength: 50
+    },
+    {
+      timeModifier: 1,
+      lineWidth: 1,
+      amplitude: -100,
+      wavelength: 100
+    },
+    {
+      timeModifier: 0.5,
+      lineWidth: 1,
+      amplitude: -200,
+      wavelength: 200
+    },
+    {
+      timeModifier: 0.25,
+      lineWidth: 2,
+      amplitude: -400,
+      wavelength: 400,
+    },
+    {
+      timeModifier: 0.25,
+      lineWidth: 2,
+      amplitude: -400,
+      wavelength: 400
+    }
+  ],
+ 
+  // Called on window resize
+  resizeEvent: function() {
+    var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
+    gradient.addColorStop(0,"rgba(23, 210, 168, 0.2)");
+    gradient.addColorStop(0.5,"rgba(255, 255, 255, 0.5)");
+    gradient.addColorStop(1,"rgba(23, 210, 168, 0.2)");
+    
+    var index = -1;
+    var length = this.waves.length;
+    while(++index < length){
+      this.waves[index].strokeStyle = gradient;
+    }
+    
+    // Clean Up
+    index = void 0;
+    length = void 0;
+    gradient = void 0;
+  }
+});
+
+
+/*
+ * Demo of https://github.com/isuttell/sine-waves  -- allspark banner wave
+ */
 $('.responsive1').slick({
   dots: false,
   infinite: true,
@@ -415,7 +503,47 @@ $('.responsive1').slick({
    
   ]
 });
-
+$('.responsive2').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1500,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+      autoplay: true,
+  autoplaySpeed: 1500,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      autoplay: true,
+  autoplaySpeed: 1500
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      autoplay: true,
+  autoplaySpeed: 1500
+      }
+    }
+   
+  ]
+});
 jQuery(document).ready(function($){
 	//create the slider
 	$('.cd-testimonials-wrapper').flexslider({
@@ -747,4 +875,5 @@ function blink3(){
 blink();
 blink2();
 blink3();
+
 
