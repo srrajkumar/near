@@ -749,6 +749,6 @@
 a:focus{color:#ffffff}
 .case-studies.slider .slick-prev:before{top: 47%; left: 29%; border-radius: 50%; border: 1px solid #ffffff;padding: 3px 12px;}
 .case-studies.slider .slick-next:before{top: 47%; right: 29%;border-radius: 50%; border: 1px solid #ffffff;padding: 3px 12px;}
-.case-studies.slider .slick-prev{border:none!important;width: 433px; height: 100%; background: rgba(0, 0, 0, 0.7); left: 0px; top: 3%; border-radius: inherit;}
-.case-studies.slider .slick-next{width: 433px;height: 100%; background: rgba(0,0,0,0.7);right: 0px; border-radius: inherit; border:none!important; top: 3%;}
+.case-studies.slider .slick-prev{border:none!important;width: 100px; height: 100%; background: rgba(0, 0, 0, 0.7); left: 0px; top: 3%; border-radius: inherit;}
+.case-studies.slider .slick-next{width: 100px;height: 100%; background: rgba(0,0,0,0.7);right: 0px; border-radius: inherit; border:none!important; top: 3%;}
 .case-studies .slick-slide:hover .content-slider{z-index: 2;}

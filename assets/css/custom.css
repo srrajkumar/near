@@ -1377,7 +1377,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .brand_tabs ul li.active{
   border: 1px solid #abb0b6;
 }
-#auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img {
+#auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img, #tab9 img {
     margin: 10px 50px;
 }
 
@@ -2063,7 +2063,7 @@ svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s li
     #platform_leverage .platform-image object{top:30%;}
 	
 	h1{font-size:22px !important;} h2{font-size:20px !important;}
-	#auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img {
+	#auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img, #tab9 img {
 		margin: 10px 20px;}
 	.whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 30px;}
 	.platform-leverage .accordian header{font-size:15px;}

@@ -106,6 +106,7 @@
 			    <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">RETAIL</a></li>
 			    <li role="presentation"><a href="#tab7" role="tab" data-toggle="tab">Travel</a></li>
 			    <li role="presentation"><a href="#tab8" role="tab" data-toggle="tab">Telcos</a></li>
+			    <li role="presentation"><a href="#tab9" role="tab" data-toggle="tab">Lifestyle & Entertainement</a></li>
 			</ul>
 			 <form>
 				<select id='myselect' class="form-control">
@@ -117,48 +118,59 @@
 					<option value='#tab6'>RETAIL</option>
 					<option value='#tab7'>Travel</option>
 					<option value='#tab8'>Telcos</option>
+					<option value='#tab9'>Lifestyle &amp; Entertainement</option>
 				</select>
 			</form>
 			<div class="tab-content" style="margin-top: 50px;">
 			    <div role="tabpanel" class="tab-pane fade in active" id="auto">
-					<img src="<?php IMAGE('auto/audi.png'); ?>" width="63" alt="audi" />
-					<img src="<?php IMAGE('auto/volkswagen.png'); ?>"  width="63"  alt="volkswagen" />
-					<img src="<?php IMAGE('auto/bmw.png'); ?>"  width="63"  alt="bmw" />
-					<img src="<?php IMAGE('auto/toyota.png'); ?>"  width="63"   alt="toyota" />
-					<img src="<?php IMAGE('auto/ford.png'); ?>"  width="63"  alt="ford" />
-					<img src="<?php IMAGE('auto/renault.png'); ?>"  width="63"  alt="renault" />
-					<img src="<?php IMAGE('auto/nissan.png'); ?>"  width="63"  alt="nissan" />
-					<img src="<?php IMAGE('auto/skoda.png'); ?>"  width="63" alt="skoda" />
-					<img src="<?php IMAGE('auto/hyundai.png'); ?>" width="63"  alt="hyundai" />
-					<img src="<?php IMAGE('auto/volvo.png'); ?>" width="63"  alt="volvo" />
-					<img src="<?php IMAGE('auto/bridgestone.png'); ?>"  width="126"  alt="bridgestone" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 98%; background-size: 200% auto;"  width="62" height="62" alt="audi" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 7%; background-size: 200% auto;"  width="62" height="62"  alt="volkswagen" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 68%; background-size: 200% auto;"  width="62" height="62"  alt="bmw" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 47%; background-size: 200% auto;"  width="62" height="62"   alt="toyota" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 39%; background-size: 200% auto;"  width="62" height="62"  alt="ford" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 29%; background-size: 200% auto;"  width="62" height="62"  alt="renault" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 58%; background-size: 200% auto;"  width="62" height="62"  alt="nissan" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 17%; background-size: 200% auto;"  width="62" height="62" alt="skoda" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 79%; background-size: 200% auto;"  width="62" height="62"  alt="hyundai" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 89%; background-size: 200% auto;"  width="62" height="62"  alt="volvo" />
+					<img src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-auto.png'); ?>'); background-position: 0 0%; background-size: 100% auto;"  width="124" height="62"  alt="bridgestone" />
 			    </div>
 
 				<div role="tabpanel" class="tab-pane fade" id="tab2">
-					<img alt="Pepsi" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 60%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="P&G" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 80%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Pepsi" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 38%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="P&G" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 50%; background-size: 100% auto;"  width="62" height="62" />
 					<img alt="CocaCola" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 0%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="Lindt" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 20%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="Nestle" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 40%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="Unilever" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 100%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Lindt" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 13%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Nestle" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 25%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Unilever" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 62%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Schweppes" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 93%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="danone" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 103%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Krispy Kreme" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 84%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Meiji" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 75%; background-size: 100% auto;"  width="62" height="62" />
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="tab3">
-			       <img alt="Standard Chartered" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 80%; background-size: 100% auto;"  width="62" height="62" />
-           	<img alt="ING" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 40%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="JP Morgan" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 60%; background-size: 100% auto;"  width="62" height="62" /> 
+			       <img alt="Standard Chartered" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 42%; background-size: 100% auto;"  width="62" height="62" />
+           	<img alt="ING" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 21%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="JP Morgan" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 32%; background-size: 100% auto;"  width="62" height="62" /> 
            	<img alt="ANZ" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 0%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="VISA" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 100%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="HSBC" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 20%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="VISA" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 53%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="HSBC" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 10%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="AXA" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 65%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="Prudential" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 90%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="NAB" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 100%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="Westpac" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-bfsi.png'); ?>'); background-position: 0 80%; background-size: 100% auto;"  width="62" height="62" />
 			    </div>
 			    
 			    <div role="tabpanel" class="tab-pane fade" id="tab4">
 			       
-           <img alt="Microsoft" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>'); background-position: 0 60%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="HP" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 20%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="Samsung" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 80%; background-size: 100% auto;"  width="62" height="62" /> 
-            <img alt="Sony" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 100%; background-size: 100% auto;"  width="62" height="62" />
+           <img alt="Microsoft" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>'); background-position: 0 44%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="HP" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 15%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="Samsung" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 59%; background-size: 100% auto;"  width="62" height="62" /> 
+            <img alt="Sony" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 73%; background-size: 100% auto;"  width="62" height="62" />
             <img alt="Google" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 0%; background-size: 100% auto;"  width="62" height="62" />
-            <img alt="Intel" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 40%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="Intel" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 29%; background-size: 100% auto;"  width="62" height="62" />
+             <img alt="Acer" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 100%; background-size: 100% auto;"  width="62" height="62" />
+              <img alt="Adobe" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 85%; background-size: 100% auto;"  width="62" height="62" />
 			    </div>
 			    
 			     <div role="tabpanel" class="tab-pane fade" id="tab5">
@@ -202,6 +214,17 @@
             <img alt="Starhub" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-telcos.png'); ?>'); background-position: 0 20%; background-size: 100% auto;"  width="62" height="62" />
             <img alt="Airtel" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-telcos.png'); ?>'); background-position: 0 0%; background-size: 100% auto;"  width="62" height="62" />
             <img alt="Telstra" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-telcos.png'); ?>'); background-position: 0 40%; background-size: 100% auto;"  width="62" height="62" />
+			    </div>
+			    <div role="tabpanel" class="tab-pane fade" id="tab9">
+			
+           
+         
+            <img alt="Disney" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-lifestyle.png'); ?>'); background-position: 0 3%; background-size: 100% auto;"  width="62" height="62" /> 
+            <img alt="Burberry" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-lifestyle.png'); ?>'); background-position:0 18%; background-size: 100% auto;"  width="62" height="62" /> 
+            <img alt="20th Century Fox" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-lifestyle.png'); ?>'); background-position: 0 35%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="Gucci" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-lifestyle.png'); ?>'); background-position: 0 55% ; background-size: 100% auto;"  width="62" height="62" />
+            <img alt="Sony Pictures" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-lifestyle.png'); ?>'); background-position: 0 76%; background-size: 100% auto;"  width="62" height="62" />
+            <img alt=" Under Armour" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-lifestyle.png'); ?>'); background-position: 0 96%; background-size: 100% auto;"  width="62" height="62" />
 			    </div>
 			    
 			</div>

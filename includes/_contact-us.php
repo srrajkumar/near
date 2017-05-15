@@ -15,8 +15,8 @@
                             <div class="loc-dots australia"><div class="pulse"></div></div>
                             <div class="contact-location singaporeloc loc-active">
                             	<h2>Singapore <span class="mobile">(Headquarters)</span></h2>
-                                <p>Near Pte Ltd<br>
-                                   35<sup>th</sup> Floor, UOB Plaza 1 <br>
+                                <p>Near Pte. Ltd<br>
+                                   #36-30/32, UOB Plaza 1 <br>
                                    80 Raffles Place<br>
                                    Singapore 048624<br>
                                   </p>

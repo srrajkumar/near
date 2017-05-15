@@ -197,8 +197,6 @@ $('#accord1').ashCordian();
 
 $('.carousel-news').carousel();
 
-
-
 // map Location //
 
 		$(".usa").mouseover(function(){
