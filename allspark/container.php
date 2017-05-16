@@ -3,7 +3,7 @@
 <div class="container-fluid" style="padding:0px;">
 
 	<div class="slider responsive case-studies" style="margin-bottom:0px !important">
-		<div class="bg">
+		<div>
 			<a data-title="get-started" href="#">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" u="image" alt />
 				<div class="content-slider">
@@ -28,7 +28,7 @@
 			</a>
 		</div>
 
-		<div class="bg">
+		<div>
 
 			<a data-title="customers" href="#">
 			<img src="<?php IMAGE('allspark/retail-bg.png'); ?>" u="image" alt />
@@ -57,7 +57,7 @@
 			</a>
 		</div>
 
-		<div class="bg">
+		<div>
 			<a data-title="blueprint" href="#">
 			<img src="<?php IMAGE('allspark/qsr-bg.png'); ?>" u="image" alt />
 				<div class="content-slider">
@@ -75,7 +75,7 @@
 			</a>
 		</div>
 
-		<div class="bg">
+		<div>
 			<a data-title="builder" href="#">
 			<img src="<?php IMAGE('allspark/auto-bg.png'); ?>" u="image" alt />
 				<div class="content-slider">
@@ -88,7 +88,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="bg">
+		<div>
 			<a data-title="get-started" href="#">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" u="image" alt />
 				<div class="content-slider">
@@ -102,7 +102,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="bg">
+		<div>
 			<a data-title="get-started" href="#">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" u="image" alt />
 				<div class="content-slider">
@@ -116,7 +116,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="bg">
+		<div>
 			<a data-title="get-started" href="#">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" u="image" alt />
 				<div class="content-slider">
@@ -130,7 +130,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="bg">
+		<div>
 			<a data-title="get-started" href="#">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" u="image" alt />
 				<div class="content-slider">
@@ -369,7 +369,7 @@
 
 
 <?php include('_client-testimonials.php'); ?>
-<div class="container-fluid spacing_margin text-center">
+<div class="container-fluid spacing_margin text-center  casestudy-container">
   
     	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
