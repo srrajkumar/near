@@ -1,7 +1,6 @@
 <nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay">
   <div class="container">
     <a class="navbar-brand" href="<?php echo SITE_URL; ?>">
-     
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
         <polygon class="near-logo" points="447.4,126.7 451,126.7 451,136.4 452.6,136.4 452.6,126.7 456.2,126.7 456.2,125.2 447.4,125.2 "></polygon>
         <polygon class="near-logo" points="463.6,133.7 463.5,133.7 459.9,125.2 457.7,125.2 457.7,136.4 459.2,136.4 459.2,127.2 459.2,127.2 
@@ -21,7 +20,6 @@
               c6.6,0,11.9-5.3,11.9-11.9C483.2,19,477.8,13.6,471.3,13.6"></path>
         </svg>
     </a>
-
     <div class="nav nav-pills float-right">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -34,7 +32,6 @@
           <a class="nav-link" href="#">About Us</a>
         </li>
       </ul>
-    
     <div class="s-header__navbar-row-col">
       <a href="javascript:void(0);" class="s-header__trigger js__trigger">
         <span class="s-header__trigger-icon"></span>
@@ -55,14 +52,12 @@
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Research</a></li>
           </ul>
           <!-- End Menu List -->
-
           <!-- Menu List -->                                
           <ul class="list-unstyled s-header__nav-menu col-lg-4">
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="#">The Data</a></li>
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Privacy</a></li>
           </ul>
           <!-- End Menu List -->
-
           <!-- Menu List -->                                
           <ul class="list-unstyled s-header__nav-menu col-lg-4">
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="#">About Us</a></li>
@@ -80,8 +75,7 @@
         </div>
     </nav>
     <!-- End Nav -->
-                
-    <!-- Action -->
+   <!-- Action -->
     <ul class="list-inline s-header__action s-header__action--lb">
       <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
       <li class="s-header__action-item"><a class="s-header__action-link" href="#">Jp</a></li>
@@ -113,14 +107,3 @@
   </div>
   </div>
 </nav>
-
-
-
-
-
-
-
-<style type="text/css">
-    .near-logo{fill:#5C5C5C;}
-    .a-logo{fill:#ED1C24;}
-</style>

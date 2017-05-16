@@ -29,7 +29,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:6s;"><i class="icon ion-arrow-right-c "></i></div>
+					<p class="wobble"  style="animation-delay:6s;color: #fff !important;"><i class="icon ion-arrow-right-c "></i></p>
 				</span>
        </div>
         <div class="item">
@@ -55,7 +55,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:6s;"><i class="icon ion-arrow-right-c "></i></div>
+					<p class="wobble"  style="animation-delay:6s;color: #fff !important;"><i class="icon ion-arrow-right-c "></i></p>
 				</span>
        </div>
         <div class="item">
@@ -81,7 +81,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:6s;"><i class="icon ion-arrow-right-c "></i></div>
+					<p class="wobble"  style="animation-delay:6s;color: #fff !important;"><i class="icon ion-arrow-right-c "></i></p>
 				</span>
 					</div>
     </div>

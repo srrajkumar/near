@@ -1,5 +1,4 @@
 <?php include('includes/_banner.php'); ?>
-
 	<div class="row whats-happening perspective">
         <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="200">
         	<div class="spacing">
@@ -23,7 +22,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
 				</span>
 	        </div>
 
@@ -54,7 +53,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:3s;"><i class="icon ion-arrow-right-c "></i></div>
+					<span class="wobble"  style="animation-delay:3s;"><i class="icon ion-arrow-right-c "></i></span>
 				</span>
 	        </div>
         </div>
@@ -63,7 +62,7 @@
         		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?php IMAGE('award_logo/bg1.png') ;?>');">
         			<span class="gradient"></span>
         			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/gartner.png'); ?>">
+		        		<img src="<?php IMAGE('award_logo/gartner.png'); ?>" alt="Gartner">
 		        		<span>COOL vendor in</span>
 		        		consumer dynamics
 	        		</div>
@@ -71,7 +70,7 @@
         		<div role="tabpanel" class="center tab-pane fade awards-content" id="forrester" style="background:url('<?php IMAGE('award_logo/bg2.png') ;?> ');">
         			<span class="gradient"></span>
         			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/forrester.png'); ?>">
+		        		<img src="<?php IMAGE('award_logo/forrester.png'); ?>" alt="Forrester">
 		        		<span>COOL vendor in</span>
 		        		consumer dynamics
 	        		</div>
@@ -79,7 +78,7 @@
         		<div role="tabpanel" class="center tab-pane fade awards-content" id="frost" style="background:url('<?php IMAGE('award_logo/bg3.png');?>');">
         			<span class="gradient"></span>
         			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/frost-and-sullivan.png') ;?>">
+		        		<img src="<?php IMAGE('award_logo/frost-and-sullivan.png') ;?>" alt="Frost">
 		        		<span>COOL vendor in</span>
 		        		consumer dynamics
 	        		</div>
@@ -249,27 +248,27 @@
     		<ul id="accord1" class="accordian">
 			  <li>
 				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
-				<section class="accordian-section" style="display: block;">
+				<div class="accordian-section" style="display: block;">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
-				</section>
+				</div>
 			  </li>
 			  <li>
 				<header class="accordian-header" id="placematrix"><i class="ion-plus-round plus-icon"></i> Placematrix&trade;</header>
-				<section class="accordian-section">
+				<div class="accordian-section">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
-				</section>
+				</div>
 			  </li>
 			  <li>
 				<header class="accordian-header" id="unique_data"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
-				<section class="accordian-section">
+				<div class="accordian-section">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
-				</section>
+				</div>
 			  </li>
 			   <li>
 				<header class="accordian-header" id="accurate_data"><i class="ion-plus-round plus-icon"></i> Highly Accurate Data</header>
-				<section class="accordian-section">
+				<div class="accordian-section">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
-				</section>
+				</div>
 			  </li>
 			</ul>
     	</div>
@@ -308,7 +307,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:6s;"><i class="icon ion-arrow-right-c "></i></div>
+					<span class="wobble"  style="animation-delay:6s;"><i class="icon ion-arrow-right-c "></i></span>
 				</span>
 	        </div>
         </div>
@@ -334,7 +333,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:3s;"><i class="icon ion-arrow-right-c "></i></div>
+					<span class="wobble"  style="animation-delay:3s;"><i class="icon ion-arrow-right-c "></i></span>
 				</span>
 	        </div>
         </div>
@@ -360,7 +359,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
 				</span>
         	</div>
         </div>
@@ -388,7 +387,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
 				</span>
 	        </div>
 
@@ -427,7 +426,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
 				</span>
 					</div>
 					</figcaption>
@@ -460,7 +459,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
 				</span>
 					</div>
 					</figcaption>
@@ -493,7 +492,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
 				</span>
 					</div>
 					</figcaption>
@@ -526,7 +525,7 @@
 					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
 						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
 					</svg>        
-					<div class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></div>
+					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
 				</span>
 					</div>
 					</figcaption>

@@ -2,7 +2,7 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title><?php echo $meta_title; ?></title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 	<meta name="MobileOptimized" content="width" />
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="format-detection" content="telephone=no" />
@@ -13,7 +13,7 @@
 	<meta name="author" content="Near">
     <meta name="KEYWORDS" content="<?php echo $meta_keywords; ?>" />
     <link rel="stylesheet" href="<?php CSS(); ?>" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CRoboto:100,300,400,500,700,900" rel="stylesheet">
     <script src="<?php JS('modernizr.js'); ?>"></script>
     <!-- Favicons
 	================================================== -->
