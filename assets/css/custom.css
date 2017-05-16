@@ -2346,6 +2346,7 @@ span.mobile{display:block;}
 .research .description .button-icon-animate{left:15px;} 
 footer .row{width:100%;} 
 .anim-imag, .anim-particles, #circle{display:none;}
+.brand_tabs {min-height:400px;}
 }
 
 @media (min-width:1201px) and (max-width:1342px){.whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 28px;}}
