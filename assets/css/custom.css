@@ -1747,7 +1747,10 @@ a:hover,a:focus{text-decoration:none; outline:none;}
  color: #ef473a;
 }
 }
-
+.casestudy-container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 /* circle animation */
 
 .whats-happening .button_animate:hover .button-icon-animate .button-icon-animate__circle--right, .whats-happening .button_animate:hover .button-icon-animate .button-icon-animate__circle--left,.research a:hover .button-icon-animate .button-icon-animate__circle--right, .research a:hover .button-icon-animate .button-icon-animate__circle--left,.research_container .use-cases:hover .button-icon-animate .button-icon-animate__circle--right,.research_container .use-cases:hover .button-icon-animate .button-icon-animate__circle--left{stroke-dashoffset: 0;}
