@@ -347,8 +347,9 @@ $(document).ready(function() {
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                dots: true,
+                dots: false,
                 infinite: true,
+                autoplaySpeed: 2500
 
             }
 
@@ -358,19 +359,19 @@ $(document).ready(function() {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 2,
-                dots: true,
+                dots: false,
                 infinite: true,
-                
+                autoplaySpeed: 2500
             }
         }, {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: true,
+                dots: false,
                 infinite: true,
                 autoplay: true,
-                autoplaySpeed: 1000,
+                autoplaySpeed: 2500
             }
         }]
     });

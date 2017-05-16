@@ -2239,7 +2239,7 @@ footer .spacing_margin{
     .list-unstyled.s-header__nav-menu.col-lg-4{padding-right:60px;}
     .s-header__action--lb,.s-header__action--rb{bottom: 0.875rem !important;}
     .s--header__action--rb{right: 0.5em !important;}
-    .s-header__trigger{top: 8px !important;    left: 5px !important;}
+    .s-header__trigger{top: 6px !important;    left: 5px !important;}
     .banner-content span{font-size:24px; line-height: 28px;}
     .banner-content span.red{font-size:34px; line-height: 38px;}
     .k{padding: 30px 20px;}
@@ -2317,7 +2317,7 @@ h2 {font-size: 16px !important;}
     .research .col-sm-3{padding:0px;}
     .contact-us{height:inherit;}
     .loc-dots, .contact-us svg{display:none}
-    .contact-location{position:relative;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid rgba(236,34,43,0.26);display:inline-block;left:0;right:0;opacity:1;border-radius:0;background-image:none;width:250px;margin-right:30px; top:0px;}
+    .contact-location{position:relative;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid rgba(236,34,43,0.26);display:inline-block;left:0;right:0;opacity:1;border-radius:0;background-image:none;width:250px;margin-right:0px; top:0px;}
 span.mobile{display:block;}
     .award_holder{margin-top:100px;}
 .contact-location p{text-align:left;}
@@ -2340,6 +2340,7 @@ span.mobile{display:block;}
 .research_container .col-sm-6:before {background-color: #000000 !important; opacity: 0.7 !important;}
 .research-container .col-sm-6:nth-child(3):before{display:none !important;}
 .research_container .col-sm-6:nth-child(3):after{background: #000000 !important;opacity: 0.7 !important;}
+.allspark-page.banner-content span{line-height:42px;}
 }
 @media (max-width:1100px){.brj{height:100% !important}
 .research a .description { -webkit-transform: translate(69px, 40px);-moz-transform: translate(69px, 40px); transform: translate(69px, 40px);}
@@ -2348,7 +2349,7 @@ span.mobile{display:block;}
 .research .description .button-icon-animate{left:15px;} 
 footer .row{width:100%;} 
 .anim-imag, .anim-particles, #circle{display:none;}
-.brand_tabs {min-height:400px;}
+.brand_tabs {min-height:450px;}
 }
 
 @media (min-width:1201px) and (max-width:1342px){.whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 28px;}}
