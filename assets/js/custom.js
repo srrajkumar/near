@@ -427,14 +427,14 @@ var waves = new SineWaves({
     {
       timeModifier: 0.25,
       lineWidth: 2,
-      amplitude: -400,
-      wavelength: 400,
+      amplitude: -80,
+      wavelength: 80,
     },
     {
       timeModifier: 0.25,
       lineWidth: 2,
-      amplitude: -400,
-      wavelength: 400
+      amplitude: -150,
+      wavelength: 150
     }
   ],
  

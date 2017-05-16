@@ -37,6 +37,7 @@ $meta_keywords="";
 </head>
 
 <body>
+<div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
 
 	<?php include('container.php'); ?>

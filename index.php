@@ -14,11 +14,13 @@ $meta_keywords="";
 </head>
 
 <body>
+<div class="preloader"></div>
 	<?php include('includes/_navigation.php'); ?>
 
 	<?php include('home.php'); ?>
 
 	<?php include('includes/_footer.php'); ?>
+
 </body>
 	<?php include('includes/_java_scripts.php'); ?>
 </html>

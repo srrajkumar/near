@@ -70,7 +70,7 @@
     
 </div>
   </div>
-  <canvas id="waves"></canvas>
+  	<canvas id="waves"></canvas>
 	<div class="mouse"></div>
   <div class="animation-wrapper">
     <div class="particle particle-1"></div>
@@ -80,7 +80,7 @@
   </div>
 
 </div>
-<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('particles.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('particles.css'); ?>" />
 <style type="text/css">
 	#buffer{
 		display: none;

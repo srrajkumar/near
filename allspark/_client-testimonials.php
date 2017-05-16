@@ -56,7 +56,7 @@
 				<p>Allspark is a game changer for Australian marketers. It helps brands connect with audiences based on their location, helping them gather rich consumer insights and serving them relevant advertising on their mobiles all in real time.</p>
 				
 				<div class="cd-author">
-					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" class="testimonial-view-img" alt="Suzie Cardwell" style="background-image: url('<?php IMAGE('testimonial/suzie-cardwell.png'); ?>'); background-color: #fff" />
+					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" alt="Suzie Cardwell" />
 					<ul class="cd-author-info">
 						<li>Suzie Cardwell</li>
 						<li>MCN Digital Partnerships...</li>
@@ -68,7 +68,7 @@
 				<p>Allspark is a game changer for Australian marketers. It helps brands connect with audiences based on their location, helping them gather rich consumer insights and serving them relevant advertising on their mobiles all in real time.</p>
 				
 				<div class="cd-author">
-					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" class="testimonial-view-img" alt="Suzie Cardwell" style="background-image: url('<?php IMAGE('testimonial/suzie-cardwell.png'); ?>'); background-color: #fff" />
+					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" alt="Suzie Cardwell" />
 					<ul class="cd-author-info">
 						<li>Suzie Cardwell</li>
 						<li>MCN Digital Partnerships...</li>
@@ -80,7 +80,7 @@
 				<p>Allspark is a game changer for Australian marketers. It helps brands connect with audiences based on their location, helping them gather rich consumer insights and serving them relevant advertising on their mobiles all in real time.</p>
 				
 				<div class="cd-author">
-					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" class="testimonial-view-img" alt="Suzie Cardwell" style="background-image: url('<?php IMAGE('testimonial/suzie-cardwell.png'); ?>'); background-color: #fff" />
+					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" alt="Suzie Cardwell" />
 					<ul class="cd-author-info">
 						<li>Suzie Cardwell</li>
 						<li>MCN Digital Partnerships...</li>
@@ -92,7 +92,7 @@
 				<p>Allspark is a game changer for Australian marketers. It helps brands connect with audiences based on their location, helping them gather rich consumer insights and serving them relevant advertising on their mobiles all in real time.</p>
 				
 				<div class="cd-author">
-					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" class="testimonial-view-img" alt="Suzie Cardwell" style="background-image: url('<?php IMAGE('testimonial/suzie-cardwell.png'); ?>'); background-color: #fff" />
+					<img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" alt="Suzie Cardwell" />
 					<ul class="cd-author-info">
 						<li>Suzie Cardwell</li>
 						<li>MCN Digital Partnerships...</li>
