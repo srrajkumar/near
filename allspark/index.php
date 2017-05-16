@@ -46,6 +46,7 @@ $meta_keywords="";
 	<?php include('../includes/_footer.php'); ?>
 </body>
 	<?php include('../includes/_java_scripts.php'); ?>
+    
 	
 </html>
 

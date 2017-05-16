@@ -80,10 +80,5 @@
   </div>
 
 </div>
-<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('particles.css'); ?>" />
-<style type="text/css">
-	#buffer{
-		display: none;
-	}
-</style>
+
 
