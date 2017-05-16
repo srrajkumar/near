@@ -34,6 +34,7 @@ $meta_keywords="";
 </style>
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('particles.css'); ?>">
 </head>
 
 <body>

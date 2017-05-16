@@ -2087,7 +2087,7 @@ footer .spacing_margin{
 .responsive span.overlay3{ width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}*/
 .responsive div.content-slider {position: absolute; width:100%; display: inline-block; text-align: center;top:42%; color:#fff;}
 .icons svg{ display: block;  margin: 0 auto;  width: 69px;  height: 69px; }
-svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s linear alternate forwards;}
+.col-sm-3:hover svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s linear alternate forwards;}
 .icons sup{font-size:14px;}
 .slider .bg{
     position: relative;
@@ -2098,7 +2098,7 @@ svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s li
     background-size: cover;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
     transition: 0.3s;
-    min-height: 300px;
+    
 }
 .responsive .slick-slide:after {
     background: linear-gradient(to bottom left, #1592cd, #0d7cb1);
@@ -2149,12 +2149,13 @@ svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s li
   animation: draw-icon 1s forwards;
 }
 
-.case-studies .bg:hover a[data-title="customers"] svg, .case-studies .bg:hover a[data-title="builder"] svg,.case-studies .bg:hover a[data-title="blueprint"] svg {
-  stroke-dasharray: 176;
-  stroke-dashoffset: 176;
+ .case-studies .bg:hover a[data-title="builder"] svg{stroke-dasharray: 338;  stroke-dashoffset: 338;}
+ .case-studies .bg:hover a[data-title="blueprint"] svg {
+  stroke-dasharray: 273;
+  stroke-dashoffset: 273;
 }
-.case-studies .bg:hover a[data-title="get-started"] svg{ stroke-dasharray: 51;
-  stroke-dashoffset: 51;}
+.case-studies .bg:hover a[data-title="get-started"] svg,.case-studies .bg:hover a[data-title="customers"] svg{stroke-dasharray: 85;stroke-dashoffset: 85;}
+.case-studies .bg a[data-title="get-started"] svg{max-width: 50px;}
 .responsive .slick-slide:before {background: linear-gradient(to bottom, transparent, #000) !important;}
 .slick-slide:before{background: transparent !important;}
 @keyframes draw-icon {
@@ -2170,9 +2171,11 @@ svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 2s li
     z-index: 2;
     width: calc(100% + 600px) !important;
     left: -290px;
-    bottom: -260px !important;
+    bottom: 0 !important;
+	overflow: hidden;
+	height: 400px !important;
 }
- .icons path {
+ .col-sm-3:hover .icons path {
   stroke-dasharray: 700;
   fill: none;
   stroke-width: 1;
