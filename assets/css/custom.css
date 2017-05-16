@@ -2225,7 +2225,7 @@ footer .spacing_margin{
     stroke-width: 0;
   }
 }
-
+.brand_tabs {min-height:300px;}
 @media (max-width: 768px){
     .navbar-nav {display:none;}
     .nav-pills{top: 20px;}
