@@ -14,4 +14,5 @@
 <script src="<?php JS('slick.min.js'); ?>"></script>
 <script src="<?php JS('masonry.pkgd.min.js'); ?>"></script>
 <script src="<?php JS('jquery.flexslider-min.js'); ?>"></script>
+<script src="<?php JS('jquery.particleground.js'); ?>"></script>
 <script src="<?php JS('custom.js'); ?>"></script>
