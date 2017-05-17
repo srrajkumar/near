@@ -9,7 +9,7 @@
       <span class="icon six"><img src="<?php IMAGE('icon6.png') ?>" alt /></span>
       <span class="icon seven"><img src="<?php IMAGE('icon7.png') ?>" alt /></span>
       <span class="icon eight"><img src="<?php IMAGE('near-logo-alpha.png') ?>" alt /></span>
-      <img src="<?php IMAGE('spin.png') ?>" alt class="spin" style="opacity: 0.7" />
+      <img src="<?php IMAGE('spin.png') ?>" alt class="spin" style="opacity: 0.7;" />
     </div>
 	</div>
 		<div class="banner-space container"></div>
@@ -27,7 +27,7 @@
             </span>
             <span id="typed" style="white-space:pre;"></span>"</span>
             <div style="clear: both"></div>
-			<a href="#" class=" hp-cta-video " style="margin-top: 20px;">Play Video</a>
+			<!--a href="#" class=" hp-cta-video " style="margin-top: 20px;">Play Video</a -->
 		</div>
 		<div class="mouse"></div>
 	<div class="anim-particles">

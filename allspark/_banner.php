@@ -15,7 +15,7 @@
       <span id="typed" style="white-space:pre;"></span>
     </span>
     <div style="clear: both"></div>
-  	<a href="#" class=" hp-cta-video_transparent " style="margin-top: 20px;">Play Video</a>
+  	<!--a href="#" class=" hp-cta-video_transparent " style="margin-top: 20px;">Play Video</a -->
     <a href="#" class="button button--primary button--rounded">Setup a demo</a>
 	</div>
 		<div class="anim-imag anim1">
