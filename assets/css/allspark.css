@@ -819,3 +819,82 @@ a:focus{color:#ffffff}
 .case-studies.slider .slick-next:hover, .case-studies.slider .slick-prev:hover{
   background: rgba(0, 0, 0, 0.9);
 }
+
+
+
+
+/* -- audience curation -- */
+
+#myCarousel{
+  z-index: 999;
+}
+.side-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.side-menu ul .list-group-item{
+  border: none;
+}
+.side-menu ul .list-group-item.active{
+  background: transparent;
+  border: none;
+}
+.side-menu ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.side-menu a {
+  display: block;
+  border-left: 4px solid #eee;
+  padding-top: .556rem;
+  padding-bottom: .556rem;
+  padding-left: .833rem;
+  color: #222;
+  font-weight: bold;
+  font-size: 20px;
+}
+.side-menu li.active ul li a{
+  border-left: 4px solid #e53329 !important;
+}
+.side-menu .active a {
+    border-left: 4px solid #e53329;
+    color: #e53329;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.side-menu ul .list-group-item.list-toggle ul a {
+    padding-left: 1.667rem;
+    border-left: 4px solid #eee;
+    color: #999999;
+    font-weight: normal;
+    font-size: 15px;
+}
+.side-menu ul .active ul a {
+    padding-left: 1.667rem;
+    border-left: 4px solid #e53329;
+    color: #999999;
+    font-weight: normal;
+    font-size: 15px;
+}
+.side-menu ul .active ul a.active{
+  color: #e53329;
+  position: relative;
+}
+.side-menu ul .active ul a.active:before{
+  width: 0; 
+  height: 0; 
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #e53329;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 36%;
+}
+.custom-banner .col-md-4{
+  height: 200px;
+}
