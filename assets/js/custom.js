@@ -1,6 +1,3 @@
-
-
-
 $(function(){
  var shrinkHeader = 100;
     $(window).scroll(function() {
@@ -567,7 +564,6 @@ var Particle = function () {
       x: x,
       y: y
     };
-
     this.group = '';
     this.closest = {};
     this.id = Math.random() * 1000000;
