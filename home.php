@@ -104,19 +104,18 @@
 			</form>
 			<div class="tab-content" style="margin-top: 50px;">
 			    <div role="tabpanel" class="tab-pane fade in active" id="auto">
-					 <img src="<?php IMAGE('auto/audi.png'); ?>" width="63" alt="audi" />
-			        <img src="<?php IMAGE('auto/volkswagen.png'); ?>"  width="64"  alt="volkswagen" />
-			         <img src="<?php IMAGE('auto/bmw.png'); ?>"  width="63"  alt="bmw" />
-			          <img src="<?php IMAGE('auto/toyota.png'); ?>"  width="63"   alt="toyota" />
-			           <img src="<?php IMAGE('auto/ford.png'); ?>"  width="63"  alt="ford" />
-			            <img src="<?php IMAGE('auto/renault.png'); ?>"  width="63"  alt="renault" />
-			             <img src="<?php IMAGE('auto/nissan.png'); ?>"  width="63"  alt="nissan" />
-			              <img src="<?php IMAGE('auto/skoda.png'); ?>"  width="72" alt="skoda" />
-			               <img src="<?php IMAGE('auto/hyundai.png'); ?>" width="63"  alt="hyundai" />
-			                <img src="<?php IMAGE('auto/volvo.png'); ?>" width="63"  alt="volvo" />
-			                 <img src="<?php IMAGE('auto/bridgestone.png'); ?>"  width="126"  alt="bridgestone" />
+					<img src="<?php IMAGE('auto/audi.png'); ?>" width="63" alt="audi" />
+			        <img src="<?php IMAGE('auto/volkswagen.png'); ?>"  width="70"  alt="volkswagen" />
+			        <img src="<?php IMAGE('auto/bmw.png'); ?>"  width="63"  alt="bmw" />
+			        <img src="<?php IMAGE('auto/toyota.png'); ?>"  width="63"   alt="toyota" />
+			        <img src="<?php IMAGE('auto/ford.png'); ?>"  width="63"  alt="ford" />
+			        <img src="<?php IMAGE('auto/renault.png'); ?>"  width="70"  alt="renault" />
+			        <img src="<?php IMAGE('auto/nissan.png'); ?>"  width="63"  alt="nissan" />
+			        <img src="<?php IMAGE('auto/skoda.png'); ?>"  width="72" alt="skoda" />
+			        <img src="<?php IMAGE('auto/hyundai.png'); ?>" width="63"  alt="Hyundai" />
+			        <img src="<?php IMAGE('auto/volvo.png'); ?>" width="63"  alt="Volvo" />
+			        <img src="<?php IMAGE('auto/bridgestone.png'); ?>"  width="126"  alt="Bridgestone" />
 			    </div>
-
 				<div role="tabpanel" class="tab-pane fade" id="tab2">
 					<img alt="Pepsi" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 38%; background-size: 100% auto;"  width="62" height="62" />
 					<img alt="P&G" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 50%; background-size: 100% auto;"  width="62" height="62" />
@@ -131,21 +130,18 @@
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="tab3">
 			     <img src="<?php IMAGE('bfsi/standard-chartered.png'); ?>" width="63" alt="Standard Chartered" />
-			        <img src="<?php IMAGE('bfsi/ing.png'); ?>"  width="75"  alt="ING" />
-			         <img src="<?php IMAGE('bfsi/jp-morgan.png'); ?>"  width="75"  alt="JP Morgan" />
-			          <img src="<?php IMAGE('bfsi/anz.png'); ?>"  width="70"   alt="ANZ" />
-			           <img src="<?php IMAGE('bfsi/visa.png'); ?>"  width="63"  alt="VISA" />
-			            <img src="<?php IMAGE('bfsi/hsbc.png'); ?>"  width="80"  alt="HSBC" />
-			             <img src="<?php IMAGE('bfsi/axa.png'); ?>"  width="80"  alt="AXA" />
-			              <img src="<?php IMAGE('bfsi/prudential.png'); ?>"  width="72" alt="Prudential" />
-			               <img src="<?php IMAGE('bfsi/nab.png'); ?>" width="63"  alt="NAB" />
-			               <img src="<?php IMAGE('bfsi/westpac.png'); ?>"  width="85"  alt="Westpac" />
-			      
+			     <img src="<?php IMAGE('bfsi/ing.png'); ?>"  width="75"  alt="ING" />
+			     <img src="<?php IMAGE('bfsi/jp-morgan.png'); ?>"  width="75"  alt="JP Morgan" />
+			     <img src="<?php IMAGE('bfsi/anz.png'); ?>"  width="70"   alt="ANZ" />
+			     <img src="<?php IMAGE('bfsi/visa.png'); ?>"  width="63"  alt="VISA" />
+			     <img src="<?php IMAGE('bfsi/hsbc.png'); ?>"  width="80"  alt="HSBC" />
+			     <img src="<?php IMAGE('bfsi/axa.png'); ?>"  width="80"  alt="AXA" />
+			     <img src="<?php IMAGE('bfsi/prudential.png'); ?>"  width="72" alt="Prudential" />
+			     <img src="<?php IMAGE('bfsi/nab.png'); ?>" width="63"  alt="NAB" />
+			     <img src="<?php IMAGE('bfsi/westpac.png'); ?>"  width="85"  alt="Westpac" />
 			    </div>
-			    
 			    <div role="tabpanel" class="tab-pane fade" id="tab4">
-			       
-           <img alt="Microsoft" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>'); background-position: 0 44%; background-size: 100% auto;"  width="62" height="62" />
+			     <img alt="Microsoft" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>'); background-position: 0 44%; background-size: 100% auto;"  width="62" height="62" />
             <img alt="HP" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 15%; background-size: 100% auto;"  width="62" height="62" />
             <img alt="Samsung" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 59%; background-size: 100% auto;"  width="62" height="62" /> 
             <img alt="Sony" src="<?php IMAGE('bb.png'); ?>" style="background: url('<?php IMAGE('brands-technology.png'); ?>');  background-position: 0 73%; background-size: 100% auto;"  width="62" height="62" />
