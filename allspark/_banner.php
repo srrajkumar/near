@@ -8,9 +8,15 @@
   	<div class="line_break color-blue"></div>
     <span class="line-2">Get started with Allspark for <br class="add">
       <span id="typed-strings" class="type">
-          <span>Wifi</span>
-          <span>Location</span>
-          <span>Ambient Intelligence Platform</span>
+          <span>Mapping Consumer Journeys</span>
+          <span>CRM Onboarding</span>
+          <span>Out of Home Analytics</span>
+          <span>Omni-Channel Customer Experience</span>
+          <span>Offline Attribution</span>
+          <span>Audience Curation</span>
+          <span>Media Planning</span>
+          <span>Consumer Research</span>
+
       </span>
       <span id="typed" style="white-space:pre;"></span>
     </span>

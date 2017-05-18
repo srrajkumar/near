@@ -13,7 +13,7 @@
 			<a href="#" target="_self">USE CASES</a>
 			<ul class="list-group sidebar-nav-v1" id="sidebar-nav">
 				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/audience_curation/" target="_self" class="active" >Audience Curation</a>
+					<a href="<?php echo SITE_URL; ?>allspark/audience_curation/" target="_self" >Audience Curation</a>
 				</li>
 				<li class="list-group-item list-toggle">
 					<a href="<?php echo SITE_URL; ?>allspark/media-planning/" target="_self">Media Planning</a>
@@ -28,7 +28,7 @@
 					<a href="<?php echo SITE_URL; ?>allspark/consumer-research/" target="_self" >Consumer research</a>
 				</li>
 				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience/" target="_self">Omni-Channel Experience</a>
+					<a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience/" class="active" target="_self">Omni-Channel Experience</a>
 				</li>
 			</ul>
 		</li>
@@ -63,16 +63,18 @@
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                 	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
                 	<span>
-                		<h1>Audience Curation</h1>
+                		<h1>Omni-Channel Marketing</h1>
                 		<p>Whitepaper</p>
                 	</span>
                 	</div>
                 	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
                 	<div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
                 </div>
+                
+                
                 <div class="space"></div>
-                <h1>Enterprises, Brands and Agencies can use Allspark</h1>
-                <h2>to curate their audience of choice in real-time:</h2>
+                <h1>Enterprises, Brands and Research organisations can use Allspark to:</h1>
+                <!-- h2>to curate their audience of choice in real-time:</h2 -->
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
@@ -80,7 +82,7 @@
 	                	<img src="<?php IMAGE('allspark/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> unique data sets including spend, demography, place visitation history, audience nature and content.
+	                	<span class="blue">Get</span> real-time insights on places and audiences
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -88,7 +90,7 @@
 	                	<img src="<?php IMAGE('allspark/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> data sets from users across devices Smartphones, Tablets and Desktops
+	                	<span class="blue">Get</span> data on places and audience of choice through the Allspark DaaS API, and integrate this with their CRM data to understand their customers in-depth
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -96,7 +98,7 @@
 	                	<img src="<?php IMAGE('allspark/icon-3.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week
+	                	<span class="blue">Get</span> intelligence on customers in your own and competitor stores, and compare your audience across stores
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -104,7 +106,7 @@
 	                	<img src="<?php IMAGE('allspark/icon-4.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week
+	                	<span class="blue">Get</span> generated insights on verticals such as retail, telcos, QSRs, travel and more 
 	                </div>
                 </div>
                 </div>

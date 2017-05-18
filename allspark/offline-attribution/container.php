@@ -13,7 +13,7 @@
 			<a href="#" target="_self">USE CASES</a>
 			<ul class="list-group sidebar-nav-v1" id="sidebar-nav">
 				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/audience_curation/" target="_self" class="active" >Audience Curation</a>
+					<a href="<?php echo SITE_URL; ?>allspark/audience_curation/" target="_self" >Audience Curation</a>
 				</li>
 				<li class="list-group-item list-toggle">
 					<a href="<?php echo SITE_URL; ?>allspark/media-planning/" target="_self">Media Planning</a>
@@ -22,7 +22,7 @@
 					<a href="#" target="_self">Out-of-Home Analytics</a>
 				</li>
 				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/offline-attribution/" target="_self">Offline attribution</a>
+					<a href="<?php echo SITE_URL; ?>allspark/offline-attribution/" target="_self" class="active">Offline attribution</a>
 				</li>
 				<li class="list-group-item list-toggle">
 					<a href="<?php echo SITE_URL; ?>allspark/consumer-research/" target="_self" >Consumer research</a>
@@ -61,18 +61,38 @@
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
+                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                	<span>
+                		<h1>Shell</h1>
+                		<p>Case Study</p>
+                	</span>
+                	</div>
+                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
+                	<div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
+                </div>
+                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                 	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
                 	<span>
-                		<h1>Audience Curation</h1>
-                		<p>Whitepaper</p>
+                		<h1>OOH Attribution</h1>
+                		<p>Telstra Study</p>
                 	</span>
                 	</div>
                 	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
                 	<div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
                 </div>
+                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
+                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200"  style="background:#000">
+                	<span>
+                		<h1>Attribution</h1>
+                		<p>Whitepaper</p>
+                	</span>
+                	</div>
+                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
+                	<div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
+                </div>
                 <div class="space"></div>
-                <h1>Enterprises, Brands and Agencies can use Allspark</h1>
-                <h2>to curate their audience of choice in real-time:</h2>
+                <h1>Enterprises, Brands, Agencies and Research Organisations can use Allspark to measure offline attribution for:</h1>
+                <!-- h2>to curate their audience of choice in real-time:</h2 -->
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
@@ -80,7 +100,7 @@
 	                	<img src="<?php IMAGE('allspark/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> unique data sets including spend, demography, place visitation history, audience nature and content.
+	                	<span class="blue">Digital</span> media by measuring the effect on call to actions like store walk-ins, website traffic, social activity etc
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -88,10 +108,10 @@
 	                	<img src="<?php IMAGE('allspark/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> data sets from users across devices Smartphones, Tablets and Desktops
+	                	<span class="blue">Traditional</span> media by measuring the store walk-ins driven from OOH campaigns, and even TV campaigns
 	                </div>
                 </div>
-                <div class="col-md-6 row">
+                <!--div class="col-md-6 row">
 	                <div class="col-md-4">
 	                	<img src="<?php IMAGE('allspark/icon-3.png') ?>" />
 	                </div>
@@ -106,8 +126,10 @@
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">with</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week
 	                </div>
+                </div-->
                 </div>
-                </div>
+                <div class="col-md-12 subcontent">Organisations can now compare the attribution across channels, creatives, media type and devices  to measure ROI and make smarter marketing decisions. </div>
+                 <div class="space"></div>
                 <a href="#" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>
                 <hr />

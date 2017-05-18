@@ -40,7 +40,7 @@
   <div class="banner-content allspark-page">
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
-          <p>Audience Curation</p>
+          <p style="margin-top: 15px; line-height: 30px;">Omni-channel Customer Experience</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
         </div>
   </div>

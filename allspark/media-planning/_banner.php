@@ -40,7 +40,7 @@
   <div class="banner-content allspark-page">
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
-          <p>Audience Curation</p>
+          <p>Media Planning</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
         </div>
   </div>

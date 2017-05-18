@@ -21,9 +21,15 @@
 		<div class="line_break"></div>
 			<span class="line-2">"Location as a Single Identifier to combine <br class="add">
             <span id="typed-strings" class="type">
-                <span>Wifi</span>
-                <span>Location</span>
-                <span>Ambient Intelligence Platform</span>
+                <span>WiFi</span>
+                <span>Transaction</span>
+                <span>Weather</span>
+                <span>Retail</span>
+                <span>Places</span>
+                <span>Content</span>
+                <span>Real Estate</span>
+                <span>Credit Score</span>
+                <span>Traffic</span>
             </span>
             <span id="typed" style="white-space:pre;"></span>"</span>
             <div style="clear: both"></div>

@@ -4,6 +4,10 @@
   bottom: 0;
   right: -100px;
 }
+.allspark-inner .carsousel-banner{position: relative;
+bottom: inherit;
+right: inherit;
+}
 .bs-slider{
     overflow: hidden;
     max-height: 700px;
@@ -126,7 +130,7 @@
 }
 
 
-
+.allspark-page a.button{margin-left:0px;}
 
 
 /*---------- INDICATORS CONTROL ----------*/
@@ -920,7 +924,7 @@ a:focus{color:#ffffff}
   color: #fff;
   text-transform: uppercase;
 }
-.custom-banner .col-md-4:first-child:after{
+.custom-banner .col-md-4:nth-child(2):after{
   width: 0; 
   height: 0; 
   border-top: 20px solid transparent;
@@ -928,7 +932,7 @@ a:focus{color:#ffffff}
   border-left: 20px solid #444444;
   content: "";
   position: absolute;
-  right: -20px;
+  left: 0px;
   bottom: 16%;
   z-index: 1;
 }
@@ -1019,46 +1023,101 @@ a:focus{color:#ffffff}
 .submenu-tiles .col-md-4:hover a, .submenu-tiles .col-md-4:hover a p{
   color: #fff;
 }
-.submenu-tiles .col-md-4 a{
+.submenu-tiles .col-md-4 .button_animate:hover .button-icon-animate .button-icon-animate__circle--right, .submenu-tiles .col-md-4 .button_animate:hover .button-icon-animate .button-icon-animate__circle--left,.submenu-tiles .col-md-4 a:hover .button-icon-animate .button-icon-animate__circle--right, .submenu-tiles .col-md-4:hover .button-icon-animate .button-icon-animate__circle--left,.submenu-tiles .col-md-4:hover .button-icon-animate .button-icon-animate__circle--right,.submenu-tiles .col-md-4:hover .button-icon-animate .button-icon-animate__circle--left{stroke-dashoffset: 0;}
+.submenu-tiles .col-md-4:hover{cursor:pointer;}
+.submenu-tiles .col-md-4 .button_animate:hover .button-icon-animate .icon, .submenu-tiles .col-md-4:hover .button-icon-animate .icon{color:#fff;}
+.submenu-tiles .col-md-4 .tile__content{
   position: absolute;
   z-index: 2;
   bottom: 20px;
   left: 20px;
+}
+.submenu-tiles .col-md-4 a{
   transition: all 1s ease;
 }
+
 .submenu-tiles .button-icon-animate {
     top: 20px !important;
     z-index: 3 !important;
     left: 20px !important;
     position: absolute !important;
 }
-#carouselExampleIndicators{
+.allspark-inner{
   z-index: 9;
 }
-#carouselExampleIndicators .carousel-indicators .active{
-  background-color: #111111;
-}
-#carouselExampleIndicators .carousel-indicators li{
-  background-color: #cccccc;
-}
+
 /*#carouselExampleIndicators .banner-slider{
   width: 850px;
   height: 535px;
   margin-top: 5%;
 }*/
-#carouselExampleIndicators .col-lg-6 img{
+.allspark-inner .col-lg-9 img{
   width: 100%;
   height: auto;
 }
-#carouselExampleIndicators h1{
+.allspark-inner .allspark-page h1{
   color: #34393e;
   font-size: 42px;
   font-weight: 100;
   text-transform: none;
   margin-bottom: -11px;
 }
-#carouselExampleIndicators p{
+.allspark-inner .allspark-page p{
   color: #e21e27;
-  font-size: 42px;
+      font-size: 26px;
   font-weight: 700;
+  margin-top:10px;
 }
+.allspark-inner .bs-slider{overflow: visible;}
+/*---------- LEFT/RIGHT ROUND CONTROL ----------*/
+.allspark-inner .control-round .carousel-control {
+    top: 50px;
+   width: 35px;
+    height: 35px;
+    z-index: 100;
+    bottom: inherit;
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 43px;
+    text-shadow: none;
+    position: absolute;
+    font-weight: normal;
+    background: transparent;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+  right: -30px;
+   color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+   
+}
+.allspark-inner .control-round:hover .carousel-control{
+    opacity: 1;
+}
+.allspark-inner .control-round .carousel-control.left {
+    top:100px;
+    bottom: inherit;
+}
+/*.control-round .carousel-control.right {
+    right: 1%;
+}*/
+.allspark-inner .control-round .carousel-control.left:hover,
+.allspark-inner .control-round .carousel-control.right:hover{
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    
+}
+.allspark-inner .control-round .carousel-control.left>span:nth-child(1){
+    left: 11px;
+    position: relative;
+      top: -5px;
+}
+.allspark-inner .control-round .carousel-control.right>span:nth-child(1){
+       right: -14px;
+    position: relative;
+  top:-5px;
+}
+.col-lg-3 .banner-space{height:190px;}
+ .allspark-space.banner-space{height:100px;}
+.allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover{border: 1px solid #000; color:#000;}
