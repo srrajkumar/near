@@ -187,6 +187,7 @@ $meta_keywords="";
 
                 <?php include('inside-usecases.php'); ?>
     </div>
+    </div>
 </div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
