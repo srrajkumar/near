@@ -82,7 +82,7 @@ right: inherit;
 
 /*---------- LEFT/RIGHT ROUND CONTROL ----------*/
 .control-round .carousel-control {
-    bottom: 50px;
+    top: 50px;
    width: 35px;
     height: 35px;
     z-index: 100;
@@ -107,7 +107,7 @@ right: inherit;
     opacity: 1;
 }
 .control-round .carousel-control.left {
-    bottom:100px;
+    top:100px;
 }
 /*.control-round .carousel-control.right {
     right: 1%;
@@ -840,7 +840,7 @@ a:focus{color:#ffffff}
     list-style: none;
     margin: 0;
     padding: 0;
-
+width: 100%;
 }
 .side-menu ul .list-group-item{
   border: none;
@@ -1121,3 +1121,4 @@ a:focus{color:#ffffff}
 .col-lg-3 .banner-space{height:190px;}
  .allspark-space.banner-space{height:100px;}
 .allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover{border: 1px solid #000; color:#000;}
+.col-md-4{padding:0px;}

@@ -2089,7 +2089,7 @@ footer .spacing_margin{
 .responsive span.overlay3{ width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}*/
 .responsive div.content-slider {position: absolute; width:100%; display: inline-block; text-align: center;top:42%; color:#fff;}
 .icons svg{ display: block;  margin: 0 auto;  width: 69px;  height: 69px; }
-.col-sm-3:hover svg.fingerprint path{fill:rgba(226, 30, 39, 0.3); -webkit-animation: dash1 0.8s ease alternate forwards;}
+
 .icons sup{font-size:14px;}
 /*.slider{
     position: relative;
@@ -2184,26 +2184,7 @@ footer .spacing_margin{
   stroke-dashoffset: 700;
   -webkit-animation: dash 0.8s ease alternate forwards;
 }
-@-webkit-keyframes dash1 {
-  0% {
-    fill: transparent;
-    stroke: #e21e27;
-    stroke-dashoffset: 700;
-  }
-  50% {
-    stroke-width: 1;
-    fill: transparent;
-  }
-  90% {
-    fill:rgba(226, 30, 39, 0.35);
-  }
-  100% {
-   fill:rgba(226, 30, 39, 0.35);
-    stroke: #e21e27;
-    stroke-dashoffset: 0;
-    stroke-width: 0;
-  }
-}
+
 @-webkit-keyframes dash {
   0% {
     fill: transparent;
