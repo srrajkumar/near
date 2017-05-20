@@ -2089,8 +2089,7 @@ footer .spacing_margin{
 .responsive span.overlay3{ width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: inline-block; left: 0; z-index: 1; position:absolute; top:0;}*/
 .responsive div.content-slider {position: absolute; width:100%; display: inline-block; text-align: center;top:42%; color:#fff;}
 .icons svg{ display: block;  margin: 0 auto;  width: 69px;  height: 69px; }
-.responsive div.content-slider img{width: 69px;
-    height: 58px;
+.responsive div.content-slider img{
     display: inline-block;
     position: relative;
     bottom: 10px;}
@@ -2122,6 +2121,7 @@ footer .spacing_margin{
     vertical-align: top;
     margin: 0;
     margin-top: 10px;
+    margin-left: 10px;
 }
 .responsive .slick-slide > span {
   display: table-cell;
@@ -2150,7 +2150,7 @@ footer .spacing_margin{
   display: block;
 }
 
-.case-studies .slick-slide:hover svg {
+/*.case-studies .slick-slide:hover svg {
   animation: draw-icon 1s forwards;
 }
 
@@ -2160,17 +2160,17 @@ footer .spacing_margin{
   stroke-dashoffset: 273;
 }
 .case-studies .slick-slide:hover a[data-title="get-started"] svg,.case-studies .slick-slide:hover a[data-title="customers"] svg{stroke-dasharray: 85;stroke-dashoffset: 85;}
-.case-studies .slick-slide a[data-title="get-started"] svg{max-width: 50px;}
+.case-studies .slick-slide a[data-title="get-started"] svg{max-width: 50px;}*/
 .responsive .slick-slide:before {background: linear-gradient(to bottom, transparent, #000) !important;}
 .slick-slide:before{background: transparent !important;}
-@keyframes draw-icon {
+/*@keyframes draw-icon {
   2% {
     stroke: #ff5722;
   }
   100% {
     stroke-dashoffset: 0;
   }
-}
+}*/
 #waves {
     position: absolute;
     z-index: 2;

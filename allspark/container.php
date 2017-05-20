@@ -5,49 +5,16 @@
 			<a data-title="get-started" href="#">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" alt />
 				<div class="content-slider">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="60.625px" height="50px" viewBox="0 0 102.72 81.62" style="enable-background:new 0 0 102.72 81.62;" xml:space="preserve">
-						<g id="get-started">
-							<path d="M32.48,71.82A30.34,30.34,0,0,1,21.16,58.94" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<path d="M70.46,77.81a48.36,48.36,0,0,1-12.6,1.65,46.49,46.49,0,0,1-12.36-1.7" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<path d="M81.78,22.72c9.57,5.75,15.75,14.91,15.75,25.22,0,9.74-5.52,18.44-14.18,24.22" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<path d="M53.3,16.46c-4.73,0-8.23,1.41-12.57,3.11L29.61,11.69V25.87C24.74,29.72,20.45,35,18.73,40.44h-6.3c-1.74,0-3.15,1-3.15,2.77v9.45a3.23,3.23,0,0,0,3.15,3.24h6.86s7.7.29,7.7-4.73" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<path d="M55,22.72c8.88,0,17.34,1.57,23.64,6.3" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<polyline points="38.58 66.09 38.58 79.12 25.69 79.12 25.69 58.36" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></polyline>
-						<polyline points="76.09 58.36 76.09 79.12 63.77 79.12 63.77 66.09" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></polyline>
-						<path d="M42.38,37.06a6.3,6.3,0,0,0-12.6,0" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<path d="M107,38.48a9.45,9.45,0,0,1-9.45,9.45" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<path d="M61.29,22.72A7.88,7.88,0,1,1,71,25.09" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						<circle cx="32.42" cy="30.14" r="3.17" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"/>
-						<path d="M21.16,58.94s9.13-1.75,5.82-7.76" transform="translate(-6.78 -6.85)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px"></path>
-						</g>
-					</svg>
+					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>"  width="69" height="58" style="width:69px; height:58px;" alt />
 					<h3>BFSI</h3>
 				</div>
 			</a>
 		</div>
 		<div>
-			<a data-title="customers" href="#">
-			<img src="<?php IMAGE('allspark/retail-bg.png'); ?>" alt />
+			<a data-title="customers" href="<?php echo SITE_URL; ?>allspark/retail.php">
+			<img src="<?php IMAGE('allspark/retail-bg.png'); ?>"  alt />
 				<div class="content-slider">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="53.625px" height="47px" viewBox="0 0 35.14 35.61" style="enable-background:new 0 0 35.14 35.61;" xml:space="preserve">
-						<g id="customers">
-							<path d="M41,26.49a2.7,2.7,0,0,1-2.57-2.65h-.49a2.57,2.57,0,1,1-5.14,0h-.49a2.57,2.57,0,1,1-5.14,0h-.49a2.7,2.7,0,0,1-2.57,2.65,2.7,2.7,0,0,1-2.57-2.65H21a2.7,2.7,0,0,1-2.57,2.65,2.7,2.7,0,0,1-2.57-2.65H15.4a2.7,2.7,0,0,1-2.57,2.65,2.81,2.81,0,0,1-2.69-2.65v-.69H43.53v.69A2.7,2.7,0,0,1,41,26.49Z" transform="translate(-9.27 -6.69)" style="fill-rule:evenodd"></path>
-							<line x1="6.23" y1="17.34" x2="6.23" y2="7.37" />
-							<line x1="11.9" y1="17.42" x2="11.9" y2="7.37" />
-							<line x1="23.25" y1="7.37" x2="23.25" y2="17.34" />
-							<line x1="28.92" y1="7.37" x2="28.92" y2="17.34"/>
-							<line x1="17.58" y1="17.34" x2="17.58" y2="7.37" />
-							<line x1="0.14" y1="34.74" x2="34.96" y2="34.74" />
-							<line x1="3.75" y1="19.73" x2="3.75" y2="34.49" />
-							<line x1="14.64" y1="19.73" x2="14.64" y2="34.49" />
-							<line x1="31.79" y1="19.73" x2="31.79" y2="34.49"/>
-							<line x1="11.01" y1="24.34" x2="11.01" y2="27.48"/>
-							<line x1="14.75" y1="25.91" x2="31.33" y2="25.91"/>
-							<line x1="23.25" y1="26.08" x2="23.25" y2="17.62" />
-							<polyline points="0.91 15.93 0.91 0.88 34.24 0.88 34.24 15.93" ></polyline>
-							<line x1="1.24" y1="6.6" x2="33.66" y2="6.6" />
-						</g>
-					</svg>
+					<img src="<?php IMAGE('allspark/retail-icon.png'); ?>"  width="58" height="56" style="width:58px; height:56px;" alt />
 					<h3>RETAIL</h3>
 				</div>
 			</a>
@@ -55,18 +22,10 @@
 		</div>
 
 		<div>
-			<a data-title="blueprint" href="#">
-			<img src="<?php IMAGE('allspark/qsr-bg.png'); ?>" alt />
+			<a data-title="blueprint" href="<?php echo SITE_URL; ?>allspark/qsr.php">
+			<img src="<?php IMAGE('allspark/qsr-bg.png'); ?>"  alt />
 				<div class="content-slider">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="53.625px" height="47px" viewBox="0 0 109.51 136.66" style="enable-background:new 0 0 109.51 136.66;" xml:space="preserve">
-						<g id="blueprint">
-							<path id="path1307" d="M114.86,112.64A61.15,61.15,0,1,1,100.4,20.56" transform="translate(-6.35 -10.58)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:6px"/>
-							<path id="path2182" d="M33.72,42.43a45.51,45.51,0,1,1,35,74.53" transform="translate(-6.35 -10.58)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:6px"/>
-							<path id="path4031" d="M85.73,74.9l.18-15.59s-.27-3.12,2.26-3.12,2,3.12,2,3.12L90.06,74.9s-.27,1.56,1.81,1.65,1.72-1.74,1.72-1.74L93.49,59.5s-.18-3.3,2-3.3,1.72,3.39,1.72,3.39V75.27a2.43,2.43,0,0,0,2.17,1.28,1.94,1.94,0,0,0,1.78-1.27l.2-15.6s0-3.3,1.9-3.39,1.9,3.39,1.9,3.39l-.09,16.5s1,13.33-5.16,14.23c-5.47.79,2.16,47.41.12,48.8s-2.41,1.54-4.22,1.63A5.83,5.83,0,0,1,91.07,139c-2.13-2.45,4.63-48.22.54-48.81C86.28,89.37,85.64,74.81,85.73,74.9Z" transform="translate(-6.35 -10.58)" style="stroke-width:6px"/>
-							<path id="path8399" d="M38.82,64.69c2.44-4.68,7.41-5.44,9.57-5.44s8,.52,9.66,5.81S59,94.89,52.8,95.79c-5.47.79,2.16,47.41.12,48.8s-2.41,1.54-4.22,1.63a5.23,5.23,0,0,1-4.55-1.54c-2.13-2.45,4.45-48,.37-48.64C39.2,95.28,36.38,69.36,38.82,64.69Z" transform="translate(-6.35 -10.58)" style="stroke-width:6px"/>
-							<path id="path8401" d="M48.38,65.79c2.24-.49,4.44,1.56,5.67,5.29a22,22,0,0,1,.17,12.36C53.09,87.3,51,89.57,48.7,89.32" transform="translate(-6.35 -10.58)" style="stroke-linecap:round;stroke-width:6px"/>
-						</g>
-					</svg>
+					<img src="<?php IMAGE('allspark/qsr-icon.png'); ?>" alt   width="64" height="64" style="width:64px; height:64px;"/>
 					<h3>QSR</h3>
 				</div>
 			</a>
@@ -74,14 +33,10 @@
 		</div>
 
 		<div>
-			<a data-title="builder" href="#">
-			<img src="<?php IMAGE('allspark/auto-bg.png'); ?>" alt />
+			<a data-title="builder" href="<?php echo SITE_URL; ?>allspark/auto.php">
+			<img src="<?php IMAGE('allspark/auto-bg.png'); ?>"   alt />
 				<div class="content-slider">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="53.625px" height="47px" viewBox="0 0 111.96 111.96" style="enable-background:new 0 0 111.96 111.96;" xml:space="preserve">
-						<g id="builder">
-							<path d="M424.51,253.78a6.26,6.26,0,0,0,1.1.17,24.83,24.83,0,0,0,2.89.41,48.38,48.38,0,0,1,12.91,3.7,53.62,53.62,0,0,1,18.87,13.78,50.32,50.32,0,0,1,6.89,9.61,51.73,51.73,0,0,1,6.37,19.1,19.73,19.73,0,0,0,.35,2c0,.17.12.35.12.58v9.26a6.25,6.25,0,0,0-.17,1.1,24.79,24.79,0,0,0-.41,2.89,48.39,48.39,0,0,1-3.7,12.91A53.27,53.27,0,0,1,456.06,348a50.33,50.33,0,0,1-9.61,6.89,51.73,51.73,0,0,1-19.1,6.37,19.81,19.81,0,0,0-2,.35c-.17,0-.35.12-.58.12h-9.44c-.17,0-.35-.12-.58-.12-.58-.12-1.27-.23-2-.35a49.62,49.62,0,0,1-10-2.32,55.19,55.19,0,0,1-16.21-8.74,51.46,51.46,0,0,1-9.78-10,48.05,48.05,0,0,1-6.77-12,46.46,46.46,0,0,1-3.59-13.49,19.85,19.85,0,0,0-.35-2c0-.17-.12-.35-.12-.52v-9.2a1.79,1.79,0,0,1,.12-.4c.12-.58.23-1.27.35-2a41.06,41.06,0,0,1,2.32-10.07,53.88,53.88,0,0,1,8.74-16.21,51.46,51.46,0,0,1,10-9.78,48,48,0,0,1,12-6.77A46.47,46.47,0,0,1,413,254.31a19.89,19.89,0,0,0,2-.35c.17,0,.35-.12.52-.12l9-.06M384.45,296a5.32,5.32,0,0,0,2.6-.69,81.78,81.78,0,0,1,18.76-6.54,62.6,62.6,0,0,1,12.62-1.5h1c2,0,4.17.17,6.89.4a85,85,0,0,1,8.57,1.33,79.13,79.13,0,0,1,17.54,6.25,6.57,6.57,0,0,0,3,.75,5.08,5.08,0,0,0,3.82-1.68c2.08-2.08,2.37-4.17,1-6.89a45.53,45.53,0,0,0-18.47-19.1,45.49,45.49,0,0,0-21.94-5.79h-.35c-.69.12-1.33.12-2,.17-1.45.17-3,.23-4.52.41a37.53,37.53,0,0,0-11.81,3.42,46.06,46.06,0,0,0-21.88,20.84,6.08,6.08,0,0,0,5.21,8.63m35.43,26.16a14.45,14.45,0,0,0,14.47-14.36v-.17a14.44,14.44,0,0,0-14.24-14.36h-.17a14.6,14.6,0,0,0-14.47,14.36,14.43,14.43,0,0,0,14.24,14.47l.17.06m10.77,29.29a5.49,5.49,0,0,0,1.85-.35A46.87,46.87,0,0,0,453.8,337a47.52,47.52,0,0,0,9.32-16.56,4.77,4.77,0,0,0-.52-4.52,4.57,4.57,0,0,0-3.94-1.79h-.35a51.93,51.93,0,0,0-6.19.69,31.65,31.65,0,0,0-22.87,17.89,31.73,31.73,0,0,0-3.07,12.74v.23c.12,5.15,3.13,5.79,4.46,5.79M409,351.38a4.28,4.28,0,0,0,3.18-1.27,4.86,4.86,0,0,0,1.33-3.59c0-.58-.12-1.1-.12-1.62,0-.35-.12-.58-.12-.87a29.26,29.26,0,0,0-3-11.46,31.12,31.12,0,0,0-27.44-18.06h-1.79a4.9,4.9,0,0,0-3.82,2,4.75,4.75,0,0,0-.52,4c.69,2,1.45,4.28,2.37,6.48a41.69,41.69,0,0,0,10,13.84,53.72,53.72,0,0,0,4.92,4.05A41.29,41.29,0,0,0,407.14,351a6.37,6.37,0,0,0,1.85.35" transform="translate(-364.04 -251.78)" style="stroke-miterlimit:10;stroke-width:4px"/>
-						</g>
-					</svg>
+					<img src="<?php IMAGE('allspark/auto-icon.png'); ?>"  width="57" height="57" style="width:57px; height:57px;" alt />
 					<h3>AUTO</h3>
 				</div>
 			</a>
@@ -89,9 +44,9 @@
 		</div>
 		<div>
 			<a data-title="get-started" href="#">
-			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" alt />
+			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>"  alt />
 				<div class="content-slider">
-					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>" alt />
+					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>" alt  width="69" height="58" style="width:69px; height:58px;" />
 					<h3>BFSI</h3>
 				</div>
 			</a>
@@ -319,54 +274,43 @@
 	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
 	<div class="allspark-slider responsive2" style="margin-bottom:0px !important; margin-top: 30px;">
-		<div><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/audience-curation.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Audience Curation</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
+				<p>Set custom rules to curate your audience</p>
+			</div></a>
 		</div>
-		<div><img src="<?php IMAGE('allspark/media-planning.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/media-planning.php" target="_self"><img src="<?php IMAGE('allspark/media-planning.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Media Planning</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
+				<p>Make data-driven spend decisions across media channels</p>
+			</div></a>
 		</div>
-		<div><img src="<?php IMAGE('allspark/out-of-home-analytics.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php" target="_self"><img src="<?php IMAGE('allspark/out-of-home-analytics.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Out-of-Home Analytics</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
+				<p>Make intelligent decisions for your Outdoor marketing strategy with real-time data</p>
+			</div></a>
 		</div>
-		<div><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
 			<div class=" allspark-content">
-				<h3>Audience Curation</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
+				<h3>Offline Attribution</h3>
+				<p>Measure the impact of your marketing spends across channels in the physical and digital world</p>
+			</div></a>
 		</div>
-		<div><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
 			<div class=" allspark-content">
-				<h3>Audience Curation</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
+				<h3>Omni-Channel Experience</h3>
+				<p>Identify and reach your audience across channels to provide a seamless and personalised brand experience</p>
+			</div></a>
 		</div>
-		<div><img src="<?php IMAGE('allspark/media-planning.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_self"><img src="<?php IMAGE('allspark/media-planning.png'); ?>" alt/>
 			<div class=" allspark-content">
-				<h3>Media Planning</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
+				<h3>Consumer Research</h3>
+				<p>Get powerful insights on your audience across markets and action on them in real-time</p>
+			</div></a>
 		</div>
-		<div><img src="<?php IMAGE('allspark/out-of-home-analytics.png'); ?>" alt/>
-			<div class=" allspark-content">
-				<h3>Out-of-Home Analytics</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
-		</div>
-		<div><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
-			<div class=" allspark-content">
-				<h3>Audience Curation</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus velit purus.</p>
-			</div>
-		</div>
+	
 	</div>
 </div>
 <div class="container spacing_margin text-center">
