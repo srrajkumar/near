@@ -2161,8 +2161,7 @@ footer .spacing_margin{
 }
 .case-studies .slick-slide:hover a[data-title="get-started"] svg,.case-studies .slick-slide:hover a[data-title="customers"] svg{stroke-dasharray: 85;stroke-dashoffset: 85;}
 .case-studies .slick-slide a[data-title="get-started"] svg{max-width: 50px;}*/
-.responsive .slick-slide:before {background: linear-gradient(to bottom, transparent, #000) !important;}
-.slick-slide:before{background: transparent !important;}
+.case-studies .slick-slide:before {content: "";background: linear-gradient(to bottom, transparent, #000) !important;}
 /*@keyframes draw-icon {
   2% {
     stroke: #ff5722;

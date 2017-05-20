@@ -274,29 +274,40 @@
 	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
 	<div class="allspark-slider responsive2" style="margin-bottom:0px !important; margin-top: 30px;">
-		<div><a href="<?php echo SITE_URL; ?>allspark/audience-curation.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
+		<div>
+		<a href="<?php echo SITE_URL; ?>allspark/audience-curation.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Audience Curation</h3>
 				<p>Set custom rules to curate your audience</p>
-			</div></a>
+			</div>
+			</a>
 		</div>
-		<div><a href="<?php echo SITE_URL; ?>allspark/media-planning.php" target="_self"><img src="<?php IMAGE('allspark/media-planning.png'); ?>" alt/>
+		<div>
+		<a href="<?php echo SITE_URL; ?>allspark/media-planning.php" target="_self">
+		<img src="<?php IMAGE('allspark/media-planning.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Media Planning</h3>
 				<p>Make data-driven spend decisions across media channels</p>
-			</div></a>
+			</div>
+			</a>
 		</div>
-		<div><a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php" target="_self"><img src="<?php IMAGE('allspark/out-of-home-analytics.png'); ?>" alt/>
+		<div>
+		<a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php" target="_self">
+		<img src="<?php IMAGE('allspark/out-of-home-analytics.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Out-of-Home Analytics</h3>
 				<p>Make intelligent decisions for your Outdoor marketing strategy with real-time data</p>
-			</div></a>
+			</div>
+			</a>
 		</div>
-		<div><a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
+		<div>
+		<a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_self">
+		<img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Offline Attribution</h3>
 				<p>Measure the impact of your marketing spends across channels in the physical and digital world</p>
-			</div></a>
+			</div>
+			</a>
 		</div>
 		<div><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
 			<div class=" allspark-content">

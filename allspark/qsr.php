@@ -226,7 +226,7 @@ $meta_keywords="";
                 <div class="space"></div>
                 <hr />
 
-                <?php include('inside-usecases.php'); ?>
+                <?php include('inside-verticals.php'); ?>
 
         </div>
     </div>

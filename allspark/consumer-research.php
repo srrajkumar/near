@@ -60,6 +60,8 @@ $meta_keywords="";
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
           <p>Consumer Research</p>
+          <span class="line_break1 color-red"></span>
+          <p style="font-size: 16px; color: #444;">Get powerful insights on your audience across markets and action on them in real-time</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
         </div>
   </div>

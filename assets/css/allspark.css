@@ -1027,6 +1027,7 @@ width: 100%;
     z-index: 3;
     transition: all 0.2s ease-in-out;
     overflow: hidden;
+   
 }
 .submenu-tiles .col-md-4:hover .custom_btn{
   width: 120px;
@@ -1034,6 +1035,8 @@ width: 100%;
 .submenu-tiles .col-md-4:hover .btn__text{
   right: 0;
 }
+.banner-content .line_break1{height: 2px;  margin: 20px 0;
+    background: #ff1d25; width:40% !important; }
 .custom_btn .btn__text{
     right: 100%;
     color: #ED1C24;

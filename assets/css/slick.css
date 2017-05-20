@@ -83,7 +83,7 @@
 }
 .slick-slide:before{
     background: linear-gradient(to bottom, transparent, #000);
-    content: "";
+
 position: absolute;
 top: 0;
 left: 0;

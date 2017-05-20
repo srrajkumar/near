@@ -60,6 +60,8 @@ $meta_keywords="";
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
           <p>Audience Curation</p>
+          <span class="line_break1 color-red"></span>
+          <p style="font-size: 16px; color: #444;">Set custom rules to curate your audience</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
         </div>
   </div>

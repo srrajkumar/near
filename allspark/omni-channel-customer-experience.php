@@ -60,6 +60,8 @@ $meta_keywords="";
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
           <p style="margin-top: 15px; line-height: 30px;">Omni-channel Customer Experience</p>
+          <span class="line_break1 color-red"></span>
+          <p style="font-size: 16px; color: #444;">Identify and reach your audience across channels to provide a seamless and personalised brand experience</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
         </div>
   </div>

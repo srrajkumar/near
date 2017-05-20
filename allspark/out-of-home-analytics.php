@@ -59,7 +59,9 @@ $meta_keywords="";
   <div class="banner-content allspark-page">
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
-          <p>Offline Attribution</p>
+          <p>Out-of Home Analytics</p>
+         <span class="line_break1 color-red"></span>
+          <p style="font-size: 16px; color: #444;">Make intelligent decisions for your Outdoor marketing strategy with real-time data</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
         </div>
   </div>
