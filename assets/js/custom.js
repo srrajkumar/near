@@ -174,6 +174,7 @@ document.addEventListener('DOMContentLoaded', function(){
 function newTyped(){ /* A new typed object */ }
 //function foo(){ console.log("Callback"); }
 
+<<<<<<< Updated upstream
 $.fn.ashCordian = function() {
   
   var container = $(this);

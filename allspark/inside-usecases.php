@@ -23,9 +23,7 @@
                             </a>
                    </div>
 
-
-
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
+                   <div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
                    
                     
                         <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
