@@ -1191,7 +1191,7 @@ width: 100%;
 }
 .col-lg-3 .banner-space{height:190px;}
  .allspark-space.banner-space{height:100px;}
-.allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover{border: 1px solid #000; color:#000;}
+.the_data .button--rounded:hover, .allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover{border: 1px solid #000; color:#000;}
 .col-md-4{padding:0px;}
 
 
@@ -1200,22 +1200,18 @@ width: 100%;
 /* ----------------
     THE DATA
 ------------------ */
-.the_data .carousel-custom{
-  background-image: url('../images/data/data-bg.png');
-  background-size: cover;
-}
 
-.the_data .banner-content h1{
+.the-data .banner-content h1{
   font-weight: 700;
   color: #ff1d25;
   text-transform: uppercase;
 }
-.the_data .banner-content hr, .the_data hr{
+.the-data .banner-content hr, .the_data hr{
   border:1px solid #ff1d25;
   width: 100px;
   margin-left: 0;
 }
-.the_data .banner-content p{
+.the-data .banner-content p{
     color: #273444;
     font-size: 20px;
     line-height: 25px;
@@ -1323,3 +1319,5 @@ width: 100%;
   display: inline-block;
   width: 150px;
 }
+
+    .animation-banner{position: absolute; top:0px;}

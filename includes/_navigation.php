@@ -26,7 +26,7 @@
           <a class="nav-link" href="<?php echo SITE_URL; ?>allspark">Allspark</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">The Data</a>
+          <a class="nav-link" href="<?php echo SITE_URL; ?>data/">The Data</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About Us</a>

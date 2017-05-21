@@ -77,7 +77,7 @@
 				<div class="container">
 				<div class="row">
 					<div class="col-sm-12" style="padding:0px;">
-						<hr style="border-top:1px solid rgba(0,0,0,0.5); margin-bottom:10px; padding-bottom:10px;"/>
+						<hr style="border-top:1px solid rgba(0,0,0,0.5) !important; border:none; width:100%; margin-bottom:10px; padding-bottom:10px;"/>
 					</div>
 				</div>
 				<div class="row">
