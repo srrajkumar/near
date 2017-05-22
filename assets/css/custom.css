@@ -405,7 +405,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 }
 .allspark-page.banner-content span{font-size: 42px; line-height: 58px;}
 .allspark-page.banner-content span:nth-child(6){font-size:18px !important;}
-.allspark-page #typed,.allspark-page .typed-cursor{font-size:18px !important;}
+.allspark-page #typed,.allspark-page .typed-cursor{font-size:18px !important; bottom: 0px;}
 .color-blue{background: #44aacc !important;}
 .row h1, .row h2{width:100%;}
 .whats-happening .col-sm-6.whats-new .kroll{
