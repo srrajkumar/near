@@ -46,32 +46,46 @@
       <!-- Nav -->
       <nav class="s-header__nav js__scrollbar container">
         <div class="container-fluid row">
-          <!-- Menu List -->                                
-          <ul class="list-unstyled s-header__nav-menu col-lg-4">
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="<?php echo SITE_URL; ?>allspark">Allspark</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Research</a></li>
+          <ul class="main_nav">
+            <li data-aos="fade-up" class="submenu"><a>Allspark <span>+</span></a>
+            <ul>
+              <li class="line_anim"></li>
+              <li class="header">USE CASES</li>
+              <li><a href="#">Audience Curation</a></li>
+              <li><a href="#">Media Planning</a></li>
+              <li><a href="#">Out-of-Home Analytics</a></li>
+              <li><a href="#">Offline attribution</a></li>
+              <li><a href="#">Consumer research</a></li>
+              <li><a href="#">Omni-Channel Experience</a></li>
+              <li class="header">VERTICAL</li>
+              <li><a href="#">Retail</a></li>
+              <li><a href="#">QSR</a></li>
+              <li><a href="#">Telco</a></li>
+              <li><a href="#">Auto</a></li>
+            </ul></li>
+            <li data-aos="fade-up"><a href="#">The Data</a></li>
+            <li data-aos="fade-up" class="submenu"><a href="#">About Us <span>+</span></a>
+              <ul style="right: -157px;">
+              <li class="line_anim"></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Board</a></li>
+              <li><a href="#">Culture</a></li>
+              <li><a href="#">Blog <span style="top: 13px;">+</span></a>
+                <ul>
+                  <li class="line_anim"></li>
+                  <li><a href="#">Corporate Blog</a></li>
+                  <li><a href="#">Tech Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Newsroom</a></li>
+              <li><a href="#">Events</a></li>
+            </ul>
+            </li>
+            <li data-aos="fade-up"><a href="#">Careers</a></li>
+            <li data-aos="fade-up"><a href="#">Privacy</a></li>
+            <li data-aos="fade-up"><a href="#">Contact Us</a></li>
           </ul>
-          <!-- End Menu List -->
-          <!-- Menu List -->                                
-          <ul class="list-unstyled s-header__nav-menu col-lg-4">
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="#">The Data</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Privacy</a></li>
-          </ul>
-          <!-- End Menu List -->
-          <!-- Menu List -->                                
-          <ul class="list-unstyled s-header__nav-menu col-lg-4">
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="#">About Us</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Leadership</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Investors</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Board</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Culture</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link" href="#">Blog</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Newsroom</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Events</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Careers</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#">Contact us</a></li>
-          </ul>
-          <!-- End Menu List -->
         </div>
     </nav>
     <!-- End Nav -->

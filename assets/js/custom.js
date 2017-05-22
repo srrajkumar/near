@@ -505,6 +505,13 @@ $('#myselect').on('change', function (e) {
     var id = $(this).val();
     $('a[href="' + id + '"]').tab('show');
 });
+$('.submenu').on('click', function () {
+    $(".main_nav").removeClass("sub_active");
+    $(".submenu").removeClass("active");
+    $(this).closest(".main_nav").toggleClass("sub_active");
+    $(this).toggleClass("active");
+});
+
 $('.carousel-allspark').carousel({interval:2500});
 
 $(document).ready(function() {
