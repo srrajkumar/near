@@ -11,7 +11,7 @@
     <div class="col-md-10">
           <h1>The Data</h1>
           <hr />
-          <p>Near’s Ambient Intelligence Platform Becomes context-aware by ingesting data from smart environments</p>
+          <p>Near’s Ambient Intelligence Platform becomes context-aware by ingesting data from smart environments</p>
           </div>
           <div class="col-mg-12 icon-anim">
           <a href="#" class="icon_hover active col-md-3">

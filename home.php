@@ -5,26 +5,18 @@
         	<div class="spacing">
 		        <span>Processing data from Over</span>
 		        1 BILLION<br> DEVICES <br>in over <br>40 countries
-				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
-				</span>
+				 <span  class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
+                        
 	        </div>
 		</a>
         </div>
@@ -270,24 +262,17 @@
         <a href="<?php echo SITE_URL; ?>allspark/">
         	<div class="spacing">
 		        DATA DRIVEN MARKETING
-    	        <span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:3s;"><i class="icon ion-arrow-right-c "></i></span>
-				</span>
+    	       <span  class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                       
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
 	        </div>
 	        </a>
         </div>
@@ -295,24 +280,17 @@
         <a href="<?php echo SITE_URL; ?>allspark/">
         	<div class="spacing" style="height: 100%;">
         		CONSUMER INSIGHTS
-        		<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
-				</span>
+        		<span  class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                       
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
         	</div>
         	</a>
         </div>
@@ -320,24 +298,17 @@
         <a href="<?php echo SITE_URL; ?>data.php">
         	<div class="spacing">
 		        DATA-AS-A-SERVICE
-				<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1; margin-top: 120px;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
-				</span>
+				<span  class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                       
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
 	        </div>
 	        </a>
         </div>
@@ -355,26 +326,17 @@
 					<h1 class="title">Case Studies</h1>
 					<p>Subway</p>
 					<div class="description">
-						<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
-				</span>
+						<span  class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
 					</div>
 					</figcaption>
 				</figure>
@@ -388,26 +350,17 @@
 					<h1 class="title">Latest Research</h1>
 					<p>Telco</p>
 					<div class="description">
-						<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
-				</span>
+						<span  class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                       
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
 					</div>
 					</figcaption>
 				</figure>
@@ -421,26 +374,16 @@
 					<h1 class="title">Whitepaper</h1>
 					<p>Lorem</p>
 					<div class="description">
-						<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
-				</span>
+						 <span class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
 					</div>
 					</figcaption>
 				</figure>
@@ -454,26 +397,17 @@
 					<h1 class="title">Industry Report</h1>
 					<p>Lorem</p>
 					<div class="description">
-						<span class="button-icon-animate " style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
-					<svg class="button-icon-animate__circle " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<g class="st0" style="opacity:0.4;">
-							<path class="st1" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5
-							C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path>
-						</g>
-						<g>
-							<circle class="st1 button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style="fill: rgb(255, 255, 255); transform: matrix(0, 0, 0, 0, 0.5, 0.5); visibility: visible; transform-origin: 0px 0px 0px;" data-svg-origin="25 25"></circle>
-						</g>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="transform: matrix(-1, 0, 0, -1, 0, 0); " xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>
-
-					<svg class="button-icon-animate__circle button-icon-animate__circle--right " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="" xml:space="preserve">
-						<path class="st0" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path>
-					</svg>        
-					<span class="wobble"  style="animation-delay:0s;"><i class="icon ion-arrow-right-c"></i></span>
-				</span>
+						<span  class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
 					</div>
 					</figcaption>
 				</figure>

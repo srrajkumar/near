@@ -15,7 +15,7 @@ $meta_keywords="";
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 
 </head>
-<body  class="the_data">
+<body  class="the-data">
 <div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
 	<?php include('container.php'); ?>
@@ -51,7 +51,7 @@ $meta_keywords="";
     void main() {
         vColor = customColor;
         vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-        gl_PointSize = size * ( 100.0 / length( mvPosition.xyz ) );
+        gl_PointSize = size * ( 10.0 / length( mvPosition.xyz ) );
         gl_Position = projectionMatrix * mvPosition;
     }
 </script>
@@ -76,9 +76,9 @@ $meta_keywords="";
       distance = 500;
     for (geometry = new THREE.Geometry, geometryLine = new THREE.Geometry, i = 0; 75 > i; i++) {
       var vertex = new THREE.Vector3,
-        theta = THREE.Math.randFloatSpread(270),
-        phi = THREE.Math.randFloatSpread(360);
-      do vertex.x = 2e3 * Math.random() - 1e3, vertex.y = 2e3 * Math.random() - 1e3, vertex.z = 2e3 * Math.random() - 1e3; while (vertex.length() > 500);
+        theta = THREE.Math.randFloatSpread(100),
+        phi = THREE.Math.randFloatSpread(10);
+      do vertex.x = 2e3 * Math.random() - 1e3, vertex.y = 2e3 * Math.random() - 1e3, vertex.z = 2e3 * Math.random() - 1e3; while (vertex.length() > 200);
       geometry.vertices.push(vertex), geometryLine.vertices.push(vertex)
     }
     new THREE.Line(geometryLine, lineMaterial);
@@ -110,10 +110,10 @@ $meta_keywords="";
       fragmentShader: document.getElementById("fragmentshader").textContent,
       alphaTest: .9
     });
-    materials[0] = new THREE.PointCloudMaterial({
-      size: 60,
+    materials[0] = new THREE.PointsMaterial({
+      size: 6,
       color: 7039851
-    }), particles = new THREE.PointCloud(geometry, shaderMaterial);
+    }), particles = new THREE.Points(geometry, shaderMaterial);
     for (var values_size = attributes.size.value, values_color = attributes.customColor.value, vertices = particles.geometry.vertices, v = 0, vl = vertices.length; vl > v; v++) values_size[v] = PARTICLE_SIZE, values_color[v] = (new THREE.Color).setHSL(0, 0, .1 + .01 * v * (2 / vl));
     scene.add(particles);
     var material = new THREE.MeshBasicMaterial({
@@ -121,7 +121,7 @@ $meta_keywords="";
       wireframe: !0,
       wireframeLinewidth: 1
     });
-    Ico = new THREE.Mesh(new THREE.SphereGeometry(150, 0), material), Ico.position.x = 160, scene.add(Ico),THREE.ImageUtils.crossOrigin = '',  dotLime = THREE.ImageUtils.loadTexture("../assets/images/data/dot-lime.png"), dotLBlue = THREE.ImageUtils.loadTexture("../assets/images/data/dot-lblue.png"), dotSunset = THREE.ImageUtils.loadTexture("../assets/images/data/dot-sunset.png"), dotOrange = THREE.ImageUtils.loadTexture("../assets/images/data/dot-orange.png"), dotVelvet = THREE.ImageUtils.loadTexture("../assets/images/data/dot-velvet.png");
+    Ico = new THREE.Mesh(new THREE.SphereGeometry(140,7, 7 ,0,6.3,0,3.1 ), material), Ico.position.x = 160, scene.add(Ico),THREE.ImageUtils.crossOrigin = '',  dotLime = THREE.ImageUtils.loadTexture("../assets/images/data/dot-lime.png"), dotLBlue = THREE.ImageUtils.loadTexture("../assets/images/data/dot-lblue.png"), dotSunset = THREE.ImageUtils.loadTexture("../assets/images/data/dot-sunset.png"), dotOrange = THREE.ImageUtils.loadTexture("../assets/images/data/dot-orange.png"), dotVelvet = THREE.ImageUtils.loadTexture("../assets/images/data/dot-velvet.png");
     var dots = [dotLime, dotLBlue, dotSunset, dotOrange, dotVelvet];
     distance = 100;
     var shadeMaterial = new THREE.BufferGeometry({
@@ -142,7 +142,7 @@ $meta_keywords="";
         },
         size: {
           type: "f",
-          value: [40]
+          value: [4]
         }
       },
       vertexShader: document.getElementById("vertexshader").textContent,
@@ -153,28 +153,28 @@ $meta_keywords="";
       geometry2 = new THREE.Geometry;
       var vertex = new THREE.Vector3;
       vertex.x = Ico.geometry.vertices[i].x, vertex.y = Ico.geometry.vertices[i].y, vertex.z = Ico.geometry.vertices[i].z, geometry2.vertices.push(vertex);
-      new THREE.PointCloudMaterial({
+      new THREE.PointsMaterial({
         opacity: 1,
         size: 64,
-        segments: 32,
+        segments: 3,
         transparent: !0,
         color: 6710886
       });
-      particles2 = new THREE.PointCloud(geometry2, shadeMaterial), particles2.position.x = 160, particles2.name = "bubbles", scene.add(particles2)
+      particles2 = new THREE.Points(geometry2, shadeMaterial), particles2.position.x = 160, particles2.name = "bubbles", scene.add(particles2)
     }
     for (i = 0; 5 > i; i++) {
       geometry2 = new THREE.Geometry;
       var vertex = new THREE.Vector3,
         theta = THREE.Math.randFloatSpread(360),
         phi = THREE.Math.randFloatSpread(360);
-      distance = 80, vertex.x = distance * Math.sin(theta) * Math.cos(phi), vertex.y = distance * Math.sin(theta) * Math.sin(phi), vertex.z = distance * Math.cos(theta), geometry2.vertices.push(vertex), materials2[i] = new THREE.PointCloudMaterial({
+      distance = 80, vertex.x = distance * Math.sin(theta) * Math.cos(phi), vertex.y = distance * Math.sin(theta) * Math.sin(phi), vertex.z = distance * Math.cos(theta), geometry2.vertices.push(vertex), materials2[i] = new THREE.PointsMaterial({
         opacity: 1,
         size: 64,
-        segments: 20,
+        segments: 2,
         map: dots[i],
         alphaTest: .5,
         transparent: !0
-      }), particles2 = new THREE.PointCloud(geometry2, materials2[i]), particles2.name = "colors", particles2.rotation.x += .005 * Math.random(), particles2.rotation.y += .007 * Math.random(), particles2.rotation.z += .003 * Math.random(), particles2.position.x = 200, scene.add(particles2)
+      }), particles2 = new THREE.Points(geometry2, materials2[i]), particles2.name = "colors", particles2.rotation.x += .005 * Math.random(), particles2.rotation.y += .007 * Math.random(), particles2.rotation.z += .003 * Math.random(), particles2.position.x = 200, scene.add(particles2)
     }
     renderer = new THREE.WebGLRenderer({
       alpha: !0

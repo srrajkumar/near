@@ -19,17 +19,17 @@
 		<div><span>to understand consumers</span></div>
 		<div><span>in Smart Environments</span></div>
 		<div class="line_break"></div>
-			<span class="line-2">"Location as a Single Identifier to combine <br class="add">
+			<span class="line-2">"Location as a Single Identifier to combine <br >
             <span id="typed-strings" class="type">
-                <span>WiFi</span>
-                <span>Transaction</span>
-                <span>Weather</span>
-                <span>Retail</span>
-                <span>Places</span>
-                <span>Content</span>
-                <span>Real Estate</span>
-                <span>Credit Score</span>
-                <span>Traffic</span>
+                <span>WiFi data</span>
+                <span>Transaction data</span>
+                <span>Weather data</span>
+                <span>Retail data</span>
+                <span>Places data</span>
+                <span>Content data</span>
+                <span>Real Estate data</span>
+                <span>Credit Score data</span>
+                <span>Traffic data</span>
             </span>
             <span id="typed" style="white-space:pre;"></span>"</span>
             <div style="clear: both"></div>

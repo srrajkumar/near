@@ -43,11 +43,11 @@
 		
 		</div>
 		<div>
-			<a data-title="get-started" href="#">
+			<a data-title="get-started" href="<?php echo SITE_URL; ?>allspark/telco.php">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>"  alt />
 				<div class="content-slider">
 					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>" alt  width="69" height="58" style="width:69px; height:58px;" />
-					<h3>BFSI</h3>
+					<h3>TELCO</h3>
 				</div>
 			</a>
 		

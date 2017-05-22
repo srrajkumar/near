@@ -631,7 +631,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 #typed, .typed-cursor{
     display: inline-block !important;
     color: #5ba9e9 !important;
-    font-size: 22px !important;
+    font-size: 24px !important;
     font-weight: 500 !important;
 }
 .whats-happening{
@@ -2209,6 +2209,142 @@ footer .spacing_margin{
   }
 }
 .brand_tabs {min-height:300px;}
+.custom_btn .btn__text{
+    right: 100%;
+    color: #000 !important;
+    height: 50px;
+    width: 120px;
+    background: rgba(255,255,255,1);
+    position: absolute;
+    line-height: 50px; 
+    transition: all 0.2s ease-in-out;
+   
+}
+
+.custom_btn .icon{
+  top: 4px;
+  left: -8px;
+}
+.btn__text-inner{
+  margin-left: 20px;
+   font-size:14px !important;
+  color: #000 !important;
+  text-transform: uppercase;
+}
+
+.custom_btn .icon svg{
+  width: 50px;
+  height: 50px;
+  right: 0;
+  position: absolute;
+  top: -4px;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.use-cases .custom_btn, .button_animate .custom_btn{
+    border: 1px solid #fff;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+   border-radius:30px;
+}
+.use-cases .custom_btn{margin-top:120px;}
+ .col-md-3:hover .custom_btn{
+  width: 120px;
+}
+.col-md-3:hover .kroll .custom_btn, .kroll .custom_btn .btn__text{
+  width: 140px;
+}
+ .col-md-3:hover .btn__text{
+  right: 0;
+}
+
+.color_change{
+  fill: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.use-cases:hover .color_change, .button_animate:hover .color_change{
+  fill: #ED1C24;
+}
+.use-cases:hover:before,.button_animate:hover:before{
+  opacity: 0.7;
+}
+.use-cases:hover .custom_btn, .button_animate:hover .custom_btn{border:1px solid rgba(255,255,255,1)}
+.col-sm-3 .custom_btn .btn__text{
+    right: 100%;
+    color: #fff !important;
+    height: 50px;
+    width: 145px;
+    background: #000;
+    position: absolute;
+    line-height: 50px; 
+    transition: all 0.2s ease-in-out;
+   
+}
+
+.col-sm-3 .custom_btn .icon{
+  top: 4px;
+  left: -8px;
+}
+.col-sm-3 .btn__text-inner{
+  margin-left: 20px;
+   font-size:14px !important;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+.col-sm-3 .custom_btn .icon svg{
+  width: 50px;
+  height: 50px;
+  right: 0;
+  position: absolute;
+  top: -4px;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.col-sm-3 .custom_btn{
+    border: 1px solid #000;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+   border-radius:30px;
+       opacity: 1;
+       display:block;
+}
+
+ .col-sm-3 a:hover .custom_btn{
+  width: 120px;
+}
+
+.col-sm-3 a:hover .btn__text{
+  right: 0;
+  top: -2px;
+}
+
+.col-sm-3 .color_change{
+  fill: #000;
+  transition: all 0.5s ease-in-out;
+}
+.col-sm-3 a:hover .color_change{
+  fill: rgba(255,255,255,0.8);
+}
+.col-sm-3 a:hover:before{
+  opacity: 0.7;
+}
+.col-sm-3 a:hover .custom_btn{border:1px solid #000}
+
 @media (max-width: 768px){
     .navbar-nav {display:none;}
     .nav-pills{top: 20px;}

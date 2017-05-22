@@ -4,7 +4,7 @@
                 <div class="col col-md-3">
                 <h1><span>Data in the</span><br>Near Platform</h1>
           <hr />
-          <p>The platform that makes you “context aware” in the current era of smart devices, perpetual connectivity and ubiquitous information, and provides intelligence based on pertinent data streams from a wide spectrum of data signals.</p>
+          <p>The platform provides intelligence based on pertinent data streams from a wide spectrum of data signals in the current era of ubiquitous information and perpetual connectivity.</p>
           <br>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">Partner with us</a>
           </div>
@@ -129,7 +129,7 @@
                     <img src="<?php IMAGE('data/icon-set-4/icon-5.png') ?>" />
                     <hr />
                     <p>Enterprises
-                    <span style="color: #38a5d2; display: block">& MORE</span>
+                    <span style="color: #38a5d2; display: block">& more</span>
                     </p>
                   </div>
                   
@@ -140,7 +140,8 @@
         </div>
         </div>
     </div>
-    <div class="container top-spacer data-container carbon" style="padding: 100px 0">
+    <div class="particles"  data-particles='{"color":"#000"}'>
+    <div class="container top-spacer data-container carbon" style="padding: 100px 0" >
     <div class="row">
     <div class="col-md-9">
         <img src="<?php IMAGE('data/carbon.png') ?>" />
@@ -151,5 +152,6 @@
     <img src="<?php IMAGE('data/carbon-logo.png') ?>" />
     </div>
     
+    </div>
     </div>
     </div>
