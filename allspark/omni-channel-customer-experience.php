@@ -93,7 +93,7 @@ $meta_keywords="";
 			<a href="#" target="_self">USE CASES</a>
 			<ul class="list-group sidebar-nav-v1" id="sidebar-nav">
 				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/audience_curation.php" target="_self" >Audience Curation</a>
+					<a href="<?php echo SITE_URL; ?>allspark/audience-curation.php" target="_self" >Audience Curation</a>
 				</li>
 				<li class="list-group-item list-toggle">
 					<a href="<?php echo SITE_URL; ?>allspark/media-planning.php" target="_self">Media Planning</a>
@@ -148,8 +148,8 @@ $meta_keywords="";
                 
                 
                 <div class="space"></div>
-                <h1>Enterprises, Brands and Research organisations can use Allspark to:</h1>
-                <!-- h2>to curate their audience of choice in real-time:</h2 -->
+                <h1>Enterprises, Brands and Research organisations</h1>
+                <h2>can use Allspark to:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >

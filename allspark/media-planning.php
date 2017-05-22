@@ -146,8 +146,8 @@ $meta_keywords="";
                 	<div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
                 </div -->
                 <div class="space"></div>
-                <h1>Brands and Agencies can use Allspark for Media Planning by:</h1>
-                <!-- h2>to curate their audience of choice in real-time:</h2 -->
+                <h1>Brands and Agencies</h1>
+                <h2>can use Allspark for Media Planning by:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >

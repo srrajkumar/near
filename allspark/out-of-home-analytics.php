@@ -166,8 +166,8 @@ $meta_keywords="";
                     <div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
                 </div>
                 <div class="space"></div>
-                <h1>Enterprises, Brands, Agencies and Out of Home players can use Allspark to:</h1>
-                <!-- h2>to curate their audience of choice in real-time:</h2 -->
+                <h1>Enterprises, Brands, Agencies and Out of Home players </h1>
+                <h2>can use Allspark to:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
@@ -212,7 +212,6 @@ $meta_keywords="";
                 </div>
                 </div>
                
-                 <div class="space"></div>
                 <a href="#" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>
                 <hr />

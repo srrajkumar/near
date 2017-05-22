@@ -166,8 +166,8 @@ $meta_keywords="";
                 	<div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
                 </div>
                 <div class="space"></div>
-                <h1>Enterprises, Brands, Agencies and Research Organisations can use Allspark to measure offline attribution for:</h1>
-                <!-- h2>to curate their audience of choice in real-time:</h2 -->
+                <h1>Enterprises, Brands, Agencies and Research Organisations</h1>
+                <h2>can use Allspark to measure offline attribution for:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
@@ -203,8 +203,7 @@ $meta_keywords="";
 	                </div>
                 </div-->
                 </div>
-                <div class="col-md-12 subcontent">Organisations can now compare the attribution across channels, creatives, media type and devices  to measure ROI and make smarter marketing decisions. </div>
-                 <div class="space"></div>
+                <div class="col-md-12 " style="padding-right: 80px;"><p>Organisations can now compare the attribution across channels, creatives, media type and devices  to measure ROI and make smarter marketing decisions. </p></div>
                 <a href="#" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>
                 <hr />
