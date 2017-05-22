@@ -179,6 +179,10 @@ $meta_keywords="";
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
     <script>
+     window.onload = function() {
+  document.getElementById('bfsi').className = 'active';
+document.getElementById('verticals').className = 'active';
+};
     (function($) {
 
     var id = 1;
