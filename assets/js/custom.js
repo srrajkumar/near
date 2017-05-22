@@ -366,6 +366,24 @@ $('#accord1').ashCordian();
 
 $('.carousel-news').carousel();
 
+$(document).ready(function()
+{    
+    $(".icons").hover(function () {
+        $(this).find('.resultDiv').addClass('active');
+      }, 
+      function () {
+        $(this).find('.resultDiv').removeClass('active');
+      }
+    );
+});
+var $anchors = $(".icons").find('.resultDiv'), counter=0;
+setInterval(function(){
+          $anchors.removeClass('active');
+          $anchors.eq(counter++ % $anchors.length).addClass('active');
+
+        }, 3000);
+ 
+
 // map Location //
 
 		$(".usa").mouseover(function(){

@@ -36,7 +36,8 @@
   </div>
  </div>
 </div>
-<div class="animation-banner"> <div id="particles1"></div>
+<div class="animation-banner"> 
+  <div id="particles1"></div>
 <div id="fallback">
     <div>
         

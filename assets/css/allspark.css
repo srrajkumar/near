@@ -129,9 +129,8 @@ right: inherit;
 	top:-5px;
 }
 
-
 .allspark-page a.button{margin-left:0px;}
-
+.icon-container .col-sm-3{height:150px;}
 
 /*---------- INDICATORS CONTROL ----------*/
 .indicators-line > .carousel-indicators{
@@ -203,8 +202,20 @@ right: inherit;
     transition: background-color 0.3s ease;
 }
 
+.resultDiv.active span{
+  opacity: 1;
+}
+.resultDiv span{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    opacity:0;
+    transition: all 0.4s ease;
 
-
+}
+.resultDiv{
+text-align: center;color: #e21e27;font-size: 20px; position: relative;top: 10px;}
 /*---------- SLIDE CAPTION ----------*/
 .slide_style_left {
     text-align: left !important;
@@ -1046,6 +1057,7 @@ width: 100%;
     position: absolute;
     line-height: 50px; 
     transition: all 0.2s ease-in-out;
+
 }
 .custom_btn .icon{
   top: 4px;
@@ -1054,6 +1066,7 @@ width: 100%;
 .btn__text-inner{
   margin-left: 20px;
 }
+.custom_btn {border-radius:30px;}
 .custom_btn .icon svg{
   width: 50px;
   height: 50px;
