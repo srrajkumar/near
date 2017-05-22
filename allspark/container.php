@@ -2,7 +2,7 @@
 <div class="container-fluid" style="padding:0px;">
 	<div class="slider responsive case-studies" style="margin-bottom:0px !important">
 		<div>
-			<a data-title="get-started" href="#">
+			<a href="<?php echo SITE_URL; ?>allspark/bfsi.php">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" alt />
 				<div class="content-slider">
 					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>"  width="69" height="58" style="width:69px; height:58px;" alt />
@@ -11,7 +11,7 @@
 			</a>
 		</div>
 		<div>
-			<a data-title="customers" href="<?php echo SITE_URL; ?>allspark/retail.php">
+			<a href="<?php echo SITE_URL; ?>allspark/retail.php">
 			<img src="<?php IMAGE('allspark/retail-bg.png'); ?>"  alt />
 				<div class="content-slider">
 					<img src="<?php IMAGE('allspark/retail-icon.png'); ?>"  width="58" height="56" style="width:58px; height:56px;" alt />
@@ -22,7 +22,7 @@
 		</div>
 
 		<div>
-			<a data-title="blueprint" href="<?php echo SITE_URL; ?>allspark/qsr.php">
+			<a href="<?php echo SITE_URL; ?>allspark/qsr.php">
 			<img src="<?php IMAGE('allspark/qsr-bg.png'); ?>"  alt />
 				<div class="content-slider">
 					<img src="<?php IMAGE('allspark/qsr-icon.png'); ?>" alt   width="64" height="64" style="width:64px; height:64px;"/>
@@ -33,7 +33,7 @@
 		</div>
 
 		<div>
-			<a data-title="builder" href="<?php echo SITE_URL; ?>allspark/auto.php">
+			<a href="<?php echo SITE_URL; ?>allspark/auto.php">
 			<img src="<?php IMAGE('allspark/auto-bg.png'); ?>"   alt />
 				<div class="content-slider">
 					<img src="<?php IMAGE('allspark/auto-icon.png'); ?>"  width="57" height="57" style="width:57px; height:57px;" alt />
@@ -43,7 +43,7 @@
 		
 		</div>
 		<div>
-			<a data-title="get-started" href="<?php echo SITE_URL; ?>allspark/telco.php">
+			<a href="<?php echo SITE_URL; ?>allspark/telco.php">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>"  alt />
 				<div class="content-slider">
 					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>" alt  width="69" height="58" style="width:69px; height:58px;" />

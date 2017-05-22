@@ -30,23 +30,20 @@ $meta_keywords="";
           <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-offline-attribution.png'); ?>" alt="Allspark Offline Attribution"/>
+                <img src="<?php IMAGE('allspark/allspark-bfsi.png'); ?>" alt="Allspark BFSI"/>
               </div>
-              <div class="item">
-                <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-offline-attribution-2.png'); ?>" alt="Allspark Offline Attribution"/>
-              </div>
-             
+              
+            
             </div><!-- End of Wrapper For Slides -->
             <!-- Left Control -->
-                 <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+            <!--a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
                 <span class="fa fa-angle-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-           
-            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+            <!-- Right Control -->
+            <!--a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
                 <span class="fa fa-angle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Next</span-->
             </a>
         </div> <!-- End  bootstrap-touch-slider Slider -->
     </div>
@@ -56,9 +53,7 @@ $meta_keywords="";
   <div class="banner-content allspark-page">
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
-          <p>Offline Attribution</p>
-           <span class="line_break1 color-red"></span>
-          <p style="font-size: 16px; color: #444;">Measure the impact of your marketing spends across channels in the physical and digital world</p>
+          <p>Banking and Financial Services</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
         </div>
   </div>
@@ -81,133 +76,102 @@ $meta_keywords="";
                 <div class="col col-md-3">
 
                     <!-- Side Menu -->
-                    
-
-<div class="side-menu">
-    <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
-    	<li class="list-group-item list-toggle"><a href="#"></a></li>
-		<li class="list-group-item list-toggle active">
-			<a href="#" target="_self">USE CASES</a>
-			<ul class="list-group sidebar-nav-v1" id="sidebar-nav">
-				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/audience-curation.php" target="_self" >Audience Curation</a>
-				</li>
-				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/media-planning.php" target="_self">Media Planning</a>
-				</li>
-				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php" target="_self">Out-of-Home Analytics</a>
-				</li>
-				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_self" class="active">Offline attribution</a>
-				</li>
-				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_self" >Consumer research</a>
-				</li>
-				<li class="list-group-item list-toggle">
-					<a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php" target="_self">Omni-Channel Experience</a>
-				</li>
-			</ul>
-		</li>
-		<li class="list-group-item list-toggle"><a href="#"></a></li>
-		<li class="list-group-item list-toggle">
-			<a href="#" target="_self">VERTICAL</a>
-			 <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
-                <li class="list-group-item list-toggle">
-                    <a href="<?php echo SITE_URL; ?>allspark/retail.php" target="_self" class="active">Retail</a>
-                </li>
-                <li class="list-group-item list-toggle">
-                    <a  href="<?php echo SITE_URL; ?>allspark/qsr.php" target="_self">QSR</a>
-                </li>
-                <li class="list-group-item list-toggle">
-                    <a href="<?php echo SITE_URL; ?>allspark/telco.php" target="_self">Telco</a>
-                </li>
-                <li class="list-group-item list-toggle">
-                    <a href="<?php echo SITE_URL; ?>allspark/auto.php" target="_self">Auto</a>
-                </li>
-                <li class="list-group-item list-toggle">
-                    <a href="<?php echo SITE_URL; ?>allspark/bfsi.php" target="_self">BFSI</a>
-                </li>
-            </ul>
-		</li>
-	</ul>
-</div>
+        <?php include('allspark-sidebar.php'); ?>
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
-                	<span>
-                		<h1>Shell</h1>
-                		<p>Case Study</p>
-                	</span>
-                	</div>
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                	<div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
+                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <span>
+                        <h1>BFSI Video</h1>
+                        <p>Video </p>
+                    </span>
+                    </div>
+                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
+                    <div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                	<span>
-                		<h1>OOH Attribution</h1>
-                		<p>Telstra Study</p>
-                	</span>
-                	</div>
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                	<div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
+                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <span>
+                        <h1>Millennials with Telstra</h1>
+                        <p>Case Study</p>
+                    </span>
+                    </div>
+                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
+                    <div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
                 </div>
-                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200"  style="background:#000">
-                	<span>
-                		<h1>Attribution</h1>
-                		<p>Whitepaper</p>
-                	</span>
-                	</div>
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                	<div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
-                </div>
+               
                 <div class="space"></div>
-                <h1>Enterprises, Brands, Agencies and Research Organisations</h1>
-                <h2>can use Allspark to measure offline attribution for:</h2>
+                <h1>Allspark can be used  </h1>
+                <h2>by the BFSI industry:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-1.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Digital</span> media by measuring the effect on call to actions like store walk-ins, website traffic, social activity etc
-	                </div>
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">To curate</span> their target audience in real-time and estimate reach in different locations 
+
+                    </div>
                 </div>
                 <div class="col-md-6 row">
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-2.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Traditional</span> media by measuring the store walk-ins driven from OOH campaigns, and even TV campaigns
-	                </div>
-                </div>
-                <!--div class="col-md-6 row">
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-3.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week
-	                </div>
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Create</span> predictive lending models to estimate the demand for home loans
+                    </div>
                 </div>
                 <div class="col-md-6 row">
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-4.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">with</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week
-	                </div>
-                </div-->
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/icon-3.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Get</span> the heat map of footfalls at different bank and insurance office locations to make staffing decisions
+                    </div>
                 </div>
-                <div class="col-md-12 " style="padding-right: 80px;"><p>Organisations can now compare the attribution across channels, creatives, media type and devices  to measure ROI and make smarter marketing decisions. </p></div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Reach</span> your target audience on desktops, tablets and smartphones to cross-sell and upsell products
+                    </div>
+                </div>
+                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Ingest</span> your data and get your own version of Allspark to get insight into your customers
+
+                    </div>
+                </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Create</span> your audience in Allspark, and ingest data on this audience into your system via Allspark APIs
+
+                    </div>
+                </div>
+                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">To do</span>To do credit risk analysis, estimate demand of commercical loans and help with detecting credit card fraud
+
+                    </div>
+                </div>
+                </div>
+               
                 <a href="#" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>
                 <hr />
 
-                <?php include('inside-usecases.php'); ?>
+                <?php include('inside-verticals.php'); ?>
 
         </div>
     </div>

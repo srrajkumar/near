@@ -30,16 +30,13 @@ $meta_keywords="";
           <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-dashboard.png'); ?>" alt="Allspark Dashboard"/>
+                <img src="<?php IMAGE('allspark/allspark-telco-1.png'); ?>" alt="Allspark Telco 1"/>
               </div>
               <div class="item">
                 <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-builderpage.png'); ?>" alt="Allspark Builderpage"/>
+                <img src="<?php IMAGE('allspark/allspark-telco-2.png'); ?>" alt="Allspark Telco 2"/>
               </div>
-              <div class="item">
-                <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-campaign-view.png'); ?>" alt="Allspark Campaign View"/>
-              </div>
+              
             </div><!-- End of Wrapper For Slides -->
             <!-- Left Control -->
             <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
@@ -126,7 +123,9 @@ $meta_keywords="";
                 <li class="list-group-item list-toggle">
                     <a href="<?php echo SITE_URL; ?>allspark/auto.php" target="_self">Auto</a>
                 </li>
-               
+                <li class="list-group-item list-toggle">
+                    <a href="<?php echo SITE_URL; ?>allspark/bfsi.php" target="_self">BFSI</a>
+                </li>
             </ul>
         </li>
     </ul>

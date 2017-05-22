@@ -90,7 +90,27 @@
                                 </div>
                             </a>
                    </div>
-
+ <div class="col-md-4" data-aos="3dflip" data-aos-delay="800">
+                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <span class="tile__content">
+                            <h4>BFSI</h4>
+                            <hr />
+                            <p class="description">
+                               Allspark can be used by the BFSI industry
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   </div>
 
                     
 

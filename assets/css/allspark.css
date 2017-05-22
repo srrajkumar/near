@@ -1232,11 +1232,11 @@ width: 100%;
 .the-data .banner-content p{
     color: #273444;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 30px;
     font-weight: normal;
 }
 .icon-anim{
-  margin-top: 50px;
+  margin-top: 25px;
   height: 140px;
 }
 .icon-anim .icon_hover{

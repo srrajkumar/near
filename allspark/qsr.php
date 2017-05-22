@@ -30,27 +30,19 @@ $meta_keywords="";
           <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-dashboard.png'); ?>" alt="Allspark Dashboard"/>
+                <img src="<?php IMAGE('allspark/allspark-qsr.png'); ?>" alt="Allspark QSR"/>
               </div>
-              <div class="item">
-                <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-builderpage.png'); ?>" alt="Allspark Builderpage"/>
-              </div>
-              <div class="item">
-                <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-campaign-view.png'); ?>" alt="Allspark Campaign View"/>
-              </div>
-            </div><!-- End of Wrapper For Slides -->
-            <!-- Left Control -->
-            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+            </div>
+             <!-- End of Wrapper For Slides -->
+                  <!--a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
                 <span class="fa fa-angle-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <!-- Right Control -->
+           
             <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
                 <span class="fa fa-angle-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a-->
         </div> <!-- End  bootstrap-touch-slider Slider -->
     </div>
   </div>  
@@ -126,7 +118,9 @@ $meta_keywords="";
                 <li class="list-group-item list-toggle">
                     <a href="<?php echo SITE_URL; ?>allspark/auto.php" target="_self">Auto</a>
                 </li>
-               
+                <li class="list-group-item list-toggle">
+                    <a href="<?php echo SITE_URL; ?>allspark/bfsi.php" target="_self">BFSI</a>
+                </li>
             </ul>
         </li>
     </ul>
