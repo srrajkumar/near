@@ -94,42 +94,35 @@ $meta_keywords="";
                 
                 
                 <div class="space"></div>
-                <h1>Enterprises, Brands and Research organisations</h1>
-                <h2>can use Allspark to:</h2>
+                <h1>Enterprises, Brands and Agencies</h1>
+                <h2> can use Allspark for providing an omni-channel customer experience by:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/omni-channel/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> real-time insights on places and audiences
+	                	<span class="blue">Mapping</span> consumer journeys in the digital and physical world, and getting insight into the right touchpoints for your target audience
 	                </div>
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/omni-channel/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> data on places and audience of choice through the Allspark DaaS API, and integrate this with their CRM data to understand their customers in-depth
+	                	<span class="blue">Reaching</span> your audience on the right channels, and continuing your brand story across media
 	                </div>
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-3.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/omni-channel/icon-3.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> intelligence on customers in your own and competitor stores, and compare your audience across stores
+	                	<span class="blue">Measuring</span> which channels work best for your target audience, and optimise marketing spends
 	                </div>
                 </div>
-                <div class="col-md-6 row">
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-4.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> generated insights on verticals such as retail, telcos, QSRs, travel and more 
-	                </div>
-                </div>
+               
                 </div>
                 <a href="#" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>

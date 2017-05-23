@@ -119,7 +119,7 @@ $meta_keywords="";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/consumer-research/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Get</span> real-time insights on places and audiences
@@ -127,7 +127,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/consumer-research/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Get</span> data on places and audience of choice through the Allspark DaaS API, and integrate this with their CRM data to understand their customers in-depth
@@ -135,7 +135,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-3.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/consumer-research/icon-3.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Get</span> intelligence on customers in your own and competitor stores, and compare your audience across stores
@@ -143,7 +143,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/consumer-research/icon-4.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Get</span> generated insights on verticals such as retail, telcos, QSRs, travel and more 

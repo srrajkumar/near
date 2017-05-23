@@ -48,7 +48,7 @@ $meta_keywords="";
     </div>
   </div>  
   <div class="col-lg-3 col-sm-3">
-  <div class="banner-space container"></div>
+  <div class="banner-space container" style="height:110px;"></div>
   <div class="banner-content allspark-page">
     <div class="d-md-block text-left"  style="margin-bottom: 20%;">
           <h1>Allspark for</h1>
@@ -119,7 +119,7 @@ $meta_keywords="";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-1.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the audience of each OOH site, and select the right OOH sites 
@@ -127,7 +127,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the audience your competitors are hitting with their OOH sites
@@ -135,7 +135,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-3.png') ?>" />
+                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-3.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Continue</span> your OOH story with real-time and audience targeting over digital devices
@@ -143,7 +143,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-4.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Measure</span> attribution of your OOH campaigns, and how they work together with other media
@@ -151,7 +151,7 @@ $meta_keywords="";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-5.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> apowerful analytics on the kind of audience engaging with your OOH campaigns 

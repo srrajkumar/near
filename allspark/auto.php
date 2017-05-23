@@ -116,7 +116,7 @@ $meta_keywords="";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-1.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Curate</span> their target audience in real-time and estimate reach in different places
@@ -124,7 +124,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the behaviour of audience in the digital and physical world, by mapping their journey with data from channels including mobile, desktops and tablets
@@ -132,7 +132,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-3.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-3.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Engage</span> with the target audience in real-time, across channels
@@ -140,7 +140,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-4.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Drive</span> footfall to their showrooms and events, to promote their products and raise brand awareness
@@ -148,7 +148,7 @@ $meta_keywords="";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-5.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Analyse</span> and measure store visits of their own and competitor stores 
@@ -156,7 +156,7 @@ $meta_keywords="";
                 </div>
                   <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-6.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> which channel (Mobile/Tablet/Desktop/OOH) influenced their consumer walk-in, and make smarter marketing decisions
@@ -165,7 +165,7 @@ $meta_keywords="";
                 </div>
                   <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-7.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Ingest</span> their own data sets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations 
@@ -173,7 +173,7 @@ $meta_keywords="";
                 </div>
                   <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-8.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> Allspark data through DaaS API for making data-driven decisions  
@@ -181,7 +181,7 @@ $meta_keywords="";
                 </div>
                   <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-9.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Identify</span> the best places to open their next stores with rich insights from smart environments

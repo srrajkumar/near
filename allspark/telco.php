@@ -121,7 +121,7 @@ $meta_keywords="";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-1.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Curate</span> their audience segments and reach them in real-time, across channels  
@@ -129,7 +129,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the behaviour of their audience in the digital and physical world, by mapping their journey with data from channels including mobile, desktops and tablets
@@ -137,7 +137,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-3.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-3.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> deep insights of the audience that walks into their own and competitor stores such as demography, audience types, visitation rate, peak visitation day and time etc
@@ -145,7 +145,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-4.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> insights on consumers that are connected to WiFi and Cellular Data such as usage patterns, devices used, telco operator and browsing patterns
@@ -153,7 +153,7 @@ $meta_keywords="";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-5.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations  
@@ -161,7 +161,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-6.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> Allspark data through DaaS APIs for data-driven decisions in merchandising, staffing and other business operations 
@@ -169,7 +169,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-7.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the touchpoints (Mobile/Tablets/Desktop/OOH) that influence consumer walk-ins, and be smarter with mapping consumer journeys
@@ -177,7 +177,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/telco/icon-8.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understanding</span> switching patterns of consumers between telco players  

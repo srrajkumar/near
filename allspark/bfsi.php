@@ -107,7 +107,7 @@ $meta_keywords="";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-1.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">To curate</span> their target audience in real-time and estimate reach in different locations 
@@ -116,7 +116,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-2.png') ?>" alt/>
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Create</span> predictive lending models to estimate the demand for home loans
@@ -124,7 +124,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-3.png') ?>" />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-3.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> the heat map of footfalls at different bank and insurance office locations to make staffing decisions
@@ -132,7 +132,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-4.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Reach</span> your target audience on desktops, tablets and smartphones to cross-sell and upsell products
@@ -140,7 +140,7 @@ $meta_keywords="";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-5.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Ingest</span> your data and get your own version of Allspark to get insight into your customers
@@ -149,7 +149,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-6.png') ?>" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Create</span> your audience in Allspark, and ingest data on this audience into your system via Allspark APIs
@@ -158,10 +158,10 @@ $meta_keywords="";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">To do</span>To do credit risk analysis, estimate demand of commercical loans and help with detecting credit card fraud
+                        <span class="blue">To do</span> credit risk analysis, estimate demand of commercical loans and help with detecting credit card fraud
 
                     </div>
                 </div>

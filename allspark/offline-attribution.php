@@ -123,7 +123,7 @@ $meta_keywords="";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/offline-attribution/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Digital</span> media by measuring the effect on call to actions like store walk-ins, website traffic, social activity etc
@@ -131,7 +131,7 @@ $meta_keywords="";
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/icon-2.png') ?>" />
+	                	<img src="<?php IMAGE('allspark/offline-attribution/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Traditional</span> media by measuring the store walk-ins driven from OOH campaigns, and even TV campaigns

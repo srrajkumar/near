@@ -2,8 +2,9 @@
      <div class="container spacing_margin text-center" >
      
     	<h1 class="bold" data-aos="fade-up" data-aos-delay="200">CONTACT US</h1>
-    	<p style="margin-bottom:0px;" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"><a class="effect effect-1" href="#" title="Get in Touch">Get in Touch</a></p>
-    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
+    	
+    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
+      <p style="margin-bottom:0px;" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"><a class="effect effect-1" href="#" title="Get in Touch">Get in Touch</a></p>
     	<div class="row">
     	<div class="col-sm-12" data-aos="fade-up" data-aos-delay="600">
     	<div class="loc-dots usa"><div class="pulse"></div></div>
