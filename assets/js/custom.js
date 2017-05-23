@@ -270,7 +270,7 @@ function newTyped(){ /* A new typed object */ }
             particlesJS(cid, {
                 "particles": {
                     "number": {
-                        "value": 50,
+                        "value": 30,
                         "density": {
                             "enable": true,
                             "value_area": 900
@@ -307,7 +307,7 @@ function newTyped(){ /* A new typed object */ }
                     },
                     "line_linked": {
                         "enable": true,
-                        "distance": 150,
+                        "distance": 250,
                         "color": color,
                         "opacity": o.opacity,
                         "width": 1
