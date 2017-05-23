@@ -1039,6 +1039,7 @@ width: 100%;
     transition: all 0.2s ease-in-out;
     overflow: hidden;
     text-transform: uppercase;
+    font-weight:700;
    
 }
 .submenu-tiles .col-md-4:hover .custom_btn{
@@ -1206,7 +1207,7 @@ width: 100%;
 }
 .col-lg-3 .banner-space{height:190px;}
  .allspark-space.banner-space{height:100px;}
-.the-data .button--rounded:hover, .allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover{border: 1px solid #000; color:#000;}
+.the-data .button--rounded:hover, .allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover, .allspark-inner .button--rounded:hover{border: 1px solid #000; color:#000;}
 .col-md-4{padding:0px;}
 
 

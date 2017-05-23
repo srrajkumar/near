@@ -2231,6 +2231,7 @@ footer .spacing_margin{
    font-size:14px !important;
   color: #000 !important;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .custom_btn .icon svg{

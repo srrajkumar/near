@@ -25,7 +25,7 @@ $meta_keywords="";
   
   <div class="col-lg-12 col-sm-12">
 
-  <div class="d-md-block "  style="margin-bottom: 80px; text-align: center; margin-top: 50px;">
+  <div class="d-md-block "   id="box-one"  style="margin-bottom: 80px; text-align: center; margin-top: 50px;">
           <h1 style="font-weight: 700; font-size: 42px;">Allspark <span style="color:#5C5C5C;">for</span></h1>
           <p style="font-size: 32px;">QSR</p>
           <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
@@ -174,7 +174,18 @@ $meta_keywords="";
 </div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
-   
+   <script>
+   $(document).ready(function() {
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        
+        $('#box-one').css({
+            'transform': 'translateY('+ (st/2) +'px)'
+        });
+    });
+});
+
+   </script>
 
 </body>
 </html>
