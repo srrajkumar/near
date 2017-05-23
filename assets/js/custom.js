@@ -697,6 +697,15 @@ $('.responsive2').slick({
   ]
 });
 });
+$(document).ready(function() {
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        
+        $('#box-one').css({
+            'transform': 'translateY('+ (st/2) +'px)'
+        });
+    });
+});
 jQuery(document).ready(function($){
 	//create the slider
 	$('.cd-testimonials-wrapper').flexslider({
@@ -1027,5 +1036,4 @@ function blink3(){
 blink();
 blink2();
 blink3();
-
 

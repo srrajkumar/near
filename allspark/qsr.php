@@ -175,15 +175,10 @@ $meta_keywords="";
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
    <script>
-   $(document).ready(function() {
-    $(window).on('scroll', function() {
-        var st = $(this).scrollTop();
-        
-        $('#box-one').css({
-            'transform': 'translateY('+ (st/2) +'px)'
-        });
-    });
-});
+    window.onload = function() {
+  document.getElementById('qsr').className = 'active';
+document.getElementById('verticals').className = 'active';
+};
 
    </script>
 
