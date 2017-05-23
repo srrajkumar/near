@@ -29,7 +29,7 @@
           <a class="nav-link" href="<?php echo SITE_URL; ?>data/">The Data</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="<?php echo SITE_URL; ?>about/">About Us</a>
         </li>
       </ul>
     <div class="s-header__navbar-row-col">
@@ -63,8 +63,8 @@
               <li><a href="#">Telco</a></li>
               <li><a href="#">Auto</a></li>
             </ul></li>
-            <li data-aos="fade-up"><a href="#">The Data</a></li>
-            <li data-aos="fade-up" class="submenu"><a href="#">About Us <span>+</span></a>
+            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
+            <li data-aos="fade-up" class="submenu"><a href="<?php echo SITE_URL; ?>about">About Us <span>+</span></a>
               <ul style="right: -157px;">
               <li class="line_anim"></li>
               <li><a href="#">Leadership</a></li>

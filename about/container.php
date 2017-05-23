@@ -17,11 +17,15 @@
         </div>
       </a>
     </div>
-    <div class="col-md-3 random-image">
-      <img src="<?php IMAGE('team/anil.png') ?>" />
+    <div class="col-md-3 random-image" id="cycler" style="height: 275px;">
+      <img src="<?php IMAGE('team/anil.png') ?>" class="active" />
+       <img src="<?php IMAGE('team/shobhit.png') ?>" />
+       <img src="<?php IMAGE('team/anil.png') ?>" />
     </div>
-    <div class="col-md-3 random-image">
-      <img src="<?php IMAGE('team/shobhit.png') ?>" />
+    <div class="col-md-3 random-image" id="cycler1"  style="height: 275px;">
+      <img src="<?php IMAGE('team/shobhit.png') ?>"  class="active" />
+      <img src="<?php IMAGE('team/anil.png') ?>" />
+       <img src="<?php IMAGE('team/shobhit.png') ?>" />
     </div>
     </div>
     <div class="custom_wrapp row">
@@ -77,7 +81,8 @@
     <div class="custom_wrapp row">
     <div class="col-md-9 random-image" style="position: relative;">
       <img src="<?php IMAGE('board/board-bg.png') ?>" />
-      <span class="board-set">
+      <span class="board-set" id="cycler2">
+          <img src="<?php IMAGE('board/team-1.png') ?>" class="active" />
           <img src="<?php IMAGE('board/team-1.png') ?>" />
       </span>
     </div>
@@ -116,8 +121,9 @@
         </div>
       </a>
     </div>
-    <div class="col-md-6 random-image" style="position: relative;">
-      <img src="<?php IMAGE('culture/culture.png') ?>" />
+    <div class="col-md-6 random-image" style="position: relative; height:263px;" id="cycler3">
+      <img src="<?php IMAGE('culture/culture.png') ?>" class="active" />
+      <img src="<?php IMAGE('culture/career.png') ?>" />
     </div>
     </div>
     <div class="col-md-3 space">

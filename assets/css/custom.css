@@ -2552,7 +2552,7 @@ footer .row{width:100%;}
   border-left: 20px solid #fff;
   position: absolute;
   top: 45%;
-  z-index: 1;
+  z-index: 5;
   transition: all 0.5s ease;
 }
 .aboutus-container .row .left-arrow:before{
