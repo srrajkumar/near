@@ -2474,3 +2474,138 @@ footer .row{width:100%;}
 @media (min-width:1201px) and (max-width:1342px){.whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 28px;}}
 
 
+/* About Us */
+
+.aboutus h1{
+  font-weight: 700;
+  color: #5d5d5d;
+  font-size: 62px;
+}
+.aboutus h1 span{
+  color: #ff1d25;
+}
+.aboutus hr{
+  margin: 20px auto !important;
+}
+.aboutus h2{
+  color: #273444;
+  font-size: 32px;
+  font-weight: 300;
+}
+.aboutus p{
+  color: #93979d;
+  font-size:18px;
+}
+.aboutus h4{
+  color: #ff1d25;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
+}
+.aboutus h4 span{
+  font-weight: 700;
+}
+.aboutus p{
+  color: #273444;
+  font-size: 14px;
+  line-height: 20px;
+}
+.aboutus-container .custom_wrapp h2{
+  font-size: 22px;
+  font-weight:800;
+}
+.aboutus-container .custom_wrapp hr{
+  border: solid 1px #000;
+}
+.aboutus-container .custom_wrapp p{
+  padding: 0 !important;
+  font-size: 14px;
+}
+.aboutus-container .row div{
+  background: #fff;
+  padding: 40px;
+  transition: all 0.5s ease;
+}
+.aboutus-container .row div:hover{
+  background: #e8e8e8;
+}
+.aboutus-container .row .right-arrow:hover:after{
+  border-left: 20px solid #e8e8e8;
+}
+.aboutus-container .random-image{
+  padding: 0 !important;
+}
+.aboutus-container .random-image img{
+  width: 100%;
+  height: auto;
+}
+.aboutus-container .row .team-content{
+  position: relative;
+}
+.aboutus-container .row .right-arrow:after{
+  content: "";
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #fff;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+.aboutus-container .row .left-arrow:before{
+  content: "";
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #fff;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+.aboutus-container .row div:hover:before{
+  border-right: 20px solid #e8e8e8;
+}
+.aboutus-container .custom_wrapp{
+  margin: 25px 0 !important;
+}
+.aboutus-container .logo-set, .aboutus-container .board-set{
+  position: absolute;
+  top: 7%;
+  left: 0;
+  background: transparent !important;
+}
+.aboutus-container .board-set{
+  padding: 0 !important;
+  top: 0 !important;
+  height: 100%;
+  left: 10%;
+}
+.aboutus-container .logo-set span{
+  display: block;
+  padding: 20px;
+}
+.aboutus-container .board-set img{
+  width: auto;
+  height: 100%;
+}
+.aboutus-container .col-md-3.space{
+  margin: 0 0 0 25px;
+  flex: 0 0 calc(25% - 13px);
+}
+.aboutus-container .col-md-6.space{
+  padding: 0 !important;
+  margin-left: 0;
+  flex: 0 0 calc(50% - 25px);
+  margin-right: 0px;
+}
+.aboutus-container .col-md-6.space2{
+  padding: 0 !important;
+  margin-left: 0;
+  flex: 0 0 calc(50% - 13px);
+  margin-right: 0px;
+}

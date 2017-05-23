@@ -270,10 +270,10 @@ function newTyped(){ /* A new typed object */ }
             particlesJS(cid, {
                 "particles": {
                     "number": {
-                        "value": 100,
+                        "value": 50,
                         "density": {
                             "enable": true,
-                            "value_area": 800
+                            "value_area": 900
                         }
                     },
                     "color": {
@@ -296,7 +296,7 @@ function newTyped(){ /* A new typed object */ }
                         }
                     },
                     "size": {
-                        "value": 3,
+                        "value": 4,
                         "random": true,
                         "anim": {
                             "enable": false,
@@ -307,14 +307,14 @@ function newTyped(){ /* A new typed object */ }
                     },
                     "line_linked": {
                         "enable": true,
-                        "distance": 30,
+                        "distance": 150,
                         "color": color,
                         "opacity": o.opacity,
                         "width": 1
                     },
                     "move": {
                         "enable": true,
-                        "speed": 1,
+                        "speed": 0.5,
                         "direction": "none",
                         "random": false,
                         "straight": false,
