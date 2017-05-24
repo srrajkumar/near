@@ -4,7 +4,7 @@ $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
 $content= "Offline Attribution";
-$content1="Measure the impact of your marketing spends across channels in the physical and digital world";
+$content1="Measure the impact of your marketing spends across channels";
 $image=  "allspark/allspark-offline-attribution.png";
 $image2="allspark/allspark-offline-attribution-2.png";
 ?>

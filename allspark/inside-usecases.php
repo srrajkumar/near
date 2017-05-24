@@ -2,7 +2,7 @@
                     <h3>Inside Use Cases</h3>
                     <div class="space" style="width: 100%; padding: 5px 0;"></div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/usecase-audience-curation.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
                             <h4>Audience Curation</h4>
                             <hr />
@@ -26,7 +26,7 @@
                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
                    
                     
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/usecase-media-planning.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
                             <h4>Media Planning</h4>
                             <hr />
@@ -51,12 +51,13 @@
 
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="600">
                    
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/usecase-ooh.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
-                            <h4>Out-of-Home Analytics</h4>
+                            <h4>Out-of-Home <br>Analytics</h4>
                             <hr/>
                             <p class="description">
-                                Make intelligent decisions for your Outdoor marketing strategy with real-time data
+                                Make intelligent decisions for your outdoor marketing strategy
+
                             </p>
                             </span>
                         <a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php" class="custom_btn">
@@ -76,12 +77,13 @@
 
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="700">
                    
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/usecase-offline-attribution.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
-                            <h4>Offline attribution</h4>
+                            <h4>Offline Attribution</h4>
                             <hr/>
                             <p class="description">
-                                Measure the impact of your marketing spends across channels in the physical and digital world
+                                Measure the impact of your marketing spends across channels
+
                             </p>
                             </span>
                        <a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" class="custom_btn">
@@ -101,12 +103,13 @@
 
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="800">
                    
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/usecase-consumer-research.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
-                            <h4>Consumer research</h4>
+                            <h4>Consumer Research</h4>
                             <hr/>
                             <p class="description">
-                                Get powerful insights on your audience across markets and action on them in real-time
+                                Get powerful insights on your audience in real-time
+
                             </p>
                             </span>
                         <a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" class="custom_btn">
@@ -126,12 +129,12 @@
 
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="900">
                   
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/usecase-omni-channel.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
-                            <h4>Omni-Channel Experience</h4>
+                            <h4>Omni-Channel Customer Experience</h4>
                             <hr/>
                             <p class="description">
-                                Identify and reach your audience across channels to provide a seamless and personalised brand experience
+                                Identify and reach your audience across channels
                             </p>
                             </span>
                         <a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php" class="custom_btn">

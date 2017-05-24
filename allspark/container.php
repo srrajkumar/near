@@ -44,9 +44,9 @@
 		</div>
 		<div>
 			<a href="<?php echo SITE_URL; ?>allspark/telco.php">
-			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>"  alt />
+			<img src="<?php IMAGE('allspark/telecom-bg.png'); ?>"  alt />
 				<div class="content-slider">
-					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>" alt  width="69" height="58" style="width:69px; height:58px;" />
+					<img src="<?php IMAGE('allspark/telco-icon.png'); ?>" alt  width="57" height="57" style="width:57px; height:57px;" />
 					<h3>TELCO</h3>
 				</div>
 			</a>
@@ -308,29 +308,29 @@
 		<img src="<?php IMAGE('allspark/out-of-home-analytics.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Out-of-Home Analytics</h3>
-				<p>Make intelligent decisions for your Outdoor marketing strategy with real-time data</p>
+				<p>Make intelligent decisions for your outdoor marketing strategy</p>
 			</div>
 			</a>
 		</div>
 		<div>
 		<a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_self">
-		<img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
+		<img src="<?php IMAGE('allspark/offline-attribution.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Offline Attribution</h3>
-				<p>Measure the impact of your marketing spends across channels in the physical and digital world</p>
+				<p>Measure the impact of your marketing spends across channels</p>
 			</div>
 			</a>
 		</div>
-		<div><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php" target="_self"><img src="<?php IMAGE('allspark/omni-channel.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Omni-Channel Experience</h3>
-				<p>Identify and reach your audience across channels to provide a seamless and personalised brand experience</p>
+				<p> Identify and reach your audience across channels</p>
 			</div></a>
 		</div>
-		<div><a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_self"><img src="<?php IMAGE('allspark/media-planning.png'); ?>" alt/>
+		<div><a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_self"><img src="<?php IMAGE('allspark/consumer-research.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Consumer Research</h3>
-				<p>Get powerful insights on your audience across markets and action on them in real-time</p>
+				<p>Get powerful insights on your audience in real-time</p>
 			</div></a>
 		</div>
 	

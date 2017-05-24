@@ -2,7 +2,7 @@
                     <h3>Inside Verticals</h3>
                     <div class="space" style="width: 100%; padding: 5px 0;"></div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/retail.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
                             <h4>Retail</h4>
                             <hr />
@@ -25,7 +25,7 @@
 
 
                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/qsr.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
                             <h4>QSR</h4>
                             <hr />
@@ -47,7 +47,7 @@
                    </div>
 
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="600">
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/telco.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
                             <h4>Telco</h4>
                             <hr />
@@ -70,7 +70,7 @@
 
 
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="800">
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/auto.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
                             <h4>Auto</h4>
                             <hr />
@@ -91,7 +91,7 @@
                             </a>
                    </div>
  <div class="col-md-4" data-aos="3dflip" data-aos-delay="800">
-                        <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                        <img src="<?php IMAGE('allspark/bfsi.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
                             <h4>BFSI</h4>
                             <hr />

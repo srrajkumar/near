@@ -8,6 +8,9 @@
 bottom: inherit;
 right: inherit;
 }
+.allspark-page #typed, .allspark-page .typed-cursor {
+      bottom: 25px;
+}
 .bs-slider{
     overflow: hidden;
     max-height: 700px;
@@ -966,7 +969,7 @@ width: 100%;
 .custom-banner .col-md-4 h4, .submenu-tiles h4{
       color: #fff;
     font-weight: 700;
-    font-size: 26px;
+        font-size: 23px;
 }
 .custom-banner .col-md-4 p,.submenu-tiles p{
   font-weight: 300;
@@ -975,6 +978,8 @@ width: 100%;
   transition: all 1s ease;
   opacity: 0;
   margin-top: 20px;
+  font-size:14px;
+  line-height:20px;
 }
 .custom-banner .col-md-4:hover p,.submenu-tiles .col-md-4:hover p{
   margin-top: 10px;
@@ -1017,7 +1022,7 @@ width: 100%;
   transition: all 1s ease;
 }
 .submenu-tiles .col-md-4:before{
-  background:#000;
+  background: rgba(0, 0, 0, 0.9);
   content: "";
   position: absolute;
   top: 0;
@@ -1031,7 +1036,7 @@ width: 100%;
     border: 1px solid #fff;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 30px;
     width: 50px;
     height: 50px;
     z-index: 3;
@@ -1090,7 +1095,7 @@ width: 100%;
 }
 .custom-banner .col-md-4:hover .custom_btn, .submenu-tiles .col-md-4:hover .custom_btn{border:1px solid rgba(255,255,255,1)}
 .custom-banner .col-md-4:hover:before,.submenu-tiles .col-md-4:hover:before{
-  opacity: 0.7;
+  opacity: 0.75;
 }
 .custom-banner .col-md-4 img{  width: 100%;
   height: 100%;
@@ -1098,22 +1103,22 @@ width: 100%;
   z-index: 1;}
 
 .submenu-tiles .col-md-4:nth-child(3):before{
-  background-color: #111111;
+  background-color:rgba(17, 17, 17, 0.90);
 }
 .submenu-tiles .col-md-4:nth-child(4):before{
-  background-color: #222222;
+  background-color: rgba(34, 34, 34, 0.91);
 }
 .submenu-tiles .col-md-4:nth-child(5):before{
-  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.9);
 }
 .submenu-tiles .col-md-4:nth-child(6):before{
-  background-color: #444444;
+  background-color: rgba(68, 68, 68, 0.9);
 }
 .submenu-tiles .col-md-4:nth-child(7):before{
-  background-color: #555555;
+  background-color: rgba(85, 85, 85, 0.9);
 }
 .submenu-tiles .col-md-4:nth-child(8):before{
-  background-color: #666666;
+  background-color: rgba(102, 102, 102, 0.9);
 }
  .submenu-tiles .col-md-4:hover a, .submenu-tiles .col-md-4:hover a p{
   color: #fff;
@@ -1124,8 +1129,8 @@ width: 100%;
 .custom-banner .col-md-4 .tile__content,.submenu-tiles .col-md-4 .tile__content{
   position: absolute;
   z-index: 2;
-  top: 20px;
-  left: 20px;
+  top: 30px;
+  left: 30px;
 }
 .custom-banner .col-md-4 a,.submenu-tiles .col-md-4 a{
   transition: all 0.5s ease;
@@ -1219,8 +1224,9 @@ width: 100%;
 .col-md-4{padding:0px;}
 
 
+.cd-testimonials .col-md-4{position:relative; left:-50px;}
 
-
+.flex-active-slide{left:-40px !important;}
 /* ----------------
     THE DATA
 ------------------ */

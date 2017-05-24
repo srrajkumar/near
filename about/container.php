@@ -79,12 +79,12 @@
     </div>
 
     <div class="custom_wrapp row">
-    <div class="col-md-9 random-image" style="position: relative;">
-      <img src="<?php IMAGE('board/board-bg.png') ?>" />
-      <span class="board-set" id="cycler2">
-          <img src="<?php IMAGE('board/team-1.png') ?>" class="active" />
-          <img src="<?php IMAGE('board/team-1.png') ?>" />
-      </span>
+    <div class="col-md-9 random-image" style="position: relative;" id="cycler2">
+      <img src="<?php IMAGE('board/mohit.png') ?>" class="active" alt />
+      <img src="<?php IMAGE('board/anil.png') ?>" alt />
+      <img src="<?php IMAGE('board/mohit.png') ?>" alt />
+      <img src="<?php IMAGE('board/avneet.png') ?>" alt />
+     <img src="<?php IMAGE('board/mark.png') ?>" alt />
     </div>
     <div class="col-md-3 left-arrow">
       <h2>Board Members</h2>

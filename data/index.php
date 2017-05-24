@@ -121,7 +121,7 @@ $meta_keywords="";
       wireframe: !0,
       wireframeLinewidth: 1
     });
-    Ico = new THREE.Mesh(new THREE.SphereGeometry(140,7, 7 ,0,6.3,0,3.1 ), material), Ico.position.x = 160, scene.add(Ico),THREE.ImageUtils.crossOrigin = '',  dotLime = THREE.ImageUtils.loadTexture("../assets/images/data/dot-lime.png"), dotLBlue = THREE.ImageUtils.loadTexture("../assets/images/data/dot-lblue.png"), dotSunset = THREE.ImageUtils.loadTexture("../assets/images/data/dot-sunset.png"), dotOrange = THREE.ImageUtils.loadTexture("../assets/images/data/dot-orange.png"), dotVelvet = THREE.ImageUtils.loadTexture("../assets/images/data/dot-velvet.png");
+    Ico = new THREE.Mesh(new THREE.SphereGeometry(140,7, 7 ,0,6.3,0,3.1 ), material), Ico.position.x = 160, scene.add(Ico),THREE.ImageUtils.crossOrigin = '',  dotLime = THREE.ImageUtils.loadTexture("../assets/images/data/omni.png"), dotLBlue = THREE.ImageUtils.loadTexture("../assets/images/data/campaign.png"), dotSunset = THREE.ImageUtils.loadTexture("../assets/images/data/audience.png"), dotOrange = THREE.ImageUtils.loadTexture("../assets/images/data/insights.png"), dotVelvet = THREE.ImageUtils.loadTexture("../assets/images/data/location.png");
     var dots = [dotLime, dotLBlue, dotSunset, dotOrange, dotVelvet];
     distance = 100;
     var shadeMaterial = new THREE.BufferGeometry({
@@ -155,7 +155,7 @@ $meta_keywords="";
       vertex.x = Ico.geometry.vertices[i].x, vertex.y = Ico.geometry.vertices[i].y, vertex.z = Ico.geometry.vertices[i].z, geometry2.vertices.push(vertex);
       new THREE.PointsMaterial({
         opacity: 1,
-        size: 64,
+        size: 70,
         segments: 3,
         transparent: !0,
         color: 6710886
@@ -169,7 +169,7 @@ $meta_keywords="";
         phi = THREE.Math.randFloatSpread(360);
       distance = 80, vertex.x = distance * Math.sin(theta) * Math.cos(phi), vertex.y = distance * Math.sin(theta) * Math.sin(phi), vertex.z = distance * Math.cos(theta), geometry2.vertices.push(vertex), materials2[i] = new THREE.PointsMaterial({
         opacity: 1,
-        size: 64,
+        size: 70,
         segments: 2,
         map: dots[i],
         alphaTest: .5,

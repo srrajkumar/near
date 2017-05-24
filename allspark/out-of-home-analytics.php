@@ -4,7 +4,7 @@ $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
 $content= "Out-of Home Analytics";
-$content1=" Make intelligent decisions for your Outdoor marketing strategy with real-time data";
+$content1="Make intelligent decisions for your outdoor marketing strategy";
 $image=  "allspark/allspark-ooh-analytics.png";
 
 ?>

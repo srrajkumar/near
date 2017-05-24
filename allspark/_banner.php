@@ -6,7 +6,7 @@
   	<div><span class="blue">Intuitive real-time</span></div>
   	<div><span>audience product</span></div>
   	<div class="line_break color-blue"></div>
-    <span class="line-2">Get started with Allspark for <br class="add">
+    <span class="line-2">Get started with Allspark for <br>
       <span id="typed-strings" class="type">
           <span>Mapping Consumer Journeys</span>
           <span>CRM Onboarding</span>

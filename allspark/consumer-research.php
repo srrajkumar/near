@@ -4,7 +4,7 @@ $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
 $content= "Consumer Research";
-$content1="Get powerful insights on your audience across markets and action on them in real-time";
+$content1="Get powerful insights on your audience in real-time";
 $image=  "allspark/allspark-consumer-research.png";
 
 ?>

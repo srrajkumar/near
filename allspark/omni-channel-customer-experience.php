@@ -4,7 +4,7 @@ $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
 $content= "Omni-channel Customer Experience";
-$content1="Identify and reach your audience across channels to provide a seamless and personalised brand experience";
+$content1="Identify and reach your audience across channels";
 $image=  "allspark/allspark-omni-channel.png";
 
 ?>

@@ -1,4 +1,4 @@
-<div id="particles-js" class="col-lg-12  k carousel-custom the-data" style="background-color: #fafafa; " data-particles> 
+<div id="particles-js" class="col-lg-12  k carousel-custom the-data" style="background-color: #fafafa; "> 
 <div class="banner-space container allspark-space"></div>
 
 <div class=" container allspark-inner">

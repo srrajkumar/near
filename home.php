@@ -236,19 +236,19 @@
 			  <li>
 				<header class="accordian-header" id="placematrix"><i class="ion-plus-round plus-icon"></i> Placematrix&trade;</header>
 				<div class="accordian-section">
-				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
+				  <p>For accurate building shapes First party database of over 65 million places</p>
 				</div>
 			  </li>
 			  <li>
 				<header class="accordian-header" id="unique_data"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
 				<div class="accordian-section">
-				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
+				  <p>Cisco/MC/Telstra</p>
 				</div>
 			  </li>
 			   <li>
 				<header class="accordian-header" id="accurate_data"><i class="ion-plus-round plus-icon"></i> Highly Accurate Data</header>
 				<div class="accordian-section">
-				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
+				  <p>Over 250% better location data & over 50% better audience data</p>
 				</div>
 			  </li>
 			</ul>
