@@ -9,6 +9,11 @@
       <span class="icon six"><img src="<?php IMAGE('icon6.png') ?>" alt /></span>
       <span class="icon seven"><img src="<?php IMAGE('icon7.png') ?>" alt /></span>
       <span class="icon eight"><img src="<?php IMAGE('near-logo-alpha.png') ?>" alt /></span>
+      <span class="line line_one"></span>
+      <span class="line line_two"></span>
+      <span class="line line_three"></span>
+      <span class="line line_four"></span>
+      <span class="line line_five"></span>
       <img src="<?php IMAGE('spin.png') ?>" alt class="spin" style="opacity: 0.7;" />
     </div>
 	</div>
@@ -40,4 +45,8 @@
       <canvas id="canvas" width="1200" height="1200"></canvas>
      <canvas id="circle" width="600" height="600"></canvas>
    </div>
+   <div class="left_animation">
+    <img src="<?php IMAGE('spin.png'); ?>" alt="Crossmatrix" class="platform spin2">
+   </div>
+   <div class="white_overlay"></div>
 	</div>

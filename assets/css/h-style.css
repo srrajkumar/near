@@ -9,9 +9,9 @@ h1.bold{
 	font-weight: 500;
 }
 h2{
-	color:#444444;
+	color:#5c5c5c;
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
+	font-size: 24px;
 	text-transform: normal;
 	font-weight: 500;
 }
@@ -19,6 +19,6 @@ h2{
 	height: 2px;
 	width: 100px;
 	margin: 20px auto;
-	background-color: #db1a21;
+	background-color: #ED1C24;
 	display: inline-block;
 }

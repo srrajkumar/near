@@ -6,17 +6,16 @@
 		        <span>Processing data from Over</span>
 		        1 BILLION<br> DEVICES <br>in over <br>40 countries
 				 <span  class="custom_btn">
-                                <span class="btn__text">
-                                    <span class="btn__text-inner">Explore</span>
-                                </span>            
-                                <div class="icon">
-                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14,3.09H0" fill="#fff"></path>
-                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
-                                    </svg>
-                                </div>
-                            </span>
-                        
+                    <span class="btn__text">
+                        <span class="btn__text-inner">Explore</span>
+                    </span>            
+                    <div class="icon">
+                        <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14,3.09H0" fill="#fff"></path>
+                            <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                        </svg>
+                    </div>
+                </span>
 	        </div>
 		</a>
         </div>
@@ -215,7 +214,7 @@
 <div id="platform_leverage" style="padding: 10px; background-color: #f2f3f6;">
      <div class="container spacing_margin text-center " >
      
-    	<h1 class="bold"  data-aos="fade-up" data-aos-delay="200">The NEAR PLATFORM LEVERAGE</h1>
+    	<h1 data-aos="fade-up" data-aos-delay="200">The NEAR PLATFORM LEVERAGE</h1>
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
     	<div class="row">
     	<div class="col-sm-6 platform-image" data-aos="fade-up" data-aos-delay="600">
@@ -326,9 +325,9 @@
     </div><!--- row -->
 <div style="padding: 20px; background-color: #f2f3f6;">
      <div class="spacing_margin text-center research perspective" >
-    	<h1 class="bold" data-aos="fade-up" data-aos-delay="200">LATEST RESOURCES</h1>
+    	<h1 data-aos="fade-up" data-aos-delay="200">LATEST RESOURCES</h1>
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
-    	<div class="row">
+    	<div class="container row">
     	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="600">
     		<a href="#" target="_blank">
 				<figure>
