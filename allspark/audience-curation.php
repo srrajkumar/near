@@ -2,6 +2,11 @@
 $meta_title="";
 $meta_desc="";
 $meta_keywords="";
+$heading ="Allspark";
+$content= "Audience Curation";
+$content1="Set custom rules to curate your audience";
+$image=  "allspark/allspark-audience-curation.png";
+
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
@@ -13,65 +18,12 @@ $meta_keywords="";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<style>.carousel-control{display:none !important;} </style>
 </head>
 <body>
 <div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
-	<div id="particles-js" class="col-lg-12  k carousel-custom" style="background-color: #fafafa; " data-particles> 
-<div class="banner-space container allspark-space"></div>
-
-<div class="container allspark-inner">
- <div class="row">
-  
-  <div class="col-lg-9 col-sm-9">
-  <div class="carsousel-banner">
-        <div id="bootstrap-touch-slider" class="carousel bs-slider fade carousel-fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
-          <!-- Wrapper For Slides -->
-          <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-audience-curation.png'); ?>" alt="Allspark Audience Curation"/>
-              </div>
-              
-            </div><!-- End of Wrapper For Slides -->
-            <!-- Left Control -->
-                  <!--a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
-                <span class="fa fa-angle-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-           
-            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
-                <span class="fa fa-angle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a-->
-        </div> <!-- End  bootstrap-touch-slider Slider -->
-    </div>
-  </div>  
-  <div class="col-lg-3 col-sm-3">
-  <div class="banner-space container"></div>
-  <div class="banner-content allspark-page">
-    <div class="d-md-block text-left"  style="margin-bottom: 20%;">
-          <h1>Allspark for</h1>
-          <p>Audience Curation</p>
-          <span class="line_break1 color-red"></span>
-          <p style="font-size: 16px; color: #444;">Set custom rules to curate your audience</p>
-          <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
-        </div>
-  </div>
-  </div>
- </div>
-</div>
-<div class="banner-space container allspark-space"></div>
-
-
-  <div class="mouse"></div>
-  <div class="animation-wrapper">
-    <div class="particle particle-1"></div>
-    <div class="particle particle-2"></div>
-    <div class="particle particle-3"></div>
-    <div class="particle particle-4"></div>
-  </div>
-</div>
+	<?php include('innerpage-banner.php'); ?>
 <div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
             <div class="row" style="margin: 0;">
                 <div class="col col-md-3">
@@ -84,10 +36,25 @@ $meta_keywords="";
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                    <span>
-                        <h1>Audience Curation</h1>
-                        <p>Whitepaper</p>
-                    </span>
+                   
+                    <span class="tile__content">
+                            <h4>Audience Curation</h4>
+                            <hr />
+                            <p class="description">
+                              Whitepaper
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
                     </div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
                     <div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
@@ -147,7 +114,15 @@ $meta_keywords="";
 document.getElementById('usecases').className = 'active';
 };
 
-    
+  $(document).ready(function() {
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        
+        $('#box-one').css({
+            'transform': 'translateY('+ (st/2) +'px)'
+        });
+    });
+});  
     </script>
     
 </body>

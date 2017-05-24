@@ -2,6 +2,11 @@
 $meta_title="";
 $meta_desc="";
 $meta_keywords="";
+$heading ="Allspark";
+$content= "QSR";
+$content1=" ";
+$image=  "allspark/allspark-qsr.png";
+$image2=" ";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
@@ -13,58 +18,12 @@ $meta_keywords="";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<style>.carousel-control{display:none !important;} .allspark-inner .line_break1{display:none;}</style>
 </head>
 <body>
 <div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
-	<div class="col-lg-12  k carousel-custom" style="background-color: #fafafa; " data-particles='{"color":"#a2a2a2"}'> 
-<div class="banner-space container allspark-space"></div>
-
-<div class="container allspark-inner">
- <div class="row">
-  
-  <div class="col-lg-12 col-sm-12">
-
-  <div class="d-md-block "   id="box-one"  style="margin-bottom: 80px; text-align: center; margin-top: 50px;">
-          <h1 style="font-weight: 700; font-size: 42px;">Allspark <span style="color:#5C5C5C;">for</span></h1>
-          <p style="font-size: 32px;">QSR</p>
-          <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
-        </div>
-  <div class="carsousel-banner">
-        <div id="bootstrap-touch-slider" class="carousel bs-slider fade carousel-fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
-          <!-- Wrapper For Slides -->
-          <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <!-- Slide Background -->
-                <img class="parallax_effect" src="<?php IMAGE('allspark/allspark-qsr.png'); ?>" alt="Allspark QSR"/>
-              </div>
-            </div>
-             <!-- End of Wrapper For Slides -->
-                  <!--a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
-                <span class="fa fa-angle-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-           
-            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
-                <span class="fa fa-angle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a-->
-        </div> <!-- End  bootstrap-touch-slider Slider -->
-    </div>
-  </div>  
- </div>
-</div>
-<div class="banner-space container allspark-space"></div>
-
-
-  <div class="mouse"></div>
-  <div class="animation-wrapper">
-    <div class="particle particle-1"></div>
-    <div class="particle particle-2"></div>
-    <div class="particle particle-3"></div>
-    <div class="particle particle-4"></div>
-  </div>
-</div>
+<?php include('innerpage-banner.php'); ?>
 <div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
             <div class="row" style="margin: 0;">
                 <div class="col col-md-3">
@@ -75,32 +34,76 @@ $meta_keywords="";
   <?php include('allspark-sidebar.php'); ?>
 </div>
                 <div class="col col-md-9">
-                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
+                <div class="col col-md-12  custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
-                    <span>
-                        <h1> QSR research</h1>
-                        <p>Research </p>
-                    </span>
+                   <span class="tile__content">
+                            <h4> QSR research</h4>
+                            <hr />
+                            <p class="description">
+                              Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
                     </div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
                     <div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                    <span>
-                        <h1>Case studies - Subway & KFC</h1>
-                        <p> Video / Article</p>
-                    </span>
+                     <span class="tile__content">
+                            <h4>Case studies - Subway & KFC</h4>
+                            <hr />
+                            <p class="description">
+                              Video / Article
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
                     </div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
                     <div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200"  style="background:#000">
-                    <span>
-                        <h1>QSR Research Video</h1>
-                        <p>Videos</p>
-                    </span>
+                     <span class="tile__content">
+                            <h4>QSR Research Video</h4>
+                            <hr />
+                            <p class="description">
+                              Videos
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Explore</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                    
                     </div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
                     <div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
@@ -179,7 +182,15 @@ $meta_keywords="";
   document.getElementById('qsr').className = 'active';
 document.getElementById('verticals').className = 'active';
 };
-
+$(document).ready(function() {
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        
+        $('#box-one').css({
+            'transform': 'translateY('+ (st/2) +'px)'
+        });
+    });
+});
    </script>
 
 </body>
