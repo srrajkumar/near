@@ -13,8 +13,7 @@
                 <div class="col col-md-12 row perspective" style="padding:0; margin: 0;">
                 <div class="icon-set-2 col-md-12 margin-padding row">
                     <div class="col-md-3">
-                        <img src="<?php IMAGE('data/icon-set-2-1.png') ?>" />
-                        <p>Proprietary Data Sets</p>
+                        <p class="highlite">Proprietary <span>Data Sets</span></p>
                     </div>
                     <div class="col-md-3">
                         <img src="<?php IMAGE('data/icon-set-2-2.png') ?>" />
@@ -29,7 +28,7 @@
                         <p>CrossMatrix<sup>TM</sup></p>
                     </div>
                 </div>
-
+                <hr class="custom_line" />
                 <div class="icon-set-3 col-md-12 margin-padding row fivecolumn" style="margin-top: 20px;">
                   <div class="sections">
                     <img src="<?php IMAGE('data/icon-set-3/icon-1.png') ?>" />

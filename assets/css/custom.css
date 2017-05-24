@@ -257,6 +257,19 @@ body{
     -webkit-animation: spin 120s linear 0s infinite;
     -0-animation: spin 120s linear 0s infinite;
 }
+.highlite{
+    font-size: 30px !important;
+    font-weight: 500 !important;
+    color: #e21e27 !important;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.highlite span{
+  color: #5c5c5c;
+}
+.custom_line{
+  width: 100% !important;
+}
 @keyframes spin {
     0% { transform: rotate(360deg); }
     100% { transform: rotate(0deg); }
