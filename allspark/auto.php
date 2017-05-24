@@ -6,7 +6,7 @@ $heading ="Allspark";
 $content= "Auto";
 $content1=" ";
 $image=  "allspark/allspark-auto.png";
-$image2=" ";
+
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
@@ -24,59 +24,7 @@ $image2=" ";
 <div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
     <?php include('innerpage-banner.php'); ?>
-	<div id="particles-js" class="col-lg-12  k carousel-custom" style="background-color: #fafafa; " data-particles> 
-<div class="banner-space container allspark-space"></div>
 
-<div class="container allspark-inner">
- <div class="row">
-  
-  <div class="col-lg-9 col-sm-9">
-  <div class="carsousel-banner">
-        <div id="bootstrap-touch-slider" class="carousel bs-slider fade carousel-fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
-          <!-- Wrapper For Slides -->
-          <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <!-- Slide Background -->
-                <img src="<?php IMAGE('allspark/allspark-auto.png'); ?>" alt="Allspark Auto"/>
-              </div>
-              
-            </div><!-- End of Wrapper For Slides -->
-            <!-- Left Control -->
-                   <!--a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
-                <span class="fa fa-angle-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-           
-            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
-                <span class="fa fa-angle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a-->
-        </div> <!-- End  bootstrap-touch-slider Slider -->
-    </div>
-  </div>  
-  <div class="col-lg-3 col-sm-3">
-  <div class="banner-space container"></div>
-  <div class="banner-content allspark-page">
-    <div class="d-md-block text-left"  style="margin-bottom: 20%;">
-          <h1>Allspark for</h1>
-          <p>Auto</p>
-          <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
-        </div>
-  </div>
-  </div>
- </div>
-</div>
-<div class="banner-space container allspark-space"></div>
-
-
-  <div class="mouse"></div>
-  <div class="animation-wrapper">
-    <div class="particle particle-1"></div>
-    <div class="particle particle-2"></div>
-    <div class="particle particle-3"></div>
-    <div class="particle particle-4"></div>
-  </div>
-</div>
 <div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
             <div class="row" style="margin: 0;">
                 <div class="col col-md-3">
@@ -87,7 +35,8 @@ $image2=" ";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Ford</h4>
                             <hr />
@@ -113,6 +62,7 @@ $image2=" ";
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Automotive</h4>
                             <hr />
@@ -138,6 +88,7 @@ $image2=" ";
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200"  style="background:#000">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Maserati research</h4>
                             <hr />

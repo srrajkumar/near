@@ -47,7 +47,11 @@ $image2="allspark/allspark-telco-2.png";
                 <img class="parallax_effect" src="<?php IMAGE($image); ?>" alt=""/>
 
               </div>
-              
+             <div class="item ">
+                <!-- Slide Background -->
+                <img class="parallax_effect" src="<?php IMAGE($image2); ?>" alt=""/>
+
+              </div>  
             </div>
              <!-- End of Wrapper For Slides -->
                   <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
@@ -88,6 +92,7 @@ $image2="allspark/allspark-telco-2.png";
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Telco</h4>
                             <hr />
@@ -113,6 +118,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Maxis</h4>
                             <hr />
@@ -138,6 +144,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200"  style="background:#000">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Research</h4>
                             <hr />

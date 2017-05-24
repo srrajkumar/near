@@ -18,7 +18,7 @@ $meta_keywords="";
     border: 1px solid #000 !important;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 40px;
     width: 35px;
     height: 35px;
     z-index: 3;

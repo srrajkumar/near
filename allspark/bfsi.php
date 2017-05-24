@@ -35,6 +35,7 @@ $image2=" ";
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                     <span class="tile__content">
                             <h4>BFSI Video</h4>
                             <hr />
@@ -60,6 +61,7 @@ $image2=" ";
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Millennials with Telstra</h4>
                             <hr />

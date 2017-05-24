@@ -3,7 +3,7 @@ $meta_title="";
 $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
-$content= "QSR";
+$content= "Retail";
 $content1=" ";
 $image=  "allspark/allspark-retail.png";
 $image2=" ";
@@ -37,6 +37,7 @@ $image2=" ";
                 <div class="col col-md-9">
                  <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Under Armour</h4>
                             <hr />
@@ -63,6 +64,7 @@ $image2=" ";
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Featuring Retail Research in Australia</h4>
                             <hr />
@@ -89,6 +91,7 @@ $image2=" ";
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200"  style="background:#000">
+                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Retail Video</h4>
                             <hr />
