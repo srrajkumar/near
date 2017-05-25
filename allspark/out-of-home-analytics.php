@@ -33,7 +33,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
  <?php include('allspark-sidebar.php'); ?>
 </div>
                 <div class="col col-md-9">
-                <div class="space"></div>
+                <div class="space" style="padding:13px;"></div>
                 <h1>Enterprises, Brands, Agencies and Out of Home players </h1>
                 <h2>can use Allspark to:</h2>
                 <div class="space"></div>

@@ -35,7 +35,7 @@ $image=  "allspark/allspark-audience-curation.png";
 </div>
                 <div class="col col-md-9">
                 
-                <div class="space"></div>
+                <div class="space" style="padding:13px;"></div>
                 <h1>Enterprises, Brands and Agencies can use Allspark</h1>
                 <h2>to curate their audience of choice in real-time:</h2>
                 <div class="space"></div>

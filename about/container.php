@@ -95,7 +95,7 @@
     <div class="col-md-3 left-arrow">
       <h2>Board Members</h2>
       <hr />
-      <p class="col-md-12">More about the board members of Near here.</p>
+      <p class="col-md-12">More about the board members of Near here.<br><br><br></p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>

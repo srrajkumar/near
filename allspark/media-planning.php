@@ -35,7 +35,7 @@ $image=  "allspark/allspark-media-planning.png";
 </div>
                 <div class="col col-md-9">
                
-                <div class="space"></div>
+                <div class="space" style="padding:13px;"></div>
                 <h1>Brands and Agencies</h1>
                 <h2>can use Allspark for Media Planning by:</h2>
                 <div class="space"></div>
