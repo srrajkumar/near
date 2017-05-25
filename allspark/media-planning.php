@@ -34,16 +34,7 @@ $image=  "allspark/allspark-media-planning.png";
  <?php include('allspark-sidebar.php'); ?>
 </div>
                 <div class="col col-md-9">
-                <!-- div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                	<span>
-                		<h1>Media Planning</h1>
-                		<p>Whitepaper</p>
-                	</span>
-                	</div>
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                	<div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
-                </div -->
+               
                 <div class="space"></div>
                 <h1>Brands and Agencies</h1>
                 <h2>can use Allspark for Media Planning by:</h2>

@@ -108,17 +108,17 @@
 			        <img src="<?php IMAGE('auto/bridgestone.png'); ?>"  width="126"  alt="Bridgestone" />
 			    </div>
 				<div role="tabpanel" class="tab-pane fade" id="tab2">
-					<img alt="Pepsi" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 38%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="P&G" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 50%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="CocaCola" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 0%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="Lindt" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 11%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="Nestle" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 25%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Pepsi" src="<?php IMAGE('fmcg/pepsi.png'); ?>" width="90" />
+					<img alt="P&G" src="<?php IMAGE('fmcg/p-and-g.png'); ?>" width="63"  />
+					<img alt="CocaCola" src="<?php IMAGE('fmcg/coca-cola.png'); ?>" width="75"  />
+					<img alt="Lindt" src="<?php IMAGE('fmcg/lindt.png'); ?>" width="100" />
+					<img alt="Nestle" src="<?php IMAGE('fmcg/nestle.png'); ?>" width="85"  />
 					<br class="des-add" />
-					<img alt="Unilever" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 62%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="Schweppes" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 93%; background-size: 100% auto;"  width="62" height="62" />
-					<img alt="danone" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 102%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Unilever" src="<?php IMAGE('fmcg/unilever.png'); ?>" width="95"  />
+					<img alt="Schweppes" src="<?php IMAGE('fmcg/schweppes.png'); ?>" width="75"  />
+					<img alt="danone" src="<?php IMAGE('fmcg/danone.png'); ?>" width="65"  />
 					
-					<img alt="Meiji" src="<?php IMAGE('bb.png'); ?>" style=" background: url('<?php IMAGE('brands-fmcg.png'); ?>'); background-position: 0 74%; background-size: 100% auto;"  width="62" height="62" />
+					<img alt="Meiji" src="<?php IMAGE('fmcg/meiji.png'); ?>" width="65"  />
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="tab3">
 			     <img src="<?php IMAGE('bfsi/standard-chartered.png'); ?>" width="63" alt="Standard Chartered" />

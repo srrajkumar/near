@@ -1,7 +1,7 @@
 <?php include('_banner.php'); ?>
 <div class="container-fluid" style="padding:0px;">
 	<div class="slider responsive case-studies" style="margin-bottom:0px !important">
-		<div>
+		
 			<a href="<?php echo SITE_URL; ?>allspark/bfsi.php">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" alt />
 				<div class="content-slider">
@@ -9,8 +9,8 @@
 					<h3>BFSI</h3>
 				</div>
 			</a>
-		</div>
-		<div>
+		
+		
 			<a href="<?php echo SITE_URL; ?>allspark/retail.php">
 			<img src="<?php IMAGE('allspark/retail-bg.png'); ?>"  alt />
 				<div class="content-slider">
@@ -19,9 +19,9 @@
 				</div>
 			</a>
 		
-		</div>
+		
 
-		<div>
+		
 			<a href="<?php echo SITE_URL; ?>allspark/qsr.php">
 			<img src="<?php IMAGE('allspark/qsr-bg.png'); ?>"  alt />
 				<div class="content-slider">
@@ -30,9 +30,9 @@
 				</div>
 			</a>
 		
-		</div>
+		
 
-		<div>
+		
 			<a href="<?php echo SITE_URL; ?>allspark/auto.php">
 			<img src="<?php IMAGE('allspark/auto-bg.png'); ?>"   alt />
 				<div class="content-slider">
@@ -41,8 +41,8 @@
 				</div>
 			</a>
 		
-		</div>
-		<div>
+	
+	
 			<a href="<?php echo SITE_URL; ?>allspark/telco.php">
 			<img src="<?php IMAGE('allspark/telecom-bg.png'); ?>"  alt />
 				<div class="content-slider">
@@ -51,7 +51,7 @@
 				</div>
 			</a>
 		
-		</div>
+		
 	</div>
 </div>
 <div class="container spacing_margin text-center icon-container">
@@ -88,13 +88,11 @@
 					<path d="M349.74,228.51c4,24.22,21.84,37.32,43.14,46.31,4.69,2,9.94,1.46,12.77-3.35,2.31-4,1.34-10.79-3.37-12.77-7.77-3.3-15.9-6.74-22.45-12.2-7.21-6-10.58-13.88-12.06-23-2-11.85-20-6.81-18,5Zm0,0" transform="translate(-102.58 -35.89)" style="fill:rgba(226, 30, 39, 1)"/>
 					<path d="M314.4,268.58c11.14,27.44,36.68,48.17,64.8,56.84,11.54,3.53,16.42-14.49,4.95-18-7-2.14-12.32-4.87-19.74-9.26-13.59-8-26-19.67-32-34.53-1.93-4.69-6.15-8-11.49-6.5-4.47,1.22-8.43,6.74-6.53,11.47Zm0,0" transform="translate(-102.58 -35.89)" style="fill:rgba(226, 30, 39, 1)"/>
 				</svg>
-				<p class="resultDiv">Brand
-				<span>A Branded Product <br>Experience</span>
-				</p>
+				<p class="resultDiv">A Branded Product <br>Experience</p>
 			</div>
 		</div>
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="900">
-			<div class="icons" id="a">
+			<div class="icons" >
 				<svg id="svg-circle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 					<title>Over a Billion Devices</title>
 					<path d="M256,512C115.2,512,0,396.8,0,256S115.2,0,256,0,512,115.2,512,256,396.8,512,256,512Zm0-494.93C124.59,17.07,17.07,124.59,17.07,256S124.59,494.93,256,494.93,494.93,387.41,494.93,256,387.41,17.07,256,17.07Z" style="fill:#e21e27"/>
@@ -113,8 +111,7 @@
 					<path d="M230.4,460.8a42.67,42.67,0,1,1,42.67-42.67A42.25,42.25,0,0,1,230.4,460.8Zm0-68.27a25.6,25.6,0,1,0,25.6,25.6A25.14,25.14,0,0,0,230.4,392.53Z" style="fill:#e21e27"/>
 					<path d="M167.25,493.23,157,479.57a531.63,531.63,0,0,0,46.93-41.81l11.95,11.95C200.53,465.92,183.47,480.43,167.25,493.23Z" style="fill:#e21e27"/>
 				</svg>
-				<p class="resultDiv"> Devices	<span>Over a Billion Devices</span>
-				</p>
+				<p class="resultDiv"> Over a Billion Devices</p>
 			</div>
 		</div>
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1000">
@@ -127,8 +124,7 @@
 					<path d="M279.71,329.3A23.71,23.71,0,1,0,256,353a23.74,23.74,0,0,0,23.71-23.71ZM256,340.08a10.78,10.78,0,1,1,10.78-10.78A10.79,10.79,0,0,1,256,340.08Zm0,0" transform="translate(-51.2 -51.2)" style="fill:#e21e27"/>
 					<path d="M161.14,193.48a36.65,36.65,0,1,0-36.65-36.65,36.69,36.69,0,0,0,36.65,36.65Zm0-60.36a23.71,23.71,0,1,1-23.71,23.71,23.74,23.74,0,0,1,23.71-23.71Zm0,0" transform="translate(-51.2 -51.2)" style="fill:#e21e27"/>
 				</svg>
-				<p class="resultDiv"> Places<span>Global Places</span>
-				</p>
+				<p class="resultDiv">Global Places</p>
 			</div>
 		</div>
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1100">
@@ -183,9 +179,7 @@
 					<path d="M669.38,309.53a3.6,3.6,0,1,0-7.19,0v7.19a3.6,3.6,0,1,0,7.19,0Zm0,0" transform="translate(-575.85 -277.15)" style="fill:#ec222b"/>
 					<path d="M655,374.28a3.6,3.6,0,1,0-7.19,0v7.19a3.6,3.6,0,1,0,7.19,0Zm0,0" transform="translate(-575.85 -277.15)" style="fill:#ec222b"/>
 				</svg>
-				<p class="resultDiv">PlaceMatrix<sup>TM</sup>
-				<span>PlaceMatrix</span>
-				</p>
+				<p class="resultDiv">PlaceMatrix<sup>TM</sup></p>
 			</div>
 		</div>
 	</div>
@@ -198,9 +192,7 @@
 					<path d="M529.6,335.89a7.93,7.93,0,0,0,3.3-.72c6.13-2.78,12.2-5.77,18.05-8.89a8,8,0,1,0-7.52-14.12c-5.56,3-11.33,5.8-17.15,8.45a8,8,0,0,0,3.31,15.28Zm0,0" transform="translate(-224 -228.39)" style="fill:#e21e27"/>
 					<path d="M597.8,228.39A27.83,27.83,0,0,0,570,255.25c-40,34.39-83.61,49.54-113.41,56.19-33.21,7.41-57.06,6.19-57.29,6.18H284.8a8,8,0,0,0-8,8v23h0a52.78,52.78,0,0,0,0,105.56h0v23a8,8,0,0,0,8,8h13.83L317,583a49.78,49.78,0,0,0,48.91,40.6h38.46a8,8,0,0,0,7.86-9.47L388,485.14h11.29c.24,0,24.08-1.23,57.3,6.18C486.42,498,530,513.11,570,547.5a27.8,27.8,0,0,0,55.57-.93V256.19a27.83,27.83,0,0,0-27.8-27.8Zm-321,209.77h0a36.78,36.78,0,0,1,0-73.56h0ZM388.1,572.39H368a8,8,0,1,0,0,16h23.1l3.59,19.2H365.87A33.78,33.78,0,0,1,332.68,580l-17.77-94.9h56.85l3.46,18.45H354.4a8,8,0,0,0,0,16h23.81l3.45,18.4H360.8a8,8,0,1,0,0,16h23.85Zm2.77-103.25H292.8V333.61h98.08ZM570,526.83c-39.7-30.73-81.3-44.81-110.48-51.26a269.45,269.45,0,0,0-52.65-6.51V333.69a269.13,269.13,0,0,0,52.65-6.5c29.18-6.44,70.78-20.53,110.48-51.26Zm39.6,19.74a11.8,11.8,0,1,1-23.6,0V256.19a11.8,11.8,0,0,1,23.6,0Zm0,0" transform="translate(-224 -228.39)" style="fill:#e21e27"/>
 				</svg>
-				<p class="resultDiv" >CrossMatrix<sup>TM</sup>
-				<span>CrossMatrix</span>
-				</p>
+				<p class="resultDiv">CrossMatrix<sup>TM</sup></p>
 			</div>
 		</div>
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1300">
@@ -222,8 +214,7 @@
 					<rect x="33.1" y="12.04" width="6.02" height="6.02" style="fill:#ec222b"/>
 					<rect x="45.13" y="12.04" width="6.02" height="6.02" style="fill:#ec222b"/>
 				</svg>
-				<p class="resultDiv">Real-time 
-				<span>Real-time Audience</span></p>
+				<p class="resultDiv">Real-time Audience</p>
 			</div>
 		</div>
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1400">
@@ -247,9 +238,7 @@
 					<path d="M238.93,166.4h-76.8c-5.12,0-8.53-3.41-8.53-8.53s3.41-8.53,8.53-8.53h76.8c5.12,0,8.53,3.41,8.53,8.53S244.05,166.4,238.93,166.4Z" transform="translate(0 -81.07)" style="fill:#e21e27"/>
 					<path d="M281.6,166.4h-8.53c-5.12,0-8.53-3.41-8.53-8.53s3.41-8.53,8.53-8.53h8.53c5.12,0,8.53,3.41,8.53,8.53S286.72,166.4,281.6,166.4Z" transform="translate(0 -81.07)" style="fill:#e21e27"/>
 				</svg>
-				<p class="resultDiv">Powerful 
-<span>Powerful Insights</span>
-				</p>
+				<p class="resultDiv">Powerful Insights</p>
 			</div>
 		</div>
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1500">
@@ -273,10 +262,7 @@
 					<path class="line" d="M412.45,566.46a141.36,141.36,0,0,1-85.93-39.23,6,6,0,0,0-8.35,8.62,153.38,153.38,0,0,0,93.25,42.57l.52,0a6,6,0,0,0,.51-12Zm0,0" transform="translate(-226 -221.39)" style="fill:#e21e27"/>
 					<path class="line" d="M511.08,299.22a6,6,0,0,0-6.77,9.91,141.38,141.38,0,0,1,56.78,79.82,6,6,0,0,0,11.59-3.12,153.39,153.39,0,0,0-61.59-86.61Zm0,0" transform="translate(-226 -221.39)" style="fill:#e21e27"/>
 				</svg>
-				<p class="resultDiv">Access to 
-				<span>Access to APIs</span>
-
-				</p>
+				<p class="resultDiv">Access to APIs</p>
 			</div>
 		</div>
 	</div>

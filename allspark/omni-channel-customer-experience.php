@@ -36,7 +36,7 @@ $image=  "allspark/allspark-omni-channel.png";
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                 	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                    <img src="<?php IMAGE('allspark/whitepaper-spacetime-marketing.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Omni-Channel Marketing</h4>
                             <hr />
@@ -46,7 +46,7 @@ $image=  "allspark/allspark-omni-channel.png";
                         </span>
                             <a href="#" class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">Explore</span>
+                                    <span class="btn__text-inner">Download</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -58,8 +58,7 @@ $image=  "allspark/allspark-omni-channel.png";
                     
                 	
                 	</div>
-                	<div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                	<div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
+                	
                 </div>
                 
                 

@@ -2657,7 +2657,7 @@ h2{
 }
 .aboutus-container .random-image img{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .aboutus-container .row .team-content{
   position: relative;

@@ -5,7 +5,7 @@
     <div class="col-md-6 team-content right-arrow">
       <h2>Leadership</h2>
       <hr />
-      <p class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer  nisi eget orci tempor suscipit sit.</p>
+      <p class="col-md-6"> Meet the Game Changers across regions and functions.</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -18,14 +18,20 @@
       </a>
     </div>
     <div class="col-md-3 random-image" id="cycler" style="height: 275px;">
-      <img src="<?php IMAGE('team/anil.png') ?>" class="active" />
-       <img src="<?php IMAGE('team/shobhit.png') ?>" />
-       <img src="<?php IMAGE('team/anil.png') ?>" />
+      <img src="<?php IMAGE('team/anil-mathews.png') ?>" class="active" />
+       
+       <img src="<?php IMAGE('team/madhu-therani.png') ?>" />
+       <img src="<?php IMAGE('team/shobhit-shukla.png') ?>" />
+       <img src="<?php IMAGE('team/justin-joseph.png') ?>" />
+       <img src="<?php IMAGE('team/rahul-agarwal.png') ?>" />
     </div>
     <div class="col-md-3 random-image" id="cycler1"  style="height: 275px;">
-      <img src="<?php IMAGE('team/shobhit.png') ?>"  class="active" />
-      <img src="<?php IMAGE('team/anil.png') ?>" />
-       <img src="<?php IMAGE('team/shobhit.png') ?>" />
+      <img src="<?php IMAGE('team/shobhit-shukla.png') ?>"  class="active" />
+     <img src="<?php IMAGE('team/rahul-agarwal.png') ?>" />
+        <img src="<?php IMAGE('team/anil-mathews.png') ?>" />
+        <img src="<?php IMAGE('team/madhu-therani.png') ?>" />
+       <img src="<?php IMAGE('team/justin-joseph.png') ?>" />
+      
     </div>
     </div>
     <div class="custom_wrapp row">
@@ -64,7 +70,7 @@
     <div class="col-md-3">
       <h2>BLOG</h2>
       <hr />
-      <p class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer  nisi eget orci tempor suscipit sit.</p>
+      <p class="col-md-12">Take a look at our corporate and tech blogs for the latest industry trends.</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -89,7 +95,7 @@
     <div class="col-md-3 left-arrow">
       <h2>Board Members</h2>
       <hr />
-      <p class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer  nisi eget orci tempor suscipit sit.</p>
+      <p class="col-md-12">More about the board members of Near here.</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -109,7 +115,7 @@
     <div class="col-md-6 right-arrow">
       <h2>Culture Code</h2>
       <hr />
-      <p class="col-md-12">If a challenging work environment doesn't excite you, then you definitely don't belong to a startup. </p>
+      <p class="col-md-12">Explore the Near culture, values and meet the team.</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -129,7 +135,7 @@
     <div class="col-md-3 space">
       <h2>Newsroom</h2>
       <hr />
-      <p class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer  nisi eget orci tempor suscipit sit.</p>
+      <p class="col-md-12">Stay up-to-date with our latest announcements, news, stories and much more.</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -142,9 +148,9 @@
       </a>
     </div>
     <div class="col-md-3 space">
-      <h2>Event</h2>
+      <h2>Events</h2>
       <hr />
-      <p class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer  nisi eget orci tempor suscipit sit.</p>
+      <p class="col-md-12">Check out our upcoming events. Drop in your details to fix a meeting and we will get in touch!</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -165,9 +171,9 @@
       <img src="<?php IMAGE('culture/career.png') ?>" />
     </div>
     <div class="col-md-6 left-arrow">
-      <h2>Career</h2>
+      <h2>Careers</h2>
       <hr />
-      <p class="col-md-12">If a challenging work environment doesn't excite you, then you definitely don't belong to a startup. </p>
+      <p class="col-md-12">Interested in joining the Near team? Check our open job positions to apply!</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -189,7 +195,7 @@
     <div class="col-md-6 left-arrow">
       <h2>Contact</h2>
       <hr />
-      <p class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer  nisi eget orci tempor suscipit sit.</p>
+      <p class="col-md-12">Have any queries? Reach out to us now.</p>
       <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>

@@ -37,7 +37,9 @@ right: inherit;
     margin: auto;
     width: 100% !important;
 }
-
+.case-studies.responsive .slick-slide {
+    position: relative !important;
+}
 /********************
 *****Slide effect
 **********************/
