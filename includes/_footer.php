@@ -48,7 +48,7 @@
 						   <a target="_blank" href="#"><i class="fa fa-linkedin" ></i></a>
 						</p>
                        </div-->
-                       <div class="col-md-3 newsletter footer-mob">
+                       <div class="col-md-3 newsletter footer-mob"  data-aos="fade-up" data-aos-delay="600">
 					  <h5>NEWSROOM</h5>
                       <a class="news-link" href="https://near.co/news/connecting-the-physical-and-digital-using-ambient-intelligence-platform.php" style="margin-top:5px;"><span>April 28, 2017 - United States</span><br>Connecting the Physical and Digital using Ambient Intelligence Platform: Shobhit Shukla</a> 
                        <a class="news-link" href="https://near.co/news/more-male-tourists-seen-in-singapore-during-cny.php" style="margin-top:5px;"><span>February 20, 2017 - Singapore</span><br>More male tourists seen in Singapore during CNY</a>   
