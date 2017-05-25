@@ -855,6 +855,7 @@ a:focus{color:#ffffff}
     margin: 0;
     padding: 0;
 width: 100%;
+border: none;
 }
 .side-menu ul .list-group-item{
   border: none;
@@ -902,11 +903,11 @@ width: 100%;
     font-weight: normal;
     font-size: 15px;
 }
-.side-menu ul .active ul a.active{
+.side-menu ul .active ul a.active, .side-menu ul .active ul li.active a{
   color: #e53329;
   position: relative;
 }
-.side-menu ul .active ul a.active:before{
+.side-menu ul .active ul a.active:before, .side-menu ul .active ul li.active a:before{
   width: 0; 
   height: 0; 
   border-top: 6px solid transparent;
@@ -941,7 +942,7 @@ width: 100%;
 
 .allspark-subpages h1{
   color: #e21e27;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
 }
 .allspark-subpages h2{
@@ -1135,7 +1136,9 @@ width: 100%;
 .custom-banner .col-md-4 a,.submenu-tiles .col-md-4 a{
   transition: all 0.5s ease;
 }
-
+.margin-bottom {
+  margin-bottom :30px;
+}
 .custom-banner .button-icon-animate, .submenu-tiles .button-icon-animate {
     top: 20px !important;
     z-index: 3 !important;
@@ -1145,12 +1148,67 @@ width: 100%;
 .allspark-inner{
   z-index: 9;
 }
-
+.custom-form input, .bfh-selectbox .bfh-selectbox-toggle{
+    border: none !important;
+    border-bottom: 1px solid #dedede !important;
+    border-radius: 0;
+    margin-right: 20px;
+    width: calc(100% - 20px);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.custom-form textarea{
+    border: 1px solid #dedede !important;
+    width: 100%;
+    margin-right: 80px;
+    border-radius: 0;
+}
+.contact_addresses{
+  margin-top: 80px;
+  border-top: 1px solid #eeeeee;
+  padding-top: 20px;
+}
+.contact_addresses h2{
+  font-family: 'Roboto',sans-serif;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 30px;
+  color: #db1a21;
+}
+.contact_addresses span{
+    color: #5c5c5c;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+}
+.contact_addresses p{
+  line-height: 18px;
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+.contact_addresses b{
+  font-weight: 500;
+}
+.contact_addresses hr{
+      border: 1px solid #e4e4e4 !important;
+    width: 90% !important;
+    margin: 15px 0 5px 0 !important;
+}
+.contact_addresses .col-6{
+  margin-bottom: 40px;
+}
 /*#carouselExampleIndicators .banner-slider{
   width: 850px;
   height: 535px;
   margin-top: 5%;
 }*/
+.bfh-selectbox i.glyphicon{
+  display: inline-block;
+}
 .allspark-inner .col-lg-9 img{
   width: 100%;
   height: auto;
