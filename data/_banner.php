@@ -16,19 +16,19 @@
           <div class="col-mg-12 icon-anim">
           <a href="#" class="icon_hover active col-md-3">
               <img src="<?php IMAGE('data/icon-1.png') ?>" />
-              <p><span>Over</span>1 billion devices</p>
+              <p style="width: 250px;"><span>Data</span> from 1 billion+ devices</p>
           </a>
           <a href="#" class="icon_hover col-md-3">
               <img src="<?php IMAGE('data/icon-2.png') ?>" />
-              <p><span>Over</span>1 billion devices</p>
+              <p><span>5 billion+ </span>data pings globally</p>
           </a>
           <a href="#" class="icon_hover col-md-3">
               <img src="<?php IMAGE('data/icon-3.png') ?>" />
-              <p><span>Over</span>1 billion devices</p>
+              <p><span>44+</span> countries</p>
           </a>
           <a href="#" class="icon_hover col-md-3">
               <img src="<?php IMAGE('data/icon-4.png') ?>" />
-              <p><span>Over</span>1 billion devices</p>
+              <p><span>65 Million+ </span>Near Places </p>
           </a>
           </div>
         </div>
