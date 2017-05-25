@@ -821,8 +821,42 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     background: #0d0923;
 }
 
-
-
+.culture-subpages .culture_highlite h1{
+  font-size: 24px;
+  font-weight: 700;
+}
+.culture-subpages .culture_highlite h4{
+  color: #444444;
+  font-size: 50px;
+  font-weight: 800;
+}
+.culture-subpages .culture_highlite h4 span{
+  color: #e21e27;
+}
+.culture-subpages .culture_highlite p{
+    color: #444444;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: none;
+}
+.collage{
+  padding: 0;
+  margin: 0;
+}
+.collage div{
+  height: 250px;
+  background-size: cover;
+  border: 3px solid #fff;
+}
+.listing{
+      margin-left: 20px;
+    padding: 0;
+}
+.listing li{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
 /* Play Button */
 
 .hp-cta-video {
