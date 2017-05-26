@@ -26,7 +26,7 @@
         </li>
         <li class="list-group-item list-toggle "><a href="#"></a></li>
         <li id="verticals" class="list-group-item list-toggle ">
-            <a href="#" target="_self">VERTICAL</a>
+            <a href="#" target="_self">INDUSTRY</a>
             <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
                 <li class="list-group-item list-toggle">
                     <a id="retail" href="<?php echo SITE_URL; ?>allspark/retail.php" target="_self">Retail</a>

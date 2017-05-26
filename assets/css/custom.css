@@ -799,7 +799,9 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     top: calc(50% - 30px);
     z-index: 4;
 }
-
+.whats-happening .col-sm-6:nth-child(3):hover:before{
+  opacity: 1 !important
+}
 .whats-happening .col-sm-6:nth-child(3){
     background-color: #fff;
     background-position: center center;
@@ -1588,9 +1590,12 @@ a:hover,a:focus{text-decoration:none; outline:none;}
   border: 1px solid #abb0b6;
 }
 #auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img, #tab9 img {
-    margin: 10px 50px;
+        margin: 10px 30px 50px 30px;
+    height: 50px;
+    width: auto;
 }
-
+#tab2 img, #tab4 img{margin:10px 40px 50px 40px;}
+#tab5 img, #tab6 img, #tab7 img, #tab8 img, #tab9 img {margin:10px 50px 50px 50px;}
 
 
 /* Platform Leverage */

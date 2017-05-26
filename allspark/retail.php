@@ -188,7 +188,7 @@ $image2=" ";
                 <div class="space"></div>
                 <hr />
 
-                <?php include('inside-verticals.php'); ?>
+                  <?php include('other-industries.php'); ?>
 
         </div>
     </div>

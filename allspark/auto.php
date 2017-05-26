@@ -196,7 +196,7 @@ $image=  "allspark/allspark-auto.png";
                 <div class="space"></div>
                 <hr />
 
-                <?php include('inside-verticals.php'); ?>
+           <?php include('other-industries.php'); ?>
 
         </div>
     </div>

@@ -1,5 +1,5 @@
 <div class="row submenu-tiles perspective" style="margin: 0;">
-                    <h3>Inside Verticals</h3>
+                    <h3>Other Industries</h3>
                     <div class="space" style="width: 100%; padding: 5px 0;"></div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
                         <img src="<?php IMAGE('allspark/retail.png') ?>" alt="" class="sq-ratio">
@@ -10,7 +10,7 @@
                               Retailers can leverage Allspark to 
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <a href="<?php echo SITE_URL; ?>allspark/retail.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
                                 </span>            
@@ -33,7 +33,7 @@
                               Allspark can be used by QSRs to 
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <a href="<?php echo SITE_URL; ?>allspark/qsr.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
                                 </span>            
@@ -55,7 +55,7 @@
                               Telecommunication players can use Allspark to
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <a href="<?php echo SITE_URL; ?>allspark/telco.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
                                 </span>            
@@ -78,7 +78,7 @@
                                Allspark can be used by the Auto players to
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <a href="<?php echo SITE_URL; ?>allspark/auto.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
                                 </span>            
@@ -99,7 +99,7 @@
                                Allspark can be used by the BFSI industry
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <a href="<?php echo SITE_URL; ?>allspark/bfsi.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
                                 </span>            

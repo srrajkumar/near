@@ -243,7 +243,7 @@ $image2="allspark/allspark-telco-2.png";
                 <div class="space"></div>
                 <hr />
 
-                <?php include('inside-verticals.php'); ?>
+               <?php include('other-industries.php'); ?>
 
         </div>
     </div>
