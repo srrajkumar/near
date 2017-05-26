@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Consumer Trends | Mobile Location Data | Footfall | Chinese New Year | Christmas';
+<?php include('../includes/_config.php');
+$meta_title = = 'Consumer Trends | Mobile Location Data | Footfall | Chinese New Year | Christmas';
 $meta_desc = 'This news brings you the shift in consumer footprints seen during Christmas to the Chinese New Year period in Singapore. Contact us to know how we can make our data work for your business strategy during festivities.';
 $title ='Holiday Insights: Near reveals shift in consumer footprints over the festive season';?>
 

@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mobile Peak Hours in Hong Kong from Location Intelligence Study | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mobile Peak Hours in Hong Kong from Location Intelligence Study | Near';
 $meta_desc = "Near has conducted a Location Intelligence Study investigating what the Peak Hours for Mobile devices is in Hong Kong. Click here for the data!";
 $title ='Mobile activity surges in Hong Kong between 5 pm to 7 pm: Near &rsquo;s Location Intelligence study';?>
 

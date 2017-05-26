@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = "Near's Shopper Insights from The Great Singapore Sale | Near";
+<?php include('../includes/_config.php');
+$meta_title = = "Near's Shopper Insights from The Great Singapore Sale | Near";
 $meta_desc = "Near has released our research on The Great Singapore Sale 2015 providing new consumer and shopper insights. Contact our experts to see how we can put our location data to work for your company!";
 $title ='Near’s Shopper Insights reveals Singapore’s hot spots during The Great Singapore Sale';?>
 

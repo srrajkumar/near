@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Geo Audience Delivery Platform in Japan for Location Intelligence | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Geo Audience Delivery Platform in Japan for Location Intelligence | Near';
 $meta_desc = "Near has gained traction in Japan with their new Geo Audience Delivery Platform in Japan for Location Intelligence. Contact us to see how Near can help you!";
 $title ='Japan gets its first Geo Audience delivery platform with Near';?>
 

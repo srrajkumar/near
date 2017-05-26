@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mobile Data | Location Insights | Consumer Insights | Business Strategy | Business Operations | Singapore';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mobile Data | Location Insights | Consumer Insights | Business Strategy | Business Operations | Singapore';
 $meta_desc = "This news highlights the consumer insights derived from the mobile data study for the Singapore market. Reach us to know how we can put our data and insights work for your business strategy, marketing and operations";
 $title ='How mobile data can play a role in your business strategy';?>
 

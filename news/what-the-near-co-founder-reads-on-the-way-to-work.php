@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Intelligence | Consumer Insights | Shobhit Shukla | The Commuter';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Intelligence | Consumer Insights | Shobhit Shukla | The Commuter';
 $meta_desc = "This news highlights how Shobhit Shukla, our Co-Founder & Chief Revenue Officer makes the most of his commute. To understand how location intelligence could work for your company, reach out to us today!";
 $title ="What the Near Co-Founder reads on the way to work";
 ?>

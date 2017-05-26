@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = "Near's Research says Australian Shoppers pick Thursday Evening | Near";
+<?php include('../includes/_config.php');
+$meta_title = = "Near's Research says Australian Shoppers pick Thursday Evening | Near";
 $meta_desc = "Near's research has identified Thursday Evening as the top choice for Austrailian Shoppers. Contact the experts at Near for more information!";
 $title ='Thursday Evenings Top Choice for Australian Shoppers: Near';?>
 

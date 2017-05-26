@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Near scoops the Best Media Solution award for Audi at the Sparks Awards, 2015 | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Near scoops the Best Media Solution award for Audi at the Sparks Awards, 2015 | Near';
 $meta_desc = "The Art of Progress (Audi A8 campaign) was declared the winner at the Spark Awards for Media Excellence 2015 held yesterday at The Singapore Marriott Tang Plaza Hotel.";
 $title ='Near scoops the Best Media Solution award for Audi at the Sparks Awards, 2015 ';?>
 

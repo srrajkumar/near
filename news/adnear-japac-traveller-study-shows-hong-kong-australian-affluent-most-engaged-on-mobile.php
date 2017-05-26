@@ -1,79 +1,27 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Intelligence Study | JAPAC Traveller Report | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Intelligence Study | JAPAC Traveller Report | Near';
 $meta_desc = "Near brings you this JAPAC Traveller Report featuring information on Mobile Phone Engagement. Contact us to see how we can help your company!";
-$title ='Near JAPAC traveller study shows Hong Kong and Australian affluent most engaged on mobile';?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />   
+$title ='Near JAPAC traveller study shows Hong Kong and Australian affluent most engaged on mobile';
+?>
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
+	<?php include('../includes/_head.php'); ?>
 	<meta property="og:title" content="<?php echo $title; ?>" />
     <meta property="og:description" content="<?php echo $meta_desc; ?>" />
 	<meta property="og:image" content="http://near.co/images/news/japac.png" />
-    <meta name="KEYWORDS" content="" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css'); ?>" />
-     <link rel="stylesheet" href="<?php  CSS('social-buttons.css'); ?>">
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-			<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				<div class="map-canvas" data-latitude="42.487606" data-longitude="-71.115661" data-zoom="14">
-					<div class="map-marker" data-latitude="42.487606" data-longitude="-71.115661" data-text="Our awesome location"></div>
-					<div class="map-marker" data-latitude="42.485100" data-longitude="-71.113256" data-text="Our sales office"></div>
-				</div>
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
-		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php  IMAGE('bg-news.png'); ?>" /><img alt class="bg" src="<?php IMAGE('bg-news.png'); ?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+</head>
+	<body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('news_banner.php'); ?>
+
+            <!-- BEGIN: Page content -->
+			<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e">
 					<div class="container">
 						<div class="row">
@@ -154,7 +102,6 @@ $title ='Near JAPAC traveller study shows Hong Kong and Australian affluent most
 					</div>
 				</div>
 			</div>
-		</section>
 		<!-- END: Page content -->
 	
     <!-- Bootstrap core JavaScript
@@ -163,8 +110,6 @@ $title ='Near JAPAC traveller study shows Hong Kong and Australian affluent most
    <!-- BEGIN: Footer -->
 		<?php include('../includes/_footer.php'); ?>
 		<!-- END: Footer -->
-	<?php include('../includes/_java_scripts.php'); ?>
-		<script src="<?php JS('social-buttons.js'); ?>" type="text/javascript"></script>  
-
+		<?php include('../includes/_java_scripts.php'); ?>
   </body>
 </html>

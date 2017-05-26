@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Near launches Allspark, a Mobile-first Audience Cloud';
+<?php include('../includes/_config.php');
+$meta_title = = 'Near launches Allspark, a Mobile-first Audience Cloud';
 $meta_desc = 'Powered by the Near platform, Allspark leverages diverse public and proprietary data sets which enable brands and enterprises to visualise and analyse audience location, behaviour, demography and interest data to power strategy, marketing and operations. Get started on Allspark now!';
 $title ="Near breaks ground with Allspark, its new Mobile-first Audience Cloud";
 ?>

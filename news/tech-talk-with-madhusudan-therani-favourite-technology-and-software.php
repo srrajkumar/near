@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Madhusudan Therani | Location Intelligence | Data | Technology |  Software | Gadgets ';
+<?php include('../includes/_config.php');
+$meta_title = = 'Madhusudan Therani | Location Intelligence | Data | Technology |  Software | Gadgets ';
 $meta_desc = "Madhusudan Therani, our CTO discusses about his favourite personal technology, gadgets, software and much more. Contact us to know more about location intelligence platform from our tech experts.";
 $title ="Tech Talk with Madhusudan Therani: Favourite Technology & Software";
 ?>

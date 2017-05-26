@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mobile data | Location Intelligence | Attribution Analytics | ROI measurement';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mobile data | Location Intelligence | Attribution Analytics | ROI measurement';
 $meta_desc = 'This news help brands understand how mobile location data is the key to attribution measurement while understanding the consumer journey (from their initial online browsing to final in-store purchase. Contact us to see how we can put location data work for your company.';
 $title ="The key to transforming attribution is in your hands (literally)";?>
 

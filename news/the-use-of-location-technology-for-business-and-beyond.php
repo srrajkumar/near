@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Technology | Data Analytics | Data-Driven Marketing | Consumer Insights';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Technology | Data Analytics | Data-Driven Marketing | Consumer Insights';
 $meta_desc = " In his Q&A with Geospatial World, Shobhit Shukla, Co-Founder & Chief Revenue Officer at Near talks about the use of location technology for business & beyond. Meet him at the Location World 2017 event to know how we can make our location data work for you!";
 $title ="The use of location technology for business and beyond";
 ?>

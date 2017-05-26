@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mobile Tracking by Near Reveals Shopper Habits | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mobile Tracking by Near Reveals Shopper Habits | Near';
 $meta_desc = "This article examines how Near's Mobile Tracking has revealed Shopper Habits during the Chineese New Year. Find out what we can do for you and contact us today!";
 $title ='Mobile Tracking by Near Reveals Intriguing Shopper Habits Over Chinese New Year';?>
 

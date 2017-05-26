@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mobile Location Intelligence | Fitness Enthusiasts | Consumer Insights | Fitness Centers | Competitor Insights';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mobile Location Intelligence | Fitness Enthusiasts | Consumer Insights | Fitness Centers | Competitor Insights';
 $meta_desc = 'This latest Near research takes a deeper look into the different patterns of females and males at fitness centres across Singapore, helping to construct a better understanding of their general behaviour towards indoor exercise. Contact us for further insights.';
 $title ="Near Research identifies True Fitness as the most preferred fitness centre in Singapore";?>
 

@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mobile Location Intelligence | Location-based Marketing | MCN location launch through partnership with Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mobile Location Intelligence | Location-based Marketing | MCN location launch through partnership with Near';
 $meta_desc = "Multi Channel Network (MCN) launched MCN Location with a leading mobile location intelligence platform enabled by the exclusive Australian representation agreement with Near in Australia. Contact us today to see how we can put our location data work for your brand.";
 $title ="MCN Launches MCN Location through exclusive partnership with Near";
 ?>

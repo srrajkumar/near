@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Near Raises Funding to Expand Mobile Advertising | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Near Raises Funding to Expand Mobile Advertising | Near';
 $meta_desc = "Near Raises the funding required to expand their Locaiton-Based Mobile Advertising services across the Asia-Pacific region. Contact us to see how we can help you!";
 $title ='Location-based mobile advertising platform Near raises $6.3M from Sequoia & Canaan Partners';?>
 

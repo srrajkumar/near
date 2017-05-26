@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Shopper Trends | Mobile Data Insights | Location Analytics | Black Friday 2015 | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Shopper Trends | Mobile Data Insights | Location Analytics | Black Friday 2015 | Near';
 $meta_desc = " This news sheds light on UK's hot spots and shopper trends for the upcoming Black Friday. Contact us to see how we can put our mobile location data work for your company for the forthcoming Black Friday!";
 $title ='Shopper Insights for the upcoming Black Friday';?>
 

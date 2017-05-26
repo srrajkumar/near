@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Intelligence | Mobile Location Data | IoT Data | Consumer Journey | Business Opportunity ';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Intelligence | Mobile Location Data | IoT Data | Consumer Journey | Business Opportunity ';
 $meta_desc = "This news highlights the business opportunity mobile location data provides to brands. Insights derived from location intelligence will prove to fulfill every brand marketer's need in getting closer to their consumers. Contact insights@near.co to get real-time insights on your consumers today!";
 $title ="The scale of location opportunity for businesses";
 ?>

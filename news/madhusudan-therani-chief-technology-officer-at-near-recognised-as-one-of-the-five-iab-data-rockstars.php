@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Madhusudan Therani | IAB Data Rockstar | Leader in Data Science | Data Analytics| Data Engineering | SaaS products | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Madhusudan Therani | IAB Data Rockstar | Leader in Data Science | Data Analytics| Data Engineering | SaaS products | Near';
 $meta_desc = "We are excited to share that Madhusudan Therani, our Chief Technology Officer has been recognised as one of the five data industry leaders globally at the IAB Data Rockstar Awards in NYC. Learn from the expert: how  we build and develop our platform, products and much more.";
 $title ="Madhusudan Therani, Chief Technology Officer at Near recognised as one of the five IAB Data Rockstars in New York";
 ?>

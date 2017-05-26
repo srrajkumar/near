@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mobile Location Data | Insights | Attribution | Marketing Campaigns | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mobile Location Data | Insights | Attribution | Marketing Campaigns | Near';
 $meta_desc = 'This news article discusses "why Marketers need to keep up with Mobile". The key takeaway is to leverage mobile location data for effective marketing campaigns. Contact us to see how we can put our Mobile location data work for your company.';
 $title ='Marketers Not Keeping Up In Mobile Race';?>
 

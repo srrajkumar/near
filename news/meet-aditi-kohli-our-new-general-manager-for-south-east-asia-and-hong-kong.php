@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Meet Aditi Kohli, our new GM for SEA and HK';
+<?php include('../includes/_config.php');
+$meta_title = = 'Meet Aditi Kohli, our new GM for SEA and HK';
 $meta_desc = " Near is pleased to announce that Aditi Kohli will be the new GM for SEA and Hong Kong. She will be responsible for scaling Near’s business & driving adoption of SaaS products in the region with key partnerships and strategic deals. Reach out to us at www.near.co to know more.";
 $title ='Meet Aditi Kohli, our new General Manager for South East Asia and Hong Kong';
  ?>

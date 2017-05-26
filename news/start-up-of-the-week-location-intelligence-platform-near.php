@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Technology Start-ups | Mobile Location Analytics | Consumer Insights | Retailers';
+<?php include('../includes/_config.php');
+$meta_title = = 'Technology Start-ups | Mobile Location Analytics | Consumer Insights | Retailers';
 $meta_desc = "Near's location intelligence platform enable retailers to glean insights into consumer behavior and location to create targeted marketing messages. Contact us to see how we can put our location data to work for your company!";
 $title ='Start-up of the week: Location intelligence platform Near';?>
 

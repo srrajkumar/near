@@ -1,29 +1,21 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = ' Near';
+<?php include('../includes/_config.php');
+$meta_title = = ' Near';
 $meta_desc = "Near, the leading location intelligence platform. Contact us today!";
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />   
-	<meta property="og:title" content="<?php echo $title; ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
+    <?php include('../includes/_head.php'); ?>
+    <meta property="og:title" content="<?php echo $title; ?>" />
     <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-
-
-    <meta name="KEYWORDS" content="" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
+</head>
+    <body>
    <script language="javascript">
 window.location = "<?php echo SITE_URL; ?>news.php";
 </script>
-	</head>
-	<body>
 	</body>
 </html>

@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = "Chinese New Year 2017 | Location Data | Audience Analytics | Allspark | Shoppers in Singapore";
+<?php include('../includes/_config.php');
+$meta_title = = "Chinese New Year 2017 | Location Data | Audience Analytics | Allspark | Shoppers in Singapore";
 $meta_desc = "Near's latest consumer research highlights the tourist and locals' shopping behavior during the Chinese New Year 2017 in Singapore. Reach out to us to get insights on your audience using location data. ";
 $title ="More male tourists seen in Singapore during CNY";?>
 

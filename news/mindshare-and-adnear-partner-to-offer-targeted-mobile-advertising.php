@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Mindshare and Near offer Targeted Mobile Advertising | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Mindshare and Near offer Targeted Mobile Advertising | Near';
 $meta_desc = "Near is partnering with Mindshare to offer Location-based Targeted Mobile Advertising to brands across Asia Pacific. Contact us today!";
 $title ='Mindshare and Near Partner to Offer Targeted Mobile Advertising';?>
 

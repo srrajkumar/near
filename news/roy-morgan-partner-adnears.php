@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Near and Roy Morgan Research Partner to Target Personas | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Near and Roy Morgan Research Partner to Target Personas | Near';
 $meta_desc = "Near and Roy Morgan Research has partnered up to bring Helix Personas to get targeted across Australia and New Zealand. Find more about our exclusive partnership here!";
 $title ='Near and Roy Morgan Research partner to bring Helix Personas to real time, location based mobile marketing';?>
 

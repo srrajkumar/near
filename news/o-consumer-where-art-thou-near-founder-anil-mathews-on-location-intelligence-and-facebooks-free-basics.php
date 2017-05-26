@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Intelligence | Mobile Data | Consumer Journey | Marketing | Data-driven Business Decisions';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Intelligence | Mobile Data | Consumer Journey | Marketing | Data-driven Business Decisions';
 $meta_desc = 'Leveraging location intelligence means better marketing and business decisions. This news will help you understand the potential of mobile location data for various industries. Contact us to see how we put our location data work for your company.';
 $title ="O consumer, where art thou? Near founder Anil Mathews on location intelligence and Facebook's Free Basics";?>
 

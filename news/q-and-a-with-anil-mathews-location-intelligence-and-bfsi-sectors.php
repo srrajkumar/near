@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Intelligence | Millennials Digital Behavior | Consumer Insights | Banking and Finance Sector | Anil Mathews';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Intelligence | Millennials Digital Behavior | Consumer Insights | Banking and Finance Sector | Anil Mathews';
 $meta_desc = "Anil Mathews, our Founder & CEO in Q&A with Global Banking & Finance Review on how location intelligence could impact brands from Banking and Finance Industries. Reach out to us to see how we can put our location intelligence platform work for you.";
 $title ="Q&A with Anil Mathews: Location Intelligence & BFSI Sectors";
 ?>

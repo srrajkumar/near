@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = "Location Data | Cross-Device Attribution | Real-Time Analytics | Anil Mathews";
+<?php include('../includes/_config.php');
+$meta_title = = "Location Data | Cross-Device Attribution | Real-Time Analytics | Anil Mathews";
 $meta_desc = "How does real-time attribution data solve marketers' measurement problems and help them get a better grip on ROI? Anil Mathews, our Founder and CEO,chats with MediaPost's RTBlog.";
 $title ="Is Real-Time Attribution The Holy Grail We've Been Looking For?";?>
 

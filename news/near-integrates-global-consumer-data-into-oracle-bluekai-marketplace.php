@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Near Integrates Global Consumer Data into Oracle’s BlueKai Marketplace | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Near Integrates Global Consumer Data into Oracle’s BlueKai Marketplace | Near';
 $meta_desc = "Near announces its integration with Oracle Data Cloud to make Near’s global audience data available through Oracle’s BlueKai Marketplace. Reach out to us to know more.";
 $title ="Near Integrates Global Consumer Data into Oracle’s BlueKai Marketplace";
 ?>

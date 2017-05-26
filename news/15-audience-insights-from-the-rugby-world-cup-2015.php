@@ -11,6 +11,9 @@ $title ='15 Audience Insights from the Rugby World Cup, 2015';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
+	<meta property="og:title" content="<?php echo $title; ?>" />
+    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+    <meta property="og:image" content="http://www.near.co/images/news/rwc-2015.png" />
 </head>
 	<body>
 	<div class="preloader"></div>
@@ -36,7 +39,7 @@ $title ='15 Audience Insights from the Rugby World Cup, 2015';
 											<div class="post-image">
 											<a href="<?php PDF('latest-research/rugby-worldcup-2015-near-insights.pdf'); ?>" target="_blank">	<img class="fluid-width" src="<?php IMAGE('news/rwc-2015.png'); ?>" alt="The Rugby World Cup 2015"></a>
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											
              							 <p>Among the UK stadiums hosting the Rugby World Cup, a third of logged mobile users were registered at the Millennium Stadium, according to location intelligence platform Near.</p>
 											 
@@ -50,41 +53,29 @@ $title ='15 Audience Insights from the Rugby World Cup, 2015';
 <p class="img" style="text-align:center;"> <a href="<?php PDF('latest-research/rugby-worldcup-2015-near-insights.pdf'); ?>" target="_blank"><img src="<?php IMAGE('news/rwc-2015-infographic.png'); ?>" alt="The Rugby World Cup 2015" /></a></p>
 
 
-
-											
-											<div class="container news">
+<div class="container news">
              <div class="social-share">
-           		<div class="share">
-				  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//codepen.io/supah/pen/MKNwZV" target="_blank" class="ico fb"><i class="fa fa-facebook"></i></a>
-				  <a href="https://twitter.com/home?status=Social%20Share%20by%20%40supahfunk%20http%3A//codepen.io/supah/pen/MKNwZV" target="_blank" class="ico tw"><i class="fa fa-twitter"></i></a>
-				  <a href="https://plus.google.com/share?url=http%3A//codepen.io/supah/pen/MKNwZV" target="_blank" class="ico gp"><i class="fa fa-google-plus"></i></a>
-				  <span class="text"><em>SHARE</em></span>
-				  <svg class="ico-share"><use xlink:href="#ico-share"></use></svg>
-				</div>
-				<div class="share">
-				  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//codepen.io/supah/pen/MKNwZV" target="_blank" class="ico fb"><i class="fa fa-facebook"></i></a>
-				  <a href="https://twitter.com/home?status=Social%20Share%20by%20%40supahfunk%20http%3A//codepen.io/supah/pen/MKNwZV" target="_blank" class="ico tw"><i class="fa fa-twitter"></i></a>
-				 
-				  <span class="text"><em>SHARE</em></span>
-				  <svg class="ico-share"><use xlink:href="#ico-share"></use></svg>
-				</div>
+           		<div class="social-sharing is-clean" data-permalink="<?php my_url(); ?>">
 
-				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
-				<symbol id="ico-share" x="0px" y="0px"
-				 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-				  <g>
-				<path fill="#FFFFFF" d="M13.26,10.387c-0.781,0-1.484,0.328-1.982,0.854L5.445,8.385c0.02-0.133,0.034-0.27,0.034-0.41
-						c0-0.136-0.013-0.269-0.032-0.399l5.823-2.824c0.5,0.529,1.205,0.861,1.99,0.861c1.514,0,2.74-1.227,2.74-2.74
-						s-1.227-2.74-2.74-2.74c-1.513,0-2.739,1.227-2.739,2.74c0,0.136,0.013,0.269,0.032,0.399L4.73,6.097
-						c-0.5-0.529-1.205-0.861-1.99-0.861C1.227,5.236,0,6.462,0,7.976c0,1.513,1.227,2.739,2.74,2.739c0.781,0,1.484-0.328,1.983-0.854
-						l5.832,2.855c-0.021,0.134-0.035,0.27-0.035,0.41c0,1.514,1.227,2.739,2.74,2.739S16,14.641,16,13.127S14.773,10.387,13.26,10.387z
-						"/></g>
-				  </symbol></svg>
+    <!-- https://developers.facebook.com/docs/plugins/share-button/ -->
+    <a target="_blank" href="http://www.facebook.com/sharer.php?u=<?php my_url(); ?>" class="share-facebook">
+      <span class="fb-icon icon1"><i class="fa fa-facebook" style="font-style:normal; padding-left:7px;"></i><i class="share">Share</i></span>
+      <span class="share-count">0</span>
+    </a>
+
+    <!-- https://dev.twitter.com/docs/intents -->
+    <a target="_blank" href="http://twitter.com/share?url=<?php my_url(); ?>&amp;text=<?php echo $title; ?>&amp;via=Near&amp;count=true" class="share-twitter" > <span class="twitter-icon icon1"><i class="fa fa-twitter" style="font-style:normal; padding-left:7px;"></i><i class="share">Tweet</i></span>
+      <span class="share-count">0</span>
+    </a>
+
+</div>
             
             </div>
             
            
             </div>
+											
+											
 										</div>
 									</div>
 								</div>

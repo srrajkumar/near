@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'QSRs | Location Intelligence | Consumer Insights | Near ';
+<?php include('../includes/_config.php');
+$meta_title = = 'QSRs | Location Intelligence | Consumer Insights | Near ';
 $meta_desc = "Near provides consumer insights using location analytics for the marketers from the Coffee Chains and QSRs segment. Contact us to see how we can put our location data to work for your company!";
 $title ='QSRs or Coffee Chains: Near’s latest research reveals consumer trends seen across South East Asia';?>
 

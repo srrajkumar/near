@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Data | Mobile Location Analytics | Location Insights | Consumer Insights | Black Friday';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Data | Mobile Location Analytics | Location Insights | Consumer Insights | Black Friday';
 $meta_desc = " This news glean insights into location specific shopper trends seen during the Black Friday month compared to the previous month. This location data analysis provides marketers powerful consumer insights on their mobile behavior in order to plan their marketing & business strategies for Black Friday 2016. Contact us to get more such insights";
 $title ='Location Insights from Black Friday';?>
 

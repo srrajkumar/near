@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Key takeaways from the Cannes Lions 2016 | Near';
+<?php include('../includes/_config.php');
+$meta_title = = 'Key takeaways from the Cannes Lions 2016 | Near';
 $meta_desc = 'Near brings you the highlights from Cannes Lion 2016. This post lets you know the topics that stood out this year by sharing the four key takeaways from the event.';
 $title ="The hot topics dominating Cannes Lions 2016";
 ?>

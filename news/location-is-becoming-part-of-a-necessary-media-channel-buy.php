@@ -1,5 +1,5 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Location Intelligence | Mobile Location Data | Consumer Insights | Location-based Audience Targeting | Omni-channel marketing ';
+<?php include('../includes/_config.php');
+$meta_title = = 'Location Intelligence | Mobile Location Data | Consumer Insights | Location-based Audience Targeting | Omni-channel marketing ';
 $meta_desc = "In this news, Ken Parnham provides tips on how location data be used by brands effectively for their marketing and business decisions. Contact us to see how we put our location intelligence work for your brand.";
 $title ="Location is Becoming Part of a Necessary Media Channel Buy";
 ?>
