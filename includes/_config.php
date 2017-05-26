@@ -15,8 +15,8 @@ define('IMAGE_ASSETS_URL', $mainurl .'assets/images/');
 define('VIDEO_ASSETS_URL', $mainurl .'assets/videos/');
 //define('VDO_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/lib/vdo/');
 //define('IMAGES_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/images/');
-#define('PDF_ASSETS_URL', $cdnurl .'pdf/');
-//define('PDF_ASSETS_URL', 'http://d2828ihewbtgvd.cloudfront.net/pdf/');
+//define('PDF_ASSETS_URL', $cdnurl .'pdf/');
+define('PDF_ASSETS_URL', 'http://d2828ihewbtgvd.cloudfront.net/pdf/');
 define('TWITTER_ACCOUNT_URL', 'http://twitter.com/Near');
 define('FACEBOOK_ACCOUNT_URL', 'http://facebook.com/NearPlatform');
 define('LINKEDIN_ACCOUNT_URL', 'https://www.linkedin.com/company/2811352?trk=prof-0-ovw-curr_pos');
@@ -38,6 +38,13 @@ function IMAGE($urlparam){
 }
 function VIDEO($urlparam){
   echo VIDEO_ASSETS_URL. $urlparam;
+}
+function PDF($urlparam){
+  echo PDF_ASSETS_URL. $urlparam;
+}
+function my_url(){
+    $url = "https://near.co".$_SERVER['REQUEST_URI'];
+    echo $url;
 }
 ?>
 
