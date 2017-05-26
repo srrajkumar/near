@@ -1,4 +1,5 @@
 <?php include('_banner.php'); ?>
+<?php $b = $_GET['vacancy'];  ?>
 
 <div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
   <div class="row" style="margin: 0;">
@@ -29,111 +30,70 @@
   <hr />
   <div class="space"></div>
   <div id="Product" class="tab-pane in active">
-    <form class="custom-form">
-      <div class="form-group margin-bottom col-md-12 row">
-      <div class="col-md-6 row">
-        <input type="name" class="form-control" aria-describedby="nameHelp" placeholder="Name">
-      </div>
-      <div class="bfh-selectbox bfh-countries col-md-6 row" data-country="IN" data-flags="true">
-        <input type="hidden" value="">
-        <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-          <span class="bfh-selectbox-option input-medium" data-option=""></span>
-          <b class="caret"></b>
-        </a>
-        <div class="bfh-selectbox-options">
-          <input type="text" class="bfh-selectbox-filter">
-          <div role="listbox">
-            <ul role="option">
-            </ul>
+    <form class="custom-form" action="<?php echo SITE_URL; ?>form/process-form.php" method="post">
+            <div class="form-group margin-bottom col-md-12 row">
+            <div class="col-md-6 row">
+              <input type="text" id="name" name="name" required  placeholder="Name*" class="form-control" aria-describedby="nameHelp">
+            </div>
+            <div class="col-md-6 row">
+              <input type="text" id="location" name="location" placeholder="Location" class="form-control" aria-describedby="nameHelp">
+            </div>
+            </div>
+
+        <div class="form-group margin-bottom col-md-12 row">
+          <div class="col-md-6 row">
+            <input type="email" id="email" name="email" required placeholder="Offical Email*" class="form-control" aria-describedby="emailHelp" >
+          </div>
+          <div class="col-md-6 row">
+            <input type="text" id="company" name="company" required placeholder="Company*">
           </div>
         </div>
-      </div>
 
-      </div>
-
-  <div class="form-group margin-bottom col-md-12 row">
-    <div class="col-md-6 row">
-      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email Address">
-    </div>
-    <div class="col-md-6 row">
-      <input type="job" class="form-control" aria-describedby="jobHelp" placeholder="Job Title">
-    </div>
-  </div>
-
-  <div class="form-group margin-bottom col-md-12 row">
-    <div class="col-md-6 row">
-      <input type="tel" class="form-control" aria-describedby="telHelp" placeholder="Contact Number">
-    </div>
-    <div class="col-md-6 row">
-      <input type="text" class="form-control" aria-describedby="textHelp" placeholder="How did you find us">
-    </div>
-  </div>
-  <div class="form-group margin-bottom col-md-12 row">
-    <textarea class="form-control" rows="5"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+       
+        <div class="form-group margin-bottom col-md-12 row">
+          <textarea class="form-control" d="message" name="message" rows="5" placeholder="Query / Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
 </form>
   </div>
 
 
 
   <div id="data" class="tab-pane">
-    <form class="custom-form">
+    <form action="<?php echo SITE_URL; ?>form/data-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form">
       <div class="form-group margin-bottom col-md-12 row">
-      <div class="col-md-6 row">
-        <input type="name" class="form-control" aria-describedby="nameHelp" placeholder="Name">
-      </div>
-      <div class="bfh-selectbox bfh-countries col-md-6 row" data-country="IN" data-flags="true">
-        <input type="hidden" value="">
-        <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-          <span class="bfh-selectbox-option input-medium" data-option=""></span>
-          <b class="caret"></b>
-        </a>
-        <div class="bfh-selectbox-options">
-          <input type="text" class="bfh-selectbox-filter">
-          <div role="listbox">
-            <ul role="option">
-            </ul>
+        <div class="col-md-6 row">
+          <input id="username" type="text" name="name"  class="form-control" aria-describedby="nameHelp" required placeholder="Name">
+        </div>
+        <div class="col-md-6 row">
+        <input  id="email" type="email" name="email"  class="form-control" aria-describedby="emailHelp" required placeholder="Email Address">
           </div>
         </div>
-      </div>
-
-      </div>
-
-  <div class="form-group margin-bottom col-md-12 row">
+      <div class="form-group margin-bottom col-md-12 row">
+   
     <div class="col-md-6 row">
-      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email Address">
+     <input id="company" type="text" name="company" required placeholder="company"  class="form-control"> 
     </div>
     <div class="col-md-6 row">
-      <input type="job" class="form-control" aria-describedby="jobHelp" placeholder="Job Title">
-    </div>
+     <textarea id="message" style="margin-right:0px;" name="message" class="form-control" placeholder="Query / Message" rows="4"></textarea>
+       </div>
   </div>
 
-  <div class="form-group margin-bottom col-md-12 row">
-    <div class="col-md-6 row">
-      <input type="tel" class="form-control" aria-describedby="telHelp" placeholder="Contact Number">
-    </div>
-    <div class="col-md-6 row">
-      <input type="text" class="form-control" aria-describedby="textHelp" placeholder="How did you find us">
-    </div>
-  </div>
-  <div class="form-group margin-bottom col-md-12 row">
-    <textarea class="form-control" rows="5"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
   </div>
 
 
 
   <div id="team" class="tab-pane">
-    <form class="custom-form">
+    <form  action="<?php echo SITE_URL; ?>form/resume-process-form.php" class="custom-form" method="post" enctype="multipart/form-data" onSubmit="document.getElementById('career-form-submit-loader').style.display='inline';">
       <div class="form-group margin-bottom col-md-12 row">
       <div class="col-md-6 row">
-        <input type="name" class="form-control" aria-describedby="nameHelp" placeholder="Name">
+        <input type="text" id="name" name="name" class="form-control" aria-describedby="Your first and last name" placeholder="Name*" required>
+       
       </div>
       <div class="bfh-selectbox bfh-countries col-md-6 row" data-country="IN" data-flags="true">
-        <input type="hidden" value="">
+        <input id="location" name="location" required type="hidden" value="">
         <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
           <span class="bfh-selectbox-option input-medium" data-option=""></span>
           <b class="caret"></b>
@@ -151,74 +111,68 @@
 
   <div class="form-group margin-bottom col-md-12 row">
     <div class="col-md-6 row">
-      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email Address">
+      <input type="email" id="email" name="email" required class="form-control" aria-describedby="We will respond to this address" placeholder="Email*">
     </div>
     <div class="col-md-6 row">
-      <input type="job" class="form-control" aria-describedby="jobHelp" placeholder="Job Title">
+      <input type="text"  name="position" id="position" class="form-control" aria-describedby="jobHelp" placeholder="Job Title">
     </div>
   </div>
 
   <div class="form-group margin-bottom col-md-12 row">
     <div class="col-md-6 row">
-      <input type="tel" class="form-control" aria-describedby="telHelp" placeholder="Contact Number">
+      <input type="text" id="phone"  class="form-control" name="phone"  aria-describedby="If you prefer a phone call" required placeholder="Contact Number*">
     </div>
     <div class="col-md-6 row">
-      <input type="text" class="form-control" aria-describedby="textHelp" placeholder="How did you find us">
+      <input type="text" id="vacancy" name="vacancy" required class="form-control" aria-describedby="textHelp" placeholder="How did you find us">
     </div>
   </div>
   <div class="form-group margin-bottom col-md-12 row">
-    <textarea class="form-control" rows="5"></textarea>
+    <div class="col-md-6 row">
+      <input type="text" id="github" name="github" placeholder="GitHub Username"  class="form-control"  aria-describedby="Github">
+    </div>
+    <div class="col-md-6 row">
+      <input type="text" id="stackoverflow" name="stackoverflow" placeholder="StackOverflow Username"  class="form-control" aria-describedby="textHelp" >
+    </div>
   </div>
+  <div class="form-group margin-bottom col-md-12 row">
+    <div class="col-md-6 row">
+      <input type="file" id="cv" name="cv" required placeholder="Upload Resume"  class="form-control"  aria-describedby="textHelp">
+    </div>
+    </div>
   <button type="submit" class="btn btn-primary">Submit</button>
+  <img alt="" id="career-form-submit-loader" src="<?php echo SITE_URL; ?>form/images/loader.gif" style="margin: 0 0 -12px 15px;display:none;" />
 </form>
   </div>
 
 
 
   <div id="media" class="tab-pane">
-    <form class="custom-form">
+    <form action="<?php echo SITE_URL; ?>form/research-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form">
       <div class="form-group margin-bottom col-md-12 row">
-      <div class="col-md-6 row">
-        <input type="name" class="form-control" aria-describedby="nameHelp" placeholder="Name">
-      </div>
-      <div class="bfh-selectbox bfh-countries col-md-6 row" data-country="IN" data-flags="true">
-        <input type="hidden" value="">
-        <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-          <span class="bfh-selectbox-option input-medium" data-option=""></span>
-          <b class="caret"></b>
-        </a>
-        <div class="bfh-selectbox-options">
-          <input type="text" class="bfh-selectbox-filter">
-          <div role="listbox">
-            <ul role="option">
-            </ul>
+        <div class="col-md-6 row">
+          <input id="name" type="text" name="name"  class="form-control" aria-describedby="nameHelp" required placeholder="Name">
+        </div>
+        <div class="col-md-6 row">
+        <input  d="email" type="email" name="email" placeholder="Company Email"  class="form-control" aria-describedby="emailHelp" required >
           </div>
         </div>
+      <div class="form-group margin-bottom col-md-12 row">
+   
+    <div class="col-md-6 row">
+     <input id="phone" type="text" name="phone" placeholder="Phone Number"  required   class="form-control"> 
+    </div>
+    <div class="col-md-6 row">
+    <input id="country" type="text" name="country" placeholder="Country" class="form-control" required> 
+    </div>
+    </div>
+     <div class="form-group margin-bottom col-md-12 row">
+      <div class="col-md-6 row">
+        <input id="research" type="text" name="pdf" placeholder="Research" class="form-control" required> 
       </div>
-
-      </div>
-
-  <div class="form-group margin-bottom col-md-12 row">
-    <div class="col-md-6 row">
-      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email Address">
-    </div>
-    <div class="col-md-6 row">
-      <input type="job" class="form-control" aria-describedby="jobHelp" placeholder="Job Title">
-    </div>
+    
   </div>
 
-  <div class="form-group margin-bottom col-md-12 row">
-    <div class="col-md-6 row">
-      <input type="tel" class="form-control" aria-describedby="telHelp" placeholder="Contact Number">
-    </div>
-    <div class="col-md-6 row">
-      <input type="text" class="form-control" aria-describedby="textHelp" placeholder="How did you find us">
-    </div>
-  </div>
-  <div class="form-group margin-bottom col-md-12 row">
-    <textarea class="form-control" rows="5"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
   </div>
 

@@ -37,9 +37,9 @@ $image2=" ";
                 <div class="col col-md-9">
                  <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
-                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                    <img src="<?php IMAGE('case-study/shell.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Under Armour</h4>
+                            <h4>Competitor Targeting for Shell</h4>
                             <hr />
                             <p class="description">
                              Case Study
@@ -47,7 +47,7 @@ $image2=" ";
                         </span>
                             <a href="#" class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">Explore</span>
+                                    <span class="btn__text-inner">Download</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -59,14 +59,33 @@ $image2=" ";
                    
                    
                     </div>
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                    <div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
-                </div>
-                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                   <div class="col-md-4" data-aos="3dflip" data-aos-delay="300" style="background:#000">
+                    <img src="<?php IMAGE('case-study/virgin-active.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Featuring Retail Research in Australia</h4>
+                            <h4>Drive walk-ins for Virgin Active</h4>
+                            <hr />
+                            <p class="description">
+                             Case Study
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <img src="<?php IMAGE('research/black-friday.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Black Friday Research 2016</h4>
                             <hr />
                             <p class="description">
                              Research
@@ -74,7 +93,7 @@ $image2=" ";
                         </span>
                             <a href="#" class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">Explore</span>
+                                    <span class="btn__text-inner">Download</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -84,24 +103,22 @@ $image2=" ";
                                 </div>
                             </a>
                    
-                  
+                   
                     </div>
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                    <div class="col-md-4" style="background-color: #c1c1c1" data-aos="3dflip" data-aos-delay="600"></div>
                 </div>
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200"  style="background:#000">
-                    <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
+                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="500" style="background:#000">
+                    <img src="<?php IMAGE('research/cny-2014.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Retail Video</h4>
+                            <h4>Chinese New Year Shopper Trends 2014</h4>
                             <hr />
                             <p class="description">
-                             Video
+                             Research
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">Explore</span>
+                                    <span class="btn__text-inner">Download</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -113,9 +130,174 @@ $image2=" ";
                    
                    
                     </div>
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background-image:url('<?php IMAGE('allspark/banner-1.png') ?>'); background-size: cover;"></div>
-                    <div class="col-md-4"  data-aos="3dflip" data-aos-delay="600"  style="background:#f5f5f5"></div>
+                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    <img src="<?php IMAGE('research/supermarkets-london.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Insights on London Grocery Shoppers</h4>
+                            <hr />
+                            <p class="description">
+                             Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="700" style="background:#000">
+                    <img src="<?php IMAGE('research/cny-2015.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Consumer Trends during CNY </h4>
+                            <hr />
+                            <p class="description">
+                             Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+                    
                 </div>
+                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
+                   <div class="col-md-4" data-aos="3dflip" data-aos-delay="800" style="background:#000">
+                    <img src="<?php IMAGE('research/hk-mobile-insights.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Mobile Consumption Behavior HK</h4>
+                            <hr />
+                            <p class="description">
+                             Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="900" style="background:#000">
+                    <img src="<?php IMAGE('research/retail-research-aus.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Retail Research Australia   </h4>
+                            <hr />
+                            <p class="description">
+                             Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="1000" style="background:#000">
+                    <img src="<?php IMAGE('research/shopper-inisghts-black-friday.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Shopper Insights for Black Friday</h4>
+                            <hr />
+                            <p class="description">
+                             Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+
+                </div>
+                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
+                   <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <img src="<?php IMAGE('research/great-singapore-sale-2015.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Singapore Sale Research 2015</h4>
+                            <hr />
+                            <p class="description">
+                             Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+                       <div class="col-md-4" data-aos="3dflip" data-aos-delay="300" style="background:#000">
+                    <img src="<?php IMAGE('research/great-singapore-sale-2016.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Singapore Sale Research 2016</h4>
+                            <hr />
+                            <p class="description">
+                             Research
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
+                    </div>
                 <div class="space"></div>
                 <h1>Retailers</h1>
                 <h2>can leverage Allspark to:</h2>

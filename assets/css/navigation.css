@@ -225,7 +225,7 @@
 }
 
 .s-header-bg-overlay.-is-open {
-  background: rgba(237, 28, 36, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   visibility: visible;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

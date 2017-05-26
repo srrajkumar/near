@@ -14,10 +14,10 @@
                     <a id="ooh" href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php" target="_self" >Out-of-Home Analytics</a>
                 </li>
                 <li class="list-group-item list-toggle">
-                    <a id="oa" href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_self">Offline attribution</a>
+                    <a id="oa" href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_self">Offline Attribution</a>
                 </li>
                 <li class="list-group-item list-toggle">
-                    <a id="cr" href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_self" >Consumer research</a>
+                    <a id="cr" href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_self" >Consumer Research</a>
                 </li>
                 <li class="list-group-item list-toggle">
                     <a id="occe" href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php" target="_self">Omni-Channel Experience</a>

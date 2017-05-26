@@ -51,67 +51,67 @@
             <ul>
               <li class="line_anim"></li>
               <li class="header">USE CASES</li>
-              <li><a href="#">Audience Curation</a></li>
-              <li><a href="#">Media Planning</a></li>
-              <li><a href="#">Out-of-Home Analytics</a></li>
-              <li><a href="#">Offline attribution</a></li>
-              <li><a href="#">Consumer research</a></li>
-              <li><a href="#">Omni-Channel Experience</a></li>
-              <li class="header">VERTICAL</li>
-              <li><a href="#">Retail</a></li>
-              <li><a href="#">QSR</a></li>
-              <li><a href="#">Telco</a></li>
-              <li><a href="#">Auto</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/audience-curation.php">Audience Curation</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/media-planning.php">Media Planning</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php">Out-of-Home Analytics</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php">Offline Attribution</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/consumer-research.php">Consumer Research</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php">Omni-Channel Experience</a></li>
+              <li class="header">INDUSTRY</li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/retail.php">Retail</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/qsr.php">QSR</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/telco.php">Telco</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/auto.php">Auto</a></li>
             </ul></li>
             <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
-            <li data-aos="fade-up" class="submenu"><a href="<?php echo SITE_URL; ?>about">About Us <span>+</span></a>
+            <li data-aos="fade-up" class="submenu"><a href="#">About Us <span>+</span></a>
               <ul style="right: -157px;">
               <li class="line_anim"></li>
               <li><a href="#">Leadership</a></li>
               <li><a href="#">Investors</a></li>
               <li><a href="#">Board</a></li>
-              <li><a href="#">Culture</a></li>
+              <li><a href="<?php echo SITE_URL; ?>culture">Culture</a></li>
               <li><a href="#">Blog <span style="top: 13px;">+</span></a>
                 <ul>
                   <li class="line_anim"></li>
-                  <li><a href="#">Corporate Blog</a></li>
+                  <li><a href="<?php echo SITE_URL; ?>blog">Corporate Blog</a></li>
                   <li><a href="#">Tech Blog</a></li>
                 </ul>
               </li>
-              <li><a href="#">Newsroom</a></li>
-              <li><a href="#">Events</a></li>
+              <li><a href="<?php echo SITE_URL; ?>news">Newsroom</a></li>
+              <li><a href="<?php echo SITE_URL; ?>events">Events</a></li>
             </ul>
             </li>
-            <li data-aos="fade-up"><a href="#">Careers</a></li>
-            <li data-aos="fade-up"><a href="#">Privacy</a></li>
-            <li data-aos="fade-up"><a href="#">Contact Us</a></li>
+            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
+            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>privacy.php">Privacy</a></li>
+            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>contact">Contact Us</a></li>
           </ul>
         </div>
     </nav>
     <!-- End Nav -->
    <!-- Action -->
     <ul class="list-inline s-header__action s-header__action--lb">
-      <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
-      <li class="s-header__action-item"><a class="s-header__action-link" href="#">Jp</a></li>
+      <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="https://near.co">En</a></li>
+      <li class="s-header__action-item"><a class="s-header__action-link" href="http://jp.near.co">Jp</a></li>
     </ul>
     <!-- End Action -->
 
     <!-- Action -->
     <ul class="list-inline s-header__action s-header__action--rb">
-      <li class="s-header__action-item">
-          <a class="s-header__action-link" href="#">
-              <i class="g-padding-r-5--xs ti-facebook"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
-          </a>
-      </li>
-      <li class="s-header__action-item">
-          <a class="s-header__action-link" href="#">
+     <li class="s-header__action-item">
+          <a class="s-header__action-link" href="<?php echo TWITTER_ACCOUNT_URL ; ?>">
               <i class="g-padding-r-5--xs ti-twitter"></i>
               <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
           </a>
       </li>
       <li class="s-header__action-item">
-          <a class="s-header__action-link" href="#">
+          <a class="s-header__action-link" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>">
+              <i class="g-padding-r-5--xs ti-facebook"></i>
+              <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
+          </a>
+      </li>
+      <li class="s-header__action-item">
+          <a class="s-header__action-link" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>">
               <i class="g-padding-r-5--xs ti-instagram"></i>
               <span class="g-display-none--xs g-display-inline-block--sm">LinkedIn</span>
           </a>

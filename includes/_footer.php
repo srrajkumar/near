@@ -26,17 +26,17 @@
               c6.6,0,11.9-5.3,11.9-11.9C483.2,19,477.8,13.6,471.3,13.6"></path>
         </svg>   </span></div>         
 					<div class="col-sm-1 footer-links"  data-aos="fade-up" data-aos-delay="400">
-					   <a href="#" >CAREERS</a>   
-                       <a href="#" >CULTURE</a>   
-                       <a href="#" >NEWSROOM</a>   
+					   <a href="<?php echo SITE_URL; ?>careers" >CAREERS</a>   
+                       <a href="<?php echo SITE_URL; ?>culture" >CULTURE</a>   
+                       <a href="<?php echo SITE_URL; ?>news" >NEWSROOM</a>   
                        <a href="#" >BLOG</a>   
-                       <a href="#" >EVENTS</a>   
+                       <a href="<?php echo SITE_URL; ?>events" >EVENTS</a>   
                     </div>
                     <div class="col-sm-2 footer-links"  data-aos="fade-up" data-aos-delay="400">  
-                       <a href="#" >CONTACT US</a> 
-                       <a  href="#" >DATA</a>   
+                       <a href="<?php echo SITE_URL; ?>contact" >CONTACT US</a> 
+                       <a  href="<?php echo SITE_URL; ?>data" >DATA</a>   
                        <a  href="#" >PARTNERS</a>   
-                       <a  href="#" >PRIVACY</a>
+                       <a  href="<?php echo SITE_URL; ?>privacy.php" >PRIVACY</a>
                     </div>
 					<!--div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="600">
 					      
@@ -50,29 +50,29 @@
                        </div-->
                        <div class="col-md-3 newsletter footer-mob"  data-aos="fade-up" data-aos-delay="600">
 					  <h5>NEWSROOM</h5>
-                      <a class="news-link" href="https://near.co/news/connecting-the-physical-and-digital-using-ambient-intelligence-platform.php" style="margin-top:5px;"><span>April 28, 2017 - United States</span><br>Connecting the Physical and Digital using Ambient Intelligence Platform: Shobhit Shukla</a> 
-                       <a class="news-link" href="https://near.co/news/more-male-tourists-seen-in-singapore-during-cny.php" style="margin-top:5px;"><span>February 20, 2017 - Singapore</span><br>More male tourists seen in Singapore during CNY</a>   
+                      <a class="news-link" href="<?php echo SITE_URL; ?>news/connecting-the-physical-and-digital-using-ambient-intelligence-platform.php" style="margin-top:5px;"><span>April 28, 2017 - United States</span><br>Connecting the Physical and Digital using Ambient Intelligence Platform: Shobhit Shukla</a> 
+                       <a class="news-link" href="<?php echo SITE_URL; ?>news/more-male-tourists-seen-in-singapore-during-cny.php" style="margin-top:5px;"><span>February 20, 2017 - Singapore</span><br>More male tourists seen in Singapore during CNY</a>   
 					</div>
 					<div class="col-md-1"></div>
                       <div class="col-sm-5 life"  data-aos="fade-up" data-aos-delay="800">
                       <h5 style="margin-bottom: 10px;">CONNECT</h5>
                       <p class="social-links" style="margin-top:-5px;">
-						<a target="_blank" href="http://twitter.com/Near"><i class="fa fa-twitter"></i></a>
-                           <a target="_blank" href="http://facebook.com/NearPlatform"><i class="fa fa-facebook"></i></a>
-						   <a target="_blank" href="https://www.linkedin.com/company/2811352?trk=prof-0-ovw-curr_pos"><i class="fa fa-linkedin"></i></a>
+						<a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
+                           <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
+						   <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
 						</p>
                       <span style="display: block; margin-top: 5px;    margin-bottom: 10px;">LIFE @ NEAR</span>
-								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
+								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
 													
-								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
+								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
+								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
+								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
+								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="#" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun6" alt="life @ Near" /></a>				
+								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun6" alt="life @ Near" /></a>				
                        </div>
 					 
 				</div>

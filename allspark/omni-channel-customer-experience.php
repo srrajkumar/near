@@ -36,9 +36,9 @@ $image=  "allspark/allspark-omni-channel.png";
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                 	<div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                    <img src="<?php IMAGE('allspark/whitepaper-spacetime-marketing.png') ?>" alt="" class="sq-ratio">
+                    <img src="<?php IMAGE('whitepaper/omni-channel-spacetime-marketing.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
-                            <h4>Omni-Channel Marketing</h4>
+                            <h4>Spacetime Marketing</h4>
                             <hr />
                             <p class="description">
                              Whitepaper
