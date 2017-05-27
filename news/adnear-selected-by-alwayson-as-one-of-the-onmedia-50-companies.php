@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near Selected as one of the OnMedia 50 Companies to Watch | Near';
+$meta_title = 'Near Selected as one of the OnMedia 50 Companies to Watch | Near';
 $meta_desc = "Near has been selected as one of the OnMedia 50 companies to watch from AlwaysOn. Contact one of our mobile advertising experts today for more information.";
 $title ='Near Selected by AlwaysOn as one of the OnMedia 50 Companies to Watch';
 ?>
@@ -39,7 +39,7 @@ $title ='Near Selected by AlwaysOn as one of the OnMedia 50 Companies to Watch';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/OnMedia-50-Companies.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p><h4 style="font-size:20px; font-weight:600;">Recognized for creating new opportunities in marketing, branding, advertising, and publishing.</h4>
 Near has been chosen by AlwaysOn as one of the  OnMedia 50 Companies to Watch in 2014. Inclusion in the OnMedia 50 Companies to Watch signifies leadership  amongst its peers and game-changing approaches and technologies that are likely  to disrupt existing markets and entrenched players. Near was specially selected  by the AlwaysOn editorial team and industry experts spanning the globe based on  a set of five criteria: innovation, market potential, commercialization,  stakeholder value, and media buzz.</p>
                 <p>Near and  the OnMedia 50 Companies to Watch will be honored at AlwaysOn&rsquo;s OnMedia NYC  event on September 15th, 2014, at NASDAQ OMX in Times Square, New York City.</p>

@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = "Ambient Intelligence | Near Platform | Location Data | Cross-screen Marketing | Shobhit Shukla";
+$meta_title = "Ambient Intelligence | Near Platform | Location Data | Cross-screen Marketing | Shobhit Shukla";
 $meta_desc = "In this news, Shobhit Shukla, our Co-Founder and Chief Revenue Officer explains what Ambient Intelligence is and how it can help in connecting the physical and digital world. Reach out to us to know how Allspark, our SaaS audience product can help in your strategy.";
 $title ="Connecting the Physical and Digital using Ambient Intelligence Platform: Shobhit Shukla";
 ?>
@@ -39,7 +39,7 @@ $title ="Connecting the Physical and Digital using Ambient Intelligence Platform
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/connecting-the-physical-and-digital-using-ambient-intelligence-platform.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p class="img" style="width:60%; padding: 10px;background-color: #FBFBFB;"> <img src="<?php IMAGE('news/shobhit.png'); ?>" alt="Shobhit Shukla" style="width:100%;" />
 <em style="text-align:left; color:#000; font-size: 11px; line-height: 16px !important; margin-top: 14px; display: block;">Shobhit Shukla, Co-Founder & Chief Revenue Officer</em></p>
 										<p>What is ambient intelligence. As Shobhit Shukla, our Co-Founder and CRO explains to Kim Davis, Executive Editor at DMN, Ambient Intelligence is what occurs when location data is matched with data from a range of ancillary, contextual data sets. </p>

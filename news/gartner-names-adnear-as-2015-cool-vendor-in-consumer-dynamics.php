@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Gartner names Near as 2015 Cool Vendor in Consumer Dynamic | Near';
+$meta_title = 'Gartner names Near as 2015 Cool Vendor in Consumer Dynamic | Near';
 $meta_desc = "Near has been named as a Cool Vendor in Consumer Dynamics for 2015 by Gartner. Near helps marketers with leveraging location data for mobile advertising.";
 $title ='Gartner names Near as a 2015 Cool Vendor in Consumer Dynamics';
 ?>
@@ -38,7 +38,7 @@ $title ='Gartner names Near as a 2015 Cool Vendor in Consumer Dynamics';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/Gartner-names-Near-as-a-2015-Cool-Vendor-in-Consumer-Dynamics.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Near, the leading location intelligence company that leverages location and context to power data driven marketing for advertisers has been named as a Cool Vendor in Consumer Dynamics for 2015 by Gartner. Near is the only company from Asia Pacific to be included in the global research and is amongst the five firms chosen worldwide by Gartner who provide innovative approaches to digital businesses for consumer segmentation, for understanding why consumers do what they do, and for building digital relationships.  </p>
 
         <p>"We are honored to be recognized as a cool vendor in Consumer Dynamics by Gartner," said Anil Mathews, Founder & CEO of Near, "Location data has the unique ability to connect the digital consumer to the real world, and it lies at the heart of our value proposition. We are always innovating to bring brands closer to their consumers using our location intelligence."</p>

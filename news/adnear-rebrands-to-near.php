@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'AdNear Rebrands to Near | Mobile Advertising News | Near';
+$meta_title = 'AdNear Rebrands to Near | Mobile Advertising News | Near';
 $meta_desc = "Near is proud to present the news articles related to us or the mobile advertising industry. Here you will read about how AdNear has rebranded to Near.";
 $title ='AdNear rebrands to Near';
 ?>
@@ -40,7 +40,7 @@ $title ='AdNear rebrands to Near';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/AdNear-drops-the-ad.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											 <p>AdNear, the Singapore-headquartered location intelligence platform, today announced that they are rebranding to ‘Near’. Dropping the word ‘Ad’ emphasizes the platform’s increased focus on using location data for much beyond targeted mobile advertising.</p>
                 
                 <p> Launched just over two years ago, the company initially started out offering brands the ability to tap into intelligent mobile advertising. However, they have outgrown their name to provide customers with the ability to create custom audiences, derive powerful real-time consumer insights and measure offline attribution – an empowering data solution that far exceeds pure advertising.</p>

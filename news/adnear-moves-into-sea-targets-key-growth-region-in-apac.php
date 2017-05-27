@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near Expands their Location Based Advertising to Southeast Asia | Near';
+$meta_title = 'Near Expands their Location Based Advertising to Southeast Asia | Near';
 $meta_desc = "Read about why Near is expanding their Locaiton Based Advertising services to Southeast Asia here, or contact our experts to see what we can do for you!";
 $title ='Near moves into SEA, targets it as key growth region in APAC';
 ?>
@@ -38,7 +38,7 @@ $title ='Near moves into SEA, targets it as key growth region in APAC';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/Near-moves-into-SEA-targets-it-as-key-growth-region-in-APAC.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Near, a location-aware mobile advertising platform, is shifting its global HQ to Singapore and entering Malaysia and Indonesia.</p>
 
 
@@ -49,7 +49,7 @@ $title ='Near moves into SEA, targets it as key growth region in APAC';
         <p>In November 2012, the company received a funding of US$6.5 million from prominent venture capitalist firms Sequoia Capital and Canaan Partners to support expansion plans. Anil Matthews, CEO of Near dubbed Singapore as the "perfect launch pad" for their expansion into Southeast Asia.</p>
         <p>Shobhit Shukla, vice president of Near Asia Pacific, shared that in 2008, when people searched for mobile advertising, they got moving cars with texts on them. In 2010, Internet users got SMS advertising, which is still around right now. In 2012, they finally got their part of in-app advertising. But these advertisers are largely blind and do not know where their money is really going to. Near is there to take on both online and offline consumer behavior, helping advertisers bring data to users who will find the information relevant.</p>
         <p>In 2009, when Internet giants were still struggling to understand mobile advertising, Near was blazing a trail with its unique proprietary location-aware technology which can identify the location of a user down to an accuracy of 20 metres, without the need of GPS or operator dependence.</p>
-        <h4 style="font-weight:600;">Why Southeast Asia? Isn't India bigger?</h4>
+        <h4>Why Southeast Asia? Isn't India bigger?</h4>
         <p>Speaking with e27, Anil explained that even though India is indeed bigger in terms of population, Southeast Asia has seen market dynamics change dramatically. "Southeast Asia [holds a bigger opportunity] than India. In just six to 12 months, this opportunity will become bigger."</p>
         <p>Starting with Singapore, Malaysia and Indonesia, where he said had more potential in terms of spending power, they will definitely work on entering the Philippines, Thailand and Vietnam. However, he does envision several challenges like understanding the respective cultures in the region. He shared, "The way we need to sell in Indonesia is different [to that in Malaysia or Singapore]. Hiring is different to get local presence. We're launching on geographic data [so] we have to do a lot to understand."</p>
         <p>In India, Near has partnered with major brands like Ford, Intel, Nokia and Pizza Hut amongst other giants in their own fields. Anil and Shobhit both explained how it targets users and provides them with data they will find relevant: For example, if you are always found hanging out near Changi Airport, it could be deduced that you are a frequent traveler. This will allow brands to provide you with travel-related advertising.</p>

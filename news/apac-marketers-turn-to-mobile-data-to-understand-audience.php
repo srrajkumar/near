@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Marketers | Mobile Data | Audience Insights | Near';
+$meta_title = 'Marketers | Mobile Data | Audience Insights | Near';
 $meta_desc = "APAC marketers can now rely on mobile data to understand its audience, Near tells you how!";
 $title ='APAC Marketers Turn to Mobile Data to Understand Audience';
 ?>
@@ -39,7 +39,7 @@ $title ='APAC Marketers Turn to Mobile Data to Understand Audience';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/apac-marketers-turn-to-mobile-data-to-understand-audience.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p class="img">
                 <img src="<?php echo IMAGES_ASSETS_URL; ?>news/shobhit.png" style="float:right; width: 40%; margin-left: 2%;" alt="shobhit shukla" /></p>
 											 <p>With consumers generating more data than ever before, particularly through mobile devices, more marketers in Asia-Pacific are tapping big data analytics to improve attribution and create a better audience experience. Shobhit Shukla, Co-Founder &amp; Chief Revenue Officer of location-based data analytics provider, Near, highlights the challenges from this changing landscape and discusses how brands can differentiate their services with real-time insights.</p>

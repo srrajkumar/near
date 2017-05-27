@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Latest Air Traveller Trends and Mobile Engagement | Near';
+$meta_title = 'Latest Air Traveller Trends and Mobile Engagement | Near';
 $meta_desc = "Near examines the latest air traveller trends and their mobile engagement! Comparing Mumbai to their counterparts, download the full report here!";
 $title ='Latest Air Traveller Trends : Travellers in Mumbai are 14% higher engaged on Mobile compared to their counterparts in India';
 ?>
@@ -39,7 +39,7 @@ $title ='Latest Air Traveller Trends : Travellers in Mumbai are 14% higher engag
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/travellers.png'); ?>" alt="" />
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Big data company Near's latest behavioural insights shows interesting user trends across six key airports in India; Mumbai, Delhi, Chennai, Bangalore, Kolkata and Hyderabad airports.</p>
                 
                 <p> Data compiled from 650,000 India-based mobile users over three months showed that mobile users in Mumbai are more active on their devices compared to their counterparts. Compared to the average time spent on mobile of 1.61 hours per user across requests, Mumbai travellers were 14 per cent more engaged, followed by Kolkata travellers at eight per cent. Bangalore travellers came up least engaged at 18 per cent less than the average.</p>

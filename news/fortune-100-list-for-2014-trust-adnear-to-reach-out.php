@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Top Auto Brands Trust Near to Reach Target Customers | Near';
+$meta_title = 'Top Auto Brands Trust Near to Reach Target Customers | Near';
 $meta_desc = "Near is proud to be trusted by top auto brands to help reach their target customers. Contact us to see how we can assist your company!";
 $title ='7 out of 11 auto brands in top 100,of Fortune 500 trust us to reach their target customers';
 ?>
@@ -38,7 +38,7 @@ $title ='7 out of 11 auto brands in top 100,of Fortune 500 trust us to reach the
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/7-out-of-11-auto-brands-in-top-100-of-Fortune-500-trust-us-to-reach-their-target-customers.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>The Fortune Global 500 list is back again,  and the US still leads the tally with 128 companies in the list: <a href="http://fortune.com/global500/wal-mart-stores-1/">Fortune 500, 2014</a></p>
                 <p>The top 100 companies in the list are  primarily from Oil &amp; Gas, Financial Services, Auto and Telecommunications  industries.</p>
                 <p>7 out of the 11 Auto Brands listed in top  100: Volkswagen (8), Toyota (9), General Motors (21), Ford (26), Honda (45),  Nissan (61) &amp; BMW (68) have already used our audience &amp; locations  targeted mobile advertising solutions to reach out to their target customers. Mobile  is quickly becoming the first screen for majority of the consumers, and brands  fight for the consumer attention span as multiple offerings on mobile come up.  Creativity thrives on this challenge, as being innovative is the only option. </p>

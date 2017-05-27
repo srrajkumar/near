@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near wins Gold at Mob-Ex Awards for Best Campaign for Tablets | Near';
+$meta_title = 'Near wins Gold at Mob-Ex Awards for Best Campaign for Tablets | Near';
 $meta_desc = "Near wins the gold at the Mob-Ex Awards for their Audi A8 Mobile Advertising Campain for Tablets. Contact us to see what we can do for you!";
 $title ='Near scoops Gold at the Mob-Ex Awards, 2015 for Audi: “The Art of Progress”';
 ?>
@@ -39,7 +39,7 @@ $title ='Near scoops Gold at the Mob-Ex Awards, 2015 for Audi: “The Art of Pro
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/audi-mobile-ex.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											 <p>We are thrilled to share that we won the Gold in the <a href="http://www.marketing-interactive.com/mob-ex-awards/sea/winners" target="_blank">Best Campaign for Tablets</a> category at the Mob-Ex awards held yesterday in Singapore. Near & Mediacom won this award for the innovative and interactive Audi A8 campaign.</p>
 
 <p>Mob-Ex Awards, over the years have established themselves as the prime awards that appreciate and celebrate excellent work by brands and agencies in the mobile marketing industry. According to Mob-Ex, 29 categories were open for contest, in which 145 entries made the final cut from a record number of more than 340 received this year.</p>

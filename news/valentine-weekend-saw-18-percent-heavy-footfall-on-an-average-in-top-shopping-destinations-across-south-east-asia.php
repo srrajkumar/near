@@ -1,8 +1,8 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Valentines Weekend Top Shopping Destination Footfall | Near';
+$meta_title = 'Valentines Weekend Top Shopping Destination Footfall | Near';
 $meta_desc = "Near completed Footfall study during Valentines Weekend at the Top Shopping Destinations across SE Asia, and here is what we found!";
-$title ="Valentine's weekend saw 18% heavy footfall on an average in top shopping destinations across South East Asia: Near study";?>
-
+$title ="Valentine's weekend saw 18% heavy footfall on an average in top shopping destinations across South East Asia: Near study";
+?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -21,6 +21,8 @@ $title ="Valentine's weekend saw 18% heavy footfall on an average in top shoppin
 
             <!-- BEGIN: Page content -->
 			<div class="view newsroom" style="margin-top: 100px;">
+				<div class="content small-top-padding colors-e background-90-e blog">
+					<div class="container" style="    margin-bottom: 100px;">
 				<div class="content  colors-e background-90-e">
 					<div class="container">
 						<div class="row">
@@ -37,7 +39,7 @@ $title ="Valentine's weekend saw 18% heavy footfall on an average in top shoppin
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/Valentines-weekend.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>There was a significant rise in the number of shoppers during the weekend of Valentine's in Hong Kong, Indonesia, Jakarta and Singapore as compared to the Chinese New Year, Christmas and New Year weekends, according to the latest research by Near, the leading location intelligence company in the region. While shopping locations in Singapore saw a 25% increase in footfalls, Hong Kong and Jakarta experienced a 15% increase in footfalls on the Valentine's weekend. Relative to these countries, Kuala Lumpur in Malaysia saw 30% higher footfalls during the weekends of Christmas and New Year weekends. </p>
                 <p>Near studied shoppers across the key shopping locations in Singapore, Jakarta, Kuala Lumpur and Hong Kong during the weekends of Christmas, New Year, Valentine's and Chinese New Year. The research showed that shoppers in Jakarta spent 50% more time shopping on these weekends compared to shoppers in Singapore. More men went shopping during Valentine's weekend in Singapore, Hong Kong and Jakarta, while more women shopped during New Year and Christmas weekends. </p>
                 <p class="img"><a href="<?php PDF('consumer-intelligence/consumer-trends-during-chinese-new-year-across-sea.pdf'); ?>" target="_blank"><img src="<?php IMAGE('news/cnyimg.png'); ?>" style="width:100%; height:auto" alt=""/></a></p>
@@ -101,7 +103,6 @@ $title ="Valentine's weekend saw 18% heavy footfall on an average in top shoppin
 					</div>
 				</div>
 			</div>
-		</section>
 		<!-- END: Page content -->
 	
     <!-- Bootstrap core JavaScript
@@ -111,6 +112,5 @@ $title ="Valentine's weekend saw 18% heavy footfall on an average in top shoppin
 		<?php include('../includes/_footer.php'); ?>
 		<!-- END: Footer -->
 	<?php include('../includes/_java_scripts.php'); ?>
-		<script src="<?php JS('social-buttons.js'); ?>" type="text/javascript"></script>   
   </body>
 </html>

@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Mobile Location Analytics | Rugby Audience Insights | Location Insights | Near';
+$meta_title = 'Mobile Location Analytics | Rugby Audience Insights | Location Insights | Near';
 $meta_desc = "Near brings you the audience trends for Rugby World Cup 2015! Contact us to see how we can put our location data work for your company.";
 $title ='Audience Insights for the Rugby World Cup, 2015';
 ?>
@@ -40,7 +40,7 @@ $title ='Audience Insights for the Rugby World Cup, 2015';
 											<div class="post-image">
 											<img class="fluid-width" src="<?php IMAGE('news/audience-insights-rugby.png'); ?>" alt="The Rugby World Cup 2015">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											
              							 <p>Location intelligence platform Near has used mobile behaviour of audiences at Rugby World Cup matches to pin point advertisers key audience.</p>
 											 

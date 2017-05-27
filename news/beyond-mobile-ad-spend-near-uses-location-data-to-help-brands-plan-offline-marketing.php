@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Mobile Data | Allspark | Location Data Accuracy | Offline Attribution';
+$meta_title = 'Mobile Data | Allspark | Location Data Accuracy | Offline Attribution';
 $meta_desc = 'This news touches upon the Near journey, key issues that prevail in the location data industry, data accuracy, using location data for marketing and business decisions, Allspark and why brands needs to leverage it & much more. Contact us to see how we can put Allspark work for your company.';
 $title ="Beyond Mobile Ad Spend: Near Uses Location Data To Help Brands Plan Offline Marketing";
 ?>

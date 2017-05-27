@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near wins Frost & Sullivan Location-based Intelligence Award';
+$meta_title = 'Near wins Frost & Sullivan Location-based Intelligence Award';
 $meta_desc = "Near bagged the 2016 Frost and Sullivan Location-based Intelligence Entrepreneurial Company of the Year award for its excellence in location-based intelligence & best-in-class products.  Contact us to see how location intelligence can work for your company.";
 $title ="Frost & Sullivan recognises Near as the Location-based Intelligence Entrepreneurial Company of 2016";
 ?>

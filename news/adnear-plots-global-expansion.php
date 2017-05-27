@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near Plans Global Expansion for Mobile Marketing | Near';
+$meta_title = 'Near Plans Global Expansion for Mobile Marketing | Near';
 $meta_desc = "Near is planning on global expansion for their mobile marketing services. Contact us for additional information on your location based mobile marketing!";
 $title ='Near plots global expansion';
 ?>
@@ -39,7 +39,7 @@ $title ='Near plots global expansion';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/Near-plots-global-expansion.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p class="img">
                 <img src="<?php IMAGE('news/shobhit-shukla.png'); ?>" style="float:right;" alt="shobhit shukla" /></p>
                 <p>SINGAPORE, Near, a location-based mobile advertising startup with a presence in Singapore and India is eyeing expansion into Thailand, Vietnam, Japan and the US.</p>

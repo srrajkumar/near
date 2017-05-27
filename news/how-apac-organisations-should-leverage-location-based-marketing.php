@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = "Location Data | Consumer Analytics | Real-world Insights | Attribution Analytics | Consumer Footfall";
+$meta_title = "Location Data | Consumer Analytics | Real-world Insights | Attribution Analytics | Consumer Footfall";
 $meta_desc = " In this news, Smriti Kataria talks about how brands can leverage & use location data into their marketing and business strategy successfully. Reach out to us to know how we can put our location data and analytics work for your company.";
 $title ='How APAC organisations should leverage location-based marketing';
 ?>
@@ -41,7 +41,7 @@ $title ='How APAC organisations should leverage location-based marketing';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/how-apac-organisations-should-leverage-location-based-marketing.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 										<p>As mobile devices have become an integral part of our lives, it presents an opportunity for marketers to tap on to location-based marketing. But are organisations in the Asia Pacific region (APAC) ready to do so, and how should they go about doing it? We find out from Smriti Kataria, Director of Research for Singapore-based company Near.  </p> 
 
 

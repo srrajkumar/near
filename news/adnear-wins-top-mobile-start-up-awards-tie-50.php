@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near: Top Mobile Startup at TiE50 Silicon Valley | Near';
+$meta_title = 'Near: Top Mobile Startup at TiE50 Silicon Valley | Near';
 $meta_desc = "Near was awarded as one of the top 10 mobile startups at TiE50 Silicon Valley. Contact one of our mobile advertising experts today to see why.";
 $title ='Near Wins Top Mobile Startup Award at TiE50, Silicon Valley';
 ?>
@@ -38,7 +38,7 @@ $title ='Near Wins Top Mobile Startup Award at TiE50, Silicon Valley';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/tie_near-14(2).jpg'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>
                 Big data company Near, the largest Location Based Audience player in Asia Pacific, is excited to be named one of the Top 10 startups in the mobile category at the prestigious 2014 TiE50 Awards Program in San Francisco.</p>
 

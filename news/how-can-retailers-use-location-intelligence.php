@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Mobile location data | Retailers | Location Intelligence | Cross-channel Marketing | Consumers';
+$meta_title = 'Mobile location data | Retailers | Location Intelligence | Cross-channel Marketing | Consumers';
 $meta_desc = 'This news highlights how location intelligence presents an opportunity for retailers to connect with consumers both online and offline, driving brand awareness and sales. Reach out to us to see how we can put our location intelligence to work. ';
 $title ="How can retailers use location intelligence?";
 ?>

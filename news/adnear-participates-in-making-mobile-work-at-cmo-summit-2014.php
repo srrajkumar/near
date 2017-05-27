@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Making Mobile Work at CMO Mobile Summit 2014 | Near';
+$meta_title = 'Making Mobile Work at CMO Mobile Summit 2014 | Near';
 $meta_desc = "Near participates in 'Making Mobile Work' at the CMO Mobile Summit 2014 in the Philippines. This was conducted to give marketers the right tools to utilize mobile in their strategies.";
 $title ='Near participates in &ldquo;Making Mobile Work&rdquo; at the CMO Mobile Summit 2014 in Philippines';
 ?>
@@ -39,7 +39,7 @@ $title ='Near participates in &ldquo;Making Mobile Work&rdquo; at the CMO Mobile
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/amrita-mobext.jpg'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>The CMO Mobile Summit 2014 co-organized by the Philippine Association of National Advertisers (PANA) was conducted recently in Philippines with the theme &ldquo;Making Mobile Work&rdquo;. Since Philippines is known to be a mobile-first country and has most mobile engaged consumers, this summit was conducted to equip the marketers with the right tools so they can start to tie in mobile into their marketing strategy.</p>
                 
                 <p><b>Amrita De La Pena, Regional Director, SEA & HK participating in the "Mobile Advertising that works" discussion</b></p>

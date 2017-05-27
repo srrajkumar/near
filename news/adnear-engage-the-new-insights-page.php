@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near Engage: Campaign Results and Customer Discovery | Near';
+$meta_title = 'Near Engage: Campaign Results and Customer Discovery | Near';
 $meta_desc = "Near is proud to bring you Near Engage, which now not only offers campaign results but helps you discover potential customers through data. Contact us today!";
 $title ='Near Engage- The New Insights Page';
 ?>
@@ -38,7 +38,7 @@ $title ='Near Engage- The New Insights Page';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/near-insight.jpg'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>We are coming up with the revamped Near Engage shortly, which shall offer not just campaign results, but will help you discover your customers through data.</p>
                 
                 <p>Below is a Sneak Peak into the Insights Page of Engage, through which brands can know which audience is most responsive in a geography and the kind of campaigns they are responding to.</p>

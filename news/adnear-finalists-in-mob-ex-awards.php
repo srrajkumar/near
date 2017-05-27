@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near Finalists in Mob-Ex Awards 2014 | Mobile Advertising Awards | Near';
+$meta_title = 'Near Finalists in Mob-Ex Awards 2014 | Mobile Advertising Awards | Near';
 $meta_desc = "Near were finalists in Mob-Ex Awards in 2014 for our Mobile Advertising expertise. Let us bring our award winning strategies work for you!";
 $title ='Near finalists in Mob-Ex Awards 2014';
 ?>
@@ -37,7 +37,7 @@ $title ='Near finalists in Mob-Ex Awards 2014';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/mob-ex-awards.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											
 			     <p> We are the finalists in Mob-Ex Awards 2014, the dedicated  annual awards for mobile marketing industry, with 5 nominations across 4  categories- Best Integration of Mobile, Best Location based Marketing, Best  Mobile Advertising Solution &amp; Best use of Social Platform.</p>
                  

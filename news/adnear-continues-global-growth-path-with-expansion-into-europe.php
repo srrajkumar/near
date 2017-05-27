@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near Continues Global Growth Plan and Expands into Europe | Near';
+$meta_title = 'Near Continues Global Growth Plan and Expands into Europe | Near';
 $meta_desc = "Near annouced it's expansion into Europe, hiring Ken Parnham as General Manager of Europe. We are proud to continue our Global Growth Plan improving location data driven marketing.";
 $title ='Near continues global growth path with expansion into Europe';
 ?>
@@ -40,7 +40,7 @@ $title ='Near continues global growth path with expansion into Europe';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/Near-continues-global-growth-path-with-expansion-into-Europe.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											 <p><em>Ken Parnham, appointed General Manager of Europe, based in London office</em></p>
 
 <p>Near, the leading mobile data intelligence platform, today announced its expansion into Europe with Ken Parnham – formerly Managing Director of data privacy management company, TrustE – appointed as General Manager of Europe, to be based in its new London office.</p>

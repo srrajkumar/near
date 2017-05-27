@@ -1,4 +1,4 @@
-<?php include("../../includes/_config.php"); include("../../includes/_lib.php"); ?>
+<?php include('../../includes/_config.php'); ?>
 
 <!DOCTYPE html>
 <html class="background-100-e">
@@ -18,58 +18,13 @@
     <meta name="REVISIT-AFTER" content="30 days" />
 	<?php include('../../includes/_head.php'); ?>
     </head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-			<?php include('../../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				<div class="map-canvas" data-latitude="42.487606" data-longitude="-71.115661" data-zoom="14">
-					<div class="map-marker" data-latitude="42.487606" data-longitude="-71.115661" data-text="Our awesome location"></div>
-					<div class="map-marker" data-latitude="42.485100" data-longitude="-71.113256" data-text="Our sales office"></div>
-				</div>
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
-		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-news.png'); ?>" /><img alt class="bg" src="<?php IMAGE('bg-news.png'); ?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2>Newsroom</h2>
-						<!--p class="title">Awards</p-->
-					</div>
-				</div>
-			</div>
-		<!-- BEGIN: Page content -->
-		<section>
-			<div class="view">
+	<body>
+		<div class="preloader"></div>
+	<?php include('../../includes/_navigation.php'); ?>
+		<?php include('../news_banner.php'); ?>
+
+            <!-- BEGIN: Page content -->
+			<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content small-top-padding colors-e background-90-e blog">
 					<div class="container">
 						<div class="row">
@@ -86,11 +41,11 @@
 											<div class="post-image">
 												<a class="page-transition" href="<?php echo SITE_URL; ?>news/how-apac-organisations-should-leverage-location-based-marketing.php"><img class="fluid-width" src="<?php IMAGE('news/how-apac-organisations-should-leverage-location-based-marketing.png'); ?>" alt="" /></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/how-apac-organisations-should-leverage-location-based-marketing.php">How APAC organisations should leverage location-based marketing</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/how-apac-organisations-should-leverage-location-based-marketing.php">How APAC organisations should leverage location-based marketing</a></h2>
 											
 											<p>As mobile devices have become an integral part of our lives, it presents an opportunity for marketers to tap on to location-based marketing. But are organisations in the Asia Pacific region (APAC) ready to do so, and how should they go about doing it? We find out from Smriti Kataria, Director of Research for Singapore-based company Near...</p>
 											 
-											<p><a href="<?php echo SITE_URL; ?>news/how-apac-organisations-should-leverage-location-based-marketing.php" class="page-transition btn-sm">Read more...</a></p>
+											<a href="<?php echo SITE_URL; ?>news/how-apac-organisations-should-leverage-location-based-marketing.php" class="button2 button2--primary button2--rounded">Read more</a>
                                              <div class="post-tags styled-list">
 												<i class="fa fa-tags"></i>
 												<ul>
@@ -116,10 +71,10 @@
 											<div class="post-image">
 												<a class="page-transition" href="<?php echo SITE_URL; ?>news/mobile-tracking-by-adnear-reveals-intriguing-shopper-habits-over-cny.php"><img class="fluid-width" src="<?php IMAGE('news/cny-trends-2014.png'); ?>" alt=""></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/mobile-tracking-by-adnear-reveals-intriguing-shopper-habits-over-cny.php">Mobile Tracking by Near Reveals Intriguing Shopper Habits Over Chinese New Year</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/mobile-tracking-by-adnear-reveals-intriguing-shopper-habits-over-cny.php">Mobile Tracking by Near Reveals Intriguing Shopper Habits Over Chinese New Year</a></h2>
 											 <p>Chinatown  retailers who stayed open over Chinese New Year would have seen a greater  number of shoppers visiting the district more than once and staying longer than  they would during a regular weekend, according to mobile big data company  Near&rsquo;s research.                    </p>
 				    <p>The time people  spent shopping in Chinatown increased 26 per cent compared to regular weekends,  whilst the time spent in Marina Bay Sands and on Orchard Rd reduced by 20 per  cent.</p>          
-											<p><a href="<?php echo SITE_URL; ?>news/mobile-tracking-by-adnear-reveals-intriguing-shopper-habits-over-cny.php" class="btn-sm page-transition">Read more...</a></p>
+											<a href="<?php echo SITE_URL; ?>news/mobile-tracking-by-adnear-reveals-intriguing-shopper-habits-over-cny.php" class="button2 button2--primary button2--rounded">Read more</a>
 											<div class="post-tags styled-list">
 												<i class="fa fa-tags"></i>
 												<ul>
@@ -145,7 +100,6 @@
 					</div>
 				</div>
 			</div>
-		</section>
 		<!-- END: Page content -->
 	
     <!-- Bootstrap core JavaScript
@@ -154,7 +108,7 @@
    <!-- BEGIN: Footer -->
 		<?php include('../../includes/_footer.php'); ?><!-- END: Footer -->
 		<?php include('../../includes/_java_scripts.php'); ?>
-		<script src="<?php JS('slick.js/slick/slick.min.js'); ?>"></script> 
+		
 
   </body>
 </html>

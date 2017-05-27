@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = ' Near';
+$meta_title = ' Near';
 $meta_desc = "Near, the leading location intelligence platform. Contact us today!";
 ?>
 <!doctype html>

@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Near Hires Cameron Curtis as GM for Austrailia and New Zealand | Near';
+$meta_title = 'Near Hires Cameron Curtis as GM for Austrailia and New Zealand | Near';
 $meta_desc = "Near, the leading location intelligence platform has announced the hiring of Cameron Curtis as the General Manager for our Australia and New Zealand business. Contact us today!";
 $title ='Near hires Cameron Curtis as General Manager for its Australia & New Zealand business';
 ?>
@@ -38,7 +38,7 @@ $title ='Near hires Cameron Curtis as General Manager for its Australia & New Ze
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/Near-hires-Cameron-Curtis-as-General-Manager-for-its-Australia-NewZealand-business.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p class="img"> <img src="<?php IMAGE('news/cameron.jpg'); ?>" style="width:40%; height:auto; float:right; padding-left:10px;" alt=""/></p>             
 <p>Near, the leading location intelligence platform today announced the joining of Cameron Curtis as the General Manager for its Australia and New Zealand business. In his role, Cameron will be spearheading the ANZ business and will be responsible for scaling Near's data and marketing partnerships in the region. </p>
         <p>Cameron comes with more than 20 years of experience in the Australian digital media and technology landscape in leadership roles for The Sydney Morning Herald, Allure Media, Tapit and Booodl which helped him in learning and implementing a range of digital strategies as the industry evolved. </p>

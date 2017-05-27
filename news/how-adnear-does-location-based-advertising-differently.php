@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'How Location Based Mobile Advertising Works with Near | Near';
+$meta_title = 'How Location Based Mobile Advertising Works with Near | Near';
 $meta_desc = "Near does Location Based Mobile Advertising differently, and this article will examine how our system works! Contact our experts for more info!";
 $title ='How Near Does Location - Based Advertising Differently';
 ?>
@@ -38,7 +38,7 @@ $title ='How Near Does Location - Based Advertising Differently';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/How-Near-Does-Location-Based-Advertising-Differently.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Founded in 2008 by serial entrepreneur Anil Mathews, Near is a location-based advertising network that’s approaching the game differently. While most location-based ad networks use GPS or operator data, Anil wanted to make Near different. His approach is to rely on mobile towers and Wi-Fi signals.</p>
 <p><strong>Mathews said:</strong><br>
 "Near has invested in mapping cell tower signals and wifi signals in every population centre in South Asia by literally driving around and collecting footprints."</p>

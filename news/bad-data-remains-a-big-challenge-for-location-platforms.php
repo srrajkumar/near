@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = "Bad Data Remains a Big Challenge for Location Platforms | Anil Mathews";
+$meta_title = "Bad Data Remains a Big Challenge for Location Platforms | Anil Mathews";
 $meta_desc = "Anil Mathews, Founder and CEO of Near in conversation with David Hirschman from Street Fight talks about the Near platform, location intelligence and its use cases and much more. Contact us to know more about the Near platform.";
 $title ='Bad Data Remains a Big Challenge for Location Platforms';
 ?>
@@ -39,7 +39,7 @@ $title ='Bad Data Remains a Big Challenge for Location Platforms';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/bad-data-remains-a-big-challenge-for-location-platforms.jpg'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 										<p>The painstaking process of creating actionable location intelligence has borne fruit in the past couple of years. A number of hyperlocal tech companies have refined their technology in tying people to places, and are continuing to find a variety of compelling use cases. While some of the most obvious uses of location data are in understanding the consumer journey and charting attribution, companies like Singapore-based Near are also working on applications in areas like city planning.</p> 
 
 <p>Near, which provides real-time information on places, people and products, enables brands and businesses to “visualize, engage and analyze audience data including their location and behavior for data-driven decisions.” The company is expanding its footprint from its base in Asia and now working its way into markets in Europe and the U.S.  Street Fight recently caught up with Near’s founder and CEO, Anil Mathews, to talk about how location intelligence is progressing in 2017 and what types of new use cases we may soon see.</p>

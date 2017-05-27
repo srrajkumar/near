@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Series B Funding Aquired for Global Expansion | Near';
+$meta_title = 'Series B Funding Aquired for Global Expansion | Near';
 $meta_desc = "Near has aquired Series B Funding to help accellerate their Global Expansion. Find out more about our plan and our company here!";
 $title ='Near raises US$19 million in Series B funding to accelerate global expansion';
 ?>
@@ -39,7 +39,7 @@ $title ='Near raises US$19 million in Series B funding to accelerate global expa
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/near-growth-infographic.jpg'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											
 			    <p>Near, a leading location intelligence company, today announced  it has raised US$19 million from Telstra Ventures and Global Brain as part of  its strategic plan to expand into multiple new markets. Both its existing  investors, Sequoia Capital and Canaan Partners, also participated in the  capital raising round.</p>
                 <p>Near has developed insights from anonymous device users  across Asia Pacific using their historical location footprint and real-world  offline data. Leveraging these unique insights, the company is able to  programmatically send relevant ads to mobile audiences on behalf of advertisers  using its proprietary real-time bidding platform. It has rapidly grown its  client base to include 100s of marquee brands such as P&amp;G, Woolworths,  Audi, Unilever, BMW, Ford, Samsung, IKEA, and Adidas .</p>

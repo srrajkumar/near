@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Consumer Analytics | Location Insights | Australian Students | Near';
+$meta_title = 'Consumer Analytics | Location Insights | Australian Students | Near';
 $meta_desc = "This latest research by Near help marketers understand the footfall trends and mobile behavior of Australian Students across universities. Click here for the Students Data!";
 $title ='Younger students seen in universities across Melbourne & Sydney, compared to Adelaide, Perth & Brisbane';
 ?>
@@ -39,7 +39,7 @@ $title ='Younger students seen in universities across Melbourne & Sydney, compar
 											<div class="post-image">
 											<img class="fluid-width" src="<?php IMAGE('news/australia-students-research.png'); ?>" alt="Australia Students Research">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											
              							 <p>Location intelligence platform Near unveiled its research on students in Australia, analyzing footfall trends in selected universities across Sydney, Melbourne, Brisbane, Adelaide and Perth in Australia. </p>
 											 

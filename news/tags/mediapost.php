@@ -1,4 +1,4 @@
-<?php include("../../includes/_config.php"); include("../../includes/_lib.php"); ?>
+<?php include('../../includes/_config.php'); ?>
 
 <!DOCTYPE html>
 <html class="background-100-e">
@@ -18,58 +18,13 @@
     <meta name="REVISIT-AFTER" content="30 days" />
 	<?php include('../../includes/_head.php'); ?>
     </head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-			<?php include('../../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				<div class="map-canvas" data-latitude="42.487606" data-longitude="-71.115661" data-zoom="14">
-					<div class="map-marker" data-latitude="42.487606" data-longitude="-71.115661" data-text="Our awesome location"></div>
-					<div class="map-marker" data-latitude="42.485100" data-longitude="-71.113256" data-text="Our sales office"></div>
-				</div>
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
-		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-news.png'); ?>" /><img alt class="bg" src="<?php IMAGE('bg-news.png'); ?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2>Newsroom</h2>
-						<!--p class="title">Awards</p-->
-					</div>
-				</div>
-			</div>
-		<!-- BEGIN: Page content -->
-		<section>
-			<div class="view">
+	<body>
+		<div class="preloader"></div>
+	<?php include('../../includes/_navigation.php'); ?>
+		<?php include('../news_banner.php'); ?>
+
+            <!-- BEGIN: Page content -->
+			<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content small-top-padding colors-e background-90-e blog">
 					<div class="container">
 						<div class="row">
@@ -86,11 +41,11 @@
 											<div class="post-image">
 												<a class="page-transition" href="<?php echo SITE_URL; ?>news/is-real-time-attribution-the-holy-grail-we-have-been-looking-for.php"><img class="fluid-width" src="<?php IMAGE('news/is-real-time-attribution-the-holy-grail-we-have-been-looking-for.png'); ?>" alt="" /></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/is-real-time-attribution-the-holy-grail-we-have-been-looking-for.php">Is Real-Time Attribution The Holy Grail We've Been Looking For?</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/is-real-time-attribution-the-holy-grail-we-have-been-looking-for.php">Is Real-Time Attribution The Holy Grail We've Been Looking For?</a></h2>
 											
 											<p>For Anil Mathews, founder and CEO of Near, a location intelligence platform, guesswork is the enemy of effective marketing. Near aims to provide real-time data intelligence through a platform that enables companies to collate...</p>
 											 
-											<p><a href="<?php echo SITE_URL; ?>news/is-real-time-attribution-the-holy-grail-we-have-been-looking-for.php" class="page-transition btn-sm">Read more...</a></p>
+											<a href="<?php echo SITE_URL; ?>news/is-real-time-attribution-the-holy-grail-we-have-been-looking-for.php" class="button2 button2--primary button2--rounded">Read more</a>
                                              <div class="post-tags styled-list">
 												<i class="fa fa-tags"></i>
 												<ul>
@@ -115,10 +70,10 @@
 											<div class="post-image">
 												<a class="page-transition" href="<?php echo SITE_URL; ?>news/near-integrates-global-consumer-data-into-oracle-bluekai-marketplace.php"><img class="fluid-width" src="<?php IMAGE('news/near-integrates-global-consumer-data-into-oracle-bluekai-marketplace.png'); ?>" alt="" /></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/near-integrates-global-consumer-data-into-oracle-bluekai-marketplace.php">Near Integrates Global Consumer Data into Oracle’s BlueKai Marketplace</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/near-integrates-global-consumer-data-into-oracle-bluekai-marketplace.php">Near Integrates Global Consumer Data into Oracle’s BlueKai Marketplace</a></h2>
 											<p>Near, the leading location intelligence platform, today announced its integration with Oracle Data Cloud to make Near’s global audience data available through Oracle’s BlueKai Marketplace...</p>
 											 
-											<p><a href="<?php echo SITE_URL; ?>news/near-integrates-global-consumer-data-into-oracle-bluekai-marketplace.php" class="page-transition btn-sm">Read more...</a></p>
+											<a href="<?php echo SITE_URL; ?>news/near-integrates-global-consumer-data-into-oracle-bluekai-marketplace.php" class="button2 button2--primary button2--rounded">Read more</a>
                                              <div class="post-tags styled-list">
 												<i class="fa fa-tags"></i>
 												<ul>
@@ -145,10 +100,10 @@
 											<div class="post-image">
 												<a class="page-transition" href="<?php echo SITE_URL; ?>news/madhusudan-therani-chief-technology-officer-at-near-recognised-as-one-of-the-five-iab-data-rockstars.php"><img class="fluid-width" src="<?php IMAGE('news/madhusudan-therani-chief-technology-officer-at-near-recognised-as-one-of-the-five-iab-data-rockstars.png'); ?>" alt="" /></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/madhusudan-therani-chief-technology-officer-at-near-recognised-as-one-of-the-five-iab-data-rockstars.php">Madhusudan Therani, Chief Technology Officer at Near recognised as one of the five IAB Data Rockstars in New York</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/madhusudan-therani-chief-technology-officer-at-near-recognised-as-one-of-the-five-iab-data-rockstars.php">Madhusudan Therani, Chief Technology Officer at Near recognised as one of the five IAB Data Rockstars in New York</a></h2>
 											
 											 <p>We are excited to share that <a href="https://www.linkedin.com/in/madhutherani" target="blank">Madhusudan Therani</a>, our Chief Technology Officer has been recognised as one of the five data industry leaders globally at the IAB Data Rockstar Awards in New York today...</p>
-											<p><a href="<?php echo SITE_URL; ?>news/madhusudan-therani-chief-technology-officer-at-near-recognised-as-one-of-the-five-iab-data-rockstars.php" class="page-transition btn-sm">Read more...</a></p>
+											<a href="<?php echo SITE_URL; ?>news/madhusudan-therani-chief-technology-officer-at-near-recognised-as-one-of-the-five-iab-data-rockstars.php" class="button2 button2--primary button2--rounded">Read more</a>
                                             <div class="post-tags styled-list">
 												<i class="fa fa-tags"></i>
 												<ul>
@@ -167,7 +122,6 @@
 					</div>
 				</div>
 			</div>
-		</section>
 		<!-- END: Page content -->
 	
     <!-- Bootstrap core JavaScript
@@ -176,6 +130,6 @@
    <!-- BEGIN: Footer -->
 		<?php include('../../includes/_footer.php'); ?><!-- END: Footer -->
 		<?php include('../../includes/_java_scripts.php'); ?>
-		<script src="<?php JS('slick.js/slick/slick.min.js'); ?>"></script> 
+		
   </body>
 </html>

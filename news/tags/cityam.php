@@ -1,4 +1,4 @@
-<?php include("../../includes/_config.php"); include("../../includes/_lib.php"); ?>
+<?php include('../../includes/_config.php'); ?>
 <!DOCTYPE html>
 <html class="background-100-e">
 	<head>
@@ -17,58 +17,13 @@
     <meta name="REVISIT-AFTER" content="30 days" />
 	<?php include('../../includes/_head.php'); ?>
     </head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-			<?php include('../../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				<div class="map-canvas" data-latitude="42.487606" data-longitude="-71.115661" data-zoom="14">
-					<div class="map-marker" data-latitude="42.487606" data-longitude="-71.115661" data-text="Our awesome location"></div>
-					<div class="map-marker" data-latitude="42.485100" data-longitude="-71.113256" data-text="Our sales office"></div>
-				</div>
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
-		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-news.png'); ?>" /><img alt class="bg" src="<?php IMAGE('bg-news.png'); ?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2>Newsroom</h2>
-						<!--p class="title">Awards</p-->
-					</div>
-				</div>
-			</div>
-		<!-- BEGIN: Page content -->
-		<section>
-			<div class="view">
+	<body>
+		<div class="preloader"></div>
+	<?php include('../../includes/_navigation.php'); ?>
+		<?php include('../news_banner.php'); ?>
+
+            <!-- BEGIN: Page content -->
+			<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content small-top-padding colors-e background-90-e blog">
 					<div class="container">
 						<div class="row">
@@ -88,11 +43,11 @@
 											<div class="post-image">
 												<a class="page-transition" href="<?php echo SITE_URL; ?>news/o-consumer-where-art-thou-near-founder-anil-mathews-on-location-intelligence-and-facebooks-free-basics.php"><img class="fluid-width" src="<?php IMAGE('news/o-consumer-where-art-thou-near-founder-anil-mathews-on-location-intelligence-and-facebooks-free-basics.png'); ?>" alt="" /></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/o-consumer-where-art-thou-near-founder-anil-mathews-on-location-intelligence-and-facebooks-free-basics.php">O consumer, where art thou? Near founder Anil Mathews on location intelligence and Facebook's Free Basics</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/o-consumer-where-art-thou-near-founder-anil-mathews-on-location-intelligence-and-facebooks-free-basics.php">O consumer, where art thou? Near founder Anil Mathews on location intelligence and Facebook's Free Basics</a></h2>
 											  <p>In the future, location data from mobile phones might dictate where a store is built, says Mathews</p>
                                               <p>It was once said that you can tell a lot about a man by his shoes. With today’s levels of smartphone penetration, you can probably tell more by his location data.</p>
 											 
-											<p><a href="<?php echo SITE_URL; ?>news/o-consumer-where-art-thou-near-founder-anil-mathews-on-location-intelligence-and-facebooks-free-basics.php" class="page-transition btn-sm">Read more...</a></p>
+											<a href="<?php echo SITE_URL; ?>news/o-consumer-where-art-thou-near-founder-anil-mathews-on-location-intelligence-and-facebooks-free-basics.php" class="button2 button2--primary button2--rounded">Read more</a>
                                             <div class="post-tags styled-list">
 												<i class="fa fa-tags"></i>
 												<ul>
@@ -111,7 +66,6 @@
 					</div>
 				</div>
 			</div>
-		</section>
 		<!-- END: Page content -->
 	
     <!-- Bootstrap core JavaScript
@@ -120,6 +74,6 @@
    <!-- BEGIN: Footer -->
 		<?php include('../../includes/_footer.php'); ?><!-- END: Footer -->
 		<?php include('../../includes/_java_scripts.php'); ?>
-		<script src="<?php JS('slick.js/slick/slick.min.js'); ?>"></script> 
+		
   </body>
 </html>

@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Mobile Location Based Digital Ads Gaining Traction | Near';
+$meta_title = 'Mobile Location Based Digital Ads Gaining Traction | Near';
 $meta_desc = "Near is proud of our startup culture, and we firmly believe that it's one of the things that helps us succeed. Read more about our great culture here!";
 $title ='Firms seek to give mobile digital ads more traction';
 ?>
@@ -39,7 +39,7 @@ $title ='Firms seek to give mobile digital ads more traction';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/Firms-seek-to-give-mobile-digital-ads-more-traction.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>In 2010, Anil Mathews, chief executive and founder of Near Pte Ltd, and his team travelled across the country to map various parts in a bid to create location-based advertising platform for mobile phone users. </p>
 			    <p>Near did not use the global positioning system, or GPS, for online tracking, which most other advertising companies typically do. Instead, his company built its own platform to identify locations based on a combination of location data from mobile towers and Wi-Fi networks and relay location-centric advertisements to consumers.</p>
 			    <p>Four years later, Near combines this platform with GPS and can now "...tell when a customer is near a McDonald?s burger outlet, or an Audi showroom and we show ads based on that. Burgers can be impulse purchases, but Near can tell if the customer can afford to shop for an Audi, based on the locality he lives in, which we figure based on the signal strength where he spends between 10pm and 6am every day. That is intelligent customer targeting", said Shobhit Shukla, vice-president, Asia-Pacific, Near.</p>

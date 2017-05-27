@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = = 'Location Intelligence Study | JAPAC Traveller Report | Near';
+$meta_title = 'Location Intelligence Study | JAPAC Traveller Report | Near';
 $meta_desc = "Near brings you this JAPAC Traveller Report featuring information on Mobile Phone Engagement. Contact us to see how we can help your company!";
 $title ='Near JAPAC traveller study shows Hong Kong and Australian affluent most engaged on mobile';
 ?>
@@ -39,7 +39,7 @@ $title ='Near JAPAC traveller study shows Hong Kong and Australian affluent most
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('news/japac.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>JAPAC's affluent are highly engaged on their mobile phones at the Sydney, Melbourne, Hong Kong, Macau and Jakarta airports according to the JAPAC Traveller Report 2014 released today by location intelligence company Near. Based on the average length of time spent across all airports covered, Singapore took the top spot at 97 minutes closely followed by Macau at 96 minutes and Bangkok at 91 minutes.</p>
                 
 <p>Shobhit Shukla, Vice President, Sales and Partnerships, Near commented, &ldquo;Through our proprietary technology, we were able to analyse over a million travellers across 12 cities in the region and grouped them into different user profiles. In particular, we found that affluent travellers in Sydney, Jakarta, Bangkok, and Kuala Lumpur airports were three times more engaged on their mobile phones compared to other travellers such as professionals, homemakers and students.&rdquo;
