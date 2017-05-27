@@ -19,10 +19,9 @@ $meta_keywords="";
   @media (min-width:320px) and (max-width:767px){ .full-size{padding-top:60px !important;} img.bann{width:100%;}}
   @media screen and (max-width: 991px){a.navbar-brand {padding-left: 15px !important;}}
   .mix {display: none;}
-.custom-image-bg span {color: #000; font-size:16px; font-family:'GothamRounded-Book', sans-serif; margin-bottom: 0px; background:transparent; border:none; cursor:pointer; line-height: 22px;}
+.custom-image-bg span {color: #000; font-size:16px; margin-bottom: 0px; background:transparent; border:none; cursor:pointer; line-height: 22px;}
 .custom-image-bg span:focus{outline:none;}
 .filter-button{font-size:16px;  text-align:center; position:relative; bottom:48px;}
-.custom-image-bg span.active{ font-family: 'GothamRounded-Bold', sans-serif;}
 .line-bottom{ border-bottom:1px solid rgba(0,0,0,0.1); border-top: none !important;}
 #header{background:transparent !important; box-shadow:none !important; border-bottom:none !important;}
 .overlay-window.map-overlay.colors-f.background-95-f.show{background-color: rgba(247, 247, 247, 0.8) !important;}
