@@ -1,9 +1,7 @@
-<?php include('_banner.php'); ?>
-
-<div>
-  <section id="contents" class="custom-image-bg" style="background-image:url(<?php IMAGE('events/events-banner.png'); ?>)">
-          <h1 class="title custom-title scroll-in-animation fadeIn animated css-animation-show">Upcoming Events</h1>
-            <hr class="line-bottom">
+<!--?php include('_banner.php'); ?-->
+  <section id="contents" class="custom-image-bg aboutus" style="background-image:url(<?php IMAGE('events/events-banner.png'); ?>)">
+          <h1 class="custom-title"><span>Upcoming</span> Events</h1>
+            <hr class="line-bottom_custom">
             <div class="container">
             <div id="filter-menu" class="filter-button">
             <ul style="list-style:none; cursor:pointer; padding-left:0px;">
@@ -16,10 +14,7 @@
     
               <div  class="event-wrapper" style="overflow:hidden;">
 
-                 
-                    
-                      
-                    
+                
                                              
              <div class="mix apac europe japan event-month-set ">June</div>
                      
@@ -64,8 +59,6 @@
             </div>
             </div>
         </section>
-</div>
-<div class="space"></div>
 
 
 

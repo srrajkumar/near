@@ -3010,18 +3010,24 @@ a:focus{color:#ffffff}
 /*Events*/
 .custom-title-wrapper{padding-left:0 !important;padding-right:0 !important;}
 .custom-title{
-  font-size:35px !important;
-  color:#230102 !important;
-  
-  font-family: 'GothamRounded-Bold' !important;
-  letter-spacing:-0.01em !important;
-    margin-top: 180px;
+    padding-top: 180px;
+    text-align: center;
+}
+h1.custom-title span{
+      font-size: 62px;
+      pointer:none;
+}
+.line-bottom_custom {
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    border-top: none !important;
+    width: 100% !important;
 }
 .custom-image-bg{
   background-size: 100% auto;
   background-repeat:no-repeat;
     margin-top: -50px;
   background-color:#cfcfcf;
+  height: 100%;
 }
 .event-month-set{
   text-align:right;
