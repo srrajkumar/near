@@ -94,7 +94,7 @@
 											<p>
 												As the retail landscape evolves, it’s only natural that brands are shifting their focus away from the traditional online platforms. Increasingly, retailers are casting their gaze at the endless opportunities provided by mobile retail...
 											</p>
-											<p><a href="<?php echo SITE_URL; ?>blogs/how-retailers-can-leverage-mobile-data-in-todays-data-driven-world.php"  class="page-transition btn-sm">Read more...</a></p>
+											<p><a href="<?php echo SITE_URL; ?>blogs/how-retailers-can-leverage-mobile-data-in-todays-data-driven-world.php"  class="button2 button2--primary button2--rounded">Read more</a></p>
 											
 										</div>
 									</div>
@@ -117,7 +117,7 @@
 											<p>
 												The retail landscape has changed beyond recognition. Intelligent devices are creating a culture of interconnectivity and consumers now expect a flexible shopping experience that reflects their interests and device preferences...
 											</p>
-											<p><a href="<?php echo SITE_URL; ?>blogs/harnessing-the-power-of-mobile-data-for-more-effective-cross-channel-marketing.php"  class="page-transition btn-sm">Read more...</a></p>
+											<p><a href="<?php echo SITE_URL; ?>blogs/harnessing-the-power-of-mobile-data-for-more-effective-cross-channel-marketing.php"  class="button2 button2--primary button2--rounded">Read more</a></p>
 											
 										</div>
 									</div>
