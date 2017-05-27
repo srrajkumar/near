@@ -2522,6 +2522,56 @@ ul.recent li{ line-height:18px; margin-bottom:15px;}
 #easyPaginate .post h4{margin-bottom:15px;}
 .post p{ font-size:13px;}
 
+.scrolled .kyc-list{margin-top: 50px;}
+    .view {top: -48px;margin-bottom: 0;}
+    .view > .content {padding-bottom: 150px;}    
+    .post-body.background-75-e p{color: #555555;font-size: 16px;line-height: 26px;}
+    .post-body.background-75-e h4{font-size: 36px;color: #333333;font-weight : 700; letter-spacing: 0;margin: 35px 0 5px 0px;}
+
+
+    .post .post-image {margin-right: 25px !important;}
+    
+    .date_kyc{color: #8e9096 !important;font-size: 14px !important;margin-bottom: 5px;    }
+    .kyc-list ul, .kyc-list ul li{list-style: none;}
+    .sticky1 select option, .kyc-list ul li a{  padding: 20px 0;display: block; color: #8e9096;font-size: 14px;border-bottom: 1px solid #dbe0e2; line-height: 22px;}
+    .kyc-list ul li a.active{color: #000;}
+    .kyc-main .sticky1 select option span, .kyc-list ul li span{font-weight : 700;display: block; }
+    .kyc-main .sticky1 select {display: none;}
+    .kyc-main .sticky1 select:focus{outline:none !important; background:#ececec;}
+    .kyc-main .sticky1 select:hover{background: #ececec;}
+    .kyc-list ul li a b.caret-right{display:none;}
+    .kyc-list ul li a.active b.caret-right{display:inline-block;}
+    .kyc-main .filter-link{border: none !important; padding: 0 !important;}
+    .kyc-main .caret-right {border-bottom: 4px solid transparent; border-top: 4px solid transparent; border-left: 4px dashed; display: inline-block;    height: 0;margin-left: 80px;  width: 0;}
+    .twit{position: relative;
+    bottom: 23px;
+    left: 17px;}
+    .kyc-list ul li.active a,#kyc.active a{color:#000 !important;}
+    #kyc3.active .caret-right{display:inline-block !important;}
+h4.team-heading {
+    text-align: center;
+    font-size: 30px !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+.kyc-main p.team-designation {
+    color: #000000;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 18px;
+}
+p.finish {
+    border-bottom: 1px dashed #dbdbdb;
+    padding-bottom: 25px;
+}
+.kyc-main .social-share {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #dbe0e2;
+}
+ .kyc-main .news {padding-top:0px !important;border-top:0 !important;}   
+    @media (max-width: 991px) {.kyc-main .sticky1 ul { display: none; }.kyc-main .sticky1 select { display: inline-block; margin: 15px; width: 90%;}} 
+
 
 @media (max-width: 768px){
     .navbar-nav {display:none;}
