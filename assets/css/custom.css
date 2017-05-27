@@ -3253,3 +3253,140 @@ a.event-link{
 .submenu::-webkit-scrollbar-thumb:active{background: linear-gradient(left, #22ADD4, #1E98BA);}
 .submenu li:hover{background:rgba(239,239,239,.6);}
 @media (min-width: 992px){.col-md-push-3 {left: 75%;} .col-md-pull-9{right:25%;}.sticky { position: relative; top: 0; height: 600px;} .sticky1{position: relative; top: 0; }}
+
+
+/* engineering blog style */
+
+.force3d .bg {
+    transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+
+
+body > .bg, body > .video-bg, body > .vimeo-bg, body > .youtube-bg, body > img, body > iframe {
+    z-index: 10;
+}
+body > .bg {
+    position: fixed;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    display: block;
+}
+.overlay-blk {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+.tech-blog {
+    z-index: 999;
+    position: relative;
+    height: 100%;
+    margin-top: 50px;
+}
+.privacy {
+    margin-bottom: 30px;
+}
+.tech-blog p.date, .tech-blog-content p.date {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    /* text-shadow: 0px 0px 0px #fff; */
+    letter-spacing: .01em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.tech-blog h1, .tech-blog-content h1 {
+    font-size: 72px;
+    color: #FFF;
+    text-shadow: 0px 0px 0px #fff;
+    text-align: left;
+    font-weight: 700;
+    line-height: 69px;
+    margin-top: 0;
+        font-weight: 200;
+}
+.tech-list h2 {
+    font-size: 20px;
+    color: #FFF;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 0;
+        font-weight: 300;
+}
+.tech-blog p.first-story {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    /* letter-spacing: .01em; */
+    line-height: 26px;
+    font-weight: 400;
+}
+.tech-blog .container {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.slider {
+    margin-top: 0!important;
+    margin-bottom: 38px!important;
+}
+.slider, .carousel {
+    cursor: grab!important;
+    cursor: -moz-grab!important;
+    cursor: -webkit-grab!important;
+}
+
+.tech-list li {
+    height: 75px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 0;
+        float: left;
+}
+.tech-list{
+  padding-left: 0;
+}
+.recent{
+  list-style: disc !important;
+      padding-left: 18px;
+}
+.recent li a{
+      font-size: 14px;
+    font-weight: 500;
+}
+.breadcrumb > li + li::before { content:"" !important; background:url(../images/breadcrumb-arrow.png) center center no-repeat; padding:0 12px; }
+.breadcrumb > li:first-child{  line-height: 20px; font-size: 14px; color: #403F3F !important;font-weight: 700;}
+.breadcrumb > li a{ color: #403F3F; }
+.breadcrumb>li {
+    display: inline-block;
+    font-size: 12px;
+}
+.tech-page .tech-note {
+    font-size: 22px !important;
+    line-height: 32px !important;
+    color: #677171 !important;
+    font-weight: 300;
+}
+.tech-page h4 {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    margin-bottom: 0 !important; 
+    margin-top: 0px !important;
+    line-height: 28px !important;
+
+}
+.tech-page .line-break-bottom{
+  margin-bottom: 20px !important;
+      padding-bottom: 20px;
+    border-bottom: 1px solid #eee
+}
+/* engineering blog style */

@@ -1,116 +1,56 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include('../includes/_config.php');
 $meta_title = "Near Engineering";
 $meta_desc = "Welcome to the Tech blog at Near.co. With our ongoing mission of building out the world’s largest location intelligence platform";
 $title = "Near Engineering";
 ?>
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" /> 
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
+	<?php include('../includes/_head.php'); ?>
 	<meta property="og:title" content="<?php echo $title; ?>" />
     <meta property="og:description" content="<?php echo $meta_desc; ?>" />
     <meta name="KEYWORDS" content="Data analytics, Data analysis tools, Business analysis techniques, Marketing data, Mobile advertising platforms" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-
-    <meta property="og:image" content="" />
-	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href='<?php CSS('filter.css'); ?>' />
-    <link rel="stylesheet" href='<?php CSS('social-buttons.css'); ?>'>	
-	<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/a611d488-9568-4032-baf2-d8b5d04fab15.css"/>
-    <style>
-	#menu li a, .state1 #top-nav li, .state1 #top-nav li > a, .state1 #top-nav .navbar-brand, .state1 #top-nav .navbar-header, .state1 #top-nav .dropdown-menu > li > a {color:#fff;}
-	.state2 #top-nav li, .state2 #top-nav li > a, .state2 #top-nav .navbar-brand, .state2 #top-nav .navbar-header, .state2 #top-nav .dropdown-menu > li > a{color:#000;}
-	.near-logo{fill:#fff !important;}
-	.state2 .near-logo{fill:#5C5C5C !important;}
-	.full-size{padding-bottom:0px !important;}
-	.view > .content { padding-top: 150px; padding-bottom: 60px; }
-	.view{top: -48px; margin-bottom:0;}
-	@media (min-width:320px) and (max-width:767px){#menu li a, .state1 #top-nav li, .state1 #top-nav li > a, .state1 #top-nav .navbar-brand, .state1 #top-nav .navbar-header, .state1 #top-nav .dropdown-menu > li > a {color:#000 !important;} .full-size{padding-top:60px !important;} img.bann{width:100%;}}
-	@media (min-width:320px) and (max-width:991px){#menu li a, .state1 #top-nav li, .state1 #top-nav li > a, .state1 #top-nav .navbar-brand, .state1 #top-nav .navbar-header, .state1 #top-nav .dropdown-menu > li > a {color:#fff;}}
-</style>
-	
-	</head>
-	<body class="state1 background-100-e">
+</head>
+	<body>
+		<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('_banner.php'); ?>
 		
-		<!--div class="page-border bottom colors-e background-solid"><a href="#top" class=" one-third-size">To <span class="highlight">Top</span></a></div-->
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				<div class="map-canvas" data-latitude="42.487606" data-longitude="-71.115661" data-zoom="14">
-					<div class="map-marker" data-latitude="42.487606" data-longitude="-71.115661" data-text="Our awesome location"></div>
-					<div class="map-marker" data-latitude="42.485100" data-longitude="-71.113256" data-text="Our sales office"></div>
-				</div>
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
-		<!-- BEGIN: Page content -->
-		<!--<div class="youtube-bg" data-video="2zLQI4Dfi_w" data-mute="yes" data-volume="50" data-alternative="images/placeholders/1920x1200-0.jpg"></div>-->
-	
-			<div class="view sub-banner">
-				<img alt class="bg" src="<?php IMAGE('tech-blog.png'); ?>" /><img alt class="bg" src="<?php IMAGE('tech-blog.png'); ?>" />
-				<div class="content background-60" style="z-index:2">
-					<div class="container tech-blog-content">
-						<p class="date">OCTOBER 14, 2015</p>
-                    <h1 class="col-md-6" style="float:none; margin:0 auto"><?php echo $title; ?></h1>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-			<div class="view" style=" background-color:#f2f2f2">
+<div class="view" style=" background-color:#eceeef">
                 <div class="container">
-                    <ul class="col-md-10 breadcrumb" style="float:none; margin:10px auto;">
+                    <ul class="col-md-12 breadcrumb" style="float:none; margin:0px auto;">
                         <li><a href="<?php echo SITE_URL; ?>engineering/">Engineering</a></li>
                         <li>Welcome to the Tech blog at Near.co</li>
                     </ul>
                 </div>
             </div>
             
-			<div class="view">
+<div class="view newsroom" style="margin-top:0px;">
+
 				<div class="content tech-page colors-e background-90-e" style="padding-top: 50px;">
 					<div class="container">
-									<div class="col-md-10" style="float:none; margin:0 auto;">
-                                    	<div class="col-md-8">
-                                        <div class="tech-author">
-                                        <div style="float:right; margin-top:32px;">
-                                        	<a href="" class="tech-nav-prev end"></a>
-                                        	<a href="<?php echo SITE_URL; ?>engineering/fabric-just-the-tool-for-continuous-deployment.php" class="tech-nav-next" title="New"></a>
-                                        </div>
-									<img src="<?php IMAGE('bb.png'); ?>" alt style="width:100px; height:100px; background:url(<?php IMAGE('near-team.png'); ?>) 0 2344px/ 100% auto; border-radius:50%; float:left; margin-right: 10px;" />
-									<h2 style="padding-top: 40px;"><span>by</span> Madhu Therani</h2>
-                                    <p class="tech-designation">Chief Technology Officer</p>
-                                    </div>
+									<div class="col-md-12 row" style="float:none; margin:0 auto;">
+									<div class="col-md-9 row">
+                                			<div style="margin-right: 50px">
+
+<div class="tech-author"> <div style="float:right; margin-top:-4px;">
+            <a href="<?php echo SITE_URL; ?>engineering/fabric-just-the-tool-for-continuous-deployment.php" class="tech-nav-prev" title="Old"></a>
+            <a href="<?php echo SITE_URL; ?>engineering/location-intelligence-the-next-frontier.php" class="tech-nav-next" title="New"></a>
+        </div>
+        <div class="line-break-bottom"><img src="<?php IMAGE('bb.png'); ?>" alt style="width:100px; height:100px; background:url(<?php IMAGE('near-team.png'); ?>) 0 2344px/ 100% auto; border-radius:50%; float:left; margin-right: 30px;" />
+									<h2 style="padding-top: 12px;"><span>by</span> Madhu Therani</h2>
+                                    <p class="tech-designation">Chief Technology Officer</p></div>
+<p class="date">OCTOBER 14, 2015</p>
+                    <h2 style="margin-top: 0;"><?php echo $title; ?></h2>
+<!--p class="tech-designation">Technical Architect</p-->
+
+</div>
+
+
 										<div class="post-body background-75-e">
                                         <p class="tech-note">Welcome to the Tech blog at Near.co. With our ongoing mission of building out the world’s largest location intelligence platform, the tech team at Near is working on a number of bleeding-edge technologies in distributed systems, large-scale data processing pipelines, data storage, and data sciences. The close-knit, world-class team works on a number of interesting areas building in-house tech and adapting open-source systems. Key areas and associated topics of interest for us include:</p>
 											<h4>Distributed Systems </h4>
@@ -181,6 +121,7 @@ $title = "Near Engineering";
              <div class="fb-comments" data-href="<?php my_url(); ?>" data-width="100%" data-numposts="5"></div>
            
             </div>
+										</div>
 										</div>
 										</div>
 										<?php include('../includes/_tech-filter.php'); ?>

@@ -19,6 +19,16 @@ $title ='Near Tech Blog - Thought Leadership Pieces from our Location Intelligen
 <link rel="stylesheet" href="<?php CSS_PATH('social-buttons.css');?>">	
 	<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/a611d488-9568-4032-baf2-d8b5d04fab15.css"/>
 	 <style>
+	 .navbar .nav ul li a{
+	 	color: #fff;
+	 }
+	 .s-header__trigger-icon{
+	 	background-color: #fff;
+	 }
+	 	footer{
+		z-index: 99;
+	    position: relative;
+	    }
 	#menu li a, .state1 #top-nav li, .state1 #top-nav li > a, .state1 #top-nav .navbar-brand, .state1 #top-nav .navbar-header, .state1 #top-nav .dropdown-menu > li > a {color:#fff;}
 	.state2 #top-nav li, .state2 #top-nav li > a, .state2 #top-nav .navbar-brand, .state2 #top-nav .navbar-header, .state2 #top-nav .dropdown-menu > li > a{color:#fff;}
 	.near-logo{fill:#fff !important;}
@@ -42,11 +52,14 @@ $title ='Near Tech Blog - Thought Leadership Pieces from our Location Intelligen
         <source src="<?php echo VDO_ASSETS_URL;?><?php echo $selectedBg.'.mp4';?>" type='video/mp4'>
         </video>
 		
+        <div class="overlay-blk"></div>
+        </div>
+		
         <!-- Career
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-   <div class="container-fluid privacy tech-blog " >
+   <div class="container-fluid privacy tech-blog " style="    padding-top: 250px; padding-bottom: 249px;" >
 
 	 <!-- Three columns of text below the carousel -->
         <div class="row content home-mary full-size">
