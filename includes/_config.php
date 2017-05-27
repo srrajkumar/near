@@ -13,7 +13,7 @@ define('CSS_ASSETS_URL_PATH', $mainurl .'assets/css/');
 define('JS_ASSETS_URL', $mainurl .'assets/js/');
 define('IMAGE_ASSETS_URL', $mainurl .'assets/images/');
 define('VIDEO_ASSETS_URL', $mainurl .'assets/videos/');
-//define('VDO_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/lib/vdo/');
+define('VDO_ASSETS_URL',  $mainurl .'assets/vdo/');
 //define('IMAGES_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/images/');
 //define('PDF_ASSETS_URL', $cdnurl .'pdf/');
 define('PDF_ASSETS_URL', 'http://d2828ihewbtgvd.cloudfront.net/pdf/');

@@ -2920,15 +2920,16 @@ a:focus{color:#ffffff}
     margin: 20px 40px 15px 0;
 }
 .newsroom h4{
-  font-weight: 500;
-  font-size: 20px;
-  margin-bottom: 10px;
-  margin-top: 40px;
-  line-height: 28px;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  margin-bottom: 10px !important;
+  margin-top: 40px !important;
+  line-height: 28px !important;
 }
 .newsroom .post-body{
   margin-bottom: 50px;
 }
+.newsroom a {color: #db1a21;}
 .newsroom .post p{
     font-size: 14px;
     font-weight: 400;
