@@ -40,11 +40,11 @@ h2{color:#ff1d25;}
   <div class="mouse"></div>
 
 </div>
-		<section class="sub-bg careers" style=" rgba(255,255,255,0.97) url(<?php IMAGE('open-positions-bg.png');?>); background-repeat: repeat; z-index:10;">
-			<div class="container content  colors-e background-90-e" style="overflow: hidden; position: relative;">
-						<div class="row">
-							<div class="col-md-12" style="margin-top: 15px;">
-								
+
+		<section class="sub-bg careers" style=" background: rgba(255,255,255,0.97) url(<?php IMAGE('open-positions-bg.png');?>); background-repeat: repeat; z-index:10;">
+
+			<div class="container content  colors-e background-90-e" style="overflow: hidden; position: relative;"><div class="space" style="display: block; margin: 80px;"></div>
+							<div class="col-md-12 row" style="margin-top: 15px;">
 									<div class="col-md-9">
 										<div class="post-body background-75-e">
          
@@ -90,7 +90,7 @@ h2{color:#ff1d25;}
 										
 										
 										<div class="current">
-                                            <img src="<?php IMAGE('icon1.png'); ?>" alt="" style=" float:left;"/>
+                                            <img src="<?php IMAGE('career-icon1.png'); ?>" alt="" style=" float:left;"/>
                                             <h4>Current <br><span>Openings </span></h4>
                                             <ul>
                                                 <li><a href="<?php echo SITE_URL; ?>careers/data-engineer.php">Data Engineer</a></li>
@@ -110,7 +110,6 @@ h2{color:#ff1d25;}
 									</div>
                                      
 								</div>
-							</div>
 				</div>
 			</div>
             

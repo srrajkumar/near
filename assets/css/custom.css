@@ -3476,3 +3476,62 @@ p{font-weight:normal;; letter-spacing:0.01em;}
 .board .col-md-6:hover .custom_btn .icon svg{left:100px;}
 /* board */
 
+
+
+/* career */
+
+.career-sub .listing {
+    margin-left: 20px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.career-date {
+    margin-top: 25px;
+}
+.careers h4 {
+    margin-top: 30px;
+}
+.current img {
+    vertical-align: middle;
+}
+.current h4 {
+    font-size: 14px;
+    font-family: 'GothamRounded-Medium',Arial,sans-serif;
+    text-shadow: 0px 0px 0px #e50000;
+    color: #e50000;
+    line-height: normal;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 11px;
+    margin-top: 0px !important;
+}
+.current ul {
+    border-top: 1px dashed #454545;
+    border-bottom: 1px dashed #454545;
+    padding: 15px 2px;
+    list-style: none;
+    color: #a7a7a7;
+    font-size: 14px;
+}
+.current ul a {
+    text-decoration: none;
+    color: #a7a7a7;
+    text-align: left;
+    font-family: 'GothamRounded-Light',Arial,sans-serif;
+    text-shadow: 0px 0px 0px #a7a7a7;
+}
+.current h4 span {
+    font-size: 23px;
+    font-family: 'GothamRounded-Light',Arial,sans-serif;
+    color: #e50000;
+    text-shadow: 0px 0px 0px #e50000;
+}
+.current a:hover {
+    color: #db1a21 !important;
+}
+.current .active a {
+    color: #db1a21;
+    text-decoration: none;
+}
+/* career */
+
