@@ -148,7 +148,15 @@ $(function() {
     }, 8000);
 });
 
-
+$('.team-card').on('mouseover', function(event){
+      $('.card-photo').addClass('hover');
+      $(this).children('.card-photo').removeClass('hover');
+    });
+    
+    $('.team-card').on('mouseout', function(){
+      $('.card-photo').removeClass('hover');
+    
+    });
 
 
 // type //

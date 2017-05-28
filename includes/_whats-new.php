@@ -26,7 +26,7 @@
         <span class="news-red" style="margin-top: 10px;">Blog</span>
 					<span class="news-content">Get the best out <br>of your board members</span>
 					<span class="story">"Learn how to get the best out of your board members" by Anil Mathews</span>
-     <a href="<?php echo SITE_URL; ?>blogs/how-to-get-the-best-out-of-your-company-board-members.php" class="custom_btn">
+     <a href="<?php echo SITE_URL; ?>blog/how-to-get-the-best-out-of-your-company-board-members.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">READ </span>
                                 </span>            
