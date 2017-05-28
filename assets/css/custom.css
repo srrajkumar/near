@@ -3417,3 +3417,55 @@ p{font-weight:normal;; letter-spacing:0.01em;}
 .team-card .contact-links a:hover{opacity:.5}
 .contact-links .fa-linkedin,.contact-links .fa-twitter,.contact-links .fa-medium{color:#ec222b!important;font-size:18px}
 .main-header a{    font-size: 24px !important;}
+
+
+/* board */
+
+.board .img-circle {
+    -webkit-border-radius: 50% 50% 15% 50%;
+    -moz-border-radius: 50% 50% 15%;
+    border-radius: 50% 50% 15% 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.board .designation {
+    font-family: 'GothamRounded-Light', sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    color: #979797;
+    text-shadow: 0px 0px 0px #979797;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.board hr {
+    border-top: 1px solid #FFD2DB;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.board p {
+    font-size: 13px;
+    margin-top: 11px;
+}
+.board a {
+    text-decoration: none;
+}
+.btn-flat {
+    font-size: 12px;
+    padding: 2px 10px;
+    width: auto;
+    background: #EC222B none repeat scroll 0 0;
+    border-radius: 4px;
+    font-family: 'GothamRounded-Medium',sans-serif;
+    color: #FFF;
+    display: inline-block;
+    border: 1px solid #EC222B;
+    margin-bottom: 5px;
+}
+.board .margin-bottom{
+  margin-bottom: 60px;
+}
+.board .space{
+  margin:30px 0;
+}
+/* board */
