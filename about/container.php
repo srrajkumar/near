@@ -6,7 +6,7 @@
       <h2>Leadership</h2>
       <hr />
       <p class="col-md-6"> Meet the Game Changers across regions and functions.</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>leadership" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -19,18 +19,16 @@
     </div>
     <div class="col-md-3 random-image" id="cycler" style="height: 275px;">
       <img src="<?php IMAGE('team/anil-mathews.png') ?>" class="active" />
-       
+        <img src="<?php IMAGE('team/shobhit-shukla.png') ?>" />
        <img src="<?php IMAGE('team/madhu-therani.png') ?>" />
-       <img src="<?php IMAGE('team/shobhit-shukla.png') ?>" />
-       <img src="<?php IMAGE('team/justin-joseph.png') ?>" />
-       <img src="<?php IMAGE('team/rahul-agarwal.png') ?>" />
+      
+       
     </div>
     <div class="col-md-3 random-image" id="cycler1"  style="height: 275px;">
-      <img src="<?php IMAGE('team/shobhit-shukla.png') ?>"  class="active" />
-     <img src="<?php IMAGE('team/rahul-agarwal.png') ?>" />
-        <img src="<?php IMAGE('team/anil-mathews.png') ?>" />
-        <img src="<?php IMAGE('team/madhu-therani.png') ?>" />
-       <img src="<?php IMAGE('team/justin-joseph.png') ?>" />
+      <img src="<?php IMAGE('team/justin-joseph.png') ?>" class="active"/>
+     <img src="<?php IMAGE('team/rahul-agarwal.png') ?>"  />
+   
+      
       
     </div>
     </div>
@@ -39,7 +37,7 @@
       <h2>Our Investors</h2>
       <hr />
       <p class="col-md-12">Near is backed by some of the leading investors in the world.</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="#" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -71,7 +69,7 @@
       <h2>BLOG</h2>
       <hr />
       <p class="col-md-12">Take a look at our corporate and tech blogs for the latest industry trends.</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>blog" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -96,7 +94,7 @@
       <h2>Board Members</h2>
       <hr />
       <p class="col-md-12">More about the board members of Near here.<br><br><br></p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="#" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -116,7 +114,7 @@
       <h2>Culture Code</h2>
       <hr />
       <p class="col-md-12">Explore the Near culture, values and meet the team.</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>culture" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -136,7 +134,7 @@
       <h2>Newsroom</h2>
       <hr />
       <p class="col-md-12">Stay up-to-date with our latest announcements, news, stories and much more.</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>news" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -151,7 +149,7 @@
       <h2>Events</h2>
       <hr />
       <p class="col-md-12">Check out our upcoming events. Drop in your details to fix a meeting and we will get in touch!</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>events" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -174,7 +172,7 @@
       <h2>Careers</h2>
       <hr />
       <p class="col-md-12">Interested in joining the Near team? Check our open job positions to apply!</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="#" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -196,7 +194,7 @@
       <h2>Contact</h2>
       <hr />
       <p class="col-md-12">Have any queries? Reach out to us now.</p>
-      <a href="<?php echo SITE_URL; ?>allspark/media-planning.php" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>contact" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            

@@ -49,7 +49,8 @@
           <ul class="main_nav">
             <li data-aos="fade-up" class="submenu"><a>Allspark <span>+</span></a>
             <ul>
-              <li class="line_anim"></li>
+              <li class="line_anim" style="left: 15px;"></li>
+              <li class="main-header"><a href="<?php echo SITE_URL; ?>allspark">Overview</a></li>
               <li class="header">USE CASES</li>
               <li><a href="<?php echo SITE_URL; ?>allspark/audience-curation.php">Audience Curation</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/media-planning.php">Media Planning</a></li>
@@ -66,16 +67,17 @@
             <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
             <li data-aos="fade-up" class="submenu"><a href="#">About Us <span>+</span></a>
               <ul style="right: -157px;">
-              <li class="line_anim"></li>
-              <li><a href="#">Leadership</a></li>
+              <li class="line_anim" style="left: 15px;"></li>
+              <li class="main-header"><a href="<?php echo SITE_URL; ?>about">Overview</a></li>
+              <li><a href="<?php echo SITE_URL; ?>leadership">Leadership</a></li>
               <li><a href="#">Investors</a></li>
               <li><a href="#">Board</a></li>
               <li><a href="<?php echo SITE_URL; ?>culture">Culture</a></li>
-              <li><a href="#">Blog <span style="top: 13px;">+</span></a>
+              <li><a href="<?php echo SITE_URL; ?>blog">Blog <span style="top: 10px;">+</span></a>
                 <ul>
                   <li class="line_anim"></li>
                   <li><a href="<?php echo SITE_URL; ?>blog">Corporate Blog</a></li>
-                  <li><a href="#">Tech Blog</a></li>
+                  <li><a href="<?php echo SITE_URL; ?>engineering">Tech Blog</a></li>
                 </ul>
               </li>
               <li><a href="<?php echo SITE_URL; ?>news">Newsroom</a></li>
@@ -83,7 +85,7 @@
             </ul>
             </li>
             <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
-            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>privacy.php">Privacy</a></li>
+            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>privacy">Privacy</a></li>
             <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>contact">Contact Us</a></li>
           </ul>
         </div>

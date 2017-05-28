@@ -29,14 +29,15 @@
 					   <a href="<?php echo SITE_URL; ?>careers" >CAREERS</a>   
                        <a href="<?php echo SITE_URL; ?>culture" >CULTURE</a>   
                        <a href="<?php echo SITE_URL; ?>news" >NEWSROOM</a>   
-                       <a href="#" >BLOG</a>   
+                       <a href="<?php echo SITE_URL; ?>blog" >BLOG</a>   
                        <a href="<?php echo SITE_URL; ?>events" >EVENTS</a>   
                     </div>
                     <div class="col-sm-2 footer-links"  data-aos="fade-up" data-aos-delay="400">  
                        <a href="<?php echo SITE_URL; ?>contact" >CONTACT US</a> 
                        <a  href="<?php echo SITE_URL; ?>data" >DATA</a>   
                        <a  href="#" >PARTNERS</a>   
-                       <a  href="<?php echo SITE_URL; ?>privacy.php" >PRIVACY</a>
+                       <a href="<?php echo SITE_URL; ?>leadership" >LEADERSHIP</a>  
+                       <a  href="<?php echo SITE_URL; ?>privacy" >PRIVACY</a>
                     </div>
 					<!--div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="600">
 					      
