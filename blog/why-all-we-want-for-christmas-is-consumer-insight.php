@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include('../includes/_config.php');
 $meta_title = 'Christmas | Retail Analytics | Consumer Insights | Footfall Attribution | Mobile Location Data';
 $meta_desc = " The latest blog by Ken Parnham, our GM for Europe highlights how location intelligence can help retailers with granular consumer insights, effective targeting campaigns, attribution measurement and much more this Christmas. ";
 $title ='Why all we want for Christmas is consumer insight';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Christmas shopping, Retail Analytics, Location Data, Consumer Insights, Attribution Analytics, ROI Measurement, Footfall, Consumer Footprints, Christmas Spending, Real-time Consumer Analytics, Location-based Marketing" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/why-all-we-want-for-christmas-is-consumer-insight.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +37,7 @@ $title ='Why all we want for Christmas is consumer insight';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/why-all-we-want-for-christmas-is-consumer-insight.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>The festive lights are up on Oxford Street and Selfridges has unveiled a sequin-adorned Father Christmas window display. It can only mean one thing – the biggest shopping period of the year has begun.</p>
 
 
@@ -102,13 +50,13 @@ $title ='Why all we want for Christmas is consumer insight';
 
 <p>Location intelligence can assist retail marketers in several ways this Christmas:</p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">Piecing together the consumer journey</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Piecing together the consumer journey</h2>
 
 <p>By combining location data with multiple consumer data sources retailers can achieve a full picture of the consumer journey from research to purchase and beyond, which is essential at a time when shopping activity steps up a gear.</p>
 <p>Linking location footprints from mobile devices with unique device identifiers allows retailers to fill in the gaps and connect online and offline activity to gain a deeper understanding of consumer needs and shopping behaviour.</p>
 
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">Accurately attributing sales</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Accurately attributing sales</h2>
 
 <p>The ability to trace consumers both on and off the digital map through location intelligence makes it far easier to accurately attribute conversions to specific marketing touchpoints.</p>
 
@@ -117,7 +65,7 @@ $title ='Why all we want for Christmas is consumer insight';
 
 <p>The insights gained from attribution allow retailers to adjust and optimise their campaigns in real time to achieve the highest levels of marketing efficiency and performance during the peak shopping weeks.    </p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">Identifying vital shopping moments</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Identifying vital shopping moments</h2>
 
 <p>Purchase decisions come thick and fast during the festive period, from deciding whether to buy turkey or beef for Christmas dinner to face cream or perfume for the mother-in-law.</p>
 
@@ -126,7 +74,7 @@ $title ='Why all we want for Christmas is consumer insight';
 
 <p>This includes targeting consumers who are at competitor stores and intending to make a purchase, potentially luring them away with a discount or special offer.</p>
 
-<h4 style="text-align:left; font-size:18px;">Analysing competitor footfall</h4>
+<h2 style="text-align:left; font-size:18px;">Analysing competitor footfall</h2>
 
 <p>As well as gaining an insight into visitors to their own stores, retail marketers can use location intelligence to monitor other shopping locations and develop an understanding of what their competitors are doing.</p>
 
@@ -136,7 +84,7 @@ $title ='Why all we want for Christmas is consumer insight';
 <p>Retailers can even use location intelligence to discover what is engaging competitors’ consumers and use this knowledge to enhance their own seasonal offering.</p>
 
 
-<h4 style="text-align: left; font-size: 18px; margin-bottom: 0px;">Maximising the merchandising mix</h4>
+<h2 style="text-align: left; font-size: 18px; margin-bottom: 0px;">Maximising the merchandising mix</h2>
 <p>Location intelligence allows retailers to understand who is buying what, when and where, and to make merchandising decisions in real-time to ensure they are making the most of current trends.</p>
 <p>This is particularly useful on specific festive shopping days such as Black Friday – which falls on 25 November this year – when the in-store merchandising mix has a huge impact on retail success and real-time adjustments can make all the difference.</p>
 <p>A successful festive shopping season can significantly boost a retailer’s annual profits, so leveraging new technologies to improve consumer engagement and enhance the shopping experience at this time of year is vital.</p>

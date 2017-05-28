@@ -1,73 +1,24 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); $meta_title = 'How Our Startup Culture Helps Near Succeed | Near';
+<?php include("../includes/_config.php");  $meta_title = 'How Our Startup Culture Helps Near Succeed | Near';
 $meta_desc = "Near is proud of our startup culture, and we firmly believe that it's one of the things that helps us succeed. Read more about our great culture here!";
 $title ='Our startup culture helps us succeed';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />  
-    <meta name="KEYWORDS" content="" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -85,7 +36,7 @@ $title ='Our startup culture helps us succeed';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/Our-startup-culture-helps-us-succeed.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>One thing that keeps me awake is how to maintain a great culture in the company. Because when I look back and see our failures, it always has something to do with a cultural mismatch. And as we grow and attract star performers from varied geographies, ethnicity, companies & experience, having a great culture means priority no 1 for us. </p>
 
 <p>So what does a great culture mean? It’s probably every little thing that you do; from the emails you write to even the way you talk. And as people create culture we have to be unreasonably selective about our colleagues. We didn’t get it right every time. This meant painfully recycling a position until we get it right.
@@ -101,7 +52,7 @@ $title ='Our startup culture helps us succeed';
 <div style="display:block; clear:both;"><p>I love what Reed Hastings of Netflix said <span class="quotes"><span class="q-one"></span>lets make the company we <br> always dreamed of,<span class="q-two" style="right:-2px;"></span></span><br>and that’s what sets the foundation of our culture.
 </p>
 </div><br><br>
-<h4  style="font-size:18PX; font-weight:600;">Our culture code is not only who we are but who we want to be.</h4>
+<h2  style="font-size:18PX; font-weight:600;">Our culture code is not only who we are but who we want to be.</h2>
 <strong style="color:#000000">Here’s the culture code of Near:</strong>
 <ul class="listing" >
 <li>Believe in Freedom & Responsibility </li>

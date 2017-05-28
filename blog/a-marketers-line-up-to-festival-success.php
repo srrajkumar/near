@@ -1,77 +1,26 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include("../includes/_config.php");  
 $meta_title = 'Mobile Location Data | Glastonbury | Consumer Insights | Brand Engagement';
 $meta_desc = "This blog post highlights the four factors that brands need to incorporate into their strategy to create a perfectly tuned marketing mix during festivals and events. Leveraging consumer insights from mobile location data is the key to achieving marketing success.";
 $title ='A marketer’s line-up to festival success';
 ?>
 
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , potential technology" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/a-marketers-line-up-to-festival-success.png'); ?>" />
+<<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +38,7 @@ $title ='A marketer’s line-up to festival success';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/a-marketers-line-up-to-festival-success.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>The worst mud in <a href="http://www.telegraph.co.uk/music/news/glastonbury-2016-mud-and-floods-cause-chaos-as-jo-cox-tribute-is/" target="_blank">20 years</a> did nothing to dampen spirits as Glastonbury goers donned their wellies and waterproof onesies, flagged down a passing wheelbarrow, and made sure the soggy event was still something to tweet about. </p>
 
 <p>In fact, the only accessory more popular than the rain mac was the smartphone. Organisers planted <a href="http://www.techweekeurope.co.uk/mobility/4g/glastonbury-2016-ee-4g-wifi-193994" target="_blank">Wi-Fi hedges</a> around the site to provide constant web access for revellers and network provider EE <a href="http://ee.co.uk/our-company/newsroom/2016/ee-predicts-this-years-glastonbury-goers-will-use-15-terabytes-o/ee-predicts-this-year-s-glastonbury-goers-will-use-15-terabytes-" target="_blank">tripled</a> its capacity to support a surge in mobile traffic. Consumers go to Glastonbury to absorb real-world entertainment, but take tech with them to keep one foot in the digital world. For today’s consumers no festival would be complete without posting Instagram selfies, sharing the experience via Snapchat, or locating their tent using GPS. </p>
@@ -98,12 +47,12 @@ $title ='A marketer’s line-up to festival success';
 <p>Music tourism is already big business. In the UK alone, live festivals attract <a href="http://www.ukmusic.org/research/music-tourism-wish-you-were-here-2015/" target="_blank">9.5 million</a> people and generate £3.1 billion on an annual basis. Although the appeal of such lucrative events for brands is obvious, winning over the crowds is a challenge. Around <a href="http://www.festivalinsights.com/2013/12/uk-festival-market-report-2013/" target="_blank">60%</a> of attendees understand the need for brand sponsorship, but don’t feel it enhances their experience. Simply maintaining a presence at festivals is no longer enough to achieve cut-through. Brands must provide messages that are personalised, engaging, and genuinely useful for individual attendees. With smartphones making their way into the fields, the mobile intelligence available to brands is extensive and it is now possible to identify the right users amongst the crowds to target marketing messages accordingly. </p>
 <p>As any festival connoisseur knows, the most crucial factor for a successful event is the line-up. So what are acts do brands need to incorporate into their strategy to create a perfectly tuned marketing mix? </p>
 
-<h4 style="text-align:left; font-size:18px;">The crossover artist   </h4>
+<h2 style="text-align:left; font-size:18px;">The crossover artist   </h2>
 
 <p>Just like any artist whose music traverses a range of musical styles and genres, a brand’s festival campaign must work seamlessly across multiple channels. Capturing the attention of festivalgoers is not just a question of building a great mobile, out-of-home, or social media focused campaign, but of ticking every box at once. The most important act to include is therefore a multi-channel strategy that will maximise impact and outpace the competition by extending your brand presence across every channel with messages that are ideally suited to the environment. </p>
 
 
-<h4 style="text-align:left; font-size:18px;">The singer with personal appeal  </h4>
+<h2 style="text-align:left; font-size:18px;">The singer with personal appeal  </h2>
 
 <p>The foundation of any festival campaign is an in-depth understanding of who you are trying to reach, enabling you to deliver content that strikes a personal chord with individuals and develops a lasting emotional connection with the brand. As festival attendees use mobile devices non-identifiable personal data can be leveraged to build up a detailed picture of who they are and what they do. </p>
 
@@ -112,12 +61,12 @@ $title ='A marketer’s line-up to festival success';
 
 
 
-<h4 style="text-align:left; font-size:18px;">The right-on time band</h4>
+<h2 style="text-align:left; font-size:18px;">The right-on time band</h2>
 
 <p>Nothing has the ability to spoil a musical moment quite like bad timing and to connect with audiences campaign delivery must be planned with maximum precision. For example, a drinks brand will have far greater success targeting festivalgoers with a special offer during the break than when the headline act is playing. It’s vital your campaign slots into the festival schedule — a feat made much easier with mobile data that enables you to determine when your target consumer is near the beer tent and ready to receive a mobile message. </p>
 
 
-<h4 style="text-align:left; font-size:18px;">The fantastical finale </h4>
+<h2 style="text-align:left; font-size:18px;">The fantastical finale </h2>
 <p>The last but equally crucial ingredient to a great festival is an act that captures the audience’s imagination; there is no place here for generic or corporate messaging. Creative must be fun, utterly in tune with the feel of the festival, aligned with what festivalgoers want, and engaging enough to pique their interest. Location data can be used in combination with other insights, such as interest data, to construct fully rounded individual user profiles that define what makes users tick. </p>
 
 <p>As an example our location data revealed the Dairy Ground campsite was particularly popular with partygoers, with the majority of activity taking place between 2am and 4am, while early risers favoured the Campervans East and Cockmill Meadow campsites. Armed with this information, you can create campaigns targeted to the festival vibe knowing what is most likely inspire each attendee — boosting engagement and revenue. </p>

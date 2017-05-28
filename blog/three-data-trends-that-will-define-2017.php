@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include('../includes/_config.php');
 $meta_title = 'Three data trends that will define 2017 | Anil Mathews';
 $meta_desc = "Anil Mathews, Founder & CEO at Near discusses the data trends that will go big in 2017 and what businesses needed to watch out for - Data Converging platforms, Adoption of AI as key highlights.";
 $title ='Three Data Trends that will Define 2017';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content=" Data Products, Data Convergence, Mobile data, Wearables Data, IoT Data, Augmented Reality, Brand Marketers, Retailers, Retail, Retail Analytics, Location Analytics, Consumer Insights, Data Analytics, Anil Mathews,  Mobile Location, Audience Insights, Retail Data, Attribution Analytics, Data Fusion, Brand ROI" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/three-data-trends-that-will-define-2017.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,18 +37,18 @@ $title ='Three Data Trends that will Define 2017';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/three-data-trends-that-will-define-2017.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>2017 is nigh, and it’s the time of the year to look into the crystal ball and try to predict what the future holds for us. Here are the trends we think will go big in the coming year and what businesses need to watch out for:</p>
 
 
 
-<h4 style="font-size:18px; text-align:left; margin-bottom: 0px;">Emergence of Data Converging Platforms</h4>
+<h2 style="font-size:18px; text-align:left; margin-bottom: 0px;">Emergence of Data Converging Platforms</h2>
 <p>Wearables are ubiquitous; everyone worth their salt is jumping on the Internet of Things (IoT) bandwagon; and Augmented Reality (AR) is here to stay. These are the current favorite trends in the industry; and based on what we’ve seen in the recent years, we think it’ll be mostly how businesses apply these trends that will drive the growth of these technologies, not the end users. </p>
 <p>And here is why - the data generated by these three technologies is incredibly voluminous, we all know that. It might not be of much use to an individual user, but in large volumes can be incredibly useful to businesses. If we can handle its relentless onslaught, this data can especially provide us deep real-time analytical insights that can help brands understand their consumers far better and make data-driven decisions. </p>
 <p>Data-converging platforms that will converge the influx of all connected data will rise in 2017, fuelled by the demand to tame this massive data. A converged platform has a lot to offer - from richer analytical insights, leading to focused product development, in turn leading to higher Return on Investments (ROI). A consistent and unified framework for development will bring down DevOps costs and can even provide a unified administration framework to monitor and analyze the influx of data.</p>
 
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">Increased Adoption of Artificial Intelligence (AI)</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Increased Adoption of Artificial Intelligence (AI)</h2>
 
 <p>Like it was with big data a few years back and then machine learning a little later, AI is the current buzzword that has got everyone excited. </p>
 
@@ -113,7 +61,7 @@ $title ='Three Data Trends that will Define 2017';
 <p>AI will not only have a tremendous impact in the field of digital marketing, but also customer service because we see it as a powerful tool for enhancing the overall customer experience. </p>
 <p>As brands adopt AI, they will explore and try to find the best ways to use it for their business, and help them solve problems in an efficient and faster manner.</p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">Uncomplicating Data - Solution by Design</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Uncomplicating Data - Solution by Design</h2>
 
 <p>Think of the best products and applications you have used. It certainly wouldn’t be the ones that were full of latest and greatest features; what most probably would be on your top 5 list would be the ones that were simple to use, were intuitive, and were clean! Great design is the key to great products.</p>
 <p>Complexity is a strict no-no in the world of user experience. But when you are dealing with 10 TBs of distributed data in less than a day, complexity is all you can expect. However, complex need not and must not(!) be complicated. Complexity may be unavoidable if your workflows are complex, but just because your productis handling and processing an onslaught of complex data is not a valid excuse for bad design or a difficult interface.</p>

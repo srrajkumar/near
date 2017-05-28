@@ -1,76 +1,24 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); $meta_title = 'Mobile Data | Location Intelligence | Cross-channel Marketing | Near';
+<?php include("../includes/_config.php");  $meta_title = 'Mobile Data | Location Intelligence | Cross-channel Marketing | Near';
 $meta_desc = "Using mobile data to optimize your cross-channel marketing, Near tells how!";
 $title ='Harnessing the Power of Mobile Data for More Effective Cross-Channel Marketing';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />   
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , Attribution Blog" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $meta_title; ?> " />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="http://www.near.co/images/blog/harnessing-power-mobile-data-more-effective-cross-channel-marketing.png" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -88,7 +36,7 @@ $title ='Harnessing the Power of Mobile Data for More Effective Cross-Channel Ma
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/harnessing-power-mobile-data-more-effective-cross-channel-marketing.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?> </h4>
+											<h2 style="text-align:left;"><?php echo $title; ?> </h2>
 											<p>The retail landscape has changed beyond recognition. Intelligent devices are creating a culture of interconnectivity and consumers now expect a flexible shopping experience that reflects their interests and device preferences.  </p>
 
 <p>Driven by mobile, the barriers between online and offline retail are dissolving. According to Deloitte, one-fifth of offline sales are influenced by mobile activity, such as comparing prices, checking in-store availability or reading product reviews. For retailers this crossover has opened the door to a host of new opportunities.  </p>
@@ -97,17 +45,17 @@ $title ='Harnessing the Power of Mobile Data for More Effective Cross-Channel Ma
 
 <p>So, how can retailers successfully harness the power of mobile data for more effective cross-channel marketing?</p>
 
-<h4 style="text-align:left;">Getting to know customers through mobile data </h4>
+<h2 style="text-align:left;">Getting to know customers through mobile data </h2>
 <p>Last year Deloitte found that 63% of UK and German shoppers used multiple retail channels before purchasing. A quarter (25%) of shoppers used their mobile to compare prices while browsing in a physical retail location. There is no question that such behaviour has made the path to purchase more complicated. Yet the use of smart devices also produces a data trail that allows the consumer’s journey to be tracked as they seamlessly switch from one channel to another.  </p>
 <p>Instead of relying on limited metrics — such as spend size, transaction history and CRM data — retailers can combine their existing analysis with mobile, significantly enhancing their understanding of purchase habits. With the addition of mobile data — such as location, audiences, content searches, and user preferences — retailers can gain a complete view of user activity from initial interest to the final conversion. Not only can retailers map individual paths to purchase, they can also gauge the effectiveness of each interaction with particular brands or products. </p>
 
-<h4 style="text-align:left;">Use mobile data to meet the consumer’s needs </h4>
+<h2 style="text-align:left;">Use mobile data to meet the consumer’s needs </h2>
 
 <p>Mobile data equips retailers with the information needed to implement real-time, personalised targeting, increasing engagement, conversions and brand awareness. Online retailers can take advantage of individual consumer insights — such as interests and location — to identify potential customers. Not only can they target influential touchpoints in the customer journey, they can also deliver relevant offers to prospective customers, enhancing conversion rates.  </p>
 
 <p>Offline retailers can also utilise mobile data to understand consumers and build brand awareness. For example, a coffee chain looking to increase morning footfall could use geo-location technology to serve mobile ads to local consumers displaying the nearest store distance.  </p>
 
-<h4 style="text-align:left;">Look at the whole picture to understand results </h4>
+<h2 style="text-align:left;">Look at the whole picture to understand results </h2>
 
 <p>For long-term success, retailers must ensure they focus on more than the numbers. By analysing patterns of data over a period of time, using location data and content consumption behaviour, they can identify and target the right audience.  </p>
 

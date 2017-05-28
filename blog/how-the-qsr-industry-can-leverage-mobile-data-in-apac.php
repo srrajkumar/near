@@ -1,77 +1,26 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include('../includes/_config.php');
 $meta_title = 'Mobile Data Insights | QSR industry | Location Analytics | APAC | Near';
 $meta_desc = "This post tells you how location data help QSRs derive audience data at scale and enables them to create audience segments to target. Reach out to us to see how we can put our location intelligence to work for your company. ";
 $title ='How the QSR industry can leverage mobile data in APAC';
 ?>
 
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />   
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , Attribution Blog" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $meta_title; ?> " />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="//near.co/images/blog/how-the-qsr-industry-can-leverage-mobile-data-in-apac.png" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" >
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +38,7 @@ $title ='How the QSR industry can leverage mobile data in APAC';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/how-the-qsr-industry-can-leverage-mobile-data-in-apac.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?> </h4>
+											<h2 style="text-align:left;"><?php echo $title; ?> </h2>
 											<p>The adoption of mobile as a marketing tool is increasing across verticals, particularly within the Quick Service Restaurant (QSR) industry. As “out of home” food and drink consumption grows, presence in areas with high population density such as malls and business districts becomes vital.</p>
 
 <p>A defining feature of this category would be its impulsive nature, given that food choices are unplanned more often than not. As such, it is important to attract customers through timely reminders that allow for heightened “top of mind” awareness and are location aware. Luckily for marketers, a wealth of insightful information is right within their reach.</p>
@@ -121,7 +70,7 @@ $title ='How the QSR industry can leverage mobile data in APAC';
 <p>Frequency of visits also showed some clear patterns emerging. As suggested by the study, in Singapore, QSRs had as many repeat customers as Coffee Chains with 38% of the respondents visiting QSRs and 37% visiting Coffee Chains more than once a week.</p>
 <p>While Coffee Chains enjoy a steady stream of traffic in late afternoons and early evenings between 4pm-7ppm, QSRs tended to have high footfall during early and late evenings between 5pm to 10pm. Time poor segments such as professionals and students made up most of the visitors in this time band, coinciding with dinner time.</p>
 
-<h4 style="text-align:left; font-size:18px;">Make the most of collected location data</h4>
+<h2 style="text-align:left; font-size:18px;">Make the most of collected location data</h2>
 <p>Understanding preferences and behaviours of the brand’s audiences that are locationally aware, of existing and potential customers provides brands actionable intelligence. This in turn leads to better decision making and developing a cohesive, effective marketing strategy. For example:</p>
 <ul class="listing">
 	<li>Finding – Starbucks saw the highest footfall in Indonesia, followed by Hong Kong and Thailand  
@@ -155,7 +104,7 @@ $title ='How the QSR industry can leverage mobile data in APAC';
 </ul>
 <p>At a broader level, relevant consumer insights also help brands to identify new markets and locations with higher potential, based on the population segments they cater to.</p>
 
-<h4 style="text-align:left; font-size:18px;">Conclusion</h4>
+<h2 style="text-align:left; font-size:18px;">Conclusion</h2>
 <p>QSRs need to keep pace with relevant consumer trends and fine-tune their marketing and media strategies to implement successful campaigns. Marketers should definitely consider leveraging the data that mobile has to offer, of which location related data forms a subset, to stay relevant for their audiences. Armed with such insight, QSRs can further tailor their offerings to attract attention from those profiles they have yet to target, and also make broader business decisions.</p>
 <p>It is evident that location intelligence becomes an essential asset in determining their next step, marketing strategies and customer outreach. Location intelligence has proved to be an indispensable asset to brands, offering them a deeper look into the minds and behaviour of audience.</p>
 <p>Published in <a href="http://www.marketing-interactive.com/qsr-industry-leveraging-mobile-data-apac/" target="_blank">Marketing Interactive</a>.</p>

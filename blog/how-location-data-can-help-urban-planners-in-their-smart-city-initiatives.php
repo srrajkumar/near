@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include("../includes/_config.php");  
 $meta_title = 'Location Data | Predictive Analytics | Urban Planning | Smart Cities ';
 $meta_desc = "In this blog post, Shobhit Shukla talks about the use of location data for predictive analytics for urban planning, traffic congestion, smart lighting, building commercial vs residential zones, infrastructure and much more. Reach out to us to know how we can put our location data work for you.";
 $title ="How location data can help urban planners in their smart city initiatives";
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Location data, mobile intelligence, audience insights, Shobhit Shukla, urban planning, smart cities, smart nations, location technology, predictive analytics, urban planners, urban infrastructure" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/how-location-data-can-help-urban-planners-in-their-smart-city-initiatives.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -92,7 +40,7 @@ $title ="How location data can help urban planners in their smart city initiativ
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/how-location-data-can-help-urban-planners-in-their-smart-city-initiatives.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											 
 
 <p>Smart cities may very well be the urban centers of tomorrow. Creating these cities, however, will take a great deal of careful planning by urban developers along with access to a large pool of data. By incorporating more technology into the urban landscape, city planners will be able to meet residents’ needs and wants in a number of new ways. </p>
@@ -100,17 +48,17 @@ $title ="How location data can help urban planners in their smart city initiativ
 <p>The Singapore government has emerged as a leader in utilizing this data to not only build smart cities but an entire smart nation. Singapore is home to more than 5.6 million people, but they are living in an area smaller than most U.S. cities. Their needs are going to be very different from those who live in less dense areas. With constant humidity and a large annual rainfall, Singapore has unique needs that have to be taken into account. This is why the government has created a concept plan that continues to be updated. The result: a carefully managed smart city that meets its residents' needs like few others. </p>
 <p>Specifically, planners will need to collect and analyze location data of residents in the area in order to understand their needs before development of a smart city begins. They will require much more careful planning than common cities because they’re more than just a place where people live. By gathering data from residents’ mobile devices, computers, wearables, and even social media databases, urban planners will be able to see how people are distributed, which plays directly into their needs. This data can be used by more than just urban planners—retailers, financial institutions, and many other industries to understand where demand for products and services is high, allowing them to find the best location for their business.</p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">Location Intelligence for Urban Planning </h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Location Intelligence for Urban Planning </h2>
 
 <p>Real world planning will require real world data. The ecosystem around us is evolving and burgeoning with consumer data.  For instance, we can leverage consumer movement data from mobile and navigation devices to assess traffic movement - to decide where to widen lanes or install new traffic lights. The data gathered can give insights into where new parking lots should be constructed, which areas are likely to be congested at any given time, and much more.  Location data can even be collected in real time, allowing city planners to prepare for contingencies and attain faster response times. This data can provide powerful insights into where new facilities should be built to optimize for people movement - for instance hospitals, fire stations, schools etc. </p>
 <p>With this information in hand, planners are able to better create a city where residents have fewer delays and face fewer crowds on a daily basis. Data can impact everything from transportation, pollution control, waste management to land usage. In our experience of working with few city planners, by looking at where consumers prefer to shop, when they shop, where they work and live, and what types of services they are looking for, planners can determine if a particular area should be developed as a commercial, residential, or industrial zone. The real time data from Near enables them to look at when public transportation is utilized the most, allowing them to carefully place new stations or improve the transportation options that are the most popular. </p>
 
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">Urban Planning and Smart Cities</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Urban Planning and Smart Cities</h2>
 
 <p>By predicting traffic congestion, shopping needs, living preferences, and much more, urban planners can make use of location data to carefully design and implement smart cities.  Location data can be incorporated into every step of development, from the first rough plans to the final construction to the city’s regular updates and additions.  As Singapore has proven, having an evolving city plan is necessary to meet the ever-changing needs of its residents. </p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">The Way Forward</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">The Way Forward</h2>
 
 <p>Location data has a huge amount of potential in city planning and in a number of other industries.  By using this information to determine what people need, the smart cities of tomorrow will be safe, secure, and will make life easier for the residents. Singapore has proven that leveraging location data is the key to better city development and the creation of smart cities.</p>
 

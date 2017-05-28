@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php");
+<?php include("../includes/_config.php"); 
 $meta_title = 'Location data | Consumer Insights | Mobile Location | Attribution | Australian Supermarkets';
 $meta_desc = "This blog post by Near highlights how consumer insights derived from location data can be used for customer acquisition and also to make intelligent business decision. Reach us today to leverage location data for making your business decisions.";
 $title ='How Australian supermarkets can acquire consumers using insights from location data';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />   
-    <meta name="KEYWORDS" content="Mobile Marketing Blog, Attribution Blog, Location-based Insights, Mobile Location Data, Marketers" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?> " />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2>How Australian supermarkets can acquire consumers<br class="car-add"/> using insights from location data</h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +37,7 @@ $title ='How Australian supermarkets can acquire consumers using insights from l
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?> </h4>
+											<h2 style="text-align:left;"><?php echo $title; ?> </h2>
 											<p>With just four grocery brands accounting for an <a href="http://www.ibisworld.com.au/industry/default.aspx?indid=1834" target="_blank">estimated 90.8% of the Australian supermarket industry</a>, it's safe to say that competition for getting customers is fierce. With an expected growth of 2.5% over the next few years, expected to bring total industry revenues in the country to around $90 billion, there's a lot at stake. The relatively recent appearance and growing popularity of German-owned discount-focused chain ALDI has forced the remaining three market leaders — Woolworths, Coles and IGA — to take even the tiniest customer trends into account. </p>
 
 <p>Location insights today have become necessary to add the geographical dimension to consumer trends and patterns. Making sense of location data to derive actionable consumer insights at scale and then reaching consumer in real-time is the smartest way to drive their marketing strategies and business operations. The real-time insights generated from the data & its analytics help brands get closer to its consumers by aligning their needs to match consumer behavior at the most relevant time and place.</p>

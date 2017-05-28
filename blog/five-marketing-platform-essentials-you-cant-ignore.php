@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include("../includes/_config.php");  
 $meta_title = 'Mobile Analytics | Consumer Data | Marketing Platform | Near';
 $meta_desc = "This blog post by Near tells you 5 key things to keep in mind when choosing a marketing platform. Contact us to know more.";
 $title ="5 marketing platform essentials you can’t ignore";
  ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />   
-    <meta name="KEYWORDS" content="Location data, Mobile advertising, Consumer insights " />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-	<meta property="og:title" content="<?php echo $meta_title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="http://www.near.co/images/blog/five-marketing-platform-essentials.png" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +37,7 @@ $title ="5 marketing platform essentials you can’t ignore";
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/five-marketing-platform-essentials.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Today’s marketers have access to a massive amount of customer data. Customers are able to shop anywhere, and at any time. Retail sales get influenced by online research, in-store availability, promotions, and the shopping environment. This results in mounds of data being generated with every purchase, walk-in, search, click, social engagement, and check-in. In the right hands, the data from each of these touch points can provide marketers with a previously unthinkable level of insight. From clearly detailing shoppers’ path-to-purchase to accurately predicting the repeat visit of a customer — it’s all in the data.</p>
 
 <p>For marketers, however, this explosion of high-quality data can also be overwhelming. To make use of great data, it has to be placed in a meaningful context.</p>
@@ -102,26 +50,26 @@ $title ="5 marketing platform essentials you can’t ignore";
 
 <p>Let’s take a look at some of the key things to keep in mind while choosing a marketing platform.</p>
 
-<h4 style="text-align:left; font-size:18px;">1. Know the end goal</h4>
+<h2 style="text-align:left; font-size:18px;">1. Know the end goal</h2>
 <p>Marketers need to be clear on what they want to achieve with the platform. Their objectives need to be defined, allowing them to accurately measure the effectiveness of the platform. These objectives should start with a broadly defined goal, like generating 20 percent more walk-ins or increasing social media engagement by 50 percent. With this goal in mind, it should be much easier to identify the platforms most suited to generating those results.</p>
 
 <p>If your goals are largely related to spreading brand awareness, for instance, a platform with strong social media features will be more useful than one aimed at teasing trends out of website traffic. The more specific the end goals, the easier it is to find a platform with the features you need.</p>
 
-<h4 style="text-align:left; font-size:18px;">2. Understand the landscape</h4>
+<h2 style="text-align:left; font-size:18px;">2. Understand the landscape</h2>
 <p>It’s important to remember that most marketing platforms are a Software as a Service (SaaS) product, and that many of the selling points and features that have a “Wow!” factor for you as a customer might not be that useful in the long run. In a worst-case scenario, you may end up paying for a platform with a ton of fancy, eye-catching features that you never use, and which contribute little or nothing to your day-to-day marketing efforts.</p>
 
 <p>A great marketing platform doesn’t have every imaginable feature; it has the right features for your specific needs and goals. It has active and engaged developers, and a highly responsive support staff. Most importantly, it provides you with exactly the insights you need to see a great ROI.</p>
 
-<h4 style="text-align:left; font-size:18px;">3. Ease of handshake</h4>
+<h2 style="text-align:left; font-size:18px;">3. Ease of handshake</h2>
 <p>How easily will your data integrate with the platform? Depending on the kind of data you work with, and the kinds of reports you need, it may require weeks of developer time to get one platform up and running, while another could fully integrate right out of the box. Every hour spent on the integration is an additional cost to both you and your customers.</p>
 
 <p>There are a variety of data-related details and opportunity costs to keep in mind. For instance: If you only had the resources to implement one platform, would a social-media focused platform or a web-centered platform deliver a better ROI? If the platform doesn’t deliver the results you need, how difficult and expensive will it be to change? Will the data generated by the platform be usable by your other reporting software, your CRM, and your web analytics tools?</p>
 
-<h4 style="text-align:left; font-size:18px;">4. Data ownership and security</h4>
+<h2 style="text-align:left; font-size:18px;">4. Data ownership and security</h2>
 <p>Who owns the data you collect? Where is that data actually stored? How secure is that data, and who is responsible for maintaining it? How often is that data backed up? All of these are questions to keep in mind as you consider a marketing platform.</p>
 <p>There’s also the issue of data security. The more data you collect about your customers, the more valuable a target your data platform becomes to hackers. A great marketing platform will have strong security features with ongoing upgrades and plenty of integration options for additional security tools.</p>
 
-<h4 style="text-align:left; font-size:18px;">5. Feedback from past clients</h4>
+<h2 style="text-align:left; font-size:18px;">5. Feedback from past clients</h2>
 <p>If you want real insight into how a marketing platform performs in day-to-day use, you need to talk to someone who actually uses it. Any reputable SaaS company will be able to provide you with a list of current clients, trusting that those customers are completely satisfied with their product. Simply talking to these clients for a few minutes about the benefits, limitations, and frustrations of the platform will provide you with a wealth of invaluable details for making the right decision.</p>
 
 

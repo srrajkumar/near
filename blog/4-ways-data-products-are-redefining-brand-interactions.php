@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include("../includes/_config.php");  
 $meta_title = '4 ways data products are redefining brand interactions | Anil Mathews';
 $meta_desc = "This blog post highlights the four ways data products are changing the way brands are interacting with their consumers using data today. Contact us to see how we can put our data products work for your company.";
 $title ='4 ways data products are redefining brand interactions';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , potential technology" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/4-ways-data-products-are-redefining-brand-interactions.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,18 +37,18 @@ $title ='4 ways data products are redefining brand interactions';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/4-ways-data-products-are-redefining-brand-interactions.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Brands today collect multiple data points across consumer interactions, ranging from key promotional events and social comments to consumer whereabouts and inquiries. One of the key challenges faced by brands and enterprises is to fuse these multiple data streams in real-time and act on them. Overcoming this challenge would redefine how brands interact with their consumers using data today. Here is how:</p>
-<h4 style="font-size:18px; text-align:left;">1. A power shift</h4>
+<h2 style="font-size:18px; text-align:left;">1. A power shift</h2>
 <p>When brands have a self-serve platform, the ability to collect and fully analyze multiple data sets like demographics, social, location, interest, point-of-sales, and CRM moves to brands and enterprises, giving them control. They now have the power to define the who, what, when, and where of data and get the consumer insights they want. They’re able to conduct their own A/B tests to distinguish the business strategies that work, from the ones that don’t. This also gives them the ability to optimize their decisions without waiting on or working with any data service provider. They can do all the analysis themselves in an affordable, easy and timely manner, allowing them to make decisions much more quickly, and with the most relevant and up-to-date information.</p>
 
-<h4 style="font-size:18px; text-align:left;">2. Access to fresh data</h4>
+<h2 style="font-size:18px; text-align:left;">2. Access to fresh data</h2>
 <p>Real-time data is much more useful to brands than historical data because it shows the most recent trends and customer preferences. By keeping up with these ever-changing preferences, brands are able to respond more quickly to shifts in trends and provide customers with exactly what they want. Action on fresh data also results in better conversions, and hence better sales. Brands and enterprises with access to the freshest data definitely have an edge over their competitors.</p>
 
-<h4 style="font-size:18px; text-align:left;">3. Data transparency</h4>
+<h2 style="font-size:18px; text-align:left;">3. Data transparency</h2>
 <p>When brands have control of their data, everything becomes very transparent including spends. They have access to all of the information coming in, from raw data to established public data sets. They can create, visualize, and analyze any of these data sets, act on them, and see what works for them. When consumer reports can be accessed any time, brands can make faster changes in their marketing strategies and also rethink their business strategies if need be.</p>
 
-<h4 style="text-align:left; font-size:18px;">4. Digitizing brand data</h4>
+<h2 style="text-align:left; font-size:18px;">4. Digitizing brand data</h2>
 
 <p>Brands could bring their own data like CRM data and more to the table, mixing it with other data sets in order to gather powerful insights. With multiple data sets and, thus, more relevant information at hand, businesses can make more informed decisions. Currently, brands work with different products and providers for different data sets, and this prevents them from getting a complete consumer picture. With the convergence of the brand’s first-party data and other data sets like consumer location, business strategies can be consolidated.</p>
 

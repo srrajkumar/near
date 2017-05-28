@@ -1,76 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); ?>
+<?php include('../includes/_config.php');
+$meta_title="";
+$meta_desc="";
+$meta_keywords="";
+?>
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
+	<?php include('../includes/_head.php'); ?>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
 
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>Near Blog | Cameron Curtis</title>
-    
-    
-<!--META TAG-->
-
-    <meta name="title" content="Near Blog | Cameron Curtis" />
-    <meta name="description" content="Here you will find blogs from Cameron Curtis, General Manager, ANZ at Near on topics revolving around using location intelligence to understand consumer behaviour and trends in real-time, measure attribution analytics, competitor insights, and also bridging the gap between digital and physical worlds." />
-    <meta name="KEYWORDS" content="Mobile location data, Cameron Curtis, Insights on Millennials, Consumer Intelligence, Insights on Automotive brands, QSR audiences, MCA Audiences, Affluent in Australia, Students in Australia, Professionals in Sydney, Audience Analytics, Attribution Analytics" />
-    <meta name="AUTHOR" content="Cameron Curtis" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
- 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2 class="blog-head"><span>Corporate Blog</span><a href="<?php echo SITE_URL; ?>engineering/" class="blog-link"><span class="tech">Tech Blog</span></a></h2>
-						
-					</div>
-				</div>
-			</div>
-            
-		<!-- BEGIN: Page content -->
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content small-top-padding colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row">
@@ -88,12 +37,12 @@
 									<div class="col-md-9">
 										<div class="post-body background-75-e">
 											<div class="post-image">
-												<a class="page-transition" href="<?php echo SITE_URL; ?>blogs/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.php"><img class="fluid-width" src="<?php IMAGE('blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.png'); ?>" alt=""></a>
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.php"><img class="fluid-width" src="<?php IMAGE('blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.png'); ?>" alt=""></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blogs/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.php">Why QSRs in Australia should leverage Mobile Location Data for enhanced consumer understanding</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.php">Why QSRs in Australia should leverage Mobile Location Data for enhanced consumer understanding</a></h2>
 											
 											<p>In Australia, the Quick Service Restaurant (QSR) industry will see an annual revenue growth rate of <a href="http://www.ibisworld.com.au/industry/default.aspx?indid=2005" target="_blank">2.4 percent</a> in the next five years. This market, which is led by McDonald’s and Subway has an annual revenue of more than $15 billion currently and employs more than 150,000 people...</p>
-											<p><a href="<?php echo SITE_URL; ?>blogs/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.php"  class="page-transition btn-sm">Read more...</a></p>
+											<p><a href="<?php echo SITE_URL; ?>blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
 											
 										</div>
 									</div>
@@ -110,12 +59,12 @@
 									<div class="col-md-9">
 										<div class="post-body background-75-e">
 											<div class="post-image">
-												<a class="page-transition" href="<?php echo SITE_URL; ?>blogs/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.php"><img class="fluid-width" src="<?php IMAGE('blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.png'); ?>" alt=""></a>
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.php"><img class="fluid-width" src="<?php IMAGE('blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.png'); ?>" alt=""></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blogs/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.php">How Australian supermarkets can acquire consumers using insights from location data</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.php">How Australian supermarkets can acquire consumers using insights from location data</a></h2>
 											
 											<p>With just four grocery brands accounting for an <a href="http://www.ibisworld.com.au/industry/default.aspx?indid=1834" target="_blank">estimated 90.8% of the Australian supermarket industry</a>, it's safe to say that competition for getting customers is fierce...</p>
-											<p><a href="<?php echo SITE_URL; ?>blogs/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.php"  class="page-transition btn-sm">Read more...</a></p>
+											<p><a href="<?php echo SITE_URL; ?>blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
 											
 										</div>
 									</div>
@@ -132,13 +81,13 @@
 									<div class="col-md-9">
 										<div class="post-body background-75-e">
 											<div class="post-image">
-												<a class="page-transition" href="<?php echo SITE_URL; ?>blogs/what-happened-at-the-mca-during-vivid-sydney-this-year.php"><img class="fluid-width" src="<?php IMAGE('blog/mca-during-vivid-sydney-this-year.png'); ?>" alt=""></a>
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/what-happened-at-the-mca-during-vivid-sydney-this-year.php"><img class="fluid-width" src="<?php IMAGE('blog/mca-during-vivid-sydney-this-year.png'); ?>" alt=""></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blogs/what-happened-at-the-mca-during-vivid-sydney-this-year.php">So, what happened at the Museum of Contemporary Arts (MCA) during Vivid Sydney this year?</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/what-happened-at-the-mca-during-vivid-sydney-this-year.php">So, what happened at the Museum of Contemporary Arts (MCA) during Vivid Sydney this year?</a></h2>
 											
 											<p>For lovers of big ideas, like the crowd at this year's Vivid Sydney festival, it's hard to beat a setting like the Museum of Contemporary Arts. In a festival that is dedicated to bringing together creative and business leaders to discover...
 											</p>
-											<p><a href="<?php echo SITE_URL; ?>blogs/what-happened-at-the-mca-during-vivid-sydney-this-year.php"  class="page-transition btn-sm">Read more...</a></p>
+											<p><a href="<?php echo SITE_URL; ?>blog/what-happened-at-the-mca-during-vivid-sydney-this-year.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
 											
 										</div>
 									</div>
@@ -155,13 +104,13 @@
 									<div class="col-md-9">
 										<div class="post-body background-75-e">
 											<div class="post-image">
-												<a class="page-transition" href="<?php echo SITE_URL; ?>blogs/auto-brands-and-data-driven-mobile-marketing.php"><img class="fluid-width" src="<?php IMAGE('blog/image.png'); ?>" alt=""></a>
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/auto-brands-and-data-driven-mobile-marketing.php"><img class="fluid-width" src="<?php IMAGE('blog/image.png'); ?>" alt=""></a>
 											</div>
-											<h4 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blogs/auto-brands-and-data-driven-mobile-marketing.php">Auto brands and data driven mobile marketing</a></h4>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/auto-brands-and-data-driven-mobile-marketing.php">Auto brands and data driven mobile marketing</a></h2>
 											<p>
 												Mobile data analytics combined with Internet of Things is giving brands deeper insights about their customers and the ability to target them based on their preferences, lifestyle and location...
 											</p>
-											<p><a href="<?php echo SITE_URL; ?>blogs/auto-brands-and-data-driven-mobile-marketing.php"  class="page-transition btn-sm">Read more...</a></p>
+											<p><a href="<?php echo SITE_URL; ?>blog/auto-brands-and-data-driven-mobile-marketing.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
 											
 										</div>
 									</div>
@@ -181,9 +130,9 @@
     <!-- Placed at the end of the document so the pages load faster -->
    	 <!-- BEGIN: Footer -->
 		<?php include('../includes/_footer.php'); ?>
-		<!-- END: Footer -->
-	<?php include('../includes/_java_scripts.php'); ?>
-	<script src="<?php JS('social-buttons.js'); ?>" type="text/javascript"></script>   
+	<!-- END: Footer -->
+		<?php include('../includes/_java_scripts.php'); ?>
+       
 <script>
 $(function() {
 	var Accordion = function(el, multiple) {
@@ -212,40 +161,9 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
+	
+	
 </script>
   </body>
 </html>

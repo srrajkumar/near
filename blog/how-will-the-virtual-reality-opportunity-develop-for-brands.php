@@ -1,77 +1,26 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
-$meta_title = 'Virtual Reality | Location Intelligence | Consumer Understanding | Brands';
-$meta_desc = "This blog post highlights the opportunities that virtual reality will develop for brands. Reach out to our experts to see how we can put our location intelligence work for your company.";
-$title ='How will the virtual reality opportunity develop for brands?';
+<?php include('../includes/_config.php');
+$meta_title="";
+$meta_desc="";
+$meta_keywords="";
+$title="How will the virtual reality opportunity develop for brands?"
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , potential technology" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/how-will-the-virtual-reality-opportunity-develop-for-brands.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +38,7 @@ $title ='How will the virtual reality opportunity develop for brands?';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/how-will-the-virtual-reality-opportunity-develop-for-brands.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Advances in virtual reality have developed rapidly in recent years and technology that was once considered futuristic has finally hit the mainstream. Devices such as Oculus Rift, Samsung’s Gear VR and HTC Vive, and Sony’s soon-to-launch PlayStation VR are making captivating virtual experiences accessible to the masses.</p>
 
 <p>Brands are just as excited by the possibilities as consumers. Automotive giant Honda is currently preparing a contextually targeted virtual reality video that will put consumers behind the wheel of its Dallara car to help celebrate the 100th running of the Indianapolis 500. Last year, UNICEF raised awareness of the growing Syrian refugee crisis with its 360-degree ‘Clouds over Sidra’ film that enabled viewers to experience life in the camps.</p>
@@ -110,14 +59,14 @@ $title ='How will the virtual reality opportunity develop for brands?';
 
 
 
-<h4 style="text-align:left; font-size:18px;">Testing the water in a new environment</h4>
+<h2 style="text-align:left; font-size:18px;">Testing the water in a new environment</h2>
 
 <p>Yet while virtual reality offers brands a unique ability to develop deeper connections with consumers than ever before, they must tread carefully. Virtual experiences are immersive, personal, and user-centric. This means tolerance for interruptive and irrelevant intrusions will be even lower than it is for messages that disturb consumers when they are surfing the web, and marketers must strive to provide real value.</p>
 
 
 <p>As the technology advances, we will begin to see brands develop virtual reality experiences on a foundation of user-generated data and location intelligence that accurately — yet unobtrusively — create a complete picture of unique behaviours. In this way, marketers will be able to provide targeted virtual reality experiences that are engaging, contextually relevant, and highly impactful for individual consumers.</p>
 
-<h4 style="text-align:left; font-size:18px;">Large scale platforms for even bigger data</h4>
+<h2 style="text-align:left; font-size:18px;">Large scale platforms for even bigger data</h2>
 
 <p>With the ever-growing volume of activity creating a myriad of data sources, turning information into usable profiles will become increasingly difficult for brands. The greater the number of platforms in use, the more likely it is that reliability will fluctuate and key variables will be omitted, making datasets incomplete or incomparable, while negatively impacting user identification.</p>
 

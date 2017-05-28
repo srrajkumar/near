@@ -1,76 +1,24 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); $meta_title = 'Location Intelligence | Mobile Data | Consumer Insights | Marketing Effectiveness | Business Strategy ';
+<?php include("../includes/_config.php");  $meta_title = 'Location Intelligence | Mobile Data | Consumer Insights | Marketing Effectiveness | Business Strategy ';
 $meta_desc = "This blog post explains how Location intelligence plays an optimal role in allowing enterprise and merchants to overcome previous market impossibilities. Reach us to know how we can put our location intelligence to work for your company.";
 $title ='How Location Intelligence Helps Businesses Improve Marketing Effectiveness In The Now';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , potential technology" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/how-location-intelligence-helps-businesses-improve-marketing-effectiveness.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2>How Location Intelligence Helps Businesses Improve <br> Marketing Effectiveness In The Now</h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -88,7 +36,7 @@ $title ='How Location Intelligence Helps Businesses Improve Marketing Effectiven
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/how-location-intelligence-helps-businesses-improve-marketing-effectiveness.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>With today’s ever-evolving technological climate, mobile devices are a sort of extension of ourselves. Rarely do they ever actually leave our sides and rarely do we ever not need, or use them. Mobile phones in this day and age have completely transformed the way in which we communicate, travel, spend and shop. Mobile marketing demand is driven by the consumer’s insatiable craving for content, the desire to be aware of news as it hits the press, know about big sales as they are announced, and indulge in the latest technologies as they are released. </p>
 
 <p>This unappeasable appetite for content is something that marketers must see as an opportunity to capitalise on. Mobile provides massive data just waiting to be tapped. In terms of marketing, location intelligence has the capability to turn the once-problematic geographic location of consumers from an inherent challenge into a competitive advantage. </p>
@@ -98,7 +46,7 @@ $title ='How Location Intelligence Helps Businesses Improve Marketing Effectiven
 
 <p>In order to exploit the potential of location-based data, it has become necessary to plot geographical points of interest as they relate to the consumer trends, patterns, and distinct dependencies. Doing so will ultimately transform such data into authoritative information, capable of making a large sales-related impact for the business.</p>
 
-<h4 style="text-align:left; font-size:18px;">The Impact of Mobile Media on Marketers</h2>
+<h2 style="text-align:left; font-size:18px;">The Impact of Mobile Media on Marketers</h2>
 
 <p>The biggest impact of mobile media and location data on marketers lies in the ability to go beyond their given selling space. Additionally, there is the engagement factor where marketers can understand consumers on a more granular level. Having such an in-depth understanding of the consumer base allows these consumer insights to be used for broader business intelligence. </p>
 
@@ -107,7 +55,7 @@ $title ='How Location Intelligence Helps Businesses Improve Marketing Effectiven
 
 <p>According to our latest consumer insights study on the QSR industry, professionals and students formed the top audience in the QSRs in Singapore. Higher number of consumers were seen visiting the QSRs on Tuesdays, between 5pm to 8pm. This intelligence can be used by marketers to reach out to their consumers via mobile, and other channels, at the most relevant time. Also, marketers can feed this intelligence back to their different stores for upselling to these audiences. For example, the QSRs can run promotions on Tuesday for students, or introduce merchandise that could help with increasing sales.</p>
 
-<h4 style="text-align:left; font-size:18px;">Location Intelligence: Defining the Target</h4>
+<h2 style="text-align:left; font-size:18px;">Location Intelligence: Defining the Target</h2>
 
 <p>Location intelligence is quite literally a combination of geospatial data and business intelligence, linked with cartographic tools that help to better comprehend location-based relationships of the geographic content that lie within given data. New-age location intelligence software has been designed to access and connect operational data stores (SCM, CRM, ERP) and business intelligence combined with cartographic and opulent spatial capabilities. These new powerful software platforms allow marketers to transform data from analytical insight into actionable strategies, which they can deliver upon.</p>
 
@@ -116,7 +64,7 @@ $title ='How Location Intelligence Helps Businesses Improve Marketing Effectiven
 
 <p>Location data is the key enabler to providing marketers with real-time insight on their intended target. Studying such data offers an in-depth understanding of consumer’s demography, their interests, as well as their whereabouts. These added insights have the ability to reveal daily routes, commutes, and even particular types of content in which they prefer to consume on a daily basis. Armed with such data insights, businesses can continue to build on their current business intelligence.  A more profound understanding of consumers will aide companies in making their store-wide merchandise selections while improving their competitive appeal with marketing solutions aimed at defined audiences.</p>
 
-<h4 style="text-align:left; font-size:18px;">The Role Location Intelligence Plays in the Business Strategy</h4>
+<h2 style="text-align:left; font-size:18px;">The Role Location Intelligence Plays in the Business Strategy</h2>
 
 <p>Location intelligence transforms data into actionable insight that provides businesses with the knowledge necessary to improve a firm’s operational performance. By employing location analytics, businesses can more efficiently and quickly implement data into action, achieve tangible results and gain a competitive advantage. Some major roles that location intelligence will prove to play in a firm’s marketing strategy include:</p>
 <ul class="listing" >
@@ -133,12 +81,12 @@ $title ='How Location Intelligence Helps Businesses Improve Marketing Effectiven
 <p>For example, consider a beverage company. This beverage company is looking to increase its sales and to maximise its sales force efficiency. Ultimately, the company is targeting a total of a million potential consumers, which include bars and restaurants within the Asia-Pacific region. The sales force consists of a total of 500 sales representatives. Bearing these numbers in mind, each and every sales rep is therefore required to visit 2,000 potential clients; or broken down further, that is eight to ten potential consumers every working business day. </p>
 
 <p>The optimal sales productivity solution in this scenario would enhance territory coverage models and make routes more efficient for the representatives, not to mention prioritise the most profitable potential clients first. Location intelligence offers a better insight into such location-based relationships and geographical context. These types of solutions help businesses to enhance their predictive analytics, modeling potential outcomes to improve their tactical marketing campaign and augment sales planning.</p>
-<h4 style="text-align:left; font-size:18px;">Location-Based Relationships</h4>
+<h2 style="text-align:left; font-size:18px;">Location-Based Relationships</h2>
 
 <p>It is critical that businesses take advantage of location-based relationships that are found within CRM data. For example, if businesses can understand where existing or potential consumers are in relation to a precise point-of-sale, this data will help to uncover how far traveled in order to reach the store location. It will help to map exactly where these consumers are in relation to the store, in addition to evaluating market penetration and so much more. </p>
 <p>With better insights into their consumer location, marketers can more effectively and efficiently run marketing campaigns. With such understanding, these campaigns will run across the appropriate media, in the exact place they should, at just the exact moment they should be, in order to reach target consumers.</p>
 
-<h4 style="text-align:left; font-size:18px;">The bottom line</h4>
+<h2 style="text-align:left; font-size:18px;">The bottom line</h2>
 <p>Location intelligence plays an optimal role in allowing enterprise and merchants to overcome previous market impossibilities. Collecting and analysing mobile location data enables them to make effective and efficient marketing decisions like they have never been able to before.</p>
 <p>This is the dawn of a new age, as marketers can use the knowledge gained through location intelligence to more appropriately allocate their spending from across multiple channels to assigning it to specific moments in time. Location data now makes it possible for marketers to understand consumers at a much more intimate level, target them with pertinent messaging across relevant channels, measure the impact that such real-time targeting has on the consumer, and to stay relevant to target audience by broadening business intelligence through consumer insights.</p>
 

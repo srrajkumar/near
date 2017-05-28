@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include("../includes/_config.php");  
 $meta_title = ' Location Data Analytics | Real World Insights | Consumers | Attribution | Retail Analytics';
 $meta_desc = 'In this blog, Anil Mathews, Founder & CEO at Near discusses the "5 ways to use real-world insights and data analytics to engage with consumers visiting stores" for Retail marketers. Reach out to us to know how our location data and analytics work for your company.';
 $title ="5 ways to use real-world insights and data analytics to engage with consumers visiting stores";
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Retail Analytics, Location Data, Anil Mathews, Attribution Measurement, ROI Measurement, Retail marketers, Real-world Insights, Consumer Insights, Data Analytics, Consumer Analytics, SaaS products, Competitor insights, footfall, consumer journey, in-store proximity, in-store conversion" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/5-ways-to-use-real-world-insights-and-data-analytics-to-engage-with-consumers-visiting-stores.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -92,7 +40,7 @@ $title ="5 ways to use real-world insights and data analytics to engage with con
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/5-ways-to-use-real-world-insights-and-data-analytics-to-engage-with-consumers-visiting-stores.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											 
 
 <p>Consumer-centricity and one-to-one relationship building are now core concepts of modern marketing, so getting to know the consumer is vital for retail brands. But we all know this can be challenging in an offline environment. </p>
@@ -104,33 +52,33 @@ $title ="5 ways to use real-world insights and data analytics to engage with con
 
 <p>Here are five ways you can use real-world insights and data analytics to understand and engage with the consumers who visit your stores: </p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">1.	Understand in-store footfall  </h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">1.	Understand in-store footfall  </h2>
 
 <p>It is not enough to know how many people visited a store. You need to know who they are, where they came from, when they visited, what marketing tactics they have been exposed to, and how they behave while they are in store.  </p>
 <p>Using unique device identifiers, real-time data can provide that level of understanding, allowing a truly granular insight into in-store visitors.      </p>
 
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">2.	Analyze competitor footfall </h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">2.	Analyze competitor footfall </h2>
 
 <p>As well as gaining an insight into the visitors to your own stores, you can use real-world analytics to monitor other retail locations and understand what your competitors are doing.</p>
 <p>Inaccurate assumptions and second-guessing become a thing of the past when you can compare your competitors’ footfall data with your own to see where you are leading and where you perhaps need to put in more effort. </p>
 <p>You can discover what engages your competitors’ consumers and use this data to enhance your own offering. One marketer recently told me that access to real-time competitor insights is like having a “cheat-code for my favorite game.”    </p>
 
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">3.	Discover who your consumers are  </h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">3.	Discover who your consumers are  </h2>
 
 <p>As stated by the chief marketing officer of a global quick-service restaurant chain, “Numbers are useless if we can’t act on them.” </p>
 <p>When combined with external data sources, mobile data can provide an in-depth view of the consumer including demographic data such as their age, gender and income level, as well as their interests, habits, routines, preferences and purchase history. </p>
 <p>The insights provided by real-world data are continually updated, enabling personalized messaging to be adapted and optimized as consumer tastes evolve. </p>
 
-<h4 style="text-align: left; font-size: 18px; margin-bottom:0px;">4.	Piece together the consumer journey </h4>
+<h2 style="text-align: left; font-size: 18px; margin-bottom:0px;">4.	Piece together the consumer journey </h2>
 <p>Knowing where a consumer came from when they arrive in store, and where they go when they leave can provide you with valuable insight. </p>
 <p>Most marketers I speak to tell me the biggest pain point is finding consumers who did not buy – those who walked in but bought from somewhere else. </p>
 <p>Figuring out what consumers do outside your doors is notoriously difficult, but real-time insights can piece together the puzzle. </p>
 <p>As well as the physical shopping journey, data analytics can help you understand how consumers switch between online and offline channels and determine their place on the path to purchase.</p>
 
 
-<h4 style="text-align: left; font-size: 18px; margin-bottom:0px;">5.	Engage the consumer in real-time </h4>
+<h2 style="text-align: left; font-size: 18px; margin-bottom:0px;">5.	Engage the consumer in real-time </h2>
 <p>When you know where your consumers are and what they are doing, you can enter into relevant real-time conversations to build relationships and boost loyalty, based on the consumers’ preferences and their position in the purchase journey. </p>
 <p>This ability is particularly relevant to social media where consumers are more expressive than ever before, sharing images, tweets and videos to make their views public. </p>
 <p>Understanding and analyzing social media interactions and responding quickly is critical when consumers are talking about your retail brand. </p>

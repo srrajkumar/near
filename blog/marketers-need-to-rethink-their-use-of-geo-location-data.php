@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); $meta_title = 'Geo-location Data | Consumer Insights | Attribution';
+<?php include("../includes/_config.php");  $meta_title = 'Geo-location Data | Consumer Insights | Attribution';
 $meta_desc = "Using geo-location for data driven marketing helps marketers optimize their spends. Near tells you how!";
 $title ='Marketers need to rethink their use of geo-location data';
 
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , Attribution Blog" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $meta_title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="http://www.near.co/images/blog/Think.png" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +37,7 @@ $title ='Marketers need to rethink their use of geo-location data';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/Think.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Being able to identify a consumer’s location to deliver relevant and contextualised ads in real time represents a game changer for advertisers, and research by mobileSQUARED has revealed that <a href="http://mobilesquared.co.uk/media/27790/Geolocation-in-Mobile-Advertising_White-Paper_2011.pdf" target="_blank">70-80%</a> of brands active in mobile are keen to utilise geo-location targeting. </p>
 
 <p>However, a lack of understanding about the technology is hindering marketers from taking full advantage of its capabilities – and even deterring some from implementing geo-targeting campaigns completely.  </p>
@@ -100,13 +48,13 @@ $title ='Marketers need to rethink their use of geo-location data';
 
 <p>So what do marketers need to consider when integrating geo-location data into their campaigns to fully maximise its benefits? </p>
 
-<h4 style="text-align:left;">Objectives first </h4>
+<h2 style="text-align:left;">Objectives first </h2>
 <p>As with any successful campaign, marketers should focus on the objectives and key deliverables they need to achieve from using geo-location. </p>
 <p>If the aim is to target a new audience and entice consumers, a brand could geo-fence areas around its stores and competitor outlets. Alternatively, a discount code or incentive could be served to existing consumers nearby to re-connect with them and reinforce brand affinity.  </p>
 <p>Geo-location data is also a great tool for building brand or product awareness, particularly when a physical store is not part of a campaign. For example, an automotive client might serve bespoke creative to a targeted audience that opens to reveal a 360-degree view of its latest model, enabling consumers to explore its features and schedule a test drive before they even enter a showroom. </p>
 <p>Geo-location allows brands to reach specific genders, ages or occupations. Of course data alone does not equal success, so it is imperative that marketers do not just focus on the largest numbers, but analyse patterns over a period of time using historical location data and content consumption behaviour to identify the right audience.</p>
 
-<h4 style="text-align:left;">Context and audience</h4>
+<h2 style="text-align:left;">Context and audience</h2>
 
 <p>Historic geo-location data can be used to analyse behaviour and discover where best to target the correct audience. </p>
 <p>High-profile events can prove particularly lucrative when used in combination with geo-location technology. For example, does the audience profile a brand is targeting match those who attend Wimbledon, or concerts at the O2? Analysing the data can prevent marketers from making incorrect assumptions about their audience. To illustrate this, we researched the audience breakdown across key events in Australia, including the F1 Grand Prix, the Australian Open and T20 Cricket. The data revealed that mobile users over 36 years old preferred the F1 and Australian Open, but nearly two-thirds of T20 Cricket attendees were aged between 25 – 35 years. </p>
@@ -114,7 +62,7 @@ $title ='Marketers need to rethink their use of geo-location data';
 <p>Time of day can play a role in successful geo-location campaigns. For example, a fitness brand might want to engage consumers while they are focused on exercise and out for their morning run. Combining location with time can help pinpoint audiences further to yield greater results. </p>
 <p>During peak sales periods such as Boxing Day, marketers can use historic data to identify an audience based on gender, age, occupation or a combination of factors, and target the busiest areas of footfall and optimum times of day.</p>
 
-<h4 style="text-align:left;">The Snapchat generation</h4>
+<h2 style="text-align:left;">The Snapchat generation</h2>
 
 <p>As the number of devices used by consumers increases – accelerated by the IoT and connected devices becoming mainstream ¬– marketers need to work harder to ensure viewability and maintain engagement. </p>
 <p>This means the ad creative served using location technology is just as important as other mediums. Rich media ads on mobile are <a href="https://econsultancy.com/blog/63119-rich-media-mobile-ads-are-four-times-as-effective-as-banner-ads-report/" target="_blank">four times more effective</a> than banner adverts, but it’s crucial the user is put at the heart of any experience for the best results.</p>
@@ -122,7 +70,7 @@ $title ='Marketers need to rethink their use of geo-location data';
 <p>In our recent campaign for Adidas, engagement was three times more impactful than its previous campaigns due to the targeted and immersive experience. The ad creative carried an ‘Explore’ option, which directed consumers to a custom-built rich  page where they could learn about the product features. The landing page had ‘Watch Video’ and ‘Shop Now’ options that allowed users to view the video to understand the full product features, enabled instant purchases, and encouraged social interactions with the brand.</p>
 <p>However, creativity shouldn’t come at the cost of making an ad accessible. If the consumer needs to change their screen orientation or search for additional information – such as the location of the nearest store – marketers will lose their attention. We have found that ad performance improves when consumers have this information at their fingertips. In fact, in a campaign for Beer Wine Spirits Australia, location-targeted mobile ads displaying store distance saw 71% higher engagement levels compared with the same ads that did not include distance information.</p>
 
-<h4 style="text-align:left;">Attributing the consumer journey</h4>
+<h2 style="text-align:left;">Attributing the consumer journey</h2>
 
 <p>Measuring mobile campaigns is challenging because of the cookie-less environment. Some marketers have looked to Apple’s IDFA system for tracking on iOS and Google ID for Android, but used in isolation these do not provide a full picture of the customer journey.</p>
 

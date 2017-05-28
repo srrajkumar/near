@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include("../includes/_config.php");  
 $meta_title = 'Location Intelligence | Mobile Location Data | Consumer Insights | Data Driven Targeting | Attribution Measurement | APAC Brands';
 $meta_desc = "This blog post highlights the key points that brands in APAC should consider in today's data-driven world. Reach out to us to see how we can put our location data work for your brand.";
 $title ='5 Tips APAC Marketers Should Consider in Data-Driven Targeting';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , potential technology" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +37,7 @@ $title ='5 Tips APAC Marketers Should Consider in Data-Driven Targeting';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Media planning has become a bigger challenge as marketers and agencies become more sophisticated with their data use.</p>
 
 <p>Today, they tap research and insights from mobile data to ascertain and curate specific audiences before running campaigns. This not only helps them better plan and, as a result, get better results from their campaigns, they also get granular insights on consumers and competitors that help them take smarter business decisions.</p>
@@ -97,7 +45,7 @@ $title ='5 Tips APAC Marketers Should Consider in Data-Driven Targeting';
 
 <p>This is especially vital in Asia-Pacific, where consumer needs, behaviours, tastes, and cultures change drastically from market to market. To use data effectively, and better improve their efforts and results, it is essential they consider the following in their data strategy: </p>
 
-<h4 style="text-align:left; font-size:18px;">1) Your data must be fresh</h4>
+<h2 style="text-align:left; font-size:18px;">1) Your data must be fresh</h2>
 
 <p>Historical data does have its uses; but real-time data is much more powerful because it shows up-to-the-minute information on consumer preferences and trends. This allows marketers to tailor their strategies to address these preferences.</p>
 
@@ -107,7 +55,7 @@ $title ='5 Tips APAC Marketers Should Consider in Data-Driven Targeting';
 <p>Or, an eatery using past buying patterns to predict the kinds of food their customers lean towards at different times of the year may be missing out on the sales they could be leveraging, by using fresh data sources to reveal the dynamic buying behaviour of their patrons.</p>
 <p>No matter the business case, there is really no industry that cannot benefit from using real-time data to predict, analyse, and market to their customers in real time.</p>
 
-<h4 style="text-align:left; font-size:18px;">2) Use the right medium</h4>
+<h2 style="text-align:left; font-size:18px;">2) Use the right medium</h2>
 
 <p>There is so much information coming from mobile data that brands simply can’t use it all, and they shouldn’t have to. They need to find the right insights, such as audience profiles, customer engagement, and foot traffic, that fit the audience they’re targeting.</p>
 
@@ -116,7 +64,7 @@ $title ='5 Tips APAC Marketers Should Consider in Data-Driven Targeting';
 
 <p>Considering the omnipresent nature of smartphones, mobile data is very valuable to extract these customer insights.</p>
 
-<h4 style="text-align:left; font-size:18px;">3) Know thy consumer</h4>
+<h2 style="text-align:left; font-size:18px;">3) Know thy consumer</h2>
 
 <p>Understanding what consumers want is vital to marketing and overall business success. Marketers must carefully analyse why a consumer bought their product, instead of going to a competitor, what they were doing when they made the purchase, and what other actions they engaged in before and after the purchase.</p>
 
@@ -124,13 +72,13 @@ $title ='5 Tips APAC Marketers Should Consider in Data-Driven Targeting';
 
 <p>In Asia-Pacific, it’s also vital to understand the various consumer markets because these trends can change so drastically. Marketing strategies that work in Hong Kong, for example, may be useless in Malaysia or Thailand. It’s all about cultural perspective and knowing how consumers from each area behave in the market.</p>
 
-<h4 style="text-align:left; font-size:18px;">4) Invest in data products</h4>
+<h2 style="text-align:left; font-size:18px;">4) Invest in data products</h2>
 
 <p>Consumers interact with a brand through various platforms, devices, and channels. Linking all these engagement points will allow brands to better understand how to reach their audience and increase opportunities.</p>
 
 <p>This can be very challenging because companies collect a huge amount of data every day. It is, however, still achievable by leveraging new technologies that allow marketers to fuse various data sets, like demographics, interest, location, and CRM. The benefits of doing so certainly outweigh the cost of acquiring this technology.</p>
 
-<h4 style="text-align:left; font-size:18px;">5) Measure the impact of your strategy</h4>
+<h2 style="text-align:left; font-size:18px;">5) Measure the impact of your strategy</h2>
 
 <p>Before marketers launch their marketing strategy, they can use the data on hand to experiment and test potential marketing tools and plans. The insights will allow them to determine just how effective their strategies are.</p>
 <p>Marketers need to do as much A/B testing as they can for each campaign and for each medium, audience, and geographical location. Once they have measured the impact of their campaign, and compared it to others, they can optimise their marketing plans to reach a larger audience with reduced spend.</p>

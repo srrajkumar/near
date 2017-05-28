@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include('../includes/_config.php');
 $meta_title = 'Location Intelligence | Mobile Data | IoT Data | Wearables Data | Marketing Strategy | Business Decisions';
 $meta_desc = "This blogpost by Near discusses the business opportunities of location intelligence. Contact us to see how we can put our location intelligence to work for your company.";
 $title ='Why businesses need to wake up to the opportunity of location intelligence';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , potential technology" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-intelligence.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +37,7 @@ $title ='Why businesses need to wake up to the opportunity of location intellige
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-intelligence.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Sometimes, everyday things become so familiar they almost disappear. The brain files them away as given entities and we sleepwalk past — seeing without noticing.</p>
 
 <p>One prime example of this is data. Companies have become so accustomed to using it across each element of their business — from tracking purchases to who their customers are — that they have stopped looking beyond the obvious to see the emerging opportunities. As a result, many have yet to leverage a rapidly growing data source that can transform granular consumer insights into actionable business decisions: location intelligence.</p>
@@ -100,7 +48,7 @@ $title ='Why businesses need to wake up to the opportunity of location intellige
 
 
 
-<h4 style="text-align:left; font-size:18px;">The importance of ‘where’ for businesses</h4>
+<h2 style="text-align:left; font-size:18px;">The importance of ‘where’ for businesses</h2>
 
 <p>Location intelligence adds crucial context to audience information that helps businesses to achieve maximum relevance. It can be drawn from a range of sources that bring depth and diversity to organisational processes, such as smart Internet of Things (IoT) devices, wearables, mobile phones, WiFi routers, beacons, and navigation providers.</p>
 
@@ -108,7 +56,7 @@ $title ='Why businesses need to wake up to the opportunity of location intellige
 <p>In marketing for example, its ability to map individual habits — such as where consumers shop, what time they commute, and when they use their mobile devices — enables brands to boost conversions by fine-tuning strategy and engaging audience interest. Armed with the insight it produces, marketers can identify the best channel, time and place to target individuals, as well as personalising their messages to enhance impact.</p>
 <p>For the wider business community, the most important aspect of location intelligence is the granular understanding it offers of both individuals, and the entire consumer base. For instance, broader use cases could include analysing commuter patterns to improve the efficiency of city planning.</p>
 
-<h4 style="text-align:left; font-size:18px;">So what is location intelligence?</h4>
+<h2 style="text-align:left; font-size:18px;">So what is location intelligence?</h2>
 
 <p>Location intelligence is the information that comes from blending geospatial data with business insight and using cartographic tools to make sense of the relationships between consumer data, and geography.</p>
 
@@ -117,7 +65,7 @@ $title ='Why businesses need to wake up to the opportunity of location intellige
 
 <p>This advanced new software can pull in an array of data from various analytical sources and generate precise, actionable insights that improve overall strategy and performance.  In this way, businesses are not only able to cut-through the chaotic data cloud to find the data they need, but can also put it into action immediately — keeping them consistently ahead of competitors and in step with their user base.</p>
 
-<h4 style="text-align:left; font-size:18px;">How can location intelligence slot into business models?</h4>
+<h2 style="text-align:left; font-size:18px;">How can location intelligence slot into business models?</h2>
 
 <p>Location intelligence has a limitless array of applications that extend far beyond the realm of marketing and more sectors are starting harness its business potential. In particular, its power to connect geographical areas and individual activity is already helping a raft of industries to improve processes and consumer satisfaction.</p>
 
@@ -125,7 +73,7 @@ $title ='Why businesses need to wake up to the opportunity of location intellige
 
 <p>The complete picture location intelligence offers of behaviour, movement and habits is also creating a foundation for greater organisational efficiency. Retailers and banks, for instance, are drawing upon its insights into footfall to determine the best locations to build stores and branches that reach their target demographic. </p>
 
-<h4 style="text-align:left; font-size:18px;">How to use location insight effectively  </h4>
+<h2 style="text-align:left; font-size:18px;">How to use location insight effectively  </h2>
 
 <p>The biggest challenge with location intelligence is also one of its assets: the sheer volume of data sources it can collate and compare to produce meaningful insights.</p>
 

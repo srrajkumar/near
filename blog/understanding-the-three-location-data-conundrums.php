@@ -1,77 +1,25 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include('../includes/_config.php');
 $meta_title = 'Location Data Accuracy | Data Sources | Location Intelligence | Attribution';
 $meta_desc = " In 2016, understanding the implications of location data quality and the associated location intelligence is necessary for brands to make right business decisions. This blog post highlights how Near addresses the location data inaccuracy issue by also providing some tips for brands to follow.";
 $title ='Understanding the 3 Location Data conundrums';
 ?>
-
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content="Mobile Marketing Blog , potential technology" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/understanding-the-three-location-data-conundrums.jpg'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +37,7 @@ $title ='Understanding the 3 Location Data conundrums';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/understanding-the-three-location-data-conundrums.jpg'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>With the increasing adoption of mobile by most brands, utilising location data to understand and reach consumers better is essential in 2016. However, understanding the implications of location data quality and the associated location intelligence is necessary for correct business decisions.</p>
 
 <p>First, brands must ask themselves how location signals about a consumer journey can play a role in their business strategies. Availability of location signals can guide audience building, audience behavior monitoring, provide insights about consumer activity in the physical world, and track, measure post-campaign activity in the physical world to name a few key use-cases. Furthermore, combining location signals with other data sources can guide broader business decisions.</p>
@@ -102,7 +50,7 @@ $title ='Understanding the 3 Location Data conundrums';
 <li>Differential level of accuracy for different brand objectives</li>
 </ul>
 
-<h4 style="text-align:left; font-size:18px;">Identifying the same user across multiple location data sources</h2>
+<h2 style="text-align:left; font-size:18px;">Identifying the same user across multiple location data sources</h2>
 
 <p>With the exponential growth in use of mobile and wearable technology and the supporting infrastructure, location data about consumers may be gathered via apps on their devices (apps get their data via GPS sensors on the device), browser streams (with geolocation resolved via IP addresses), static sensors at fixed physical locations (such as cell towers, hotspots, beacons), point-of-sale systems and data from telcos. However, synthesising a holistic, accurate and reliable profile of a consumer from all these sources of data is a complex problem for every location data player. </p>
 
@@ -119,7 +67,7 @@ $title ='Understanding the 3 Location Data conundrums';
 
 <p>Location data players need to have technology that resolves many of these errors and also need to guide the brands on the kind of location data relevant for their objective.</p>
 
-<h4 style="text-align:left; font-size:18px;">Solving for Location data accuracy </h4>
+<h2 style="text-align:left; font-size:18px;">Solving for Location data accuracy </h2>
 
 <p>If a brand is focussed on understanding & reaching the relevant audience, building the right audience is important, and hence, location accuracy is very important. Different data sources offer different levels of accuracy, and usually we see an inverse relation between accuracy and reach across data sources. At Near, we have studied the trade-offs between reach and accuracy and variations by source. Summarizing the same, in our platform, we see only 15% of the incoming raw data as accurate. The remaining data needs to be refined via a variety of techniques - using cartographic data, triangulation, multiple source linkages, etc. We use the above, as well as our proprietary data collected over 6 years to improve the utility of the incoming location data by 4 times.  </p>
 
@@ -128,14 +76,14 @@ $title ='Understanding the 3 Location Data conundrums';
 
 <p>At Near, our technology efforts  focus on addressing accuracy and scale of location data across different source types in real-time with different types of noise reduction. Considering the number of data source providers and the continuous evolution in this space, much remains to be done to standardise the location data accuracy issue at an industry level.</p>
 
-<h4 style="text-align:left; font-size:18px;">Differential level of location accuracy for different objectives</h4>
+<h2 style="text-align:left; font-size:18px;">Differential level of location accuracy for different objectives</h2>
 
 <p>It is important to note that each of the aforementioned use-cases can be effective at different levels of location data accuracy. Furthermore, location data accuracy requirements and effectiveness vary for use-cases based on whether the data usage is relevant at an individual level or at a segment/cohort level. </p>
 
 <p>For example, for targeting consumers near a store in real-time, location accuracy requirements can vary depending on the store’s location and the reach requirements. Consider a store in a shopping mall, it may be better to target visitors to the mall overall (a larger  area with more relaxed accuracy requirement), rather than folks close to the store. Furthermore, with this criteria, one can enhance the reach with appropriate look alikes. </p>
 
 <p>In contrast, for measuring attribution to the same store , we need to gather foot traffic analysis for a longer duration with a much tighter geographical area and increased accuracy requirements. For a store in an open mall area such as car dealership, the attribution accuracy requirements may be more relaxed. </p>
-<h4 style="text-align:left; font-size:18px;">The bottom line:</h4>
+<h2 style="text-align:left; font-size:18px;">The bottom line:</h2>
 <p>Industry consortium efforts vary by markets and use-cases. The primary focus is usually on ensuring that raw data is accurate to the best level possible and accounts for errors and context. Though well-intended, it is difficult to enforce across publishers. For other sources such as telcos and direct partnerships - no well established standards or metrics exist. At Near, we focus on assessing the quality of incoming data and ensuring that appropriate data when multiple sources are mixed is used for the applicable use cases.</p>
 
 <p>Given this, what does it mean for a brand to find the right location partner.  This means sourcing a player who understands the data from cradle to grave and also can educate you on the appropriate quality of data to fulfil your use case.  A partner who understands the technology and also knows how to put the data to use - knows the pitfalls and variations in use-cases - is essential. In our experience, very few location data players understand the technology aspects and also have worked with the gamut of use-cases possible and understand effectiveness of location data in the real world.</p>

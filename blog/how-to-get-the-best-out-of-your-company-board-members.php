@@ -1,77 +1,26 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); 
+<?php include('../includes/_config.php');
 $meta_title = ' How to get the best out of your company’s board members | Anil Mathews | Ambient Intelligence Platform';
 $meta_desc = " In this blog, Anil Mathews, Founder and CEO of Near shares his tips how to get the best out of your company's advisory or board members. Reach out to us at www.near.co to talk or meet with our experts!";
 $title ='How to get the best out of your company’s board members';
 ?>
 
-<!DOCTYPE html>
-<html class="background-100-e">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title><?php echo $meta_title; ?></title>
-    <meta name="title" content="<?php echo $meta_title; ?>" />
-    <meta name="description" content="<?php echo $meta_desc; ?>" />    
-    <meta name="KEYWORDS" content=" Advisory Board, Board Members, Global Start-ups, Start-up Culture, Ambient Intelligent, Near Leadership, Data Experts, Data Platforms, Data Products, Cross-device data, Omni-Channel attribution, location data, location analytics, attribution analytics, ROI measurement, Data products, SaaS products, SaaS platform, Allspark,  Real-time attribution, attribution data,  Data-Driven Decisions, Consumer Journeys, Unified Consumer, Omni-channel marketing, Data Intelligence, Cross-Device Data, DaaS API, Data Analyses" />
-    <meta name="AUTHOR" content="Near" />
-    <meta name="RATING" content="General" />
-    <meta name="ROBOTS" content="index, follow" />
-    <meta name="REVISIT-AFTER" content="30 days" />
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('blog/how-to-get-the-best-out-of-your-company-board-members.png'); ?>" />
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
+<head>
 	<?php include('../includes/_head.php'); ?>
-	<link rel="stylesheet" href="<?php CSS('filter.css');?>" />
-    <link rel="stylesheet" href="<?php CSS('social-buttons.css');?>">	
-	</head>
-	<body class="state1 background-100-e">
-		<!-- BEGIN: Top menu -->
-		<?php include('../includes/_header.php'); ?>
-		<!-- END: Top menu -->
-        <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view"></div>
-			<ul class="loader">
-				<!--li class="background-100-d"></li>
-				<li class="background-100-d"></li>
-				<li class="background-100-d"></li-->
-			</ul>
-		</div>
-		<div class="overlay-window map-overlay colors-f background-95-f">
-			<div class="overlay-control background-90-f">
-				<a class="cross" href="#"></a>
-			</div>
-			<div class="overlay-view">
-				
-			</div>
-		</div>
-		<div class="gate colors-e background-solid">
-			<div class="gate-bar background-highlight-e"></div>
-			<ul class="loader">
-				<!--li class="background-100-g"></li>
-				<li class="background-90-c"></li>
-				<li class="background-100-f"></li-->
-			</ul>
-		</div>
+	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+</head>
+
+   <body>
+	<div class="preloader"></div>
+	<?php include('../includes/_navigation.php'); ?>
+		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
-	
-            
-            <div class="view sub-banner">
-        <div class="overlay-vdo2" ></div>
-				<img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" /><img alt class="bg" src="<?php IMAGE('bg-blog.png');?>" />
-				<div class="content one-third-size colors-e background-60" style="z-index:2">
-					<div class="container">
-						<h2><?php echo $title; ?></h2>
-						<!--<p class="title">Policy</p>-->
-					</div>
-				</div>
-			</div>
-		<section>
-			<div class="view">
+		<div class="view newsroom" style="margin-top: 100px;">
 				<div class="content  colors-e background-90-e blog" id="main-content">
 					<div class="container">
 						<div class="row"><?php include('../includes/_blog-filter.php'); ?>
@@ -89,7 +38,7 @@ $title ='How to get the best out of your company’s board members';
 											<div class="post-image">
 												<img class="fluid-width" src="<?php IMAGE('blog/how-to-get-the-best-out-of-your-company-board-members.png'); ?>" alt="">
 											</div>
-											<h4 style="text-align:left;"><?php echo $title; ?></h4>
+											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>It’s essential for the board members to work together as an efficient team – this means the first action for any CEO is defining everyone's roles.</p>
 
 
@@ -100,7 +49,7 @@ $title ='How to get the best out of your company’s board members';
 <p>If CEOs want to get the biggest portion of that time, and the best out of their board members, they must ensure everyone is dedicated to the company’s success. And they’ll need to be prepared for the challenge of sustaining motivation – as with a long sales cycle, keeping individual interest strong requires continuous relationship building.</p>
 <p>So, how can CEOs achieve all of this? There’s no stock formula for success, but over the years I’ve found there are ways to help drive it:</p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">1. Communicate effectively</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">1. Communicate effectively</h2>
 
 <p>It’s essential for the board members to work together as an efficient team. This means the first order of business for any CEO is defining the role of each of the board members – including their own role – and making sure it is clearly understood. A secondary but equally vital part of this understanding is communicating business activities.</p>
 
@@ -111,20 +60,20 @@ $title ='How to get the best out of your company’s board members';
 
 
 
-<h4 style="text-align:left; font-size:18px; margin-bottom: 0px;">2. Leave your ego at the door</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">2. Leave your ego at the door</h2>
 
 <p>As the CEO, it’s crucial to maintain control of the business to keep things running smoothly, but that control shouldn’t be unyielding. This makes it paramount for ego and work to be firmly separate – remember the board is a valuable resource to help you steer the company in the right direction.</p>
 <p>If you make a mistake or need advice, don’t be afraid to consult the board; not only will this enable you to find a solution faster, but it will show you are human. It is also worthwhile regularly checking in with the board members for general feedback on how the business is going, strategic decisions, or your own performance.</p>
 <p>This opens up a two-way conversation that promotes honesty, provides you with useful perspectives, and prevents any unforeseen issues from arising in the future.</p>
 
 
-<h4 style="text-align:left; font-size:18px; margin-bottom:0px;">3. Get to know your board</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom:0px;">3. Get to know your board</h2>
 
 <p>Board members are individuals with unique abilities and quirks, and it’s impossible to make the most of them without getting to know each and every one. You’ll find that the more time you spend with your board members, the more you understand what they bring to the table and they in turn will have a greater inclination to assist you.</p>
 <p>What’s more, you don’t always have to meet in the boardroom; you could bring flexibility to relationships by communicating via Skype or visiting an event together.</p>
 <p>For example, I took my board member to a week-long roadshow, which was by far the most exciting and fruitful use of our time. Not only did it provide an opportunity to develop relationships, but it also re-affirmed their understanding of our business strategy, allowed them to see how we work first-hand, and bolstered their enthusiasm for what we do.</p>
 
-<h4 style="text-align:left; font-size:18px; margin-bottom:0px;">4. Hold valuable board meetings</h4>
+<h2 style="text-align:left; font-size:18px; margin-bottom:0px;">4. Hold valuable board meetings</h2>
 
 <p>When boardroom meetings are essential, it is important for the CEO to make them as swift and efficient as possible. To make sure everyone is prepared and on the same page when the meeting starts, it’s advisable to send out relevant materials at least a couple of days in advance.</p>
 <p>And to guard against wasting time, it’s also a wise plan to avoid an endless series of updates – during meetings it’s best to give an overview of general activities then dive into areas where the board can offer value: strategic issues and solutions for different business functions. Minor updates should be shared, but keep them brief when time is ticking.</p>

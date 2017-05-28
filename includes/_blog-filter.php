@@ -6,7 +6,7 @@
 			</div>
 			<ul class="submenu">
 				<li>
-					<a href="<?php echo SITE_URL; ?>blogs/anil-mathews-blog.php" title="Anil Mathews">
+					<a href="<?php echo SITE_URL; ?>blog/anil-mathews-blog.php" title="Anil Mathews">
 						<div class="image-author"><img src="<?php IMAGE('bb.png'); ?>" class="au-image anil" alt="Anil Mathews"/>
 						</div>
 						<div class="author-content"><span class="au-name">Anil Mathews</span>
@@ -16,7 +16,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo SITE_URL; ?>blogs/shobhit-shukla-blog.php" title="Shobhit Shukla">
+					<a href="<?php echo SITE_URL; ?>blog/shobhit-shukla-blog.php" title="Shobhit Shukla">
 						<div class="image-author"><img src="<?php IMAGE('bb.png'); ?>" class="au-image shobhit" alt="Shobhit Shukla"/>
 						</div>
 						<div class="author-content"><span class="au-name">Shobhit Shukla</span>
@@ -26,7 +26,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo SITE_URL; ?>blogs/ken-parnham-blog.php" title="Ken Parnham">
+					<a href="<?php echo SITE_URL; ?>blog/ken-parnham-blog.php" title="Ken Parnham">
 						<div class="image-author"><img src="<?php IMAGE('bb.png'); ?>" class="au-image ken" alt="Ken Parnham"/>
 						</div>
 						<div class="author-content"><span class="au-name">Ken Parnham</span>
@@ -36,7 +36,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo SITE_URL; ?>blogs/cameron-curtis-blog.php" title="Cameron Curtis">
+					<a href="<?php echo SITE_URL; ?>blog/cameron-curtis-blog.php" title="Cameron Curtis">
 						<div class="image-author"><img src="<?php IMAGE('bb.png'); ?>" class="au-image cam" alt="Cameron Curtis"/>
 						</div>
 						<div class="author-content"><span class="au-name">Cameron Curtis</span>
@@ -46,7 +46,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo SITE_URL; ?>blogs/smriti-kataria-blog.php" title="Smriti Kataria">
+					<a href="<?php echo SITE_URL; ?>blog/smriti-kataria-blog.php" title="Smriti Kataria">
 						<div class="image-author"><img src="<?php IMAGE('bb.png'); ?>" class="au-image smriti" alt="Smriti Kataria"/>
 						</div>
 						<div class="author-content"><span class="au-name">Smriti Kataria</span>
@@ -57,7 +57,7 @@
 				</li>
 				
 				<li>
-					<a href="<?php echo SITE_URL; ?>blogs/madhusudan-therani-blog.php" title="Madhusudan Therani">
+					<a href="<?php echo SITE_URL; ?>blog/madhusudan-therani-blog.php" title="Madhusudan Therani">
 						<div class="image-author"><img src="<?php IMAGE('bb.png'); ?>" class="au-image madhu" alt="Madhusudan Therani"/>
 						</div>
 						<div class="author-content"><span class="au-name">Madhusudan Therani</span>
@@ -67,7 +67,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo SITE_URL; ?>blogs/the-near-team-blog.php" title="The Near Team">
+					<a href="<?php echo SITE_URL; ?>blog/the-near-team-blog.php" title="The Near Team">
 						<div class="image-author"><img src="<?php IMAGE('bb.png'); ?>" class="near-team" alt="The Near Team"/>
 						</div>
 						<div class="author-content"><span class="au-name">The Near Team</span>
@@ -82,53 +82,53 @@
 			<div class="link accord">Month<i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
 			</div>
 			<ul class="submenu drob-list1">
-			<li><a href="<?php echo SITE_URL; ?>blogs/may2017.php" title="May 2017">May 2017</a>
+			<li><a href="<?php echo SITE_URL; ?>blog/may2017.php" title="May 2017">May 2017</a>
 				</li>
-			<li><a href="<?php echo SITE_URL; ?>blogs/january2017.php" title="January 2017">January 2017</a>
+			<li><a href="<?php echo SITE_URL; ?>blog/january2017.php" title="January 2017">January 2017</a>
 				</li>
-			<li><a href="<?php echo SITE_URL; ?>blogs/december2016.php" title="December 2016">December 2016</a>
+			<li><a href="<?php echo SITE_URL; ?>blog/december2016.php" title="December 2016">December 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/november2016.php" title="November 2016">November 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/november2016.php" title="November 2016">November 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/october2016.php" title="October 2016">October 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/october2016.php" title="October 2016">October 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/september2016.php" title="September 2016">September 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/september2016.php" title="September 2016">September 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/july2016.php" title="July 2016">July 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/july2016.php" title="July 2016">July 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/june2016.php" title="June 2016">June 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/june2016.php" title="June 2016">June 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/april2016.php" title="April 2016">April 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/april2016.php" title="April 2016">April 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/march2016.php" title="March 2016">March 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/march2016.php" title="March 2016">March 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/february2016.php" title="February 2016">February 2016</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/february2016.php" title="February 2016">February 2016</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/december2015.php" title="December 2015">December 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/december2015.php" title="December 2015">December 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/november2015.php" title="November 2015">November 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/november2015.php" title="November 2015">November 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/october2015.php" title="October 2015">October 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/october2015.php" title="October 2015">October 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/september2015.php" title="September 2015">September 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/september2015.php" title="September 2015">September 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/august2015.php" title="August 2015">August 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/august2015.php" title="August 2015">August 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/july2015.php" title="July 2015">July 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/july2015.php" title="July 2015">July 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/june2015.php" title="June 2015">June 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/june2015.php" title="June 2015">June 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/february2015.php" title="February 2015">February 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/february2015.php" title="February 2015">February 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/january2015.php" title="January 2015">January 2015</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/january2015.php" title="January 2015">January 2015</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/august2014.php" title="August 2014">August 2014</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/august2014.php" title="August 2014">August 2014</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/june2014.php" title="June 2014">June 2014</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/june2014.php" title="June 2014">June 2014</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/january2014.php" title="January 2014">January 2014</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/january2014.php" title="January 2014">January 2014</a>
 				</li>
-				<li><a href="<?php echo SITE_URL; ?>blogs/december2013.php" title="December 2013">December 2013</a>
+				<li><a href="<?php echo SITE_URL; ?>blog/december2013.php" title="December 2013">December 2013</a>
 				</li>
 			</ul>
 		</li>
