@@ -1,43 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
-@font-face {
-  font-family: 'GothamRounded-Book';
-  src: url('../../fonts/GothamRounded-Book.eot?#iefix') format('embedded-opentype'),  
-  	   url('../../fonts/GothamRounded-Book.otf')  format('opentype'),
-	   url('../../fonts/GothamRounded-Book.woff') format('woff'),
-	   url('../../fonts/GothamRounded-Book.ttf')  format('truetype'), 
-	   url('../../fonts/GothamRounded-Book.svg#GothamRounded-Book') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'GothamRounded-Medium';
-  src: url('../../fonts/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),  
-  	   url('../../fonts/GothamRounded-Medium.otf')  format('opentype'),
-	   url('../../fonts/GothamRounded-Medium.woff') format('woff'), 
-	   url('../../fonts/GothamRounded-Medium.ttf')  format('truetype'), 
-	   url('../../fonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'NHaasGroteskDSPro-25Th';
-  src: url('../../fonts/NHaasGroteskDSPro-25Th.eot'); /* IE9 Compat Modes */
-  src: url('../../fonts/NHaasGroteskDSPro-25Th.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../fonts/NHaasGroteskDSPro-25Th.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../../fonts/NHaasGroteskDSPro-25Th.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../../fonts/NHaasGroteskDSPro-25Th.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../../fonts/NHaasGroteskDSPro-25Th.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-@font-face {
-  font-family: 'NHaasGroteskDSPro-55Rg';
-  src: url('../../fonts/NHaasGroteskDSPro-55Rg.eot'); /* IE9 Compat Modes */
-  src: url('../../fonts/NHaasGroteskDSPro-55Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../fonts/NHaasGroteskDSPro-55Rg.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../../fonts/NHaasGroteskDSPro-55Rg.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../../fonts/NHaasGroteskDSPro-55Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../../fonts/NHaasGroteskDSPro-55Rg.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
 body {line-height: 1;}
 ol, ul {list-style: none;}
@@ -67,13 +29,13 @@ p.success {font-family:'GothamRounded-Medium', sans-serif;  font-size: 14px;  co
 #company-street-address{display:none;}
 .float_left{float:left;	margin-right:20px; width:auto; padding-left:2px;}
 /** Form Styles **/
-input, textarea, select { font: 12px "GothamRounded-Medium"; letter-spacing:1px; width: 270px; padding: 4px 6px; margin: 0;  text-shadow:0px 0px 0px #000;  color: #000;border:none; outline: none; display: inline-block; position: relative; z-index: 2; border-radius: 3px;    -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out;}
+input, textarea, select { font-size: 12px; letter-spacing:1px; width: 270px; padding: 4px 6px; margin: 0;  text-shadow:0px 0px 0px #000;  color: #000;border:none; outline: none; display: inline-block; position: relative; z-index: 2; border-radius: 3px;    -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out;}
 input {height: 25px;}
 select {width: 267px; padding: 4px 6px;}
 textarea {width: 240px; overflow: hidden; background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(4%, #f4f4f4), to(#FFFFFF));  background: -moz-linear-gradient(top, #FFFFFF, #f4f4f4 1px, #FFFFFF 15px); padding-bottom:13px;}
 .field {margin: 11px 0; position: relative; width: 280px;}
-label {display: block; padding-right: 24px; float: left;color: #666;text-shadow:0px 0px 0px #666; text-align: right; font: 13px "GothamRounded-Medium";}
-.error, .tooltip {height: 16px; width: 200px; background-color: #FFCFCF; border: 1px solid #E5A3A3; font: 13px "GothamRounded-Medium"; color: #801B1B; padding: 8px 10px 8px 10px; margin-left: -2px; border-radius: 0 9px 9px 0;-moz-border-radius: 0 9px 9px 0;-webkit-border-radius: 0 9px 9px 0; -moz-box-shadow: 0 0 6px #ddd; -webkit-box-shadow: 0 0 6px #ddd;  z-index: 9999;}
+label {display: block; padding-right: 24px; float: left;color: #666;text-shadow:0px 0px 0px #666; text-align: right; font: 13px ;}
+.error, .tooltip {height: 16px; width: 200px; background-color: #FFCFCF; border: 1px solid #E5A3A3; font: 13px; color: #801B1B; padding: 8px 10px 8px 10px; margin-left: -2px; border-radius: 0 9px 9px 0;-moz-border-radius: 0 9px 9px 0;-webkit-border-radius: 0 9px 9px 0; -moz-box-shadow: 0 0 6px #ddd; -webkit-box-shadow: 0 0 6px #ddd;  z-index: 9999;}
 .tooltip {background: #F2F2F2; border-color: #DBDBDB; color: #666; display:none !important;}
 .overlay {display: none;  z-index: 10000; background-color: #fff;  width: 912px; padding: 24px; min-height: 200px; border: 1px solid #666; background: -webkit-gradient(linear, left top, left 30, from(#f1f1f1), color-stop(4%, #ffffff), to(#f4f4f4)); background: -moz-linear-gradient(top, #f4f4f4, #ffffff 1px, #f4f4f4 95%); border: 1px solid #dadada; border-radius: 5px;    -webkit-border-radius: 5px; -moz-border-radius: 5px; -webkit-box-shadow: 0px 1px 4px #ddd; -moz-box-shadow: 0px 1px 4px #ddd;}
 .overlay .close:before {content: 'X';}

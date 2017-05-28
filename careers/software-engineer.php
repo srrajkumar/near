@@ -15,9 +15,11 @@ $title ="Software Engineer";
 <style>
 h2{color:#ff1d25;}
 .post .post-body{padding-bottom:30px;}
+iframe {width: 100%; border:0;  height:450px; margin-top:30px;}
 	@media (min-width:320px) and (max-width:768px){ .full-size{padding-top:60px !important;} img.bann{width:100%;}}
 	@media (min-width:320px) and (max-width:991px){
-	.career-form{margin-top:-15px;}
+	.career-form{margin-top:-15px;}}
+
 	</style>
  </head>
 	<body class="career-sub">
@@ -98,9 +100,7 @@ h2{color:#ff1d25;}
                                               
                                                 <li class="active"><a href="<?php echo SITE_URL; ?>careers/software-engineer.php">Software Engineer (All Levels)</a></li>
                                            
-                                                
-                                                <!--li><a href="<?php echo SITE_URL; ?>careers/html-developer.php">HTML Developer</a></li>
-                                                <li><a href="<?php echo SITE_URL; ?>careers/regional-sales-lead-director.php">Regional Sales Lead/Director</a></li-->
+                                              
                                             </ul>  
                                            <a href="<?php echo SITE_URL; ?>engineering/"> <img src="<?php IMAGE('icon.png'); ?>" alt="" style="float:left;  margin-top: 20px;" />				                                      	<h4 style="padding-left:56px; padding-top:20px;">Check out our<br><span>Tech Blog</span></h4></a>
                                            <hr style=" border-top: 1px dashed #454545;" />
