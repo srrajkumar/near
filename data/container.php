@@ -96,7 +96,7 @@
           <img src="<?php IMAGE('data/icon-set-3/data-icon.png') ?>" />
           <p>Plug and Play into your existing products</p>
           <br><br>
-          <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">Privacy Policy</a>
+          <a href="<?php echo SITE_URL; ?>privacy" class="button button--primary button--rounded" style="margin-left: 0;">Privacy Policy</a>
           </div>
 
                 <div class="col col-md-8" style="right: 0">

@@ -191,7 +191,7 @@
       <img src="<?php IMAGE('culture/contact.png') ?>" />
     </div>
     <div class="col-md-6 left-arrow">
-      <h2>Contact</h2>
+      <h2>Contact Us</h2>
       <hr />
       <p class="col-md-12">Have any queries? Reach out to us now.</p>
       <a href="<?php echo SITE_URL; ?>contact" class="custom_btn">

@@ -331,9 +331,9 @@
     	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="600">
     		<a href="#" target="_blank">
 				<figure>
-					<img src="<?php IMAGE('research/subway.png'); ?>"/>
+					<img src="<?php IMAGE('case-study/virgin-active.png'); ?>"/>
 						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
-					<h1 class="title">Subway&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+					<h1 class="title">Virgin Active</h1>
 					<p>Case Studies</p>
 					<div class="description">
 						<span  class="custom_btn">

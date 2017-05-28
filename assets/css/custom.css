@@ -266,6 +266,7 @@ body{
 }
 .highlite span{
   color: #5c5c5c;
+  font-size:26px;
 }
 .custom_line{
   width: 100% !important;
@@ -661,7 +662,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 
 .banner-content{
   position: relative;
-  z-index: 2;
+  z-index: 10;
 }
 .banner-content div {
   overflow:hidden;
@@ -766,16 +767,17 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     display: inline-block;
     color: #1f64a0;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     width: 100%;
     height: 100%;
 }
 .whats-happening .col-sm-6 .spacing .center span{
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     color: #649db1;
     letter-spacing: 1px;
     margin-bottom: -15px;
+    padding-top:10px;
 }
 .whats-happening .col-sm-6:first-child{
     background-color: #444444;

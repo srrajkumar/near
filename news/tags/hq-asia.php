@@ -45,7 +45,7 @@
 											</div>
 											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/how-ambient-intelligence-is-changing-how-business-is-done.php">How Ambient Intelligence Is Changing How Business Is Done</a></h2>
 											
-											<p><em>HQ Asia spoke with Shobhit Shukla, our Co-founder & Chief Revenue Officer on the work the future of data and the role of leadership in a cutting-edge tech company...</em></p>
+											<p>HQ Asia spoke with Shobhit Shukla, our Co-founder & Chief Revenue Officer on the work the future of data and the role of leadership in a cutting-edge tech company...</p>
 											 
 											<a href="<?php echo SITE_URL; ?>news/how-ambient-intelligence-is-changing-how-business-is-done.php" class="button2 button2--primary button2--rounded">Read more</a>
 						<div class="post-tags styled-list">
