@@ -8,16 +8,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Near career Form</title>
-	<link href="<?php CSS('form/career.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="<?php CSS('neue-font.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('fontawesome/css/font-awesome.min.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('animate.css/animate.min.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('animate.css/delay.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('dist/css/bootstrap-custom.min.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('linecons/style.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('style.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('theme-custom.css'); ?>" />
-    <script type="text/javascript" src="<?php JS('jquery/dist/jquery.min.js'); ?>"></script>
+	<link href="<?php CSS_PATH('form/career.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="<?php CSS_PATH('linecons/style.css'); ?>" />
+   
     <script type="text/javascript" src="<?php JS('form/main.js'); ?>"></script>
     <script src="<?php JS('js-webshim/minified/polyfiller.js'); ?>"></script>
     <script> 
@@ -27,6 +21,7 @@
     </script>
 	<style>
 		input[type="submit"] { background:#ec222b !important; transition: all 0.5s ease 0s; box-shadow: 0 0 #DB1A21 inset;}
+		iframe{width: 100%; height: 275px; border: none;}
 		input[type="submit"]:hover{box-shadow: 0px -62px #DB1A21 inset; cursor:pointer;}
 		input, textarea, select { background: transparent;}
 			.field{width:320px;}
