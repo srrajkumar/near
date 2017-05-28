@@ -3417,6 +3417,7 @@ p{font-weight:normal;; letter-spacing:0.01em;}
 .team-card .contact-links a:hover{opacity:.5}
 .contact-links .fa-linkedin,.contact-links .fa-twitter,.contact-links .fa-medium{color:#ec222b!important;font-size:18px}
 .main-header a{    font-size: 24px !important;}
+.techblog.sidebar a{color:#db1a21 !important;}
 /* board */
 
 .board .img-circle {
@@ -3444,6 +3445,7 @@ p{font-weight:normal;; letter-spacing:0.01em;}
 .board p {
     font-size: 13px;
     margin-top: 11px;
+    margin-bottom: 60px;
 }
 .board a {
     text-decoration: none;
@@ -3466,5 +3468,11 @@ p{font-weight:normal;; letter-spacing:0.01em;}
 .board .space{
   margin:30px 0;
 }
+.board .custom_btn{left:0px;}
+.board .col-md-6:hover .custom_btn {
+    width: 140px;
+}
+.board .custom_btn .btn__text{width:140px;}
+.board .col-md-6:hover .custom_btn .icon svg{left:100px;}
 /* board */
 
