@@ -35,7 +35,7 @@ $title = "Fabric - Just the tool for continuous deployment";
 									
 									<div class="col-md-12 row" style="float:none; margin:0 auto;">
 									<div class="col-md-9 row">
-                                			<div style="margin-right: 50px">
+                                			<div style="margin-right: 50px;width: 95%;">
                                     <div class="tech-author"> <div style="float:right; margin-top:-4px;">
                                                 <a href="<?php echo SITE_URL; ?>engineering/fabric-just-the-tool-for-continuous-deployment.php" class="tech-nav-prev" title="Old"></a>
                                                 <a href="<?php echo SITE_URL; ?>engineering/location-intelligence-the-next-frontier.php" class="tech-nav-next" title="New"></a>
