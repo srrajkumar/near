@@ -14,7 +14,7 @@ $meta_keywords="Data-driven marketing blogs, Location intelligence, ambient inte
 	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
 </head>
 
-   <body>
+   <body class="newsroom-main">
 	<div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>

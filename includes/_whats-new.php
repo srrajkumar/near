@@ -7,7 +7,7 @@
         <div class="active item">
         <span class="news-red" style="margin-top: 10px;">Newsroom</span>
 					<span class="news-content">Ambient Intelligence for Businesses</span>
-					<span class="story">Shobhit Shukla in conversation with HQ Asia</span>
+					<span class="story">Shobhit Shukla in conversation <br>with HQ Asia</span>
       <a href="<?php echo SITE_URL; ?>news/how-ambient-intelligence-is-changing-how-business-is-done.php"  class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">READ MORE</span>
@@ -23,7 +23,7 @@
         <div class="item">
         <span class="news-red" style="margin-top: 10px;">Blog</span>
 					<span class="news-content">Get the best out <br>of your board members</span>
-					<span class="story">"Learn how to get the best out of your board members" by Anil Mathews</span>
+					<span class="story">"Learn how to get the best out of <br>your board members" by Anil Mathews</span>
      <a href="<?php echo SITE_URL; ?>blog/how-to-get-the-best-out-of-your-company-board-members.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">READ MORE</span>
@@ -39,7 +39,7 @@
         <div class="item">
         <span class="news-red" style="margin-top: 10px;">Video</span>
 					<span class="news-content">Near Engineering Team</span>
-					<span class="story">How the team is building the location graph of the world at Near</span>
+					<span class="story">How the team is building the location <br>graph of the world at Near</span>
 					<a href="<?php echo SITE_URL; ?>careers/index.php#tech-video" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">VIEW MORE</span>

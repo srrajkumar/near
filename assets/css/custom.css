@@ -3073,6 +3073,11 @@ a:focus{color:#ffffff}
 
 
 /*  Newsroom */
+.newsroom-main [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+    transition-property: inherit !important;
+    transform: inherit !important;
+}
 
 .post .post-meta .post-day {
     font-size: 70px;

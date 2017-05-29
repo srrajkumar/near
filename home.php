@@ -179,8 +179,8 @@
              
             <img alt="Cathay Pacific" src="<?php IMAGE('travel/cathay-pacific.png'); ?>" style="height:55px; margin-bottom: 30px;"  /> 
  <br class="des-add" />
-           	<img alt="British Airways" src="<?php IMAGE('travel/british-airways.png'); ?>" style="width:126px; height:auto; margin-bottom: 30px;" />
-            <img alt="American Airlines" src="<?php IMAGE('travel/american-airlines.png'); ?>" style="width:126px; height:auto; margin-bottom: 30px;"/> 
+           	<img alt="British Airways" src="<?php IMAGE('travel/british-airways.png'); ?>" style="width:160px; height:auto; margin-bottom: 30px;" />
+            <img alt="American Airlines" src="<?php IMAGE('travel/american-airlines.png'); ?>" style="width:160px; height:auto; margin-bottom: 20px;"/> 
 			    </div>
 			    
 			    <div role="tabpanel" class="tab-pane fade" id="tab8">
@@ -189,7 +189,7 @@
          
             <img alt="Vodafone" src="<?php IMAGE('telco/vodafone.png'); ?>"   /> 
             <img alt="Yes OPTUS" src="<?php IMAGE('telco/yes-optus.png'); ?>"   /> 
-            <img alt="U Mobile" src="<?php IMAGE('telco/u-mobile.png'); ?>"   />
+            <img alt="U Mobile" src="<?php IMAGE('telco/u-mobile.png'); ?>" style="width:110px; height:auto;margin-bottom:20px;"  />
             <img alt="Starhub" src="<?php IMAGE('telco/starhub.png'); ?>"  style="width:126px; height:auto; margin-bottom: 30px;" />
              <br class="des-add" />
             <img alt="Virgin" src="<?php IMAGE('telco/virgin.png'); ?>"    />
@@ -200,12 +200,12 @@
            
          
             <img alt="Disney" src="<?php IMAGE('lifestyle/disney.png'); ?>"    /> 
-            <img alt="Burberry" src="<?php IMAGE('lifestyle/burberry.png'); ?>" style="width:126px; height:auto; margin-bottom: 30px;" /> 
+            <img alt="Burberry" src="<?php IMAGE('lifestyle/burberry.png'); ?>" style="width:110px; height:auto; margin-bottom: 0px; position: relative; bottom:15px;" /> 
             <img alt="20th Century Fox" src="<?php IMAGE('lifestyle/20th-century-fox.png'); ?>"  />
             <img alt="Gucci" src="<?php IMAGE('lifestyle/gucci.png'); ?>"  style="width:126px; height:auto; margin-bottom: 30px;"   />
             <br class="des-add" />
-            <img alt="Sony Pictures" src="<?php IMAGE('lifestyle/sony-pictures.png'); ?>"  style="width:126px; height:auto; margin-bottom: 20px;position: relative;bottom: 10px;"  />
-            <img alt=" Under Armour" src="<?php IMAGE('lifestyle/under-armour.png'); ?>" />
+            <img alt="Sony Pictures" src="<?php IMAGE('lifestyle/sony-pictures.png'); ?>"  style="width:95px; height:auto; margin-bottom: 0px;"  />
+            <img alt=" Under Armour" src="<?php IMAGE('lifestyle/under-armour.png'); ?>" style="width:95px; height:auto; margin-bottom: 0px;"/>
 			    </div>
 			    
 			</div>
@@ -262,8 +262,8 @@
         
         	<div class="spacing">
 		       
-		        <div class="color-white" style="font-weight:400">NEAR</div>
-		        <div class="research-content">
+		        <div class="color-white" >NEAR</div>
+		        <div class="research-content" style="opacity:0.5">
 					AMBIENT INTELLIGENCE PLATFORM
 				</div>
 				

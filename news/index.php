@@ -13,7 +13,7 @@ $meta_keywords="Data driven marketing news, location data industry, Omni-channel
 	<?php include('../includes/_head.php'); ?>
 	<link rel="stylesheet" href="<?php CSS('page/jquery.snippet.min.css'); ?>" >
 </head>
-	<body>
+	<body class="newsroom-main">
 	<div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
