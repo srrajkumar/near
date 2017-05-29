@@ -14,6 +14,7 @@
       <span class="line line_three"></span>
       <span class="line line_four"></span>
       <span class="line line_five"></span>
+      <span class="line line_six"></span>
       <img src="<?php IMAGE('spin.png') ?>" alt class="spin" style="opacity: 0.7;" />
     </div>
 	</div>
