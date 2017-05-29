@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Near Investors - Believers in Ambient Intelligence Platform | Connected Data | Cross-Channel Marketing | Data-Driven Decisions | Consumer Insights | Unified Consumer View | SaaS Audience Product";
+$meta_desc="Here you will find Near's Investors & Board who believe in using Ambient Intelligence Platform & SaaS Products for Audience Insights, Attribution Analytics, Data-driven Marketing & Data-driven Decisions. Contact us to see how our SaaS product, Allspark can help in your strategy.";
+$meta_keywords="Near Investors, Near Board, believers in ambient intelligence, location data, connected data, data products, SAAS products, consumer insights, data-driven marketing, location analytics, data-driven decisions, enterprise products";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

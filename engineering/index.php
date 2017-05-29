@@ -4,9 +4,10 @@
 
   $i = rand(0, count($bg)-1); // generate random number size of the array
   $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-$meta_title = 'Near Tech Blog - Thought Leadership Pieces from our Location Intelligence Experts ';
-$meta_desc = " Near's tech blog section showcases our tech leader's opinion on various topics starting from bleeding-edge technologies in distributed systems, large-scale data processing pipelines, data storage to data sciences. Explore this section to stay up to date!";
+$meta_title = 'Near Tech Blog - Thought Leadership Pieces from our Location Intelligence Experts';
+$meta_desc = "Near's tech blog section showcases our tech leader's opinion on various topics starting from bleeding-edge technologies in distributed systems, large-scale data processing pipelines, data storage to data sciences. Explore this section to stay up to date!";
 $title ='Near Tech Blog - Thought Leadership Pieces from our Location Intelligence Experts ';
+$meta_keywords="Near Engineering, data platform, data products, location intelligence platforms, social data streams, wearables data, IoT data, mobile app data, data and technology blogs, location data tech blogs, mobile location, Allspark, Carbon, DaaS API, SaaS products";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

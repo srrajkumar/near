@@ -1,7 +1,7 @@
 <?php include("../includes/_config.php"); 
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Leadership | Game Changers | Data-Driven Decisions | Ambient Intelligence | Location Intelligence | Business Decisions | SaaS Audience Product | Data Platform";
+$meta_desc="Do you disrupt the status quo? Are you a perpetual work in progress? Then join our team at Near, where we use our SaaS audience product converging unique data from smart environments for Consumer Insights, Attribution and Data-Driven Business Decisions!";
+$meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, location intelligence platform, location data, spend data, game changers, mobile location, data-driven marketing, brands & enterprises, retailers, Unified consumer view";
 ?>
 
 

@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Near Blog - Thought leadership pieces on leveraging connected data from smart environments for broader business decisions";
+$meta_desc=" Near's blog section showcases our leaders' opinion on various connected data and technology topics and how insights from the data can help many brands in their data-driven decisions today.";
+$meta_keywords="Data-driven marketing blogs, Location intelligence, ambient intelligence, location data, cross-screen data, cross-channel marketing, consumer insights, data analytics, location analytics, real time audience insights, attribution measurement, footfall attribution, retail analytics, marketing and business decisions, attribution analytics, data-driven decisions";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

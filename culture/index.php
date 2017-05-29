@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title=" Near Culture - Believers in Work plus Life | Game Changers | Data Experts | SaaS product Experts | Ambient Intelligence Platform | Best Places to Work";
+$meta_desc="At Near, Culture is important to us. If a challenging work environment interests you, come join us to start your new career today!";
+$meta_keywords="Believers in Work plus Life, Near culture, fun at work, best rewards and remuneration, amazing leadership, go-getter, best places to work, Start-ups Culture, Global Startups";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

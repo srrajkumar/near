@@ -172,14 +172,15 @@
 			    
 			     <div role="tabpanel" class="tab-pane fade" id="tab7">
 			
-           
-           	<img alt="British Airways" src="<?php IMAGE('travel/british-airways.png'); ?>"  />
+          
             <img alt="Virgin" src="<?php IMAGE('travel/virgin.png'); ?>"  /> 
             <img alt="Expedia" src="<?php IMAGE('travel/expedia.png'); ?>"  /> 
             <img alt="Marriott" src="<?php IMAGE('travel/marriott.png'); ?>"  /> 
               <br class="des-add" />
-            <img alt="Cathay Pacific" src="<?php IMAGE('travel/cathay-pacific.png'); ?>"  /> 
-            <img alt="American Airlines" src="<?php IMAGE('travel/american-airlines.png'); ?>"/> 
+            <img alt="Cathay Pacific" src="<?php IMAGE('travel/cathay-pacific.png'); ?>" style="height:55px; margin-bottom: 30px;"  /> 
+
+           	<img alt="British Airways" src="<?php IMAGE('travel/british-airways.png'); ?>" style="width:126px; height:auto; margin-bottom: 30px;" />
+            <img alt="American Airlines" src="<?php IMAGE('travel/american-airlines.png'); ?>" style="width:126px; height:auto; margin-bottom: 30px;"/> 
 			    </div>
 			    
 			    <div role="tabpanel" class="tab-pane fade" id="tab8">
@@ -189,7 +190,7 @@
             <img alt="Vodafone" src="<?php IMAGE('telco/vodafone.png'); ?>"   /> 
             <img alt="Yes OPTUS" src="<?php IMAGE('telco/yes-optus.png'); ?>"   /> 
             <img alt="U Mobile" src="<?php IMAGE('telco/u-mobile.png'); ?>"   />
-            <img alt="Starhub" src="<?php IMAGE('telco/starhub.png'); ?>"  />
+            <img alt="Starhub" src="<?php IMAGE('telco/starhub.png'); ?>"  style="width:126px; height:auto; margin-bottom: 30px;" />
              <br class="des-add" />
             <img alt="Virgin" src="<?php IMAGE('telco/virgin.png'); ?>"    />
             <img alt="Telstra" src="<?php IMAGE('telco/telstra.png'); ?>"   />

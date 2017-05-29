@@ -29,15 +29,7 @@ h2.puz-success{ color:#ffffff !important; text-shadow: 0px 0px 0px #ffffff; text
 	var reason = '<?php echo $_POST['contact_reason']; ?>';
 	var location = '<?php echo $_POST['location']; ?>';
 	var message = '<?php echo $_POST['message']; ?>';
-	$.ajax({
-		url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSe26PX7J4OZRyniF6vD2DpUL2UAN30Ens3ZTN1wDzpIgdYKDQ/formResponse",
-		data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1045781291": company,"entry_1045781291": reason,"entry_1045781291": location,"entry_1045781291": message},
-		type: "POST",
-		dataType: "xml",
-		 statusCode: {
-
-		}
-	});
+	
 </script>
 
 </head>
@@ -184,7 +176,7 @@ $mail->addCC('rajkumar@near.co');
    exit;
 }
  
-$main = " <div id='contact-wrapper' class='clearfix container'>
+echo " <div id='Product' class='tab-pane in active'>
  <div class='form-wrapper clearfix container' style='text-align:center'>
 	<section class='section parallax-layer hvh-100 p-top-120 p-bottom-60 tb-vcenter-wrapper'>
        <div class='vcenter'>
@@ -206,8 +198,6 @@ $main = " <div id='contact-wrapper' class='clearfix container'>
     </section>
   </div>
   </div>";
-
-echo $main;
 
 
 ?>

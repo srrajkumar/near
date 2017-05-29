@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Near Newsroom - Stay up to date on the latest announcements of the ambient intelligence platform and much more!";
+$meta_desc="Here you will find our latest product and partnership announcements, consumer insights, Near mention in industry news, recognition and much more. Be up to date on the latest industry news here!";
+$meta_keywords="Data driven marketing news, location data industry, Omni-channel marketing, DaaS API, SaaS products, Data products, Allspark, Carbon, data partnerships, location data analytics, actionable audience insights, marketing and business decisions, data-driven decisions, ambient intelligence platform.";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

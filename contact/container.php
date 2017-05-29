@@ -30,7 +30,7 @@
   <hr />
   <div class="space"></div>
   <div id="Product" class="tab-pane in active">
-    <form class="custom-form" action="<?php echo SITE_URL; ?>form/process-form.php" method="post">
+    <form class="custom-form" action="<?php echo SITE_URL; ?>form/process-form.php" method="post" id="signupForm">
             <div class="form-group margin-bottom col-md-12 row">
             <div class="col-md-6 row">
               <input type="text" id="name" name="name" required  placeholder="Name*" class="form-control" aria-describedby="nameHelp">
@@ -147,7 +147,7 @@
 
 
   <div id="media" class="tab-pane">
-    <form action="<?php echo SITE_URL; ?>form/research-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form">
+    <form action="<?php echo SITE_URL; ?>form/research-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form" id="contact_form">
       <div class="form-group margin-bottom col-md-12 row">
         <div class="col-md-6 row">
           <input id="name" type="text" name="name"  class="form-control" aria-describedby="nameHelp" required placeholder="Name">
@@ -245,7 +245,7 @@
   <div class="col-md-10">
     <h2>India<span>Bangalore</span></h2> 
     <hr />
-    <p>No. 71/72, 4<sup>th</sup> Floor JNC Rd, Koramangala 5<sup>th</sup> B<br>
+    <p><b>Near India Private limited</b><br>No. 71/72, 4<sup>th</sup> Floor JNC Rd, Koramangala 5<sup>th</sup> B<br>
      Bangalore 560 095<br>
     </p>
     </div>
@@ -254,7 +254,7 @@
   <div class="col-md-10">
     <h2>Australia<span>Sydney</span></h2> 
     <hr />
-    <p>Level 21, 201 Sussex St. Sydney NSW 2000<br>
+    <p><b>Near Australia Pty Limited</b><br>Level 21, 201 Sussex St. Sydney NSW 2000<br>
     </p>
     </div>
   </div>
@@ -262,7 +262,7 @@
     <div class="col-md-10">
     <h2>Tokyo <span>Japan</span></h2>
     <hr />
-    <p>
+    <p><b>Near Japan K.K.</b><br>
       Regus Ebisu Business Center, 8F Humax Ebisu building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo 150-0022
     </p>
     </div>
@@ -271,7 +271,8 @@
   <div class="col-md-10">
     <h2>USA<span>San Francisco</span></h2> 
     <hr />
-    <p>228 Hamilton Ave, 3<sup>rd</sup> Floor Palo Alto, CA 94301 
+
+    <p><b>Near Americas Inc.</b><br>228 Hamilton Ave, 3<sup>rd</sup> Floor Palo Alto, CA 94301 
     </p>
     </div>
   </div>
@@ -279,7 +280,7 @@
   <div class="col-md-10">
     <h2>USA<span>New York</span></h2> 
     <hr />
-    <p>222 Broadway, 19<sup>th</sup> Floor New York, NY 10038 
+    <p><b>Near Americas Inc.</b><br>222 Broadway, 19<sup>th</sup> Floor New York, NY 10038 
     </p>
     </div>
   </div>
@@ -287,7 +288,7 @@
   <div class="col-md-10">
     <h2>UK<span>London</span></h2> 
     <hr />
-    <p>4<sup>th</sup> Floor, Rex House 4-12 Regent Street London, SW1Y 4PE 
+    <p><b>Near Europe Limited</b><br>4<sup>th</sup> Floor, Rex House 4-12 Regent Street London, SW1Y 4PE 
     </p>
     </div>
   </div>
