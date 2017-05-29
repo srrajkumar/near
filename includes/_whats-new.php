@@ -1,8 +1,6 @@
 <div class="col-sm-6 col-md-3 whats-new button_animate" data-aos="3dflip" data-aos-delay="800">
         	<div id="carousel" class="spacing carousel-news slide carousel-fade" data-ride="carousel">
-		        <span class="news-red">UPDATES</span>
-		        WHAT’S NEW
-		        
+		       WHAT’S NEW      
     
     <!-- Carousel items -->
     <div class="kroll carousel-inner">
@@ -28,7 +26,7 @@
 					<span class="story">"Learn how to get the best out of your board members" by Anil Mathews</span>
      <a href="<?php echo SITE_URL; ?>blog/how-to-get-the-best-out-of-your-company-board-members.php" class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">READ </span>
+                                    <span class="btn__text-inner">READ MORE</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +42,7 @@
 					<span class="story">How the team is building the location graph of the world at Near</span>
 					<a href="<?php echo SITE_URL; ?>careers/index.php#tech-video" class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">VIEW</span>
+                                    <span class="btn__text-inner">VIEW MORE</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">

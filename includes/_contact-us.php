@@ -1,8 +1,8 @@
 <div class="contact-us">
      <div class="container spacing_margin text-center" >
      <div class="text_center">
-    	<h1 data-aos="fade-up" data-aos-delay="200" style="display: inline-block;">CONTACT US</h1>
-    	<p style="margin-bottom:0px; display: inline-block; vertical-align: bottom;" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"><a class="effect effect-1" href="#" style="margin-left: 20px;" title="Get in Touch">Get in Touch</a></p>
+    	<h1 data-aos="fade-up" data-aos-delay="200" style="display: inline-block;">GLOBAL PRESENCE</h1>
+    	<p style="margin-bottom:0px; display: inline-block; vertical-align: bottom;" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"><a class="effect effect-1" href="<?php echo SITE_URL; ?>contact" style="margin-left: 20px;" title="Get in Touch">Contact Us</a></p>
       </div>
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
       
@@ -25,34 +25,33 @@
                             </div>
                             <div class="contact-location usaloc">
                             	<h2>San Francisco</h2>
-                                <p>228 Hamilton Ave, 3<sup>rd</sup> Floor<br>
+                                <p>Near Americas Inc.<br>228 Hamilton Ave, 3<sup>rd</sup> Floor<br>
                                 Palo Alto, CA 94301 <br>                               
                                 </p>
                             </div>
                               <div class="contact-location usa-nyloc">
                             	<h2>New York</h2>
-                                <p>222 Broadway, 19<sup>th</sup> Floor<br>
+                                <p>Near Americas Inc.<br>222 Broadway, 19<sup>th</sup> Floor<br>
                                 New York, NY 10038 <br>                               
                                  </p>
                             </div>
                             <div class="contact-location ukloc">
                             	<h2>London</h2>
-                                <p>
-                                  4<sup>th</sup> Floor, Rex House<br>
+                                <p>Near Europe Limited<br>4<sup>th</sup> Floor, Rex House<br>
                                   4-12 Regent Street <br>
                                   London, SW1Y 4PE<br>
                                   </p>
                             </div>
                             <div class="contact-location indialoc">
                             	<h2>Bangalore</h2>
-                                <p>No. 71/72, 4<sup>th</sup> Floor<br>
+                                <p>Near India Private limited<br>No. 71/72, 4<sup>th</sup> Floor<br>
                                    JNC Rd, Koramangala 5<sup>th</sup> B<br>
                                    Bangalore 560 095<br>
                                   </p>
                             </div>
                             <div class="contact-location japanloc">
                             	<h2>Tokyo</h2>
-                                <p>Regus Ebisu Business Center,<br>
+                                <p>Near Japan K.K.<br>Regus Ebisu Business Center,<br>
 									8F Humax Ebisu building,<br>
                                     Ebisu minami 1-1-1, Shibuya-ku,<br>
                                    Tokyo 150-0022<br>
@@ -60,7 +59,7 @@
                             </div>
                             <div class="contact-location australialoc">
                             	<h2>Sydney</h2>
-                                <p>Level 21, 201 Sussex St.<br>
+                                <p>Near Australia Pty Limited<br>Level 21, 201 Sussex St.<br>
                                   Sydney NSW 2000<br>
                                   </p>
                             </div>

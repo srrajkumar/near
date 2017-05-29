@@ -30,7 +30,7 @@
   <hr />
   <div class="space"></div>
   <div id="Product" class="tab-pane in active">
-    <form class="custom-form" action="<?php echo SITE_URL; ?>form/process-form.php" method="post" id="signupForm">
+    <form class="custom-form" action="<?php echo SITE_URL; ?>form/process-form.php" method="post">
             <div class="form-group margin-bottom col-md-12 row">
             <div class="col-md-6 row">
               <input type="text" id="name" name="name" required  placeholder="Name*" class="form-control" aria-describedby="nameHelp">
@@ -147,7 +147,7 @@
 
 
   <div id="media" class="tab-pane">
-    <form action="<?php echo SITE_URL; ?>form/research-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form" id="contact_form">
+    <form action="<?php echo SITE_URL; ?>form/research-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form">
       <div class="form-group margin-bottom col-md-12 row">
         <div class="col-md-6 row">
           <input id="name" type="text" name="name"  class="form-control" aria-describedby="nameHelp" required placeholder="Name">
