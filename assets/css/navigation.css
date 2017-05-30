@@ -222,6 +222,7 @@
   visibility: hidden;
   -webkit-transition: all 0.5s ease-in 0.4s;
   transition: all 0.5s ease-in 0.4s;
+  opacity: 0;
 }
 
 .s-header-bg-overlay.-is-open {
@@ -229,8 +230,16 @@
   visibility: visible;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  opacity: 1;
 }
-
+.s-header-bg-overlay .s-header__nav.js__scrollbar.container{
+  transition: all 0.5s ease-out;
+  opacity: 0;
+}
+.s-header-bg-overlay.-is-open .s-header__nav.js__scrollbar.container{
+  transition: all 0.5s ease-out;
+  opacity: 1;
+}
 /* Nav
 ------------------------------ */
 .s-header__nav {
