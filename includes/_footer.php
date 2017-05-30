@@ -37,7 +37,7 @@
                        <a  href="<?php echo SITE_URL; ?>data">DATA</a>   
                        <a  href="<?php echo SITE_URL; ?>investors" >INVESTORS</a>   
                        <a href="<?php echo SITE_URL; ?>leadership" >LEADERSHIP</a>  
-                       <a  href="<?php echo SITE_URL; ?>privacy" >PRIVACY</a>
+                       <a  href="<?php echo SITE_URL; ?>board" >BOARD</a>
                     </div>
 					<!--div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="600">
 					      
@@ -56,12 +56,12 @@
 					</div>
 					<div class="col-md-3 newsletter career-footer footer-mob"  data-aos="fade-up" data-aos-delay="800">
 						<h5>CAREERS</h5>
-						<a href="https://near.co/careers/data-engineer.php" class="news-link" style="margin-top:5px;"> <span>San Francisco / Bangalore</span><br>
+						<a href="<?php echo SITE_URL; ?>careers/data-engineer.php" class="news-link" style="margin-top:5px;"> <span>San Francisco / Bangalore</span><br>
                         Data Engineer</a>
-                         <a href="https://near.co/careers/data-scientist.php" class="news-link"> <span>Bangalore, India</span><br>
+                         <a href="<?php echo SITE_URL; ?>careers/data-scientist.php" class="news-link"> <span>Bangalore, India</span><br>
                         Data Scientist</a>
                          
-                      <a href="https://near.co/careers/software-engineer.php" class="news-link"> <span>Bangalore, India</span><br>
+                      <a href="<?php echo SITE_URL; ?>careers/software-engineer.php" class="news-link"> <span>Bangalore, India</span><br>
                       Software Engineer (All Levels)</a>
 					</div>
                       <div class="col-sm-3 life"  data-aos="fade-up" data-aos-delay="1000">
@@ -70,7 +70,7 @@
 						<a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
                            <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
 						   <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
-						   <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-youtube"></i></a>
+						   <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
 						</p>
                       <span style="display: block; margin-top: 5px;    margin-bottom: 10px;">LIFE @ NEAR</span>
 								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
@@ -95,7 +95,7 @@
 				</div>
 				<div class="row">
 					
-					 <div class="col-md-10 copyrights"  style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank"> Sitemap</a></div>
+					 <div class="col-md-10 copyrights"  style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="<?php echo SITE_URL; ?>privacy" target="_blank">Privacy Policy</a> | <a href="#" target="_blank"> Sitemap</a></div>
 					 <div class="col-md-2 truste">
 					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=79c90252-7a59-4f23-8681-9180af7a58de" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=79c90252-7a59-4f23-8681-9180af7a58de" alt="TRUSTe"/></a></div>
 			</div>

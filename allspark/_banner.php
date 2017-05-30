@@ -10,7 +10,7 @@
       <span id="typed-strings" class="type">
           <span>Mapping Consumer Journeys</span>
           <span>CRM Onboarding</span>
-          <span>Out of Home Analytics</span>
+          <span>Out-of-Home Analytics</span>
           <span>Omni-Channel Customer Experience</span>
           <span>Offline Attribution</span>
           <span>Audience Curation</span>

@@ -104,7 +104,7 @@
       <h2>Board Members</h2>
       <hr />
       <p class="col-md-12">More about the board members of Near here.<br><br><br></p>
-      <a href="#" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>board" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
@@ -185,7 +185,7 @@
       <h2>Careers</h2>
       <hr />
       <p class="col-md-12">Interested in joining the Near team? Check our open job positions to apply!</p>
-      <a href="#" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>careers" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            
