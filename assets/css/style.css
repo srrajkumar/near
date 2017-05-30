@@ -1,4 +1,4 @@
-body{line-height:1;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+body{font-family: 'Roboto', sans-serif;line-height:1;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,caption,canvas,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,form,footer,header,hgroup,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,tt,table,tbody,textarea,tfoot,thead,time,tr,th,td,u,ul,var,video{font-family:inherit;font-size:100%;font-weight:inherit;font-style:inherit;vertical-align:baseline;white-space:normal;margin:0;padding:0;border:0;outline:0;background:transparent}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 ol,ul{list-style:none}
@@ -6,9 +6,6 @@ blockquote,q{quotes:none}
 :focus{outline:0}
 table{border-collapse:collapse;border-spacing:0}
 img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}
-@font-face{font-family:'robotoregular';src:url(fonts/Roboto-Regular-webfont.eot);src:url(fonts/Roboto-Regular-webfont.eot@#iefix) format("embedded-opentype"),url(fonts/Roboto-Regular-webfont.woff) format("woff"),url(fonts/Roboto-Regular-webfont.ttf) format("truetype"),url(fonts/Roboto-Regular-webfont.svg#robotoregular) format("svg");font-weight:400;font-style:normal}
-@font-face{font-family:'robotothin';src:url(fonts/Roboto-Thin-webfont.eot);src:url(fonts/Roboto-Thin-webfont.eot@#iefix) format("embedded-opentype"),url(fonts/Roboto-Thin-webfont.woff) format("woff"),url(fonts/Roboto-Thin-webfont.ttf) format("truetype"),url(fonts/Roboto-Thin-webfont.svg#robotothin) format("svg");font-weight:400;font-style:normal}
-@font-face{font-family:'robotolight';src:url(fonts/Roboto-Light-webfont.eot);src:url(fonts/Roboto-Light-webfont.eot@#iefix) format("embedded-opentype"),url(fonts/Roboto-Light-webfont.woff) format("woff"),url(fonts/Roboto-Light-webfont.ttf) format("truetype"),url(fonts/Roboto-Light-webfont.svg#robotolight) format("svg");font-weight:400;font-style:normal}
 @font-face{font-family:'flexslider-icon';src:url(fonts/flexslider-icon.eot);src:url(fonts/flexslider-icon.eot@#iefix) format("embedded-opentype"),url(fonts/flexslider-icon.woff) format("woff"),url(fonts/flexslider-icon.ttf) format("truetype"),url(fonts/flexslider-icon.svg#flexslider-icon) format("svg");font-weight:400;font-style:normal}
 @media screen {
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
@@ -44,8 +41,8 @@ img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}
 }
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
 html{height:100%}
-body{height:100%;background:#FFF;font:13px/23px HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#666;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
-h1,h2,h3,h4,h5,h6{color:#555;font-family:'robotolight',Helvetica,Arial,sans-serif;font-weight:400;line-height:30px;margin-bottom:20px}
+body{height:100%;background:#FFF;font:13px/23px;color:#666;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+h1,h2,h3,h4,h5,h6{color:#555;font-weight:400;line-height:30px;margin-bottom:20px}
 h1{font-size:30px}
 h2{font-size:26px}
 h3{font-size:20px}
@@ -68,8 +65,8 @@ img{max-width:100%;height:auto}
 img{width:auto}
 }
 .entry-header{border-bottom:1px solid #DDD;margin-bottom:20px}
-.entry-title{font-size:2.5em;margin-bottom:10px;font-family:'robotothin',Helvetica,Arial,sans-serif;font-weight:400}
-.entry-slogan{color:#2A83ED;font-size:1.2em;font-family:'robotolight',Helvetica,Arial,sans-serif;font-weight:400}
+.entry-title{font-size:2.5em;margin-bottom:10px;font-weight:400}
+.entry-slogan{color:#2A83ED;font-size:1.2em;font-weight:400}
 .product{height:100%;min-height:100%;position:relative;overflow:hidden;text-align:center}
 .product .grid-container{height:100%;display:table;position:relative}
 .product .grid-100{position:relative;display:table-cell;vertical-align:top;padding-top:200px;padding-bottom:80px}
@@ -77,8 +74,8 @@ img{width:auto}
 .information-section .entry-header{margin-bottom:40px}
 .info{text-align:center;margin-bottom:40px}
 .learn-more{display:block}
-.newsletter-title{font-size:2.5em;margin-bottom:10px;color:#FFF;font-family:'robotothin',Helvetica,Arial,sans-serif}
-.newsletter-slogan{font-size:1.2em;color:#FFF;font-family:'robotolight',Helvetica,Arial,sans-serif;font-weight:400}
+.newsletter-title{font-family: 'Roboto', sans-serif;font-size:2.5em;margin-bottom:10px;color:#FFF;}
+.newsletter-slogan{font-size:1.2em;color:#FFF;font-weight:400}
 .parallax{position:relative;overflow:hidden;width:100%;height:100%}
 .parallax-banner-1{background-image:url(../images/signup.jpg)}
 .parallax-background{position:absolute;width:100%;height:100%;margin:0 auto;background-attachment:fixed;background-repeat:no-repeat;background-position:center center;background-size:cover}
@@ -87,7 +84,7 @@ button:hover,input[type="submit"]:hover,,{color:#FFF;background:#555}
 button:active,input[type="submit"]:active,,{color:#FFF;background:#555}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 form{margin:0}
-input[type="text"],textarea{font:13px HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;border:1px solid #FFF;padding:10px;outline:none;color:#666;margin:0;min-width:190px;max-width:100%;display:block;margin-bottom:20px;background:#FFF;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+input[type="text"],textarea{font:13px;border:1px solid #FFF;padding:10px;outline:none;color:#666;margin:0;min-width:190px;max-width:100%;display:block;margin-bottom:20px;background:#FFF;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
 input[type="text"]:focus,textarea:focus{border:1px solid #FFF;color:#FFF}
 @media screen and (max-width: 767px) {
 .product.parallax{height:auto;min-height:inherit}
@@ -104,10 +101,11 @@ input[type="text"]:focus,textarea:focus{border:1px solid #FFF;color:#FFF}
 .grid-container:after{clear:both}
 .grid-container{margin-left:auto;margin-right:auto;max-width:1200px;padding-left:10px;padding-right:10px}
 .grid-45,.grid-50,.grid-80,.grid-100,.mobile-grid-100{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-left:10px;padding-right:10px}
-#contact p,label,legend{font:1.5em "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif}
+#contact p,label,legend{font:1.5em; }
 #contact h1{margin:10px 0;font-size:24px;color:#fff}
-#contact p{color:#fff}
-#contact{display:block;margin:50px auto;/*padding:35px;*/float:none;-webkit-border-radius:5px}
+#contact p{color:#fff; font-family: 'Roboto', sans-serif;font-weight: 300;
+    margin-top: 20px;}
+#contact{font-family: 'Roboto', sans-serif;display:block;margin:50px auto;/*padding:35px;*/float:none;-webkit-border-radius:5px}
 #contact input,textarea,select, .submit{float:none;display:inline-block;margin:5px;padding:10px 5px;color:#FFF;background:rgba(2,2,2,0.8);border-top:none;border-left:none;border-right:none;border-bottom:1px solid rgba(255,255,255,0.53)}
 #contact input:focus,textarea:focus,select:focus{border-bottom:1px solid rgba(255,255,255,0.9);background:rgba(2,2,2,0.95);color:#FBFBFB}
 #contact input.submit, .submit{width:120px;cursor:pointer;border:1px solid #145DB4;background:#2A83ED;color:#fff}
