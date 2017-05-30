@@ -308,7 +308,7 @@
         <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="800" style="background:url('<?php IMAGE('video_bg/img3.png'); ?>');  background-size: cover;">
         <a href="<?php echo SITE_URL; ?>data">
         	<div class="spacing">
-		        DATA-AS-A-SERVICE
+		        DATA-AS-A-SERVICE<br /><br />
 				<span  class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
