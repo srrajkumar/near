@@ -88,13 +88,13 @@
     	<div class="col-sm-6 platform-leverage"  data-aos="fade-up" data-aos-delay="800">
     		<ul id="accord1" class="accordian">
 			  <li>
-				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> crossmatrix&trade;</header>
+				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> crossMatrix&trade;</header>
 				<div class="accordian-section" style="display: block;">
 				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
 				</div>
 			  </li>
 			  <li>
-				<header class="accordian-header" id="placematrix"><i class="ion-plus-round plus-icon"></i> Placematrix&trade;</header>
+				<header class="accordian-header" id="placematrix"><i class="ion-plus-round plus-icon"></i> PlaceMatrix&trade;</header>
 				<div class="accordian-section">
 				  <p>For accurate building shapes First party database of over 65 million places</p>
 				</div>
