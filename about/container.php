@@ -136,8 +136,11 @@
       </a>
     </div>
     <div class="col-md-6 random-image" style="position: relative; height:263px;" id="cycler3">
-      <img src="<?php IMAGE('culture/culture.png') ?>" class="active" />
-      <img src="<?php IMAGE('culture/career.png') ?>" />
+      <img src="<?php IMAGE('culture/culture.png') ?>" class="active" alt />
+      <img src="<?php IMAGE('culture/culture-1.png') ?>" alt />
+       <img src="<?php IMAGE('culture/culture-2.png') ?>" alt />
+        <img src="<?php IMAGE('culture/culture-3.png') ?>" alt />
+         <img src="<?php IMAGE('culture/culture-4.png') ?>" alt />
     </div>
     </div>
     <div class="col-md-3 space">

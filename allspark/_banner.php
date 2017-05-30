@@ -22,7 +22,7 @@
     </span>
     <div style="clear: both"></div>
   	<!--a href="#" class=" hp-cta-video_transparent " style="margin-top: 20px;">Play Video</a -->
-    <a href="#" class="button button--primary button--rounded">Setup a demo</a>
+    <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">Setup a demo</a>
 	</div>
 		<div class="anim-imag anim1">
     <div class="round_animate_wrap">

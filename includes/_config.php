@@ -46,5 +46,22 @@ function my_url(){
     $url = "https://near.co".$_SERVER['REQUEST_URI'];
     echo $url;
 }
+
+
+
+set_referer_url();
+
+//sets referer url 
+function set_referer_url() 
+{ 
+ if(isset($_SERVER["HTTP_REFERER"])) {
+  if(stripos($_SERVER["HTTP_REFERER"], "//near.co") === false && stripos($_SERVER["HTTP_REFERER"], "//www.near.co") === false) { 
+   setcookie("RefererURL", $_SERVER["HTTP_REFERER"], time()+3600);  
+  }
+ }   
+}
+
+
+
 ?>
 
