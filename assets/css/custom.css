@@ -1,6 +1,6 @@
 body{
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .preloader{
     background-color: rgba(255,255,255,1);
@@ -2393,7 +2393,7 @@ footer .spacing_margin{
   position: absolute;
   top: -4px;
   transition: all 0.5s ease-in-out;
-  z-index: 1;
+  z-index: 3;
 }
 
 .use-cases .custom_btn, .button_animate .custom_btn{
@@ -3448,7 +3448,7 @@ a.event-link{
     .k{padding: 30px 20px;}
     .shrink .navbar-brand svg{padding-top:10px;}
     .navbar.shrink{  height:65px;  padding: 0rem 1rem;}
-    #platform_leverage .platform-image object{top:30%;}
+   #platform_leverage .platform-image object {top: 42%;}
     
     h1{font-size:22px !important;} h2{font-size:20px !important;}
     .aboutus h1{font-size:30px !important;}
@@ -3470,7 +3470,7 @@ a.event-link{
     .banner-space{height: 100px !important;}
     #typed, .typed-cursor{font-size:18px !important; }
     .whats-happening .col-sm-6{max-height:383px; line-height: 35px; font-size: 24px;}
-    .whats-happening .col-sm-6 .award_holder span{line-height:80px;}
+  
     .nav-tabs > li { float:none; }
 h2 {font-size: 16px !important;}
 .privacy h2, .newsroom h2{font-size:20px !important;}
@@ -3479,7 +3479,8 @@ h2 {font-size: 16px !important;}
     .banner-content span.red {font-size: 32px !important;}
     .banner-content span {font-size: 24px !important;}
     .culture-subpages .culture_highlite h4{font-size:24px;}
-    
+    .whats-happening .col-sm-6 .award_holder span {line-height: 60px;}
+    .award_holder{line-height:22px;}
 }
 @media (min-width:320px) and (max-width:1024px){
   .board1{margin:0}
@@ -3508,7 +3509,7 @@ h2 {font-size: 16px !important;}
   .aboutus h1{    font-size: 30px;}
   .footer-mob{display:none;}
   .des-add{display:none;}
-    body{overflow-x:hidden;}
+    body{overflow-x:hidden !important;}
     .banner-content span:nth-child(6){font-size:18px;}
     #typed, .typed-cursor{font-size:18px !important; }
     .banner-content span{font-size:26px; line-height: 28px;}
@@ -3544,9 +3545,8 @@ span.mobile{display:block;}
     .brj{height:100% !important}
     .whats-happening .col-sm-6 .spacing {padding: 1.9vh 4vh !important;}
     .whats-happening .col-sm-6{height:320px;}
-    .whats-happening .button_animate .button-icon-animate .button-icon-animate__circle--right, .whats-happening .button_animate .button-icon-animate .button-icon-animate__circle--left,.research a .button-icon-animate .button-icon-animate__circle--right, .research a .button-icon-animate .button-icon-animate__circle--left,.research_container .use-cases .button-icon-animate .button-icon-animate__circle--right,.research_container .use-cases .button-icon-animate .button-icon-animate__circle--left{stroke-dashoffset: 0;}
+
 .research_container .use-cases{cursor:pointer;}
-.whats-happening .button_animate .button-icon-animate .icon, .research_container .use-cases .button-icon-animate .icon{color:#fff;}
 
 .research_container .use-cases:nth-child(2){background:url(../images/video_bg/data.gif)  !important;background-size: cover !important;}
 
@@ -3598,14 +3598,13 @@ h1.custom-title span {font-size: 30px;}
 .post-date{float:right !important;padding:0 7px 10px 0 !important;position:absolute !important;right:0 !important;bottom:0 !important;}
 .post .post-meta .post-month{border-bottom:none}
 .sidebar{display:none;}
-.
+.platform{margin-top:0px;}
 }
 @media (max-width:1100px){.brj{height:100% !important}
 .research a .description { -webkit-transform: translate(69px, 40px);-moz-transform: translate(69px, 40px); transform: translate(69px, 40px);}
 .research a .title, .research a figure p {-webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px);transform: translate(0, -50px);}
 .research .description{left:-68px;background:#ffffff;} 
 .research .description .button-icon-animate{left:15px;} 
-
 .anim-imag, .anim-particles, #circle{display:none;}
 .brand_tabs {min-height:450px;}
  .culture-subpages .culture_highlite h4{font-size:30px;}
@@ -3628,6 +3627,14 @@ h1.custom-title span {font-size: 30px;}
 .tech-blog{padding-top: 100px !important; padding-bottom: 100px !important;}
 .tech-page .col-md-9 div{margin-right:0px !important;}
 .techpage h2{font-size:28px;}
+.col-md-3 .custom_btn,.col-sm-3 a .custom_btn{width:120px;}
+.col-sm-3 a .custom_btn{left: -13px}
+.use-cases .custom_btn, .button_animate .custom_btn {border: 1px solid rgba(255,255,255,1);}
+.whats-happening .col-sm-6:nth-child(3):hover:before {opacity: 0 !important;}
+.col-sm-3 a .btn__text {right: 0 !important ;top: -2px;}
+.col-sm-3 a .color_change {fill: #ED1C24;}
+.col-md-3 .kroll .custom_btn, .kroll .custom_btn .btn__text {width: 140px;}
+
 }
 
 
