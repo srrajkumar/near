@@ -1,7 +1,7 @@
 <?php include("../includes/_config.php");
 $meta_title = "Data Engineer | Near";
 $meta_desc = "JAVA development, programming basics, understanding of design patterns and where/when to apply them";
-$title ="Data Engineer";
+$title ="<span>Data</span> Engineer";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
@@ -41,7 +41,15 @@ iframe {width: 100%; border:0; height:450px; margin-top:30px;}
   <div class="mouse"></div>
 
 </div>
-
+<div class="breadcumb-bg" style="background-color: #eceeef">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>"><span class="fa fa-home "></span></a></li>
+      <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
+      <li class="breadcrumb-item active"><?php echo $title; ?></li>
+    </ol>
+  </div>
+</div>
 
 		<section class="sub-bg careers" style=" rgba(255,255,255,0.97) url(<?php IMAGE('open-positions-bg.png');?>); background-repeat: repeat; z-index:10;">
 			<div class="container content  colors-e background-90-e"  style="overflow: hidden; position: relative;"><div class="space" style="display: block; margin: 80px;"></div>
