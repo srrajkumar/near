@@ -1419,4 +1419,15 @@ border: none;
 .particles-3{z-index: 1;}
     .animation-banner{position: absolute; top:0px;}
 
-  
+  @media (max-width:1100px){
+    .custom-banner .col-md-4 .custom_btn {width: 130px;}
+    .custom-banner .col-md-4.custom_btn, .submenu-tiles .col-md-4.custom_btn {border: 1px solid rgba(255,255,255,1);}
+    .custom-banner .col-md-4 .btn__text, .submenu-tiles .col-md-4 .btn__text {
+    right: 0;}
+    .custom_btn .icon svg{z-index:3;}
+    .submenu-tiles .col-md-4 .custom_btn {width: 120px;}
+    .custom-banner .col-md-4 hr, .submenu-tiles .col-md-4 hr {width: 60px; border: 1px solid #fff; margin-left: 0; opacity: 1;}
+    .custom-banner .col-md-4 p, .submenu-tiles .col-md-4 p {margin-top: 10px; opacity: 1;}
+   .custom-banner .col-md-4 .color_change, .submenu-tiles .col-md-4 .color_change {
+    fill: #ED1C24 !important;}
+}

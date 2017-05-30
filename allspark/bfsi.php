@@ -168,7 +168,7 @@ $image2=" ";
                 </div>
                 </div>
                
-                <a href="#" class="button button--primary button--rounded">SETUP A DEMO</a>
+                <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>
                 <hr />
 

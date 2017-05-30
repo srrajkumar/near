@@ -3634,6 +3634,8 @@ h1.custom-title span {font-size: 30px;}
 .col-sm-3 a .btn__text {right: 0 !important ;top: -2px;}
 .col-sm-3 a .color_change {fill: #ED1C24;}
 .col-md-3 .kroll .custom_btn, .kroll .custom_btn .btn__text {width: 140px;}
+.allspark-subpages .col-md-3{display:none;}
+.allspark-subpages .col.col-md-9{width: 100%;  max-width: 100%; flex: inherit;}
 
 }
 
