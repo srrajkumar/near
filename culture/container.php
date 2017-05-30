@@ -18,7 +18,8 @@
   <div class="col-lg-4" style="background-image: url('<?php IMAGE('culture/collage/img3.png'); ?>'); background-position:center center;"></div>
   <div class="col-lg-2" style="background-image: url('<?php IMAGE('culture/collage/img4.png'); ?>');"></div>
   <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img5.png'); ?>');"></div>
-  <div class="col-lg-6" style="background-image: url('<?php IMAGE('culture/collage/img6.png'); ?>'); background-position:center center;"></div>
+  <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img6.png'); ?>'); background-position:center center;"></div>
+  <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img8.png'); ?>'); background-position:center center;"></div>
   <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img7.png'); ?>');"></div>
 </div>
 
