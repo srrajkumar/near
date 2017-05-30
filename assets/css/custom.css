@@ -2094,8 +2094,9 @@ footer .spacing_margin{
 .fun1{background-position: 0 0;}.fun2{background-position: 0 20%;}.fun3{background-position: 0 40%;}.fun4{background-position: 0 60%;}.fun5{background-position: 0 80%;}.fun6{background-position: 0 100%;}
 .life a{ display:inline-block;}
 .life img{float:left; margin-right:5px; width: 65px; height: 65px;}
-.social-links a{display:inline-block; color:#ffffff; position: relative; background:#aeaeae; border-radius:50%; width:30px; height:30px; text-decoration: none; margin-right:5px;}
-.social-links i{color:#ffffff;  position: absolute; top: 8px; left: 10px; font-size: 14px;}
+.social-links a{vertical-align:top;display:inline-block; text-align: center; color:#ffffff; transition:all .2s ease;position: relative; background:#aeaeae; border-radius:50%; width:30px; height:30px; text-decoration: none; margin-right:5px;}
+.social-links a:hover{background-color: #828282;}
+.social-links i{color:#ffffff;  /*position: absolute; top: 8px; left: 10px;*/ margin-top: 8px; font-size: 14px;}
 .footer-links, .life, .newsletter{margin-top:15px; }
 .truste, .copyrights{float:left; padding:0px; color:#686868;font-family: 'Roboto', sans-serif; font-weight:normal;    line-height: 18px; font-size:12px; }
 .truste div{float:right;}
@@ -2514,6 +2515,11 @@ footer span {
     display: block;
     color: #5c5c5c !important;
     font-size: 14px;
+    padding:2px 0;
+    transition: all 0.2s ease-in-out;
+}
+.news-link:hover {
+    color: #000 !important;
 }
 .sidebar .title{    font-size: 26px;
     text-transform: uppercase;
