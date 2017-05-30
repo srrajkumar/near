@@ -54,13 +54,23 @@
                       <a class="news-link" href="<?php echo SITE_URL; ?>news/connecting-the-physical-and-digital-using-ambient-intelligence-platform.php" style="margin-top:5px;"><span>April 28, 2017 - United States</span><br>Connecting the Physical and Digital using Ambient Intelligence Platform: Shobhit Shukla</a> 
                        <a class="news-link" href="<?php echo SITE_URL; ?>news/more-male-tourists-seen-in-singapore-during-cny.php" style="margin-top:5px;"><span>February 20, 2017 - Singapore</span><br>More male tourists seen in Singapore during CNY</a>   
 					</div>
-					<div class="col-md-1"></div>
-                      <div class="col-sm-5 life"  data-aos="fade-up" data-aos-delay="800">
+					<div class="col-md-3 newsletter career-footer footer-mob"  data-aos="fade-up" data-aos-delay="800">
+						<h5>CAREERS</h5>
+						<a href="https://near.co/careers/data-engineer.php" class="news-link" style="margin-top:5px;"> <span>San Francisco / Bangalore</span><br>
+                        Data Engineer</a>
+                         <a href="https://near.co/careers/data-scientist.php" class="news-link"> <span>Bangalore, India</span><br>
+                        Data Scientist</a>
+                         
+                      <a href="https://near.co/careers/software-engineer.php" class="news-link"> <span>Bangalore, India</span><br>
+                      Software Engineer (All Levels)</a>
+					</div>
+                      <div class="col-sm-3 life"  data-aos="fade-up" data-aos-delay="1000">
                       <h5 style="margin-bottom: 10px;">CONNECT</h5>
                       <p class="social-links" style="margin-top:-5px;">
 						<a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
                            <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
 						   <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
+						   <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-youtube"></i></a>
 						</p>
                       <span style="display: block; margin-top: 5px;    margin-bottom: 10px;">LIFE @ NEAR</span>
 								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
@@ -69,11 +79,11 @@
 							
 								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun3" alt="life @ Near" /></a>
 							
-								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
+								<!--a target="_blank" href="<?#php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?#php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun4" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
+								<a target="_blank" href="<?#php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?#php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun5" alt="life @ Near" /></a>
 						
-								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun6" alt="life @ Near" /></a>				
+								<a target="_blank" href="<?#php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?#php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun6" alt="life @ Near" /></a-->				
                        </div>
 					 
 				</div>

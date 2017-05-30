@@ -96,7 +96,7 @@
           <img src="<?php IMAGE('data/icon-set-3/data-icon.png') ?>" />
           <p>Plug and Play into your existing products</p>
           <br><br>
-          <a href="<?php echo SITE_URL; ?>privacy" class="button button--primary button--rounded" style="margin-left: 0;">Privacy Policy</a>
+          <a href="<?php echo SITE_URL; ?>contact" class="button button--primary button--rounded" style="margin-left: 0;">Get in Touch</a>
           </div>
 
                 <div class="col col-md-8" style="right: 0">
@@ -138,6 +138,9 @@
             </div>
         </div>
         </div>
+    </div>
+    <div style="background-color: #f7f7f7">
+    <div class="container" style="padding:30px 0; text-align: center; "><a href="<?php echo SITE_URL; ?>privacy" class="button red button--primary button--rounded" style="margin-left: 0;">Privacy Policy</a></div>
     </div>
     <div class="particles"  data-particles='{"color":"#a2a2a2"}'>
     <div class="container top-spacer data-container carbon" style="padding: 100px 0" >
