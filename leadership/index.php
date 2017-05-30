@@ -155,200 +155,153 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
         <div id="the-team" class="container" >
 <div class="col-lg-11" style="margin-top:20px; margin-bottom:50px; margin-left:auto; margin-right:auto; float:none;">
 
+    <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1319px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Andries de Villiers</h2>
+        <h3>General Manager, NA</h3>
+        <p class="contact-links">
+            <a href="https://www.linkedin.com/in/andriespetrus/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="card-photo">
+       <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1155px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Kenneth Parnham</h2>
+        <h3>General Manager, Europe</h3>
+        <p class="contact-links">
+            <a href="https://www.linkedin.com/pub/ken-parnham/0/869/529" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1968px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Aditi Kohli</h2>
+        <h3>General Manager,<br> SEA &amp; HK</h3>
+        <p class="contact-links">
+          <a href="https://www.linkedin.com/in/aditi-kohli-5353ba1" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1480px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Inotani Hisashi</h2>
+        <h3>Regional Director, Japan</h3>
+        <p class="contact-links">
+          <a href="http://jp.linkedin.com/pub/hisashi-inotani/67/455/4b/en" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
 
 		<div class="team-card">
-            <div class="card-photo">
-              <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -990px; background-size: 100% auto;" alt=""/>
-                 
-            
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -990px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Cameron Curtis</h2>
+        <h3>General Manager, ANZ</h3>
+        <p class="contact-links">
+          <a href="https://au.linkedin.com/in/camcurtis" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
               
-            </div>
-            <div class="card-info">
-                   <h2 class="pulls">Cameron Curtis</h2>
-                <h3>General Manager, ANZ</h3>
-               
-                <p class="contact-links">
-                    
-                    <a href="https://au.linkedin.com/in/camcurtis" target="_blank"><i class="fa fa-linkedin"></i></a>
-                   
-                </p>
-            </div>
-        </div>
-              
-        <div class="team-card">
-            <div class="card-photo">
-            <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1480px; background-size: 100% auto;" alt=""/>
-             
-             
-           
-                
-            </div>
-            <div class="card-info">
-                     <h2 class="pulls">Inotani Hisashi</h2>
-                <h3>Regional Director, Japan</h3>
-                
-                <p class="contact-links">
-                    
-                    <a href="http://jp.linkedin.com/pub/hisashi-inotani/67/455/4b/en" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    
-                </p>
-            </div>
-        </div>
+    <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1805px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Michelle Zhou</h2>
+        <h3>Vice President, Global <br>Strategy &amp; Operations</h3>
+        <p class="contact-links">
+          <a href="http://www.linkedin.com/pub/michelle-zhou/6/834/919" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>    
         
-        <div class="team-card">
-            <div class="card-photo">
-             <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1155px; background-size: 100% auto;" alt=""/>
-             
+    <div class="team-card">
+      <div class="card-photo">
+       <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1644px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Smriti Kataria</h2>
+        <h3>Director, Research <br>&amp; Marketing</h3>
+        <p class="contact-links">
+          <a href="http://in.linkedin.com/in/smritikataria" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
             
-             
-            </div>
-            <div class="card-info">
-                     <h2 class="pulls">Kenneth Parnham</h2>
-                <h3>General Manager, Europe</h3>
-             
-                <p class="contact-links">
-                 
-                    <a href="https://www.linkedin.com/pub/ken-parnham/0/869/529" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    
-                </p>
-            </div>
-        </div>
-          <div class="team-card">
-            <div class="card-photo">
-              <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1968px; background-size: 100% auto;" alt=""/>
-             
-            
-                
-            </div>
-            <div class="card-info">
-                    <h2 class="pulls">Aditi Kohli</h2>
+    <div class="team-card">
+      <div class="card-photo">
+       <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -2293px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Himanchal Singh</h2>
+        <h3>Director, Platform Solutions</h3>
+        <p class="contact-links">
+          <a href="https://in.linkedin.com/in/himanchal-singh-a1571b51" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
 
-                <h3>General Manager,<br> SEA &amp; HK</h3>
-             
-                <p class="contact-links">
-                    <a href="https://www.linkedin.com/in/aditi-kohli-5353ba1" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    
-                    
-                </p>
-            </div>
-        </div>
-       
-        
-        <div class="team-card">
-            <div class="card-photo">
-              <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1805px; background-size: 100% auto;" alt=""/>
-             
-           
-            
-              
-            </div>
-            <div class="card-info">
-                   <h2 class="pulls">Michelle Zhou</h2>
-                <h3>Vice President, Global <br>Strategy &amp; Operations</h3>
-              
-                <p class="contact-links">
-                  
-                    <a href="http://www.linkedin.com/pub/michelle-zhou/6/834/919" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    
-                </p>
-            </div>
-        </div>    
-        
-        <div class="team-card">
-            <div class="card-photo">
-             <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -1644px; background-size: 100% auto;" alt=""/>
-             
-            
-             
-            </div>
-            <div class="card-info">
-                     <h2 class="pulls">Smriti Kataria</h2>
-                <h3>Director, Research <br>&amp; Marketing</h3>
-               
-                <p class="contact-links">
-                
-                    <a href="http://in.linkedin.com/in/smritikataria" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    
-                </p>
-            </div>
-        </div>
-            
-      
-        <div class="team-card">
-            <div class="card-photo">
-             <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -2293px; background-size: 100% auto;" alt=""/>
-             
-           
-           
-            </div>
-            <div class="card-info">
-                <h2 class="pulls">Himanchal Singh</h2>
-                <h3>Director, Platform Solutions</h3>
-                
-              <p class="contact-links">
-                
-                    <a href="https://in.linkedin.com/in/himanchal-singh-a1571b51" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </p>
-            </div>
-        </div>
-        <div class="team-card">
-            <div class="card-photo">
-              <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -4081px; background-size: 100% auto;" alt=""/>
-             
-            
-              
-            </div>
-            <div class="card-info">
-                <h2 class="pulls">Tony C Scott</h2>
-                <h3>Principal, Data Science</h3>
-                
-               <p class="contact-links">
-                
-                    <a href="https://www.linkedin.com/in/tony-scott-6160985" target="_blank"><i class="fa fa-linkedin"></i></a>
-                   
-                </p>
-            </div>
-        </div>
-         <div class="team-card">
-            <div class="card-photo">
-              <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -4250px; background-size: 100% auto;" alt=""/>
-             
-           
-             
-            </div>
-            <div class="card-info">
-                <h2 class="pulls">Jayachandra Reddy</h2>
-                <h3>Principal, Data Engineering</h3>
-                
-              <p class="contact-links">
-                
-                    <a href="https://www.linkedin.com/in/jcreddy" target="_blank"><i class="fa fa-linkedin"></i></a></p>
-                    
-            </div>
-        </div>
-        
-        <div class="team-card">
-            <div class="card-photo">
-              <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -2618px; background-size: 100% auto;" alt=""/>
-             
-           
-            
-            </div>
-            <div class="card-info">
-                <h2 class="pulls">Murali Veeraiyan</h2>
-                <h3>Director, Product Management</h3>
-                
-              <p class="contact-links">
-                
-                    <a href="https://www.linkedin.com/in/muraliveeraiyan" target="_blank"><i class="fa fa-linkedin"></i></a></p>
-                    
-            </div>
-        </div>
+    <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -2618px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Murali Veeraiyan</h2>
+        <h3>Director, Product Management</h3>
+        <p class="contact-links">
+          <a href="https://www.linkedin.com/in/muraliveeraiyan" target="_blank"><i class="fa fa-linkedin"></i></a></p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -4081px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Tony C Scott</h2>
+        <h3>Principal, Data Science</h3>
+        <p class="contact-links">
+          <a href="https://www.linkedin.com/in/tony-scott-6160985" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -4250px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Jayachandra Reddy</h2>
+        <h3>Principal, Data Engineering</h3>
+        <p class="contact-links">
+          <a href="https://www.linkedin.com/in/jcreddy" target="_blank"><i class="fa fa-linkedin"></i></a></p>
+      </div>
+    </div>
         
 
-        </div>
         
-        </div>
+
+  </div>
+        
+</div>
     
         </div>
       </div><!-- /.row -->
