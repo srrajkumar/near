@@ -217,7 +217,7 @@
 				<figure>
 					<img src="<?php IMAGE('research/telco.png'); ?>"/>
 						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
-					<h1 class="title">Telecommunication</h1>
+					<h1 class="title">Telecommunications</h1>
 					<p>Latest Research</p>
 					<div class="description">
 						<span  class="custom_btn">
