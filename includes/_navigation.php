@@ -77,7 +77,7 @@
               <ul>
               <li class="line_anim"></li>
               <li><a href="<?php echo SITE_URL; ?>culture" class="main-header">Overview</a></li>
-              <li><a href="<?php echo SITE_URL; ?>culture">Meet the Team</a></li>
+              <li><a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php">Meet the Team</a></li>
               </li>
               </ul>
               <li  class="submenu1"><a href="#">Blog <span style="top: 10px;">+</span></a>
@@ -110,19 +110,25 @@
      <li class="s-header__action-item">
           <a class="s-header__action-link" href="<?php echo TWITTER_ACCOUNT_URL ; ?>">
               <i class="g-padding-r-5--xs ti-twitter"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
+              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-twitter"></i></span>
           </a>
       </li>
       <li class="s-header__action-item">
           <a class="s-header__action-link" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>">
               <i class="g-padding-r-5--xs ti-facebook"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
+              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-facebook"></i></span>
           </a>
       </li>
       <li class="s-header__action-item">
           <a class="s-header__action-link" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>">
               <i class="g-padding-r-5--xs ti-instagram"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm">LinkedIn</span>
+              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-linkedin"></i></span>
+          </a>
+      </li>
+      <li class="s-header__action-item">
+          <a class="s-header__action-link" href="<?php echo YOUTUBE_ACCOUNT_URL ; ?>">
+              <i class="g-padding-r-5--xs ti-instagram"></i>
+              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-youtube-play"></i></span>
           </a>
       </li>
     </ul>
