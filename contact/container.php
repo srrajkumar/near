@@ -230,42 +230,7 @@
       </div>
 
 <div class="col col-md-12 row perspective contact_addresses"> 
-  <div class="col-6 col-md-4">
-    <div class="col-md-10">
-    <h2>Singapore <span>(Headquarters)</span></h2>
-    <hr />
-    <p><b>Near Pte. Ltd</b><br>
-      #36-30/32, UOB Plaza 1  80 Raffles Place Singapore 048624<br>
-    </p>
-    </div>
-  </div>
-  <div class="col-6 col-md-4">
-  <div class="col-md-10">
-    <h2>India<span>Bangalore</span></h2> 
-    <hr />
-    <p><b>Near India Private limited</b><br>No. 71/72, 4<sup>th</sup> Floor JNC Rd, Koramangala 5<sup>th</sup> B<br>
-     Bangalore 560 095<br>
-    </p>
-    </div>
-  </div>
-  <div class="col-6 col-md-4">
-  <div class="col-md-10">
-    <h2>Australia<span>Sydney</span></h2> 
-    <hr />
-    <p><b>Near Australia Pty Limited</b><br>Level 21, 201 Sussex St. Sydney NSW 2000<br>
-    </p>
-    </div>
-  </div>
-  <div class="col-6 col-md-4">
-    <div class="col-md-10">
-    <h2>Tokyo <span>Japan</span></h2>
-    <hr />
-    <p><b>Near Japan K.K.</b><br>
-      Regus Ebisu Business Center, 8F Humax Ebisu building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo 150-0022
-    </p>
-    </div>
-  </div>
-  <div class="col-6 col-md-4">
+<div class="col-6 col-md-4">
   <div class="col-md-10">
     <h2>USA<span>San Francisco</span></h2> 
     <hr />
@@ -290,6 +255,45 @@
     </p>
     </div>
   </div>
+  <div class="col-6 col-md-4">
+  <div class="col-md-10">
+    <h2>India<span>Bangalore</span></h2> 
+    <hr />
+    <p><b>Near India Private limited</b><br>No. 71/72, 4<sup>th</sup> Floor JNC Rd, Koramangala 5<sup>th</sup> B<br>
+     Bangalore 560 095<br>
+    </p>
+    </div>
+  </div>
+  <div class="col-6 col-md-4">
+    <div class="col-md-10">
+    <h2>Singapore <span>(Headquarters)</span></h2>
+    <hr />
+    <p><b>Near Pte. Ltd</b><br>
+      #36-30/32, UOB Plaza 1  80 Raffles Place Singapore 048624<br>
+    </p>
+    </div>
+  </div>
+    <div class="col-6 col-md-4">
+    <div class="col-md-10">
+    <h2>Tokyo <span>Japan</span></h2>
+    <hr />
+    <p><b>Near Japan K.K.</b><br>
+      Regus Ebisu Business Center, 8F Humax Ebisu building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo 150-0022
+    </p>
+    </div>
+  </div>
+  <div class="col-6 col-md-4">
+  <div class="col-md-10">
+    <h2>Australia<span>Sydney</span></h2> 
+    <hr />
+    <p><b>Near Australia Pty Limited</b><br>Level 21, 201 Sussex St. Sydney NSW 2000<br>
+    </p>
+    </div>
+  </div>
+
+  
+  
+  
 </div>
 
 
