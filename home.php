@@ -68,7 +68,7 @@
     	<h1 data-aos="fade-zoom-in" data-aos-delay="200">TRUSTED BY WORLD’S BEST</h1>
     	<h2 data-aos="fade-zoom-in" data-aos-delay="400">1 in 5 Forbes Top 100 brands use Near</h2>
     	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
-    	<?php include('includes/_barnd-logos.php'); ?>
+    	<?php include('includes/_brand-logos.php'); ?>
    </div>
     </div>
 <div id="platform_leverage" style="padding: 10px; background-color: #f2f3f6;">
