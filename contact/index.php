@@ -22,7 +22,34 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 	<?php include('../includes/_footer.php'); ?>
   <?php include('../includes/_java_scripts.php'); ?>
  
-
+<script type="text/javascript">
+	//grabs the hash tag from the url
+  var hash = window.location.hash;
+  //checks whether or not the hash tag is set
+  if (hash != "") {
+    //removes all active classes from tabs
+    $('.sidebar-nav-v1 li ul li').each(function() {
+      $(this).removeClass('active');
+    });
+    $('.tab-content div').each(function() {
+      $(this).removeClass('active');
+    });
+    //this will add the active class on the hashtagged value
+    var link = "";
+    $('.sidebar-nav-v1 li ul li').each(function() {
+      link = $(this).find('a').attr('href');
+      if (link == hash) {
+        $(this).addClass('active');
+      }
+    });
+    $('.tab-content div').each(function() {
+      link = $(this).attr('id');
+      if ('#'+link == hash) {
+        $(this).addClass('active');
+      }
+    });
+  }
+</script>
 </body>
 </html>
 

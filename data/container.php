@@ -6,7 +6,7 @@
           <hr />
           <p>The platform provides intelligence based on pertinent data streams from a wide spectrum of data signals in the current era of ubiquitous information and perpetual connectivity.</p>
           <br>
-          <a href="#" class="button button--primary button--rounded" style="margin-left: 0;">Partner with us</a>
+          <a href="<?php echo SITE_URL; ?>contact/#data" class="button button--primary button--rounded" style="margin-left: 0;">Partner with us</a>
           </div>
 
                 <div class="col col-md-8" style="right: 0">
@@ -96,7 +96,7 @@
           <img src="<?php IMAGE('data/icon-set-3/data-icon.png') ?>" />
           <p>Plug and Play into your existing products</p>
           <br><br>
-          <a href="<?php echo SITE_URL; ?>contact" class="button button--primary button--rounded" style="margin-left: 0;">Get in Touch</a>
+          <a href="<?php echo SITE_URL; ?>contact/#data" class="button button--primary button--rounded" style="margin-left: 0;">Get in Touch</a>
           </div>
 
                 <div class="col col-md-8" style="right: 0">
