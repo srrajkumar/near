@@ -13,6 +13,7 @@ $meta_keywords="";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('grid-random.css'); ?>">
 <style>
   .custom_btn{
     border: 1px solid #000 !important;
@@ -90,25 +91,23 @@ $meta_keywords="";
 	<?php include('container.php'); ?>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
-
   <script src="<?php JS('jquery.gridrotator.js'); ?>"></script>
     <script type="text/javascript"> 
       $(function() {
-      
         $( '#ri-grid' ).gridrotator( {
           rows    : 2,
-          columns   : 4,
+          columns   : 3,
           animType  : 'fadeInOut',
           animSpeed : 500,
           interval  : 1500,
-          step    : 5,
+          step    : 2,
           w320    : {
             rows  : 2,
-            columns : 8
+            columns : 3
           },
           w240    : {
             rows  : 2,
-            columns : 8
+            columns : 3
           }
         } );
       

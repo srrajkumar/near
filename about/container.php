@@ -17,25 +17,25 @@
         </div>
       </a>
     </div>
-    <div class="col-md-6 random-image" style="height: 275px;">
-      <div id="ri-grid" class="ri-grid ri-grid-size-2">
-          <ul>
-            <li><a href="#"><img src="<?php IMAGE('team/anil-mathews.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/shobhit-shukla.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/madhu-therani.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/justin-joseph.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/rahul-agarwal.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/andries.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/cameron-curtis.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/inotani-hisashi.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/kenneth-parnham.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/aditi-kohli.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/michelle-zhou.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/smriti-kataria.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/himanchal-singh.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/tony-c-scott.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/jayachandra-reddy.png') ?>"/></a></li>
-            <li><a href="#"><img src="<?php IMAGE('team/murali-veeraiyan.png') ?>"/></a></li>
+    <div class=" random-image" >
+      <div id="ri-grid" class="ri-grid ri-grid-size-2" >
+           <ul>
+            <li><a href="#"><img src="../assets/images/team/anil-mathews.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/shobhit-shukla.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/madhu-therani.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/justin-joseph.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/rahul-agarwal.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/andries.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/cameron-curtis.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/inotani-hisashi.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/kenneth-parnham.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/aditi-kohli.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/michelle-zhou.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/smriti-kataria.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/himanchal-singh.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/tony-c-scott.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/jayachandra-reddy.png"/></a></li>
+            <li><a href="#"><img src="../assets/images/team/murali-veeraiyan.png"/></a></li>
           </ul>
         </div>
     </div>

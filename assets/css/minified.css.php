@@ -19,5 +19,4 @@ include('slick.css');
 include('slick-theme.css');
 include('bootstrap-formhelpers.css');
 include('social-buttons.css');
-include('grid-random.css');
 ob_end_flush();
