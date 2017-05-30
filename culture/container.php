@@ -2,7 +2,7 @@
 
 <div class="container container--fixed top-spacer culture-subpages" style="padding: 100px 0">
   <div class="row" style="margin: 0;">
-    <div class="col-lg-9 culture_highlite">
+    <div class="col-lg-10 culture_highlite">
     <h1>What we stand for...</h1>
     <p>If a challenging work environment doesn't excite you,<br /> then you definitely don't belong to a startup. 
   <br>But probably no one told you that a great culture is not just about work.</p>
@@ -13,13 +13,13 @@
   </div>
 </div>
 <div class="col-lg-12 row collage">
-  <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img1.png'); ?>"></div>
-  <div class="col-lg-4" style="background-image: url('<?php IMAGE('culture/collage/img2.png'); ?>"></div>
-  <div class="col-lg-4" style="background-image: url('<?php IMAGE('culture/collage/img3.png'); ?>"></div>
-  <div class="col-lg-1" style="background-image: url('<?php IMAGE('culture/collage/img4.png'); ?>"></div>
-  <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img5.png'); ?>"></div>
-  <div class="col-lg-6" style="background-image: url('<?php IMAGE('culture/collage/img6.png'); ?>"></div>
-  <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img7.png'); ?>"></div>
+  <div class="col-lg-2" style="background-image: url('<?php IMAGE('culture/collage/img1.png'); ?>');"></div>
+  <div class="col-lg-4" style="background-image: url('<?php IMAGE('culture/collage/img2.png'); ?>');"></div>
+  <div class="col-lg-4" style="background-image: url('<?php IMAGE('culture/collage/img3.png'); ?>'); background-position:center center;"></div>
+  <div class="col-lg-2" style="background-image: url('<?php IMAGE('culture/collage/img4.png'); ?>');"></div>
+  <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img5.png'); ?>');"></div>
+  <div class="col-lg-6" style="background-image: url('<?php IMAGE('culture/collage/img6.png'); ?>'); background-position:center center;"></div>
+  <div class="col-lg-3" style="background-image: url('<?php IMAGE('culture/collage/img7.png'); ?>');"></div>
 </div>
 
 <div class="container container--fixed top-spacer culture-subpages" style="padding: 100px 0">

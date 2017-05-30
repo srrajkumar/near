@@ -857,6 +857,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
   height: 250px;
   background-size: cover;
   border: 3px solid #fff;
+  background-position: center top;
 }
 .listing{
       margin-left: 20px;
