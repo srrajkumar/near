@@ -11,7 +11,7 @@ $meta_keywords="";
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
- 
+
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 <style>
   .custom_btn{
@@ -90,11 +90,30 @@ $meta_keywords="";
 	<?php include('container.php'); ?>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
-  <script src="<?php JS('build/three.js'); ?>"></script>
 
-  <script src="<?php JS('build/Projector.js'); ?>"></script>
-  <script src="<?php JS('build/CanvasRenderer.js'); ?>"></script>
-      <script>
+  <script src="<?php JS('jquery.gridrotator.js'); ?>"></script>
+    <script type="text/javascript"> 
+      $(function() {
+      
+        $( '#ri-grid' ).gridrotator( {
+          rows    : 2,
+          columns   : 4,
+          animType  : 'fadeInOut',
+          animSpeed : 500,
+          interval  : 1500,
+          step    : 5,
+          w320    : {
+            rows  : 2,
+            columns : 8
+          },
+          w240    : {
+            rows  : 2,
+            columns : 8
+          }
+        } );
+      
+      });
+
 
       var $anchors = $('.icon-anim .icon_hover'), counter = 0;
       setInterval(function(){
@@ -155,19 +174,7 @@ setInterval('cycleImages3()', 4000);
 });
 
   </script>
-   <script type="x-shader/x-vertex" id="vertexshader">
 
-      attribute float size;
-      attribute vec3 customColor;
-      varying vec3 vColor;
-
-      void main() {
-          vColor = customColor;
-          vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-          gl_PointSize = size * ( 10.0 / length( mvPosition.xyz ) );
-          gl_Position = projectionMatrix * mvPosition;
-      }
-  </script>
 </body>
 </html>
 

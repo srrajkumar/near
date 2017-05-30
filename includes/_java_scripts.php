@@ -2,6 +2,7 @@
 
 <script src="<?php JS('tether.min.js'); ?>"></script>
 <script src="<?php JS('jquery.min.js'); ?>"></script>
+
 <script src="<?php JS('sine-waves.min.js'); ?>"></script>
 <script src="<?php JS('bootstrap.min.js'); ?>"></script>
 <script src="<?php JS('modernizr.js'); ?>"></script>
@@ -18,4 +19,3 @@
 <script src="<?php JS('jquery.flexslider-min.js'); ?>"></script>
 <script src="<?php JS('jquery.particleground.js'); ?>"></script>
 <script src="<?php JS('custom.js'); ?>"></script>
-
