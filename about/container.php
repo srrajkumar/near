@@ -123,7 +123,7 @@
     <div class="col-md-6 right-arrow">
       <h2>Culture Code</h2>
       <hr />
-      <p class="col-md-12">Explore the Near culture, values and meet the team.</p>
+      <p class="col-md-12">Explore the Near culture and meet the team.</p>
       <a href="<?php echo SITE_URL; ?>culture" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
