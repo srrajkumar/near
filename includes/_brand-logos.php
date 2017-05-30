@@ -37,8 +37,8 @@
 			        <img src="<?php IMAGE('auto/volvo.png'); ?>"  alt="Volvo" />
 			        <img src="<?php IMAGE('auto/bridgestone.png'); ?>"   alt="Bridgestone" />
 			    </div>
-				<div role="tabpanel" class="tab-pane fade" id="tab2">
-					<img alt="Pepsi" src="<?php IMAGE('fmcg/pepsi.png'); ?>" />
+				<div role="tabpanel" class="tab-pane fade" id="tab2" >
+					<img alt="Pepsi" src="<?php IMAGE('fmcg/pepsi.png'); ?>" style="height: 70px; margin: 10px 30px 30px 40px;" />
 					<img alt="P&G" src="<?php IMAGE('fmcg/p-and-g.png'); ?>"  />
 					<img alt="CocaCola" src="<?php IMAGE('fmcg/coca-cola.png'); ?>"  />
 					<img alt="Lindt" src="<?php IMAGE('fmcg/lindt.png'); ?>" />
