@@ -17,36 +17,36 @@
                             <div class="loc-dots australia"><div class="pulse"></div></div>
                             <div class="contact-location singaporeloc loc-active">
                             	<h2>Singapore <span class="mobile">(Headquarters)</span></h2>
-                                <p>Near Pte. Ltd<br>
+                                <p>Near Pte. Ltd.<br>
                                    #36-30/32, UOB Plaza 1 <br>
                                    80 Raffles Place<br>
-                                   Singapore 048624<br>
+                                   Singapore 048624.<br>
                                   </p>
                             </div>
                             <div class="contact-location usaloc">
                             	<h2>San Francisco</h2>
                                 <p>Near Americas Inc.<br>228 Hamilton Ave, 3<sup>rd</sup> Floor<br>
-                                Palo Alto, CA 94301 <br>                               
+                                Palo Alto, CA 94301. <br>                               
                                 </p>
                             </div>
                               <div class="contact-location usa-nyloc">
                             	<h2>New York</h2>
                                 <p>Near Americas Inc.<br>222 Broadway, 19<sup>th</sup> Floor<br>
-                                New York, NY 10038 <br>                               
+                                New York, NY 10038. <br>                               
                                  </p>
                             </div>
                             <div class="contact-location ukloc">
                             	<h2>London</h2>
-                                <p>Near Europe Limited<br>4<sup>th</sup> Floor, Rex House<br>
+                                <p>Near Europe Ltd.<br>4<sup>th</sup> Floor, Rex House<br>
                                   4-12 Regent Street <br>
-                                  London, SW1Y 4PE<br>
+                                  London, SW1Y 4PE.<br>
                                   </p>
                             </div>
                             <div class="contact-location indialoc">
                             	<h2>Bangalore</h2>
-                                <p>Near India Private limited<br>No. 71/72, 4<sup>th</sup> Floor<br>
+                                <p>Near India Pvt. Ltd.<br>No. 71/72, 4<sup>th</sup> Floor<br>
                                    JNC Rd, Koramangala 5<sup>th</sup> B<br>
-                                   Bangalore 560 095<br>
+                                   Bangalore 560 095.<br>
                                   </p>
                             </div>
                             <div class="contact-location japanloc">
@@ -54,13 +54,13 @@
                                 <p>Near Japan K.K.<br>Regus Ebisu Business Center,<br>
 									8F Humax Ebisu building,<br>
                                     Ebisu minami 1-1-1, Shibuya-ku,<br>
-                                   Tokyo 150-0022<br>
+                                   Tokyo 150-0022.<br>
                                   </p>
                             </div>
                             <div class="contact-location australialoc">
                             	<h2>Sydney</h2>
-                                <p>Near Australia Pty Limited<br>Level 21, 201 Sussex St.<br>
-                                  Sydney NSW 2000<br>
+                                <p>Near Australia Pty Ltd.<br>Level 21, 201 Sussex St.<br>
+                                  Sydney NSW 2000.<br>
                                   </p>
                             </div>
     		<svg version="1.1" x="0px" y="0px" viewBox="0 0 723 365" xml:space="preserve" class="map-anim">
