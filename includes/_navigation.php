@@ -70,10 +70,16 @@
               <li class="line_anim" style="left: 15px;"></li>
               <li class="main-header"><a href="<?php echo SITE_URL; ?>about">Overview</a></li>
               <li><a href="<?php echo SITE_URL; ?>leadership">Leadership</a></li>
-              <li><a href="#">Investors</a></li>
-              <li><a href="#">Board</a></li>
-              <li><a href="<?php echo SITE_URL; ?>culture">Culture</a></li>
-              <li><a href="<?php echo SITE_URL; ?>blog">Blog <span style="top: 10px;">+</span></a>
+              <li><a href="<?php echo SITE_URL; ?>investors">Investors</a></li>
+              <li><a href="<?php echo SITE_URL; ?>board">Board</a></li>
+              <li><a href="#" class="submenu">Culture<span style="top:10px;">+</span></a>
+              <ul>
+              <li class="line_anim"></li>
+              <li><a href="<?php echo SITE_URL; ?>culture" class="main-header">Overview</a></li>
+              <li><a href="<?php echo SITE_URL; ?>culture">Meet the Team</a></li>
+              </li>
+              </ul>
+              <li><a href="#"  class="submenu">Blog <span style="top: 10px;">+</span></a>
                 <ul>
                   <li class="line_anim"></li>
                   <li><a href="<?php echo SITE_URL; ?>blog">Corporate Blog</a></li>

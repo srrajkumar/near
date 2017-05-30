@@ -4,9 +4,8 @@
    <div class="row">
       <div class="col-md-12" style="text-align: center;">
         <h1><span>Board </span> Members</h1>
-        <hr />
-        <h2>Content</h2>
-        <p>Content</p>
+       
+       
       </div>
    </div>
   </div>

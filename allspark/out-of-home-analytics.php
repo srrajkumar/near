@@ -3,7 +3,7 @@ $meta_title="";
 $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
-$content= "Out-of Home Analytics";
+$content= "Out-of-Home Analytics";
 $content1="Make intelligent decisions for your outdoor marketing strategy";
 $image=  "allspark/allspark-ooh-analytics.png";
 
@@ -34,7 +34,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
 </div>
                 <div class="col col-md-9">
                 <div class="space" style="padding:13px;"></div>
-                <h1>Enterprises, Brands, Agencies and Out of Home players </h1>
+                <h1>Enterprises, Brands, Agencies and Out-of-Home players </h1>
                 <h2>can use Allspark to:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">

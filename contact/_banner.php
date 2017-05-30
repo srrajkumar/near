@@ -5,8 +5,8 @@
       <div class="col-md-12" style="text-align: center;">
         <h1><span>Contact</span> US</h1>
         <hr />
-        <h2>Got a question? We'd love to hear from you.</h2>
-        <p>Send us a message and we'll respond as soon as possible.</p>
+        <h2>We would love to hear from you</h2>
+        <p>Tell us more about yourself and your query</p>
       </div>
    </div>
   </div>

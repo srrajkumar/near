@@ -37,7 +37,7 @@
       <h2>Our Investors</h2>
       <hr />
       <p class="col-md-12">Near is backed by some of the leading investors in the world.</p>
-      <a href="#" class="custom_btn">
+      <a href="<?php echo SITE_URL; ?>investors" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
         </span>            

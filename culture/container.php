@@ -7,8 +7,7 @@
     <p>If a challenging work environment doesn't excite you,<br /> then you definitely don't belong to a startup. 
   <br>But probably no one told you that a great culture is not just about work;</p>
     <hr style="margin: 35px 0;" />
-    <h4>it's <span>work + life.</span><br>
-    At Near, it also means freedom. </h4>
+    <h4>A great culture is not just about work,<br>it's <span>work + life.</span> </h4>
     <a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php" class="button button--primary button--rounded users" style="margin: 20px 0 0 0; padding: 8px 40px;">Meet the team</a>
   </div>
   </div>

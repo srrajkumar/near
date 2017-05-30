@@ -837,7 +837,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .culture-subpages .culture_highlite h4{
   color: #444444;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 400;
 }
 .culture-subpages .culture_highlite h4 span{
   color: #e21e27;
@@ -2350,6 +2350,7 @@ footer .spacing_margin{
   }
 }
 .brand_tabs {min-height:300px;}
+
 .custom_btn .btn__text{
     right: 100%;
     color: #000 !important;
@@ -2911,7 +2912,7 @@ p{font-weight:normal;; letter-spacing:0.01em;}
   left: 0;
 }
 .aboutus h1{
-  font-weight: 700;
+  font-weight: 400;
   color: #5d5d5d;
   font-size: 62px;
 }
@@ -3399,8 +3400,17 @@ a.event-link{
   line-height:24px;
 }
 .event-wrapper:last-child{margin-bottom:100px;}
-
-
+/*** Investors ***/
+.inv1, .inv2, .inv3, .inv4 { background: url(../images/investors.png);  background-size:54px auto;}
+.inv1{background-position: 0 -35px;}.inv2{background-position: 0 35px;}.inv3{background-position: 0 103px;}.inv4{background-position: 0 68px;}
+.investors .row{margin:0}
+.investors .img-circle{border-radius:0;float:left;margin-right:10px}
+.investors a{text-decoration:none}
+.investors .read-more{font-weight:300;font-size:17px;text-align:right;color:#6b6b6b!important;  text-shadow:0px 0px 0px #6b6b6b;}
+.investors hr{border-top:1px solid #FFD2DB;margin-bottom:8px;margin-top:8px}
+.investors .flex{display:flex;flex-wrap:wrap}
+.investors .flex2{display:flex}
+.investors .col-md-6{margin-bottom:60px}
 
 
 

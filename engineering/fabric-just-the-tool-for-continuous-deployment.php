@@ -40,9 +40,7 @@ $title = "Fabric - Just the tool for continuous deployment";
                                                 <a href="<?php echo SITE_URL; ?>engineering/fabric-just-the-tool-for-continuous-deployment.php" class="tech-nav-prev" title="Old"></a>
                                                 <a href="<?php echo SITE_URL; ?>engineering/location-intelligence-the-next-frontier.php" class="tech-nav-next" title="New"></a>
                                             </div>
-                                            <div class="line-break-bottom"><img src="<?php IMAGE('bb.png'); ?>" alt style="width:100px; height:100px; background:url(<?php IMAGE('near-team.png'); ?>) 0 609px/ 100% auto; border-radius:50%; float:left; margin-right: 30px;" />
-									<h2 style="padding-top: 12px;"><span>by</span> Saurabh Minni</h2>
-                                    <p class="tech-designation" >Technical Architect</p></div>
+                                            <div class="line-break-bottom"><h4><span>by</span> Near Tech Team</h4></div>
                                   	<p class="date">November 03, 2015</p>
                                     <h2 style="margin-top: 0;"><?php echo $title; ?></h2>
                                     <!--p class="tech-designation">Technical Architect</p-->

@@ -3,7 +3,7 @@ $meta_title="";
 $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
-$content= "Auto";
+$content= "Automotive";
 $content1=" ";
 $image=  "allspark/allspark-auto.png";
 

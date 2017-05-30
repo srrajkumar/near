@@ -30,7 +30,6 @@ $title="Careers";
         @media(min-width:541px) and (max-width:639px){.tech-image{height:360px; background-position:0 -180px;}}
    
 .next:before, .next:after{ display:none;}
-.overlay-vdo{background:rgba(0,0,0,0.75);}
 .field input { background:transparent; }
 .field input::-webkit-input-placeholder {color: #FFFFFF !important;} 
 .field input:-moz-placeholder {color: #FFFFFF !important;} 
@@ -99,10 +98,10 @@ $title="Careers";
             </div>
             <!--img src="<?#php IMAGE('office.png'); ?>" class="feature-block_image " data-osrc="<?#php IMAGE('office.png'); ?>"/-->
               
-               <div id="background_cycler" class="feature-block_image " >
+               <div class="feature-block_image " >
                    
-                    <img class="active"  src="<?php IMAGE('careers/vacation.png'); ?>"  alt="">
-                    <img  src="<?php IMAGE('careers/fun-life-near-2.png'); ?>"  alt="">
+                    <img   src="<?php IMAGE('careers/vacation.png'); ?>"  alt="">
+                   
                  
                 </div>	
            
@@ -158,13 +157,7 @@ $title="Careers";
 <div class="col-7 m-whole">	
 	<div class="cta-block cta-block--bg-image career-background-1" data-position="top">
      <div id="background_cycler3" class="cta-block_image" >
-      
-           
-    		
-    		<img class="active" src="<?php IMAGE('careers/out-of-work-party.png'); ?>" data-osrc="<?php IMAGE('careers/out-of-work-party.png'); ?>" alt="">
-            <img  src="<?php IMAGE('careers/out-of-work-party-2.jpg'); ?>" data-osrc="<?php IMAGE('careers/out-of-work-party-2.jpg'); ?>" alt="">
-            <img src="<?php IMAGE('careers/out-of-work-party-3.png'); ?>" data-osrc="<?php IMAGE('careers/out-of-work-party-3.png'); ?>" alt="">
-            <img src="<?php IMAGE('careers/party.png'); ?>" data-osrc="<?php IMAGE('careers/party.png'); ?>" alt="">
+            <img src="<?php IMAGE('careers/party.png'); ?>" data-osrc="<?php IMAGE('careers/party.png'); ?>" alt="" class="active">
             <img src="<?php IMAGE('careers/party-1.png'); ?>" data-osrc="<?php IMAGE('careers/party-1.png'); ?>" alt="">
             <img src="<?php IMAGE('careers/party-2.png'); ?>" data-osrc="<?php IMAGE('careers/party-2.png'); ?>" alt="">
          </div>		
@@ -198,9 +191,9 @@ $title="Careers";
 
 <div class="col-6">
     <div class="cta-block cta-block--bg-image career-background-1" data-position="top">
-    	 <div id="background_cycler2" class="feature-block_image" >
-                    <img class="active" src="<?php IMAGE('careers/health.png'); ?>" class="feature-block_image" data-osrc="<?php IMAGE('careers/health.png'); ?>" alt="">
-                    <img  src="<?php IMAGE('careers/health-1.png'); ?>" class="feature-block_image"  data-osrc="<?php IMAGE('careers/health-1.png'); ?>" alt="">
+    	 <div class="feature-block_image" >
+                    <img  src="<?php IMAGE('careers/health.png'); ?>" class="feature-block_image" data-osrc="<?php IMAGE('careers/health.png'); ?>" alt="">
+                   
                    
                 </div>	
                 
@@ -222,11 +215,11 @@ $title="Careers";
      <div id="background_cycler5" class="cta-block_image" >
       
            
-    		<img class="active" src="<?php IMAGE('careers/birthday-celebrations-1.png'); ?>" data-osrc="<?php IMAGE('careers/birthday-celebrations-1.png'); ?>" alt="">
+    		
             <img src="<?php IMAGE('careers/birthday-celebrations-2.png'); ?>" data-osrc="<?php IMAGE('careers/birthday-celebrations-2.png'); ?>" alt="">
             <img src="<?php IMAGE('careers/fun-life-near-4.png'); ?>" data-osrc="<?php IMAGE('careers/fun-life-near-4.png'); ?>" alt="">
-            <img src="<?php IMAGE('careers/fun-life-near-1.png'); ?>" data-osrc="<?php IMAGE('careers/fun-life-near-1.png'); ?>" alt="">
-            <img src="<?php IMAGE('careers/fun-life-near-3.png'); ?>" data-osrc="<?php IMAGE('careers/fun-life-near-3.png'); ?>" alt="">
+           
+           
             <img src="<?php IMAGE('careers/foosball.png'); ?>" data-osrc="<?php IMAGE('careers/foosball.png'); ?>" alt="">
             <img src="<?php IMAGE('careers/fun-friday.png'); ?>" data-osrc="<?php IMAGE('careers/fun-friday.png'); ?>" alt="">
          </div>		

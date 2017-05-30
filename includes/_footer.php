@@ -33,9 +33,9 @@
                        <a href="<?php echo SITE_URL; ?>events" >EVENTS</a>   
                     </div>
                     <div class="col-sm-2 footer-links"  data-aos="fade-up" data-aos-delay="400">  
-                       <a href="<?php echo SITE_URL; ?>contact" >CONTACT US</a> 
-                       <a  href="<?php echo SITE_URL; ?>data" >DATA</a>   
-                       <a  href="#" >PARTNERS</a>   
+                       <a href="<?php echo SITE_URL; ?>contact">CONTACT US</a> 
+                       <a  href="<?php echo SITE_URL; ?>data">DATA</a>   
+                       <a  href="<?php echo SITE_URL; ?>investors" >INVESTORS</a>   
                        <a href="<?php echo SITE_URL; ?>leadership" >LEADERSHIP</a>  
                        <a  href="<?php echo SITE_URL; ?>privacy" >PRIVACY</a>
                     </div>

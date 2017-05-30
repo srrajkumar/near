@@ -25,9 +25,7 @@
     <div class="col col-md-9">
       <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;-webkit-justify-content: flex-end; justify-content: flex-end;"> 
 <div class="tab-content col-md-12">
-  <h1>Who are you?</h1>
-  <h2>Someshort facts about you and your company.</h2>
-  <hr />
+ 
   <div class="space"></div>
   <div id="Product" class="tab-pane in active">
     <form class="custom-form" action="<?php echo SITE_URL; ?>form/process-form.php" method="post">
@@ -42,7 +40,7 @@
 
         <div class="form-group margin-bottom col-md-12 row">
           <div class="col-md-6 row">
-            <input type="email" id="email" name="email" required placeholder="Offical Email*" class="form-control" aria-describedby="emailHelp" >
+            <input type="email" id="email" name="email" required placeholder="Business Email*" class="form-control" aria-describedby="emailHelp" >
           </div>
           <div class="col-md-6 row">
             <input type="text" id="company" name="company" required placeholder="Company*">
