@@ -12,6 +12,11 @@ $meta_keywords="Data driven marketing news, location data industry, Omni-channel
 <head>
 	<?php include('../includes/_head.php'); ?>
 	<link rel="stylesheet" href="<?php CSS('page/jquery.snippet.min.css'); ?>" >
+	<style type="text/css">
+		.breadcrumb-item.active{
+			display: none;
+		}
+	</style>
 </head>
 	<body class="newsroom-main">
 	<div class="preloader"></div>

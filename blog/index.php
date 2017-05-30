@@ -12,6 +12,11 @@ $meta_keywords="Data-driven marketing blogs, Location intelligence, ambient inte
 <head>
 	<?php include('../includes/_head.php'); ?>
 	<link rel="stylesheet" href="<?php CSS_path('page/jquery.snippet.min.css'); ?>" >
+		<style type="text/css">
+		.breadcrumb-item.active{
+			display: none;
+		}
+	</style>
 </head>
 
    <body class="newsroom-main">

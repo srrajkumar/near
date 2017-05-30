@@ -2,6 +2,7 @@
 $meta_title="";
 $meta_desc="";
 $meta_keywords="";
+$title="March 2016"
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

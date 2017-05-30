@@ -14,3 +14,12 @@
   <div class="mouse"></div>
 
 </div>
+<div class="breadcumb-bg" style="background-color: #eceeef">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>"><span class="fa fa-home "></span></a></li>
+      <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>news">Newsroom</a></li>
+      <li class="breadcrumb-item active"><?php echo $title; ?></li>
+    </ol>
+  </div>
+</div>

@@ -133,5 +133,6 @@
 			</ul>
 		</li>
 	</ul>
-
+	<br />
+<a href="<?php echo SITE_URL; ?>engineering/" class="blog-link red button2 button2--primary button2--rounded" style=" font-size: 16px; line-height: 25px;">Tech Blog</a>
 </div>
