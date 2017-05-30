@@ -35,9 +35,9 @@
                     <div class="col-sm-2 footer-links"  data-aos="fade-up" data-aos-delay="400">  
                        <a href="<?php echo SITE_URL; ?>contact">CONTACT US</a> 
                        <a  href="<?php echo SITE_URL; ?>data">DATA</a>   
-                       <a  href="<?php echo SITE_URL; ?>investors" >INVESTORS</a>   
-                       <a href="<?php echo SITE_URL; ?>leadership" >LEADERSHIP</a>  
-                       <a  href="<?php echo SITE_URL; ?>board" >BOARD</a>
+                       <a  href="<?php echo SITE_URL; ?>investors">INVESTORS</a>   
+                       <a href="<?php echo SITE_URL; ?>leadership">LEADERSHIP</a>  
+                       <a  href="<?php echo SITE_URL; ?>board">BOARD</a>
                     </div>
 					<!--div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="600">
 					      
@@ -67,10 +67,10 @@
                       <div class="col-sm-3 life"  data-aos="fade-up" data-aos-delay="1000">
                       <h5 style="margin-bottom: 10px;">CONNECT</h5>
                       <p class="social-links" style="margin-top:-5px;">
-						<a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
+							<a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
                            <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
 						   <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
-						   <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+						   <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><i class="fa fa-youtube"></i></a>
 						</p>
                       <span style="display: block; margin-top: 5px;    margin-bottom: 10px;">LIFE @ NEAR</span>
 								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>

@@ -20,6 +20,7 @@ define('PDF_ASSETS_URL', 'http://d2828ihewbtgvd.cloudfront.net/pdf/');
 define('TWITTER_ACCOUNT_URL', 'http://twitter.com/Near');
 define('FACEBOOK_ACCOUNT_URL', 'http://facebook.com/NearPlatform');
 define('LINKEDIN_ACCOUNT_URL', 'https://www.linkedin.com/company-beta/2811352/');
+define('YOUTUBE_ACCOUNT_URL', 'https://www.youtube.com/channel/UCcZSqSHEBHDP_o3Ty-OVq-A');
 define('DEFAULT_COUNTRY_OPTION', 'INDIA');
 
 header("Access-Control-Allow-Origin: *");	
