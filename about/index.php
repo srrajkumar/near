@@ -93,21 +93,18 @@ $meta_keywords="";
     <?php include('../includes/_java_scripts.php'); ?>
   <script src="<?php JS('jquery.gridrotator.js'); ?>"></script>
     <script type="text/javascript"> 
-      $(function() {
+$(function() {
+      
         $( '#ri-grid' ).gridrotator( {
           rows    : 2,
-          columns   : 3,
+          columns   : 4,
           animType  : 'fadeInOut',
-          animSpeed : 500,
-          interval  : 1500,
-          step    : 2,
-          w320    : {
+          animSpeed : 1200,
+          interval  : 3500,
+          step    : 4,
+          w1024     : {
             rows  : 2,
-            columns : 3
-          },
-          w240    : {
-            rows  : 2,
-            columns : 3
+            columns : 4
           }
         } );
       

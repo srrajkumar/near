@@ -17,8 +17,8 @@
         </div>
       </a>
     </div>
-    <div class=" random-image" >
-      <div id="ri-grid" class="ri-grid ri-grid-size-2" >
+    <div class="col-md-6  random-image" >
+      <div id="ri-grid" class="ri-grid ri-grid-size-2" style="padding:0;" >
            <ul>
             <li><a href="#"><img src="../assets/images/team/anil-mathews.png"/></a></li>
             <li><a href="#"><img src="../assets/images/team/shobhit-shukla.png"/></a></li>
@@ -36,6 +36,8 @@
             <li><a href="#"><img src="../assets/images/team/tony-c-scott.png"/></a></li>
             <li><a href="#"><img src="../assets/images/team/jayachandra-reddy.png"/></a></li>
             <li><a href="#"><img src="../assets/images/team/murali-veeraiyan.png"/></a></li>
+            
+
           </ul>
         </div>
     </div>

@@ -866,6 +866,10 @@ a:hover,a:focus{text-decoration:none; outline:none;}
   font-size: 14px;
   margin-bottom: 5px;
 }
+#ri-grid ul li img{
+  width: 200px;
+  height: 200px;
+}
 /* Play Button */
 .button.red, .button2.red{
   background-color: #ed1b2e;
@@ -2996,7 +3000,7 @@ h2{
   border-bottom: 20px solid transparent;
   border-left: 20px solid #fff;
   position: absolute;
-  top: 45%;
+  top: calc(50% - 20px);
   z-index: 5;
   transition: all 0.5s ease;
 }

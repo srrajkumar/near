@@ -114,14 +114,14 @@
 	// the options
 	$.GridRotator.defaults = {
 		// number of rows
-		rows : 4,
+		rows : 2,
 		// number of columns 
-		columns : 10,
-		w1024 : { rows : 3, columns : 8 },
-		w768 : {rows : 3,columns : 7 },
-		w480 : {rows : 3,columns : 5 },
+		columns : 4,
+		w1024 : { rows : 2, columns : 4 },
+		w768 : {rows : 2,columns : 4 },
+		w480 : {rows : 2,columns : 4 },
 		w320 : {rows : 2,columns : 4 },
-		w240 : {rows : 2,columns : 3 },
+		w240 : {rows : 2,columns : 4 },
 		// step: number of items that are replaced at the same time
 		// random || [some number]
 		// note: for performance issues, the number "can't" be > options.maxStep
