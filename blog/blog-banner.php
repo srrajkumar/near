@@ -19,6 +19,7 @@
   <div class="container">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>"><span class="fa fa-home "></span></a></li>
+      <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>about">About Us</a></li>
       <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>blog">Blog</a></li>
       <li class="breadcrumb-item active"><?php echo $title; ?></li>
     </ol>
