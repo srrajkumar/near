@@ -63,6 +63,7 @@
               <li><a href="<?php echo SITE_URL; ?>allspark/qsr.php">QSR</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/telco.php">Telco</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/auto.php">Auto</a></li>
+              <li><a href="<?php echo SITE_URL; ?>allspark/bfsi.php">BFSI</a></li>
             </ul></li>
             <li><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
             <li class="submenu"><a href="#">About Us <span>+</span></a>

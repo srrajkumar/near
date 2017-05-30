@@ -3,7 +3,7 @@
   <div class="container aboutus banner">
    <div class="row">
       <div class="col-md-12" style="text-align: center;">
-       <h1 class="blog-head"><span style="display: block;">Corporate Blog</span></h1>
+       <h1 class="blog-head"><span style="display: block;">Corporate </span>Blog</h1>
         <!--<hr />
         <h2>Content</h2>
         <p>Content</p>-->

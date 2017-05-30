@@ -33,7 +33,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
   <div class="col-lg-12 col-sm-12">
 
   <div class="d-md-block "   id="box-one"  style="margin-bottom: 40px; text-align: center; margin-top: 50px;">
-          <h1 style="font-weight: 700; font-size: 42px;"><?php echo $heading; ?> <span style="color:#5C5C5C;">for</span></h1>
+          <h1 style="font-weight: 400; font-size: 42px;"><?php echo $heading; ?> <span style="color:#5C5C5C;">for</span></h1>
           <p style="font-size: 32px; margin-bottom: 15px;"><?php echo $content; ?></p>
            <span class="line_break1 color-red"></span>
           <p style="font-size: 16px; color: #444;"><?php echo $content1; ?></p>

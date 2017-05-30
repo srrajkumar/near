@@ -90,19 +90,19 @@
 			  <li>
 				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> crossMatrix&trade;</header>
 				<div class="accordian-section" style="display: block;">
-				  <p>For identifying the consumer across screens Devices Engine to build custom device graphs</p>
+				  <p>Near's Proprietary ID Unification Engine to identify consumers across screens, devices and places in real-time.</p>
 				</div>
 			  </li>
 			  <li>
 				<header class="accordian-header" id="placematrix"><i class="ion-plus-round plus-icon"></i> PlaceMatrix&trade;</header>
 				<div class="accordian-section">
-				  <p>For accurate building shapes First party database of over 65 million places</p>
+				  <p>Near's First Party database of over 65 Million accurate building shapes.</p>
 				</div>
 			  </li>
 			  <li>
 				<header class="accordian-header" id="unique_data"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
 				<div class="accordian-section">
-				  <p>Cisco/MC/Telstra</p>
+				  <p>Datasets ranging from transaction to location to traffic with unique data partnerships</p>
 				</div>
 			  </li>
 			   <li>

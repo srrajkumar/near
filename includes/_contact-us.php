@@ -2,7 +2,7 @@
      <div class="container spacing_margin text-center" >
      <div class="text_center">
     	<h1 data-aos="fade-up" data-aos-delay="200" style="display: inline-block;">GLOBAL PRESENCE</h1>
-    	<p style="margin-bottom:0px; display: inline-block; vertical-align: bottom;" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"><a class="effect effect-1" href="<?php echo SITE_URL; ?>contact" style="margin-left: 20px;" title="Get in Touch">Contact Us</a></p>
+    	<p style="margin-bottom:0px; display: inline-block; vertical-align: bottom;" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"><a class="effect effect-1" href="<?php echo SITE_URL; ?>contact" style="margin-left: 20px;" title="Contact Us">Contact Us</a></p>
       </div>
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
       

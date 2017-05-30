@@ -85,12 +85,7 @@ $meta_keywords="Near Engineering, data platform, data products, location intelli
                    
                     </a>
                         </li>
-                    	<li class="col-sm-3">
-                        <a href="<?php echo SITE_URL; ?>engineering/fabric-just-the-tool-for-continuous-deployment.php">
-                        <p class="date">OCTOBER 20, 2015</p>
-                        <h2>Fabric - Just the tool for continuous deployment</h2>
-                        </a>
-                        </li>
+                    	
                         <li class="col-sm-3">
                         <a href="<?php echo SITE_URL; ?>engineering/intro.php">
                         <p class="date">OCTOBER 14, 2015</p>
