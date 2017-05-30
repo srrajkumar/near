@@ -2047,10 +2047,10 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 .loc-dots.india{right: 31.8%; top: 55.5%;}
 .loc-dots.japan{right: 10%;top: 31%;}
 .usa-nyloc.loc-active,.usa-ny.c-active .pulse,.usaloc.loc-active, .usa.c-active .pulse, .australialoc.loc-active, .australia.c-active .pulse, .ukloc.loc-active, .uk.c-active .pulse, .indialoc.loc-active, .india.c-active .pulse, .singaporeloc.loc-active, .singapore.c-active .pulse, .japanloc.loc-active, .japan.c-active .pulse{ opacity:1;}
-.usaloc{left: 14.5%; top: 41%}
+.usaloc{left: 15.5%; top: 49%;}
 .loc-dots.usa-ny{left: 29%; top: 39%;}
-.usa-nyloc{left: 29.5%; top: 39%;}
-.ukloc{left: 15.5%; top: 49%;}
+.usa-nyloc{left: 29.8%; top: 40%;}
+.ukloc{left: 36%;top: 32%;}
 .singaporeloc{right: 23%;top: 59%;}
 .australialoc{right: 5%; bottom: 3%;}
 .indialoc{right: 28%; top: 55%;}
