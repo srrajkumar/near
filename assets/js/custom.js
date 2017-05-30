@@ -64,7 +64,13 @@ jQuery(document).ready(function($){
   });
 });
 
-
+$(document).ready(function() {
+$(".submenu1").click(function () {
+    $(".submenu1").removeClass("active");
+ 
+    $(this).addClass("active");   
+});
+});
 
 var Global = function() {
   "use strict";

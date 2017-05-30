@@ -47,7 +47,7 @@
       <nav class="s-header__nav js__scrollbar container">
         <div class="container-fluid row">
           <ul class="main_nav">
-            <li data-aos="fade-up" class="submenu"><a>Allspark <span>+</span></a>
+            <li  class="submenu"><a>Allspark <span>+</span></a>
             <ul>
               <li class="line_anim" style="left: 15px;"></li>
               <li class="main-header"><a href="<?php echo SITE_URL; ?>allspark">Overview</a></li>
@@ -64,22 +64,22 @@
               <li><a href="<?php echo SITE_URL; ?>allspark/telco.php">Telco</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/auto.php">Auto</a></li>
             </ul></li>
-            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
-            <li data-aos="fade-up" class="submenu"><a href="#">About Us <span>+</span></a>
+            <li><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
+            <li class="submenu"><a href="#">About Us <span>+</span></a>
               <ul style="right: -157px;">
               <li class="line_anim" style="left: 15px;"></li>
               <li class="main-header"><a href="<?php echo SITE_URL; ?>about">Overview</a></li>
               <li><a href="<?php echo SITE_URL; ?>leadership">Leadership</a></li>
               <li><a href="<?php echo SITE_URL; ?>investors">Investors</a></li>
               <li><a href="<?php echo SITE_URL; ?>board">Board</a></li>
-              <li><a href="#" class="submenu">Culture<span style="top:10px;">+</span></a>
+              <li class="submenu1"><a href="#" >Culture<span style="top:10px;">+</span></a>
               <ul>
               <li class="line_anim"></li>
               <li><a href="<?php echo SITE_URL; ?>culture" class="main-header">Overview</a></li>
               <li><a href="<?php echo SITE_URL; ?>culture">Meet the Team</a></li>
               </li>
               </ul>
-              <li><a href="#"  class="submenu">Blog <span style="top: 10px;">+</span></a>
+              <li  class="submenu1"><a href="#">Blog <span style="top: 10px;">+</span></a>
                 <ul>
                   <li class="line_anim"></li>
                   <li><a href="<?php echo SITE_URL; ?>blog">Corporate Blog</a></li>
@@ -90,9 +90,9 @@
               <li><a href="<?php echo SITE_URL; ?>events">Events</a></li>
             </ul>
             </li>
-            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
-            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>privacy">Privacy</a></li>
-            <li data-aos="fade-up"><a href="<?php echo SITE_URL; ?>contact">Contact Us</a></li>
+            <li><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
+            <li><a href="<?php echo SITE_URL; ?>privacy">Privacy</a></li>
+            <li><a href="<?php echo SITE_URL; ?>contact">Contact Us</a></li>
           </ul>
         </div>
     </nav>
