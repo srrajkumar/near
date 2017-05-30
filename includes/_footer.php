@@ -37,7 +37,7 @@
                        <a  href="<?php echo SITE_URL; ?>data">DATA</a>   
                        <a  href="<?php echo SITE_URL; ?>investors">INVESTORS</a>   
                        <a href="<?php echo SITE_URL; ?>leadership">LEADERSHIP</a>  
-                       <a  href="<?php echo SITE_URL; ?>board">BOARD</a>
+                       <a  href="<?php echo SITE_URL; ?>board" class="link-mob">BOARD</a>
                     </div>
 					<!--div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="600">
 					      

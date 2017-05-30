@@ -342,7 +342,7 @@ $title="Careers";
 		<?php include('../includes/_footer.php'); ?>
 		<!-- END: Footer -->
 		<?php include('../includes/_java_scripts.php'); ?>
-		
+<script type="text/javascript" src="<?php JS ('careers.js'); ?>"></script>   		
 <script type="text/javascript" src="<?php JS ('lightbox/html5lightbox.js'); ?>"></script>	
 <script type="text/javascript" src="<?php JS ('popup.jquery.js'); ?>"></script>
 	<script type="text/javascript">

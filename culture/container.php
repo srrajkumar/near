@@ -62,7 +62,7 @@
        Be either a go-getter or one who supports a go-getter Who are you?
       </p>
     </div>
-    <a href="<?php echo SITE_URL; ?>careers" class="button button--primary button--rounded users" style="margin: 40px 0 0 0; padding: 8px 40px;">VIEW OPEN POSITIONS</a>
+    <a href="<?php echo SITE_URL; ?>careers" class="button button--primary button--rounded users car" style="margin: 40px 0 0 0; padding: 8px 40px;">VIEW OPEN POSITIONS</a>
   </div>
   
 </div>

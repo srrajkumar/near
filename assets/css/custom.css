@@ -3451,6 +3451,7 @@ a.event-link{
     #platform_leverage .platform-image object{top:30%;}
     
     h1{font-size:22px !important;} h2{font-size:20px !important;}
+    .aboutus h1{font-size:30px !important;}
     #auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img, #tab9 img {
         margin: 10px 20px;}
     .whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 30px;}
@@ -3458,7 +3459,7 @@ a.event-link{
     .platform-leverage .accordian section{font-size:14px;}
     .banner-content span:nth-child(6){font-size:18px;}
     #typed, .typed-cursor{font-size:18px !important; }
-    .footer-links {margin-top:0px;}
+
     
     .whats-happening .col-sm-6 span.news-red, .kroll span.news-red{margin-bottom:0px;}
     .truste, .copyrights{text-align:center; margin-top:10px;}
@@ -3472,20 +3473,32 @@ a.event-link{
     .whats-happening .col-sm-6 .award_holder span{line-height:80px;}
     .nav-tabs > li { float:none; }
 h2 {font-size: 16px !important;}
+.privacy h2, .newsroom h2{font-size:20px !important;}
+
+.privacy p, .privacy ul li{font-size: 14px !important;}
     .banner-content span.red {font-size: 32px !important;}
     .banner-content span {font-size: 24px !important;}
+    .culture-subpages .culture_highlite h4{font-size:24px;}
     
 }
-
+@media (min-width:320px) and (max-width:1024px){
+  .board1{margin:0}
+  .board .col-md-6 .custom_btn { width: 140px !important;}
+.col-md-4 .btn__text, .col-md-3 .btn__text, .col-md-6 .btn__text{right: 0 !important;  z-index: 3 !important;}
+.col-md-4 .color_change, .col-md-6 .color_change, .col-md-3 .color_change {fill: #ED1C24 !important;
+}
+.board .col-md-6 .custom_btn {width: 140px !important;}
+.board .col-md-6 .custom_btn .icon svg{left:100px; }
+.board .custom_btn{left: 15px !important;}
+.board .margin-bottom, .board .col-md-12{padding: 0 15px !important;  position: relative !important;}
+.tech-page .tech-note, .tech-page li{font-size:14px !important;}
+}
 @media (max-width:575px){
     .research_container .col-sm-6:nth-child(3):before{opacity: 0!important;}
     .whats-happening .col-sm-6:nth-child(3):before{left: calc(50% - 20px); top: -15px; transform: rotate(90deg); -webkit-transform:rotate(90deg); } 
 .banner-content span{font-size:20px; line-height: 28px;}
     .banner-content span.red{font-size:30px; line-height: 38px;}
-    .footer-links a,.footer-links span{font-size:14px; text-align: center;border-bottom: 1px solid #e4e1e1;}
-    .footer-links p{text-align: center;}
-    .footer hr{margin-top: 0px;}
-    .life{display:none;}
+     .footer-links {width:100% !important; max-width:100% !important;    flex: inherit;}
 
 }
 @media(min-width:575px) and (max-width:1200px){.research .col-sm-3{max-width: 50% !important; flex: 0 0 50% !important; padding: 0px 15px !important;} .whats-happening .col-sm-6:nth-child(3):before{display:none;}}
@@ -3493,6 +3506,7 @@ h2 {font-size: 16px !important;}
 @media(min-width:768px) and (max-width:1199px){.truste img{width:100%;}}
 @media (max-width: 991px) {
   .aboutus h1{    font-size: 30px;}
+  .footer-mob{display:none;}
   .des-add{display:none;}
     body{overflow-x:hidden;}
     .banner-content span:nth-child(6){font-size:18px;}
@@ -3546,21 +3560,7 @@ span.mobile{display:block;}
 .research-container .col-sm-6:nth-child(3):before{display:none !important;}
 .research_container .col-sm-6:nth-child(3):after{background: #000000 !important;opacity: 0.7 !important;}
 .allspark-page.banner-content span{line-height:42px;}
-}
-@media (max-width:1100px){.brj{height:100% !important}
-.research a .description { -webkit-transform: translate(69px, 40px);-moz-transform: translate(69px, 40px); transform: translate(69px, 40px);}
-.research a .title, .research a figure p {-webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px);transform: translate(0, -50px);}
-.research .description{left:-68px;background:#ffffff;} 
-.research .description .button-icon-animate{left:15px;} 
-footer .row{width:100%;} 
-.anim-imag, .anim-particles, #circle{display:none;}
-.brand_tabs {min-height:450px;}
-}
-
-
-
-@media screen and (max-width: 991px) {
-    .easyPaginateNav {
+.easyPaginateNav {
         position: inherit;
         width: 100% !important;
         margin-left: 0px;
@@ -3569,9 +3569,82 @@ footer .row{width:100%;}
     .easyPaginateNav a {
         padding: 8px;
     }
+    .event-wrapper{width:100%;} 
+    .event-month-set, .event-container{width:100%;} 
+    .custom-title{ font-size:30px !important; line-height: 30px; margin-bottom: 60px; margin-top:150px;} 
+    .investors h2{line-height:24px !important;}
+    .truste div{float: none;}
+    .culture-subpages .culture_highlite h4{font-size:28px;}
+    .culture-subpages .space{margin:5px 0 !important;}
+    .event-wrapper{width:100%; padding: 5px 5px;} .event-month-set, .event-container{width:100%;} .custom-title{ font-size:30px !important; line-height: 30px; margin-bottom: 60px; margin-top:150px;}
+h1.custom-title span {font-size: 30px;}
+.custom-image-bg{margin-top:-195px;}
+ .footer-links a,.footer-links span{font-size:14px; text-align: center;border-bottom: 1px solid #e4e1e1;}
+    .footer-links a.link-mob{border:none;}
+    .footer-links p{text-align: center;}
+    .footer hr{margin-top: 0px;}
+    .life{display:none;}
+     .footer-links {width:100% !important; max-width:100% !important;    flex: inherit;}
+     .post .post-meta .post-day,.post .post-meta .post-month,.post .post-meta .post-author,.post .post-meta .post-comments,.post .post-meta .post-permalink{float:left;font-size:14px;padding:0 15px 10px 0;margin:0;line-height:1}
+.post .post-meta .post-author,.post .post-meta .post-comments{float:none;text-align:left; padding-bottom:3px;}
+.post .post-meta .disgnation{ padding-left:0 !important;}
+.post .post-body{padding:0 10px !important;}
+.post-author img{display:none;}
+.post-meta{    padding: 0px 30px; }
+.post-meta.sticky1{   top: 0px !important;}
+.post .post-meta .post-author .fa,.post .post-meta .post-comments .fa{float:left;width:12px}
+.car-add{margin-left:0;display:none}
+.post .post-meta .post-day{padding-right:3px;font-weight:normal!important;color:#db1a21 !important; text-shadow:0px 0px 0px #db1a21;}
+.post-date{float:right !important;padding:0 7px 10px 0 !important;position:absolute !important;right:0 !important;bottom:0 !important;}
+.post .post-meta .post-month{border-bottom:none}
+.sidebar{display:none;}
+.
+}
+@media (max-width:1100px){.brj{height:100% !important}
+.research a .description { -webkit-transform: translate(69px, 40px);-moz-transform: translate(69px, 40px); transform: translate(69px, 40px);}
+.research a .title, .research a figure p {-webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px);transform: translate(0, -50px);}
+.research .description{left:-68px;background:#ffffff;} 
+.research .description .button-icon-animate{left:15px;} 
+
+.anim-imag, .anim-particles, #circle{display:none;}
+.brand_tabs {min-height:450px;}
+ .culture-subpages .culture_highlite h4{font-size:30px;}
+ .culture-subpages .car{    left: 10px;}
+ .col-4,.col-6,.col-5,.col-7,.col-8{max-width:100%;}
+ .col-4 img,.col-6 img,.col-5 img,.col-7 img{width:100%;}
+ .margin-bottom.form-group {margin-bottom: 0px;}
+ .form-group .col-md-6{padding-top: 20px;}
+.careers iframe{height:600px !important;}
+#contact-wrapper button{    margin-top: 20px;}
+.career-date{    margin-bottom: 40px;}
+.post .post-image {margin-right: 0px !important;}
+.newsroom .post-body{padding:10px;}
+.bg-vdo video,.bg video{display:none}
+.banner-mobile{background:url(../vdo/near.png) no-repeat;background-size:cover}
+.banner-mobile1{background:url(../vdo/tech-blog.png) no-repeat;background-size:cover}
+.overlay-vdo-mobile{display:block}
+.overlay-vdo{display:none}
+.banner-mobile1{min-height:100%;height:auto}
+.tech-blog{padding-top: 100px !important; padding-bottom: 100px !important;}
+.tech-page .col-md-9 div{margin-right:0px !important;}
+.techpage h2{font-size:28px;}
 }
 
-@media screen and (max-width: 991px) {.event-wrapper{width:100%;} .event-month-set, .event-container{width:100%;} .custom-title{ font-size:30px !important; line-height: 30px; margin-bottom: 60px; margin-top:150px;} .investors h2{line-height:24px !important;}}
+
+@media screen and (max-width: 640px){.event-month-set{width:100%;}.event-container{width:100%; text-align:center;} .event-container{ background-image:none;} .event-container .image-box{width:100%; height:100%; margin-left:0px; margin-right:0px;}.image-box p{text-align:center;} .image-box img{border-radius:50%; width:80px; height:80px;} .event-container .event-holder{float:none;} }
+@media screen and (max-width:768px){.event-container{ background-image:none;}  
+.event-container .image-box a{background:transparent !important;} 
+.event-container .image-box:hover a:before{display:none;} 
+.event-container .event-holder .event-name{font-size: 18px; line-height: 20px;}
+.image-box p{margin-bottom:0px;} 
+.event-container .event-holder .event-date, .event-container .event-holder .event-link{font-size: 12px;}}
+.slide-main { position: relative; width: 100%; height: 200px;}
+.slide-1{ position: absolute; transition: opacity .5s ease-in; opacity:0;}
+.slide-1 .news-link:hover{ background:transparent;}
+.text-image{width:540px; height:auto;}
+.allspark-logo{width:150px; height:78px;}
+
+
 @media screen and (max-width: 640px){.event-month-set{width:100%;}.event-container{width:100%; text-align:center;} .event-container{ background-image:none;} .event-container .image-box{width:100%; height:100%; margin-left:0px; margin-right:0px;}.image-box p{text-align:center;} .image-box img{border-radius:50%; width:80px; height:80px;} .event-container .event-holder{float:none;} }
 @media screen and (max-width:768px){.event-container{ background-image:none;}  
 .event-container .image-box a{background:transparent !important;} 

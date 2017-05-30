@@ -4792,3 +4792,4 @@ ul.glide__track li .feature-block_content {bottom: 0px;}
 @media screen and (max-width:480px){.hero-block_category.sub-title h1{font-size:17px;}
 .hero-block_category.sub-title p{ font-size:13px;} .hero-block_content hr{width:81% !important;} .hero-block_category.sub-title{width:100%} .career-background{min-height:315px;} .career-background-1{min-height: 220px;}}
 @media screen and (max-width:360px){.career-background-1{min-height: 210px;}}
+@media (min-width:992px) and (max-width:1100px){.career-best {padding: 160px 50px 40px;}}
