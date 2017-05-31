@@ -3,7 +3,7 @@ $meta_title="";
 $meta_desc="";
 $meta_keywords="";
 $heading ="Allspark";
-$content= "Omni-channel Customer Experience";
+$content= "Omni-channel Consumer Experience";
 $content1="Identify and reach your audience across channels";
 $image=  "allspark/allspark-omni-channel.png";
 
@@ -64,7 +64,7 @@ $image=  "allspark/allspark-omni-channel.png";
                 
                 <div class="space"></div>
                 <h1>Enterprises, Brands and Agencies</h1>
-                <h2> can use Allspark for providing an omni-channel customer experience by:</h2>
+                <h2>can use Allspark for providing an omni-channel Consumer experience by:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
@@ -72,7 +72,7 @@ $image=  "allspark/allspark-omni-channel.png";
 	                	<img src="<?php IMAGE('allspark/omni-channel/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Mapping</span> consumer journeys in the digital and physical world, and getting insight into the right touchpoints for your target audience
+	                	<span class="blue">Mapping</span> consumer journeys in the digital and physical world, and getting insight into the right touchpoints for their target audience.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -80,7 +80,7 @@ $image=  "allspark/allspark-omni-channel.png";
 	                	<img src="<?php IMAGE('allspark/omni-channel/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Reaching</span> your audience on the right channels, and continuing your brand story across media
+	                	<span class="blue">Reaching</span> their audience on the right channels, and continuing their brand story across media.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -88,7 +88,7 @@ $image=  "allspark/allspark-omni-channel.png";
 	                	<img src="<?php IMAGE('allspark/omni-channel/icon-3.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Measuring</span> which channels work best for your target audience, and optimise marketing spends
+	                	<span class="blue">Measuring</span> which channels work best for their target audience, and optimising marketing spends.
 	                </div>
                 </div>
                

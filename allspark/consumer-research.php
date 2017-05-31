@@ -552,7 +552,7 @@ $image=  "allspark/allspark-consumer-research.png";
 	                	<img src="<?php IMAGE('allspark/consumer-research/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> real-time insights on places and audiences
+	                	<span class="blue">Get</span> real-time insights on places and audiences.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -560,7 +560,7 @@ $image=  "allspark/allspark-consumer-research.png";
 	                	<img src="<?php IMAGE('allspark/consumer-research/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> data on places and audience of choice through the Allspark DaaS API, and integrate this with their CRM data to understand their customers in-depth
+	                	<span class="blue">Get</span> data on places and audience of choice through Allspark DaaS API, and integrate this with their CRM data to get a granular understanding of their customers.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -568,7 +568,7 @@ $image=  "allspark/allspark-consumer-research.png";
 	                	<img src="<?php IMAGE('allspark/consumer-research/icon-3.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> intelligence on customers in your own and competitor stores, and compare your audience across stores
+	                	<span class="blue">Get</span> intelligence on customers in their own stores and competitor stores, and compare their audience across stores.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -576,7 +576,7 @@ $image=  "allspark/allspark-consumer-research.png";
 	                	<img src="<?php IMAGE('allspark/consumer-research/icon-4.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> generated insights on verticals such as retail, telcos, QSRs, travel and more 
+	                	<span class="blue">Get</span> insights across industries.
 	                </div>
                 </div>
                 </div>

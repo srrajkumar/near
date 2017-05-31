@@ -53,7 +53,7 @@ $image=  "allspark/allspark-audience-curation.png";
                         <img src="<?php IMAGE('allspark/audience-curation/icon-2.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                       <span class="blue">with</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week
+                       <span class="blue">with</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -61,7 +61,7 @@ $image=  "allspark/allspark-audience-curation.png";
                         <img src="<?php IMAGE('allspark/audience-curation/icon-3.png') ?>"  alt/>
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">with</span> ease of applying combinations of OR, AND and NOT to various audiences and places
+                        <span class="blue">with</span> ease of applying combinations of OR, AND and NOT to various audiences and places.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -70,7 +70,7 @@ $image=  "allspark/allspark-audience-curation.png";
                     </div>
                     <div class="col-md-8 subcontent">
                         
-                         <span class="blue">with</span> data sets from users across devices Smartphones, Tablets and Desktops
+                         <span class="blue">with</span> data sets from users across devices Smartphones, Tablets and Desktops.
                     </div>
                 </div>
                 </div>

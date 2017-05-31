@@ -135,7 +135,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/icon-1.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Discover</span> and understand their consumers, and their interests, preferences and behavior 
+                        <span class="blue">Discover</span> and understand their consumers, and their interests, preferences and behavior.
 
                     </div>
                 </div>
@@ -144,7 +144,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/qsr/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Curate</span>, analyse and reach their  target audience across multiple channels (desktops, mobile and tablets) in real-time, in places of their choice, and map their journey
+                        <span class="blue">Curate,</span>, analyse and reach their target audience across multiple channels in real-time, in places of their choice, and map their journey.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -152,7 +152,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/qsr/icon-3.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Measure</span> store visits of their own and competitor stores, and define business strategy with these insights
+                        <span class="blue">Measure</span> store visits of their own and competitor stores, and define business strategy with these insights.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -160,7 +160,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/qsr/icon-4.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Analyse</span> spend behavior of their target audience in different places and during different events
+                        <span class="blue">Analyse</span> spend behavior of their target audience in different places and during different events.
                     </div>
                 </div>
                  <div class="col-md-6 row">
@@ -168,7 +168,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/qsr/icon-5.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations
+                        <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations.
 
                     </div>
                 </div>
@@ -177,7 +177,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/qsr/icon-6.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Make</span> smarter business decisions by getting intelligence on their own and their competitor consumers, including peak day, peak time, consumers that visit both stores and percentage of consumers visiting their outlets from the overall set of QSR consumers
+                        <span class="blue">Make</span> smarter business decisions by getting intelligence on their own and their competitor consumers, including peak day, peak time, consumers that visit both stores and percentage of consumers visiting their outlets from the overall set of QSR consumers.
 
                     </div>
                 </div>

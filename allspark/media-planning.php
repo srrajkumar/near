@@ -45,7 +45,7 @@ $image=  "allspark/allspark-media-planning.png";
 	                	<img src="<?php IMAGE('allspark/media-planning/icon-1.png') ?>" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Understanding</span> where their audience is, in the physical world and digital world
+	                	<span class="blue">Understanding</span> where their audience is, in the physical world and digital world.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -53,7 +53,7 @@ $image=  "allspark/allspark-media-planning.png";
 	                	<img src="<?php IMAGE('allspark/media-planning/icon-2.png') ?>" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Comparing</span> the audience engagement across devices and get smarter with budget allocation
+	                	<span class="blue">Comparing</span> the audience engagement across devices and getting smarter with budget allocation.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -61,7 +61,7 @@ $image=  "allspark/allspark-media-planning.png";
 	                	<img src="<?php IMAGE('allspark/media-planning/icon-3.png') ?>" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Comparing</span> which set of media work best together by doing A/B experiments on different media mix
+	                	<span class="blue">Comparing</span> which set of media work best together by doing A/B experiments on different media mix.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -69,7 +69,7 @@ $image=  "allspark/allspark-media-planning.png";
 	                	<img src="<?php IMAGE('allspark/media-planning/icon-4.png') ?>" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Estimate</span> reach across smartphones, tablets, desktops and Outdoor sites in  real-time
+	                	<span class="blue">Estimate</span> reach across smartphones, tablets, desktops and outdoor sites in real-time.
 	                </div>
                 </div>
                 </div>

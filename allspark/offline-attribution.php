@@ -127,7 +127,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
 	                	<img src="<?php IMAGE('allspark/offline-attribution/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Digital</span> media by measuring the effect on call to actions like store walk-ins, website traffic, social activity etc
+	                	<span class="blue">Digital</span> media by measuring the effect on call to actions such as store walk-ins, website traffic and social activity.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -135,7 +135,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
 	                	<img src="<?php IMAGE('allspark/offline-attribution/icon-2.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Traditional</span> media by measuring the store walk-ins driven from OOH campaigns, and even TV campaigns
+	                	<span class="blue">Traditional</span> media by measuring the store walk-ins driven from OOH campaigns, and even TV campaigns.
 	                </div>
                 </div>
                 <!--div class="col-md-6 row">

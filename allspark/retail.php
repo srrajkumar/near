@@ -308,7 +308,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/retail/icon-1.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Curate</span> and analyse their audiences, and their online and offline behavior in real-time
+                        <span class="blue">Curate</span> and analyse their audiences, and their online and offline behavior in real-time.
 
                     </div>
                 </div>
@@ -317,7 +317,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/retail/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Reach</span> their target audience across channels including desktops, tablets and smartphones to cross-sell and upsell products
+                        <span class="blue">Reach</span> their target audience across channels including desktops, tablets and smartphones to cross-sell and upsell products.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -325,7 +325,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/retail/icon-3.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Get</span> deep insights of the audience that walks into their own and competitor stores such as demography, audience types, visitation rate, peak visitation day and time etc
+                        <span class="blue">Get</span> deep insights of the audience that walks into their own and competitor stores such as demography, audience types, visitation rate, peak visitation day and time etc.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -333,7 +333,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/retail/icon-4.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations 
+                        <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations.
 
                     </div>
                 </div>
@@ -342,7 +342,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/retail/icon-5.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Get</span> Allspark data through DaaS APIs for data-driven decisions in merchandising, staffing and other business operations
+                        <span class="blue">Get</span> Allspark data through DaaS APIs for data-driven decisions in merchandising, staffing and other business operations.
 
                     </div>
                 </div>
@@ -351,7 +351,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/retail/icon-6.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Understand</span> the touchpoints (Mobile/Tablets/Desktop/OOH) that influence consumer walk-ins, and be smarter with their media planning
+                        <span class="blue">Understand</span> the touchpoints (Mobile/Tablets/Desktop/OOH) that influence consumer walk-ins, and be smarter with their media planning.
 
                     </div>
                 </div>
@@ -360,7 +360,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/retail/icon-7.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Identify</span> the best places to open your next stores with rich insights from smart environments
+                        <span class="blue">Identify</span> the best places to open their next stores with rich insights from smart environments.
 
                     </div>
                 </div>

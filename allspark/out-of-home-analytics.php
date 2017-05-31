@@ -34,7 +34,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
 </div>
                 <div class="col col-md-9">
                 <div class="space" style="padding:13px;"></div>
-                <h1>Enterprises, Brands, Agencies and Out-of-Home players </h1>
+                <h1>ENTERPRISES, BRANDS, AGENCIES AND OUT-OF-HOME PLAYERS</h1>
                 <h2>can use Allspark to:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
@@ -43,7 +43,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                         <img src="<?php IMAGE('allspark/ooh-analytics/icon-1.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Understand</span> the audience of each OOH site, and select the right OOH sites 
+                        <span class="blue">Understand</span> the audience at each OOH site, and select the right site for the campaign.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -51,7 +51,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                         <img src="<?php IMAGE('allspark/ooh-analytics/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Understand</span> the audience your competitors are hitting with their OOH sites
+                        <span class="blue">Understand</span> the audience their competitors are hitting with their OOH sites.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -59,7 +59,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                         <img src="<?php IMAGE('allspark/ooh-analytics/icon-3.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Continue</span> your OOH story with real-time and audience targeting over digital devices
+                        <span class="blue">Continue</span> their OOH story with real-time and audience targeting over digital devices.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -67,7 +67,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                         <img src="<?php IMAGE('allspark/ooh-analytics/icon-4.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Measure</span> attribution of your OOH campaigns, and how they work together with other media
+                        <span class="blue">Measure</span> attribution of their OOH campaigns, and how well these campaigns work together with other media.
                     </div>
                 </div>
                  <div class="col-md-6 row">
@@ -75,7 +75,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                         <img src="<?php IMAGE('allspark/ooh-analytics/icon-5.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Get</span> apowerful analytics on the kind of audience engaging with your OOH campaigns 
+                        <span class="blue">Get</span> apowerful analytics on the kind of audience engaging with their OOH campaigns.
                     </div>
                 </div>
                 </div>
