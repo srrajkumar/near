@@ -1,39 +1,28 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); ?>
-
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
 <head>
- <link rel="stylesheet" href="<?php CSS('neue-font.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('fontawesome/css/font-awesome.min.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('animate.css/animate.min.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('animate.css/delay.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('dist/css/bootstrap-custom.min.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('linecons/style.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('theme-custom.css'); ?>" />
-<link href="<?php CSS('form/career.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
-<link href="<?php CSS('research/styles.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
-<style>
-p.puz-success, { color:#000 !important; text-align:center  !important; font-family: 'GothamRounded-Book', sans-serif  !important; font-size:14px !important;}
-h2.puz-success{ color:#000 !important; text-align:center  !important; font-family:'GothamRounded-Medium', sans-serif  !important; font-size:18px !important;}
-.section {background-color: transparent !important;}
-#register{ top:100px; padding: 0 15px;}
-.login-form.ol-tab{ min-height:300px;}
-.login-copyright{position: absolute; bottom: 20px; left: 15px; right: 15px; font-size:12px;}
-</style>
-	
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<?php include('../includes/_head.php'); ?>
+ 
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<?php include('../includes/_java_scripts.php'); ?>
 <script>
-	var name = '<?php echo $_POST['name']; ?>';
-	var email = '<?php echo $_POST['email']; ?>';
-	var company ='<?php echo $_POST['company']; ?>';
-	var message ='<?php echo $_POST['message']; ?>';
-	$.ajax({
-		url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSeseZ3lvrsZ-hUGyvtqf4laxi5z5b22ofXibCySInFSCujEZw/formResponse",		
-		data: { "entry_2005620554": name,"entry_1045781291": email,"entry_41792287": company,"entry_358237734": message},
-		type: "POST",
-		dataType: "xml",
-		statusCode: {
+	//var name = '<?php echo $_POST['name']; ?>';
+	//var email = '<?php echo $_POST['email']; ?>';
+	//var company ='<?php echo $_POST['company']; ?>';
+	//var message ='<?php echo $_POST['message']; ?>';
+	//$.ajax({
+	//	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSeseZ3lvrsZ-hUGyvtqf4laxi5z5b22ofXibCySInFSCujEZw/formResponse",		
+	//	data: { "entry_2005620554": name,"entry_1045781291": email,"entry_41792287": company,"entry_358237734": message},
+	//	type: "POST",
+	//	dataType: "xml",
+	//	statusCode: {
 
-		}
-	});
+	//	}
+	//});
 </script>
 
 </head>
@@ -44,12 +33,15 @@ error_reporting(E_ALL);
 require 'phpmailer/PHPMailerAutoload.php';
  $name = $_POST['name'];
  $email = $_POST['email'];
- $company = $_POST['company'];
+ $location = $_POST['location'];
  $mydate=getdate(date('U'));
  $mon =  $mydate[month]; 
  $date = $mydate[mday];
  $year = $mydate[year];
  $message = $_POST['message'];
+ $phone =$_POST['phone'];
+  $looking =$_POST['looking'];
+   $reason =$_POST['contact_reason'];
 
  $mail = new PHPMailer;
 	$mail->isSMTP();    
@@ -65,9 +57,9 @@ require 'phpmailer/PHPMailerAutoload.php';
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-	$mail->addCC('aditi@near.co');
-	$mail->addCC('smriti@near.co');
-	//$mail->addCC('rajkumar@near.co');
+	//$mail->addCC('aditi@near.co');
+	//$mail->addCC('smriti@near.co');
+	$mail->addCC('rajkumar@near.co');
 	
 	
 	$mail->isHTML(true);                                  // Set email format to HTML
@@ -130,7 +122,25 @@ require 'phpmailer/PHPMailerAutoload.php';
 														</tr>
 														<tr>
 															<td style='line-height: 40px; border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>
-																<b style='color:rgba(0, 0, 0, 0.64);'>Company : </b> $company
+																<b style='color:rgba(0, 0, 0, 0.64);'>Country : </b> $location
+															</td>
+                                                            
+														</tr>
+														<tr>
+															<td style='line-height: 40px; border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>
+																<b style='color:rgba(0, 0, 0, 0.64);'>How did you find us : </b> $reason
+															</td>
+                                                            
+														</tr>
+														<tr>
+															<td style='line-height: 40px; border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>
+																<b style='color:rgba(0, 0, 0, 0.64);'>Contact Number : </b> $phone
+															</td>
+                                                            
+														</tr>
+														<tr>
+															<td style='line-height: 40px; border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>
+																<b style='color:rgba(0, 0, 0, 0.64);'>Looking for : </b> $looking
 															</td>
                                                             
 														</tr>
@@ -165,8 +175,7 @@ require 'phpmailer/PHPMailerAutoload.php';
    exit;
 }
  
-$main = " <div id='contact-wrapper' class='clearfix container'>
- <div class='form-wrapper clearfix container' style='text-align:center'>
+echo "<div class='form-wrapper clearfix container' style='text-align:center'>
 	<section class='section parallax-layer hvh-100 p-top-120 p-bottom-60 tb-vcenter-wrapper'>
        <div class='vcenter'>
          <div class='container'>
@@ -174,10 +183,10 @@ $main = " <div id='contact-wrapper' class='clearfix container'>
              <div class='col-md-6 col-md-offset-3 ofx-auto'>
                 <div class='login-form ol-tab'>
                   <div id='register' class='tab-pane active'>
-                    <h2 class='puz-success'>Message Sent</h2> <br/>
-                    <p class='puz-success'>Thank you for your interest,<br> we will revert shortly. </p>
+                    <h2 class='color-red'>Message Sent</h2> <br/>
+                    <p >Thank you for your interest,<br> we will revert shortly. </p>
                   </div>
-				
+				  
                 </div>
              </div>
            </div>
@@ -185,9 +194,6 @@ $main = " <div id='contact-wrapper' class='clearfix container'>
          </div>
        </div>
     </section>
-  </div>
   </div>";
-
-echo $main;
 
 ?>

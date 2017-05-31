@@ -12,10 +12,9 @@
  
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 <style>
-.btn-primary{background-color: #e50000;
-    border-color: #e50000;    border-radius: 30px;}
-    .btn-primary:hover{background-color: #fff;
-    border-color: #e50000; color:#e50000;}
+.btn-primary{background-color: #e50000;border-color: #e50000; cursor: pointer;}
+    .btn-primary:hover{background-color: #fff;  border-color: #e50000; color:#e50000;}
+    .margin-bottom.form-group {margin-bottom: 30px;}
 </style>
 
 </head>

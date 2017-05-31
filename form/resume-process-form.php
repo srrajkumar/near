@@ -1,29 +1,28 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); ?>
+<?php include("../includes/_config.php"); ?>
 
 <head>
-<link href="<?php CSS('form/career.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
-<link href="<?php CSS('style.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
+
 <style>
 	h4{font-size:24px;}
 	</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
-	var name = '<?php echo $_POST['name']; ?>';
-	var email = '<?php echo $_POST['email']; ?>';
-	var vacancy ='<?php echo $_POST['vacancy']; ?>';
-	var position ='<?php echo $_POST['position']; ?>';
-	var location1 ='<?php echo $_POST['location']; ?>';
-	var github ='<?php echo $_POST['github']; ?>';
-	var stackoverflow ='<?php echo $_POST['stackoverflow']; ?>';
-	$.ajax({
-		url: "https://docs.google.com/forms/d/e/1FAIpQLSfBlSKAWtQAFi9BDxDkllsHeyvgIPFyMz_kSMhl304p5zDhTQ/formResponse",		
-		data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1065046570": vacancy,"entry_1166974658": position,"entry_839337160": location1,"entry_1158234621": github,"entry_1237189747": stackoverflow},
-		type: "POST",
-		dataType: "xml",
-		 statusCode: {
+	//var name = '<?php echo $_POST['name']; ?>';
+	//var email = '<?php echo $_POST['email']; ?>';
+	//var vacancy ='<?php echo $_POST['vacancy']; ?>';
+	//var position ='<?php echo $_POST['position']; ?>';
+	//var location1 ='<?php echo $_POST['location']; ?>';
+	//var github ='<?php echo $_POST['github']; ?>';
+	//var stackoverflow ='<?php echo $_POST['stackoverflow']; ?>';
+	//$.ajax({
+	//	url: "https://docs.google.com/forms/d/e/1FAIpQLSfBlSKAWtQAFi9BDxDkllsHeyvgIPFyMz_kSMhl304p5zDhTQ/formResponse",		
+	//	data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1065046570": vacancy,"entry_1166974658": position,"entry_839337160": location1,"entry_1158234621": github,"entry_1237189747": stackoverflow},
+	//	type: "POST",
+		//dataType: "xml",
+		// statusCode: {
 
-		}
-	});
+		//}
+	//});
 </script>
 </head>
  
@@ -33,7 +32,7 @@ error_reporting(E_ALL);
 require 'phpmailer/PHPMailerAutoload.php';
 
  $name= $_POST['name'];
- $vacancy = $_POST['vacancy'];
+ $contact_reason  = $_POST['contact_reason'];
  $position = $_POST['position'];
  $github = $_POST['github'];
  $stackoverflow = $_POST['stackoverflow'];
@@ -55,10 +54,10 @@ require 'phpmailer/PHPMailerAutoload.php';
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('kiran@near.co');
-	//$mail->addCC('rajkumar@near.co');
+	$mail->addCC('design@near.co');
    //$mail->addCC('gokul@near.co');
     //$mail->addCC('smriti@near.co');
-	$mail->addCC('careers@near.co');
+	//$mail->addCC('careers@near.co');
 	//$mail->addCC('arun@near.co');
 	$mail->isHTML(true);                                  // Set email format to HTML
 
@@ -78,7 +77,7 @@ require 'phpmailer/PHPMailerAutoload.php';
     </tr>
     <tr>
       <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'>&nbsp;</td>
-      <td colspan='2' bgcolor='#FeFeFe' style='font-family: Arial, sans-serif; font-size: 12px; color: #333333;'>". $vacancy ."</td>
+      <td colspan='2' bgcolor='#FeFeFe' style='font-family: Arial, sans-serif; font-size: 12px; color: #333333;'>". $position ."</td>
     </tr>
     <tr>
       <td width='2' bgcolor='#FeFeFe' style='font-family: Arial, sans-serif; font-size: 12px; color: #333333;'>&nbsp;</td>
@@ -89,6 +88,11 @@ require 'phpmailer/PHPMailerAutoload.php';
       <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'>&nbsp;</td>
       <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'><strong>StackOverflow Profile URL: </strong></td>
       <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'><a href='//stackoverflow.com/users/". $stackoverflow ."' target='_blank'>". $stackoverflow ."</a></td>
+    </tr>
+    <tr>
+      <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'>&nbsp;</td>
+      <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'><strong>StackOverflow Profile URL: </strong></td>
+      <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'>". $contact_reason ."</td>
     </tr>
     <tr>
       <td bgcolor='#FeFeFe' style='font-family: Arial,sans-serif; font-size: 12px; color: #333333;'>&nbsp;</td>

@@ -66,10 +66,10 @@ require 'phpmailer/PHPMailerAutoload.php';
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-	//$mail->addCC('rajkumar@near.co');
+	$mail->addCC('design@near.co');
 	//$mail->addCC('kiran@near.co');
 	//$mail->addCC('sowmya@near.co');
-	$mail->addCC('info@near.co');
+	//$mail->addCC('info@near.co');
 	
 	$mail->isHTML(true);                                  // Set email format to HTML
 	$mail->Subject = 'You\'ve been contacted by ' . $name . '.';		 

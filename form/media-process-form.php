@@ -44,7 +44,6 @@ require 'phpmailer/PHPMailerAutoload.php';
  $date = $mydate[mday];
  $year = $mydate[year];
 $location = $_POST['location'];
-$designation = $_POST['designation'];
 $message = $_POST['message'];
 
 
@@ -99,7 +98,7 @@ $mail->addCC('design@near.co');
 							<table border='0' cellpadding='0' cellspacing='0' width='100%'>
 								<tr>
 									<td style='color: #153643; font-family: Arial, sans-serif; font-size: 13px; padding: 10px 10px 15px 0px;'>
-										You have been contacted by <b style='text-transform:uppercase;'>$name</b> from <b style='text-transform:uppercase;'>$company</b> sent a message via Near website.
+										You have been contacted by <b style='text-transform:uppercase;'>$name</b> from <b style='text-transform:uppercase;'>$location</b> sent a message via Near website.
 									</td>
 								</tr>
 								<tr>
@@ -137,12 +136,7 @@ $mail->addCC('design@near.co');
 															</td>
                                                             
 														</tr>
-														<tr>
-															<td style='line-height: 40px;'>
-																<b style='color:rgba(0, 0, 0, 0.64); border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>Designation : </b> $designation
-															</td>
-                                                           
-														</tr>
+														
 														<tr>
 															<td style='line-height: 40px;'>
 																<b style='color:rgba(0, 0, 0, 0.64); border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>How did you find us : </b> $contact_reason

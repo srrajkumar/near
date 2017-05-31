@@ -3431,6 +3431,7 @@ a.event-link{
 .mob-add{display:none;}
 .data-sets{margin-top: 40px;}
 .form-control:focus{border-color: gray !important;}
+select.form-control{border: none !important;border-bottom: 1px solid #dedede !important;width: calc(100% - 20px);font-family: 'Roboto', sans-serif;font-size: 14px;color: #5c5c5c; border-radius:0;}
 
 @media (max-width: 768px){
     .navbar-nav {display:none;}
