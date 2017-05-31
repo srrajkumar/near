@@ -31,8 +31,25 @@ $meta_keywords="Near Events, Connected Data, Connected Environments, SaaS produc
 #magic-line { position: absolute; bottom: 6px; left: 0; width: 100px; height: 2px; background: #000; padding:0px !important; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .custom-title{    line-height: 120px;}
 
-</style>
 
+
+</style>
+<style  type="text/css">
+  .overlay { background:#000; opacity:0.8; filter:alpha(opacity=80); position:fixed; top:0px; bottom:0px; left:0px; right:0px; z-index:100; }
+  .contentWrap { position:fixed; top:50px; color:#7F7F7F; z-index:101; width:100%; margin:0 auto }
+  .content { background:none repeat scroll 0 0 #FFF; height:100%; overflow:hidden; width:98%; padding:10px; margin-top: 122px;text-align: center;align:justify }
+  .login-box { width:100%; float:left }
+  </style>
+  <script type="text/javascript">
+  function loginForm(){
+    document.getElementById("contentWrap").style.display="block";
+    document.getElementById("overlay").style.display="block";
+  }
+  function loginFormClose(){
+    document.getElementById("contentWrap").style.display="none";
+    document.getElementById("overlay").style.display="none";
+  }
+  </script>
 </head>
 <body  class="the-data">
 <div class="preloader"></div>

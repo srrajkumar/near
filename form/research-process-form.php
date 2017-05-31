@@ -1,4 +1,4 @@
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); ?>
+<?php include("../includes/_config.php"); ?>
 
 <head>
  <link rel="stylesheet" href="<?php CSS('neue-font.css'); ?>" />

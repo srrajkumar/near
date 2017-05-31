@@ -1,33 +1,26 @@
-<?php ob_start('ob_gzhandler'); ?>
-<?php include("../includes/_config.php"); include("../includes/_lib.php"); ?>
+
+<?php include("../includes/_config.php"); ?>
 <?php $b = $_GET['link'];  ?>
 <!DOCTYPE html>
 
 <html lang="en"><head>
     <title>Near Contact Form</title>
 	<meta name="viewport" content="width=device-width, initial-scale="1"">    
-    <link href="<?php CSS('form/style.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="<?php CSS('neue-font.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('fontawesome/css/font-awesome.min.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('animate.css/animate.min.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('animate.css/delay.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('dist/css/bootstrap-custom.min.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('linecons/style.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('style.css'); ?>" />
-    <link rel="stylesheet" href="<?php CSS('theme-custom.css'); ?>" />
-    <link href="<?php CSS ('research/styles.css'); ?>" rel="stylesheet" type="text/css">
+    <link href="<?php CSS_PATH('form/style.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
+    <?php include('../includes/_head.php'); ?>
+ 
+    <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+    <link rel="stylesheet" href="<?php CSS_PATH('linecons/style.css'); ?>" />
+
+
+    <link href="<?php CSS_PATH('research/styles.css'); ?>" rel="stylesheet" type="text/css">
     <style>
 	.section {background-color: Transparent;}
 	
 	</style>
-    <script type="text/javascript" src="<?php JS('jquery/dist/jquery.min.js'); ?>"></script>
-    <script type="text/javascript" src="<?php JS('form/main.js'); ?>"></script>
-    <script src="<?php JS('js-webshim/minified/polyfiller.js'); ?>"></script>
-    <script> 
-        webshim.activeLang('en');
-        webshims.polyfill('forms');
-        webshims.cfg.no$Switch = true;
-    </script>
+    <?php include('../includes/_javascripts.php'); ?>
+    <script type="text/javascript" src="<?php CSS_PATH('form/main.js'); ?>"></script>
+   
    
     <script>
 	function validate()
