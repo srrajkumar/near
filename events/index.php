@@ -32,13 +32,11 @@ $meta_keywords="Near Events, Connected Data, Connected Environments, SaaS produc
 .custom-title{    line-height: 120px;}
 
 
-
-</style>
-<style  type="text/css">
   .overlay { background:#000; opacity:0.8; filter:alpha(opacity=80); position:fixed; top:0px; bottom:0px; left:0px; right:0px; z-index:100; }
-  .contentWrap { position:fixed; top:50px; color:#7F7F7F; z-index:101; width:100%; margin:0 auto }
-  .content { background:none repeat scroll 0 0 #FFF; height:100%; overflow:hidden; width:98%; padding:10px; margin-top: 122px;text-align: center;align:justify }
-  .login-box { width:100%; float:left }
+  .contentWrap { position:fixed; top:0; color:#7F7F7F; z-index:101; width:100%; margin:0 auto }
+  .content { background:none repeat scroll 0 0 #FFF; height:100%; width:98%; padding:10px; margin-top: 122px;text-align: center;align:justify }
+  .login-box { width:100%; float:left; height: 170px;
+ }
   </style>
   <script type="text/javascript">
   function loginForm(){

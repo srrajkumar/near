@@ -67,7 +67,7 @@
 <div class="contentWrap" id="contentWrap" style="display:none;">
     <div class="content">
       <div class="login-box">
-       <div onclick="loginFormClose();"><img src="<?php IMAGE('close.png'); ?>" alt /></div>
+       <div class="close_button" onclick="loginFormClose();"><img src="<?php IMAGE('close.png'); ?>" alt /></div>
         <iframe src="#" id="myframe" frameborder="0" scrolling="no" style="overflow:hidden;" height="100%" width="100%"></iframe>
        
 </div>

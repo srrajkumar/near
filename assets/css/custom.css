@@ -263,6 +263,35 @@ body{
     -webkit-animation: spin 120s linear 0s infinite;
     -0-animation: spin 120s linear 0s infinite;
 }
+
+#contentWrap .content{
+    background: none repeat scroll 0 0 #FFF;
+    height: 190px;
+    width: 320px;
+    padding: 10px;
+    margin-top: calc(30% - 90px);
+    text-align: center;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.close_button{
+    right: -40px;
+    top: -40px;
+  position:absolute;
+  width: 30px;
+  height: 30px;
+}
+.close_button img{
+  width: 100%;
+  height: auto;
+}
+#contentWrap.login-box {
+    /* width: 100%; */
+    float: left;
+    height: 170px;
+    }
 .highlite{
     font-size: 30px !important;
     font-weight: 500 !important;
