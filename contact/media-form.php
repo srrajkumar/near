@@ -40,7 +40,7 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
         <div class="form-group margin-bottom col-md-12 row">
          
           <div class="col-md-6 row">
-             <select id="contact_reason" class="form-control" name="contact_reason" required >            
+             <select id="contact-reason" class="form-control" name="contact_reason" required >            
                 <option value="" selected="selected" >How did you find us</option>
                 <option value="" disabled="disabled"> </option>
                 <option value="Search">-  Search</option>
@@ -67,7 +67,7 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 </form>
 <?php include('../includes/_java_scripts.php'); ?>
 <script>
-$('#contact_reason').change(function(){
+$('#contact-reason').change(function(){
     if( $(this).val() == 'Others'){
         $('.reason').append('<input id="contact_rea" name="contact_reason" type="text" placeholder="How did you find us" />');
     }else{

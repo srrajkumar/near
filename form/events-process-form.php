@@ -9,6 +9,7 @@
 <?php include('../includes/_head.php'); ?>
  
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 	var name = '<?php echo $_POST['name']; ?>';
 	var email = '<?php echo $_POST['email']; ?>';

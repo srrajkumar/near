@@ -6,27 +6,24 @@
 <!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
 <html  lang="en">
 <head>
-<?php include('../includes/_head.php'); ?>
- 
-<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
-
- 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
-	//var name = '<?php echo $_POST['name']; ?>';
-	//var email = '<?php echo $_POST['email']; ?>';
-	//var company = '<?php echo $_POST['company']; ?>';
-	//var reason = '<?php echo $_POST['contact_reason']; ?>';
-	//var location = '<?php echo $_POST['location']; ?>';
-	//var message = '<?php echo $_POST['message']; ?>';
-	//$.ajax({
-	//	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSe26PX7J4OZRyniF6vD2DpUL2UAN30Ens3ZTN1wDzpIgdYKDQ/formResponse",
-	//	data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1045781291": company,"entry_1045781291": reason,"entry_1045781291": location,"entry_1045781291": message},
-	//	type: "POST",
-	//	dataType: "xml",
-	//	 statusCode: {
+	var name = '<?php echo $_POST['name']; ?>';
+	var email = '<?php echo $_POST['email']; ?>';
+	var phone = '<?php echo $_POST['phone']; ?>';
+	var reason = '<?php echo $_POST['contact_reason']; ?>';
+	var location = '<?php echo $_POST['location']; ?>';
+	var designation = '<?php echo $_POST['designation']; ?>';
+	var message = '<?php echo $_POST['message']; ?>';
+	$.ajax({
+		url: "https://docs.google.com/forms/d/e/1FAIpQLScDOlL7wl_fdhJeoenZuxK2kaGrHrN8TcCaYuaOc3kI87IwUA/formResponse",
+		data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1065046570": phone,"entry_1045781291": reason,"entry_1975606897": location,"entry_2020817642": message,"entry_839337160": designation, "entry_1166974658":reason},
+		type: "POST",
+		dataType: "xml",
+		 statusCode: {
 
-	//	}
-	//});
+		}
+	});
 </script>
 
 </head>
@@ -62,7 +59,7 @@ $message = $_POST['message'];
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-$mail->addCC('design@near.co');
+$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('kiran@near.co');
 	//$mail->addCC('sowmya@near.co');
 	//$mail->addCC('info@near.co');
@@ -99,7 +96,7 @@ $mail->addCC('design@near.co');
 							<table border='0' cellpadding='0' cellspacing='0' width='100%'>
 								<tr>
 									<td style='color: #153643; font-family: Arial, sans-serif; font-size: 13px; padding: 10px 10px 15px 0px;'>
-										You have been contacted by <b style='text-transform:uppercase;'>$name</b> from <b style='text-transform:uppercase;'>$company</b> sent a message via Near website.
+										You have been contacted by <b style='text-transform:uppercase;'>$name</b> from <b style='text-transform:uppercase;'>$location</b> sent a message via Near website.
 									</td>
 								</tr>
 								<tr>
@@ -181,26 +178,7 @@ $mail->addCC('design@near.co');
    exit;
 }
  
-echo "<div class='form-wrapper clearfix container' style='text-align:center'>
-	<section class='section parallax-layer hvh-100 p-top-120 p-bottom-60 tb-vcenter-wrapper'>
-       <div class='vcenter'>
-         <div class='container'>
-           <div class='row'>
-             <div class='col-md-6 col-md-offset-3 ofx-auto'>
-                <div class='login-form ol-tab'>
-                  <div id='register' class='tab-pane active'>
-                    <h2 class='color-red'>Message Sent</h2> <br/>
-                    <p >Thank you for your interest,<br> we will revert shortly. </p>
-                  </div>
-				  
-                </div>
-             </div>
-           </div>
-          
-         </div>
-       </div>
-    </section>
-  </div>";
+echo "<h2 class='color-red'>Message Sent</h2> <br/><p >Thank you for your interest,<br> we will revert shortly. </p>";
 
 
 ?>
