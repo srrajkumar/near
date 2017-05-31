@@ -34,32 +34,10 @@ $image2=" ";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
-                    <img src="<?php IMAGE('case-study/hsbc.png') ?>" alt="" class="sq-ratio">
-                    <span class="tile__content">
-                            <h4>Driving Awareness for HSBC</h4>
-                            <hr />
-                            <p class="description">
-                             Case Study
-                            </p>
-                        </span>
-                            <a href="#" class="custom_btn">
-                                <span class="btn__text">
-                                    <span class="btn__text-inner">Download</span>
-                                </span>            
-                                <div class="icon">
-                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14,3.09H0" fill="#fff"></path>
-                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
-                                    </svg>
-                                </div>
-                            </a>
-                   
-                    </div>
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="300">
+                <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
                     <img src="<?php IMAGE('research/millennials.png') ?>" alt="High Power" class="sq-ratio">
                     <span class="tile__content">
-                            <h4>Millennials with Telstra</h4>
+                            <h4>Milleniials & Digital Behaviour </h4>
                             <hr />
                             <p class="description">
                              Research
@@ -78,13 +56,14 @@ $image2=" ";
                             </a>
                    
                     </div>
+                                      
                      <div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
                     <img src="<?php IMAGE('research/millennials.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
-                            <h4>Ambient Data for BFSIs</h4>
+                            <h4>How BFSIs can use Allspark</h4>
                             <hr />
                             <p class="description">
-                             Video
+                             Video/Case Studies
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -111,7 +90,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-1.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">curate</span> their target audience in real-time and estimate reach in different locations 
+                        <span class="blue">curate</span> their target audience in real-time and estimate reach in different locations.
 
                     </div>
                 </div>
@@ -120,7 +99,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-2.png') ?>" alt/>
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Create</span> predictive lending models to estimate the demand for home loans
+                        <span class="blue">Create</span> predictive lending models to estimate the demand for home loans.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -128,7 +107,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-3.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Get</span> the heat map of footfalls at different bank and insurance office locations to make staffing decisions
+                        <span class="blue">Get</span> the heat map of footfalls at different bank and insurance office locations to make staffing decisions.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -136,7 +115,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-4.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Reach</span> your target audience on desktops, tablets and smartphones to cross-sell and upsell products
+                        <span class="blue">Reach</span> their target audience on desktops, tablets and smartphones to cross-sell and upsell products.
                     </div>
                 </div>
                  <div class="col-md-6 row">
@@ -144,7 +123,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-5.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Ingest</span> your data and get your own version of Allspark to get insight into your customers
+                        <span class="blue">Ingest</span> their CRM data and get their own version of Allspark to get customised insight into their customers.
 
                     </div>
                 </div>
@@ -153,7 +132,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-6.png') ?>" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Create</span> your audience in Allspark, and ingest data on this audience into your system via Allspark APIs
+                        <span class="blue">Create</span> your audience in Allspark, and ingest data on this audience into your system via Allspark APIs.
 
                     </div>
                 </div>
@@ -162,7 +141,34 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">To do</span> credit risk analysis, estimate demand of commercical loans and help with detecting credit card fraud
+                        <span class="blue">Estimate</span>  demand of commercical loans, for credit risk analysis and for detecting credit card fraud.
+
+                    </div>
+                </div>
+                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Identify</span> their consumers across channels and places for a unified consumer view.
+
+                    </div>
+                </div>
+                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Understand</span> the earnings and revenue of blue chip stocks based on monthly, quarterly and yearly footfall trends, and hence finetune Investment strategy.
+
+                    </div>
+                </div>
+                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Measure</span> competitor customer movement to identify gaps in current offering.
 
                     </div>
                 </div>
