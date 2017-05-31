@@ -323,7 +323,7 @@
 	</div>
 </div>
 <div class="container spacing_margin text-center">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="200">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span><a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded users">Setup a demo</a></h1>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="200">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span><a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button demo_button button--primary button--rounded users">Setup a demo</a></h1>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
 	<div class="row">
 		<?php include('../includes/_brand-logos.php'); ?>

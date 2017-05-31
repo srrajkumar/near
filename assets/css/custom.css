@@ -3454,7 +3454,8 @@ select.form-control{border: none !important;border-bottom: 1px solid #dedede !im
      h1{font-size:22px !important;} h2{font-size:20px !important;}
     .aboutus h1{font-size:40px !important; font-weight:300;}
     #auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img, #tab9 img {
-        margin: 10px 20px;}
+        margin: 20px 20px;
+        height: 35px;}
     .whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 30px;}
     .platform-leverage .accordian header{font-size:15px;}
     .platform-leverage .accordian section{font-size:14px;}
@@ -3532,8 +3533,10 @@ h2 {font-size: 16px !important;}
     .culture-subpages .culture_highlite h4{font-size:24px;}
     .whats-happening .col-sm-6 .award_holder span {line-height: 60px;}
     .award_holder{line-height:22px;}
+
 }
 @media (min-width:320px) and (max-width:1024px){
+
   .board1{margin:0}
   .board .col-md-6 .custom_btn { width: 140px !important;}
 .col-md-4 .btn__text, .col-md-3 .btn__text, .col-md-6 .btn__text{right: 0 !important;  z-index: 3 !important;}
@@ -3607,7 +3610,81 @@ span.mobile{display:block;}
 .research_container .col-sm-6:before {background-color: #000000 !important; opacity: 0.7 !important;}
 .research-container .col-sm-6:nth-child(3):before{display:none !important;}
 .research_container .col-sm-6:nth-child(3):after{background: #000000 !important;opacity: 0.7 !important;}
-.allspark-page.banner-content span{line-height:42px;}
+.allspark-page.banner-content span.line-2 {line-height:42px;}
+.allspark-page.banner-content span{    line-height: 25px;}
+#waves{
+  opacity: 0.4;
+}
+.icon-container .col-sm-3 {
+height: initial;    flex: calc(50% - 40px);
+    margin: 0 10px;
+}
+.resultDiv{
+  font-size: 16px !important;
+  line-height: 20px;
+}
+.cd-testimonials .flex-active-slide .col-md-4 img{
+  width: 100%;
+}
+.cd-testimonials .col-md-4{
+  left: initial !important;
+}
+.cd-testimonials-wrapper .cd-testimonials li .col-md-6{
+  margin-top: 20px !important;
+}
+.cd-testimonials-wrapper .cd-testimonials li .col-md-6{
+  padding: 0  !important;
+}
+.cd-testimonials li .cd-author-info{
+  margin-left: initial !important;
+  right: initial !important;
+}
+.cd-testimonials li p {
+    font-size: 13px !important;
+    line-height: 18px !important;
+}
+.testimonial_container{
+  padding-bottom: 150px;
+}
+.cd-author .cd-author-info li:last-child{
+    line-height: 18px !important;
+    font-size: 12px !important;
+    font-weight: 300;
+}
+.flex-direction-nav {
+    width: 130px !important;
+    left: 38% !important;
+    bottom: -167px !important;
+}
+.cd-see-all{
+  bottom: -160px !important;
+}
+.casestudy-container{
+  margin:60px 5px !important;
+  padding: 0 !important
+}
+.allspark-slider .slick-next:before{
+    top: 46% !important;
+    left: 0px !important;
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 19px !important;
+    font-size: 20px !important;
+    }
+    .allspark-slider .slick-prev:before{
+      top: 46% !important;
+    right: 0px !important;
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 19px !important;
+    font-size: 20px !important;
+    left: initial !important;
+    }
+.demo_button{
+            margin: 10px auto 0 auto;
+    display: block;
+    width: 200px;
+  }
 .easyPaginateNav {position: inherit; width: 100% !important; margin-left: 0px; margin-right: 0px;}
     .easyPaginateNav a {padding: 8px;}
     .event-wrapper{width:100%;} 
@@ -3646,9 +3723,18 @@ h1.custom-title span {font-size: 30px;}
 .aboutus-container .logo-set{padding:20px 40px !important; top:0;}
 .aboutus-container .logo-set span{width:50%;}
 .aboutus-container .custom_wrapp{margin-bottom:10px;}
-
+.slider .slick-prev:before, .carousel .slick-prev:before, .slider .slick-next:before, .carousel .slick-next:before{
+  font-size: 12px;
+}
+.case-studies.slider .slick-prev:before, .case-studies.slider .slick-next:before{
+  padding: 3px 7px !important;
+}
+.case-studies.slider .slick-prev, .case-studies.slider .slick-next{
+  width: 40px !important;
+}
 }
 @media (max-width:1100px){
+
 .brj{height:100% !important}
 .research a .description { -webkit-transform: translate(69px, 40px);-moz-transform: translate(69px, 40px); transform: translate(69px, 40px);}
 .research a .title, .research a figure p {-webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px);transform: translate(0, -50px);}

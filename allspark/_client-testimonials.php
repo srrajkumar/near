@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background: #2b292a;">
+<div class="container-fluid testimonial_container" style="background: #2b292a;">
 <div class="cd-testimonials-wrapper cd-container container">
 	<ul class="cd-testimonials ">
 		<li>
