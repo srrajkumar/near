@@ -73,7 +73,8 @@
 					</div>
                       <div class="col-sm-3 life"  data-aos="fade-up" data-aos-delay="1000">
                       
-                      <span style="display: block; margin-top: 5px;    margin-bottom: 10px;">LIFE @ NEAR</span>
+
+                      <h5>LIFE @ NEAR</h5>
 								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun1" alt="life @ Near" /></a>
 													
 								<a target="_blank" href="<?php echo SITE_URL; ?>culture" title="life @ Near"><img src="<?php IMAGE('bb.png'); ?>" width="80" height="80" class=" fun2" alt="life @ Near" /></a>
