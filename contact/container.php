@@ -41,19 +41,19 @@
     <form class="custom-form" action="<?php echo SITE_URL; ?>form/process-form.php" method="post">
             <div class="form-group margin-bottom col-md-12 row">
             <div class="col-md-6 row">
-              <input type="text" id="name" name="name" required  placeholder="Name*" class="form-control" aria-describedby="nameHelp">
+              <input type="text" id="name" name="name" required  placeholder="Name" class="form-control" aria-describedby="nameHelp">
             </div>
             <div class="col-md-6 row">
-              <input type="text" id="location" name="location" placeholder="Location" class="form-control" aria-describedby="nameHelp">
+              <input type="text" id="location" name="location" placeholder="Country" class="form-control" required aria-describedby="nameHelp">
             </div>
             </div>
 
         <div class="form-group margin-bottom col-md-12 row">
           <div class="col-md-6 row">
-            <input type="email" id="email" name="email" required placeholder="Business Email*" class="form-control" aria-describedby="emailHelp" >
+            <input type="email" id="email" name="email" required placeholder="Business Email" class="form-control" aria-describedby="emailHelp" >
           </div>
           <div class="col-md-6 row">
-            <input type="text" id="company" name="company" required placeholder="Company*">
+            <input class="form-control" type="text" id="company" name="company" required placeholder="Company">
           </div>
         </div>
 
@@ -80,7 +80,7 @@
       <div class="form-group margin-bottom col-md-12 row">
    
     <div class="col-md-6 row">
-     <input id="company" type="text" name="company" required placeholder="company"  class="form-control"> 
+     <input id="company" type="text" name="company" required placeholder="Company"  class="form-control"> 
     </div>
     <div class="col-md-6 row">
      <textarea id="message" style="margin-right:0px;" name="message" class="form-control" placeholder="Query / Message" rows="4"></textarea>
@@ -97,29 +97,16 @@
     <form  action="<?php echo SITE_URL; ?>form/resume-process-form.php" class="custom-form" method="post" enctype="multipart/form-data" onSubmit="document.getElementById('career-form-submit-loader').style.display='inline';">
       <div class="form-group margin-bottom col-md-12 row">
       <div class="col-md-6 row">
-        <input type="text" id="name" name="name" class="form-control" aria-describedby="Your first and last name" placeholder="Name*" required>
+        <input type="text" id="name" name="name" class="form-control" aria-describedby="Your first and last name" placeholder="Name" required>
        
       </div>
-      <div class="bfh-selectbox bfh-countries col-md-6 row" data-country="IN" data-flags="true">
-        <input id="location" name="location" required type="hidden" value="">
-        <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-          <span class="bfh-selectbox-option input-medium" data-option=""></span>
-          <b class="caret"></b>
-        </a>
-        <div class="bfh-selectbox-options">
-          <input type="text" class="bfh-selectbox-filter">
-          <div role="listbox">
-            <ul role="option">
-            </ul>
-          </div>
-        </div>
-      </div>
+    
 
       </div>
 
   <div class="form-group margin-bottom col-md-12 row">
     <div class="col-md-6 row">
-      <input type="email" id="email" name="email" required class="form-control" aria-describedby="We will respond to this address" placeholder="Email*">
+      <input type="email" id="email" name="email" required class="form-control" aria-describedby="We will respond to this address" placeholder="Email">
     </div>
     <div class="col-md-6 row">
       <input type="text"  name="position" id="position" class="form-control" aria-describedby="jobHelp" placeholder="Job Title">
@@ -128,7 +115,7 @@
 
   <div class="form-group margin-bottom col-md-12 row">
     <div class="col-md-6 row">
-      <input type="text" id="phone"  class="form-control" name="phone"  aria-describedby="If you prefer a phone call" required placeholder="Contact Number*">
+      <input type="text" id="phone"  class="form-control" name="phone"  aria-describedby="If you prefer a phone call" required placeholder="Contact Number">
     </div>
     <div class="col-md-6 row">
       <input type="text" id="vacancy" name="vacancy" required class="form-control" aria-describedby="textHelp" placeholder="How did you find us">
@@ -269,7 +256,7 @@
   <div class="col-md-10">
     <h2>India<span>Bangalore</span></h2> 
     <hr />
-    <p><b>Near India Private limited</b><br>No. 71/72, 4<sup>th</sup> Floor JNC Rd, Koramangala 5<sup>th</sup> B<br>
+    <p><b>Near India Private limited</b><br>No. 71/72, 4<sup>th</sup> Floor JNC Rd, Koramangala 5<sup>th</sup> Block<br>
      Bangalore 560 095<br>
     </p>
     </div>

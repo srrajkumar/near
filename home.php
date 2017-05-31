@@ -90,7 +90,7 @@
 			  <li>
 				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> crossMatrix&trade;</header>
 				<div class="accordian-section" style="display: block;">
-				  <p>Near's Proprietary ID Unification Engine to identify consumers across screens, devices and places in real-time.</p>
+				  <p>Near's Proprietary ID Unification Engine to identify consumers across screens, devices and places in real time.</p>
 				</div>
 			  </li>
 			  <li>
@@ -100,7 +100,7 @@
 				</div>
 			  </li>
 			  <li>
-				<header class="accordian-header" id="unique_data"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Data Sets</header>
+				<header class="accordian-header" id="unique_data"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Datasets</header>
 				<div class="accordian-section">
 				  <p>Datasets ranging from transaction to location to traffic with unique data partnerships</p>
 				</div>
@@ -117,15 +117,12 @@
     </div>
 </div>
 <div class="row whats-happening research_container perspective">
-        <div class="col-sm-6 col-md-3 whats-new color-blue-bg use-cases"  data-aos="3dflip" data-aos-delay="200">
-        
-        	<div class="spacing">
-		       
+        <div class="col-sm-6 col-md-3 whats-new color-blue-bg use-cases"  data-aos="3dflip" data-aos-delay="200">        
+        	<div class="spacing">		       
 		        <div class="color-white" >NEAR</div>
 		        <div class="research-content" style="opacity:0.5">
 					AMBIENT INTELLIGENCE PLATFORM
-				</div>
-				
+				</div>				
 	        </div>
         </div>
         <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="400">
@@ -143,7 +140,7 @@
                                     </svg>
                                 </div>
                             </span>
-	        </div>
+                </div>
 	        </a>
         </div>
         <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="600" style="background:url('<?php IMAGE('video_bg/img2.png'); ?>'); background-size: cover;">

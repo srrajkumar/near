@@ -3467,7 +3467,11 @@ a.event-link{
     .data-section{padding-right: 0px; padding-left: 20px;}
     .carbon .col-md-9 img{width:100%;}
     .carbon .col-md-3{left: 20px;}
+    .margin-bottom.form-group{padding: 0; margin: 0;}
+   
 }
+@media (max-width:767px){ .contact .form-control{width: 100%; margin: 0;}
+ .form-group .col-md-6{padding-top: 20px; padding-left:0px; padding-right:0px;}}
 @media (max-width:480px){
     .banner-content span:nth-child(6){font-size:15px !important;}
     .banner-space{height: 100px !important;}
@@ -3501,7 +3505,7 @@ h2 {font-size: 16px !important;}
 .banner-content span{font-size:20px; line-height: 28px;}
     .banner-content span.red{font-size:30px; line-height: 38px;}
      .footer-links {width:100% !important; max-width:100% !important;    flex: inherit;}
-
+.contact .row{display: inline-block;margin-left: 0px;margin-right: 0px;}
 }
 @media(min-width:575px) and (max-width:1200px){.research .col-sm-3{max-width: 50% !important; flex: 0 0 50% !important; padding: 0px 15px !important;} .whats-happening .col-sm-6:nth-child(3):before{display:none;}}
 @media(min-width:640px) and (max-width:1250px){.col-sm-6{max-width: 50% !important; flex: 0 0 50% !important;}.whats-happening .col-sm-6:nth-child(3):before{display:none;}}
@@ -3597,7 +3601,8 @@ h1.custom-title span {font-size: 30px;}
 .sidebar{display:none;}
 .platform{margin-top:0px;}
 }
-@media (max-width:1100px){.brj{height:100% !important}
+@media (max-width:1100px){
+.brj{height:100% !important}
 .research a .description { -webkit-transform: translate(69px, 40px);-moz-transform: translate(69px, 40px); transform: translate(69px, 40px);}
 .research a .title, .research a figure p {-webkit-transform: translate(0, -50px); -moz-transform: translate(0, -50px);transform: translate(0, -50px);}
 .research .description{left:-68px;background:#ffffff;} 
@@ -3609,7 +3614,7 @@ h1.custom-title span {font-size: 30px;}
  .col-4,.col-6,.col-5,.col-7,.col-8{max-width:100%;}
  .col-4 img,.col-6 img,.col-5 img,.col-7 img{width:100%;}
  .margin-bottom.form-group {margin-bottom: 0px;}
- .form-group .col-md-6{padding-top: 20px;}
+ 
 .careers iframe{height:600px !important;}
 #contact-wrapper button{    margin-top: 20px;}
 .career-date{    margin-bottom: 40px;}
@@ -3638,10 +3643,11 @@ h1.custom-title span {font-size: 30px;}
 .carbon .col-md-9{max-width: 100%; flex: inherit;}
 .contact .btn-primary{margin-top: 22px;}
 
-.contact .col-md-3 form,.contact .col-md-3{display:block;}
+.contact .col-md-3 form,.contact .col-md-3 form #myselect,.contact .col-md-3{display:inline-block;}
 .contact .col-md-3{max-width: 100%; flex: inherit; text-align: center; width:100%;}
 .contact .col-md-3 ul.nav-tabs{display:none;}
 .contact #Product textarea, .contact #others textarea{margin-top: 15px;}
+.custom-form textarea{margin-right:0px;}
 }
 
 
