@@ -103,7 +103,7 @@ $image2=" ";
                 </div>
                 <div class="space"></div>
                 <h1>Allspark can be used  </h1>
-                <h2>by the BFSI industry:</h2>
+                <h2>by the BFSI industry to:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
@@ -111,7 +111,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-1.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">To curate</span> their target audience in real-time and estimate reach in different locations 
+                        <span class="blue">curate</span> their target audience in real-time and estimate reach in different locations 
 
                     </div>
                 </div>
