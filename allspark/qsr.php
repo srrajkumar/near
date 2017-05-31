@@ -35,8 +35,8 @@ $image2=" ";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12  custom-banner row perspective" style="padding:0; margin: 0;">
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
-                    <img src="<?php IMAGE('case-study/qsr-phd.png') ?>" alt="" class="sq-ratio">
+                    <!--div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <img src="<?#php IMAGE('case-study/qsr-phd.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
                             <h4> Drive Footfall for Pizza Hut</h4>
                             <hr />
@@ -55,11 +55,11 @@ $image2=" ";
                                     </svg>
                                 </div>
                             </a>
-                    </div>
+                    </div-->
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="300" style="background:#000">
                     <img src="<?php IMAGE('research/mcdonald-and-subway-consumers.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
-                            <h4>Australian QSR Consumers</h4>
+                            <h4>QSR Consumers - SEA & HK</h4>
                             <hr />
                             <p class="description">
                               Research
@@ -80,10 +80,10 @@ $image2=" ";
                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/qsr.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
-                            <h4>Insights on QSR Consumers - SEA</h4>
+                            <h4>QSR Consumers in Australia</h4>
                             <hr />
                             <p class="description">
-                              Research
+                              Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -98,12 +98,10 @@ $image2=" ";
                                 </div>
                             </a>
                     </div>
-                </div>
-                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="500">
                     <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Research on QSRs for SEA</h4>
+                            <h4>QSR Consumers - SEA & HK</h4>
                             <hr />
                             <p class="description">
                               Video

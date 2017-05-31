@@ -102,8 +102,7 @@ $image=  "allspark/allspark-auto.png";
                             </a>
                     
                     </div>
-                </div>
-                <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
+
                   
                      <div class="col-md-4" data-aos="3dflip" data-aos-delay="600">
                     <img src="<?php IMAGE('whitepaper/auto-automotive.png') ?>" alt="High Power" class="sq-ratio">
