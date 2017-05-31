@@ -3685,6 +3685,20 @@ height: initial;    flex: calc(50% - 40px);
     display: block;
     width: 200px;
   }
+.s-header__nav .container-fluid ul.main_nav.sub_active{
+    padding-right: initial !important;
+    text-align: center !important;
+  }
+.s-header-bg-overlay.js__bg-overlay.-is-open .s-header__nav.js__scrollbar.container{
+  overflow: auto;
+}
+.s-header__nav .container-fluid .main_nav li.submenu.active, .s-header__nav .container-fluid .main_nav li.submenu.active ul li{
+  overflow: hidden;
+}
+  .s-header__nav .container-fluid .main_nav ul{
+    position: initial !important;
+    right: initial !important; 
+  }
 .easyPaginateNav {position: inherit; width: 100% !important; margin-left: 0px; margin-right: 0px;}
     .easyPaginateNav a {padding: 8px;}
     .event-wrapper{width:100%;} 
