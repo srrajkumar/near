@@ -75,7 +75,7 @@
         </span>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 blog_container">
       <h2>BLOG</h2>
       <hr />
       <p class="col-md-12">Take a look at our corporate and tech blogs for the latest industry trends.</p>
@@ -93,7 +93,7 @@
     </div>
 
     <div class="custom_wrapp row">
-    <div class="col-md-9 random-image" style="position: relative;" id="cycler2">
+    <div class="col-md-9 random-image board_member" style="position: relative;" id="cycler2">
       <img src="<?php IMAGE('board/mohit.png') ?>" class="active" alt />
       <img src="<?php IMAGE('board/anil.png') ?>" alt />
       <img src="<?php IMAGE('board/mohit.png') ?>" alt />
@@ -117,8 +117,8 @@
     </div>
     </div>
 
-  <div class="custom_wrapp row">
-  <div class="col-md-6 row space">
+  <div class="custom_wrapp row section_about_container">
+  <div class="col-md-6 row space culture_container">
     
     <div class="col-md-6 right-arrow">
       <h2>Culture Code</h2>
@@ -175,9 +175,9 @@
     </div>
   </div>
 
-  <div class="custom_wrapp row">
+  <div class="custom_wrapp row section_about_container">
 
-  <div class="col-md-6 row space2">
+  <div class="col-md-6 row space2 career_container">
   <div class="col-md-6 random-image" style="position: relative;">
       <img src="<?php IMAGE('culture/career.png') ?>" />
     </div>
