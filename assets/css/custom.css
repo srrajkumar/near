@@ -3614,7 +3614,8 @@ h1.custom-title span {font-size: 30px;}
  .col-4,.col-6,.col-5,.col-7,.col-8{max-width:100%;}
  .col-4 img,.col-6 img,.col-5 img,.col-7 img{width:100%;}
  .margin-bottom.form-group {margin-bottom: 0px;}
- 
+ .award_holder img{width:233px;}
+ .award_holder span{line-height: 24px !important; margin-bottom: 10px !important;}
 .careers iframe{height:600px !important;}
 #contact-wrapper button{    margin-top: 20px;}
 .career-date{    margin-bottom: 40px;}
@@ -3648,6 +3649,11 @@ h1.custom-title span {font-size: 30px;}
 .contact .col-md-3 ul.nav-tabs{display:none;}
 .contact #Product textarea, .contact #others textarea{margin-top: 15px;}
 .custom-form textarea{margin-right:0px;}
+.col-md-4 .custom_btn, .col-md-6 .custom_btn, .col-md-3 .custom_btn {
+    border: 1px solid #000 !important;}
+.col-md-4 .custom_btn, .col-md-3 .custom_btn, .col-md-6 .custom_btn {
+    width: 120px;}
+   .aboutus-container .custom_btn .icon svg{left: initial;right:0;}
 }
 
 
