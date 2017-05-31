@@ -1,7 +1,7 @@
 <?php include('_banner.php'); ?>
 <?php $b = $_GET['vacancy'];  ?>
 
-<div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
+<div class="container container--fixed top-spacer allspark-subpages contact" style="padding: 100px 0">
   <div class="row" style="margin: 0;">
     <div class="col col-md-3">
       <div class="side-menu">
@@ -19,6 +19,16 @@
           </li>
           <li><a href="#"></a></li>
         </ul>
+        <form>
+        <select id='myselect' class="form-control">
+          <option value='#product'>Interest in Product</option>
+          <option value='#data'>Interest in Data</option>
+          <option value='#team'>Joining the team</option>
+          <option value='#media'>Media Queries</option>
+          <option value='#others'>Others</option>
+         
+        </select>
+      </form>
       </div>
     </div>
 
