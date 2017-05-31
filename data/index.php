@@ -121,8 +121,9 @@ $meta_keywords="";
       wireframe: !0,
       wireframeLinewidth: 1
     });
-    Ico = new THREE.Mesh(new THREE.SphereGeometry(140,7, 7 ,0,6.3,0,3.1 ), material), Ico.position.x = 160, scene.add(Ico),THREE.ImageUtils.crossOrigin = '',  dotLime = THREE.ImageUtils.loadTexture("../assets/images/data/omni.png"), dotLBlue = THREE.ImageUtils.loadTexture("../assets/images/data/campaign.png"), dotSunset = THREE.ImageUtils.loadTexture("../assets/images/data/audience.png"), dotOrange = THREE.ImageUtils.loadTexture("../assets/images/data/insights.png"), dotVelvet = THREE.ImageUtils.loadTexture("../assets/images/data/location.png");
-    var dots = [dotLime, dotLBlue, dotSunset, dotOrange, dotVelvet];
+    Ico = new THREE.Mesh(new THREE.SphereGeometry(140,7, 7 ,0,6.3,0,3.1 ), material), Ico.position.x = 160, scene.add(Ico),THREE.ImageUtils.crossOrigin = '',  dotLime = THREE.ImageUtils.loadTexture("../assets/images/data/omni.png"), dotLBlue = THREE.ImageUtils.loadTexture("../assets/images/data/campaign.png"), dotSunset = THREE.ImageUtils.loadTexture("../assets/images/data/audience.png"), dotOrange = THREE.ImageUtils.loadTexture("../assets/images/data/insights.png"), dotVelvet = THREE.ImageUtils.loadTexture("../assets/images/data/location.png"),dotWifi = THREE.ImageUtils.loadTexture("../assets/images/data/wifi.png"),dottransaction = THREE.ImageUtils.loadTexture("../assets/images/data/transaction.png"),dotweather = THREE.ImageUtils.loadTexture("../assets/images/data/weather.png");
+
+    var dots = [dotLime, dotLBlue, dotSunset, dotOrange, dotVelvet,dotWifi, dottransaction, dotweather];
     distance = 100;
     var shadeMaterial = new THREE.BufferGeometry({
       uniforms: {
@@ -162,7 +163,7 @@ $meta_keywords="";
       });
       particles2 = new THREE.Points(geometry2, shadeMaterial), particles2.position.x = 160, particles2.name = "bubbles", scene.add(particles2)
     }
-    for (i = 0; 5 > i; i++) {
+    for (i = 0; 8 > i; i++) {
       geometry2 = new THREE.Geometry;
       var vertex = new THREE.Vector3,
         theta = THREE.Math.randFloatSpread(360),
