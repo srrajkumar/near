@@ -35,8 +35,8 @@ $image=  "allspark/allspark-auto.png";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
-                    <img src="<?php IMAGE('case-study/auto-audi.png') ?>" alt="High Power" class="sq-ratio">
+                    <!--div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <img src="<?#php IMAGE('case-study/auto-audi.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Drive Awareness for Audi</h4>
                             <hr />
@@ -56,10 +56,10 @@ $image=  "allspark/allspark-auto.png";
                                 </div>
                             </a>
                     
-                    </div>
+                    </div-->
                    
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
-                    <img src="<?php IMAGE('case-study/auto-ford.png') ?>" alt="High Power" class="sq-ratio">
+                    <!--div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
+                    <img src="<?#php IMAGE('case-study/auto-ford.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Drive Footfall for Ford</h4>
                             <hr />
@@ -79,11 +79,11 @@ $image=  "allspark/allspark-auto.png";
                                 </div>
                             </a>
                     
-                    </div>
+                    </div-->
                 <div class="col-md-4" data-aos="3dflip" data-aos-delay="500">
                     <img src="<?php IMAGE('case-study/auto-ford-everest.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
-                            <h4> Increase walk-ins to MIAS</h4>
+                            <h4> Auto Enthusiasts & Ford Everest</h4>
                             <hr />
                             <p class="description">
                               Case Study
@@ -108,7 +108,7 @@ $image=  "allspark/allspark-auto.png";
                      <div class="col-md-4" data-aos="3dflip" data-aos-delay="600">
                     <img src="<?php IMAGE('whitepaper/auto-automotive.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Mobile Intelligence for Automotive </h4>
+                            <h4>Automotives & Data-Driven Marketing</h4>
                             <hr />
                             <p class="description">
                               Whitepaper
