@@ -11,24 +11,24 @@
 
                 <div class="col col-md-8 data-sets" style="right: 0">
                 <div class="col col-md-12 row perspective" style="padding:0; margin: 0;">
-                <div class="icon-set-2 col-md-12 margin-padding row">
-                    <div class="col-md-3">
-                        <p class="highlite" style="text-align: left">Proprietary <br class="mob-add" /><span>DataSets</span></p>
+                <div class="icon-set-2 col-md-12 margin-padding row data_set">
+                    <div class="col-md-2" style="padding: 0">
+                        <p class="highlite" style="text-align: left">Proprietary <br class="mob-add" /><span>Datasets</span></p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="<?php IMAGE('data/icon-set-2-2.png') ?>" />
-                        <p>Spatial Data</p>
+                    <div class="col-md-3 row ww" style="    margin-right: -60px;">
+                        <span class="col-md-6"><img src="<?php IMAGE('data/icon-set-2-2.png') ?>" /></span>
+                        <p class="col-md-6">Spatial Data</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="<?php IMAGE('data/icon-set-2-3.png') ?>" />
-                        <p>PlaceMatrix<sup>TM</sup></p>
+                    <div class="col-md-3 row ww">
+                        <span class="col-md-6"><img src="<?php IMAGE('data/icon-set-2-3.png') ?>" /></span>
+                        <p class="col-md-6">PlaceMatrix<sup>TM</sup> Data</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="<?php IMAGE('data/icon-set-2-4.png') ?>" />
-                        <p>CrossMatrix<sup>TM</sup></p>
+                    <div class="col-md-3 row ww" style="    margin-right: 23px;">
+                        <span class="col-md-6"><img src="<?php IMAGE('data/icon-set-2-4.png') ?>" /></span>
+                        <p class="col-md-6">CrossMatrix<sup>TM</sup> Data</p>
                     </div>
                 </div>
-                <hr class="custom_line" />
+                <hr class="custom_line" style="margin-top: -1px;" />
                 <div class="icon-set-3 col-md-12 margin-padding row fivecolumn" style="margin-top: 20px;">
                   <div class="sections">
                     <img src="<?php IMAGE('data/icon-set-3/icon-1.png') ?>" />

@@ -293,15 +293,17 @@ body{
     height: 170px;
     }
 .highlite{
-    font-size: 30px !important;
-    font-weight: 500 !important;
+    font-size: 26px !important;
+    font-weight: 300 !important;
     color: #e21e27 !important;
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 30px;
 }
 .highlite span{
   color: #5c5c5c;
-  font-size:26px;
+  font-size:24px;
+  text-transform: none;
+  font-weight: 500;
 }
 .custom_line{
   width: 100% !important;
@@ -3459,7 +3461,7 @@ a.event-link{
 .investors .flex2{display:flex}
 .investors .col-md-6{margin-bottom:60px}
 .mob-add{display:none;}
-.data-sets{margin-top: 40px;}
+/*.data-sets{margin-top: 40px;}*/
 .form-control:focus{border-color: gray !important;}
 select.form-control{border: none !important;border-bottom: 1px solid #dedede !important;width: calc(100% - 20px);font-family: 'Roboto', sans-serif;font-size: 14px;color: #5c5c5c; border-radius:0;}
 

@@ -40,6 +40,26 @@ right: inherit;
 .case-studies.responsive .slick-slide {
     position: relative !important;
 }
+.data_set{
+      justify-content: space-between;
+}
+.data_set img{
+  width: 100%
+}
+.data_set .col-md-7{
+  padding-right: 0;
+}
+.data_set .col-md-3.ww{
+  margin-top: 0;
+      -webkit-box-flex: 0;
+}
+.data_set .col-md-3.ww p{
+  color: #e52637
+}
+.data_set .col-md-6{
+  padding-right: 0;
+  text-align: left;
+}
 /********************
 *****Slide effect
 **********************/
