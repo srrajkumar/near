@@ -49,6 +49,14 @@ $image=  "allspark/allspark-media-planning.png";
 	                </div>
                 </div>
                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/media-planning/icon-4.png') ?>" alt />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Estimating</span> reach across smartphones, tablets, desktops and outdoor sites in real-time.
+                    </div>
+                </div>
+                <div class="col-md-6 row">
 	                <div class="col-md-4">
 	                	<img src="<?php IMAGE('allspark/media-planning/icon-2.png') ?>" alt />
 	                </div>
@@ -64,14 +72,7 @@ $image=  "allspark/allspark-media-planning.png";
 	                	<span class="blue">Comparing</span> which set of media work best together by doing A/B experiments on different media mix.
 	                </div>
                 </div>
-                <div class="col-md-6 row">
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/media-planning/icon-4.png') ?>" alt />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Estimating</span> reach across smartphones, tablets, desktops and outdoor sites in real-time.
-	                </div>
-                </div>
+                
                 </div>
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>

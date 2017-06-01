@@ -289,6 +289,15 @@ $image2=" ";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/retail/icon-7.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Identify</span> the best places to open their next stores with rich insights from smart environments.
+
+                    </div>
+                </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/retail/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
@@ -297,12 +306,14 @@ $image2=" ";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/retail/icon-3.png') ?>" />
+                        <img src="<?php IMAGE('allspark/retail/icon-6.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Get</span> deep insights of the audience that walks into their own and competitor stores such as demography, audience types, visitation rate, peak visitation day and time etc.
+                        <span class="blue">Understand</span> the touchpoints (Mobile/Tablets/Desktop/OOH) that influence consumer walk-ins, and be smarter with their media planning.
+
                     </div>
                 </div>
+                
                 <div class="col-md-6 row">
                     <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/retail/icon-4.png') ?>" />
@@ -323,22 +334,13 @@ $image2=" ";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/retail/icon-6.png') ?>" />
+                        <img src="<?php IMAGE('allspark/retail/icon-3.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Understand</span> the touchpoints (Mobile/Tablets/Desktop/OOH) that influence consumer walk-ins, and be smarter with their media planning.
-
+                        <span class="blue">Get</span> deep insights of the audience that walks into their own and competitor stores such as demography, audience types, visitation rate, peak visitation day and time etc.
                     </div>
                 </div>
-                 <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/retail/icon-7.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Identify</span> the best places to open their next stores with rich insights from smart environments.
-
-                    </div>
-                </div>
+                 
                 </div>
                
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>

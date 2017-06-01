@@ -139,6 +139,14 @@ $image2=" ";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/qsr/icon-4.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Analyse</span> spend behavior of their target audience in different places and during different events.
+                    </div>
+                </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/qsr/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
@@ -146,22 +154,6 @@ $image2=" ";
                     </div>
                 </div>
                 <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/qsr/icon-3.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Measure</span> store visits of their own and competitor stores, and define business strategy with these insights.
-                    </div>
-                </div>
-                <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/qsr/icon-4.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Analyse</span> spend behavior of their target audience in different places and during different events.
-                    </div>
-                </div>
-                 <div class="col-md-6 row">
                     <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/qsr/icon-5.png') ?>" />
                     </div>
@@ -179,6 +171,17 @@ $image2=" ";
 
                     </div>
                 </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/qsr/icon-3.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Measure</span> store visits of their own and competitor stores, and define business strategy with these insights.
+                    </div>
+                </div>
+                
+                 
+                
                 </div>
                
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>

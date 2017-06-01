@@ -67,22 +67,8 @@ $image=  "allspark/allspark-omni-channel.png";
                 <h2>can use Allspark for providing an omni-channel Consumer experience by:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
-                <div class="col-md-6 row" >
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/omni-channel/icon-1.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Mapping</span> consumer journeys in the digital and physical world, and getting insight into the right touchpoints for their target audience.
-	                </div>
-                </div>
-                <div class="col-md-6 row">
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/omni-channel/icon-2.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Reaching</span> their audience on the right channels, and continuing their brand story across media.
-	                </div>
-                </div>
+                
+                
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
 	                	<img src="<?php IMAGE('allspark/omni-channel/icon-3.png') ?>" />
@@ -91,7 +77,22 @@ $image=  "allspark/allspark-omni-channel.png";
 	                	<span class="blue">Measuring</span> which channels work best for their target audience, and optimising marketing spends.
 	                </div>
                 </div>
-               
+               <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/omni-channel/icon-2.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Reaching</span> their audience on the right channels, and continuing their brand story across media.
+                    </div>
+                </div>
+                <div class="col-md-6 row" >
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/omni-channel/icon-1.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Mapping</span> consumer journeys in the digital and physical world, and getting insight into the right touchpoints for their target audience.
+                    </div>
+                </div>
                 </div>
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>

@@ -572,6 +572,14 @@ $image=  "allspark/allspark-consumer-research.png";
 	                </div>
                 </div>
                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/consumer-research/icon-4.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Get</span> insights across industries.
+                    </div>
+                </div>
+                <div class="col-md-6 row">
 	                <div class="col-md-4">
 	                	<img src="<?php IMAGE('allspark/consumer-research/icon-2.png') ?>" />
 	                </div>
@@ -587,14 +595,7 @@ $image=  "allspark/allspark-consumer-research.png";
 	                	<span class="blue">Get</span> intelligence on customers in their own stores and competitor stores, and compare their audience across stores.
 	                </div>
                 </div>
-                <div class="col-md-6 row">
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/consumer-research/icon-4.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> insights across industries.
-	                </div>
-                </div>
+                
                 </div>
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="space"></div>

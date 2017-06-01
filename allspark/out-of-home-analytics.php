@@ -64,20 +64,21 @@ $image=  "allspark/allspark-ooh-analytics.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-4.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Measure</span> attribution of their OOH campaigns, and how well these campaigns work together with other media.
-                    </div>
-                </div>
-                 <div class="col-md-6 row">
-                    <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/ooh-analytics/icon-5.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> apowerful analytics on the kind of audience engaging with their OOH campaigns.
                     </div>
                 </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-4.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Measure</span> attribution of their OOH campaigns, and how well these campaigns work together with other media.
+                    </div>
+                </div>
+                 
                 </div>
                
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>

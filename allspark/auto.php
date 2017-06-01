@@ -142,6 +142,14 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/auto/icon-3.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Engage</span> with the target audience in real-time, across channels.
+                    </div>
+                </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/auto/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
@@ -150,10 +158,27 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-3.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-7.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Engage</span> with the target audience in real-time, across channels.
+                        <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across products and places. 
+                    </div>
+                </div>
+                
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/auto/icon-8.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Get</span> Allspark data through DaaS API for making data-driven decisions. 
+                    </div>
+                </div>
+                 <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/auto/icon-5.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Measure</span> and compare store visits to their own and competitor stores.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -164,12 +189,29 @@ $image=  "allspark/allspark-auto.png";
                         <span class="blue">Drive</span> footfall to their showrooms and events, to promote their products and raise brand awareness.
                     </div>
                 </div>
-                 <div class="col-md-6 row">
+                <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-5.png') ?>" />
+                        <img src="<?php IMAGE('allspark/auto/icon-9.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Measure</span> and compare store visits to their own and competitor stores.
+                        <span class="blue">Identify</span> the best places to open their next stores with rich insights from smart environments.
+                    </div>
+                </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/segment.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Segment </span> existing car owners into buckets based on residential location or driving behaviour.
+                    </div>
+                </div>
+
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/understand.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Understand</span> customer base of competitor vehicles to identify gaps in marketing and product offering.
                     </div>
                 </div>
                 <div class="col-md-6 row">
@@ -189,48 +231,11 @@ $image=  "allspark/allspark-auto.png";
  
                     </div>
                 </div>
-                  <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-7.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across products and places. 
-                    </div>
-                </div>
-                  <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-8.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Get</span> Allspark data through DaaS API for making data-driven decisions. 
-                    </div>
-                </div>
-                  <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-9.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Identify</span> the best places to open their next stores with rich insights from smart environments.
-                    </div>
-                </div>
+                  
+                  
+                  
 
-                <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/segment.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Segment </span> existing car owners into buckets based on residential location or driving behaviour.
-                    </div>
-                </div>
-
-                <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/understand.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Understand</span> customer base of competitor vehicles to identify gaps in marketing and product offering.
-                    </div>
-                </div>
+                
                 
                 </div>
                

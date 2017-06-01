@@ -131,6 +131,14 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/telco/icon-8.png') ?>" />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Understand</span> switching patterns of consumers between telco players.
+                    </div>
+                </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/telco/icon-2.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
@@ -177,14 +185,7 @@ $image2="allspark/allspark-telco-2.png";
                         <span class="blue">Understand</span> the touchpoints (Mobile/Tablets/Desktop/OOH) that influence consumer walk-ins, and be smarter with mapping consumer journeys.
                     </div>
                 </div>
-                <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-8.png') ?>" />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Understand</span> switching patterns of consumers between telco players.
-                    </div>
-                </div>
+                
                 <div class="col-md-6 row">
                     <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/identify.png') ?>" />

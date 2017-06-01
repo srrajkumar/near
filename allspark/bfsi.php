@@ -118,15 +118,7 @@ $image2=" ";
                         <span class="blue">Reach</span> their target audience on desktops, tablets and smartphones to cross-sell and upsell products.
                     </div>
                 </div>
-                 <div class="col-md-6 row">
-                    <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/bfsi/icon-5.png') ?>" alt />
-                    </div>
-                    <div class="col-md-8 subcontent">
-                        <span class="blue">Ingest</span> their CRM data and get their own version of Allspark to get customised insight into their customers.
-
-                    </div>
-                </div>
+                 
                 <div class="col-md-6 row">
                     <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/bfsi/icon-6.png') ?>" alt  />
@@ -154,6 +146,15 @@ $image2=" ";
 
                     </div>
                 </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('allspark/measure.png') ?>" alt />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Measure</span> competitor customer movement to identify gaps in current offering.
+
+                    </div>
+                </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
                         <img src="<?php IMAGE('allspark/understand.png') ?>" alt />
@@ -163,15 +164,17 @@ $image2=" ";
 
                     </div>
                 </div>
-                 <div class="col-md-6 row">
+                 
+                <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/measure.png') ?>" alt />
+                        <img src="<?php IMAGE('allspark/bfsi/icon-5.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Measure</span> competitor customer movement to identify gaps in current offering.
+                        <span class="blue">Ingest</span> their CRM data and get their own version of Allspark to get customised insight into their customers.
 
                     </div>
                 </div>
+
                 </div>
                
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
