@@ -36,10 +36,10 @@ function isPhone($phone) {
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'tls';  
-	$mail->Host = 'email-smtp.us-west-2.amazonaws.com';
-	$mail->Port = 25;   
-	$mail->Username = "AKIAJZDQV2VXA3I2EJOQ";
-	$mail->Password = "Aj2jGfhdARQWVCtJ03Ku5IEL/ybFo/LVMZjFcMDJWKxS";
+	$mail->Host = 'smtp.gmail.com';
+	$mail->Port = 587;   
+	$mail->Username = "rajkumar@near.co";
+	$mail->Password = "darky.654321";
 	$mail->isHTML(true); 
 	$mail->setFrom('allspark@adnear.net');     //Set who the message is to be sent from
 	$mail->addReplyTo($email,$name);  //Set an alternative reply-to address
@@ -58,10 +58,7 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 if(trim($name) == '') {
 	echo '<div class="error_message">Attention! You must enter your Name.</div>';
 	exit();
-}  else if(trim($country) == '') {
-	echo '<div class="error_message">Attention! You must enter your Location.</div>';
-	exit();
-}  else if(trim($email) == '') {
+}  else  if(trim($email) == '') {
 	echo '<div class="error_message">Attention! Please enter a valid Email Address.</div>';
 	exit();
 } else if(trim($phone) == '') {
@@ -75,7 +72,7 @@ if(trim($name) == '') {
 	exit();
 } 
 
-if(trim($company) == '') {
+  if(trim($company) == '') {
 	echo '<div class="error_message">Attention! Please enter a Company Name.</div>';
 	exit();
 } else if(trim($verify) == NULL) {
@@ -83,7 +80,7 @@ if(trim($company) == '') {
 	exit();
 }
 
-// Configuration option.
+//Configuration option.
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
@@ -202,3 +199,33 @@ if(trim($company) == '') {
 	echo "<p>Someone from our team will get in touch with you shortly.</p>";
 	echo "</div>";
 	echo "</fieldset>";
+?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+	var name ='<?php echo $_POST['name']; ?>';
+	var email = '<?php echo $_POST['email']; ?>';
+	var phone = '<?php echo $_POST['phone']; ?>';
+	var find ='<?php echo $_POST['find']; ?>';
+	var country = '<?php echo $_POST['country']; ?>';
+	var company ='<?php echo $_POST['company']; ?>';
+
+	$.ajax({
+    url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSfYwwJ-3ugTUCz-NH6h9vEAHkXwpZZQYQ7-tG53UI47XuvToQ/formResponse",
+   /data: { 
+   "entry_710770568": name,
+   "entry_863893022": email,
+   "entry_257454762": phone,
+   "entry_3153749":find,
+    "entry_1168262239": company,
+   "entry_1157887187": country
+    	
+   },
+  type: "POST",
+    crossDomain: true,
+   dataType: "xml",
+     statusCode: {
+
+    }
+  });
+	
+</script>

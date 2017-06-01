@@ -20,6 +20,8 @@ $boxes.each(function(){
 			email: $('#email').val(),
 			phone: $('#phone').val(),
 			company: $('#company').val(),
+			country: $('#country').val(),
+			find: $('#find').val(),
 			comments: $('#comments').val(),
 			verify: verify
 		},
