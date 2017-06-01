@@ -174,7 +174,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-9.png') ?>" />
+                        <img src="<?php IMAGE('allspark/identify.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Identify</span> people movement to determine the optimal size and capacity of vehicle to support changes in transportation requirements, and hence aid decisions in new product development.
@@ -216,7 +216,7 @@ $image=  "allspark/allspark-auto.png";
 
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-9.png') ?>" />
+                        <img src="<?php IMAGE('allspark/segment.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Segment </span> existing car owners into buckets based on residential location or driving behaviour.
@@ -225,7 +225,7 @@ $image=  "allspark/allspark-auto.png";
 
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-9.png') ?>" />
+                        <img src="<?php IMAGE('allspark/understand.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> customer base of competitor vehicles to identify gaps in marketing and product offering.

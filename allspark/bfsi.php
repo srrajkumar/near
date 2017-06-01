@@ -37,7 +37,7 @@ $image2=" ";
                 <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
                     <img src="<?php IMAGE('research/millennials.png') ?>" alt="High Power" class="sq-ratio">
                     <span class="tile__content">
-                            <h4>Milleniials & Digital Behaviour </h4>
+                            <h4>Millennials & Digital Behaviour </h4>
                             <hr />
                             <p class="description">
                              Research
@@ -90,7 +90,7 @@ $image2=" ";
                         <img src="<?php IMAGE('allspark/bfsi/icon-1.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">curate</span> their target audience in real-time and estimate reach in different locations.
+                        <span class="blue">Curate</span> their target audience in real-time and estimate reach in different locations.
 
                     </div>
                 </div>
@@ -147,7 +147,7 @@ $image2=" ";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
+                        <img src="<?php IMAGE('allspark/identify.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Identify</span> their consumers across channels and places for a unified consumer view.
@@ -156,7 +156,7 @@ $image2=" ";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
+                        <img src="<?php IMAGE('allspark/understand.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the earnings and revenue of blue chip stocks based on monthly, quarterly and yearly footfall trends, and hence finetune Investment strategy.
@@ -165,7 +165,7 @@ $image2=" ";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/bfsi/icon-7.png') ?>" alt />
+                        <img src="<?php IMAGE('allspark/measure.png') ?>" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Measure</span> competitor customer movement to identify gaps in current offering.

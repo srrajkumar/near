@@ -137,7 +137,7 @@ $meta_keywords="Data-Driven Marketing, Attribution Analytics, Consumer Insights,
 </svg>
 </div></h1>
                 <h2 class="newsletter-title">Sign Up for Allspark Demo</h2>
-                <p class="newsletter-slogan">Audience Curation | Identity Resolution | Powerful Analytics | Real-time Targeting | Attribution & Measurement | Unified Consumer View | Real World Consumer Footprints</p>
+                <p class="newsletter-slogan">Audience Curation | Identity Unification | Powerful Analytics | Real-time Targeting | Attribution & Measurement | Unified Consumer View | Real World Consumer Footprints</p>
                 <div id="message"></div>
                 <form method="post" action="<?php echo SITE_URL; ?>allspark/contact.php" name="contactform" id="contactform" style="text-align:center" enctype="multipart/form-data">
                 

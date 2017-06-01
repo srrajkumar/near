@@ -182,12 +182,12 @@ $image2="allspark/allspark-telco-2.png";
                         <img src="<?php IMAGE('allspark/telco/icon-8.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Understanding</span> switching patterns of consumers between telco players.
+                        <span class="blue">Understand</span> switching patterns of consumers between telco players.
                     </div>
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-8.png') ?>" />
+                        <img src="<?php IMAGE('allspark/identify.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Identify </span> where to install new cell towers for better coverage based on movement of your customers vs competitors' customers.
@@ -195,10 +195,10 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-8.png') ?>" />
+                        <img src="<?php IMAGE('allspark/curate.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Curate </span> audience of people who live, work, in certain areas and suburbs for Local Area Marketing.
+                        <span class="blue">Curate </span> audience of people who live/work in certain areas and suburbs for Local Area Marketing.
                     </div>
                 </div>
                 </div>

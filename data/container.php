@@ -13,7 +13,7 @@
                 <div class="col col-md-12 row perspective" style="padding:0; margin: 0;">
                 <div class="icon-set-2 col-md-12 margin-padding row">
                     <div class="col-md-3">
-                        <p class="highlite">Proprietary <br class="mob-add" /><span>Data Sets</span></p>
+                        <p class="highlite" style="text-align: left">Proprietary <br class="mob-add" /><span>DataSets</span></p>
                     </div>
                     <div class="col-md-3">
                         <img src="<?php IMAGE('data/icon-set-2-2.png') ?>" />

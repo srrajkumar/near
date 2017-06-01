@@ -228,7 +228,7 @@ $image2=" ";
                             <h4>Singapore's Fitness Enthusiasts</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">

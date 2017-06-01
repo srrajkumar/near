@@ -220,10 +220,10 @@ $image=  "allspark/allspark-consumer-research.png";
                         <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/great-singapore-sale-2016.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Understanding Footfall Behavior - GSS 2016</h4>
+                            <h4>Footfall during Great Singapore Sale, 2016</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -246,10 +246,10 @@ $image=  "allspark/allspark-consumer-research.png";
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="1000" style="background:#000">
                     <img src="<?php IMAGE('research/insights-fitness.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Insights on Fitness Enthusiasts</h4>
+                            <h4>Insights on Fitness Enthusiasts, Singapore</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -272,10 +272,10 @@ $image=  "allspark/allspark-consumer-research.png";
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="800" style="background:#000">
                     <img src="<?php IMAGE('research/cny-singapore.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Consumer Insights for CNY in SEA</h4>
+                            <h4>Consumer Insights for CNY in SEA & HK</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -295,10 +295,10 @@ $image=  "allspark/allspark-consumer-research.png";
 <div class="col-md-4" data-aos="3dflip" data-aos-delay="1100" style="background:#000">
                     <img src="<?php IMAGE('research/mcdonald-and-subway-consumers.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Australian QSR Consumers</h4>
+                            <h4>QSR Consumers, Australia</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -321,7 +321,7 @@ $image=  "allspark/allspark-consumer-research.png";
                             <h4>Black Friday Shopper Insights</h4>
                             <hr />
                             <p class="description">
-                            Infographics
+                            Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -342,10 +342,10 @@ $image=  "allspark/allspark-consumer-research.png";
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="1400" style="background:#000">
                     <img src="<?php IMAGE('research/black-friday.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4> Black Friday Research 2016</h4>
+                            <h4> Black Friday Research, 2016</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -366,10 +366,10 @@ $image=  "allspark/allspark-consumer-research.png";
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="1300" style="background:#000">
                     <img src="<?php IMAGE('research/insights-rwc-2015.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Rugby Audience Insights</h4>
+                            <h4>Rugby Audience Insights, 2015</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -393,7 +393,7 @@ $image=  "allspark/allspark-consumer-research.png";
                             <h4>Audience Insights from the Rugby WC</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -418,7 +418,7 @@ $image=  "allspark/allspark-consumer-research.png";
                             <h4>Insights on Grocery Shoppers in London</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -438,10 +438,10 @@ $image=  "allspark/allspark-consumer-research.png";
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="1500" style="background:#000">
                     <img src="<?php IMAGE('research/great-singapore-sale-2015.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>The Great Singapore Sale 2015</h4>
+                            <h4>The Great Singapore Sale, 2015</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -464,7 +464,7 @@ $image=  "allspark/allspark-consumer-research.png";
                             <h4>Mobile User Behavior for HK</h4>
                             <hr />
                             <p class="description">
-                            Infographics
+                            Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -484,10 +484,10 @@ $image=  "allspark/allspark-consumer-research.png";
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/cny2014.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>CNY Shopping Trends 2014</h4>
+                            <h4>CNY Shopping Trends, 2014</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -510,7 +510,7 @@ $image=  "allspark/allspark-consumer-research.png";
                             <h4>Sporting events in Australia</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">
@@ -531,10 +531,10 @@ $image=  "allspark/allspark-consumer-research.png";
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="900" style="background:#000">
                     <img src="<?php IMAGE('research/traveller-behaviour-india.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
-                            <h4>Traveller's Digital Behavior, India</h4>
+                            <h4>Traveler's Digital Behavior, India</h4>
                             <hr />
                             <p class="description">
-                             Infographics
+                             Infographic
                             </p>
                         </span>
                             <a href="#" class="custom_btn">

@@ -69,7 +69,7 @@ $image=  "allspark/allspark-media-planning.png";
 	                	<img src="<?php IMAGE('allspark/media-planning/icon-4.png') ?>" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Estimate</span> reach across smartphones, tablets, desktops and outdoor sites in real-time.
+	                	<span class="blue">Estimating</span> reach across smartphones, tablets, desktops and outdoor sites in real-time.
 	                </div>
                 </div>
                 </div>
