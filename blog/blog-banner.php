@@ -11,7 +11,7 @@
    </div>
   </div>
   <div class="banner-space container allspark-space" style="    height: 60px;"></div>
-  <div class="mouse"></div>
+
 
 </div>
 

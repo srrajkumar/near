@@ -493,7 +493,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     width: 1130px;
     height: 1009px;
     overflow: hidden;
-    z-index: 3;
+    z-index: 10;
 }
 .banner-content span{
     display: block;
@@ -2960,7 +2960,7 @@ p{font-weight:normal;; letter-spacing:0.01em;}
 .aboutus h1{
   font-weight: 400;
   color: #5d5d5d;
-  font-size: 62px;
+  font-size: 45px;
 }
 .aboutus h1 span{
   color: #ff1d25;
@@ -2970,7 +2970,7 @@ p{font-weight:normal;; letter-spacing:0.01em;}
 }
 .aboutus h2{
   color: #273444;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 300;
 }
 h2{
@@ -3022,7 +3022,7 @@ h2{
 }
 .aboutus-container .random-image img{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .aboutus-container .row .team-content{
   position: relative;
@@ -3305,7 +3305,7 @@ a:focus{color:#ffffff}
     text-align: center;
 }
 h1.custom-title span{
-      font-size: 62px;
+      font-size: 45px;
       pointer:none;
 }
 .line-bottom_custom {
@@ -3444,6 +3444,7 @@ a.event-link{
   font-size:24px;
   display:block;
   line-height:24px;
+  font-weight:400;
 }
 .event-wrapper:last-child{margin-bottom:100px;}
 /*** Investors ***/
@@ -3768,6 +3769,7 @@ h1.custom-title span {font-size: 30px;}
 .aboutus-container .row .team-content, .aboutus-container .row .col-md-3{min-height:230px;}
 .aboutus-container .custom_wrapp h2{font-size:20px !important; font-weight:700 !important;}
 .the-data .banner-content hr, .the-data hr{margin: 10px 0;}
+
 .aboutus-container .logo-set{padding:20px 40px !important; top:0;}
 .aboutus-container .logo-set span{width:50%;}
 .aboutus-container .custom_wrapp{margin-bottom:10px;}

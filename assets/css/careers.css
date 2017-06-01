@@ -4647,7 +4647,7 @@ a.careers-link:hover{ color:#fff; background:#ec222b; text-decoration:none;}
 .career-health{width: 305px;}
 .career-party{width:537px;}
 .career-work{width:260px;}
-.career-best{padding:70px 65px 40px;}
+.career-best{padding: 90px 65px 40px 65px;}
 .career-employee{width: 300px;}
 [data-position]{
   opacity:0;

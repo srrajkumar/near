@@ -46,7 +46,7 @@
                     </div>  
                       <div class="mix apac  event-month-set ">August</div>
                      
-                      <div class="mix apac event-container map-open" data-map-overlay=".map-overlay" onclick=" SetPage('<?php echo SITE_URL; ?>events/form.php?link=CMO Summit');">
+                      <div class="mix apac event-container map-open button" data-map-overlay=".map-overlay" onclick=" SetPage('<?php echo SITE_URL; ?>events/form.php?link=CMO Summit');">
                     <div class="image-box"><a class="link-event" href="http://www.cmoanzsummit.com/" target="_blank"><p><img src="<?php IMAGE('events/cmo-summit.png'); ?>" width="80" height="80" alt=""/></p></a></div>
                         <div class="event-holder">
                             <span class="event-date">14 AUG - 16 AUG 2017 • Royal Pines Resort, Australia </span>

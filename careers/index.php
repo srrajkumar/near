@@ -79,7 +79,7 @@ $title="Careers";
    </div>
   </div>
   <div class="banner-space container allspark-space"></div>
-  <div class="mouse"></div>
+
 
 </div>
 <div class="page ">
@@ -114,7 +114,7 @@ $title="Careers";
                 <h3 class='cta-block_title' style="text-align:center">We look for the<br> best fit</h3>	
                 <hr style="border-color:#fff;">
                 <div class="button-container">
-                    <a href="#career-current" class="button" style="padding: 12px 12px;">Current Openings</a>
+                    <a href="#career-current" class="button" style="padding: 5px 12px;margin-left: 0px;">Current Openings</a>
                 </div>
               </div>
         </div>

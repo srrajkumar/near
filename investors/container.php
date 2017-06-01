@@ -14,7 +14,7 @@
         </div>
         <div class="flex2 col-md-6">
         <div class="col-md-12">
-          <img class="img-circle inv2" src="<?php IMAGE('bb.png'); ?>"  alt="JPM" width="55" height="35" />
+          <img class="img-circle inv2" src="<?php IMAGE('bb.png'); ?>"  alt="JPM" width="55" height="35" style="position: relative; bottom:8px;" />
           <h4 class="color-red"> JPM Private Equity Group </h4> 
           <hr style="  margin-top: 13px;"><a  href="https://am.jpmorgan.com/au/institutional/home" target="_blank" class="read-more">www.jpmorgan.com</a><hr>
           <p>With over 30 years of experience in the industry, Private Equity Group (PEG) is one of the largest and most active global private equity programs in the industry, managed by one of the most experienced teams. 'Located in New York, Hong Kong, London, Beijing and New Delhi, our group of investment professionals is focused solely on building and maintaining our clients' private equity portfolios, with the goal of providing best in class performance and client service. <br><br></p>

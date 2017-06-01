@@ -145,10 +145,10 @@
     <div class="particles"  data-particles='{"color":"#a2a2a2"}'>
     <div class="container top-spacer data-container carbon" style="padding: 100px 0" >
     <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-8">
         <img src="<?php IMAGE('data/carbon.png') ?>" />
     </div>
-    <div class="col-md-3" style="margin-top: 20%">
+    <div class="col-md-3" style="margin-top: 20%; margin-left:5%;">
     <h2><span style="color: #ff1d25">Coming</span> SOON</h2>
     <hr />
     <img src="<?php IMAGE('data/carbon-logo.png') ?>" />

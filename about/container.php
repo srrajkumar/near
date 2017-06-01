@@ -5,7 +5,7 @@
     <div class="col-md-6 team-content right-arrow">
       <h2>Leadership</h2>
       <hr />
-      <p class="col-md-6"> Meet the Game Changers across regions and functions.</p>
+      <p class="col-md-6"> Meet the Game Changers <br class="car-add">across regions and functions.</p>
       <a href="<?php echo SITE_URL; ?>leadership" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -46,7 +46,7 @@
     <div class="col-md-3 team-content right-arrow">
       <h2>Our Investors</h2>
       <hr />
-      <p class="col-md-12">Near is backed by some of the leading investors in the world.</p>
+      <p class="col-md-12">Near is backed by some <br class="car-add">of the leading investors<br class="car-add"> in the world.</p>
       <a href="<?php echo SITE_URL; ?>investors" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -78,7 +78,7 @@
     <div class="col-md-3 blog_container">
       <h2>BLOG</h2>
       <hr />
-      <p class="col-md-12">Take a look at our corporate and tech blogs for the latest industry trends.</p>
+      <p class="col-md-12">Take a look at our corporate <br class="car-add">and tech blogs for the latest industry trends.</p>
       <a href="<?php echo SITE_URL; ?>blog" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -103,7 +103,7 @@
     <div class="col-md-3 left-arrow">
       <h2>Board Members</h2>
       <hr />
-      <p class="col-md-12">More about the board members of Near here.<br><br><br></p>
+      <p class="col-md-12">More about the board <br class="car-add">members of Near here.<br><br><br></p>
       <a href="<?php echo SITE_URL; ?>board" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -123,7 +123,7 @@
     <div class="col-md-6 right-arrow">
       <h2>Culture Code</h2>
       <hr />
-      <p class="col-md-12">Explore the Near culture and meet the team.</p>
+      <p class="col-md-12">Explore the Near culture <br class="car-add">and meet the team.</p>
       <a href="<?php echo SITE_URL; ?>culture" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -206,7 +206,7 @@
     <div class="col-md-6 left-arrow">
       <h2>Contact Us</h2>
       <hr />
-      <p class="col-md-12">Have any queries? Reach out to us now.</p>
+      <p class="col-md-12">Have any queries? <br class="car-add"> Reach out to us now.</p>
       <a href="<?php echo SITE_URL; ?>contact" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>

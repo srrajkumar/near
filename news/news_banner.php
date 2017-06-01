@@ -11,7 +11,7 @@
    </div>
   </div>
   <div class="banner-space container allspark-space"></div>
-  <div class="mouse"></div>
+
 
 </div>
 <div class="breadcumb-bg" style="background-color: #eceeef">

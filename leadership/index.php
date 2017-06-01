@@ -35,7 +35,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
    </div>
   </div>
   <div class="banner-space container allspark-space"></div>
-  <div class="mouse"></div>
+ 
 
 </div>
 
@@ -51,6 +51,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
    <div class="ha-waypoint" data-animate-down="ha-header-color" data-animate-up="ha-header-rotateBack" style="margin-top:10px;">
     <h1>We Believe in Freedom & Responsibility</h1>  <p class="header-details"> Disrupt the Status Quo  |  Are unreasonably selective about Our Colleagues
 | Believe in Work plus Life <br class="add1"> |  Are a perpetual Work In Progress.</p>
+<div class="space"></div>
 <div class="header-team">
  <h2><b>Executive</b> Team</h2>
 <div class="sub-nav-line-break"></div>

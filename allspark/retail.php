@@ -344,7 +344,7 @@ $image2=" ";
                 </div>
                
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
-                <div class="space"></div>
+                <div class="top space"></div>
                 <hr />
 
                   <?php include('other-industries.php'); ?>

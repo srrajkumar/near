@@ -1,6 +1,6 @@
 <?php include('includes/_banner.php'); ?>
 	<div class="row whats-happening perspective">
-        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="200">
+        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="100">
         <a href="<?php echo SITE_URL; ?>data/">
         	<div class="spacing">
 		        <span class="line-man">Processing data from Over</span>
@@ -19,7 +19,7 @@
 	        </div>
 		</a>
         </div>
-        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="400">
+        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="200">
         	<div class="spacing">
 		        <span>Globally recognised by</span>
 		        <ul class="nav nav-tabs awards" role="tablist">
@@ -30,7 +30,7 @@
 		        
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="600">
+        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="300">
         	<div class="spacing tab-content " style="height: 100%; text-align: center;">
         		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?php IMAGE('award_logo/bg1.png') ;?>');">
         			<span class="gradient"></span>
@@ -65,9 +65,9 @@
 
     <div class="container spacing_margin text-center">
     <div class="row">
-    	<h1 data-aos="fade-zoom-in" data-aos-delay="200">TRUSTED BY WORLD’S BEST</h1>
-    	<h2 data-aos="fade-zoom-in" data-aos-delay="400">1 in 5 Forbes Top 100 brands use Near</h2>
-    	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="600"></span>
+    	<h1 data-aos="fade-zoom-in" data-aos-delay="100">TRUSTED BY WORLD’S BEST</h1>
+    	<h2 data-aos="fade-zoom-in" data-aos-delay="200">1 in 5 Forbes Top 100 brands use Near</h2>
+    	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="300"></span>
     	<?php include('includes/_brand-logos.php'); ?>
    </div>
     </div>
@@ -186,7 +186,7 @@
     	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
     	<div class="container row">
     	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="600">
-    		<a href="#" target="_blank">
+    		<a href="<?php echo SITE_URL; ?>allspark/retail.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('case-study/virgin-active.png'); ?>"/>
 						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
@@ -210,7 +210,7 @@
 			</a> 
     	</div>
     	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="800">
-    		<a href="#" target="_blank">
+    		<a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('research/telco.png'); ?>"/>
 						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
@@ -234,7 +234,7 @@
 			</a> 
     	</div>
     	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="1000">
-    		<a href="#" target="_blank">
+    		<a href="<?php echo SITE_URL; ?>allspark/retail.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('research/mobile.png'); ?>"/>
 					<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
@@ -257,7 +257,7 @@
 			</a> 
     	</div>
     	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="1200">
-    		<a href="#" target="_blank">
+    		<a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('research/laptop.png'); ?>"/>
 						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">

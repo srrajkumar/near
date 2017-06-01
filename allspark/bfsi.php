@@ -58,7 +58,7 @@ $image2=" ";
                     </div>
                                       
                      <div class="col-md-4" data-aos="3dflip" data-aos-delay="400">
-                    <img src="<?php IMAGE('research/millennials.png') ?>" alt="" class="sq-ratio">
+                    <img src="<?php IMAGE('allspark/bfsi-video.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
                             <h4>How BFSIs can use Allspark</h4>
                             <hr />
@@ -178,7 +178,7 @@ $image2=" ";
                 </div>
                
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
-                <div class="space"></div>
+               <div class="top space"></div>
                 <hr />
 
                 <?php include('other-industries.php'); ?>

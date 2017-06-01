@@ -34,10 +34,10 @@ $image2="allspark/allspark-offline-attribution-2.png";
 
   <div class="d-md-block "   id="box-one"  style="margin-bottom: 40px; text-align: center; margin-top: 50px;">
           <h1 style="font-weight: 400; font-size: 42px;"><?php echo $heading; ?> <span style="color:#5C5C5C;">for</span></h1>
-          <p style="font-size: 32px; margin-bottom: 15px;"><?php echo $content; ?></p>
+          <p style="font-size: 28px; margin-bottom: 15px; line-height: 22px;"><?php echo $content; ?></p>
            <span class="line_break1 color-red"></span>
           <p style="font-size: 16px; color: #444;"><?php echo $content1; ?></p>
-          <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded" style="margin-left: 0;">SETUP A DEMO</a>
+          <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded" style="margin-left: 0;padding: 7px 20px;">SETUP A DEMO</a>
         </div>
   <div class="carsousel-banner">
         <div id="bootstrap-touch-slider" class="carousel bs-slider fade carousel-fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
@@ -185,9 +185,31 @@ $image2="allspark/allspark-offline-attribution-2.png";
                    
                    
                     </div>
-                	
+                	 <div class="col-md-4" data-aos="3dflip" data-aos-delay="1100" style="background:#000">
+                    <img src="<?php IMAGE('research/laptop.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>IAB Mobile Attribution</h4>
+                            <hr />
+                            <p class="description">
+                             Industry Report
+                            </p>
+                        </span>
+                            <a href="#" class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </a>
+                   
+                   
+                    </div>
                 </div>
-               
+              
                 <div class="space"></div>
                 <h1>Enterprises, Brands, Agencies and Research Organisations</h1>
                 <h2>can use Allspark to measure offline attribution for:</h2>
@@ -228,7 +250,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
                 </div>
                 <div class="col-md-12 " style="padding-right: 80px;"><p>Organisations can now compare the attribution across channels, creatives, media type and devices  to measure ROI and make smarter marketing decisions. </p></div>
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
-                <div class="space"></div>
+                <div class="top space"></div>
                 <hr />
 
                 <?php include('inside-usecases.php'); ?>

@@ -42,6 +42,25 @@ blink();
 blink2();
 blink3();
 </script>
+<script>
+    
+    var email = $('#state').val();
+    console.log(email);
+       //$.ajax({
+    //url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSeP7xNH6OLj2x695n-joxxPUkzXsJzXeRIdPvxzAh_oOGuNvw/formResponse",   
+   // data: { 
+        
+   //     "entry_449986738": email
+   //    
+   // },
+   // type: "POST",
+   // dataType: "xml",
+  //      statusCode: {
+//
+  //  }
+  //  });
+</script>
+
 </body>
 
 </html>

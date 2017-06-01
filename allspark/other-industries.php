@@ -1,4 +1,5 @@
 <div class="row submenu-tiles perspective" style="margin: 0;">
+<div class="bottom space"></div>
                     <h3>Other Industries</h3>
                     <div class="space" style="width: 100%; padding: 5px 0;"></div>
                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">

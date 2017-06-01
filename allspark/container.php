@@ -55,11 +55,11 @@
 	</div>
 </div>
 <div class="container spacing_margin text-center icon-container">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="text-transform:none;">THE FIRST OF ITS KIND SaaS PRODUCT</h1>
-	<h2 data-aos="fade-zoom-in" data-aos-delay="400">for Data-Driven Decisions with</h2>
-	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="text-transform:none;">THE FIRST OF ITS KIND SaaS PRODUCT</h1>
+	<h2 data-aos="fade-zoom-in" data-aos-delay="200">for Data-Driven Decisions with</h2>
+	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="300"></span>
 	<div class="row">
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="800">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="400">
 			<div class="icons">
 				<svg id="fingerprint" class="fingerprint" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 304.26 437.46">
 					<defs>
@@ -91,7 +91,7 @@
 				<p class="resultDiv">A Branded Product <br>Experience</p>
 			</div>
 		</div>
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="900">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="500">
 			<div class="icons" >
 				<svg id="svg-circle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 					<title>Over a Billion Devices</title>
@@ -114,7 +114,7 @@
 				<p class="resultDiv"> Over a Billion Devices</p>
 			</div>
 		</div>
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1000">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="600">
 			<div class="icons">
 				<svg id="gloabl-places" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.6 409.6">
 					<title>Global Places</title>
@@ -127,7 +127,7 @@
 				<p class="resultDiv">Global Places</p>
 			</div>
 		</div>
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1100">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="700">
 			<div class="icons">
 				<svg id="placematrix" viewBox="0 0 215.85 215.85" version="1.1" x="0px" y="0px" xml:space="preserve" style="height:100%">
 					<title>PlaceMatrixTM</title>
@@ -184,7 +184,7 @@
 		</div>
 	</div>
 	<div class="row" style="margin-top: 20px;">
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1200">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="800">
 			<div class="icons ">
 				<svg id="crossmatrix" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.6 395.2">
 					<title>CrossMatrixTM</title>
@@ -195,7 +195,7 @@
 				<p class="resultDiv">CrossMatrix<sup>TM</sup></p>
 			</div>
 		</div>
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1300">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="900">
 			<div class="icons">
 				<svg id="real-time-audience" viewBox="0 0 180.53 168.5" version="1.1" x="0px" y="0px" xml:space="preserve" style="height:100%">
 					<title>Real-time Audience</title>
@@ -217,7 +217,7 @@
 				<p class="resultDiv">Real-time Audience</p>
 			</div>
 		</div>
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1400">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1000">
 			<div class="icons">
 				<svg id="powerful-insights" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 349.87">
 					<title>Powerful Insights</title>
@@ -241,7 +241,7 @@
 				<p class="resultDiv">Powerful Insights</p>
 			</div>
 		</div>
-		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1500">
+		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="1100">
 			<div class="icons">
 				<svg id="api-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 397.49 408.8">
 					<defs>
@@ -269,8 +269,8 @@
 </div> 
 <?php include( '_client-testimonials.php' );?>
 <div class="container-fluid spacing_margin text-center  casestudy-container">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="200" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
-	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
+	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="200"></span>
 	<div class="allspark-slider responsive2" style="margin-bottom:0px !important; margin-top: 30px;">
 		<div>
 		<a href="<?php echo SITE_URL; ?>allspark/audience-curation.php" target="_self"><img src="<?php IMAGE('allspark/audience-curation.png'); ?>" alt/>
@@ -323,8 +323,8 @@
 	</div>
 </div>
 <div class="container spacing_margin text-center">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="200">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span><a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button demo_button button--primary button--rounded users">Setup a demo</a></h1>
-	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"></span>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="100">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span><a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button demo_button button--primary button--rounded users">Setup a demo</a></h1>
+	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="200"></span>
 	<div class="row">
 		<?php include('../includes/_brand-logos.php'); ?>
 	</div>

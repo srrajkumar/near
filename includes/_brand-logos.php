@@ -1,4 +1,4 @@
-<div class="brand_tabs"  data-aos="fade-up" data-aos-delay="800">
+<div class="brand_tabs"  data-aos="fade-up" data-aos-delay="400">
 	    	<ul class="nav nav-tabs " role="tablist">
 			    <li role="presentation" class="active"><a href="#auto" role="tab" data-toggle="tab">AUTO</a></li>
 			    <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">FMCG</a></li>

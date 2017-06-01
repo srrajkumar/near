@@ -33,8 +33,7 @@ $keywords=""
    </div>
   </div>
   <div class="banner-space container allspark-space"></div>
-  <div class="mouse"></div>
-
+  
 </div>
 
             <!-- BEGIN: Page content -->
