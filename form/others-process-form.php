@@ -10,23 +10,30 @@
  
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 
- 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
-	//var name = '<?php echo $_POST['name']; ?>';
-	//var email = '<?php echo $_POST['email']; ?>';
-	//var company = '<?php echo $_POST['company']; ?>';
-	//var reason = '<?php echo $_POST['contact_reason']; ?>';
-	//var location = '<?php echo $_POST['location']; ?>';
-	//var message = '<?php echo $_POST['message']; ?>';
-	//$.ajax({
-	//	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSe26PX7J4OZRyniF6vD2DpUL2UAN30Ens3ZTN1wDzpIgdYKDQ/formResponse",
-	//	data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1045781291": company,"entry_1045781291": reason,"entry_1045781291": location,"entry_1045781291": message},
-	//	type: "POST",
-	//	dataType: "xml",
-	//	 statusCode: {
+	var name = '<?php echo $_POST['name']; ?>';
+	var email = '<?php echo $_POST['email']; ?>';
+	var company = '<?php echo $_POST['phone']; ?>';
+	var reason = '<?php echo $_POST['contact_reason']; ?>';
+	var country = '<?php echo $_POST['location']; ?>';
+	var message = '<?php echo $_POST['message']; ?>';
+	$.ajax({
+	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLScCiSyy_5vv9R4zYGWL5d8G9feaJK6KmncCrIC9ehokxSxIuA/formResponse",
+	data: { 
+		"entry_710770568": name,
+		"entry_863893022": email,
+		"entry_257454762": phone,
+		"entry_3153749": reason,
+		"entry_1157887187": country,
+		"entry_1168262239": message
+	},
+	type: "POST",
+	dataType: "xml",
+ statusCode: {
 
-	//	}
-	//});
+	}
+	});
 </script>
 
 </head>
@@ -61,7 +68,7 @@ $message = $_POST['message'];
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-$mail->addCC('design@near.co');
+$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('kiran@near.co');
 	//$mail->addCC('sowmya@near.co');
 	//$mail->addCC('info@near.co');

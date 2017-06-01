@@ -11,19 +11,30 @@
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 <?php include('../includes/_java_scripts.php'); ?>
 <script>
-	//var name = '<?php echo $_POST['name']; ?>';
-	//var email = '<?php echo $_POST['email']; ?>';
-	//var company ='<?php echo $_POST['company']; ?>';
-	//var message ='<?php echo $_POST['message']; ?>';
-	//$.ajax({
-	//	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSeseZ3lvrsZ-hUGyvtqf4laxi5z5b22ofXibCySInFSCujEZw/formResponse",		
-	//	data: { "entry_2005620554": name,"entry_1045781291": email,"entry_41792287": company,"entry_358237734": message},
-	//	type: "POST",
-	//	dataType: "xml",
-	//	statusCode: {
+	var name = '<?php echo $_POST['name']; ?>';
+	var email = '<?php echo $_POST['email']; ?>';
+	var location = '<?php echo $_POST['location']; ?>';
+	var phone = '<?php echo $_POST['phone']; ?>'; 
+	var looking = '<?php echo $_POST['looking']; ?>';
+	var message = '<?php echo $_POST['message']; ?>';
+	var reason = '<?php echo $_POST['contact_reason']; ?>';
+	$.ajax({
+	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSeP7xNH6OLj2x695n-joxxPUkzXsJzXeRIdPvxzAh_oOGuNvw/formResponse",	
+	data: { 
+		"entry_1229723962": name,
+		"entry_449986738": email,
+		"entry_1691333487": location,
+		"entry_2009616948": looking,
+		"entry_1033753284": phone,
+		"entry_1042402941": reason,
+		"entry_32108294053": message
+	},
+	type: "POST",
+	dataType: "xml",
+		statusCode: {
 
-	//	}
-	//});
+	}
+	});
 </script>
 
 </head>
@@ -41,8 +52,8 @@ require 'phpmailer/PHPMailerAutoload.php';
  $year = $mydate[year];
  $message = $_POST['message'];
  $phone =$_POST['phone'];
-  $looking =$_POST['looking'];
-   $reason =$_POST['contact_reason'];
+ $looking =$_POST['looking'];
+ $reason =$_POST['contact_reason'];
 
  $mail = new PHPMailer;
 	$mail->isSMTP();    

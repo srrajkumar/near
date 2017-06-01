@@ -16,9 +16,17 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 <style>
 .margin-bottom.form-group {margin-bottom: 30px;}
 </style>
+<script type="text/javascript" src="<?php JS('jquery.min.js'); ?>"></script>
+<script src="<?php JS('js-webshim/minified/polyfiller.js'); ?>"></script>
+<script>
+jQuery.webshims.polyfill('forms'); 
+jQuery.webshim.activeLang('en');
+jQuery.webshims.cfg.no$Switch = true;
+</script>
 </head>
 <body>
-    <form action="<?php echo SITE_URL; ?>form/data-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form" onSubmit="document.getElementById('career-form-submit-loader').style.display='inline';">
+
+ <form data-enable-shim="true" action="<?php echo SITE_URL; ?>form/data-process-form.php" method="post" enctype="multipart/form-data" class="custom-form" role="form" onSubmit="document.getElementById('career-form-submit-loader').style.display='inline';">
       <div class="form-group margin-bottom col-md-12 row">
         <div class="col-md-6 row">
           <input id="username" type="text" name="name"  class="form-control" aria-describedby="nameHelp" required placeholder="Name">
@@ -84,15 +92,16 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 $('#find-us').change(function(){
     if( $(this).val() == 'Others'){
 
-        $('.reason').append('<input id="contact_rea" name="contact_reason" type="text" placeholder="How did you find us" />');
+        $('.reason').append('<input id="contact_rea" name="contact_reason" type="text" placeholder="How did you find us" required />');
     }else{
         $('#contact_rea').remove();
+        
   
     }
 });
 $('#looking').change(function(){
     if( $(this).val() == 'Others'){
-        $('.looking').append('<input id="lookin" name="looking" type="text" placeholder="Looking for" />');
+        $('.looking').append('<input id="lookin" name="looking" type="text" placeholder="Looking for" required />');
     }else{
         $('#lookin').remove();
 

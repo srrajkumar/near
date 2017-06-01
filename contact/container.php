@@ -21,7 +21,7 @@
         </ul>
         <form>
         <select id='myselect' class="form-control">
-          <option value='#product'>Interest in Product</option>
+          <option value='#Product'>Interest in Product</option>
           <option value='#data'>Interest in Data</option>
           <option value='#team'>Joining the team</option>
           <option value='#media'>Media Queries</option>

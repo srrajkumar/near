@@ -17,7 +17,12 @@
 	var file = '<?php echo $_POST['pdf']; ?>';
 	$.ajax({
 		url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSeY4huo_vMDErIcLt4gntVDQhSEW3R3XMUG5slrLysi_NG3ZQ/formResponse",
-		data: {"entry_2005620554": name,"entry_1045781291": email,"entry_1045781291": company,"entry_1045781291": file},
+		data: {
+			"entry_2005620554": name,
+			"entry_1045781291": email,
+			"entry_1045781291": company,
+			"entry_1045781291": file
+		},
 		type: "POST",
 		dataType: "xml",
 		statusCode: {
@@ -56,7 +61,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-	$mail->addCC('design@near.co');
+	$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('kiran@near.co');
 	//$mail->addCC('sowmya@near.co');
 	//$mail->addCC('info@near.co');

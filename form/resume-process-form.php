@@ -7,22 +7,32 @@
 	</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
-	//var name = '<?php echo $_POST['name']; ?>';
-	//var email = '<?php echo $_POST['email']; ?>';
-	//var vacancy ='<?php echo $_POST['vacancy']; ?>';
-	//var position ='<?php echo $_POST['position']; ?>';
-	//var location1 ='<?php echo $_POST['location']; ?>';
-	//var github ='<?php echo $_POST['github']; ?>';
-	//var stackoverflow ='<?php echo $_POST['stackoverflow']; ?>';
-	//$.ajax({
-	//	url: "https://docs.google.com/forms/d/e/1FAIpQLSfBlSKAWtQAFi9BDxDkllsHeyvgIPFyMz_kSMhl304p5zDhTQ/formResponse",		
-	//	data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1065046570": vacancy,"entry_1166974658": position,"entry_839337160": location1,"entry_1158234621": github,"entry_1237189747": stackoverflow},
-	//	type: "POST",
-		//dataType: "xml",
-		// statusCode: {
+	var name = '<?php echo $_POST['name']; ?>';
+	var email = '<?php echo $_POST['email']; ?>';
+	var reason ='<?php echo $_POST['contact_reason']; ?>';
+	var position ='<?php echo $_POST['position']; ?>';
+  var phone ='<?php echo $_POST['phone']; ?>';
+	var location1 ='<?php echo $_POST['location']; ?>';
+	var github ='<?php echo $_POST['github']; ?>';
+	var stackoverflow ='<?php echo $_POST['stackoverflow']; ?>';
+	$.ajax({
+	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSdgUqlg4rzDbWQeKM1hyeuGP-o_2t6F4RmELqMyvrv6IvFeWQ/formResponse",		
+	data: { 
+    "entry_1085218782": name,
+    "entry_1416570745": email,
+    "entry_845444240": reason,
+    "entry_1777394288": position,
+    "entry_839337160": location1,
+    "entry_2058489917": github,
+    "entry_1840415751": phone,
+    "entry_1401146226": stackoverflow
+  },
+	type: "POST",
+		dataType: "xml",
+		statusCode: {
 
-		//}
-	//});
+		}
+	});
 </script>
 </head>
  
@@ -54,7 +64,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('kiran@near.co');
-	$mail->addCC('design@near.co');
+	$mail->addCC('rajkumar@near.co');
    //$mail->addCC('gokul@near.co');
     //$mail->addCC('smriti@near.co');
 	//$mail->addCC('careers@near.co');

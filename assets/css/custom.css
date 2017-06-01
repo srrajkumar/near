@@ -3481,11 +3481,12 @@ select.form-control{border: none !important;border-bottom: 1px solid #dedede !im
     .navbar.shrink{  height:65px;  padding: 0rem 1rem;}
     #platform_leverage .platform-image object {top: 42%;}
      h1{font-size:22px !important;} h2{font-size:20px !important;}
-    .aboutus h1{font-size:40px !important; font-weight:300;}
+    .aboutus h1{font-size:28px !important; font-weight:300;}
     #auto img, #tab2 img, #tab3 img, #tab4 img, #tab5 img, #tab6 img, #tab7 img, #tab8 img, #tab9 img {
         margin: 20px 20px;
         height: 35px;}
-    .whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 30px;}
+        .highlite,.highlite span {font-size:24px !important;line-height: 30px !important;}
+    .whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 28px;}
     .platform-leverage .accordian header{font-size:15px;}
     .platform-leverage .accordian section{font-size:14px;}
     .banner-content span:nth-child(6){font-size:18px;}
@@ -3542,6 +3543,10 @@ select.form-control{border: none !important;border-bottom: 1px solid #dedede !im
     .culture_container, .career_container{
       margin: 0 !important;
     }
+    .fivecolumn .sections,.icon-set-2 .col-md-3{flex: calc(50% - 40px) !important;
+    margin: 0 10px !important;}
+    .fivecolumn .sections{ padding:0px !important;}
+  .data-section-left{margin-bottom:15px;}
 }
 @media (max-width:767px){ .contact .form-control{width: 100%; margin: 0;}
  .form-group .col-md-6{padding-top: 20px; padding-left:0px; padding-right:0px;}
@@ -3836,6 +3841,7 @@ h1.custom-title span {font-size: 30px;}
   min-height: 230px;
   
 }
+.form-control{padding-left:15px; padding-right:15px;}
 }
 
 

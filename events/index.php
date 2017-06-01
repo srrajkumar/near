@@ -31,23 +31,50 @@ $meta_keywords="Near Events, Connected Data, Connected Environments, SaaS produc
 #magic-line { position: absolute; bottom: 6px; left: 0; width: 100px; height: 2px; background: #000; padding:0px !important; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .custom-title{    line-height: 120px;}
 
+ .modal-bg{
+  position:fixed;
+  left:0;right:0;
+  top:0;bottom:0;
+  z-index:100;
+  background-color:rgba(50,50,50,0.5);
+  display:none;
+}
+.button{border:none;}
+.button:hover{border:none;}
+#modal{ 
+  position:absolute;
+  background-color:#F5F5F6;
+  top:50%; 
+  left:50%;
+  z-index:101;
+  border-radius:3px;
+  
+  min-height:320px;
+  margin-top:-130px;
+  margin-left:-170px;
+  border-bottom: 3px solid #ed1b24;
+  box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+}
 
-  .overlay { background:#000; opacity:0.8; filter:alpha(opacity=80); position:fixed; top:0px; bottom:0px; left:0px; right:0px; z-index:100; }
-  .contentWrap { position:fixed; top:0; color:#7F7F7F; z-index:101; width:100%; margin:0 auto }
-  .content { background:none repeat scroll 0 0 #FFF; height:100%; width:98%; padding:10px; margin-top: 122px;text-align: center;align:justify }
-  .login-box { width:100%; float:left; height: 170px;
- }
+#modal span{
+  display: block;
+  background:#ed1b24;
+  padding: 10px;
+  color:#fff;
+  border-radius:3px;
+}
+#close{
+  float: right;
+  color: #fff;
+  font-family: serif;
+  font-size: 15px;
+}
+#close:hover{
+  color: #000;
+}
+iframe{min-height:340px;}
   </style>
-  <script type="text/javascript">
-  function loginForm(){
-    document.getElementById("contentWrap").style.display="block";
-    document.getElementById("overlay").style.display="block";
-  }
-  function loginFormClose(){
-    document.getElementById("contentWrap").style.display="none";
-    document.getElementById("overlay").style.display="none";
-  }
-  </script>
+  
 </head>
 <body  class="the-data">
 <div class="preloader"></div>
@@ -165,6 +192,16 @@ $(".map-open a.link-event").click(function(e) {
    e.stopPropagation();
 })
 
+$('.button').click(function(){
+      $('#modal').css('display','block');
+      $('.modal-bg').fadeIn();
+  });
+
+    $('#close').click(function(){
+        $('.modal-bg').fadeOut();   
+        $('#modal').fadeOut();
+      return false;
+    });
   </script>
 </body>
 </html>

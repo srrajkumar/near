@@ -16,6 +16,12 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 <style>
 .margin-bottom.form-group {margin-bottom: 30px;}
 </style>
+<script type="text/javascript" src="<?php JS('jquery.min.js'); ?>"></script>
+<script src="<?php JS('js-webshim/minified/polyfiller.js'); ?>"></script>
+<script>jQuery.webshims.polyfill('forms'); 
+jQuery.webshim.activeLang('en');
+jQuery.webshims.cfg.no$Switch = true;
+</script>
 </head>
 <body>
      <form  action="<?php echo SITE_URL; ?>form/resume-process-form.php" class="custom-form" method="post" enctype="multipart/form-data" onSubmit="document.getElementById('career-form-submit-loader').style.display='inline';">
@@ -25,7 +31,7 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
        
       </div>
     <div class="col-md-6 row">
-     <input id="location" type="text" name="location" required placeholder="Country"  class="form-control"> 
+     <input id="location" type="text" name="location" required placeholder="Country"  class="form-control" pattern="[a-zA-Z0-9,.]+[a-zA-Z0-9 ]+"  oninvalid="setCustomValidity('Please fill in without  special characters')"  onchange="try{setCustomValidity('')}catch(e){}"> 
     </div>
 
       </div>
@@ -72,7 +78,7 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
     </div>
      <div class="col-md-6 row reason">
              
-          </div>
+     </div>
     </div>
   <button type="submit" class="btn btn-primary">Submit</button>
   <img alt="" id="career-form-submit-loader" src="<?php echo SITE_URL; ?>form/images/loader.gif" style="margin: 0 0 -12px 15px;display:none;" />
@@ -82,7 +88,7 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 $('#career-reason').change(function(){
     if( $(this).val() == 'Others'){
 
-        $('.reason').append('<input id="contact_rea" name="contact_reason" type="text" placeholder="How did you find us" />');
+        $('.reason').append('<input id="contact_rea" name="contact_reason" type="text" placeholder="How did you find us" required />');
     }else{
         $('#contact_rea').remove();
   
@@ -90,7 +96,7 @@ $('#career-reason').change(function(){
 });
 $('#looking').change(function(){
     if( $(this).val() == 'Others'){
-        $('.looking').append('<input id="lookin" name="looking" type="text" placeholder="Looking for" />');
+        $('.looking').append('<input id="lookin" name="looking" type="text" placeholder="Looking for" required />');
     }else{
         $('#lookin').remove();
 

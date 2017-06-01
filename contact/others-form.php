@@ -16,10 +16,16 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 <style>
 .margin-bottom.form-group {margin-bottom: 30px;}
 </style>
+<script type="text/javascript" src="<?php JS('jquery.min.js'); ?>"></script>
+<script src="<?php JS('js-webshim/minified/polyfiller.js'); ?>"></script>
+<script>jQuery.webshims.polyfill('forms'); 
+jQuery.webshim.activeLang('en');
+jQuery.webshims.cfg.no$Switch = true;
+</script>
 </head>
 <body>
 
- <form class="custom-form" action="<?php echo SITE_URL; ?>form/others-process-form.php" method="post" onSubmit="document.getElementById('career-form-submit-loader').style.display='inline';">
+ <form data-enable-shim="true" class="custom-form" action="<?php echo SITE_URL; ?>form/others-process-form.php" method="post" onSubmit="document.getElementById('career-form-submit-loader').style.display='inline';">
             <div class="form-group margin-bottom col-md-12 row">
             <div class="col-md-6 row">
               <input type="text" id="name" name="name" required  placeholder="Name" class="form-control" aria-describedby="nameHelp">
@@ -69,7 +75,7 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 <script>
 $('#contact').change(function(){
     if( $(this).val() == 'Others'){
-        $('.reason').append('<input id="contact_rea" name="contact_reason" type="text" placeholder="How did you find us" />');
+        $('.reason').append('<input id="contact_rea" name="contact_reason" type="text" placeholder="How did you find us" required />');
     }else{
         $('#contact_rea').remove();
     }

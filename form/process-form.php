@@ -6,24 +6,35 @@
 <!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
 <html  lang="en">
 <head>
+<?php include('../includes/_head.php'); ?>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 	var name = '<?php echo $_POST['name']; ?>';
 	var email = '<?php echo $_POST['email']; ?>';
 	var phone = '<?php echo $_POST['phone']; ?>';
 	var reason = '<?php echo $_POST['contact_reason']; ?>';
-	var location = '<?php echo $_POST['location']; ?>';
+	var country = '<?php echo $_POST['location']; ?>';
 	var designation = '<?php echo $_POST['designation']; ?>';
 	var message = '<?php echo $_POST['message']; ?>';
 	$.ajax({
-		url: "https://docs.google.com/forms/d/e/1FAIpQLScDOlL7wl_fdhJeoenZuxK2kaGrHrN8TcCaYuaOc3kI87IwUA/formResponse",
-		data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1065046570": phone,"entry_1045781291": reason,"entry_1975606897": location,"entry_2020817642": message,"entry_839337160": designation, "entry_1166974658":reason},
-		type: "POST",
-		dataType: "xml",
-		 statusCode: {
+    url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLScLIvzQmfX5_Sg0HVtkxsl3krN7tcYhJTLsxVKMyilpAMNVwA/formResponse",
+    data: { 
+    	"entry_956528457": name,
+    	"entry_1642179646": email,
+    	"entry_213940237": phone,
+    	"entry_1002107091":reason,
+    	"entry_1141328561": designation,
+    	"entry_1006047176": country,
+    	"entry_495917586": message
+    },
+    type: "POST",
+     crossDomain: true,
+    dataType: "xml",
+     statusCode: {
 
-		}
-	});
+    }
+  });
+	
 </script>
 
 </head>
@@ -50,7 +61,7 @@ $message = $_POST['message'];
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'tls';  
 	$mail->Host = 'email-smtp.us-west-2.amazonaws.com';
-	$mail->Port = 25;   
+	$mail->Port = 25;      
 	$mail->Username = "AKIAJZDQV2VXA3I2EJOQ";
 	$mail->Password = "Aj2jGfhdARQWVCtJ03Ku5IEL/ybFo/LVMZjFcMDJWKxS";
 	$mail->isHTML(true); 
