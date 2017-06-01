@@ -80,7 +80,7 @@ $image=  "allspark/allspark-auto.png";
                             </a>
                     
                     </div-->
-                <div class="col-md-4" data-aos="3dflip" data-aos-delay="500">
+                <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="500">
                     <img src="<?php IMAGE('case-study/auto-ford-everest.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4> Auto Enthusiasts & Ford Everest</h4>
@@ -89,7 +89,7 @@ $image=  "allspark/allspark-auto.png";
                               Case Study
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -99,12 +99,12 @@ $image=  "allspark/allspark-auto.png";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                     
-                    </div>
+                    </a>
 
                   
-                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="600">
+                     <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="600">
                     <img src="<?php IMAGE('whitepaper/auto-automotive.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Automotives & Data-Driven Marketing</h4>
@@ -113,7 +113,7 @@ $image=  "allspark/allspark-auto.png";
                               Whitepaper
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -123,9 +123,9 @@ $image=  "allspark/allspark-auto.png";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                     
-                    </div>
+                    </a>
                 </div>
                                 <div class="space"></div>
                 <h1>Allspark can be used </h1>

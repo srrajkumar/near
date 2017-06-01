@@ -1088,7 +1088,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 
 }
 .custom-banner .custom_btn .btn__text, .submenu-tiles .custom_btn .btn__text{height:35px; line-height:35px;}
-
+.custom-banner .btn__text-inner, .submenu-tiles .btn__text-inner{font-weight:500;}
 .custom_btn .icon{
   top: 4px;
   left: -8px;

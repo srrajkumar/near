@@ -37,7 +37,7 @@ $image2=" ";
                 <div class="col col-md-9">
                  <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
 
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200">
                     <img src="<?php IMAGE('whitepaper/omni-channel-spacetime-marketing.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Spacetime Marketing for Retailers</h4>
@@ -46,7 +46,7 @@ $image2=" ";
                              Whitepaper
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -56,9 +56,9 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
-                    </div>
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="300" style="background:#000">
+                            </span>
+                    </a>
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('case-study/virgin-active.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Driving walk-ins for Virgin Active</h4>
@@ -67,7 +67,7 @@ $image2=" ";
                              Case Study
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -77,11 +77,11 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                    
                    
-                    </div>
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    </a>
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/supermarkets-london.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Insights on Grocery Shoppers in London</h4>
@@ -90,7 +90,7 @@ $image2=" ";
                              Infographic
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -100,10 +100,10 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>                  
-                    </div>
+                            </span>                  
+                    </a>
 
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/black-friday.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Black Friday in London</h4>
@@ -112,7 +112,7 @@ $image2=" ";
                              Infographic
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -122,11 +122,11 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
-                    </div>
+                            </span>
+                    </a>
 
 
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="300" style="background:#000">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/great-singapore-sale-2016.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Singapore Sale 2016</h4>
@@ -135,7 +135,7 @@ $image2=" ";
                              Infographic
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -145,11 +145,11 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
-                    </div>
+                            </span>
+                    </a>
 
 
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="900" style="background:#000">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/retail-research-aus.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Retail Research, Australia</h4>
@@ -158,7 +158,7 @@ $image2=" ";
                              Research
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -168,12 +168,12 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                    
                    
-                    </div>
+                    </a>
 
-                     <div class="col-md-4" data-aos="3dflip" data-aos-delay="1000" style="background:#000">
+                     <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/shopper-inisghts-black-friday.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Pre Black Friday vs Black Friday</h4>
@@ -182,7 +182,7 @@ $image2=" ";
                              Infographic
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -192,12 +192,12 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                    
                    
-                    </div>
+                    </a>
 
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('case-study/shell.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Driving traffic to Shell Outlets</h4>
@@ -206,7 +206,7 @@ $image2=" ";
                              Case Study
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -216,13 +216,13 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                    
                    
-                    </div>
+                    </a>
 
 
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="1000" style="background:#000">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/insights-fitness.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Singapore's Fitness Enthusiasts</h4>
@@ -231,7 +231,7 @@ $image2=" ";
                              Infographic
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -241,12 +241,12 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                    
                    
-                    </div>
+                    </a>
 
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="1000" style="background:#000">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/lactacyd.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Measuring attribution for Lactacyd</h4>
@@ -255,7 +255,7 @@ $image2=" ";
                              Video
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -265,10 +265,10 @@ $image2=" ";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                    
                    
-                    </div>
+                    </a>
 
                 </div>
                 

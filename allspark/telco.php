@@ -91,7 +91,7 @@ $image2="allspark/allspark-telco-2.png";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/telco-internet-usage-statistics.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Global Internet Usage Statistics </h4>
@@ -100,7 +100,7 @@ $image2="allspark/allspark-telco-2.png";
                              Research
                             </p>
                         </span>
-                            <a href="#" class="custom_btn">
+                            <span class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Download</span>
                                 </span>            
@@ -110,9 +110,9 @@ $image2="allspark/allspark-telco-2.png";
                                         <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
                                     </svg>
                                 </div>
-                            </a>
+                            </span>
                     
-                    </div>
+                    </a>
                     
                 </div>
                
