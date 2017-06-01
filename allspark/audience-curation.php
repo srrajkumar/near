@@ -35,6 +35,33 @@ $image=  "allspark/allspark-audience-curation.png";
 </div>
                 <div class="col col-md-9">
                 
+                    <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
+                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <img src="<?php IMAGE('research/lactacyd.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Audience Curation</h4>
+                            <hr />
+                            <p class="description">
+                             Video
+                            </p>
+                        </span>
+                            <span class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Download</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
+                   
+                   
+                    </a>
+                    
+                </div>
+
                 <div class="space" style="padding:13px;"></div>
                 <h1>Enterprises, Brands and Agencies can use Allspark</h1>
                 <h2>to curate their audience of choice in real-time:</h2>
