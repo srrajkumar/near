@@ -24,7 +24,7 @@
 		<div><span class="red">Massive Data</span></div>
 		<div><span>to understand consumers</span></div>
 		<div><span>in Smart Environments</span></div>
-		<div class="line_break"></div>
+<div><hr class="line_break" /></div>
 			<span class="line-2">"Location as a Single Identifier to combine <br >
             <span id="typed-strings" class="type">
                 <span>WiFi data</span>

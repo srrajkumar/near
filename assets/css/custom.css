@@ -702,7 +702,9 @@ a:hover,a:focus{text-decoration:none; outline:none;}
   position: relative;
   z-index: 10;
 }
-.banner-content div {
+.banner-content div hr{margin-top: 1rem;
+    margin-bottom: 1rem;}
+.banner-content div, .banner-content div hr {
   overflow:hidden;
   width:0%;
   animation: widthize100 .8s 1 .3s cubic-bezier(.7, 0, .175, 1) forwards;
@@ -722,11 +724,12 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 }
 .line_break{
     width:0%;
-    height: 2px;
-    margin: 20px 0;
+    height: 1px;
+   /* margin: 20px 0;*/
     background: #ff1d25;
     animation: widthize70 .6s 1 cubic-bezier(.7, 0, .175, 1) forwards !important;
     -webkit-animation: widthize70 .6s 1 cubic-bezier(.7, 0, .175, 1) forwards !important;
+    float: left;
 }
 .banner-content div:nth-child(2){animation-delay:1s;}
 .banner-content div:nth-child(3){animation-delay:1.5s;}
@@ -2536,6 +2539,7 @@ body > footer h4, body > footer h5 {
     line-height: 24px;
     letter-spacing: .04em;
     font-weight: normal;
+    font-family: 'Roboto', sans-serif;
 }
 footer span {
     color: #7c7c82!important;
@@ -2548,6 +2552,7 @@ footer span {
     font-size: 14px;
     padding:2px 0;
     transition: all 0.2s ease-in-out;
+     font-family: 'Roboto', sans-serif;
 }
 .news-link:hover {
     color: #000 !important;
@@ -3556,24 +3561,9 @@ select.form-control{border: none !important;border-bottom: 1px solid #dedede !im
 
 
 }
-@media (max-width:480px){
-    .banner-content span:nth-child(6){font-size:15px !important;}
-    .banner-space{height: 100px !important;}
-    #typed, .typed-cursor{font-size:18px !important; }
-    .whats-happening .col-sm-6{max-height:383px; line-height: 35px; font-size: 24px;}
-     .nav-tabs > li { float:none; }
-h2 {font-size: 16px !important;}
-.privacy h2, .newsroom h2{font-size:20px !important;}
-.privacy p, .privacy ul li{font-size: 14px !important;}
-    .banner-content span.red {font-size: 32px !important;}
-    .banner-content span {font-size: 24px !important;}
-    .culture-subpages .culture_highlite h4{font-size:24px;}
-    .whats-happening .col-sm-6 .award_holder span {line-height: 60px;}
-    .award_holder{line-height:22px;}
 
-}
 @media (min-width:320px) and (max-width:1024px){
-
+.mouse{display:none;}
   .board1{margin:0}
   .board .col-md-6 .custom_btn { width: 140px !important;}
 .col-md-4 .btn__text, .col-md-3 .btn__text, .col-md-6 .btn__text{right: 0 !important;  z-index: 3 !important;}
@@ -3849,7 +3839,6 @@ h1.custom-title span {font-size: 30px;}
 }
 
 
-@media screen and (max-width: 640px){.event-month-set{width:100%;}.event-container{width:100%; text-align:center;} .event-container{ background-image:none;} .event-container .image-box{width:100%; height:100%; margin-left:0px; margin-right:0px;}.image-box p{text-align:center;} .image-box img{border-radius:50%; width:80px; height:80px;} .event-container .event-holder{float:none;} }
 @media screen and (max-width:768px){.event-container{ background-image:none;}  
 .event-container .image-box a{background:transparent !important;} 
 .event-container .image-box:hover a:before{display:none;} 
@@ -3876,4 +3865,28 @@ h1.custom-title span {font-size: 30px;}
 @media (min-width:1249px) and (max-width:1786px){.whats-happening .col-sm-6 span.line-man{line-height:24px;}
 .whats-happening .col-sm-6 .spacing{padding: 3.9vh 3vh ;}
 .whats-happening .col-sm-6{max-height:383px; line-height: 40px;  font-size: 28px;}
+}
+@media screen and (max-width: 640px){.event-month-set{width:100%;}.event-container{width:100%; text-align:center;} .event-container{ background-image:none;} .event-container .image-box{width:100%; height:100%; margin-left:0px; margin-right:0px;}.image-box p{text-align:center;} .image-box img{border-radius:50%; width:80px; height:80px;} .event-container .event-holder{float:none;} 
+ .whats-happening{padding: 0 15px;background: #f2f2f2;}
+}
+
+@media (max-width:480px){
+  .banner-content span:nth-child(6){font-size:15px !important;}
+  .banner-space{height: 100px !important;}
+  .banner-content span.line-2,.banner-content span, .line_break{text-align:center;}
+  .line_break{float:none;}
+  .brj{height:75vh !important;}
+  #typed, .typed-cursor{font-size:18px !important; }
+  .whats-happening .col-sm-6{max-height:383px; line-height: 35px; font-size: 24px;}
+  .nav-tabs > li { float:none; }
+  h2 {font-size: 16px !important;}
+  .privacy h2, .newsroom h2{font-size:20px !important;}
+  .privacy p, .privacy ul li{font-size: 14px !important;}
+  .banner-content span.red {font-size: 32px !important;}
+  .banner-content span {font-size: 24px !important;}
+  .culture-subpages .culture_highlite h4{font-size:24px;}
+  .whats-happening .col-sm-6 .award_holder span {line-height: 60px;}
+  .award_holder{line-height:22px;}
+  .whats-happening{padding: 0 15px;background: #f2f2f2;}
+
 }
