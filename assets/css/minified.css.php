@@ -19,4 +19,5 @@ include('slick.css');
 include('slick-theme.css');
 include('bootstrap-formhelpers.css');
 include('social-buttons.css');
+include('menu_style.css');
 ob_end_flush();

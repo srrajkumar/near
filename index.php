@@ -19,46 +19,30 @@ $meta_keywords="Ambient intelligence, Location intelligence, Data products, Data
 	<?php include('includes/_footer.php'); ?>
 	<?php include('includes/_java_scripts.php'); ?>
 	<script>
-
-function blink(){
-    $('.map-dots').eq(Math.round(Math.random() * 100) + 1)
-    .fadeOut(1000)
-    .fadeIn(1000);
-    setTimeout(blink,5);
-}
-function blink2(){
-    $('.map-dots').eq(Math.round(Math.random() * 255) + 1)
-    .fadeOut(500)
-    .fadeIn(500);
-    setTimeout(blink,7);
-}
-function blink3(){
-    $('.map-dots').eq(Math.round(Math.random() * 200) + 1)
-    .fadeOut(300)
-    .fadeIn(300);
-    setTimeout(blink,10);
-}
-blink();
-blink2();
-blink3();
-</script>
-<script>
-    
-    var email = $('#state').val();
-    console.log(email);
-       //$.ajax({
-    //url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSeP7xNH6OLj2x695n-joxxPUkzXsJzXeRIdPvxzAh_oOGuNvw/formResponse",   
-   // data: { 
-        
-   //     "entry_449986738": email
-   //    
-   // },
-   // type: "POST",
-   // dataType: "xml",
-  //      statusCode: {
-//
-  //  }
-  //  });
+    function blink(){
+        $('.map-dots').eq(Math.round(Math.random() * 100) + 1)
+        .fadeOut(1000)
+        .fadeIn(1000);
+        setTimeout(blink,5);
+    }
+    function blink2(){
+        $('.map-dots').eq(Math.round(Math.random() * 255) + 1)
+        .fadeOut(500)
+        .fadeIn(500);
+        setTimeout(blink,7);
+    }
+    function blink3(){
+        $('.map-dots').eq(Math.round(Math.random() * 200) + 1)
+        .fadeOut(300)
+        .fadeIn(300);
+        setTimeout(blink,10);
+    }
+      blink();
+      blink2();
+      blink3();
+      
+  var email = $('#state').val();
+  console.log(email);
 </script>
 
 </body>

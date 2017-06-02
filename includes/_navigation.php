@@ -1,3 +1,6 @@
+
+
+
 <nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay">
   <div class="container">
     <a class="navbar-brand" href="<?php echo SITE_URL; ?>">
@@ -31,108 +34,80 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php echo SITE_URL; ?>about/">About Us</a>
         </li>
+        <li class="nav-item burger_menu">
+          <a id="cd-menu-trigger" href="#0"><span class="cd-menu-icon"></span></a>
+        </li>
       </ul>
-    <div class="s-header__navbar-row-col">
-      <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-        <span class="s-header__trigger-icon"></span>
-        <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-            <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-        </svg>
-      </a>
-    </div>
     </div>
      <!-- Overlay -->
-    <div class="s-header-bg-overlay js__bg-overlay">
-      <!-- Nav -->
-      <nav class="s-header__nav js__scrollbar container">
-        <div class="container-fluid row">
-          <ul class="main_nav">
-            <li  class="submenu"><a>Allspark <span>+</span></a>
-            <ul>
-              <li class="line_anim" style="left: 15px;"></li>
-              <li class="main-header"><a href="<?php echo SITE_URL; ?>allspark">Overview</a></li>
-              <li class="header">USE CASES</li>
-              <li><a href="<?php echo SITE_URL; ?>allspark/audience-curation.php">Audience Curation</a></li>
-              <li><a href="<?php echo SITE_URL; ?>allspark/media-planning.php">Media Planning</a></li>
-              <li><a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php">Out-of-Home Analytics</a></li>
-              <li><a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php">Offline Attribution</a></li>
-              <li><a href="<?php echo SITE_URL; ?>allspark/consumer-research.php">Consumer Research</a></li>
-              <li><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php">Omni-Channel Experience</a></li>
-              <li class="header">INDUSTRY</li>
+    
+  </div>
+</nav>
+
+
+
+
+  <nav id="cd-lateral-nav">
+    <ul class="cd-navigation">
+      <li class="item-has-children">
+        <a href="#0">Allspark</a>
+        <ul class="sub-menu">
+          <li><a href="<?php echo SITE_URL; ?>allspark">Overview</a></li>
+          <li class="item-has-children"><a href="#0">USE CASES</a>
+          <ul class="sub-menu">
+            <li><a href="<?php echo SITE_URL; ?>allspark/audience-curation.php">Audience Curation</a></li>
+            <li><a href="<?php echo SITE_URL; ?>allspark/media-planning.php">Media Planning</a></li>
+            <li><a href="<?php echo SITE_URL; ?>allspark/out-of-home-analytics.php">Out-of-Home Analytics</a></li>
+            <li><a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php">Offline Attribution</a></li>
+            <li><a href="<?php echo SITE_URL; ?>allspark/consumer-research.php">Consumer Research</a></li>
+            <li><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php">Omni-Channel Experience</a></li>
+          </ul>
+          </li>
+          <li class="item-has-children"><a href="#0">INDUSTRY</a>
+            <ul class="sub-menu">
               <li><a href="<?php echo SITE_URL; ?>allspark/retail.php">Retail</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/qsr.php">QSR</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/telco.php">Telco</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/auto.php">Auto</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/bfsi.php">BFSI</a></li>
-            </ul></li>
-            <li><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
-            <li class="submenu"><a href="#">About Us <span>+</span></a>
-              <ul style="right: -157px;">
-              <li class="line_anim" style="left: 15px;"></li>
-              <li class="main-header"><a href="<?php echo SITE_URL; ?>about">Overview</a></li>
-              <li><a href="<?php echo SITE_URL; ?>leadership">Leadership</a></li>
-              <li><a href="<?php echo SITE_URL; ?>investors">Investors</a></li>
-              <li><a href="<?php echo SITE_URL; ?>board">Board</a></li>
-              <li class="submenu1"><a href="#" >Culture<span style="top:10px;">+</span></a>
-              <ul>
-              <li class="line_anim"></li>
-              <li><a href="<?php echo SITE_URL; ?>culture" class="main-header">Overview</a></li>
-              <li><a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php">Meet the Team</a></li>
-              </li>
-              </ul>
-              <li  class="submenu1"><a href="#">Blog <span style="top: 10px;">+</span></a>
-                <ul>
-                  <li class="line_anim"></li>
-                  <li><a href="<?php echo SITE_URL; ?>blog">Corporate Blog</a></li>
-                  <li><a href="<?php echo SITE_URL; ?>engineering">Tech Blog</a></li>
-                </ul>
-              </li>
-              <li><a href="<?php echo SITE_URL; ?>news">Newsroom</a></li>
-              <li><a href="<?php echo SITE_URL; ?>events">Events</a></li>
             </ul>
-            </li>
-            <li><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
-            <li><a href="<?php echo SITE_URL; ?>privacy">Privacy</a></li>
-            <li><a href="<?php echo SITE_URL; ?>contact">Contact Us</a></li>
-          </ul>
-        </div>
-    </nav>
-    <!-- End Nav -->
-   <!-- Action -->
-    <ul class="list-inline s-header__action s-header__action--lb">
-      <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="https://near.co">En</a></li>
-      <li class="s-header__action-item"><a class="s-header__action-link" href="http://jp.near.co">Jp</a></li>
-    </ul>
-    <!-- End Action -->
+          </li>
+        </ul>
+      </li> <!-- item-has-children -->
 
-    <!-- Action -->
-    <ul class="list-inline s-header__action s-header__action--rb">
-     <li class="s-header__action-item">
-          <a class="s-header__action-link" href="<?php echo TWITTER_ACCOUNT_URL ; ?>">
-              <i class="g-padding-r-5--xs ti-twitter"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-twitter"></i></span>
-          </a>
+      <li><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
+      <li class="item-has-children"><a href="#">About Us</a>
+        <ul class="sub-menu">
+          <li><a href="<?php echo SITE_URL; ?>about">Overview</a></li>
+          <li><a href="<?php echo SITE_URL; ?>leadership">Leadership</a></li>
+          <li><a href="<?php echo SITE_URL; ?>investors">Investors</a></li>
+          <li><a href="<?php echo SITE_URL; ?>board">Board</a></li>
+          <li class="item-has-children"><a href="#" >Culture</a>
+            <ul class="sub-menu">
+              <li><a href="<?php echo SITE_URL; ?>culture">Overview</a></li>
+              <li><a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php">Meet the Team</a></li>
+            </ul>
+          </li>
+          <li class="item-has-children"><a href="#">Blog</a>
+            <ul class="sub-menu">
+              <li><a href="<?php echo SITE_URL; ?>blog">Corporate Blog</a></li>
+              <li><a href="<?php echo SITE_URL; ?>engineering">Tech Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="<?php echo SITE_URL; ?>news">Newsroom</a></li>
+          <li><a href="<?php echo SITE_URL; ?>events">Events</a></li>
+        </ul>
       </li>
-      <li class="s-header__action-item">
-          <a class="s-header__action-link" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>">
-              <i class="g-padding-r-5--xs ti-facebook"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-facebook"></i></span>
-          </a>
-      </li>
-      <li class="s-header__action-item">
-          <a class="s-header__action-link" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>">
-              <i class="g-padding-r-5--xs ti-instagram"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-linkedin"></i></span>
-          </a>
-      </li>
-      <li class="s-header__action-item">
-          <a class="s-header__action-link" href="<?php echo YOUTUBE_ACCOUNT_URL ; ?>">
-              <i class="g-padding-r-5--xs ti-instagram"></i>
-              <span class="g-display-none--xs g-display-inline-block--sm"><i class="fa fa-youtube-play"></i></span>
-          </a>
-      </li>
-    </ul>
-    <!-- End Action -->
-  </div>
-  </div>
-</nav>
+      <li><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
+      <li><a href="<?php echo SITE_URL; ?>privacy">Privacy</a></li>
+      <li><a href="<?php echo SITE_URL; ?>contact">Contact Us</a></li>
+    </ul> <!-- cd-navigation -->
+
+
+    <div class="cd-navigation socials">
+      <a class="cd-twitter cd-img-replace" href="#0">Twitter</a>
+      <a class="cd-github cd-img-replace" href="#0">Git Hub</a>
+      <a class="cd-facebook cd-img-replace" href="#0">Facebook</a>
+      <a class="cd-google cd-img-replace" href="#0">Google Plus</a>
+    </div> <!-- socials -->
+  </nav>
