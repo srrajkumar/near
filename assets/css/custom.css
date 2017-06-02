@@ -536,7 +536,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     color: #e61f28;
     font-weight: 900;
     font-size: 18px;
-    margin-bottom: -10px;
+    /*margin-bottom: -10px;*/
 } 
 .whats-happening .col-sm-6.whats-new .kroll span.news-content{
     font-size: 18px;
