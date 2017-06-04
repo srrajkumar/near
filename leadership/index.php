@@ -35,8 +35,6 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
    </div>
   </div>
   <div class="banner-space container allspark-space"></div>
- 
-
 </div>
 
             <!-- BEGIN: Page content -->
@@ -49,8 +47,8 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
       <div class="row" style="text-align:center">
        <div class="col-md-12" style="text-align: center;">
    <div class="ha-waypoint" data-animate-down="ha-header-color" data-animate-up="ha-header-rotateBack" style="margin-top:10px;">
-    <h1>We Believe in Freedom & Responsibility</h1>  <p class="header-details"> Disrupt the Status Quo  |  Are unreasonably selective about Our Colleagues
-| Believe in Work plus Life <br class="add1"> |  Are a perpetual Work In Progress.</p>
+    <h1>We Believe in Freedom & Responsibility</h1>  <p class="header-details"> Disrupt the Status Quo  |<br class="mob-add">  Are unreasonably selective <br class="mob-add"> about Our Colleagues
+| <br class="mob-add"> Believe in Work plus Life  |  <br class="mob-add"> Are a perpetual Work In Progress.</p>
 <div class="space"></div>
 <div class="header-team">
  <h2><b>Executive</b> Team</h2>
@@ -102,7 +100,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
             </div>
             <div class="card-info">
                     <h2 class="pulls">Madhu Therani</h2>
-                <h3>Chief Technology Officer</h3>
+                <h3>Chief Technology<br class="mob-add"> Officer</h3>
                
                 <p class="contact-links">
                     <a href="https://www.linkedin.com/in/madhutherani" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -162,7 +160,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
       </div>
       <div class="card-info">
         <h2 class="pulls">Andries de Villiers</h2>
-        <h3>General Manager, NA</h3>
+        <h3>General Manager,<br class="mob-add"> North America</h3>
         <p class="contact-links">
             <a href="https://www.linkedin.com/in/andriespetrus/" target="_blank"><i class="fa fa-linkedin"></i></a>
         </p>
@@ -175,7 +173,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
       </div>
       <div class="card-info">
         <h2 class="pulls">Kenneth Parnham</h2>
-        <h3>General Manager, Europe</h3>
+        <h3>General Manager,<br class="mob-add"> Europe</h3>
         <p class="contact-links">
             <a href="https://www.linkedin.com/pub/ken-parnham/0/869/529" target="_blank"><i class="fa fa-linkedin"></i></a>
         </p>
@@ -201,7 +199,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
       </div>
       <div class="card-info">
         <h2 class="pulls">Inotani Hisashi</h2>
-        <h3>Regional Director, Japan</h3>
+        <h3>Regional Director,<br class="mob-add"> Japan</h3>
         <p class="contact-links">
           <a href="http://jp.linkedin.com/pub/hisashi-inotani/67/455/4b/en" target="_blank"><i class="fa fa-linkedin"></i></a>
         </p>
@@ -246,7 +244,17 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
         </p>
       </div>
     </div>
-            
+       <div class="team-card">
+      <div class="card-photo">
+        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -2618px; background-size: 100% auto;" alt=""/>
+      </div>
+      <div class="card-info">
+        <h2 class="pulls">Murali Veeraiyan</h2>
+        <h3>Director, Product Management</h3>
+        <p class="contact-links">
+          <a href="https://www.linkedin.com/in/muraliveeraiyan" target="_blank"><i class="fa fa-linkedin"></i></a></p>
+      </div>
+    </div>      
     <div class="team-card">
       <div class="card-photo">
        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -2293px; background-size: 100% auto;" alt=""/>
@@ -260,17 +268,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
       </div>
     </div>
 
-    <div class="team-card">
-      <div class="card-photo">
-        <img src="<?php IMAGE('bb.png');?>" width="160" height="160" style="background: url(<?php IMAGE('near-team1.png');?>); background-position: 0 -2618px; background-size: 100% auto;" alt=""/>
-      </div>
-      <div class="card-info">
-        <h2 class="pulls">Murali Veeraiyan</h2>
-        <h3>Director, Product Management</h3>
-        <p class="contact-links">
-          <a href="https://www.linkedin.com/in/muraliveeraiyan" target="_blank"><i class="fa fa-linkedin"></i></a></p>
-      </div>
-    </div>
+   
 
     <div class="team-card">
       <div class="card-photo">

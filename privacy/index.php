@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title = '';
-$meta_desc = "";
-$keywords=""
+$meta_title = 'Near Privacy | Technology Practices | SaaS products | Data Collection | Data Privacy | Ambient Intelligence';
+$meta_desc = "This page explains the Near privacy policy. Near's data collection process is certified by TrustE. Reach out to us using the contact form on www.near.co for any queries ";
+$keywords=" Ambient intelligence, Location intelligence, Data products, Data analytics, Consumer insights, Location-based targeting, Offline attribution, Attribution measurement, ROI measurement, Brands and Enterprise, SAAS product, Retail Analytics, Telco insights, Data convergence, Consumer dynamics, Data driven marketing, Cross-screen data, Spend data, CRM Onboarding, OOH Analytics, Omni-channel Marketing, Smart Environments, DaaS API, Data partners, Real-time data, Data Privacy, Data Collection, Data Accuracy, Accurate Targeting"
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

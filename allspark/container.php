@@ -316,7 +316,7 @@
 		<div><a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_self"><img src="<?php IMAGE('allspark/consumer-research.png'); ?>" alt/>
 			<div class=" allspark-content">
 				<h3>Consumer Research</h3>
-				<p>Get powerful insights on your audience in real-time</p>
+				<p>Get powerful insights about your audience in real time</p>
 			</div></a>
 		</div>
 	

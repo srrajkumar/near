@@ -1,5 +1,5 @@
-body{font-family: 'Roboto', sans-serif;line-height:1;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,caption,canvas,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,form,footer,header,hgroup,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,tt,table,tbody,textarea,tfoot,thead,time,tr,th,td,u,ul,var,video{font-family:inherit;font-size:100%;font-weight:inherit;font-style:inherit;vertical-align:baseline;white-space:normal;margin:0;padding:0;border:0;outline:0;background:transparent}
+body{line-height:1;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,caption,canvas,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,form,footer,header,hgroup,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,tt,table,tbody,textarea,tfoot,thead,time,tr,th,td,u,ul,var,video{font-size:100%;font-weight:inherit;font-style:inherit;vertical-align:baseline;white-space:normal;margin:0;padding:0;border:0;outline:0;background:transparent}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 ol,ul{list-style:none}
 blockquote,q{quotes:none}
@@ -39,7 +39,7 @@ img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}
 .grid-80{float:left;width:80%;*width:expression(Math.floor(0.8 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px")}
 .grid-100{clear:both;width:100%}
 }
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;vertical-align:baseline}
 html{height:100%}
 body{height:100%;background:#FFF;font:13px/23px;color:#666;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
 h1,h2,h3,h4,h5,h6{color:#555;font-weight:400;line-height:30px;margin-bottom:20px}
@@ -97,7 +97,7 @@ input[type="text"],textarea{font:13px;border:1px solid #FFF;padding:10px;outline
 input[type="text"]:focus,textarea:focus{border:1px solid #FFF;color:#FFF}
 @media screen and (max-width: 767px) {
 .product.parallax{height:auto;min-height:inherit}
-.product, body{background:#2A83ED}
+.product, body{background:#5c5c5c}
 .product .grid-100{padding:100px 0;vertical-align:top}
 	.newsletter-title{font-size:2em;}
 	.newsletter-slogan{font-size:1em;}
@@ -115,7 +115,7 @@ input[type="text"]:focus,textarea:focus{border:1px solid #FFF;color:#FFF}
 #contact p{color:#fff; font-family: 'Roboto', sans-serif;font-weight: 300;
     margin-top: 20px;     font-size: 1.1em;
     line-height: 2em;}
-#contact{font-family: 'Roboto', sans-serif;display:block;margin:50px auto;/*padding:35px;*/float:none;-webkit-border-radius:5px}
+#contact{display:block;margin:50px auto;/*padding:35px;*/float:none;-webkit-border-radius:5px}
 #contact input,textarea,select, .submit{float:none;display:inline-block;margin:5px;padding:10px 5px;color:#FFF;background:rgba(2,2,2,0.8);border-top:none;border-left:none;border-right:none;border-bottom:1px solid rgba(255,255,255,0.53)}
 #contact input:focus,textarea:focus,select:focus{border-bottom:1px solid rgba(255,255,255,0.9);background:rgba(2,2,2,0.95);color:#FBFBFB}
 #contact input.submit, .submit{width:120px;cursor:pointer;border:1px solid #145DB4;background:#2A83ED;color:#fff}
@@ -123,3 +123,4 @@ input[type="text"]:focus,textarea:focus{border:1px solid #FFF;color:#FFF}
 #message{margin:10px 0;padding:0; color:#FFFFFF;}
 acronym{border-bottom:1px dotted #ccc}
 .submit{ text-align:center; color:#FFFFFF !important; }
+@media (max-width:1100px){ #contact input.submit, .submit {background: #444 !important;}#contact p{line-height:1.5em;}}

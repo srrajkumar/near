@@ -5,9 +5,11 @@ $(function(){
       var scroll = getCurrentScroll();
     if ( scroll >= shrinkHeader ) {
        $('.navbar').addClass('shrink');
+       $('.checkBox').addClass('shrink');
     }
         else {
             $('.navbar').removeClass('shrink');
+             $('.checkBox').removeClass('shrink');
         }
     });
   function getCurrentScroll() {

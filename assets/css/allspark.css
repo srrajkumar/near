@@ -1163,6 +1163,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
   opacity: 1;
   background: rgba(0, 0, 0, 0.9);
 }
+.allspark-subpages .button.button--primary{ border:1px solid #43a8ca !important;}
 .submenu-tiles .col-md-4 .button_animate:hover .button-icon-animate .button-icon-animate__circle--right, .submenu-tiles .col-md-4 .button_animate:hover .button-icon-animate .button-icon-animate__circle--left,.submenu-tiles .col-md-4 a:hover .button-icon-animate .button-icon-animate__circle--right, .submenu-tiles .col-md-4:hover .button-icon-animate .button-icon-animate__circle--left,.submenu-tiles .col-md-4:hover .button-icon-animate .button-icon-animate__circle--right,.submenu-tiles .col-md-4:hover .button-icon-animate .button-icon-animate__circle--left{stroke-dashoffset: 0;}
 .submenu-tiles .col-md-4:hover{cursor:pointer;}
 .submenu-tiles .col-md-4 .button_animate:hover .button-icon-animate .icon, .submenu-tiles .col-md-4:hover .button-icon-animate .icon{color:#fff;}
@@ -1205,7 +1206,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 }
 .custom-form textarea{
     border: 1px solid #dedede !important;
-    width: 100%;
+    width: 95%;
     margin-right: 80px;
     border-radius: 0;
 }
@@ -1323,7 +1324,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 }
 .col-lg-3 .banner-space{height:190px;}
  .allspark-space.banner-space{height:100px;}
-.the-data .button--rounded:hover, .allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover, .allspark-inner .button--rounded:hover{border: 1px solid #000; color:#000;}
+.the-data .button--rounded:hover, .allspark-subpages .button--rounded:hover,.allspark-inner .allspark-page .button--rounded:hover, .allspark-inner .button--rounded:hover{border: 1px solid #000 !important; color:#000;}
 .col-md-4{padding:0px;}
 
 

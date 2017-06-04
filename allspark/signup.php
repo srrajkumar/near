@@ -22,6 +22,10 @@ $meta_keywords="Data-Driven Marketing, Attribution Analytics, Consumer Insights,
     .s-header__trigger-icon{background:#fff;}
     .banner-content span {color: #fff !important; text-transform: uppercase; font-size: 65px;font-weight: 200;line-height: 70px;}
     .navbar.shrink {background: rgba(3, 20, 40, 0.85);}
+    .navbar.shrink{color: #5c5c5c !important;}
+	    .checkBox.shrink #burger span{background:#fff !important;}
+	#burger span {background: #fff !important;}
+	.checkBox.anim-rect #burger span{background:#5c5c5c !important;}
 </style>
   
 </head>
@@ -170,14 +174,7 @@ $meta_keywords="Data-Driven Marketing, Attribution Analytics, Consumer Insights,
     <script src="<?php JS('signup/jquery.parallax.min.js'); ?>"></script>
     <script src="<?php JS('signup/jquery.flexslider-min.js'); ?>"></script>
     <script type="text/javascript" src="<?php  JS('signup/jquery.jigowatt.js'); ?>"></script>
-    <script>
-	$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-});
-</script>	    
+   
 <!-- End Document
 ================================================== -->
 

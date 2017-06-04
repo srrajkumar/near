@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Smart Environments | Ambient Data | Location Data | Spend Data | DaaS API | Consumer Insights | Omni-Channel Marketing | SaaS Audience Product | Weather Data | Data Partners ";
+$meta_desc="The Near ambient intelligence platform processes massive data from smart environments to understand consumer behaviour at a global scale. Contact us today to know how Near's SaaS audience product, Allspark can visualise, engage and analyze your audience in real-time.";
+$meta_keywords="Ambient intelligence, Location intelligence, Data products, Data analytics, Consumer insights, Location-based targeting, Offline attribution, Attribution measurement, ROI measurement, Brands and Enterprise, SAAS product, Retail Analytics, Telco insights, Data convergence, Consumer dynamics, Data driven marketing, Cross-screen data, Spend data, CRM Onboarding, OOH Analytics, Omni-channel Marketing, Smart Environments, DaaS API, Data partners, Real-time data";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

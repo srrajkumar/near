@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Allspark for Retailers | SaaS Product | Consumer Insights | Data-Driven Decisions | Omni-Channel Marketing";
+$meta_desc="Allspark is a Mobile-first Audience Cloud that lets you visualize, engage and analyze audience data including their location, spend, behavior, demography and interest. Contact us at allspark@near.co to understand how Allspark, SaaS product by Near can help Retailers in their Retail strategy, operations and other data-driven decisions.";
+$meta_keywords="Allspark, SaaS product, Data Products, Audience Analytics, Consumer Insights, Consumer Research, Data Analytics, Data-Driven Marketing, Data-Driven Decisions, Omni-Channel Marketing, OOH Analytics, Cross-screen Marketing, Cross-screen Data, Location Data, CRM onboarding, Consumer Journeys, Consumer Dynamics, Offline Attribution, Attribution Analytics, ROI Measurement, Connected Data, Smart Environments, Digital Marketing, Real-World Behavior, Digital World, Location Analytics, Retail Analytics, Media Planning, Actionable Insights, Retail Analytics, Retail Strategy, Retail Operations, Retail Consumers, Online Behavior, Competitor Insights";
 $heading ="Allspark";
 $content= "Retail";
 $content1=" ";

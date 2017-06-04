@@ -70,8 +70,8 @@
           <h4 style="  margin-top: 41px;">Anil Mathews</h4><span class="designation">Founder & CEO,<br> Near</span>
           </div>
           <hr class="mar" style="  margin-top: 20px;">
-          <p>Anil is the Founder and CEO of Near. Anil built Near with a technology-centric approach into one of the largest location intelligence platform. Anil has spent the past 12 years as a serial entrepreneur.</p>
+          <p>Anil is the Founder and CEO of Near. Anil built Near with a technology-centric approach into a global ambient intelligence platform. Anil has spent the past 12 years as a serial entrepreneur.</p>
          <hr>
         </div></div><!-- /.col-sm-6 -->
   </div>
-    </div><div class="space"></div>
+    </div>

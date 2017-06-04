@@ -30,8 +30,10 @@ $meta_keywords="Near Engineering, data platform, data products, location intelli
 		z-index: 99;
 	    position: relative;
 	    }
-	#menu li a, .state1 #top-nav li, .state1 #top-nav li > a, .state1 #top-nav .navbar-brand, .state1 #top-nav .navbar-header, .state1 #top-nav .dropdown-menu > li > a {color:#fff;}
-	.state2 #top-nav li, .state2 #top-nav li > a, .state2 #top-nav .navbar-brand, .state2 #top-nav .navbar-header, .state2 #top-nav .dropdown-menu > li > a{color:#fff;}
+	    .navbar.shrink{color: #5c5c5c !important;}
+	    .checkBox.shrink #burger span{background:#5c5c5c !important;}
+	#burger span {background: #fff !important;}
+	.checkBox.anim-rect #burger span{background:#5c5c5c !important;}
 	.near-logo{fill:#fff !important;}
 	.state2 .near-logo{fill:#fff !important;}
 	.state2 #top-nav{ background-color:rgba(0,0,0,0.7) !important;}

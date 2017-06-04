@@ -88,27 +88,27 @@
     	<div class="col-sm-6 platform-leverage"  data-aos="fade-up" data-aos-delay="800">
     		<ul id="accord1" class="accordian">
 			  <li>
-				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> crossMatrix&trade;</header>
+				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> CrossMatrix&trade;</header>
 				<div class="accordian-section" style="display: block;">
-				  <p>Near's Proprietary ID Unification Engine to identify consumers across screens, devices and places in real time.</p>
+				  <p>Near's proprietary ID Unification Engine to identify consumers across screens, devices, and places in real time.</p>
 				</div>
 			  </li>
 			  <li>
 				<header class="accordian-header" id="placematrix"><i class="ion-plus-round plus-icon"></i> PlaceMatrix&trade;</header>
 				<div class="accordian-section">
-				  <p>Near's First Party database of over 65 Million accurate building shapes.</p>
+				  <p>Near's proprietary database of over 65 Million accurate building shapes across the world.</p>
 				</div>
 			  </li>
 			  <li>
 				<header class="accordian-header" id="unique_data"><i class="ion-plus-round plus-icon"></i> Exclusive & Unique Datasets</header>
 				<div class="accordian-section">
-				  <p>Datasets ranging from transaction to location to traffic with unique data partnerships</p>
+				  <p>Datasets ranging from transactions, locations, and traffic with unique data partnerships.</p>
 				</div>
 			  </li>
 			   <li>
 				<header class="accordian-header" id="accurate_data"><i class="ion-plus-round plus-icon"></i> Highly Accurate Data</header>
 				<div class="accordian-section">
-				  <p>Over 250% better location data & over 50% better audience data</p>
+				  <p>Over 250% better location data and over 50% better audience data.</p>
 				</div>
 			  </li>
 			</ul>
@@ -164,7 +164,7 @@
         <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="800" style="background:url('<?php IMAGE('video_bg/img3.png'); ?>');  background-size: cover;">
         <a href="<?php echo SITE_URL; ?>data">
         	<div class="spacing">
-		        DATA-AS-A-SERVICE<br /><br />
+		        DATA-AS-A-SERVICE<br />
 				<span  class="custom_btn usecase-button">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>

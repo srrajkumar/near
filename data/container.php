@@ -94,7 +94,7 @@
                 <h1><span>Data-as-a-Service</span><br>Platform APIs</h1>
           <hr />
           <img src="<?php IMAGE('data/icon-set-3/data-icon.png') ?>" />
-          <p>Plug and Play into your existing products</p>
+          <p>Plug and play into your existing products</p>
           <br><br>
           <a href="<?php echo SITE_URL; ?>contact/#data" class="button button--primary button--rounded" style="margin-left: 0;">Get in Touch</a>
           </div>

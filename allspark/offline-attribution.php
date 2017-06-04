@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Allspark | SaaS Product | Attribution Analytics | Consumer Insights | Data-Driven Decisions | Omni-Channel Marketing";
+$meta_desc="Allspark is a Mobile-first Audience Cloud that lets you visualize, engage and analyze audience data including their location, spend, behavior, demography and interest. Contact us at allspark@near.co to understand how Allspark, SaaS product by Near can help brands and enetrprises across verticals in their strategy, operations and other data-driven decisions.";
+$meta_keywords="Allspark, SaaS product, Data Products, Audience Analytics, Consumer Insights, Consumer Research, Data Analytics, Data-Driven Marketing, Data-Driven Decisions, Omni-Channel Marketing, OOH Analytics, Cross-screen Marketing, Cross-screen Data, Location Data, CRM onboarding, Consumer Journeys, Consumer Dynamics, Offline Attribution, Attribution Analytics, ROI Measurement, Connected Data, Smart Environments, Real-World Behavior, Digital World, Location Analytics, Footfall Analytics, Media Planning, Actionable Insights, Marketing Strategy, Competitor Insights, Competitor Consumers, ROI Measurement, Attribution Lift Index, Consumer Walk-ins, Physical World";
 $heading ="Allspark";
 $content= "Offline Attribution";
 $content1="Measure the impact of your marketing spends across channels";

@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Allspark for QSRs | SaaS Product | Consumer Insights | Data-Driven Decisions | Omni-Channel Marketing";
+$meta_desc=" Allspark is a Mobile-first Audience Cloud that lets you visualize, engage and analyze audience data including their location, spend, behavior, demography and interest. Contact us at allspark@near.co to understand how Allspark, SaaS product by Near can help QSRs in their strategy, operations and other data-driven decisions.";
+$meta_keywords="Allspark, SaaS product, Data Products, Audience Analytics, Consumer Insights, Consumer Research, Data Analytics, Data-Driven Marketing, Data-Driven Decisions, Omni-Channel Marketing, OOH Analytics, Cross-screen Marketing, Cross-screen Data, Location Data, CRM onboarding, Consumer Journeys, Consumer Dynamics, Offline Attribution, Attribution Analytics, ROI Measurement, Connected Data, Smart Environments, Digital Marketing, Real-World Behavior, Digital World, Location Analytics, Retail Analytics, Media Planning, Actionable Insights, Marketing Strategy, QSR Consumers, Online Behavior, Competitor Insights";
 $heading ="Allspark";
 $content= "Quick Service Restaurants";
 $content1=" ";
@@ -18,6 +18,7 @@ $image2=" ";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('popup.css'); ?>" />
 <style>.carousel-control{display:none !important;} 
 .allspark-inner .line_break1{display:none;}
 
@@ -42,7 +43,7 @@ $image2=" ";
                     <a href="#" onclick=" SetPage('<?php echo SITE_URL; ?>allspark/form.php?link=QSR Consumers in Australia');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="300" style="background:#000">
                     <img src="<?php IMAGE('research/mcdonald-and-subway-consumers.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
-                            <h4>QSR Consumers in Australia</h4>
+                            <h4>QSR Consumers - SEA & HK</h4>
                             <hr />
                             <p class="description">
                               Research
@@ -60,10 +61,10 @@ $image2=" ";
                                 </div>
                             </span>
                     </a>
-                   <a href="<?php echo SITE_URL; ?>pdf/inforgraphic/qsr-consumers-in-australia.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                   <a href="<?php echo SITE_URL; ?>pdf/infographic/qsr-consumers-in-australia.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/qsr.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
-                            <h4>QSR Consumers - SEA & HK</h4>
+                            <h4>QSR Consumers in Australia</h4>
                             <hr />
                             <p class="description">
                               Infographic
@@ -81,7 +82,7 @@ $image2=" ";
                                 </div>
                             </span>
                     </a>
-                    <!-- a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="500">
+                    <a href="https://www.youtube.com/watch?v=KdN3-jP9NAA" class="col-md-4  bla-2" data-aos="3dflip" data-aos-delay="500">
                     <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>QSR Consumers - SEA & HK</h4>
@@ -102,7 +103,7 @@ $image2=" ";
                                 </div>
                             </span>
                    
-                    </a -->
+                    </a>
                    
                 </div>
                 
@@ -183,6 +184,14 @@ $image2=" ";
   </div></div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
+     <script type="text/javascript" src="<?php JS ('lightbox/html5lightbox.js'); ?>"></script>   
+<script type="text/javascript" src="<?php JS ('popup.jquery.js'); ?>"></script>
+    <script type="text/javascript">
+        jQuery(function(){
+            
+            jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+        });
+    </script>
    <script>
    function SetPage(url)
 {document.getElementById("myframe").setAttribute("src", url);}

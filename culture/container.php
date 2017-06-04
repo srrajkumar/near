@@ -7,7 +7,7 @@
     <p>If a challenging work environment doesn't excite you,<br /> then you definitely don't belong to a startup. 
   <br>But probably no one told you that a great culture is not just about work.</p>
     <hr style="margin: 35px 0;" />
-    <h4>A great culture is not just about work,<br>it's <span>work + life.</span> </h4>
+    <h4>A great culture is not just about work, <br class="des-add">it's <span>work + life.</span> </h4>
     <div class="col-md-3" style="padding-left: 0px;"> <a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php" class="button button--primary button--rounded users" style="margin: 20px 0 0 0; padding: 8px 40px;">Meet the team</a></div>
   </div>
   </div>
@@ -36,7 +36,7 @@
   <div class="space" style="margin: 10px 0"></div>
   <div class="row" style="margin: 0;">
     <div class="col-md-3">
-      <h2>WE...</h2>
+      <h2>We...</h2>
         <ul class="listing">
           <li>Believe in Freedom & Responsibility</li>
           <li>Disrupt the Status Quo</li>

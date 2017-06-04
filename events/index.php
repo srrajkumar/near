@@ -19,7 +19,7 @@ $meta_keywords="Near Events, Connected Data, Connected Environments, SaaS produc
   @media (min-width:320px) and (max-width:767px){ .full-size{padding-top:60px !important;} img.bann{width:100%;}}
   @media screen and (max-width: 991px){a.navbar-brand {padding-left: 15px !important;}}
   .mix {display: none;}
-.custom-image-bg span {color: #000; font-size:16px; margin-bottom: 0px; background:transparent; border:none; cursor:pointer; line-height: 22px;}
+.custom-image-bg span {color: #000; font-size:16px; margin-bottom: 0px; background:transparent; border:none; cursor:pointer; line-height: 22px; opacity:1;}
 .custom-image-bg span:focus{outline:none;}
 .filter-button{font-size:16px;  text-align:center; position:relative; bottom:48px;}
 .line-bottom{ border-bottom:1px solid rgba(0,0,0,0.1); border-top: none !important;}

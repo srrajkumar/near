@@ -34,7 +34,7 @@ Modules - reusable parts of our design
   color: #5c5c5c;
 }
 .no-touch .slide-menu a:hover {
-  color: #5c5c5c;
+  color: #ED1c24;
 }
 @media only screen and (min-width: 768px) {
 .cd-navigation {
@@ -42,7 +42,7 @@ Modules - reusable parts of our design
     padding: 0;
   }
 }
-slide-menu show-slide-menu{padding-left:25px;}
+.slide-menu.show-slide-menu{padding-left:25px;}
 
  .item-has-children > a {
   position: relative;
@@ -150,12 +150,12 @@ slide-menu show-slide-menu{padding-left:25px;}
 /* Check Box */
 .checkBox {
   position: absolute;
-      top: -29px;
-    right: -130px;
+  top: -18px;
+  right: 250px;
   z-index: 1001;
 }
-.shrink .checkBox{top:-13px;}
-
+.shrink.checkBox{  top: -33px; position: fixed;}
+.item-has-children hr{width:100% !important;}
 
 .burger-box {
   position: absolute;
@@ -248,7 +248,7 @@ li {
   overflow: hidden;
 }
 
-li span {
+.checkBox li span {
   will-change: opacity, filter;
   opacity: 0;
   filter: blur(0px);

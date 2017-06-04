@@ -17,9 +17,9 @@
 			<li><a href="#"><span>Your colleague</span>Coming Soon</a></li>
 			
 		</ul>
-		<select onchange="location = this.options[this.selectedIndex].value;">
+		<select  class="form-control" onchange="location = this.options[this.selectedIndex].value;">
 			<option value="" selected="selected">Select</option>
-			<option value="<?php echo SITE_URL; ?>kyc/jils-joseph.php"><b>Jils Joseph</b>, Platform Solutions Lead</option>
+			<option  value="<?php echo SITE_URL; ?>kyc/jils-joseph.php"><b>Jils Joseph</b>, Platform Solutions Lead</option>
 			<option value="<?php echo SITE_URL; ?>kyc/ashwin-nair.php"><b>Ashwin Nair</b>, Senior Engineer, Data Integrations</option>
 			<option value="<?php echo SITE_URL; ?>kyc/women-at-near.php"><b>Women at Near</b></option>	
 			<option value="<?php echo SITE_URL; ?>kyc/chelsea-mok.php"><b>Chelsea Mok</b>, Account Executive</option>
