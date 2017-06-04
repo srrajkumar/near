@@ -7,35 +7,7 @@
 <html  lang="en">
 <head>
 <?php include('../includes/_head.php'); ?>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-	var name = '<?php echo $_POST['name']; ?>';
-	var email = '<?php echo $_POST['email']; ?>';
-	var phone = '<?php echo $_POST['phone']; ?>';
-	var reason = '<?php echo $_POST['contact_reason']; ?>';
-	var country = '<?php echo $_POST['location']; ?>';
-	var designation = '<?php echo $_POST['designation']; ?>';
-	var message = '<?php echo $_POST['message']; ?>';
-	$.ajax({
-    url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLScLIvzQmfX5_Sg0HVtkxsl3krN7tcYhJTLsxVKMyilpAMNVwA/formResponse",
-    data: { 
-    	"entry_956528457": name,
-    	"entry_1642179646": email,
-    	"entry_213940237": phone,
-    	"entry_1002107091":reason,
-    	"entry_1141328561": designation,
-    	"entry_1006047176": country,
-    	"entry_495917586": message
-    },
-    type: "POST",
-     crossDomain: true,
-    dataType: "xml",
-     statusCode: {
 
-    }
-  });
-	
-</script>
 
 </head>
 
@@ -60,12 +32,12 @@ $message = $_POST['message'];
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'tls';  
-	$mail->Host = 'email-smtp.us-west-2.amazonaws.com';
-	$mail->Port = 25;      
-	$mail->Username = "AKIAJZDQV2VXA3I2EJOQ";
-	$mail->Password = "Aj2jGfhdARQWVCtJ03Ku5IEL/ybFo/LVMZjFcMDJWKxS";
+	$mail->Host = 'email-smtp.us-east-1.amazonaws.com';
+	$mail->Port = 25;   
+	$mail->Username = "AKIAJEZG67GJOXXDJQ3Q";
+	$mail->Password = "Ak6BnuLjQoheV3Iz1mIQeU5Ndfve7WoNLwjOLdfkMxmt";
 	$mail->isHTML(true); 
-	$mail->setFrom('contact@adnear.net');     //Set who the message is to be sent from
+	$mail->setFrom('contact@near.co');     //Set who the message is to be sent from
 	$mail->addReplyTo($email,$name);  //Set an alternative reply-to address
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters

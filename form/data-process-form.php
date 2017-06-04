@@ -61,10 +61,10 @@ require 'phpmailer/PHPMailerAutoload.php';
 	$mail->SMTPSecure = 'tls';  
 	$mail->Host = 'email-smtp.us-west-2.amazonaws.com';
 	$mail->Port = 25;   
-	$mail->Username = "AKIAJZDQV2VXA3I2EJOQ";
-	$mail->Password = "Aj2jGfhdARQWVCtJ03Ku5IEL/ybFo/LVMZjFcMDJWKxS";
+	$mail->Username = "AKIAJEZG67GJOXXDJQ3Q";
+	$mail->Password = "Ak6BnuLjQoheV3Iz1mIQeU5Ndfve7WoNLwjOLdfkMxmt";
 	$mail->isHTML(true); 
-	$mail->setFrom('partnership@adnear.net');     //Set who the message is to be sent from
+	$mail->setFrom('contact@near.co');     //Set who the message is to be sent from
 	$mail->addReplyTo($email,$name);  //Set an alternative reply-to address
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters

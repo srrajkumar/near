@@ -9,9 +9,7 @@
         <span class="tile__content">
             <h4>Retail</h4>
             <hr />
-            <p class="description">
-                Retailers can leverage Allspark to 
-            </p>
+            
         </span>
         <span class="custom_btn">
             <span class="btn__text">
@@ -32,9 +30,7 @@
         <span class="tile__content">
             <h4>QSR</h4>
             <hr />
-            <p class="description">
-              Allspark can be used by QSRs to 
-            </p>
+          
         </span>
         <span class="custom_btn">
             <span class="btn__text">
@@ -54,9 +50,7 @@
         <span class="tile__content">
             <h4>Telco</h4>
             <hr />
-            <p class="description">
-              Telecommunication players can use Allspark to
-            </p>
+           
         </span>
         <span class="custom_btn">
             <span class="btn__text">
@@ -76,9 +70,7 @@
         <span class="tile__content">
             <h4>Auto</h4>
             <hr />
-            <p class="description">
-               Allspark can be used by the Auto players to
-            </p>
+          
         </span>
         <span class="custom_btn">
             <span class="btn__text">
@@ -97,9 +89,7 @@
         <span class="tile__content">
             <h4>BFSI</h4>
             <hr />
-            <p class="description">
-               Allspark can be used by the BFSI industry
-            </p>
+            
         </span>
         <span class="custom_btn">
             <span class="btn__text">

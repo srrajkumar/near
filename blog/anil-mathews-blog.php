@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Anil Mathews | Founder & CEO | Near | Ambient Intelligence Platform | SaaS Audience Product ";
+$meta_desc="Here you will find blogs from Anil Mathews, Founder & CEO at Near on various topics – ambient intelligence and data platforms, location intelligence for data-driven decisions, entrepreneurial, omni-channel marketing, marketing tech and data predictions for the upcoming year, startup culture, advisory board and much more.";
+$meta_keywords="Anil Mathews, ambient intelligence, location intelligence, Near platform, SaaS products, Startup culture, Entrepreneur journey, Marketing Technology Predictions, Data Technology Predictions, Data-Driven Insights, Data-Driven Marketing, Location Data, Smart Nations, Allspark";
 $title="Anil Mathews"
 ?>
 <!doctype html>

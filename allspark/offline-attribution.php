@@ -18,13 +18,15 @@ $image2="allspark/allspark-offline-attribution-2.png";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('popup.css'); ?>" />
+
 </head>
 <body>
 <div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
 
 
-    <div class="col-lg-12  k carousel-custom" style="background-color: #fafafa; " data-particles='{"color":"#a2a2a2"}'> 
+    <div class="col-lg-12  k carousel-custom allspark-banner" style="background-color: #fff; " data-particles='{"color":"#a2a2a2"}'> 
 <div class="banner-space container allspark-space"></div>
 
 <div class="container allspark-inner">
@@ -34,7 +36,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
 
   <div class="d-md-block "   id="box-one"  style="margin-bottom: 40px; text-align: center; margin-top: 50px;">
           <h1 style="font-weight: 400; font-size: 42px;"><?php echo $heading; ?> <span style="color:#5C5C5C;">for</span></h1>
-          <p style="font-size: 28px; margin-bottom: 15px; line-height: 22px;"><?php echo $content; ?></p>
+          <p class="innerpage-title"><?php echo $content; ?></p>
            <span class="line_break1 color-red"></span>
           <p style="font-size: 16px; color: #444;"><?php echo $content1; ?></p>
           <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded" style="margin-left: 0;padding: 7px 20px;">SETUP A DEMO</a>
@@ -92,7 +94,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                	<a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                	<a href="<?php echo SITE_URL; ?>pdf/casestudy/virgin-active-case-study.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('case-study/virgin-active.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Drive Footfall for Virgin Active</h4>
@@ -115,7 +117,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
                 	
                 	</a>
 
-                  <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                  <a href="<?php echo SITE_URL; ?>pdf/latest-research/shell-competitor-targeting-consumer-insights.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('case-study/shell.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Driving traffic to Shell Outlets</h4>
@@ -139,7 +141,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
                    
                     </a>
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="500">
+                    <a href="<?php echo SITE_URL; ?>pdf/brand-insights/ford-everest-case-study.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="500">
                     <img src="<?php IMAGE('case-study/auto-ford-everest.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4> Auto Enthusiasts & Ford Everest</h4>
@@ -162,7 +164,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
                     
                     </a>
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="1000" style="background:#000">
+                    <a href="https://www.youtube.com/watch?v=WvoPA-AQr9g" class="col-md-4 bla-2"   data-aos="3dflip" data-aos-delay="1000" style="background:#000">
                     <img src="<?php IMAGE('research/lactacyd.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Measuring attribution for Lactacyd</h4>
@@ -173,7 +175,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
                         </span>
                             <span class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">Download</span>
+                                    <span class="btn__text-inner">Play Video</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -186,7 +188,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
                     </a>
                 	 
 
-                    <a class="col-md-4" data-aos="3dflip" data-aos-delay="1100" style="background:#000">
+                    <a href="<?php echo SITE_URL; ?>pdf/industry-report/iab-mobile-attribution.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="1100" style="background:#000">
                     <img src="<?php IMAGE('research/laptop.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>IAB Mobile Attribution</h4>
@@ -214,7 +216,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
               
                 <div class="space"></div>
                 <h1>Enterprises, Brands, Agencies and Research Organisations</h1>
-                <h2>can use Allspark to measure offline attribution for:</h2>
+                <h2>can use Allspark to measure<br class="mob-add"> offline attribution for:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
@@ -222,7 +224,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
 	                	<img src="<?php IMAGE('allspark/offline-attribution/icon-1.png') ?>" />
 	                </div>
 	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Digital</span> media by measuring the effect on call to actions such as store walk-ins, website traffic and social activity.
+	                	<span class="blue">Digital</span> media by measuring the effect on call to actions such as store walk-ins & website traffic.
 	                </div>
                 </div>
                 <div class="col-md-6 row">
@@ -250,7 +252,7 @@ $image2="allspark/allspark-offline-attribution-2.png";
 	                </div>
                 </div-->
                 </div>
-                <div class="col-md-12 " style="padding-right: 80px;"><p>Organisations can now compare the attribution across channels, creatives, media type and devices  to measure ROI and make smarter marketing decisions. </p></div>
+                <div class="col-md-12 full-content" style="padding-right: 80px;"><p>Organisations can now compare the attribution across channels, creatives, media type and devices  to measure ROI and make smarter marketing decisions. </p></div>
                 <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded">SETUP A DEMO</a>
                 <div class="top space"></div>
                 <hr />
@@ -262,6 +264,13 @@ $image2="allspark/allspark-offline-attribution-2.png";
 </div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
+    <script type="text/javascript" src="<?php JS ('popup.jquery.js'); ?>"></script>
+    <script type="text/javascript">
+        jQuery(function(){
+            
+            jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+        });
+    </script>
     <script>
      window.onload = function() {
   document.getElementById('oa').className = 'active';

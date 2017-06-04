@@ -18,7 +18,10 @@ $image2=" ";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
-<style>.carousel-control{display:none !important;} .allspark-inner .line_break1{display:none;}</style>
+<style>.carousel-control{display:none !important;} 
+.allspark-inner .line_break1{display:none;}
+
+</style>
 </head>
 <body>
 <div class="preloader"></div>
@@ -35,28 +38,8 @@ $image2=" ";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12  custom-banner row perspective" style="padding:0; margin: 0;">
-                    <!--div class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
-                    <img src="<?#php IMAGE('case-study/qsr-phd.png') ?>" alt="" class="sq-ratio">
-                   <span class="tile__content">
-                            <h4> Drive Footfall for Pizza Hut</h4>
-                            <hr />
-                            <p class="description">
-                              Case Study
-                            </p>
-                        </span>
-                            <a href="#" class="custom_btn">
-                                <span class="btn__text">
-                                    <span class="btn__text-inner">Download</span>
-                                </span>            
-                                <div class="icon">
-                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14,3.09H0" fill="#fff"></path>
-                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
-                                    </svg>
-                                </div>
-                            </a>
-                    </div-->
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="300" style="background:#000">
+                   
+                    <a href="#" onclick=" SetPage('<?php echo SITE_URL; ?>allspark/form.php?link=QSR Consumers in Australia');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="300" style="background:#000">
                     <img src="<?php IMAGE('research/mcdonald-and-subway-consumers.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
                             <h4>QSR Consumers in Australia</h4>
@@ -77,7 +60,7 @@ $image2=" ";
                                 </div>
                             </span>
                     </a>
-                   <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                   <a href="<?php echo SITE_URL; ?>pdf/inforgraphic/qsr-consumers-in-australia.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/qsr.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
                             <h4>QSR Consumers - SEA & HK</h4>
@@ -98,7 +81,7 @@ $image2=" ";
                                 </div>
                             </span>
                     </a>
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="500">
+                    <!-- a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="500">
                     <img src="<?php IMAGE('allspark/img-1.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>QSR Consumers - SEA & HK</h4>
@@ -119,7 +102,7 @@ $image2=" ";
                                 </div>
                             </span>
                    
-                    </a>
+                    </a -->
                    
                 </div>
                 
@@ -193,9 +176,16 @@ $image2=" ";
         </div>
     </div>
 </div>
+<div class="modal-bg">
+<div id="modal">
+  <span>Research Form<a href="#close" id="close">&#215;</a></span>
+  <iframe src="#" id="myframe" frameborder="0" scrolling="no" style="overflow:hidden;" height="100%" width="100%"></iframe>
+  </div></div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
    <script>
+   function SetPage(url)
+{document.getElementById("myframe").setAttribute("src", url);}
     window.onload = function() {
   document.getElementById('qsr').className = 'active';
 document.getElementById('verticals').className = 'active';
@@ -209,6 +199,18 @@ $(document).ready(function() {
         });
     });
 });
+function SetPage(url)
+{document.getElementById("myframe").setAttribute("src", url);}
+$('.button').click(function(){
+      $('#modal').css('display','block');
+      $('.modal-bg').fadeIn();
+  });
+
+    $('#close').click(function(){
+        $('.modal-bg').fadeOut();   
+        $('#modal').fadeOut();
+      return false;
+    });
    </script>
 
 </body>

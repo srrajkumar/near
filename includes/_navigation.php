@@ -1,6 +1,3 @@
-
-
-
 <nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay">
   <div class="container">
     <a class="navbar-brand" href="<?php echo SITE_URL; ?>">
@@ -34,26 +31,28 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php echo SITE_URL; ?>about/">About Us</a>
         </li>
-        <li class="nav-item burger_menu">
-          <a id="cd-menu-trigger" href="#0"><span class="cd-menu-icon"></span></a>
-        </li>
+        
       </ul>
+
     </div>
      <!-- Overlay -->
-    
+     <div class="checkBox">
+  
+  <div class="burger-box">
+    <div id="burger-container">
+      <div id="burger"><span> </span><span></span><span></span></div>
+    </div>
   </div>
-</nav>
-
-
-
-
-  <nav id="cd-lateral-nav">
-    <ul class="cd-navigation">
+</div>
+  </div>
+ 
+<div class="slide-menu">
+   <ul class="cd-navigation">
       <li class="item-has-children">
-        <a href="#0">Allspark</a>
+        <a href="#0">Allspark <hr/></a>
         <ul class="sub-menu">
           <li><a href="<?php echo SITE_URL; ?>allspark">Overview</a></li>
-          <li class="item-has-children"><a href="#0">USE CASES</a>
+          <li class="item-has-children"><a href="#0">Use Cases</a>
           <ul class="sub-menu">
             <li><a href="<?php echo SITE_URL; ?>allspark/audience-curation.php">Audience Curation</a></li>
             <li><a href="<?php echo SITE_URL; ?>allspark/media-planning.php">Media Planning</a></li>
@@ -63,7 +62,7 @@
             <li><a href="<?php echo SITE_URL; ?>allspark/omni-channel-customer-experience.php">Omni-Channel Experience</a></li>
           </ul>
           </li>
-          <li class="item-has-children"><a href="#0">INDUSTRY</a>
+          <li class="item-has-children"><a href="#0">Industry </a>
             <ul class="sub-menu">
               <li><a href="<?php echo SITE_URL; ?>allspark/retail.php">Retail</a></li>
               <li><a href="<?php echo SITE_URL; ?>allspark/qsr.php">QSR</a></li>
@@ -75,8 +74,8 @@
         </ul>
       </li> <!-- item-has-children -->
 
-      <li><a href="<?php echo SITE_URL; ?>data">The Data</a></li>
-      <li class="item-has-children"><a href="#">About Us</a>
+      <li><a href="<?php echo SITE_URL; ?>data">The Data <hr/></a></li>
+      <li class="item-has-children"><a href="#">About Us <hr/></a>
         <ul class="sub-menu">
           <li><a href="<?php echo SITE_URL; ?>about">Overview</a></li>
           <li><a href="<?php echo SITE_URL; ?>leadership">Leadership</a></li>
@@ -98,16 +97,22 @@
           <li><a href="<?php echo SITE_URL; ?>events">Events</a></li>
         </ul>
       </li>
-      <li><a href="<?php echo SITE_URL; ?>careers">Careers</a></li>
-      <li><a href="<?php echo SITE_URL; ?>privacy">Privacy</a></li>
-      <li><a href="<?php echo SITE_URL; ?>contact">Contact Us</a></li>
+      <li><a href="<?php echo SITE_URL; ?>careers">Careers <hr/></a></li>
+      <li><a href="<?php echo SITE_URL; ?>privacy">Privacy <hr/></a></li>
+      <li><a href="<?php echo SITE_URL; ?>contact">Contact Us <hr/></a></li>
     </ul> <!-- cd-navigation -->
 
 
-    <div class="cd-navigation socials">
-      <a class="cd-twitter cd-img-replace" href="#0">Twitter</a>
-      <a class="cd-github cd-img-replace" href="#0">Git Hub</a>
-      <a class="cd-facebook cd-img-replace" href="#0">Facebook</a>
-      <a class="cd-google cd-img-replace" href="#0">Google Plus</a>
-    </div> <!-- socials -->
+     <div class="cd-navigation socials">
+     <p class="social-links">
+      <a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
+      <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><!--i class="fa fa-youtube"></i--><img src="<?php IMAGE('youtube-icon.png'); ?>" style="width: 17px; height: auto;" /></a>
+      </p>
+       </div> <!-- socials -->
   </nav>
+</div>
+</nav>
+
+

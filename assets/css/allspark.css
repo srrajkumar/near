@@ -35,7 +35,7 @@ right: inherit;
 .bs-slider > .carousel-inner > .item > img,
 .bs-slider > .carousel-inner > .item > a > img {
     margin: auto;
-    width: 100% !important;
+  width:auto !important;
 }
 .case-studies.responsive .slick-slide {
     position: relative !important;
@@ -988,8 +988,9 @@ border: none;
 }
 .custom-banner .col-md-4 h4, .submenu-tiles h4{
       color: #fff;
-    font-weight: 700;
+    font-weight: 400;
         font-size: 23px;
+        text-transform: capitalize;
 }
 .custom-banner .col-md-4 p,.submenu-tiles p{
   font-weight: 300;
@@ -1068,16 +1069,10 @@ border: none;
    
 }
 .custom-banner  .custom_btn,.submenu-tiles  .custom_btn{width:35px; height: 35px; font-weight:500;}
-.k.carousel-custom.the-data{
+.k.carousel-custom.the-data, .allspark-banner{
  border-bottom: 1px solid #e8e8e8 !important;
  position: relative;
- background: rgba(250,250,250,0) !important;
-background: -moz-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 100%) !important;
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,0)), color-stop(100%, rgba(252,252,252,1)));
-background: -webkit-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 100%) !important;
-background: -o-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 100%) !important;
-background: -ms-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 100%) !important;
-background: linear-gradient(to bottom, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 100%) !important;
+
   }
   .k.carousel-custom.the-data:after{content:""; position:absolute; z-index:8; height: 50px; width: 100%; bottom:0px; left:0;
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#fcfcfc', GradientType=0 );}
@@ -1338,10 +1333,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 /* ----------------
     THE DATA
 ------------------ */
-.the-data .carousel-custom{
+.the-data.carousel-custom, .allspark-banner{
   background-image: url('../images/data/data-bg.png');
   background-size: cover;
  }
+ .allspark-banner{ background-size: 100% auto; background-position: bottom center;}
 .the-data .banner-content h1{
   font-weight: 700;
   color: #ff1d25;
@@ -1462,7 +1458,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 }
 .particles-3{z-index: 1;}
     .animation-banner{position: absolute; top:0px;}
+ .modal-bg{
+  position:fixed;
+  left:0;right:0;
+  top:0;bottom:0;
+  z-index:100;
+  background-color:rgba(50,50,50,0.5);
+  display:none;
+}
+ .button{border:none; font-weight:400;}
+ .button:hover{border:none;}
+ #modal{ 
+  position:absolute;
+  background-color:#F5F5F6;
+  top:50%; 
+  left:50%;
+  z-index:101;
+  border-radius:3px;
+  
+  min-height:320px;
+  margin-top:-130px;
+  margin-left:-170px;
+  border-bottom: 3px solid #ed1b24;
+  box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+}
 
+#modal span{
+  display: block;
+  background:#ed1b24;
+  padding: 10px;
+  color:#fff;
+  border-radius:3px;
+}
+ #close{
+  float: right;
+  color: #fff;
+  font-family: serif;
+  font-size: 16px;
+  font-weight:600;
+}
+ #close:hover{
+  color: #000;
+}
+.innerpage-title{font-size: 28px; margin-bottom: 15px; line-height: 22px;}
+.login-copyright{color:#000;}
+#myframe{min-height:350px; padding: 15px;}
   @media (max-width:1100px){
     .custom-banner .col-md-4 .custom_btn {width: 130px;}
     .custom-banner .col-md-4.custom_btn, .submenu-tiles .col-md-4.custom_btn {border: 1px solid rgba(255,255,255,1);}
@@ -1474,4 +1514,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
     .custom-banner .col-md-4 p, .submenu-tiles .col-md-4 p {margin-top: 10px; opacity: 1;}
    .custom-banner .col-md-4 .color_change, .submenu-tiles .col-md-4 .color_change {
     fill: #ED1C24 !important;}
+    .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img{width:100% !important;}
 }

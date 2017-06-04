@@ -33,11 +33,12 @@
                        <a href="<?php echo SITE_URL; ?>events" >EVENTS</a>   
                     </div>
                     <div class="col-sm-2 footer-links"  data-aos="fade-up" data-aos-delay="400">  
-                       <a href="<?php echo SITE_URL; ?>contact">CONTACT US</a> 
+                      
                        <a  href="<?php echo SITE_URL; ?>data">DATA</a>   
                        <a  href="<?php echo SITE_URL; ?>investors">INVESTORS</a>   
                        <a href="<?php echo SITE_URL; ?>leadership">LEADERSHIP</a>  
-                       <a  href="<?php echo SITE_URL; ?>board" class="link-mob">BOARD</a>
+                       <a  href="<?php echo SITE_URL; ?>board" >BOARD</a>
+                        <a href="<?php echo SITE_URL; ?>contact" class="link-mob">CONTACT US</a> 
                     </div>
 					<!--div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="600">
 					      
@@ -92,12 +93,12 @@
 				<div class="container">
 				<div class="row">
 					<div class="col-sm-12" style="padding:0px;">
-						<hr style="border-top:1px solid rgba(0,0,0,0.5) !important; border:none; width:100%; margin-bottom:10px; padding-bottom:10px;"/>
+						<hr style="border-top:1px solid rgba(0,0,0,0.5) !important; border:none; width:100%; margin-bottom:10px;    margin-top: 30px; padding-bottom:10px;"/>
 					</div>
 				</div>
 				<div class="row">
 					
-					 <div class="col-md-10 copyrights"  style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="<?php echo SITE_URL; ?>privacy" target="_blank">Privacy Policy</a> | <a href="#" target="_blank"> Sitemap</a></div>
+					 <div class="col-md-10 copyrights"  style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="<?php echo SITE_URL; ?>privacy" target="_blank">Privacy Policy</a><!-- | <a href="#" target="_blank"> Sitemap</a --></div>
 					 <div class="col-md-2 truste">
 					<div><a href="//privacy.truste.com/privacy-seal/validation?rid=79c90252-7a59-4f23-8681-9180af7a58de" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=79c90252-7a59-4f23-8681-9180af7a58de" alt="TRUSTe"/></a></div>
 			</div>

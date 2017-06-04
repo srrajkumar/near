@@ -132,7 +132,7 @@
                   
                         <img src="<?php IMAGE('allspark/usecase-omni-channel.png') ?>" alt="" class="sq-ratio">
                         <span class="tile__content">
-                            <h4>Omni-Channel Customer Experience</h4>
+                            <h4>Omni-Channel Consumer Experience</h4>
                             <hr/>
                             <p class="description">
                                 Identify and reach your audience across channels

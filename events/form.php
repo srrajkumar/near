@@ -13,7 +13,9 @@
 
     <style>
 	.section {background-color: Transparent;}
-	
+	 #error_email, #error_name,#error_phone, #error_country{font-size:11px; color:#ec222b; text-align:left;   line-height:10px;  position: relative;bottom: -5px; left: 5px; }
+     .custom-form input, .bfh-selectbox .bfh-selectbox-toggle{margin-right:0px;    width: 100%;}
+     .custom-form .btn{color:#fff;}
 	</style>
     <?php include('../includes/_javascripts.php'); ?>
     <script type="text/javascript" src="<?php CSS_PATH('form/main.js'); ?>"></script>
@@ -58,11 +60,7 @@
     <!--[if lt IE 9]>
     <link href="<?php CSS('form/ie.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
     <![endif]-->
-    <style>
-	#error_email, #error_name, #error_company{font-size:11px; color:#ec222b; text-align:left; margin-bottom:0px !important;  line-height:10px;  position: relative;  bottom: 7px; }
-		.login-form{min-height: 320px;}.tab-pane form{background:transparent;}
-		.login-form .tab-pane input{padding:0px 5px;}
-	</style>
+    
 </head>
 <body style="background-color:transparent; color:#FFFFFF">
 

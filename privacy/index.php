@@ -127,7 +127,7 @@ Singapore 048624</p>
       </div><!-- /.row -->
 <!-- /.container -->
 </div>
-<div class="space"></div>
+
 				</div>
 		<!-- END: Page content -->
 

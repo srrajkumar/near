@@ -38,4 +38,4 @@
         </div><!-- /.col-lg-2 -->
         </div>
         </div>
-      </div>  <!-- /.container --><div class="space"></div>
+      </div>  <!-- /.container -->

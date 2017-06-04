@@ -14,7 +14,12 @@ $(function(){
       return window.pageYOffset || document.documentElement.scrollTop;
   }
 });
-
+$("#burger-container").on('click', function(){
+  $(this).toggleClass("open");
+  $(".checkBox").toggleClass("anim-rect");
+  $(".slide-menu").toggleClass("show-slide-menu");
+  $(".main-container").toggleClass("overlay-in");
+});
 
 jQuery(document).ready(function($){
 	"use strict";
@@ -512,6 +517,11 @@ $('.carousel-news').carousel();
 AOS.init({
         easing: 'ease-in-out-sine'
       });
+
+    AOS.init({
+      disable: 'phone'
+    });
+  
 
 $('#myselect').on('change', function (e) {
     var id = $(this).val();

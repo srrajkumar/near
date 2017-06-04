@@ -1,25 +1,15 @@
-<?php include("../includes/_config.php"); ?>
-
+<?php include("../includes/_config.php");  ?>
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"><![endif]-->
+<html  lang="en">
 <head>
- <link rel="stylesheet" href="<?php CSS('neue-font.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('fontawesome/css/font-awesome.min.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('animate.css/animate.min.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('animate.css/delay.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('dist/css/bootstrap-custom.min.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('linecons/style.css'); ?>" />
- <link rel="stylesheet" href="<?php CSS('theme-custom.css'); ?>" />
-<link href="<?php CSS('form/career.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
-<link href="<?php CSS('research/styles.css'); ?>" media="screen" rel="stylesheet" type="text/css"/>
-<style>
-p.puz-success { color:#000 !important; text-align:center  !important; font-family: 'GothamRounded-Book', sans-serif  !important; font-size:14px !important;}
-h2.puz-success{ color:#000 !important; text-align:center  !important; font-family:'GothamRounded-Medium', sans-serif  !important; font-size:18px !important;}
-.section {background-color: transparent !important;}
-#register{ top:100px; padding: 0 15px;}
-.login-form.ol-tab{ min-height:300px;}
-.login-copyright{position: absolute; bottom: 20px; left: 15px; right: 15px; font-size:12px;}
-</style>
-	
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<?php include('../includes/_head.php'); ?>
+ 
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 	var name = '<?php echo $_POST['name']; ?>';
 	var email = '<?php echo $_POST['email']; ?>';
@@ -39,7 +29,7 @@ h2.puz-success{ color:#000 !important; text-align:center  !important; font-famil
 </head>
 
 <?php
-if(isset($_POST['name'], $_POST['email'], $_POST['country'])) {
+
 error_reporting(E_ALL);
 require 'phpmailer/PHPMailerAutoload.php';
  $name = $_POST['name'];
@@ -58,10 +48,10 @@ require 'phpmailer/PHPMailerAutoload.php';
 	$mail->SMTPSecure = 'tls';  
 	$mail->Host = 'email-smtp.us-west-2.amazonaws.com';
 	$mail->Port = 25;   
-	$mail->Username = "AKIAJZDQV2VXA3I2EJOQ";
-	$mail->Password = "Aj2jGfhdARQWVCtJ03Ku5IEL/ybFo/LVMZjFcMDJWKxS";
+	$mail->Username = "AKIAJEZG67GJOXXDJQ3Q";
+	$mail->Password = "Ak6BnuLjQoheV3Iz1mIQeU5Ndfve7WoNLwjOLdfkMxmt";
 	$mail->isHTML(true); 
-	$mail->setFrom('insights@adnear.net');     //Set who the message is to be sent from
+	$mail->setFrom('contact@near.co');     //Set who the message is to be sent from
 	$mail->addReplyTo($email,$name);  //Set an alternative reply-to address
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
@@ -195,6 +185,5 @@ $main = " <div id='contact-wrapper' class='clearfix container'>
   </div>";
 
 echo $main;
-}
-   else{echo '<script type="text/javascript">document.location="https://near.co/research/";</script>';}
+
 ?>

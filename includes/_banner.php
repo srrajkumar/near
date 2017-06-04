@@ -2,8 +2,8 @@
 	<div class="anim-imag">
     <div class="icon-div">
       <span class="icon one"><img src="<?php IMAGE('icon1.png') ?>" alt /></span>
-      <span class="icon two"><img src="<?php IMAGE('icon2.png') ?>" alt /></span>
-      <span class="icon three"><img src="<?php IMAGE('icon3.png') ?>" alt /></span>
+      <span class="icon two"><img src="<?php IMAGE('icon3.png') ?>" alt /></span>
+      <span class="icon three"><img src="<?php IMAGE('icon2.png') ?>" alt /></span>
       <span class="icon four"><img src="<?php IMAGE('icon4.png') ?>" alt /></span>
       <span class="icon five"><img src="<?php IMAGE('icon5.png') ?>" alt /></span>
       <span class="icon six"><img src="<?php IMAGE('icon6.png') ?>" alt /></span>
@@ -15,7 +15,7 @@
       <span class="line line_four"></span>
       <span class="line line_five"></span>
       <span class="line line_six"></span>
-      <img src="<?php IMAGE('spin.png') ?>" alt class="spin" style="opacity: 0.7;" />
+      <img src="<?php IMAGE('spin.png') ?>" alt class="spin" style="opacity: 1;" />
     </div>
 	</div>
 		<div class="banner-space container"></div>

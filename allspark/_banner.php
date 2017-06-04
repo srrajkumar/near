@@ -1,11 +1,11 @@
 <div id="particles-js" class="col-lg-12 brj k" style="background-color: #031428; ">	
 	<div class="banner-space container"></div>
 	<div class="container banner-content allspark-page">
-    <div><span><img src="<?php IMAGE('allspark-logo.png'); ?>" alt="Allspark Logo"/></span></div>
+    <div><span class="allspark_logo"><img src="<?php IMAGE('allspark-logo.png'); ?>" alt="Allspark Logo"/></span></div>
   	<div><span>The World's most</span></div>
   	<div><span class="blue">Intuitive real-time</span></div>
   	<div><span>audience product</span></div>
-  	<div class="line_break color-blue"></div>
+  	<div><hr class="line_break color-blue" /></div>
     <span class="line-2" style="bottom: 8px;">Get started with Allspark for <br>
       <span id="typed-strings" class="type">
           <span>Mapping Consumer Journeys</span>

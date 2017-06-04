@@ -5,7 +5,7 @@
                 <h1><span>Data in the</span><br>Near Platform</h1>
           <hr />
           <p>The platform provides intelligence based on pertinent data streams from a wide spectrum of data signals in the current era of ubiquitous information and perpetual connectivity.</p>
-          <br>
+          <br class="des-add">
           <a href="<?php echo SITE_URL; ?>contact/#data" class="button button--primary button--rounded" style="margin-left: 0;">Partner with us</a>
           </div>
 
@@ -13,11 +13,11 @@
                 <div class="col col-md-12 row perspective" style="padding:0; margin: 0;">
                 <div class="icon-set-2 col-md-12 margin-padding row data_set">
                     <div class="col-md-2" style="padding: 0">
-                        <p class="highlite" style="text-align: left">Proprietary <br class="mob-add" /><span>Datasets</span></p>
+                        <p class="highlite" style="text-align: left">Proprietary <span>Datasets</span></p>
                     </div>
                     <div class="col-md-3 row ww" style="    margin-right: -60px;">
                         <span class="col-md-6"><img src="<?php IMAGE('data/icon-set-2-2.png') ?>" /></span>
-                        <p class="col-md-6">Spatial Data</p>
+                        <p class="col-md-6">Spatial <br class="mob-add"> Data</p>
                     </div>
                     <div class="col-md-3 row ww">
                         <span class="col-md-6"><img src="<?php IMAGE('data/icon-set-2-3.png') ?>" /></span>
@@ -124,7 +124,7 @@
                     <hr />
                     <p>Research firms</p>
                   </div>
-                  <div class="sections">
+                  <div class="sections last">
                     <img src="<?php IMAGE('data/icon-set-4/icon-5.png') ?>" />
                     <hr />
                     <p>Enterprises

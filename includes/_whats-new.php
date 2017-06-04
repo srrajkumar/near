@@ -1,6 +1,6 @@
 <div class="col-sm-6 col-md-3 whats-new button_animate" data-aos="3dflip" data-aos-delay="400">
         	<div id="carousel" class="spacing carousel-news slide carousel-fade" data-ride="carousel">
-		       WHAT’S NEW      
+		       <h3 class="whats-new-h1">WHAT’S NEW <h3>     
     
     <!-- Carousel items -->
     <div class="kroll carousel-inner">

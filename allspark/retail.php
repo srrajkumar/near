@@ -18,6 +18,7 @@ $image2=" ";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('popup.css'); ?>" />
 <style>.carousel-control{display:none !important;} .allspark-inner .line_break1{display:none;}</style>
 </head>
 <body>
@@ -37,7 +38,7 @@ $image2=" ";
                 <div class="col col-md-9">
                  <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                    <a href="<?php echo SITE_URL; ?>pdf/whitepaper/spacetime-marketing-whitepaper.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200">
                     <img src="<?php IMAGE('whitepaper/omni-channel-spacetime-marketing.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Spacetime Marketing for Retailers</h4>
@@ -58,7 +59,7 @@ $image2=" ";
                                 </div>
                             </span>
                     </a>
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a href="<?php echo SITE_URL; ?>pdf/casestudy/virgin-active-case-study.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('case-study/virgin-active.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Driving walk-ins for Virgin Active</h4>
@@ -81,7 +82,7 @@ $image2=" ";
                    
                    
                     </a>
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/consumer-insights-for-supermarkets-in-london.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/supermarkets-london.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Insights on Grocery Shoppers in London</h4>
@@ -103,7 +104,7 @@ $image2=" ";
                             </span>                  
                     </a>
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/black-friday-near-research.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/black-friday.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Black Friday in London</h4>
@@ -126,7 +127,7 @@ $image2=" ";
                     </a>
 
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/shopper-insights-from-the-great-singapore-sale-2016.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/great-singapore-sale-2016.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Singapore Sale 2016</h4>
@@ -149,7 +150,7 @@ $image2=" ";
                     </a>
 
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    <a href="#" onclick=" SetPage('<?php echo SITE_URL; ?>allspark/form.php?link=Retail Research, Australia');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/retail-research-aus.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Retail Research, Australia</h4>
@@ -173,7 +174,7 @@ $image2=" ";
                    
                     </a>
 
-                     <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                     <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/shopper-insights-black-friday-near-research.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/shopper-inisghts-black-friday.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Pre Black Friday vs Black Friday</h4>
@@ -197,7 +198,7 @@ $image2=" ";
                    
                     </a>
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a href="<?php echo SITE_URL; ?>pdf/latest-research/shell-competitor-targeting-consumer-insights.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('case-study/shell.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Driving traffic to Shell Outlets</h4>
@@ -221,10 +222,9 @@ $image2=" ";
                    
                     </a>
 
-
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
-                    <img src="<?php IMAGE('research/insights-fitness.png') ?>" alt="" class="sq-ratio">
-                     <span class="tile__content">
+  <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/insights-on-fitness-enthusiasts.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="600">
+                        <img src="<?php IMAGE('research/insights-fitness.png') ?>" alt="" class="sq-ratio">
+                         <span class="tile__content">
                             <h4>Singapore's Fitness Enthusiasts</h4>
                             <hr />
                             <p class="description">
@@ -242,11 +242,10 @@ $image2=" ";
                                     </svg>
                                 </div>
                             </span>
+</a>
                    
-                   
-                    </a>
 
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a href="https://www.youtube.com/watch?v=WvoPA-AQr9g" class="col-md-4 bla-2" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/lactacyd.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Measuring attribution for Lactacyd</h4>
@@ -257,7 +256,7 @@ $image2=" ";
                         </span>
                             <span class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">Download</span>
+                                    <span class="btn__text-inner">Play Video</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -352,8 +351,20 @@ $image2=" ";
         </div>
     </div>
 </div>
+<div class="modal-bg">
+<div id="modal">
+  <span>Research Form<a href="#close" id="close">&#215;</a></span>
+  <iframe src="#" id="myframe" frameborder="0" scrolling="no" style="overflow:hidden;" height="100%" width="100%"></iframe>
+  </div></div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
+    <script type="text/javascript" src="<?php JS ('popup.jquery.js'); ?>"></script>
+    <script type="text/javascript">
+        jQuery(function(){
+            
+            jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+        });
+    </script>
     <script>
      window.onload = function() {
   document.getElementById('retail').className = 'active';
@@ -368,6 +379,18 @@ document.getElementById('verticals').className = 'active';
         });
     });
 });
+  function SetPage(url)
+{document.getElementById("myframe").setAttribute("src", url);}
+$('.button').click(function(){
+      $('#modal').css('display','block');
+      $('.modal-bg').fadeIn();
+  });
+
+    $('#close').click(function(){
+        $('.modal-bg').fadeOut();   
+        $('#modal').fadeOut();
+      return false;
+    });
     </script>
     
 </body>

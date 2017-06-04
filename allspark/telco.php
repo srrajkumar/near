@@ -23,7 +23,7 @@ $image2="allspark/allspark-telco-2.png";
 <body>
 <div class="preloader"></div>
 	<?php include('../includes/_navigation.php'); ?>
-    <div class="col-lg-12  k carousel-custom" style="background-color: #fafafa; " data-particles='{"color":"#a2a2a2"}'> 
+    <div id="particles-js" class="col-lg-12  k carousel-custom allspark-banner" style="background-color: #fff; " data-particles='{"color":"#a2a2a2"}'> 
 <div class="banner-space container allspark-space"></div>
 
 <div class="container allspark-inner">
@@ -33,7 +33,7 @@ $image2="allspark/allspark-telco-2.png";
 
   <div class="d-md-block "   id="box-one"  style="margin-bottom: 40px; text-align: center; margin-top: 50px;">
           <h1 style="font-weight: 400; font-size: 42px;"><?php echo $heading; ?> <span style="color:#5C5C5C;">for</span></h1>
-          <p style="font-size: 28px; margin-bottom: 15px; line-height: 22px;"><?php echo $content; ?></p>
+          <p class="innerpage-title"><?php echo $content; ?></p>
            <span class="line_break1 color-red"></span>
           <p style="font-size: 16px; color: #444;"><?php echo $content1; ?></p>
           <a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button button--primary button--rounded" style="margin-left: 0;padding: 7px 20px;">SETUP A DEMO</a>
@@ -91,7 +91,7 @@ $image2="allspark/allspark-telco-2.png";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a href="#" onclick=" SetPage('<?php echo SITE_URL; ?>allspark/form.php?link=Global Internet Usage Statistics ');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/telco-internet-usage-statistics.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Global Internet Usage Statistics </h4>
@@ -213,6 +213,11 @@ $image2="allspark/allspark-telco-2.png";
         </div>
     </div>
 </div>
+<div class="modal-bg">
+<div id="modal">
+  <span>Research Form<a href="#close" id="close">&#215;</a></span>
+  <iframe src="#" id="myframe" frameborder="0" scrolling="no" style="overflow:hidden;" height="100%" width="100%"></iframe>
+  </div></div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
     <script>
@@ -229,6 +234,18 @@ document.getElementById('verticals').className = 'active';
         });
     });
 });
+ function SetPage(url)
+{document.getElementById("myframe").setAttribute("src", url);}
+ $('.button').click(function(){
+      $('#modal').css('display','block');
+      $('.modal-bg').fadeIn();
+  });
+
+    $('#close').click(function(){
+        $('.modal-bg').fadeOut();   
+        $('#modal').fadeOut();
+      return false;
+    });
     </script>
     
 </body>

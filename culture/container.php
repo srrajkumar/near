@@ -8,7 +8,7 @@
   <br>But probably no one told you that a great culture is not just about work.</p>
     <hr style="margin: 35px 0;" />
     <h4>A great culture is not just about work,<br>it's <span>work + life.</span> </h4>
-    <a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php" class="button button--primary button--rounded users" style="margin: 20px 0 0 0; padding: 8px 40px;">Meet the team</a>
+    <div class="col-md-3" style="padding-left: 0px;"> <a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php" class="button button--primary button--rounded users" style="margin: 20px 0 0 0; padding: 8px 40px;">Meet the team</a></div>
   </div>
   </div>
 </div>
@@ -63,7 +63,7 @@
        Be either a go-getter or one who supports a go-getter Who are you?
       </p>
     </div>
-    <a href="<?php echo SITE_URL; ?>careers" class="button button--primary button--rounded users car" style="margin: 40px 0 0 0; padding: 8px 40px;">VIEW OPEN POSITIONS</a>
+    <div class="col-md-3"> <a href="<?php echo SITE_URL; ?>careers" class="button button--primary button--rounded users car" style="margin: 40px 0 0 0; padding: 8px 40px;">VIEW OPEN POSITIONS</a></div>
   </div>
   
 </div>

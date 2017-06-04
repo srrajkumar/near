@@ -79,7 +79,7 @@
     <h2>USA<span>San Francisco</span></h2> 
     <hr />
 
-    <p><b>Near Americas Inc.</b><br>228 Hamilton Ave, 3<sup>rd</sup> Floor Palo Alto, CA 94301 
+    <p><b>Near Americas Inc.</b><br />228 Hamilton Ave,<br>3<sup>rd</sup> Floor Palo Alto,<br> CA 94301 
     </p>
     </div>
   </div>
@@ -87,7 +87,7 @@
   <div class="col-md-10">
     <h2>USA<span>New York</span></h2> 
     <hr />
-    <p><b>Near Americas Inc.</b><br>222 Broadway, 19<sup>th</sup> Floor New York, NY 10038 
+    <p><b>Near Americas Inc.</b><br />222 Broadway,<br> 19<sup>th</sup> Floor New York,<br> NY 10038 
     </p>
     </div>
   </div>
@@ -95,7 +95,7 @@
   <div class="col-md-10">
     <h2>UK<span>London</span></h2> 
     <hr />
-    <p><b>Near Europe Limited</b><br>4<sup>th</sup> Floor, Rex House 4-12 Regent Street London, SW1Y 4PE 
+    <p><b>Near Europe Limited</b><br />4<sup>th</sup> Floor, Rex House 4-12 Regent Street London,<br> SW1Y 4PE 
     </p>
     </div>
   </div>
@@ -103,7 +103,7 @@
   <div class="col-md-10">
     <h2>India<span>Bangalore</span></h2> 
     <hr />
-    <p><b>Near India Private limited</b><br>No. 71/72, 4<sup>th</sup> Floor JNC Rd, Koramangala 5<sup>th</sup> Block<br>
+    <p><b>Near India Private limited</b><br />No. 71/72, 4<sup>th</sup> Floor JNC Rd, <br>Koramangala 5<sup>th</sup> Block<br />
      Bangalore 560 095<br>
     </p>
     </div>
@@ -112,8 +112,8 @@
     <div class="col-md-10">
     <h2>Singapore <span>(Headquarters)</span></h2>
     <hr />
-    <p><b>Near Pte. Ltd</b><br>
-      #36-30/32, UOB Plaza 1  80 Raffles Place Singapore 048624<br>
+    <p><b>Near Pte. Ltd</b><br/>
+      #36-30/32, UOB Plaza 1  <br/>80 Raffles Place<br> Singapore 048624<br>
     </p>
     </div>
   </div>
@@ -122,7 +122,7 @@
     <h2>Tokyo <span>Japan</span></h2>
     <hr />
     <p><b>Near Japan K.K.</b><br>
-      Regus Ebisu Business Center, 8F Humax Ebisu building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo 150-0022
+      Regus Ebisu Business Center,<br> 8F Humax Ebisu building, <br>Ebisu minami 1-1-1,<br> Shibuya-ku, Tokyo 150-0022
     </p>
     </div>
   </div>
@@ -130,7 +130,7 @@
   <div class="col-md-10">
     <h2>Australia<span>Sydney</span></h2> 
     <hr />
-    <p><b>Near Australia Pty Limited</b><br>Level 21, 201 Sussex St. Sydney NSW 2000<br>
+    <p><b>Near Australia Pty Limited</b><br>Level 21, 201 Sussex St.<br> Sydney NSW 2000<br>
     </p>
     </div>
   </div>

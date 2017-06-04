@@ -1,12 +1,12 @@
 <?php include('includes/_banner.php'); ?>
-	<div class="row whats-happening perspective">
+	<div class="row whats-happening perspective" >
         <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="100">
         <a href="<?php echo SITE_URL; ?>data/">
         	<div class="spacing">
 		        <span class="line-man">Processing data from Over</span>
-		        1 BILLION<br> DEVICES <br>in over <br>40 countries
+		        1 BILLION<br class="car-add"> DEVICES <br>in over <br class="car-add">40 countries
 				 <span  class="custom_btn">
-                    <span class="btn__text">
+                    <span class="btn__text mob">
                         <span class="btn__text-inner">Explore</span>
                     </span>            
                     <div class="icon">
@@ -35,7 +35,7 @@
         		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?php IMAGE('award_logo/bg1.png') ;?>');">
         			<span class="gradient"></span>
         			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/gartner.png'); ?>" alt="Gartner">
+		        		<img src="<?php IMAGE('award_logo/gartner.png'); ?>" alt="Gartner" class="logos">
 		        		<span>COOL vendor in</span>
 		        		consumer dynamics
 	        		</div>
@@ -43,9 +43,9 @@
         		<div role="tabpanel" class="center tab-pane fade awards-content" id="forrester" style="background:url('<?php IMAGE('award_logo/bg2.png') ;?> ');">
         			<span class="gradient"></span>
         			<div class="award_holder">
-		        		<img src="<?php IMAGE('award_logo/forrester.png'); ?>" alt="Forrester">
-		        		<span>Spatial Analysis </span>
-		        		and Location Intelligence Vendor
+		        		<img src="<?php IMAGE('award_logo/forrester.png'); ?>" alt="Forrester" class="logos">
+		        		<span>Spatial Analysis and</span>
+		        		 Location Intelligence Vendor
 	        		</div>
         		</div>
         		<div role="tabpanel" class="center tab-pane fade awards-content" id="frost" style="background:url('<?php IMAGE('award_logo/bg3.png');?>');">
@@ -129,7 +129,7 @@
         <a href="<?php echo SITE_URL; ?>allspark/">
         	<div class="spacing">
 		        DATA DRIVEN MARKETING
-    	       <span  class="custom_btn">
+    	       <span  class="custom_btn usecase-button1">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
                                 </span>            
@@ -165,7 +165,7 @@
         <a href="<?php echo SITE_URL; ?>data">
         	<div class="spacing">
 		        DATA-AS-A-SERVICE<br /><br />
-				<span  class="custom_btn">
+				<span  class="custom_btn usecase-button">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">Explore</span>
                                 </span>            
@@ -188,7 +188,7 @@
     	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="600">
     		<a href="<?php echo SITE_URL; ?>allspark/retail.php" target="_blank">
 				<figure>
-					<img src="<?php IMAGE('case-study/virgin-active.png'); ?>"/>
+					<img src="<?php IMAGE('case-study/virgin-active1.png'); ?>"/>
 						<figcaption style="background:#ffffff; width: 100%; display: inline-block;">
 					<h1 class="title">Virgin Active</h1>
 					<p>Case Study</p>
@@ -283,7 +283,7 @@
 
     	
     	</div><!--- row -->
-		<div class="container text-center" data-aos="fade-up" data-aos-delay="800">
+		<div class="container text-center signup-news" data-aos="fade-up" data-aos-delay="800">
 			<div class="newsletter" id="mc_embed_signup">			
 				<form action="//adnear.us5.list-manage.com/subscribe/post?u=615363801d3bb1408b807339c&amp;id=4456f1cf9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">

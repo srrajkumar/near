@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title="";
+$meta_title="Near Blog | Shobhit Shukla | Ambient Intelligence Platform";
 $meta_desc="";
 $meta_keywords="";
 $title="Shobhit Shukla"

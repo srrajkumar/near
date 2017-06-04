@@ -5,7 +5,7 @@
 			<a href="<?php echo SITE_URL; ?>allspark/bfsi.php">
 			<img src="<?php IMAGE('allspark/bfsi-bg.png'); ?>" alt />
 				<div class="content-slider">
-					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>"  width="69" height="58" style="width:69px; height:58px;" alt />
+					<img src="<?php IMAGE('allspark/bfsi-icon.png'); ?>" class="bfsi-icon"  width="69" height="58" style="width:69px; height:58px;" alt />
 					<h3>BFSI</h3>
 				</div>
 			</a>
@@ -14,7 +14,7 @@
 			<a href="<?php echo SITE_URL; ?>allspark/retail.php">
 			<img src="<?php IMAGE('allspark/retail-bg.png'); ?>"  alt />
 				<div class="content-slider">
-					<img src="<?php IMAGE('allspark/retail-icon.png'); ?>"  width="58" height="56" style="width:58px; height:56px;" alt />
+					<img src="<?php IMAGE('allspark/retail-icon.png'); ?>"  class="retail-icon"  width="58" height="56" style="width:58px; height:56px;" alt />
 					<h3>RETAIL</h3>
 				</div>
 			</a>
@@ -25,7 +25,7 @@
 			<a href="<?php echo SITE_URL; ?>allspark/qsr.php">
 			<img src="<?php IMAGE('allspark/qsr-bg.png'); ?>"  alt />
 				<div class="content-slider">
-					<img src="<?php IMAGE('allspark/qsr-icon.png'); ?>" alt   width="64" height="64" style="width:64px; height:64px;"/>
+					<img src="<?php IMAGE('allspark/qsr-icon.png'); ?>" alt  class="qsr-icon"  width="64" height="64" style="width:64px; height:64px;"/>
 					<h3>QSR</h3>
 				</div>
 			</a>
@@ -36,7 +36,7 @@
 			<a href="<?php echo SITE_URL; ?>allspark/auto.php">
 			<img src="<?php IMAGE('allspark/auto-bg.png'); ?>"   alt />
 				<div class="content-slider">
-					<img src="<?php IMAGE('allspark/auto-icon.png'); ?>"  width="57" height="57" style="width:57px; height:57px;" alt />
+					<img src="<?php IMAGE('allspark/auto-icon.png'); ?>"  class="auto-icon" width="57" height="57" style="width:57px; height:57px;" alt />
 					<h3>AUTO</h3>
 				</div>
 			</a>
@@ -46,7 +46,7 @@
 			<a href="<?php echo SITE_URL; ?>allspark/telco.php">
 			<img src="<?php IMAGE('allspark/telecom-bg.png'); ?>"  alt />
 				<div class="content-slider">
-					<img src="<?php IMAGE('allspark/telco-icon.png'); ?>" alt  width="57" height="57" style="width:57px; height:57px;" />
+					<img src="<?php IMAGE('allspark/telco-icon.png'); ?>" alt  class="telco-icon" width="57" height="57" style="width:57px; height:57px;" />
 					<h3>TELCO</h3>
 				</div>
 			</a>
@@ -55,10 +55,10 @@
 	</div>
 </div>
 <div class="container spacing_margin text-center icon-container">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="text-transform:none;">THE FIRST OF ITS KIND SaaS PRODUCT</h1>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="text-transform:none;">THE FIRST OF ITS KIND <br class="mob-add"> SaaS PRODUCT</h1>
 	<h2 data-aos="fade-zoom-in" data-aos-delay="200">for Data-Driven Decisions with</h2>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="300"></span>
-	<div class="row">
+	<div class="row icon-row">
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="400">
 			<div class="icons">
 				<svg id="fingerprint" class="fingerprint" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 304.26 437.46">
@@ -183,7 +183,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row" style="margin-top: 20px;">
+	<div class="row icons-row" style="margin-top: 20px;">
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="800">
 			<div class="icons ">
 				<svg id="crossmatrix" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.6 395.2">
@@ -269,7 +269,7 @@
 </div> 
 <?php include( '_client-testimonials.php' );?>
 <div class="container-fluid spacing_margin text-center  casestudy-container">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="color: #444444;">GET STARTED <span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="color: #444444;">GET STARTED <br class="mob-add"/><span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="200"></span>
 	<div class="allspark-slider responsive2" style="margin-bottom:0px !important; margin-top: 30px;">
 		<div>
@@ -322,7 +322,7 @@
 	
 	</div>
 </div>
-<div class="container spacing_margin text-center">
+<div class="container spacing_margin text-center brand_logos">
 	<h1 data-aos="fade-zoom-in" data-aos-delay="100">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span><a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button demo_button button--primary button--rounded users">Setup a demo</a></h1>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="200"></span>
 	<div class="row">

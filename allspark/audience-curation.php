@@ -18,6 +18,7 @@ $image=  "allspark/allspark-audience-curation.png";
 	<?php include('../includes/_head.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('popup.css'); ?>" />
 <style>.carousel-control{display:none !important;} </style>
 </head>
 <body>
@@ -36,7 +37,7 @@ $image=  "allspark/allspark-audience-curation.png";
                 <div class="col col-md-9">
                 
                     <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                    <a href="#" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a href="https://www.youtube.com/watch?v=WvoPA-AQr9g" class="col-md-4 bla-2" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/lactacyd.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Audience Curation</h4>
@@ -47,7 +48,7 @@ $image=  "allspark/allspark-audience-curation.png";
                         </span>
                             <span class="custom_btn">
                                 <span class="btn__text">
-                                    <span class="btn__text-inner">Download</span>
+                                    <span class="btn__text-inner" >Play Video</span>
                                 </span>            
                                 <div class="icon">
                                     <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
@@ -111,6 +112,14 @@ $image=  "allspark/allspark-audience-curation.png";
 </div>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
+    <script type="text/javascript" src="<?php JS ('lightbox/html5lightbox.js'); ?>"></script>   
+<script type="text/javascript" src="<?php JS ('popup.jquery.js'); ?>"></script>
+    <script type="text/javascript">
+        jQuery(function(){
+            
+            jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+        });
+    </script>
     <script>
      window.onload = function() {
   document.getElementById('ac').className = 'active';
