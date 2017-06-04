@@ -18,7 +18,7 @@ Modules - reusable parts of our design
   padding: 0;
 }
 .cd-navigation > li{text-transform: uppercase;}
-.cd-navigation > li > a > hr{color: #ececec;     border: 1px solid #ececec;   margin: 5px 0;}
+.cd-navigation > li > a > hr{color: #ececec;     border: 1px solid #ececec;   margin: 5px 0; width:100% !important;}
 .sub-menu {
   padding: 0 10px 20px 15px;
   display: none;
@@ -80,6 +80,7 @@ Modules - reusable parts of our design
   -o-transform: translateY(-50%) rotate(90deg);
   transform: translateY(-50%) rotate(90deg);}
  .item-has-children > a.submenu::after { right:3.5em;}
+ .item-has-children > a::after{left:8.5em;}
 .item-has-children > a.submenu-open{
   color: #ED1c24;
 

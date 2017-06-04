@@ -35,16 +35,18 @@
       </ul>
 
     </div>
-     <!-- Overlay -->
-     <div class="checkBox">
-  
-  <div class="burger-box">
-    <div id="burger-container">
-      <div id="burger"><span> </span><span></span><span></span></div>
     </div>
-  </div>
-</div>
-  </div>
+     
+    </nav>
+     <!-- Overlay -->
+<div class="checkBox">
+  
+      <div class="burger-box">
+        <div id="burger-container">
+          <div id="burger"><span> </span><span></span><span></span></div>
+        </div>
+      </div>
+    </div>
  
 <div class="slide-menu">
    <ul class="cd-navigation">
@@ -104,15 +106,13 @@
 
 
      <div class="cd-navigation socials">
-     <p class="social-links">
-      <a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
-      <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
-      <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
-      <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><!--i class="fa fa-youtube"></i--><img src="<?php IMAGE('youtube-icon.png'); ?>" style="width: 17px; height: auto;" /></a>
-      </p>
+         <p class="social-links">
+          <a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
+          <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><!--i class="fa fa-youtube"></i--><img src="<?php IMAGE('youtube-icon.png'); ?>" style="width: 17px; height: auto;" /></a>
+          </p>
        </div> <!-- socials -->
-  </nav>
-</div>
-</nav>
+  </div>
 
 
