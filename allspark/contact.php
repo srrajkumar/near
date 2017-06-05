@@ -36,17 +36,17 @@ function isPhone($phone) {
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'tls';  
-	$mail->Host = 'smtp.gmail.com';
-	$mail->Port = 587;   
-	$mail->Username = "rajkumar@near.co";
-	$mail->Password = "darky.654321";
+	$mail->Host = 'email-smtp.us-east-1.amazonaws.com';
+	$mail->Port = 25;   
+	$mail->Username = "AKIAJEZG67GJOXXDJQ3Q";
+	$mail->Password = "Ak6BnuLjQoheV3Iz1mIQeU5Ndfve7WoNLwjOLdfkMxmt";
 	$mail->isHTML(true); 
-	$mail->setFrom('allspark@adnear.net');     //Set who the message is to be sent from
+	$mail->setFrom('contact@near.co');  
 	$mail->addReplyTo($email,$name);  //Set an alternative reply-to address
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('kiran@near.co');
-	$mail->addCC('rajkumar@near.co');
+	$mail->addCC('allspark@near.co');
 	//$mail->addCC('allspark@near.co');
 	//$mail->addCC('info@near.co');
 	$mail->isHTML(true);                                  // Set email format to HTML

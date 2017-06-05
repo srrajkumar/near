@@ -42,7 +42,7 @@ $message = $_POST['message'];
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-$mail->addCC('rajkumar@near.co');
+$mail->addCC('inbound@near.co');
 	//$mail->addCC('kiran@near.co');
 	//$mail->addCC('sowmya@near.co');
 	//$mail->addCC('info@near.co');

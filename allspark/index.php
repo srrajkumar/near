@@ -18,6 +18,7 @@ $meta_keywords="Allspark, SaaS product, Data Products, Audience Analytics, Consu
     .s-header__trigger-icon{background:#fff;}
     .banner-content span {color: #fff !important; text-transform: uppercase; font-size: 65px;font-weight: 200;line-height: 70px;}
     .navbar.shrink .navbar-brand .near-logo{fill:#5c5c5c !important;}
+     .navbar.shrink .nav ul li a, .banner-content span:nth-child(6){color: #5c5c5c;}
    
 </style>
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">

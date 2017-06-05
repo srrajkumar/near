@@ -24,8 +24,8 @@
 		"entry_710770568": name,
 		"entry_863893022": email,
 		"entry_257454762": phone,
-		"entry_3153749": reason,
 		"entry_1157887187": country,
+		"entry_3153749": reason,
 		"entry_1168262239": message
 	},
 	type: "POST",
@@ -58,7 +58,7 @@ $message = $_POST['message'];
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'tls';  
-	$mail->Host = 'email-smtp.us-west-2.amazonaws.com';
+	$mail->Host = 'email-smtp.us-east-1.amazonaws.com';
 	$mail->Port = 25;   
 	$mail->Username = "AKIAJEZG67GJOXXDJQ3Q";
 	$mail->Password = "Ak6BnuLjQoheV3Iz1mIQeU5Ndfve7WoNLwjOLdfkMxmt";
@@ -68,7 +68,7 @@ $message = $_POST['message'];
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-$mail->addCC('rajkumar@near.co');
+$mail->addCC('inbound@near.co');
 	//$mail->addCC('kiran@near.co');
 	//$mail->addCC('sowmya@near.co');
 	//$mail->addCC('info@near.co');

@@ -9,13 +9,19 @@ $(function(){
     }
         else {
             $('.navbar').removeClass('shrink');
-             $('.checkBox').addClass('shrink');
+             $('.checkBox').removeClass('shrink');
         }
     });
   function getCurrentScroll() {
       return window.pageYOffset || document.documentElement.scrollTop;
   }
 });
+
+
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)  { 
+   //i.e. apply safari class via jquery
+  $('.nav-link').css({'margin-top': '-15px'});
+}
 $("#burger-container").on('click', function(){
   $(this).toggleClass("open");
   $(".checkBox").toggleClass("anim-rect");

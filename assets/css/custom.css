@@ -257,9 +257,10 @@ body{
     -webkit-animation-name: Floating2;
     -webkit-animation-duration: 8.5s;
 }
-.anim-imag .icon-div .icon.eight{
-    top: 44%;
-    left: 74%;
+.anim-imag .icon-div .icon.eight {
+ 
+top: 44%;
+ left: 74%;
     background-color: transparent !important;
     -webkit-animation-name: Floating4;
 }
@@ -436,6 +437,7 @@ a:hover,a:focus{text-decoration:none; outline:none;}
     transition: all 0.3s;
     
 }
+.navbar-brand{line-height:50px; margin:0px; padding:0px;}
 .navbar-brand svg{
     width: 120px;
     margin-top: 7px;
@@ -445,23 +447,24 @@ a:hover,a:focus{text-decoration:none; outline:none;}
 }
 .navbar-brand svg{
     width: 120px;
-    padding-top: 7px;
-   
-
+    padding-top: 0px;
+    margin-top:0px;
+    vertical-align:middle;
 }
 .shrink .navbar-brand svg{
     width: 90px;
-    padding-top: 27px;
+  padding-top: 0px;
+
    
 }
-.safari-fix{position: relative; top:25px;}
+
 .navbar .nav ul li a{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     color: #5c5c5c;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 77px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -492,6 +495,9 @@ padding: 0px;
 .navbar .navbar-nav .nav-link {
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
 }
 .brj {
     display: table;
@@ -522,6 +528,16 @@ padding: 0px;
     overflow: hidden;
     z-index: 10;
 }
+/*.anim-imag {
+    position: absolute;
+    right: -10px;
+    bottom: -170px;
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    z-index: 10;
+}
+.anim-imag img.spin{width:1300px; height:auto;}*/
 .banner-content span{
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -1578,12 +1594,13 @@ padding: 0px;
  
 }
 
-.icon {     
+.icon {
     font-size: 28px !important;
     color: rgba(255,255,255,0.4);
     position: relative;
-    top: 6px;
-    left: 16px; transition: 1s all ease;
+     top: 6px; 
+     left: 16px; 
+    transition: 1s all ease;
 }
 .wobble{
     -webkit-animation: wobble 9s ease infinite;
@@ -4129,3 +4146,12 @@ select.form-control {margin-left: 15px; padding-left: 0px !important;}
 @media (max-width:360px){.banner-space {height: 110px;} .usecase-button1{top:0px !important;}}
 @media (min-width: 992px){.col-md-push-3 {left: 75%;} .col-md-pull-9{right:25%;}.sticky { position: relative; top: 0; height: 600px;} .sticky1{position: relative; top: 0; }}
 @media (min-width:1200px) and (max-width:1600px){.whats-happening .col-md-6{height:330px !important;} .award_holder span, .award_holder{font-size:18px !important;}}
+@media (max-width:1600px){.anim-imag{
+        position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 1009px;
+    height: 815px;
+    overflow: hidden;
+    z-index: 10;
+}}

@@ -105,17 +105,7 @@ $(function() {
           w1024     : {
             rows  : 2,
             columns : 4
-          },
-          w320 : {
-            rows : 3,
-            columns : 4
-          },
-          w240 : {
-            rows : 3,
-            columns : 3
-          },
-          nochange : [0,1,2,3],
-          preventClick : false
+          }
         } );
       
       });
