@@ -11,8 +11,7 @@ $title ='Audience Insights for the Rugby World Cup, 2015';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="http://www.near.co/images/news/audience-insights-rugby.png" />
 </head>
 	<body>

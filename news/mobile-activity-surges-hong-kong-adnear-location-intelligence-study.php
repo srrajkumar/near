@@ -11,8 +11,7 @@ $title ='Mobile activity surges in Hong Kong between 5 pm to 7 pm: Near &rsquo;s
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://www.near.co/images/news/Mobile-activity-surges-in-Hong-Kong-between-5-pm-to-7-pm-Location-Intelligence-study.png" />
 </head>
 	<body>

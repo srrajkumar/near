@@ -11,8 +11,7 @@ $title ='Location-based mobile advertising platform Near raises $6.3M from Sequo
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://www.near.co/images/news/Location-Based-Audience-is-the-new-LBA.png" />
 </head>
 	<body>

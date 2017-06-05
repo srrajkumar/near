@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'Rebranding your startup - lessons learnt | Near';
 $meta_desc = 'We just rebranded successfully! From the lessons learnt, here are some tips to consider when planning your rebranding.';
 $title ='Rebranding your startup - lessons learnt';
+$meta_keywords="Ambient Intelligence Platform, Marketing Blog, potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/rebranding-your-startup.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

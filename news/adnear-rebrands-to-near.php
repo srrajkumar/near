@@ -11,8 +11,7 @@ $title ='AdNear rebrands to Near';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:url" content="http://www.near.co/news/adnear-rebrands-to-near.php" />
 	<meta property="og:image" content="http://www.near.co/images/news/AdNear-drops-the-ad.png" />
 </head>

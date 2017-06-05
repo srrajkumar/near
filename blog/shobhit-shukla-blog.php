@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
 $meta_title="Near Blog | Shobhit Shukla | Ambient Intelligence Platform";
-$meta_desc="";
-$meta_keywords="";
+$meta_desc="Here you will find blogs from Shobhit Shukla, Co-Founder & CRO at Near on topics revolving around using ambient intelligence platforms for data-driven decision making, SaaS products and audience management, location intelligence to understand consumer dynamics in real-time, measure attribution analytics, competitor insights, predictive analytics for urban planning & smart nations and much more.";
+$meta_keywords="Ambient Intelligence Platform, Spend data, Weather data, OOH Analytics, Location data, consumer insights, mobile data, predictive location analytics, attribution analytics, footfall insights, in-store proximity, data cleansing, Retail Analytics, Data Analytics, Mobile behaviour insights, Cross-screen data, unified consumer view";
 $title="Shobhit Shukla"
 ?>
 <!doctype html>

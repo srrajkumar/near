@@ -10,8 +10,7 @@ $meta_desc = "Near, the leading location intelligence platform. Contact us today
 <html  lang="en">
 <head>
     <?php include('../includes/_head.php'); ?>
-    <meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 </head>
     <body>
    <script language="javascript">

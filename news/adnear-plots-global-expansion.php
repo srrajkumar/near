@@ -11,8 +11,7 @@ $title ='Near plots global expansion';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/Near-plots-global-expansion.png" />
 </head>
 	<body>

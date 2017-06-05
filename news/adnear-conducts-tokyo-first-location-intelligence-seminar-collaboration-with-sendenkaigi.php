@@ -11,8 +11,7 @@ $title ="Near conducts Tokyo's first Location Intelligence seminar in collaborat
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:url" content="//www.near.co/news/adnear-conducts-tokyo-first-location-intelligence-seminar-collaboration-with-sendenkaigi.php" />
 	<meta property="og:image" content="http://near.co/images/news/sendenkaigi.jpg" />
 </head>

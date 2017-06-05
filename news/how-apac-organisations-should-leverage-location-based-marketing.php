@@ -11,8 +11,7 @@ $title ='How APAC organisations should leverage location-based marketing';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="<?php IMAGE('news/how-apac-organisations-should-leverage-location-based-marketing.png'); ?>" />
     <meta name="KEYWORDS" content="Location Data, Location-based Marketing, Consumer Analytics, Consumer Insights, APAC brands, Brand Marketers, Consumer Research, Allspark, Data Products, Data Convergence, IoT data, Consumer Footfall, Consumer Footprints, Retailers,Converging Data, CRM Data, Spend Data, Social Data, Interest Data, Marketing Strategy, Business Strategy" />
 </head>

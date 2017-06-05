@@ -11,8 +11,7 @@ $title ="Is Real-Time Attribution The Holy Grail We've Been Looking For?";
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="<?php IMAGE('news/is-real-time-attribution-the-holy-grail-we-have-been-looking-for.png'); ?>" />
     <meta name="KEYWORDS" content="Cross-device data, cross-device attribution, location data, location analytics, attribution analytics, ROI measurement, Data products, SaaS products, SaaS platform, Allspark, Anil Mathews, Real-time attribution, attribution data, brand marketers, cross-device marketing, location-based marketing" />
 </head>

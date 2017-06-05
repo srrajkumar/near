@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php");  
-$meta_title = 'Location Data | Predictive Analytics | Urban Planning | Smart Cities ';
+$meta_title = 'Location Data | Predictive Analytics | Urban Planning | Smart Cities | Data Platforms';
 $meta_desc = "In this blog post, Shobhit Shukla talks about the use of location data for predictive analytics for urban planning, traffic congestion, smart lighting, building commercial vs residential zones, infrastructure and much more. Reach out to us to know how we can put our location data work for you.";
 $title ="How location data can help urban planners in their smart city initiatives";
+$meta_keywords="Location data, mobile intelligence, audience insights, Shobhit Shukla, urban planning, smart cities, smart nations, location technology, predictive analytics, urban planners, urban infrastructure, Retail Analytics, Location Data, Anil Mathews, Attribution Measurement, ROI Measurement, Retail marketers, Real-world Insights, Consumer Insights, Data Analytics, Consumer Analytics, SaaS products, Competitor insights, footfall, consumer journey, in-store proximity, in-store conversion, SaaS Products";
+$meta_image="blog/how-location-data-can-help-urban-planners-in-their-smart-city-initiatives.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

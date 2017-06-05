@@ -11,8 +11,7 @@ $title ="Madhusudan Therani, Chief Technology Officer at Near recognised as one 
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="<?php IMAGE('news/madhusudan-therani-chief-technology-officer-at-near-recognised-as-one-of-the-five-iab-data-rockstars.png'); ?>" />
     <meta name="KEYWORDS" content="SAAS products, Data Science, Data Engineering, Location Technology, Location Data, Mobile Data, Data Analytics, Consumer Insights, Location Intelligence Platform, Data Rockstar, Data-driven Marketing, Data-driven Solutions" />
 </head>

@@ -2,6 +2,8 @@
 $meta_title = 'Mobile Location Data | Location-based Insights  | Multi-channel Attribution | 2016 predictions | Marketers';
 $meta_desc = "This blog post sheds light on the six ways mobile location data will play a crucial role over the next year and beyond. Contact us now to know how we can put our location data to use for your business.";
 $title ='Six ways mobile location data will play a crucial role in 2016';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/six-ways-mobile-location-data-will-play-a-crucial-role.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

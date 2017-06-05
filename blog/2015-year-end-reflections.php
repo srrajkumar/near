@@ -2,6 +2,8 @@
 $meta_title = 'Year-end reflections - Anil Mathews';
 $meta_desc = "This blog post highlights the year gone by at Near. 2015 has been the year of talented hiring across regions, consumer insights studies leveraged by businesses, recognition, partnerships and a scale in our business revenues. Reach us now to know the exciting things we do!";
 $title ='2015: Year-end Reflections';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/year-end-reflections.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

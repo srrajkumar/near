@@ -2,6 +2,7 @@
  $meta_title = 'Culture at Near | Know Your Colleague | Women at Near';
 $meta_desc = " Meet the Women at Near across Business, Marketing, Technology, Creative, Finance, HR and Operations ";
 $title =' Women at Near';
+$meta_image="kyc/women-at-near/womens-day-banner.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

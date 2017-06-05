@@ -11,8 +11,7 @@ $title ="Valentine's weekend saw 18% heavy footfall on an average in top shoppin
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 </head>
 	<body>
 	<div class="preloader"></div>

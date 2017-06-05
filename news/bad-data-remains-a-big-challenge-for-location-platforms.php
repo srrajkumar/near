@@ -11,8 +11,7 @@ $title ='Bad Data Remains a Big Challenge for Location Platforms';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="<?php IMAGE('news/bad-data-remains-a-big-challenge-for-location-platforms.jpg'); ?>" />
     <meta name="KEYWORDS" content="Mobile Data, Location Data, Location Intelligence, Anil Mathews, Near platform, Location Graph, Consumer Graph, Consumer Insights, Cross-Screen Marketing, Cross-Screen Data, Data Accuracy, Location Analytics, Data Analytics, Data-Driven Marketing, Retail Analytics, Attribution Measurement, SaaS Product" />
 </head>

@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'Location Based Audience is the new LBA | Profile Mobile Users | Near';
 $meta_desc = "Near has changed LBA from Location Based Advertising to Location Based Audience. With our new platform, we can accurately profile mobile users and help your company reach who they need to!";
 $title ='Location Based Audience is the new LBA';
+$meta_keywords="Location data, Location insights, Mobile location services, Location devices, Location intelligence, Location analytics, Mobile strategy, Mobile media, Mobile analytics, Mobile advertising, Mobile";
+$meta_image="blog/Location-Based-Audience-is-the-new-LBA.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

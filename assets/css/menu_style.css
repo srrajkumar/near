@@ -153,7 +153,7 @@ Modules - reusable parts of our design
   position: absolute;
   top: -18px;
   right: 250px;
-  z-index: 1001;
+  z-index: 1031;
 }
 .shrink.checkBox{  top: -33px; position: fixed;}
 .item-has-children hr{width:100% !important;}
@@ -200,7 +200,7 @@ Modules - reusable parts of our design
 }
 .slide-menu {
   position: fixed;
-  z-index: 1000;
+  z-index: 1030;
   top: 0;
   right: 0;
   background-color: #fdfdfd;

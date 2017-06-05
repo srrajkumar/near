@@ -4,13 +4,12 @@
 		<li>
 			<div class="col-md-4"><img src="<?php IMAGE('testimonial/suzie-cardwell.png'); ?>" alt="Suzie Cardwell" /></div>
 			<div class="col-md-6">
-			<p>Allspark is a game changer for Australian marketers. It helps brands connect with audiences based on their location, helping them gather rich consumer insights and serving them relevant advertising on their mobiles all in real time.</p>
-			<div class="cd-author">
-				<ul class="cd-author-info">
-					<li>Suzie Cardwell</li>
-					<li>MCN Digital Partnerships and Product Development Director </li>
-				</ul>
-			</div>
+			<p>Allspark is a game changer for Australian marketers. It helps brands connect with audiences based on their location, helping them gather rich consumer insights and serving them relevant advertising on their mobiles all in real time. </p>
+
+					<p class="cd-author-info">Suzie Cardwell<br>
+					MCN Digital Partnerships and Product Development Director <p>
+			
+			
 			<img src="<?php IMAGE('testimonial/mcn.png'); ?>" alt="MCN" class="testimonial-logo" />
 			</div>
 		</li>
@@ -20,12 +19,8 @@
 			<div class="col-md-6">
 			<p>Allspark takes the complex world of real world and digital data, and demystifies it to make it accessible and actionable in a way 
 like no other interface. It is a very intuitive product, and has already provided significant value to our clients.</p>
-			<div class="cd-author">
-				<ul class="cd-author-info" style="position: relative;right: 32px;">
-					<li>David Sandler</li>
-					<li>Head of Media Products at Fetch, United Kingdom </li>
-				</ul>
-			</div>
+<p class="cd-author-info">David Sandler<br>	Head of Media Products at Fetch, United Kingdom  <p>
+			
 			<img src="<?php IMAGE('testimonial/fetch.png'); ?>" alt="" class="testimonial-logo" style="width: 150px;" />
 			</div>
 		</li>
@@ -35,12 +30,8 @@ like no other interface. It is a very intuitive product, and has already provide
 			<div class="col-md-6">
 			<p>I expect Allspark, the first location audience platform in the Japan market, 
 to make more breakthroughs in brand marketing activities utilizing data.</p>
-			<div class="cd-author">
-				<ul class="cd-author-info" style="position: relative;right: 70px;">
-					<li>Ryuji Yokoyama</li>
-					<li>President & CEO, Digital Intelligence Inc</li>
-				</ul>
-			</div>
+<p class="cd-author-info">Ryuji Yokoyama<br>President & CEO, Digital Intelligence Inc<p>
+			
 			<img src="<?php IMAGE('testimonial/digital-i.png'); ?>" alt="" class="testimonial-logo" style="width: 150px;"  />
 			</div>
 		</li>
@@ -49,12 +40,8 @@ to make more breakthroughs in brand marketing activities utilizing data.</p>
 			<div class="col-md-6">
 			<p>Allspark from Near is a game changing product for our industry, and takes our data driven approach at Havas to another level. 
 The interface is extremely simple to use and declutters complex data sets with ease, which can be actioned by brands in real-time.</p>
-			<div class="cd-author">
-				<ul class="cd-author-info" style="position: relative;right: 73px;">
-					<li>Vishnu Mohan</li>
-					<li>CEO Asia Pacific, Havas Media Group </li>
-				</ul>
-			</div>
+<p class="cd-author-info">Vishnu Mohan<br>CEO Asia Pacific, Havas Media Group <p>
+			
 			<img src="<?php IMAGE('testimonial/havas.png'); ?>" alt="" class="testimonial-logo" style="width: 150px;" />
 			</div>
 		</li>

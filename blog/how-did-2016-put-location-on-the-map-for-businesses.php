@@ -1,7 +1,10 @@
 <?php include("../includes/_config.php");  
 $meta_title = 'Location Data | Augmented Reality | Retail Analytics | 2016 Trends';
 $meta_desc = "This blog post by Ken Parnham talks about how 2016 put location data on the map for businesses. He shed light on technology trends - Augmented Reality, using location data for good, how location-based technologies impacted retailers and much more.";
+
 $title ='How did 2016 put location on the map for businesses';
+$meta_keywords="Mobile Marketing Blog , potential technology, Ambient Intelligence Platform, Location data, Location Analytics, Consumer Insights, Data Analytics, Retail Analytics, Retail Strategies, Marketing Strategy, Christmas, Smriti Kataria, Mobile Data, Cross-screen Marketing, Cross-Channel Marketing, Attribution Analytics, Footfall data, Footfall Analytics, Retailers, Offline Retail, Online Retail";
+$meta_image="blog/how-did-2016-put-location-on-the-map-for-businesses.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

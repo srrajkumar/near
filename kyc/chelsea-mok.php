@@ -2,6 +2,7 @@
 $meta_title = 'Meet the Team | Near';
 $meta_desc = "In this section, you will get to know the members of Team Near who play a key role in driving Near’s mission, values and day-to-day operations. Reach out to us to know more about the interesting things we do at Near. ";
 $title ='Know Your Colleague – Chelsea Mok';
+$meta_image="kyc/chelsea.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

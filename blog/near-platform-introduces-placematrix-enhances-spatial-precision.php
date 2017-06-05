@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php");  
-$meta_title = 'PlaceMatrix | Building Footprints Repository | Proprietary First- Party Building Outlines | Near Platform |  Allspark';
+$meta_title = 'PlaceMatrix | Building Footprints Repository | Proprietary First- Party Building Outlines | Near Platform | Ambience Intelligence Platform | Location Data |  Allspark';
 $meta_desc = "PlaceMatrix is the proprietary repository of building footprints developed by the Near Platform and clearly differentiate consumers ‘around’ the stores from the ones ‘inside’ the stores.";
 $title ='Near platform introduces PlaceMatrix, enhances spatial precision';
+$meta_keywords="Proprietary Building Footprints, Repository, Location Data, Intelligence Platform, Accurate Location Analytics, Consumer Insights, SAAS Products, Predictive Location Analytics, Real World Audience Behavior, Attribution, ROI Measurement";
+$meta_image="blog/near-platform-introduces-placematrix-enhances-spatial-precision.jpg";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

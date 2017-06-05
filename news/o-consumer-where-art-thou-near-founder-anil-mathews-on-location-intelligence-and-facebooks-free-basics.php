@@ -11,8 +11,7 @@ $title ="O consumer, where art thou? Near founder Anil Mathews on location intel
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="<?php IMAGE('news/o-consumer-where-art-thou-near-founder-anil-mathews-on-location-intelligence-and-facebooks-free-basics.png'); ?>" />
 </head>
 	<body>

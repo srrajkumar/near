@@ -1,6 +1,8 @@
 <?php include('../includes/_config.php');$meta_title = 'Next Wave in Mobile Advertising | Building Location-Based Audience | Near';
 $meta_desc = 'Near is helping lead the Next Wave in Mobile Advertising by Building Location-Based Audiences across the globe. Contact us to see how we can help you!';
 $title ='The Next Wave in Mobile Advertising';
+$meta_keywords="Location data, Location insights, Mobile location services, Location devices, Location intelligence, Location analytics, Mobile strategy, Mobile media, Mobile analytics, Mobile advertising, Mobile";
+$meta_image="blog/The-Next-Wave-in-Mobile-Advertising.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php");  
-$meta_title = '4 ways data products are redefining brand interactions | Anil Mathews';
+$meta_title = '4 ways data products are redefining brand interactions | SaaS Products | Anil Mathews';
 $meta_desc = "This blog post highlights the four ways data products are changing the way brands are interacting with their consumers using data today. Contact us to see how we can put our data products work for your company.";
 $title ='4 ways data products are redefining brand interactions';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics";
+$meta_image="blog/4-ways-data-products-are-redefining-brand-interactions.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

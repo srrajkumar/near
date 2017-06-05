@@ -1,7 +1,8 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Location Analytics | Consumer Insights| Omni-Channel Marketing | Retail Strategies | Christmas | Ambient Intelligence Platform";
+$meta_desc="In this blog post, Smriti Kataria, our Director for Research and Marketing talks about how retailers can leverage data and analytics to better their marketing and business decisions. Reach out to us to see how we can put our data platform work for your strategy next year.";
+$meta_keywords="Ambient Intelligence Platform, Location data, Location Analytics, Consumer Insights, Data Analytics, Retail Analytics, Retail Strategies, Marketing Strategy, Christmas, Smriti Kataria, Mobile Data, Cross-screen Marketing, Cross-Channel Marketing, Attribution Analytics, Footfall data, Footfall Analytics, Retailers, Offline Retail, Online Retail";
+$meta_image="blog/all-i-want-for-christmas-is-retail-analytics.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

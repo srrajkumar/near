@@ -11,8 +11,7 @@ $title ='Near and Roy Morgan Research partner to bring Helix Personas to real ti
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://www.near.co/images/news/Roy-Morgan-partners-with-Near.png" />
 </head>
 	<body>

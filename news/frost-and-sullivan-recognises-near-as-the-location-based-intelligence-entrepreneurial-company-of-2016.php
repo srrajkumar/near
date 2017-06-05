@@ -11,8 +11,7 @@ $title ="Frost & Sullivan recognises Near as the Location-based Intelligence Ent
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="<?php IMAGE('news/frost-and-sullivan-recognises-near-as-the-location-based-intelligence-entrepreneurial-company-of-2016.png'); ?>" />
 </head>
 	<body>

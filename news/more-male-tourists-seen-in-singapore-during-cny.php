@@ -11,8 +11,7 @@ $title ="More male tourists seen in Singapore during CNY";
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="<?php IMAGE('news/more-male-tourists-seen-in-singapore-during-cny.png'); ?>" />
     <meta name="KEYWORDS" content="Location Data | SaaS products | Allspark | Attribution Analytics | Singapore Shoppers | Audience Analytics | Cross-Device Attribution | Chinese New Year | Consumer Insights | Smriti Kataria | Tourists Behavior | Locals Digital Behavior | Real-World Insights | Consumer Footprints " />
 </head>

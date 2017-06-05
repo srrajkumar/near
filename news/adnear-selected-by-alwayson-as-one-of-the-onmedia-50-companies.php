@@ -11,8 +11,7 @@ $title ='Near Selected by AlwaysOn as one of the OnMedia 50 Companies to Watch';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/OnMedia-50-Companies.png" />
 </head>
 	<body>

@@ -2,6 +2,8 @@
 $meta_title = 'Mobile Data Insights | QSR industry | Location Analytics | APAC | Near';
 $meta_desc = "This post tells you how location data help QSRs derive audience data at scale and enables them to create audience segments to target. Reach out to us to see how we can put our location intelligence to work for your company. ";
 $title ='How the QSR industry can leverage mobile data in APAC';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/how-the-qsr-industry-can-leverage-mobile-data-in-apac.png";
 ?>
 
 <!doctype html>

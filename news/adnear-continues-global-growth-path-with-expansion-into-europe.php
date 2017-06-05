@@ -11,8 +11,7 @@ $title ='Near continues global growth path with expansion into Europe';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:url" content="//www.near.co/news/adnear-continues-global-growth-path-with-expansion-into-europe.php" />
 	<meta property="og:image" content="http://near.co/images/news/ken.jpg" />
 </head>

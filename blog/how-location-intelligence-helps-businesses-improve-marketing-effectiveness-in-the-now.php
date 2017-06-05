@@ -1,6 +1,8 @@
-<?php include("../includes/_config.php");  $meta_title = 'Location Intelligence | Mobile Data | Consumer Insights | Marketing Effectiveness | Business Strategy ';
-$meta_desc = "This blog post explains how Location intelligence plays an optimal role in allowing enterprise and merchants to overcome previous market impossibilities. Reach us to know how we can put our location intelligence to work for your company.";
+<?php include("../includes/_config.php");  $meta_title = 'Location Intelligence | Mobile Data | Consumer Insights | Marketing Effectiveness | Business Strategy	';
+$meta_desc = "This blog post explains how Location intelligence plays an optimal role in allowing enterprise and merchants to overcome previous market impossibilities. Reach us to know how we can put our location intelligence to work for your company.	";
 $title ='How Location Intelligence Helps Businesses Improve Marketing Effectiveness In The Now';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/how-location-intelligence-helps-businesses-improve-marketing-effectiveness.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

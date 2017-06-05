@@ -12,6 +12,10 @@
 	<meta name="description" content="<?php echo $meta_desc; ?>">
 	<meta name="author" content="Near">
     <meta name="KEYWORDS" content="<?php echo $meta_keywords; ?>" />
+    <meta name="description" content="<?php echo $meta_desc; ?>" />   
+    <meta property="og:title" content="<?php echo $title; ?>" />
+    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+    <meta property="og:image" content="<?php IMAGE($meta_image); ?>" />
     <link rel="stylesheet" href="<?php CSS(); ?>" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CRoboto:100,300,400,500,700,900" rel="stylesheet">
     <script src="<?php JS('modernizr.js'); ?>"></script>

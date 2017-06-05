@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Near Blog | Cameron Curtis | Ambient Intelligence Platform";
+$meta_desc="Here you will find blogs from Cameron Curtis, General Manager, ANZ at Near on topics revolving around using ambient intelligence to understand consumer behaviour and trends in real-time, loction intelligence to measure attribution analytics, SaaS products to measure competitor insights, and also bridging the gap between digital and physical worlds.";
+$meta_keywords=" Ambient Intelligence Platform, location data, Cameron Curtis, Insights on Millennials, Consumer Intelligence, Insights on Automotive brands, QSR audiences, MCA Audiences, Affluent in Australia, Students in Australia, Professionals in Sydney, Audience Analytics, Attribution Analytics, Cross Screen analytics, SaaS product Allspark, Market Research, OOH Analytics";
 $title="Cameron Curtis"
 ?>
 <!doctype html>

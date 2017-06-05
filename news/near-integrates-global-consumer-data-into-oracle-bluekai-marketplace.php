@@ -11,8 +11,7 @@ $title ="Near Integrates Global Consumer Data into Oracle’s BlueKai Marketplac
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="<?php IMAGE('news/near-integrates-global-consumer-data-into-oracle-bluekai-marketplace.png'); ?>" />
     <meta name="KEYWORDS" content="Location Data, Consumer Insights, Audience Data, SaaS products, Location Analytics, Data-driven Marketing, Data-driven Decisions, Data Analytics, Consumer Analytics, Behavioral Data, Consumer Understanding, Data Integration, Location Intelligence, Oracle BlueKai Marketplace, Real-time Data, Real-time insights, Real-world data
 " />

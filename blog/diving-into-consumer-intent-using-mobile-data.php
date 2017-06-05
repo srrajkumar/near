@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'Examining Consumer Intent using Mobile Data | Near';
 $meta_desc = "Near is excited to dive into our mobile data which helps us determine consumer intent. With the right information and the right mobile marketing strategy, Near can help you!";
 $title ='Diving into consumer intent using mobile data';
+$meta_keywords="Mobile, Analytics, Insights, Data analytics, Consumer insights, Customer analytics, Mobile analytics, Mobile strategy";
+$meta_image="blog/Diving-into-consumer-intent-using-mobile-data.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

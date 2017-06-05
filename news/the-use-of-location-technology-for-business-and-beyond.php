@@ -12,8 +12,7 @@ $title ="The use of location technology for business and beyond";
 <head>
 	<?php include('../includes/_head.php'); ?>
 	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
-    <meta property="og:image" content="<?php IMAGE('news/the-use-of-location-technology-for-business-and-beyond.png'); ?>" />
+   
     <meta name="KEYWORDS" content="Location Data, Location Technology, Data-Driven Decisions, Location-based Marketing, Consumer Insights, Urban Planning, Traffic Patterns, Audience Data, IoT data, Augmented Reality, location Analytics, Data Analytics, Shobhit Shukla" />
 </head>
 	<body>

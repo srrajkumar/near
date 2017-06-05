@@ -11,8 +11,7 @@ $title ='Near raises US$19 million in Series B funding to accelerate global expa
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/Near-growth-infographic.jpg" />
 </head>
 	<body>

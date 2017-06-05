@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php");  
-$meta_title = ' Location Data Analytics | Real World Insights | Consumers | Attribution | Retail Analytics';
-$meta_desc = 'In this blog, Anil Mathews, Founder & CEO at Near discusses the "5 ways to use real-world insights and data analytics to engage with consumers visiting stores" for Retail marketers. Reach out to us to know how our location data and analytics work for your company.';
+$meta_title = ' Location Data Analytics | Real World Insights | Consumers | Attribution | Retail Analytics | Data Platforms | SaaS Products';
+$meta_desc = 'In this blog, Anil Mathews, Founder & CEO at Near discusses the "5 ways to use real-world insights and data analytics to engage with consumers visiting stores" for Retail marketers. Reach out to us to know how our location data and ambient intelligence platform work for your company.';
 $title ="5 ways to use real-world insights and data analytics to engage with consumers visiting stores";
+$meta_keywords="Retail Analytics, Location Data, Anil Mathews, Attribution Measurement, ROI Measurement, Retail marketers, Real-world Insights, Consumer Insights, Data Analytics, Consumer Analytics, SaaS products, Competitor insights, footfall, consumer journey, in-store proximity, in-store conversion, SaaS Products";
+$meta_image="blog/5-ways-to-use-real-world-insights-and-data-analytics-to-engage-with-consumers-visiting-stores.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

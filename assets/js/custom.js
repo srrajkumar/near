@@ -9,7 +9,7 @@ $(function(){
     }
         else {
             $('.navbar').removeClass('shrink');
-             $('.checkBox').removeClass('shrink');
+             $('.checkBox').addClass('shrink');
         }
     });
   function getCurrentScroll() {

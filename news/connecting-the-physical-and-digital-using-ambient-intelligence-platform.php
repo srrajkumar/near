@@ -11,8 +11,7 @@ $title ="Connecting the Physical and Digital using Ambient Intelligence Platform
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+	
 	<meta property="og:image" content="<?php IMAGE('news/connecting-the-physical-and-digital-using-ambient-intelligence-platform.png'); ?>" />
     <meta name="KEYWORDS" content="Ambient Intelligence, Data Products, Location Technology, Software, Location Data Analytics, Consumer Insights, SAAS Products, Machine Learning, Predictive Location Analytics, Cross-screen marketing, omni-channel marketing, Real World Audience Behavior, Attribution, ROI Measurement, Retail Analytics, Data-driven decisions, Connected Data, Smart Environments, Internet of Things, Mobile Data, Consumer Targeting, Consumer Journey, Footfall Analytics " />
 </head>

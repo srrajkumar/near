@@ -11,8 +11,7 @@ $title ='7 out of 11 auto brands in top 100,of Fortune 500 trust us to reach the
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/7-out-of-11-auto-brands-in-top-100-of-Fortune-500-trust-us-to-reach-their-target-customers.png" />
 </head>
 	<body>

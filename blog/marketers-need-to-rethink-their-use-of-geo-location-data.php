@@ -1,7 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'Geo-location Data | Consumer Insights | Attribution';
 $meta_desc = "Using geo-location for data driven marketing helps marketers optimize their spends. Near tells you how!";
 $title ='Marketers need to rethink their use of geo-location data';
-
+$meta_keywords="Data-driven Marketing Blog, Ambient Intelligence Platform, Marketing Blog, potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics        	";
+$meta_image="blog/Think.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

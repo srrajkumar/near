@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Near Blog | Smriti Kataria | Ambient Intelligence Platform";
+$meta_desc="Here you will find blogs from Smriti Kataria at Near on topics revolving around using ambient intelligence for enhanced consumer insights, location intelligence omni-channel marketing, cross-screen analytics to get a unified consumer view, SaaS products for real-time attribution analytics and much more.";
+$meta_keywords=" Ambient Intelligence Platform, location intelligence, Consumer Research, Consumer Insights, Consumer Intelligence for location-based audience targeting, Smriti Kataria, location-based marketing, audience insights, cross-screen marketing, omnichannel advertising, retail analytics, location analytics, cross screen analytics, OOH analytics";
 $title="Smriti Kataria"
 ?>
 <!doctype html>

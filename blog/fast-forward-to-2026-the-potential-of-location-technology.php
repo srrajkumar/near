@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'Tapping into the potential of location data in 2026 | Near';
 $meta_desc = "This blog post by Near will will take you through the role location technology will play in our daily lives and also for Governments, Healthcare & other various other sectors in ten years from now. Reach us to know what location data can do for meeting your long-term business goals.";
 $title ='Fast forward to 2026: the potential of location technology';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/fast-forward-to-2026-the-potential-of-location-technologies.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

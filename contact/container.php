@@ -5,7 +5,7 @@
   <div class="row" style="margin: 0;">
     <div class="col col-md-3">
       <div class="side-menu">
-        <ul class="list-group sidebar-nav-v1 nav nav-tabs">
+        <ul class="list-group sidebar-nav-v1 contact-nav nav-tabs">
           <li><a href="#"></a></li>
           <li class="list-group-item list-toggle active">
             <a href="#" target="_self">Contact Form</a>

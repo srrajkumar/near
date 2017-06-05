@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title=" Near Blog | Madhusudan Therani | Ambient Intelligence Platform";
+$meta_desc="Here you will find blogs from Madhusudan Therani, CTO at Near on topics revolving around technology, Near ambient intelligence platform, location data, location data accuracy, spend data, weather data, SaaS products, data products, mobile intelligence and much more.";
+$meta_keywords="Machine Learning, Artificial Intelligence, SaaS products, Data products, ambient intelligence platform, location intelligence, data platform, Madhusudan Therani, cross-screen marketing, location data accuracy, data cleansing, mobile data, data accuracy, consumer analytics, attribution measurement, location-based marketing";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

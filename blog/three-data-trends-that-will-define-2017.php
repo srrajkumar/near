@@ -1,7 +1,9 @@
 <?php include('../includes/_config.php');
-$meta_title = 'Three data trends that will define 2017 | Anil Mathews';
+$meta_title = 'Three data trends that will define 2017 | Anil Mathews | Near | Ambient Intelligence Platform';
 $meta_desc = "Anil Mathews, Founder & CEO at Near discusses the data trends that will go big in 2017 and what businesses needed to watch out for - Data Converging platforms, Adoption of AI as key highlights.";
+$meta_keywords ="Ambient Intelligence Platform, Data Products, Data Convergence, Mobile data, Wearables Data, IoT Data, Augmented Reality, Brand Marketers, Retailers, Retail, Retail Analytics, Location Analytics, Consumer Insights, Data Analytics, Anil Mathews,  Mobile Location, Audience Insights, Retail Data, Attribution Analytics, Data Fusion, Brand ROI";
 $title ='Three Data Trends that will Define 2017';
+$meta_image="blog/three-data-trends-that-will-define-2017.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

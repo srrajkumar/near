@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'Mobile data insights | Location based marketing | Consumer analytics | Marketers | Near';
 $meta_desc = "This blog post by Near explains how mobile location data help marketers get valuable consumer insights enabling them to create personalized consumer experiences. Reach us now to know how we can put our location data work for your company.";
 $title ='Beat Ad Blocking by Leveraging Mobile Data';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/beat-ad-blocking-by-leveraging-mobile-data.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

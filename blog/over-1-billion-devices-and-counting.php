@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php");  
-$meta_title = 'Mobile Data | Audience Profiling | Location Intelligence | 1 Billion+ Devices | Anil Mathews | Near';
+$meta_title = 'Mobile Data | Audience Profiling | Ambient Intelligence Platform | Location Intelligence | 1 Billion+ Devices | Anil Mathews | Near';
 $meta_desc = "In this latest blog, Anil Mathews, Founder and CEO talks about the Near platform, location data accuracy, audience profiling, scale at Near engineering and much more.";
 $title ='Over 1 billion devices, and counting';
+$meta_keywords="Data platform, SAAS data products, smart data, audience profiling, audience insights, location accuracy, wearables data, IoT data, location analytics, Consumer footprints, attribution analytics, ROI measurement, Engineering";
+$meta_image="blog/over-1-billion-devices-and-counting.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

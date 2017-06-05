@@ -11,8 +11,7 @@ $title ='Marketers Not Keeping Up In Mobile Race';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="<?php IMAGE('news/marketers-not-keeping-up-in-mobile-race.png'); ?>" />
 </head>
 	<body>

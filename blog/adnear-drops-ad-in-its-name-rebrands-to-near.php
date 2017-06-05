@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'AdNear is now Near | Real Time Consumer Insights | Near';
 $meta_desc = "Near no longer focuses on location data, we're now dealing with Real Time Consumer Insights. Because of this, we are proud to announce that AdNear is now known as Near";
 $title ="AdNear drops the ‘Ad’ in its name, rebrands to ‘Near’";
+$meta_keywords="Data-driven Marketing Blog, Ambient Intelligence Platform, Marketing Blog, potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Rebranding, Cross channel analytics";
+$meta_image="blog/AdNear-drops-the-ad.png";
  ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

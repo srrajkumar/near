@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'Mobile Data | Location Intelligence | Cross-channel Marketing | Near';
 $meta_desc = "Using mobile data to optimize your cross-channel marketing, Near tells how!";
 $title ='Harnessing the Power of Mobile Data for More Effective Cross-Channel Marketing';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics  ";
+$meta_image="blog/harnessing-power-mobile-data-more-effective-cross-channel-marketing.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

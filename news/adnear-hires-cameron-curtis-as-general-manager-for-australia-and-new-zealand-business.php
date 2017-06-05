@@ -11,8 +11,7 @@ $title ='Near hires Cameron Curtis as General Manager for its Australia & New Ze
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/Near-hires-Cameron-Curtis-as-General-Manager-for-its-Australia-NewZealand-business.png" />
 </head>
 	<body>

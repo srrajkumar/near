@@ -11,8 +11,7 @@ $title ='Latest Air Traveller Trends : Travellers in Mumbai are 14% higher engag
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/travellers.png" />
 </head>
 	<body>

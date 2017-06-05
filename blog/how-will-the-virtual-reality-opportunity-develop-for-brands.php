@@ -1,8 +1,9 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Virtual Reality | Ambient intelligence | Location Intelligence | Consumer Understanding | Brands	";
+$meta_desc="This blog post highlights the opportunities that virtual reality will develop for brands. Reach out to our experts to see how we can put our location intelligence work for your company.	";
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
 $title="How will the virtual reality opportunity develop for brands?"
+$meta_image="blog/how-will-the-virtual-reality-opportunity-develop-for-brands.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

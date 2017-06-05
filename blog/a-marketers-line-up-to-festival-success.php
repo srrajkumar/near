@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php");  
-$meta_title = 'Mobile Location Data | Glastonbury | Consumer Insights | Brand Engagement';
-$meta_desc = "This blog post highlights the four factors that brands need to incorporate into their strategy to create a perfectly tuned marketing mix during festivals and events. Leveraging consumer insights from mobile location data is the key to achieving marketing success.";
+$meta_title = 'Ambient Intelligence Platform | Location Data | Glastonbury | Consumer Insights | Brand Engagement	';
+$meta_desc = "This blog post highlights the four factors that brands need to incorporate into their strategy to create a perfectly tuned marketing mix during festivals and events. Leveraging consumer insights from mobile location data is the key to achieving marketing success.	";
 $title ='A marketer’s line-up to festival success';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel Analytics";
+$meta_image="blog/a-marketers-line-up-to-festival-success.png";
 ?>
 
 <<!doctype html>

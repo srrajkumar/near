@@ -11,8 +11,7 @@ $title ='Near moves into SEA, targets it as key growth region in APAC';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/Near-moves-into-SEA-targets-it-as-key-growth-region-in-APAC.png" />
 </head>
 	<body>

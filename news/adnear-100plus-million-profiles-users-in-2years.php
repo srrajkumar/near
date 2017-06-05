@@ -11,8 +11,7 @@ $title ='100+ million profiled users in 2 years. 2.1 billion location footprints
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="//near.co/images/news/near-minimal-graphic-1.jpg" />
 </head>
 	<body>

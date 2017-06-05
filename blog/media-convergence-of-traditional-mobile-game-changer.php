@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'The Lasting Impact of Media Convergence of Traditional and Mobile | Near';
 $meta_desc = "Near helps examine the Lasting Impact of Media Convergence of Traditional and Mobile advertising. Contact us to leverage our data and help your company!";
 $title ='Media Convergence of Traditional & Mobile : Game Changer?';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics  ";
+$meta_image="blog/bill-board.jpg";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

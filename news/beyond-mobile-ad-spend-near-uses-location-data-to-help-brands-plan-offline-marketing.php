@@ -11,8 +11,7 @@ $title ="Beyond Mobile Ad Spend: Near Uses Location Data To Help Brands Plan Off
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="<?php IMAGE('news/beyond-mobile-ad-spend-near-uses-location-data-to-help-brands-plan-offline-marketing.jpg'); ?>" />
 </head>
 	<body>

@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php"); 
-$meta_title = 'Location data | Consumer Insights | Mobile Location | Attribution | Australian Supermarkets';
-$meta_desc = "This blog post by Near highlights how consumer insights derived from location data can be used for customer acquisition and also to make intelligent business decision. Reach us today to leverage location data for making your business decisions.";
+$meta_title = 'Location data | Consumer Insights | Mobile Location | Attribution | Australian Supermarkets | Retail | Data Platforms	';
+$meta_desc = "This blog post by Near highlights how consumer insights derived from location data can be used for customer acquisition and also to make intelligent business decision. Reach us today to leverage location data for making your business decisions.	";
 $title ='How Australian supermarkets can acquire consumers using insights from location data';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/how-australian-supermarkets-can-acquire-consumers-using-insights-from-location-data.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

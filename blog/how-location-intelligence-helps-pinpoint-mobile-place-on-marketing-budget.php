@@ -1,6 +1,8 @@
 <?php include('../includes/_config.php');$meta_title = 'Location Intelligence to Determine Your Mobile Marketing Budget | Near';
 $meta_desc = "This post will examine how you should utilize Location Intelligence to Determine your Mobile Marketing Budget. Find out how Near can help you and contact us today!";
 $title ="How location intelligence helps pinpoint mobile’s place on the marketing budget";
+$meta_keywords="Mobile marketing, Mobile location services, Insights, Consumer insights, Location data, Mobile marketing strategy, Location insights, Location devices, Location based mobile advertising	";
+$meta_image="blog/The-Next-Wave-in-Mobile-Advertising.png";
 ?>
 
 <!doctype html>

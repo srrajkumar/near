@@ -425,13 +425,13 @@ text-align: center;color: #e21e27;font-size: 20px; position: relative;top: 10px;
 }
 .cd-testimonials li .cd-author-info{
   font-family: 'Roboto', sans-serif;
-    font-size: 12px !important;
+    font-size: 14px !important;
     color: #fff;
     font-style: italic;
-    line-height: 26px;
+    line-height: 22px;
     font-weight: normal;
     padding: 0;
-    margin-left: -150px;
+    
 }
 .cd-testimonials-wrapper {
   position: relative;
@@ -449,7 +449,7 @@ text-align: center;color: #e21e27;font-size: 20px; position: relative;top: 10px;
 }
 .cd-testimonials li {opacity:0 !important;}
 .cd-testimonials .cd-author li,.cd-testimonials li.flex-active-slide{opacity:1 !important;}
-.flex-viewport{overflow:  inherit !important;}
+
 
 
 

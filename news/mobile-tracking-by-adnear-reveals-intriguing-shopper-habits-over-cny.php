@@ -11,8 +11,7 @@ $title ='Mobile Tracking by Near Reveals Intriguing Shopper Habits Over Chinese 
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://www.near.co/images/news/cny-trends-2014.png" />
 </head>
 	<body>

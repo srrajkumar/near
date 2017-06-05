@@ -1,7 +1,9 @@
 <?php include('../includes/_config.php');
-$meta_title = 'Location Data Accuracy | Data Sources | Location Intelligence | Attribution';
-$meta_desc = " In 2016, understanding the implications of location data quality and the associated location intelligence is necessary for brands to make right business decisions. This blog post highlights how Near addresses the location data inaccuracy issue by also providing some tips for brands to follow.";
+$meta_title = 'Location Data Accuracy | Data Sources | Location Intelligence | Attribution  ';
+$meta_desc = " In 2016, understanding the implications of location data quality and the associated location intelligence is necessary for brands to make right business decisions. This blog post highlights how Near addresses the location data inaccuracy issue by also providing some tips for brands to follow.  ";
 $title ='Understanding the 3 Location Data conundrums';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics  ";
+$meta_image="blog/understanding-the-three-location-data-conundrums.jpg";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

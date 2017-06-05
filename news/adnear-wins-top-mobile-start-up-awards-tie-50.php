@@ -11,8 +11,7 @@ $title ='Near Wins Top Mobile Startup Award at TiE50, Silicon Valley';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://near.co/images/news/tie_near-14(2).jpg" />
 </head>
 	<body>

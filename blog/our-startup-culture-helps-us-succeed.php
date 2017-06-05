@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = 'How Our Startup Culture Helps Near Succeed | Near';
 $meta_desc = "Near is proud of our startup culture, and we firmly believe that it's one of the things that helps us succeed. Read more about our great culture here!";
 $title ='Our startup culture helps us succeed';
+$meta_keywords="Best Places to Work, Startup life, Fast Growing Companies	";
+$meta_image="blog/Our-startup-culture-helps-us-succeed.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

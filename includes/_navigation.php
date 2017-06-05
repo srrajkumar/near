@@ -1,4 +1,4 @@
-<nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay">
+<nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay fixed-top">
   <div class="container">
     <a class="navbar-brand" href="<?php echo SITE_URL; ?>">
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">

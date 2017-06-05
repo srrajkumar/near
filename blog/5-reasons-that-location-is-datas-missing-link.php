@@ -1,7 +1,10 @@
 <?php include("../includes/_config.php");  
-$meta_title = 'Mobile Location Data | OOH Advertising | Consumer Insights | Retail Analytics | Attribution Measurement';
+$meta_title = 'Location Data | OOH Advertising | Consumer Insights | Retail Analytics | Attribution Measurement | Cross-channel Analytics | Data Platforms';
 $meta_desc = "This blog highlights the key things that brands need to consider for effective location-based marketing and OOH advertising. Contact us to know how we can put our location data work for you.";
 $title ="5 reasons that location is data's missing link";
+
+$meta_keywords="Location Data, OOH Data, OOH Advertising, Consumer Insights, Media Planning, Location-based Marketing, Location Intelligence, Smriti Kataria, Retail Analytics, Offline Attribution, Attribution Measurement, Location Analytics, Digital Marketing, Traditional Marketing, Ambient Intelligence Platform, Cross-channel measurement";
+$meta_image="blog/5-reasons-that-location-is-datas-missing-link.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

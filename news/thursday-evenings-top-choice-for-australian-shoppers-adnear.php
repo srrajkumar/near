@@ -11,8 +11,7 @@ $title ='Thursday Evenings Top Choice for Australian Shoppers: Near';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://www.near.co/images/news/Thursday-Evenings-Top-Choice-for-Australian-Shoppers.png" />
 </head>
 	<body>

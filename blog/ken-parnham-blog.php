@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="Near Blog | Ken Parnham | Ambient Intelligence Platform";
+$meta_desc=" Here you will find blogs from Ken Parnham, General Manager, Europe at Near on topics revolving around using ambient intelligence to understand consumer dynamics in real-time, location intelligence for omni-channel marketing, cross-screen analytics to get a unified consumer view, SaaS products to measure attribution analytics, competitor insights, targeting consumers during Christmas and other festive seasons.";
+$meta_keywords="Ambient Intelligence, Spend data, Weather data, Location Intelligence, Location technology, Ken Parnham, Location Analytics, Consumer insights, Christmas, Targeting Audience, Cross-Channel Marketing, Audience Intelligence, Location Technology, Data Analytics, Offline Attribution, ROI Measurement, Retailers in London, Retail Analytics, Media Planning, Location-based audience targeting, Marketing Decisions";
 $title="Ken Parnham"
 ?>
 <!doctype html>

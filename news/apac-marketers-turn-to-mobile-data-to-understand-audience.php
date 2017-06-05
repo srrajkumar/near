@@ -11,8 +11,7 @@ $title ='APAC Marketers Turn to Mobile Data to Understand Audience';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="http://www.near.co/images/news/apac-marketers-turn-to-mobile-data-to-understand-audience.png" />
 </head>
 	<body>

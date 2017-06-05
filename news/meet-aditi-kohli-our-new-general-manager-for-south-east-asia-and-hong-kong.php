@@ -11,8 +11,7 @@ $title ='Meet Aditi Kohli, our new General Manager for South East Asia and Hong 
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="<?php IMAGE('news/meet-aditi-kohli-our-new-general-manager-for-south-east-asia-and-hong-kong.png'); ?>" />
     <meta name="KEYWORDS" content="Aditi Kohli, Ambient Data, Ambient Intelligence, SaaS Products, Data Platform, Data Products, Retail Analytics, Consumer Journeys, Consumer Analytics, Data-Driven Decisions, SEA Brands, SEA Enterprises, Attribution Analytics, ROI Measurement, Retail Analytics" />
 </head>

@@ -1,6 +1,9 @@
 <?php include("../includes/_config.php");  $meta_title = 'Experimenting With Drones for Data Collection | Near';
 $meta_desc = "Near is always looking for new methods of data collection, so they've begun experimenting with drones. Contact our experts to put our geo-data to work for you!";
 $title ='Experimenting With Drones For Data Collection';
+$meta_keywords="Insights, Business intelligence tools, Business intelligence technologies, Data driven marketing, Geo data, Location based marketing, Location intelligence, Location devices, Location insights  ";
+$meta_image="blog/pic1.jpg";
+?>
  ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

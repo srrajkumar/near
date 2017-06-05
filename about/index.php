@@ -94,8 +94,8 @@ $meta_keywords="";
   <script src="<?php JS('jquery.gridrotator.js'); ?>"></script>
     <script type="text/javascript"> 
 $(function() {
-      
-        $( '#ri-grid' ).gridrotator( {
+ 
+       $( '#ri-grid' ).gridrotator( {
           rows    : 2,
           columns   : 4,
           animType  : 'fadeInOut',
@@ -105,24 +105,21 @@ $(function() {
           w1024     : {
             rows  : 2,
             columns : 4
-          }
+          },
+          w320 : {
+            rows : 3,
+            columns : 4
+          },
+          w240 : {
+            rows : 3,
+            columns : 3
+          },
+          nochange : [0,1,2,3],
+          preventClick : false
         } );
       
       });
 
-
-      var $anchors = $('.icon-anim .icon_hover'), counter = 0;
-      setInterval(function(){
-        $anchors.removeClass('active');
-        $anchors.eq(counter++ % $anchors.length).addClass('active');
-
-      }, 3000);
-      $anchors.hover(
-        function () {
-          $anchors.removeClass('active');
-          $(this).addClass("active");
-      },
-      );
 
 function cycleImages(){
       var $active = $('#cycler .active');

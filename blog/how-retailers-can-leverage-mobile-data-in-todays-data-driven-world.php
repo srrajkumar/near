@@ -1,6 +1,8 @@
 <?php include('../includes/_config.php');$meta_title = 'Retailers | Mobile Data | Data-Driven Marketing | Near';
 $meta_desc = "Mobile Data helps you reach the right audience at the most relevant time. This blog post tells you, why you should consider Location Data for a successful marketing.";
 $title ='How Retailers Can Leverage Mobile Data in Today’s Data-Driven World';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/how-retailers-can-leverage-mobile-data-in-todays-data-driven-world.png";
 ?>
 
 <!doctype html>

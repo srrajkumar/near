@@ -1,6 +1,8 @@
 <?php include('../includes/_config.php');$meta_title = 'Location Analytics | Mobile Insights | Consumer Trends | MCA | Near';
 $meta_desc = "This post tells you how leveraging location intelligence will help you target your relevant audience at the right time and place during events. Contact us to know more. ";
 $title ='So, what happened at the Museum of Contemporary Arts (MCA) during Vivid Sydney this year?';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/mca-during-vivid-sydney-this-year.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

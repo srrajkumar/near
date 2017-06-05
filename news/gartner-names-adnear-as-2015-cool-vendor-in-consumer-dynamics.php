@@ -11,8 +11,7 @@ $title ='Gartner names Near as a 2015 Cool Vendor in Consumer Dynamics';
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
 	<meta property="og:image" content="http://www.near.co/images/news/Gartner-names-Near-as-a-2015-Cool-Vendor-in-Consumer-Dynamics.png" />
 </head>
 	<body>

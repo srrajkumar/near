@@ -1,6 +1,8 @@
 <?php include("../includes/_config.php");  $meta_title = '5 Things that will Shape Mobile Advertising in 2015 | Near';
 $meta_desc = "Near examines 5 things that will shape the future of mobile advertising in 2015. The massive reinvention of the mobile advertising landscape will continue to change, stay ahead of the game with Near!";
 $title ='5 Things that will Shape Mobile Advertising in 2015';
+$meta_keywords="Data analytics, Data analysis tools, Business analysis techniques, Marketing data, Mobile advertising platforms	 ";
+$meta_image="blog/mobileadtech.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

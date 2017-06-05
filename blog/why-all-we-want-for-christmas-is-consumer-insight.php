@@ -1,7 +1,10 @@
 <?php include('../includes/_config.php');
-$meta_title = 'Christmas | Retail Analytics | Consumer Insights | Footfall Attribution | Mobile Location Data';
-$meta_desc = " The latest blog by Ken Parnham, our GM for Europe highlights how location intelligence can help retailers with granular consumer insights, effective targeting campaigns, attribution measurement and much more this Christmas. ";
+$meta_title = 'Christmas | Retail Analytics | Consumer Insights | Footfall Attribution | Location Data | Data Platforms | SaaS Products';
+$meta_desc = " The latest blog by Ken Parnham, our GM for Europe highlights how location intelligence can help retailers with granular consumer insights, effective targeting campaigns, attribution measurement and much more this Christmas.";
 $title ='Why all we want for Christmas is consumer insight';
+
+$meta_keywords="Christmas shopping, Retail Analytics, Location Data, Consumer Insights, Attribution Analytics, ROI Measurement, Footfall, Consumer Footprints, Christmas Spending, Real-time Consumer Analytics, Location-based Marketing, Ambient Intelligence Platform";
+$meta_image="blog/why-all-we-want-for-christmas-is-consumer-insight.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

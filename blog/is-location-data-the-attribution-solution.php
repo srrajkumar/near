@@ -1,6 +1,8 @@
-<?php include("../includes/_config.php");  $meta_title = 'Mobile Location Data | Attribution | Digital Campaigns | Traditional and Digital Out of Home | Near';
-$meta_desc = "In this blog, Ken Parnham highlights the key role mobile location data plays in precise measurement of the impact marketing has on every channel - TV, Traditional and Digital OOH, Digital campaigns etc.";
+<?php include("../includes/_config.php");  $meta_title = 'Mobile Location Data | Attribution | Digital Campaigns | Traditional and Digital Out of Home | Near	';
+$meta_desc = "In this blog, Ken Parnham highlights the key role mobile location data plays in precise measurement of the impact marketing has on every channel - TV, Traditional and Digital OOH, Digital campaigns etc.	";
 $title ='Is Location Data the Attribution Solution?';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics	";
+$meta_image="blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for-enhanced-consumer-understanding.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

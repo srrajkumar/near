@@ -1,7 +1,9 @@
 <?php include("../includes/_config.php");  
-$meta_title = 'Location Intelligence | Mobile Location Data | Consumer Insights | Data Driven Targeting | Attribution Measurement | APAC Brands';
+$meta_title = 'Ambient Intelligence | Mobile Location Data | Consumer Insights | Data Driven Targeting | Attribution Measurement | APAC Brands';
 $meta_desc = "This blog post highlights the key points that brands in APAC should consider in today's data-driven world. Reach out to us to see how we can put our location data work for your brand.";
 $title ='5 Tips APAC Marketers Should Consider in Data-Driven Targeting';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, APAC Brands";
+$meta_image="blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->

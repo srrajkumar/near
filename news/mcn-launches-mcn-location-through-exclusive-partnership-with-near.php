@@ -1,5 +1,5 @@
 <?php include('../includes/_config.php');
-$meta_title = 'Mobile Location Intelligence | Location-based Marketing | MCN location launch through partnership with Near';
+$meta_title = 'Mobile Location Intelligence  | MCN location launch through partnership with Near';
 $meta_desc = "Multi Channel Network (MCN) launched MCN Location with a leading mobile location intelligence platform enabled by the exclusive Australian representation agreement with Near in Australia. Contact us today to see how we can put our location data work for your brand.";
 $title ="MCN Launches MCN Location through exclusive partnership with Near";
 ?>
@@ -11,8 +11,7 @@ $title ="MCN Launches MCN Location through exclusive partnership with Near";
 <html  lang="en">
 <head>
 	<?php include('../includes/_head.php'); ?>
-	<meta property="og:title" content="<?php echo $title; ?>" />
-    <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+
     <meta property="og:image" content="<?php IMAGE('news/mcn-launches-mcn-location-through-exclusive-partnership-with-near.png'); ?>" />
 </head>
 	<body>

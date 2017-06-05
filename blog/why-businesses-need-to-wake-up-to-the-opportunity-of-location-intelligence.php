@@ -2,6 +2,8 @@
 $meta_title = 'Location Intelligence | Mobile Data | IoT Data | Wearables Data | Marketing Strategy | Business Decisions';
 $meta_desc = "This blogpost by Near discusses the business opportunities of location intelligence. Contact us to see how we can put our location intelligence to work for your company.";
 $title ='Why businesses need to wake up to the opportunity of location intelligence';
+$meta_keywords="Mobile Marketing Blog ,potential technology, Location Data, Consumer Insights, Data Driven Targeting, Attribution Measurement, Global brands, OOH Analytics, Cross channel analytics";
+$meta_image="blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-intelligence.png";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
