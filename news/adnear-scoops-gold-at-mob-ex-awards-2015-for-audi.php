@@ -15,7 +15,9 @@ $title ='Near scoops Gold at the Mob-Ex Awards, 2015 for Audi: “The Art of Pro
 	<meta property="og:image" content="http://near.co/images/news/audi-mobile-ex.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -18,7 +18,9 @@ $meta_image="blog/why-all-we-want-for-christmas-is-consumer-insight.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -53,13 +55,13 @@ $meta_image="blog/why-all-we-want-for-christmas-is-consumer-insight.png";
 
 <p>Location intelligence can assist retail marketers in several ways this Christmas:</p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Piecing together the consumer journey</h2>
+<h4>Piecing together the consumer journey</h4>
 
 <p>By combining location data with multiple consumer data sources retailers can achieve a full picture of the consumer journey from research to purchase and beyond, which is essential at a time when shopping activity steps up a gear.</p>
 <p>Linking location footprints from mobile devices with unique device identifiers allows retailers to fill in the gaps and connect online and offline activity to gain a deeper understanding of consumer needs and shopping behaviour.</p>
 
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Accurately attributing sales</h2>
+<h4>Accurately attributing sales</h4>
 
 <p>The ability to trace consumers both on and off the digital map through location intelligence makes it far easier to accurately attribute conversions to specific marketing touchpoints.</p>
 
@@ -68,7 +70,7 @@ $meta_image="blog/why-all-we-want-for-christmas-is-consumer-insight.png";
 
 <p>The insights gained from attribution allow retailers to adjust and optimise their campaigns in real time to achieve the highest levels of marketing efficiency and performance during the peak shopping weeks.    </p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Identifying vital shopping moments</h2>
+<h4>Identifying vital shopping moments</h4>
 
 <p>Purchase decisions come thick and fast during the festive period, from deciding whether to buy turkey or beef for Christmas dinner to face cream or perfume for the mother-in-law.</p>
 
@@ -77,7 +79,7 @@ $meta_image="blog/why-all-we-want-for-christmas-is-consumer-insight.png";
 
 <p>This includes targeting consumers who are at competitor stores and intending to make a purchase, potentially luring them away with a discount or special offer.</p>
 
-<h2 style="text-align:left; font-size:18px;">Analysing competitor footfall</h2>
+<h4>Analysing competitor footfall</h4>
 
 <p>As well as gaining an insight into visitors to their own stores, retail marketers can use location intelligence to monitor other shopping locations and develop an understanding of what their competitors are doing.</p>
 
@@ -87,7 +89,7 @@ $meta_image="blog/why-all-we-want-for-christmas-is-consumer-insight.png";
 <p>Retailers can even use location intelligence to discover what is engaging competitors’ consumers and use this knowledge to enhance their own seasonal offering.</p>
 
 
-<h2 style="text-align: left; font-size: 18px; margin-bottom: 0px;">Maximising the merchandising mix</h2>
+<h4>Maximising the merchandising mix</h4>
 <p>Location intelligence allows retailers to understand who is buying what, when and where, and to make merchandising decisions in real-time to ensure they are making the most of current trends.</p>
 <p>This is particularly useful on specific festive shopping days such as Black Friday – which falls on 25 November this year – when the in-store merchandising mix has a huge impact on retail success and real-time adjustments can make all the difference.</p>
 <p>A successful festive shopping season can significantly boost a retailer’s annual profits, so leveraging new technologies to improve consumer engagement and enhance the shopping experience at this time of year is vital.</p>
@@ -173,79 +175,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

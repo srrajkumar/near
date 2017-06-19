@@ -64,7 +64,9 @@ $title="Careers";
 </head>
     <body class="careers-main">
       
-    <div class="preloader"></div>
+    <div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
     <?php include('../includes/_navigation.php'); ?>
         <div class="col-lg-12  k carousel-custom the-data" style="background-color: #fafafa; " data-particles='{"color":"#a2a2a2"}'> 
 <div class="banner-space container allspark-space" style="    height: 100px;"></div>
@@ -86,6 +88,38 @@ $title="Careers";
         <div class="grid-control">
 
 <div class="col-4">
+    <div class="feature-block career-background">
+     <div id="background_cycler2" class="feature-block_image" >
+                     <img class="active feature-block_image" src="<?php IMAGE('careers/snacks.png'); ?>" data-osrc="<?php IMAGE('careers/snacks.png'); ?>"  alt="">
+                    <img  src="<?php IMAGE('careers/gourmet-breakfast.png'); ?>" class="feature-block_image"  data-osrc="<?php IMAGE('careers/gourmet-breakfast.png'); ?>" alt="">
+                 <a class="bla-2" href="https://www.youtube.com/watch?v=NX5TvifOvv4"  style="z-index:4;"><img  src="<?php IMAGE('careers/nearvana.png'); ?>" class="feature-block_image"  data-osrc="<?php IMAGE('careers/nearvana.png'); ?>" alt=""></a>
+                </div>  
+    <div class="feature-block_content">
+                <div class="career-stock">
+                    <div class='feature-block_category sub-title'>Gourmet breakfast, lunches  &amp; snacks</div>
+                    <hr style="border-color:#fff;">
+                    
+                <figcaption class="feature-block_title">Enjoy a fully stocked kitchen and live counters for food. Get a glimpse of Nearvana.</figcaption>
+                </div>
+            </div>
+          
+          
+    </div>
+</div>
+<div class="col-4">
+    <div class="cta-block cta-block--bg-light career-best"  >	
+        <div class="cta-block_content current-open" style="text-align:center">
+            <div style="width:220px; text-align:center; display:inline-block">
+                <h3 class='cta-block_title' style="text-align:center"><br>We look for the best fit</h3>	
+                <hr style="border-color:#fff;">
+                <div class="button-container">
+                    <a href="#career-current" class="button" style="padding: 5px 12px;margin-left: 0px;">Current Openings</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<div class="col-4">
     <div class="feature-block career-background"><div class="feature-block_content">
                 <div class="career-work">
                     <div class='feature-block_category sub-title'> Good Work Equals  Work Vacation </div>
@@ -103,42 +137,11 @@ $title="Careers";
                     <img   src="<?php IMAGE('careers/vacation.png'); ?>"  alt="">
                    
                  
-                </div>	
+                </div>  
            
     </div>
 </div>
-<div class="col-4">
-    <div class="cta-block cta-block--bg-light career-best"  >	
-        <div class="cta-block_content current-open" style="text-align:center">
-            <div style="width:220px; text-align:center; display:inline-block">
-                <h3 class='cta-block_title' style="text-align:center">We look for the<br> best fit</h3>	
-                <hr style="border-color:#fff;">
-                <div class="button-container">
-                    <a href="#career-current" class="button" style="padding: 5px 12px;margin-left: 0px;">Current Openings</a>
-                </div>
-              </div>
-        </div>
-    </div>
-</div>
-<div class="col-4">
-    <div class="feature-block career-background">
-     <div id="background_cycler2" class="feature-block_image" >
-                     <img class="active feature-block_image" src="<?php IMAGE('careers/snacks.png'); ?>" data-osrc="<?php IMAGE('careers/snacks.png'); ?>"  alt="">
-                    <img  src="<?php IMAGE('careers/gourmet-breakfast.png'); ?>" class="feature-block_image"  data-osrc="<?php IMAGE('careers/gourmet-breakfast.png'); ?>" alt="">
-                 <a class="bla-2" href="https://www.youtube.com/watch?v=NX5TvifOvv4"  style="z-index:4;"><img  src="<?php IMAGE('careers/nearvana.png'); ?>" class="feature-block_image"  data-osrc="<?php IMAGE('careers/nearvana.png'); ?>" alt=""></a>
-                </div>	
-    <div class="feature-block_content">
-                <div class="career-stock">
-                    <div class='feature-block_category sub-title'>Gourmet breakfast, lunches  &amp; snacks</div>
-                    <hr style="border-color:#fff;">
-                    
-                <figcaption class="feature-block_title">Enjoy a fully stocked kitchen and live counters for food. Get a glimpse of Nearvana.</figcaption>
-                </div>
-            </div>
-          
-          
-    </div>
-</div>
+
 
 
 

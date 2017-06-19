@@ -15,7 +15,9 @@ $title ='Audience Insights for the Rugby World Cup, 2015';
     <meta property="og:image" content="http://www.near.co/images/news/audience-insights-rugby.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -18,7 +18,9 @@ $meta_image="blog/how-the-qsr-industry-can-leverage-mobile-data-in-apac.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -72,7 +74,7 @@ $meta_image="blog/how-the-qsr-industry-can-leverage-mobile-data-in-apac.png";
 <p>Frequency of visits also showed some clear patterns emerging. As suggested by the study, in Singapore, QSRs had as many repeat customers as Coffee Chains with 38% of the respondents visiting QSRs and 37% visiting Coffee Chains more than once a week.</p>
 <p>While Coffee Chains enjoy a steady stream of traffic in late afternoons and early evenings between 4pm-7ppm, QSRs tended to have high footfall during early and late evenings between 5pm to 10pm. Time poor segments such as professionals and students made up most of the visitors in this time band, coinciding with dinner time.</p>
 
-<h2 style="text-align:left; font-size:18px;">Make the most of collected location data</h2>
+<h4>Make the most of collected location data</h4>
 <p>Understanding preferences and behaviours of the brand’s audiences that are locationally aware, of existing and potential customers provides brands actionable intelligence. This in turn leads to better decision making and developing a cohesive, effective marketing strategy. For example:</p>
 <ul class="listing">
 	<li>Finding – Starbucks saw the highest footfall in Indonesia, followed by Hong Kong and Thailand  
@@ -106,7 +108,7 @@ $meta_image="blog/how-the-qsr-industry-can-leverage-mobile-data-in-apac.png";
 </ul>
 <p>At a broader level, relevant consumer insights also help brands to identify new markets and locations with higher potential, based on the population segments they cater to.</p>
 
-<h2 style="text-align:left; font-size:18px;">Conclusion</h2>
+<h4>Conclusion</h4>
 <p>QSRs need to keep pace with relevant consumer trends and fine-tune their marketing and media strategies to implement successful campaigns. Marketers should definitely consider leveraging the data that mobile has to offer, of which location related data forms a subset, to stay relevant for their audiences. Armed with such insight, QSRs can further tailor their offerings to attract attention from those profiles they have yet to target, and also make broader business decisions.</p>
 <p>It is evident that location intelligence becomes an essential asset in determining their next step, marketing strategies and customer outreach. Location intelligence has proved to be an indispensable asset to brands, offering them a deeper look into the minds and behaviour of audience.</p>
 <p>Published in <a href="http://www.marketing-interactive.com/qsr-industry-leveraging-mobile-data-apac/" target="_blank">Marketing Interactive</a>.</p>
@@ -187,79 +189,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
 
   </body>

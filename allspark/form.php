@@ -51,6 +51,7 @@
 
 		  return false;
 		 }
+        
 		var country = document.getElementById( "country" );
 			
 		 if( country.value == "" )
@@ -102,6 +103,8 @@
                                                  <p id="error_email" ></p>
                                                 <input id="phone" type="text" name="phone" placeholder="Phone Number"  class="form-control"> 
                                                  <p id="error_phone" ></p>
+                                                  <input id="contact_reason" type="text" name="contact_reason" required style="margin-bottom: 15px;" placeholder="How did you find us"  class="form-control"> 
+                                            
                                                 <input id="country" type="text" name="country" placeholder="Country" class="form-control"> 
                                                  <p id="error_country" ></p>
                                                  

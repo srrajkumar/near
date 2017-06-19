@@ -15,7 +15,9 @@ $title ='7 out of 11 auto brands in top 100,of Fortune 500 trust us to reach the
 	<meta property="og:image" content="http://near.co/images/news/7-out-of-11-auto-brands-in-top-100-of-Fortune-500-trust-us-to-reach-their-target-customers.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

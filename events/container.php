@@ -35,7 +35,14 @@
                             <a class="event-link" href="#">Meet us here</a>
                         </div>
                     </div>  
-                      
+                      <div class="mix europe event-container map-open button" data-map-overlay=".map-overlay" onclick="SetPage('<?php echo SITE_URL; ?>events/form.php?link=Total Telecom');" >
+                    <div class="image-box"><a class="link-event" href="https://www.eventbrite.co.uk/e/opportunities-offered-by-asias-digital-transformation-tickets-32893759119" target="_blank"><p><img src="<?php IMAGE('events/total-telecom.png'); ?>" width="80" height="80" alt=""/></p></a></div>
+                        <div class="event-holder">
+                            <span class="event-date">28 JUN 2017 • London </span>
+                            <span class="event-name">Total Telecom </span>
+                            <a class="event-link" href="#">Meet us here</a>
+                        </div>
+                    </div>   
                   <div class="mix apac event-container map-open button" data-map-overlay=".map-overlay" onclick=" SetPage('<?php echo SITE_URL; ?>events/form.php?link=MRMW Asia-Pacific 2017');">
                     <div class="image-box"><a class="link-event" href="http://apac.mrmw.net/" target="_blank"><p><img src="<?php IMAGE('events/mrmw-apac.png'); ?>" width="80" height="80" alt=""/></p></a></div>
                         <div class="event-holder">

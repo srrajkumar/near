@@ -1,7 +1,7 @@
 <?php include('../includes/_config.php');
-$meta_title="";
-$meta_desc="";
-$meta_keywords="";
+$meta_title="About Near | Leadership | Culture | Investors & Board | Newsroom | Blogs | Events | Careers | Contact";
+$meta_desc="Near is an Ambient Intelligence Platform providing real-time information on places, people and products. The Near platform processes massive data from smart environments to understand consumer behaviour at a global scale. Contact us at https://near.co/contact/ to know more.";
+$meta_keywords="Ambient intelligence, Location intelligence, Data products, Data analytics, Consumer insights, Location-based targeting, Offline attribution, Attribution measurement, ROI measurement, Brands and Enterprise, SAAS product, Retail Analytics, Telco insights, Data convergence, Consumer dynamics, Data driven marketing, Cross-screen data, Spend data, CRM Onboarding, OOH Analytics, Omni-channel Marketing, Smart Environments, Near Culture, Near.co Careers, Enterprise Technology, SaaS Software, SaaS platforms";
 ?>
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
@@ -86,7 +86,9 @@ $meta_keywords="";
 
 </head>
 <body  class="the-data">
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 	<?php include('container.php'); ?>
 	<?php include('../includes/_footer.php'); ?>

@@ -15,7 +15,9 @@ $title ='Mobile activity surges in Hong Kong between 5 pm to 7 pm: Near &rsquo;s
 	<meta property="og:image" content="http://www.near.co/images/news/Mobile-activity-surges-in-Hong-Kong-between-5-pm-to-7-pm-Location-Intelligence-study.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

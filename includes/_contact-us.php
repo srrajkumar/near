@@ -1,29 +1,29 @@
 <div class="contact-us">
      <div class="container spacing_margin text-center" >
      <div class="text_center">
-    	<h1 data-aos="fade-up" data-aos-delay="200" style="display: inline-block;">GLOBAL PRESENCE</h1>
-    	<p style="margin-bottom:0px; display: inline-block; vertical-align: bottom;" class="contact-liner" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="600"><a class="effect effect-1" href="<?php echo SITE_URL; ?>contact" style="margin-left: 20px;" title="Contact Us">Contact Us</a></p>
+    	<h1 data-aos="fade-up" data-aos-delay="50" style="display: inline-block; margin-bottom: 0; vertical-align: middle;">GLOBAL PRESENCE</h1>
+    	<p style="margin-bottom:0px; display: inline-block; vertical-align: middle;" class="contact-liner" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="100"><a class="effect effect-1" href="<?php echo SITE_URL; ?>contact" style="margin-left: 20px; margin-top:10px;" title="Contact Us">Contact Us</a></p>
       </div>
-    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
+    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="150"></span>
       
     	<div class="row" style="margin-top: 30px;">
-    	<div class="col-sm-12" data-aos="fade-up" data-aos-delay="600">
-    	<div class="loc-dots usa"><div class="pulse"></div></div>
+    	<div class="col-sm-12" data-aos="fade-up" data-aos-delay="200">
+    	<div class="loc-dots usa c-active"><div class="pulse"></div></div>
                             <div class="loc-dots usa-ny"><div class="pulse"></div></div>
                             <div class="loc-dots uk"><div class="pulse"></div></div>
                             <div class="loc-dots india"><div class="pulse"></div></div>
-                            <div class="loc-dots singapore c-active"><div class="pulse"></div></div>
+                            <div class="loc-dots singapore"><div class="pulse"></div></div>
                             <div class="loc-dots japan"><div class="pulse"></div></div>
                             <div class="loc-dots australia"><div class="pulse"></div></div>
-                            <div class="contact-location singaporeloc loc-active">
-                            	<h2>Singapore <span class="mobile">(Headquarters)</span></h2>
+                            <div class="contact-location singaporeloc">
+                            	<h2>Singapore</h2>
                                 <p>Near Pte. Ltd.<br>
                                    #36-30/32, UOB Plaza 1 <br>
                                    80 Raffles Place<br>
                                    Singapore 048624.<br>
                                   </p>
                             </div>
-                            <div class="contact-location usaloc">
+                            <div class="contact-location usaloc loc-active">
                             	<h2>San Francisco</h2>
                                 <p>Near Americas Inc.<br>228 Hamilton Ave, 3<sup>rd</sup> Floor<br>
                                 Palo Alto, CA 94301. <br>                               
@@ -63,6 +63,7 @@
                                   Sydney NSW 2000.<br>
                                   </p>
                             </div>
+                            <div class="contact-location ipad_fix"></div>
     		<svg version="1.1" x="0px" y="0px" viewBox="0 0 723 365" xml:space="preserve" class="map-anim">
             <style type="text/css">
                 .map-dots{fill:#adadad;}

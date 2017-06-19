@@ -15,7 +15,9 @@ $title ='Holiday Insights: Near reveals shift in consumer footprints over the fe
     <meta property="og:image" content="<?php IMAGE('news/near-reveals-shift-in-consumer-footprints-over-the-festive-season.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

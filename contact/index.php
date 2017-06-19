@@ -19,8 +19,10 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
 </style>
 </head>
 <body  class="the-data">
-<div class="preloader"></div>
-	<nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay">
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
+<nav class="navbar navbar-toggleable-md s-header js__header-sticky js__header-overlay fixed-top">
   <div class="container">
     <a class="navbar-brand" href="<?php echo SITE_URL; ?>">
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 491.1 145.6" xml:space="preserve">
@@ -61,6 +63,7 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
      
     </nav>
      <!-- Overlay -->
+     <div class="test-menu">
 <div class="checkBox">
   
       <div class="burger-box">
@@ -71,6 +74,10 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
     </div>
  
 <div class="slide-menu">
+<p class="lang-button">
+  <a target="_blank" class="eng active" href="<?php echo SITE_URL; ?>">EN</a>
+  <a target="_blank" href="http://jp.near.co" style="display: inline-block; padding-left:0px;">JP</a>
+  </p>
    <ul class="cd-navigation">
       <li class="item-has-children">
         <a href="#0">Allspark <hr/></a>
@@ -132,12 +139,11 @@ $meta_keywords="Near Offices, Near Culture, Connected Data, Connected Environmen
           <a target="_blank" href="<?php echo TWITTER_ACCOUNT_URL ; ?>"><i class="fa fa-twitter"></i></a>
           <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
           <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
-          <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><!--i class="fa fa-youtube"></i--><img src="<?php IMAGE('youtube-icon.png'); ?>" style="width: 17px; height: auto;" /></a>
+          <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><img src="<?php IMAGE('youtube-icon.png'); ?>" style="width: 17px; height: auto;" /></a>
           </p>
        </div> <!-- socials -->
   </div>
-
-
+</div>
 
 
 

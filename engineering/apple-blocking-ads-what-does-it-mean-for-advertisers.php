@@ -16,7 +16,9 @@ $title = "Apple blocking Ads - What does it mean for Advertisers?";
     <meta name="KEYWORDS" content="Data analytics, Data analysis tools, Business analysis techniques, Marketing data, Mobile advertising platforms" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('_banner.php'); ?>
 <div class="view" style=" background-color:#eceeef">

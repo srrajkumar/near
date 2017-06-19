@@ -20,7 +20,9 @@ $meta_image="kyc/chelsea.png";
    <link rel="stylesheet" href="<?php CSS_PATH('social-buttons.css');?>">	
  </head>
 		<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('kyc-banner.php'); ?>
 	<div class="view newsroom" style="margin: 50px 0 100px 0;">

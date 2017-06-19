@@ -42,7 +42,9 @@ $meta_keywords="Near Engineering, data platform, data products, location intelli
 </style>
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	
 		<!-- BEGIN: Top menu -->
 			<?php include('../includes/_navigation.php'); ?>

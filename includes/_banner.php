@@ -21,7 +21,7 @@
 		<div class="banner-space container"></div>
 		<div class="container banner-content">
 		<div><span>The platform processing</span></div>
-		<div><span class="red">Massive Data</span></div>
+		<div><span class="red">Ambient Data</span></div>
 		<div><span>to understand consumers</span></div>
 		<div><span>in Smart Environments</span></div>
 <div><hr class="line_break" /></div>

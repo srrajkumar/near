@@ -2,7 +2,7 @@
 <div class="container board  " style="margin-bottom:50px;">
 <div class="space"></div>
 
-<div class="row">
+<div class="row board_page">
       <div class=" col-md-6">
          <div class="col-md-12 margin-bottom" style="padding:0">
          <div style="overflow: hidden">

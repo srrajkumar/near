@@ -16,7 +16,9 @@ $meta_image="blog/all-i-want-for-christmas-is-retail-analytics.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -46,13 +48,13 @@ $meta_image="blog/all-i-want-for-christmas-is-retail-analytics.png";
 
 <p>Looking back at retail performance in the previous years, what should local retailers expect in terms of consumer footfall this festive season? Can they expect a short but significant respite from the slumping sales during these traditionally shopping-heavy months? What can retailers learn from Singapore’s shopping patterns?</p>
 
-<h2 style="font-size:18px; text-align:left; margin-bottom: 0px;">What does the data say?</h2>
+<h4>What does the data say?</h4>
 <p>There are both positive and negative signs to be found in the data. The vacancy rates for retail centres seem to be plateauing, and consumers are beginning to establish patterns that could indicate retail growth during the forthcoming 2016 festive shopping season.</p>
 <p>However, in June, 2016, during the Great Singapore Sale, retailers saw a decrease of 3 per cent in sales compared with the same month last year. And monthly gross rents for retail shops slipped by 1.2 per cent in the third quarter of the year.</p>
 <p>Consumer footfall in Singapore has always remained a strong indicator of buyer behaviour. Comparing consumer footfall data during the Great Singapore Sale of 2015 and 2016 bears both good and bad news for retailers. Data from Near showed a 58 per cent decline in footfalls of 18-25-year-old shoppers, while shoppers in the 36+ age group fell by 17 per cent year-on-year. Shoppers in the age range of 26-35 saw an uptick in retail traffic, indicating that retailers may need to take a closer look at this segment. Based on the latest report by Telstra Global, millennials are the great ‘Spenders’. The ratio of Millennials ‘Spenders’ to ‘Savers’ is 2:1, highlighting the opportunities this group presents to retailers.</p>
 <p>Overall, the figures highlight that Singapore shoppers as a whole are shopping significantly much less. Why is this the case and what can be done to mitigate the impact of this trend?</p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">The Great Singapore Shift?</h2>
+<h4>The Great Singapore Shift?</h4>
 
 <p>One plausible reason could be that both retailers and consumers alike have shifted online. According to findings from a 2014 survey by PayPal, online shopping in Singapore has grown 38 per cent per year from 2011. The millennials in specific are contributing to this shift by shunning away from the traditional brick-and-mortar outlets.</p>
 
@@ -63,7 +65,7 @@ $meta_image="blog/all-i-want-for-christmas-is-retail-analytics.png";
 
 <p>Moving forward, marketers must have specific strategies targeting specific demographics. Understand your consumers’ preferences, influencers, and spending patterns by knowing what is important to them in terms of payment methods, spend habits, and preference towards any category and brands. Mobile data, particularly location data, can help in understanding the different demographics and their interests. Furthermore, marketers need to use the channel that has proven successful to specific consumer demographics while measuring impact and improving outreach to the consumer.</p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Strategy, strategy, strategy</h2>
+<h4>Strategy, strategy, strategy</h4>
 
 <p>So how can retailers mitigate the impact of slumping sales amidst these disruptive digital trends? Marketers need to continually innovate and rethink their business models while developing new strategies that are in line with current shopper trends.</p>
 <p>A healthier targeted marketing approach will result in better impact, shifting the approach so that they are targeting the demographics who are visiting brick-and-mortar locations. Data points that help you better understand your audience is the key to providing valid consumer-habit statistics. Using marketing automation, retailers can capture information to build rich profiles about their consumers and the consumer purchase journey. Rich data can be translated into consumer use cases and be used to build buyer personas.</p>
@@ -71,7 +73,7 @@ $meta_image="blog/all-i-want-for-christmas-is-retail-analytics.png";
 <p>If taking omni-channel approach is expensive, you can leverage insights from data convergence. Fuse social and mobile data streams to get granular insights on consumers shopping preferences and to drive walk-ins. Gather historical, digital, lifestyle, transactional, and even real-time, location-based consumer data that helps you understand your consumers’ preferences on a more intimate level. Create data-driven marketing campaigns that speak to a consumer’s individual needs.</p>
 
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Watch this (retail) space</h2>
+<h4>Watch this (retail) space</h4>
 <p>By better understanding spending patterns, and buying influencers such as social media and word of mouth, we can begin to understand what gets the most valuable reaction. By discovering the shopping patterns specific to your brand, a retailer can make more finite marketing decisions this Christmas.</p>
 
 
@@ -153,79 +155,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

@@ -16,7 +16,9 @@ $title ="The hot topics dominating Cannes Lions 2016";
     <meta property="og:image" content="<?php IMAGE('news/the-hot-topics-dominating-cannes-lions-2016.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -17,7 +17,9 @@ $meta_image="blog/4-ways-data-products-are-redefining-brand-interactions.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -41,16 +43,16 @@ $meta_image="blog/4-ways-data-products-are-redefining-brand-interactions.png";
 											</div>
 											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Brands today collect multiple data points across consumer interactions, ranging from key promotional events and social comments to consumer whereabouts and inquiries. One of the key challenges faced by brands and enterprises is to fuse these multiple data streams in real-time and act on them. Overcoming this challenge would redefine how brands interact with their consumers using data today. Here is how:</p>
-<h2 style="font-size:18px; text-align:left;">1. A power shift</h2>
+<h4>1. A power shift</h4>
 <p>When brands have a self-serve platform, the ability to collect and fully analyze multiple data sets like demographics, social, location, interest, point-of-sales, and CRM moves to brands and enterprises, giving them control. They now have the power to define the who, what, when, and where of data and get the consumer insights they want. They’re able to conduct their own A/B tests to distinguish the business strategies that work, from the ones that don’t. This also gives them the ability to optimize their decisions without waiting on or working with any data service provider. They can do all the analysis themselves in an affordable, easy and timely manner, allowing them to make decisions much more quickly, and with the most relevant and up-to-date information.</p>
 
-<h2 style="font-size:18px; text-align:left;">2. Access to fresh data</h2>
+<h4>2. Access to fresh data</h4>
 <p>Real-time data is much more useful to brands than historical data because it shows the most recent trends and customer preferences. By keeping up with these ever-changing preferences, brands are able to respond more quickly to shifts in trends and provide customers with exactly what they want. Action on fresh data also results in better conversions, and hence better sales. Brands and enterprises with access to the freshest data definitely have an edge over their competitors.</p>
 
-<h2 style="font-size:18px; text-align:left;">3. Data transparency</h2>
+<h4>3. Data transparency</h4>
 <p>When brands have control of their data, everything becomes very transparent including spends. They have access to all of the information coming in, from raw data to established public data sets. They can create, visualize, and analyze any of these data sets, act on them, and see what works for them. When consumer reports can be accessed any time, brands can make faster changes in their marketing strategies and also rethink their business strategies if need be.</p>
 
-<h2 style="text-align:left; font-size:18px;">4. Digitizing brand data</h2>
+<h4>4. Digitizing brand data</h4>
 
 <p>Brands could bring their own data like CRM data and more to the table, mixing it with other data sets in order to gather powerful insights. With multiple data sets and, thus, more relevant information at hand, businesses can make more informed decisions. Currently, brands work with different products and providers for different data sets, and this prevents them from getting a complete consumer picture. With the convergence of the brand’s first-party data and other data sets like consumer location, business strategies can be consolidated.</p>
 
@@ -144,79 +146,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

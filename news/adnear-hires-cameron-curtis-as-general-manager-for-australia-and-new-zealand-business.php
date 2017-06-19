@@ -15,7 +15,9 @@ $title ='Near hires Cameron Curtis as General Manager for its Australia & New Ze
 	<meta property="og:image" content="http://near.co/images/news/Near-hires-Cameron-Curtis-as-General-Manager-for-its-Australia-NewZealand-business.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -17,7 +17,9 @@ $title ='Start-up of the week: Location intelligence platform Near';?>
     <meta property="og:image" content="http://www.near.co/images/news/startup-of-the-week.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

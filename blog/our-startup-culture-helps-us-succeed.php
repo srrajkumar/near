@@ -16,7 +16,9 @@ $meta_image="blog/Our-startup-culture-helps-us-succeed.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -54,7 +56,7 @@ $meta_image="blog/Our-startup-culture-helps-us-succeed.png";
 <div style="display:block; clear:both;"><p>I love what Reed Hastings of Netflix said <span class="quotes"><span class="q-one"></span>lets make the company we <br> always dreamed of,<span class="q-two" style="right:-2px;"></span></span><br>and that’s what sets the foundation of our culture.
 </p>
 </div><br><br>
-<h2  style="font-size:18PX; font-weight:600;">Our culture code is not only who we are but who we want to be.</h2>
+<h4>Our culture code is not only who we are but who we want to be.</h4>
 <strong style="color:#000000">Here’s the culture code of Near:</strong>
 <ul class="listing" >
 <li>Believe in Freedom & Responsibility </li>
@@ -148,79 +150,6 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
-
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
   </body>
 </html>

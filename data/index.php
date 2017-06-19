@@ -16,7 +16,9 @@ $meta_keywords="Ambient intelligence, Location intelligence, Data products, Data
 
 </head>
 <body  class="the-data">
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 	<?php include('container.php'); ?>
 	<?php include('../includes/_footer.php'); ?>

@@ -15,7 +15,9 @@ $title ="Frost & Sullivan recognises Near as the Location-based Intelligence Ent
     <meta property="og:image" content="<?php IMAGE('news/frost-and-sullivan-recognises-near-as-the-location-based-intelligence-entrepreneurial-company-of-2016.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

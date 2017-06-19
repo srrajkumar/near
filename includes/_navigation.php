@@ -38,7 +38,8 @@
     </div>
      
     </nav>
-     <!-- Overlay -->
+    
+    <div class="test-menu">
 <div class="checkBox">
   
       <div class="burger-box">
@@ -49,6 +50,10 @@
     </div>
  
 <div class="slide-menu">
+<p class="lang-button">
+  <a target="_blank" class="eng active" href="<?php echo SITE_URL; ?>">EN</a>
+  <a target="_blank" href="http://jp.near.co" style="display: inline-block; padding-left: 0px;">JP</a>
+  </p>
    <ul class="cd-navigation">
       <li class="item-has-children">
         <a href="#0">Allspark <hr/></a>
@@ -111,8 +116,10 @@
           <a target="_blank" href="<?php echo FACEBOOK_ACCOUNT_URL ; ?>"><i class="fa fa-facebook"></i></a>
           <a target="_blank" href="<?php echo LINKEDIN_ACCOUNT_URL ; ?>"><i class="fa fa-linkedin"></i></a>
           <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><!--i class="fa fa-youtube"></i--><img src="<?php IMAGE('youtube-icon.png'); ?>" style="width: 17px; height: auto;" /></a>
+           
           </p>
+
        </div> <!-- socials -->
   </div>
 
-
+</div>

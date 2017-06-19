@@ -17,7 +17,9 @@ $title ='Near’s Shopper Insights reveals Singapore’s hot spots during The Gr
 	<meta property="og:image" content="http://www.near.co/images/news/gss.jpg" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

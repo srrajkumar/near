@@ -17,7 +17,9 @@ $meta_image="blog/how-location-data-can-help-urban-planners-in-their-smart-city-
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -50,17 +52,17 @@ $meta_image="blog/how-location-data-can-help-urban-planners-in-their-smart-city-
 <p>The Singapore government has emerged as a leader in utilizing this data to not only build smart cities but an entire smart nation. Singapore is home to more than 5.6 million people, but they are living in an area smaller than most U.S. cities. Their needs are going to be very different from those who live in less dense areas. With constant humidity and a large annual rainfall, Singapore has unique needs that have to be taken into account. This is why the government has created a concept plan that continues to be updated. The result: a carefully managed smart city that meets its residents' needs like few others. </p>
 <p>Specifically, planners will need to collect and analyze location data of residents in the area in order to understand their needs before development of a smart city begins. They will require much more careful planning than common cities because they’re more than just a place where people live. By gathering data from residents’ mobile devices, computers, wearables, and even social media databases, urban planners will be able to see how people are distributed, which plays directly into their needs. This data can be used by more than just urban planners—retailers, financial institutions, and many other industries to understand where demand for products and services is high, allowing them to find the best location for their business.</p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Location Intelligence for Urban Planning </h2>
+<h4>Location Intelligence for Urban Planning </h4>
 
 <p>Real world planning will require real world data. The ecosystem around us is evolving and burgeoning with consumer data.  For instance, we can leverage consumer movement data from mobile and navigation devices to assess traffic movement - to decide where to widen lanes or install new traffic lights. The data gathered can give insights into where new parking lots should be constructed, which areas are likely to be congested at any given time, and much more.  Location data can even be collected in real time, allowing city planners to prepare for contingencies and attain faster response times. This data can provide powerful insights into where new facilities should be built to optimize for people movement - for instance hospitals, fire stations, schools etc. </p>
 <p>With this information in hand, planners are able to better create a city where residents have fewer delays and face fewer crowds on a daily basis. Data can impact everything from transportation, pollution control, waste management to land usage. In our experience of working with few city planners, by looking at where consumers prefer to shop, when they shop, where they work and live, and what types of services they are looking for, planners can determine if a particular area should be developed as a commercial, residential, or industrial zone. The real time data from Near enables them to look at when public transportation is utilized the most, allowing them to carefully place new stations or improve the transportation options that are the most popular. </p>
 
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Urban Planning and Smart Cities</h2>
+<h4>Urban Planning and Smart Cities</h4>
 
 <p>By predicting traffic congestion, shopping needs, living preferences, and much more, urban planners can make use of location data to carefully design and implement smart cities.  Location data can be incorporated into every step of development, from the first rough plans to the final construction to the city’s regular updates and additions.  As Singapore has proven, having an evolving city plan is necessary to meet the ever-changing needs of its residents. </p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">The Way Forward</h2>
+<h4>The Way Forward</h4>
 
 <p>Location data has a huge amount of potential in city planning and in a number of other industries.  By using this information to determine what people need, the smart cities of tomorrow will be safe, secure, and will make life easier for the residents. Singapore has proven that leveraging location data is the key to better city development and the creation of smart cities.</p>
 
@@ -142,79 +144,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

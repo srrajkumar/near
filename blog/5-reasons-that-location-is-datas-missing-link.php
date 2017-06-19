@@ -18,7 +18,9 @@ $meta_image="blog/5-reasons-that-location-is-datas-missing-link.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -48,25 +50,25 @@ $meta_image="blog/5-reasons-that-location-is-datas-missing-link.png";
 
 <p>Brands and OOH media companies can use this intelligence and act on it. Here is how: </p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Choose the right OOH site </h2>
+<h4>Choose the right OOH site </h4>
 
 <p>Brands are able to use location data in different planning stages of a marketing campaign to determine where to engage certain audiences. For example, thanks to data obtained from mobile devices, a brand might determine that many sports fans in certain cities take the subway to the stadium. Hence, targeting them in subway cars and at stations near the stadium would be very effective, but only during the sports season. </p>
 
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Get granular audience insights</h2>
+<h4>Get granular audience insights</h4>
 
 <p>Brands could then “follow” the target audience and understand their digital and real world interests. Brands may discover that sports fans check a lot of news when online, especially between 3 and 4 pm, and spend their weekends in sports bars. They also eat out in specific neighbourhoods, and listen to music in late evenings. On an average day, during their commute to work, these sports fans pass through 45 prominent OOH media sites. Brands can also understand how often these sports fans are in the vicinity of their stores, and when they actually walk-in and make a purchase. All these insights, when clubbed together would tremendously help map the consumer journey. </p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">Understand who is buying from your competitor</h2>
+<h4>Understand who is buying from your competitor</h4>
 
 <p>With the rich pool of location and audience data, brands can also get insight into the kind of consumers that buy from your competitors, and may discover a segment they would have overlooked. Are you reaching out to this demographic? Should you? Is it a good idea to place ads in the areas around your competition to try to steal these consumers away? Or is it better if you target them in places where this audience spends more time? You can also use these data analytics to get an idea of the kind of audience your competition is focusing on with their current choice of sites. </p>
 
-<h2 style="text-align:left; font-size:18px;">Continue the story </h2>
+<h4>Continue the story </h4>
 
 <p>Marketers can now see a broad snapshot of what their consumers prefer and how they behave, which lets them tailor marketing campaigns to boost engagement and interaction. Armed with consumer insights like ‘who’ interacted with the ad via an OOH campaign, brands can now continue their story on digital mediums, and retarget these consumers at the right moment. Targeting on mobile can also be used to reach the audience who may have missed the OOH targeting, ensuring a complete reachout. </p>
 
 
-<h2 style="text-align: left; font-size: 18px; margin-bottom: 0px;">Measure impact </h2>
+<h4>Measure impact </h4>
 <p>Measurement is one of the key ways how brands can leverage location intelligence and understand the return on investment from their marketing campaigns. They can see what consumers did after being exposed to an OOH campaign. Did they visit the business? When? What messaging seemed to influence their actions the most? Did the customer interact with an OOH campaign yet still went to the competition? All of this information can be fed back into the planning stage to improve marketing efforts. With access to the right data products, marketers are able to track all of this in real-time, and compare impact of the campaign across mediums such as digital, OOH and TV. This will help brands close the loop of their marketing activity, and optimise spends subsequently. </p>
 
 
@@ -149,79 +151,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

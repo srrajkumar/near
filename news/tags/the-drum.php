@@ -19,7 +19,9 @@ include('../../includes/_config.php'); include('../../includes/_lib.php'); ?>
 	<?php include('../../includes/_head.php'); ?>
     </head>
 	<body>
-		<div class="preloader"></div>
+		<div class="preloader">
+  <?php include('../../includes/preloader.php'); ?>
+</div>
 	<?php include('../../includes/_navigation.php'); ?>
 		<?php include('../news_banner.php'); ?>
 

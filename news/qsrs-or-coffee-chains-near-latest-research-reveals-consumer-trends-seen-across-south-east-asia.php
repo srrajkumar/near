@@ -15,7 +15,9 @@ $title ='QSRs or Coffee Chains: Near’s latest research reveals consumer trends
     <meta property="og:image" content="http://www.near.co/images/news/qsr.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

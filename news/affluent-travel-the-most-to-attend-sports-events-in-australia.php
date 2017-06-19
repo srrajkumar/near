@@ -15,7 +15,9 @@ $title ='Affluent travel the most to attend sports events in Australia, with a p
 	<meta property="og:image" content="http://near.co/images/news/Affluent-travel-the-most-to-attend-sports-events-in-Australia-with-a-preference-for-Australian-Ope.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -16,7 +16,9 @@ $meta_image="blog/beat-ad-blocking-by-leveraging-mobile-data.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -49,19 +51,19 @@ $meta_image="blog/beat-ad-blocking-by-leveraging-mobile-data.png";
 
 <p>So, the question is: Why are consumers blocking ads, and how can marketers leverage mobile data intelligence to create ads with which they will want to engage?</p>
 
-<h2 style="text-align:left; font-size:18px;">Helping brands to win back audience trust</h2>
+<h4>Helping brands to win back audience trust</h4>
 <p>Consumers do not appear to object to advertising, with 71% of ad block users open to being served ads that meet acceptable criteria or are whitelisted. It is ads considered to be visual clutter, due to poor quality and irrelevance (cited by 64% of users), that drive consumers to block ads on mobile. Effective use of mobile data, particularly mobile location data, can help address this issue.</p>
 
 
 <p>Data gathered from mobile usage, such as search, cross-screen, location and point-of-sale (POS), offers insights into consumer interests and habits that can reveal surprising trends, such as younger shoppers preferring to visit stores associated with more mature audiences. With accurate data as a foundation, marketers can improve the efficiency, accuracy, and relevance of campaigns — delivering tailored content for the right individual, at the most appropriate time.</p>
 
-<h2 style="text-align:left; font-size:18px;">Delivering personalised content in real-time</h2>
+<h4>Delivering personalised content in real-time</h4>
 <p>Speed is essential to capture consumer attention in the fast-paced digital world, yet marketers must engage their audience at the right time, which is not necessarily as soon as they look at their smartphone. By understanding the movements of consumers, mobile location data can highlight the best times to serve marketing messages, without being interruptive.</p>
 
 
 <p>For brand marketers, this insight could drastically reduce the wastage of ads received at times when they are unlikely to be effective and boost engagement with ads delivered at exactly the right moment. For instance, mobile location data that shows consumers frequently topping up their shop mid-week could be extremely useful to food and drinks brands keen to optimise sales of seasonal produce in the run-up to Christmas.</p>
 
-<h2 style="text-align:left; font-size:18px;">Bridging the online and offline consumer journey</h2>
+<h4>Bridging the online and offline consumer journey</h4>
 
 <p>Although it may not always be the device on which the final sale is made, the role mobile plays in the path to purchase makes consumers easier to follow across other channels. Once a consumer is identified via mobile data, their interactions can be traced online and offline, creating a unified picture of one individual journey.</p>
 
@@ -150,79 +152,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
 
   </body>

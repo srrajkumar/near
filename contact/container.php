@@ -110,7 +110,7 @@
   </div>
   <div class="col-6 col-md-4">
     <div class="col-md-10">
-    <h2>Singapore <span>(Headquarters)</span></h2>
+    <h2>Singapore<span>&nbsp;</span></h2>
     <hr />
     <p><b>Near Pte. Ltd</b><br/>
       #36-30/32, UOB Plaza 1  <br/>80 Raffles Place<br> Singapore 048624<br>

@@ -20,7 +20,9 @@ $meta_keywords="Data-driven marketing blogs, Location intelligence, ambient inte
 </head>
 
    <body class="newsroom-main">
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -30,6 +32,51 @@ $meta_keywords="Data-driven marketing blogs, Location intelligence, ambient inte
 						<div class="row">
                         	<?php include('../includes/_blog-filter.php'); ?>
 							<div id="easyPaginate" class="col-md-9 col-md-pull-9">
+							 <div class="row post">
+									<div class="col-md-3 post-meta">
+									<div class="post-date">
+										<div class="post-day">12</div>
+										<div class="post-month">Jun 2017</div></div>
+										<div class="post-author"><img src="<?php IMAGE('bb.png'); ?>" width="120" height="120" style="background: url(<?php IMAGE('near-team.png'); ?>); background-position: 0 -856px; background-size: 100% auto;" alt=""/></div>
+										<div class="post-author"><i class="fa fa-user"></i>&nbsp;<b> By Ken Parnham</b></div>
+                                        <div class="post-author disgnation">General Manager -<br> Europe</div>
+									</div>
+									<div class="col-md-9">
+										<div class="post-body background-75-e">
+											<div class="post-image">
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.php"><img class="fluid-width" src="<?php IMAGE('blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.png'); ?>" alt=""></a>
+											</div>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.php">Is untapped data the biggest missed opportunity for telcos?</a></h2>
+											
+											<p>Much has changed since Motorola first made mobile handsets accessible to the masses in 1984. Smartphones now account for over half of global mobile subscriptions and 8.4 billion connected devices are expected to be in use worldwide by the end of this year...</p>
+											<p><a href="<?php echo SITE_URL; ?>blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
+											
+										</div>
+									</div>
+								</div>
+							<div class="row post">
+									<div class="col-md-3 post-meta">
+									<div class="post-date">
+										<div class="post-day">02</div>
+										<div class="post-month">Jun 2017</div></div>
+										<div class="post-author"><img src="<?php IMAGE('bb.png'); ?>" width="120" height="120" style="background: url(<?php IMAGE('near-team.png'); ?>); background-position: 0 -245px; background-size: 100% auto;" alt=""/></div>
+										<div class="post-author"><i class="fa fa-user"></i>&nbsp; <b>By Madhusudan Therani</b></div>
+
+										 <div class="post-author disgnation">Chief Technology Officer </div>
+									</div>
+									<div class="col-md-9">
+										<div class="post-body background-75-e">
+											<div class="post-image">
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/ai-and-robots-arent-about-to-take-over-the-world-yet.php"><img class="fluid-width" src="<?php IMAGE('blog/ai-and-robots-arent-about-to-take-over-the-world-yet.png'); ?>" alt=""></a>
+											</div>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/ai-and-robots-arent-about-to-take-over-the-world-yet.php">AI and Robots Aren’t About to Take Over the World, Yet</a></h2>
+											
+											<p>The concept of Artificial Intelligence (AI) – especially in the form of humanoid robots – is by no means a new phenomenon, with intelligent machines appearing on our screens as early as 1984...</p>
+											<p><a href="<?php echo SITE_URL; ?>blog/ai-and-robots-arent-about-to-take-over-the-world-yet.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
+											
+										</div>
+									</div>
+								</div>
                       <div class="row post">
 									<div class="col-md-3 post-meta">
 									<div class="post-date">

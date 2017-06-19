@@ -42,11 +42,11 @@
         </div>
     </div>
     </div>
-    <div class="custom_wrapp row">
-    <div class="col-md-3 team-content right-arrow">
+    <div class="custom_wrapp row investors_container">
+    <div class="col-md-3 team-content right-arrow ">
       <h2>Our Investors</h2>
       <hr />
-      <p class="col-md-12">Near is backed by someof the <br> leading investors<br class="car-add"> in the world.</p>
+      <p class="col-md-12">Near is backed by someof the <br class="ipad_disable"> leading investors<br class="car-add"> in the world.</p>
       <a href="<?php echo SITE_URL; ?>investors" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -59,7 +59,7 @@
       </a>
     </div>
     <div class="col-md-6 random-image">
-      <img src="<?php IMAGE('team/logo-bg.png') ?>" />
+      <img class="investors_bg" src="<?php IMAGE('team/logo-bg.png') ?>" />
       <div class="logo-set row">
         <span class="col-md-6">
           <img src="<?php IMAGE('team/sequoia.png') ?>" />
@@ -78,7 +78,7 @@
     <div class="col-md-3 blog_container">
       <h2>BLOG</h2>
       <hr />
-      <p class="col-md-12">Take a look at our corporate and<br> tech blogs for the latest industry trends.</p>
+      <p class="col-md-12">Take a look at our corporate <br class="ipad_disable">and tech blogs for the latest industry trends.</p>
       <a href="<?php echo SITE_URL; ?>blog" class="custom_btn">
         <span class="btn__text">
             <span class="btn__text-inner">Explore</span>
@@ -100,7 +100,7 @@
       <img src="<?php IMAGE('board/avneet.png') ?>" alt />
      <img src="<?php IMAGE('board/mark.png') ?>" alt />
     </div>
-    <div class="col-md-3 left-arrow">
+    <div class="col-md-3 left-arrow board_member_container">
       <h2>Board Members</h2>
       <hr />
       <p class="col-md-12">More about the board <br>members of Near here.<br><br><br></p>
@@ -135,7 +135,7 @@
         </div>
       </a>
     </div>
-    <div class="col-md-6 random-image" style="position: relative; height:263px;" id="cycler3">
+    <div class="col-md-6 random-image culture_img_container" style="position: relative; height:263px;" id="cycler3">
       <img src="<?php IMAGE('culture/culture.png') ?>" class="active" alt />
       <img src="<?php IMAGE('culture/culture-1.png') ?>" alt />
        <img src="<?php IMAGE('culture/culture-2.png') ?>" alt />
@@ -181,7 +181,7 @@
   <div class="col-md-6 random-image" style="position: relative;">
       <img src="<?php IMAGE('culture/career.png') ?>" />
     </div>
-    <div class="col-md-6 left-arrow">
+    <div class="col-md-6 left-arrow careers_section">
       <h2>Careers</h2>
       <hr />
       <p class="col-md-12">Interested in joining the Near team? Check our open job positions to apply!</p>
@@ -203,7 +203,7 @@
     <div class="col-md-6 random-image" style="position: relative;">
       <img src="<?php IMAGE('culture/contact.png') ?>" />
     </div>
-    <div class="col-md-6 left-arrow">
+    <div class="col-md-6 left-arrow contactus_section">
       <h2>Contact Us</h2>
       <hr />
       <p class="col-md-12">Have any queries? <br> Reach out to us now.</p>

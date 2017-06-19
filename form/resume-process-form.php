@@ -31,7 +31,8 @@
 		dataType: "xml",
 		statusCode: {
 
-		}
+		},
+  timeout: 3000 
 	});
 </script>
 </head>
@@ -49,7 +50,10 @@ require 'phpmailer/PHPMailerAutoload.php';
  $phone = $_POST['phone'];
  $email = $_POST['email'];
  $location = $_POST['location'];
-
+if (empty($name) && empty($email) && empty($phone) && empty($contact_reason)) {
+    echo 'Please enter the values';
+    return false;
+}else{
  $mail = new PHPMailer;
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
@@ -65,8 +69,8 @@ require 'phpmailer/PHPMailerAutoload.php';
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('kiran@near.co');
 	$mail->addCC('careers@near.co');
-   //$mail->addCC('gokul@near.co');
-    //$mail->addCC('smriti@near.co');
+  //$mail->addCC('gokul@near.co');
+  //$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('careers@near.co');
 	//$mail->addCC('arun@near.co');
 	$mail->isHTML(true);                                  // Set email format to HTML
@@ -79,7 +83,7 @@ require 'phpmailer/PHPMailerAutoload.php';
   <tbody>
     <tr>
       <td height='40' align='left' valign='bottom' bgcolor='#F1EEEE'>&nbsp;</td>
-      <td height='40' colspan='2' align='left' valign='bottom' bgcolor='#F1EEEE'><img src='https://near.co/images/near.png' width='100' height='27' alt=''/></td>
+      <td height='40' colspan='2' align='left' valign='bottom' bgcolor='#F1EEEE'><img src='https://near.co/assets/images/near.png' width='100' height='27' alt=''/></td>
     </tr>
     <tr>
       <td bgcolor='#FeFeFe' style='font-family: Arial, sans-serif; font-size: 12px; color: #333333;'>&nbsp;</td>
@@ -132,6 +136,6 @@ require 'phpmailer/PHPMailerAutoload.php';
  
   echo "<div class='col-md-11'><h4 class='success'>Message Sent</h4>";
   echo "<p class='success'>Thank you <strong>" .$name. "</strong>, for your interest in Near. Your profile has been passed on to the respective department. </p></div>";
-
+}
 
 ?>

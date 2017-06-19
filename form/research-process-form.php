@@ -18,12 +18,19 @@
 	var file = '<?php echo $_POST['pdf']; ?>';
 	$.ajax({
 		url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSdpud2PVPExwcWO89Dymf6p8CzghEvcjv4jusufnn2KQx1bZA/formResponse",
-		data: { "entry_2005620554": name,"entry_1045781291": email,"entry_1045781291": phone,"entry_1045781291": country,"entry_1045781291": file},
+		data: { 
+			"entry_2005620554": name,
+			"entry_1045781291": email,
+			"entry_1502641761": phone,
+			"entry_975827800": country,
+			"entry_1859266036": file
+		},
 		type: "POST",
 		dataType: "xml",
 		 statusCode: {
 
-		}
+		},
+	timeout: 3000 
 	});
 </script>
 </head>
@@ -37,6 +44,7 @@ require 'phpmailer/PHPMailerAutoload.php';
  $country = $_POST['country'];
  $phone = $_POST['phone'];
  $file  = $_POST['pdf'];
+ $reason = $_POST['contact_reason'];
  $mydate=getdate(date('U'));
  $mon =  $mydate[month]; 
  $date = $mydate[mday];
@@ -57,7 +65,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('smriti@near.co');
 	$mail->addCC('insights@near.co');
-	//$mail->addCC('kiran@near.co');
+	//$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('insights@near.co');
 	
 	$mail->isHTML(true);                                  // Set email format to HTML
@@ -127,6 +135,12 @@ require 'phpmailer/PHPMailerAutoload.php';
 														<tr>
 															<td style='line-height: 40px; border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>
 																<b style='color:rgba(0, 0, 0, 0.64);'>Country : </b> $country
+															</td>
+                                                            
+														</tr>
+														<tr>
+															<td style='line-height: 40px; border-bottom: 1px solid rgba(190, 190, 190, 0.42);'>
+																<b style='color:rgba(0, 0, 0, 0.64);'>How did you find us : </b> $reason
 															</td>
                                                             
 														</tr>

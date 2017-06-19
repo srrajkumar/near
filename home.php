@@ -1,9 +1,9 @@
 <?php include('includes/_banner.php'); ?>
-	<div class="row whats-happening perspective" >
+	<div class="row whats-happening line_height_fix perspective" >
         <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="100">
-        <a href="<?php echo SITE_URL; ?>data/">
+        <a class="align_button" href="<?php echo SITE_URL; ?>data/">
         	<div class="spacing">
-		        <span class="line-man">Processing data from Over</span>
+		        <span class="line-man" style="line-height: 23px;">Processing data from Over</span>
 		        1 BILLION<br class="car-add"> DEVICES <br>in over <br class="car-add">40 countries
 				 <span  class="custom_btn">
                     <span class="btn__text mob">
@@ -30,7 +30,7 @@
 		        
 	        </div>
         </div>
-        <div class="col-sm-6 col-md-3 button_animate" data-aos="3dflip" data-aos-delay="300">
+        <div class="col-sm-6 col-md-3 award_logo_container button_animate" data-aos="3dflip" data-aos-delay="300">
         	<div class="spacing tab-content " style="height: 100%; text-align: center;">
         		<div role="tabpanel" class="center tab-pane fade in active awards-content" id="gartner" style="background:url('<?php IMAGE('award_logo/bg1.png') ;?>');">
         			<span class="gradient"></span>
@@ -65,19 +65,19 @@
 
     <div class="container spacing_margin text-center">
     <div class="row">
-    	<h1 data-aos="fade-zoom-in" data-aos-delay="100">TRUSTED BY WORLD’S BEST</h1>
-    	<h2 data-aos="fade-zoom-in" data-aos-delay="200">1 in 5 Forbes Top 100 brands use Near</h2>
-    	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="300"></span>
+    	<h1 data-aos="fade-zoom-in" data-aos-delay="50">TRUSTED BY WORLD’S BEST</h1>
+    	<h2 data-aos="fade-zoom-in" data-aos-delay="100">1 in 5 Forbes Top 100 brands use Near</h2>
+    	<span class="line"  data-aos="flip-left" data-aos-easing="ease-in-back"  data-aos-delay="150"></span>
     	<?php include('includes/_brand-logos.php'); ?>
    </div>
     </div>
 <div id="platform_leverage" style="padding: 10px; background-color: #f2f3f6;">
      <div class="container spacing_margin text-center " >
      
-    	<h1 data-aos="fade-up" data-aos-delay="200">The NEAR PLATFORM LEVERAGE</h1>
-    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
+    	<h1 data-aos="fade-up" data-aos-delay="50">The NEAR PLATFORM LEVERAGE</h1>
+    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="100"></span>
     	<div class="row">
-    	<div class="col-sm-6 platform-image" data-aos="fade-up" data-aos-delay="600">
+    	<div class="col-sm-6 platform-image" data-aos="fade-up" data-aos-delay="150">
     		<img src="<?php IMAGE('spin-2.png'); ?>" alt="Crossmatrix" class="platform spin2">
     		<object data="<?php IMAGE('platform_leverage/crossmatrix.svg') ?>" class="crossmatrix active"></object>
     		<object data="<?php IMAGE('platform_leverage/placematrix.svg') ?>" style="opacity: 0;" class="placematrix"></object>
@@ -85,7 +85,7 @@
     		<object data="<?php IMAGE('platform_leverage/accurate_data.svg') ?>" style="opacity: 0;" class="accurate_data"></object>
     	</div>
     	
-    	<div class="col-sm-6 platform-leverage"  data-aos="fade-up" data-aos-delay="800">
+    	<div class="col-sm-6 platform-leverage"  data-aos="fade-up" data-aos-delay="200">
     		<ul id="accord1" class="accordian">
 			  <li>
 				<header class="accordian-header active" id="crossmatrix"><i class="ion-plus-round plus-icon"></i> CrossMatrix&trade;</header>
@@ -126,7 +126,7 @@
 	        </div>
         </div>
         <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="400">
-        <a href="<?php echo SITE_URL; ?>allspark/">
+        <a class="align_button" href="<?php echo SITE_URL; ?>allspark/">
         	<div class="spacing">
 		        DATA DRIVEN MARKETING
     	       <span  class="custom_btn usecase-button1">
@@ -144,7 +144,7 @@
 	        </a>
         </div>
         <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="600" style="background:url('<?php IMAGE('video_bg/img2.png'); ?>'); background-size: cover;">
-        <a href="<?php echo SITE_URL; ?>allspark/">
+        <a class="align_button" href="<?php echo SITE_URL; ?>allspark/">
         	<div class="spacing" style="height: 100%;">
         		CONSUMER INSIGHTS
         		<span  class="custom_btn">
@@ -162,7 +162,7 @@
         	</a>
         </div>
         <div class="col-sm-6 col-md-3 use-cases"  data-aos="3dflip" data-aos-delay="800" style="background:url('<?php IMAGE('video_bg/img3.png'); ?>');  background-size: cover;">
-        <a href="<?php echo SITE_URL; ?>data">
+        <a class="align_button" href="<?php echo SITE_URL; ?>data">
         	<div class="spacing">
 		        DATA-AS-A-SERVICE<br />
 				<span  class="custom_btn usecase-button">
@@ -181,11 +181,11 @@
         </div>
     </div><!--- row -->
 <div style="padding: 20px; background-color: #f2f3f6;">
-     <div class="spacing_margin text-center research perspective" >
-    	<h1 data-aos="fade-up" data-aos-delay="200">LATEST RESOURCES</h1>
-    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="400"></span>
-    	<div class="container row">
-    	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="600">
+     <div class="spacing_margin text-center research " >
+    	<h1 data-aos="fade-up" data-aos-delay="50">LATEST RESOURCES</h1>
+    	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="100"></span>
+    	<div class="container row perspective">
+    	<div class="col-sm-3" data-aos="3dflip" data-aos-delay="150">
     		<a href="<?php echo SITE_URL; ?>allspark/retail.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('case-study/virgin-active1.png'); ?>"/>
@@ -209,7 +209,7 @@
 				</figure>
 			</a> 
     	</div>
-    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="800">
+    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="200">
     		<a href="<?php echo SITE_URL; ?>allspark/consumer-research.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('research/telco.png'); ?>"/>
@@ -233,7 +233,7 @@
 				</figure>
 			</a> 
     	</div>
-    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="1000">
+    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="250">
     		<a href="<?php echo SITE_URL; ?>allspark/retail.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('research/mobile.png'); ?>"/>
@@ -256,7 +256,7 @@
 				</figure>
 			</a> 
     	</div>
-    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="1200">
+    	<div class="col-sm-3"  data-aos="3dflip" data-aos-delay="300">
     		<a href="<?php echo SITE_URL; ?>allspark/offline-attribution.php" target="_blank">
 				<figure>
 					<img src="<?php IMAGE('research/laptop.png'); ?>"/>
@@ -283,21 +283,23 @@
 
     	
     	</div><!--- row -->
-		<div class="container text-center signup-news" data-aos="fade-up" data-aos-delay="800">
-			<div class="newsletter" id="mc_embed_signup">			
-				<form action="//adnear.us5.list-manage.com/subscribe/post?u=615363801d3bb1408b807339c&amp;id=4456f1cf9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<div class="container text-center signup-news" data-aos="fade-up" data-aos-delay="400">
+			<div class="newsletter" id="mc_embed_signup">	
+
+				<form action="#" method="post"  enctype="multipart/form-data" onSubmit="" id="form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
 						<div class="row">
-							<h2><span class="color-red">SIGN UP</span> TO STAY UPDATED</h2>
-							<span>
+							<h2><span class="color-red">SIGN UP</span> TO STAY UPDATED</h2>  
+							<span class="news-form">
 								<input class="balloon" type="email" value="" name="EMAIL" required id="state"  placeholder="Enter email to subscribe" /><label for="state">Subscribe to Newsletter</label>
 							</span>
 							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-							<div style="position: absolute; left: -5000px;"><input type="text" name="b_615363801d3bb1408b807339c_4456f1cf9b" tabindex="-1" value=""></div>
-							<div class="submit_button"><input type="submit" class="submit btn-xs" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+							<div class="submit_button news-form"><input type="submit" class="submit btn-xs" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+                            
 						</div>
 					</div>
 				</form>
+                <p id="message"></p>
 			</div>
 		</div>
     </div>

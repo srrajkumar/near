@@ -21,7 +21,9 @@ $image=  "allspark/allspark-consumer-research.png";
 
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
     <?php include('innerpage-banner.php'); ?>
 	
@@ -217,7 +219,7 @@ $image=  "allspark/allspark-consumer-research.png";
                     <h4 style="margin: 60px 0  20px 0;" class="color-red">Infographics</h4>
                       <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
 
-                        <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/shopper-insights-from-the-great-singapore-sale-2016.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                        <a href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/shopper-insights-from-the-great-singapore-sale-2016.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/great-singapore-sale-2016.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Footfall during Great Singapore Sale, 2016</h4>
@@ -243,7 +245,7 @@ $image=  "allspark/allspark-consumer-research.png";
 
 
                       
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/insights-on-fitness-enthusiasts.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/insights-on-fitness-enthusiasts.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/insights-fitness.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Insights on Fitness Enthusiasts, Singapore</h4>
@@ -269,7 +271,7 @@ $image=  "allspark/allspark-consumer-research.png";
                     
 
 
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/shift-in-consumer-footprints-from-christmas-to-chinese-new-year.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/shift-in-consumer-footprints-from-christmas-to-chinese-new-year.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/cny-singapore.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Consumer Insights for CNY in SEA &amp; HK</h4>
@@ -292,7 +294,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                    
                     </a>
-<a href="<?php echo SITE_URL; ?>pdf/inforgraphic/qsr-consumers-in-australia.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+<a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/inforgraphic/qsr-consumers-in-australia.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/mcdonald-and-subway-consumers.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>QSR Consumers, Australia</h4>
@@ -315,7 +317,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                    
                     </a>
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/shopper-insights-black-friday-near-research.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/shopper-insights-black-friday-near-research.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/shopper-inisghts-black-friday.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Black Friday Shopper Insights</h4>
@@ -339,7 +341,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                     </a>
 
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/black-friday-near-research.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/black-friday-near-research.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/black-friday.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4> Black Friday Research, 2016</h4>
@@ -363,7 +365,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                     </a>
 
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/the-rugby-world-cup-2015-infographic.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/the-rugby-world-cup-2015-infographic.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/insights-rwc-2015.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Rugby Audience Insights, 2015</h4>
@@ -387,7 +389,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                     </a>
 
-                    <a href="<?php echo SITE_URL; ?>pdf/latest-research/rugby-worldcup-2015-near-insights.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/latest-research/rugby-worldcup-2015-near-insights.pdf');" class="col-md-4 button"  data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/rwc-2015.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Audience Insights from the Rugby WC</h4>
@@ -412,7 +414,7 @@ $image=  "allspark/allspark-consumer-research.png";
                     </a>
 
 
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/consumer-insights-for-supermarkets-in-london.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/consumer-insights-for-supermarkets-in-london.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/supermarkets-london.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Insights on Grocery Shoppers in London</h4>
@@ -435,7 +437,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                    
                     </a>
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/singapore-sales-research-consumer-insights.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/singapore-sales-research-consumer-insights.pdf');" class="col-md-4 button"  data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/great-singapore-sale-2015.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>The Great Singapore Sale, 2015</h4>
@@ -458,7 +460,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                    
                     </a>
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/mobile-consumption-behavior-across-hk.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/mobile-consumption-behavior-across-hk.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/hk-mobile-insights.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Mobile User Behavior for HK</h4>
@@ -481,7 +483,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                    
                     </a>
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/chinese-new-year-shopping-trends-2014.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="600" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/chinese-new-year-shopping-trends-2014.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="600" style="background:#000">
                     <img src="<?php IMAGE('research/cny2014.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>CNY Shopping Trends, 2014</h4>
@@ -504,7 +506,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                    
                     </a>
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/audience-breakup-across-events-in-australia.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/audience-breakup-across-events-in-australia.pdf');" class="col-md-4 button"  data-aos="3dflip" data-aos-delay="200" style="background:#000">
                     <img src="<?php IMAGE('research/audience-breakup-across-events-aus.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Sporting events in Australia</h4>
@@ -528,7 +530,7 @@ $image=  "allspark/allspark-consumer-research.png";
                    
                     </a>
 
-                    <a href="<?php echo SITE_URL; ?>pdf/consumer-intelligence/insights-on-air-travellers-India.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/consumer-intelligence/insights-on-air-travellers-India.pdf');" class="col-md-4 button"data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/traveller-behaviour-india.png') ?>" alt="" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Traveler's Digital Behavior, India</h4>
@@ -563,25 +565,18 @@ $image=  "allspark/allspark-consumer-research.png";
                 <h2>can use Allspark to:</h2>
                 <div class="space"></div>
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
-                <div class="col-md-6 row" >
-	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/consumer-research/icon-1.png') ?>" />
-	                </div>
-	                <div class="col-md-8 subcontent">
-	                	<span class="blue">Get</span> real-time insights on places and audiences.
-	                </div>
-                </div>
-                <div class="col-md-6 row">
+                
+                <!--div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/consumer-research/icon-4.png') ?>" />
+                        <img src="<?#php IMAGE('allspark/consumer-research/icon-4.png') ?>" />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> insights across industries.
                     </div>
-                </div>
+                </div-->
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/consumer-research/icon-2.png') ?>" />
+	                	<img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/consumer-research-icons.png');?>); background-position: 0 305px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Get</span> data on places & audience of choice through Allspark DaaS API, & integrate this with their CRM data to get a granular understanding of their customers.
@@ -589,11 +584,19 @@ $image=  "allspark/allspark-consumer-research.png";
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/consumer-research/icon-3.png') ?>" />
+	                	<img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/consumer-research-icons.png');?>); background-position: 0 200px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Get</span> intelligence on customers in their own stores and competitor stores, and compare their audience across stores.
 	                </div>
+                </div>
+                <div class="col-md-6 row" >
+                    <div class="col-md-4">
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/consumer-research-icons.png');?>); background-position: 0 0; background-size: 100% auto; width: 103px; height: 103px;" alt />
+                    </div>
+                    <div class="col-md-8 subcontent">
+                        <span class="blue">Get</span> real-time insights on places and audiences.
+                    </div>
                 </div>
                 
                 </div>

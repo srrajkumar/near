@@ -17,7 +17,9 @@ $meta_image="blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -50,7 +52,7 @@ $meta_image="blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-
 
 
 
-<h2 style="text-align:left; font-size:18px;">The importance of ‘where’ for businesses</h2>
+<h4>The importance of ‘where’ for businesses</h4>
 
 <p>Location intelligence adds crucial context to audience information that helps businesses to achieve maximum relevance. It can be drawn from a range of sources that bring depth and diversity to organisational processes, such as smart Internet of Things (IoT) devices, wearables, mobile phones, WiFi routers, beacons, and navigation providers.</p>
 
@@ -58,7 +60,7 @@ $meta_image="blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-
 <p>In marketing for example, its ability to map individual habits — such as where consumers shop, what time they commute, and when they use their mobile devices — enables brands to boost conversions by fine-tuning strategy and engaging audience interest. Armed with the insight it produces, marketers can identify the best channel, time and place to target individuals, as well as personalising their messages to enhance impact.</p>
 <p>For the wider business community, the most important aspect of location intelligence is the granular understanding it offers of both individuals, and the entire consumer base. For instance, broader use cases could include analysing commuter patterns to improve the efficiency of city planning.</p>
 
-<h2 style="text-align:left; font-size:18px;">So what is location intelligence?</h2>
+<h4>So what is location intelligence?</h4>
 
 <p>Location intelligence is the information that comes from blending geospatial data with business insight and using cartographic tools to make sense of the relationships between consumer data, and geography.</p>
 
@@ -67,7 +69,7 @@ $meta_image="blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-
 
 <p>This advanced new software can pull in an array of data from various analytical sources and generate precise, actionable insights that improve overall strategy and performance.  In this way, businesses are not only able to cut-through the chaotic data cloud to find the data they need, but can also put it into action immediately — keeping them consistently ahead of competitors and in step with their user base.</p>
 
-<h2 style="text-align:left; font-size:18px;">How can location intelligence slot into business models?</h2>
+<h4>How can location intelligence slot into business models?</h4>
 
 <p>Location intelligence has a limitless array of applications that extend far beyond the realm of marketing and more sectors are starting harness its business potential. In particular, its power to connect geographical areas and individual activity is already helping a raft of industries to improve processes and consumer satisfaction.</p>
 
@@ -75,7 +77,7 @@ $meta_image="blog/why-businesses-need-to-wake-up-to-the-opportunity-of-location-
 
 <p>The complete picture location intelligence offers of behaviour, movement and habits is also creating a foundation for greater organisational efficiency. Retailers and banks, for instance, are drawing upon its insights into footfall to determine the best locations to build stores and branches that reach their target demographic. </p>
 
-<h2 style="text-align:left; font-size:18px;">How to use location insight effectively  </h2>
+<h4>How to use location insight effectively  </h4>
 
 <p>The biggest challenge with location intelligence is also one of its assets: the sheer volume of data sources it can collate and compare to produce meaningful insights.</p>
 
@@ -165,79 +167,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

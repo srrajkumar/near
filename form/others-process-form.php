@@ -14,7 +14,7 @@
 <script>
 	var name = '<?php echo $_POST['name']; ?>';
 	var email = '<?php echo $_POST['email']; ?>';
-	var company = '<?php echo $_POST['phone']; ?>';
+	var phone = '<?php echo $_POST['phone']; ?>';
 	var reason = '<?php echo $_POST['contact_reason']; ?>';
 	var country = '<?php echo $_POST['location']; ?>';
 	var message = '<?php echo $_POST['message']; ?>';
@@ -32,7 +32,8 @@
 	dataType: "xml",
  statusCode: {
 
-	}
+	},
+	timeout: 3000 
 	});
 </script>
 
@@ -52,7 +53,10 @@ require 'phpmailer/PHPMailerAutoload.php';
  $year = $mydate[year];
 $location = $_POST['location'];
 $message = $_POST['message'];
-
+if (empty($name) && empty($email) && empty($phone) && empty($contact_reason)) {
+    echo 'Please enter the values';
+    return false;
+}else{
 
  $mail = new PHPMailer;
 	$mail->isSMTP();    
@@ -68,9 +72,9 @@ $message = $_POST['message'];
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-$mail->addCC('inbound@near.co');
+	$mail->addCC('inbound@near.co');
 	//$mail->addCC('kiran@near.co');
-	//$mail->addCC('sowmya@near.co');
+	//$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('info@near.co');
 	
 	$mail->isHTML(true);                                  // Set email format to HTML
@@ -90,7 +94,7 @@ $mail->addCC('inbound@near.co');
 							  <tbody>
 							    <tr>
 							      <td width='160'><img src='http://188.166.248.212/images/near-white.png' alt='Near' width='120' height='40'  style='display: block; float:left; padding: 5px 5px 5px 10px;' /></td>
-							      <td> <p style='margin: 15px 15px 0px 0;'>Near Contact Form</p>
+							      <td> <p style='margin: 15px 15px 0px 0;'>Near Others Form</p>
                             <p style='font-size:11px; padding: 0px 0px 10px 0px; color:rgba(255, 255, 255, 0.54); margin: 0px;'>$mon $date, $year</p></td>
 						        </tr>
 						      </tbody>
@@ -202,7 +206,7 @@ echo "<div class='form-wrapper clearfix container' style='text-align:center'>
        </div>
     </section>
   </div>";
-
+}
 
 ?>
 

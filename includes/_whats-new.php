@@ -22,9 +22,9 @@
        </div>
         <div class="item">
         <span class="news-red" style="margin-top: 10px;">Blog</span>
-					<span class="news-content">Get the best out <br>of your board members</span>
-					<span class="story">"Learn how to get the best out of <br>your board members" by Anil Mathews</span>
-     <a href="<?php echo SITE_URL; ?>blog/how-to-get-the-best-out-of-your-company-board-members.php" class="custom_btn">
+					<span class="news-content">Is untapped data the biggest<br> missed opportunity for telcos?</span>
+					<span class="story">Latest blog by <br>Ken Parnham, our GM for Europe</span>
+     <a href="<?php echo SITE_URL; ?>blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.php" class="custom_btn">
                                 <span class="btn__text">
                                     <span class="btn__text-inner">READ MORE</span>
                                 </span>            

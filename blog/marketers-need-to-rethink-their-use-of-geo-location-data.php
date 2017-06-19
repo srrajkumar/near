@@ -16,7 +16,9 @@ $meta_image="blog/Think.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -49,13 +51,13 @@ $meta_image="blog/Think.png";
 
 <p>So what do marketers need to consider when integrating geo-location data into their campaigns to fully maximise its benefits? </p>
 
-<h2 style="text-align:left;">Objectives first </h2>
+<h4>Objectives first </h4>
 <p>As with any successful campaign, marketers should focus on the objectives and key deliverables they need to achieve from using geo-location. </p>
 <p>If the aim is to target a new audience and entice consumers, a brand could geo-fence areas around its stores and competitor outlets. Alternatively, a discount code or incentive could be served to existing consumers nearby to re-connect with them and reinforce brand affinity.  </p>
 <p>Geo-location data is also a great tool for building brand or product awareness, particularly when a physical store is not part of a campaign. For example, an automotive client might serve bespoke creative to a targeted audience that opens to reveal a 360-degree view of its latest model, enabling consumers to explore its features and schedule a test drive before they even enter a showroom. </p>
 <p>Geo-location allows brands to reach specific genders, ages or occupations. Of course data alone does not equal success, so it is imperative that marketers do not just focus on the largest numbers, but analyse patterns over a period of time using historical location data and content consumption behaviour to identify the right audience.</p>
 
-<h2 style="text-align:left;">Context and audience</h2>
+<h4>Context and audience</h4>
 
 <p>Historic geo-location data can be used to analyse behaviour and discover where best to target the correct audience. </p>
 <p>High-profile events can prove particularly lucrative when used in combination with geo-location technology. For example, does the audience profile a brand is targeting match those who attend Wimbledon, or concerts at the O2? Analysing the data can prevent marketers from making incorrect assumptions about their audience. To illustrate this, we researched the audience breakdown across key events in Australia, including the F1 Grand Prix, the Australian Open and T20 Cricket. The data revealed that mobile users over 36 years old preferred the F1 and Australian Open, but nearly two-thirds of T20 Cricket attendees were aged between 25 – 35 years. </p>
@@ -63,7 +65,7 @@ $meta_image="blog/Think.png";
 <p>Time of day can play a role in successful geo-location campaigns. For example, a fitness brand might want to engage consumers while they are focused on exercise and out for their morning run. Combining location with time can help pinpoint audiences further to yield greater results. </p>
 <p>During peak sales periods such as Boxing Day, marketers can use historic data to identify an audience based on gender, age, occupation or a combination of factors, and target the busiest areas of footfall and optimum times of day.</p>
 
-<h2 style="text-align:left;">The Snapchat generation</h2>
+<h4>The Snapchat generation</h4>
 
 <p>As the number of devices used by consumers increases – accelerated by the IoT and connected devices becoming mainstream ¬– marketers need to work harder to ensure viewability and maintain engagement. </p>
 <p>This means the ad creative served using location technology is just as important as other mediums. Rich media ads on mobile are <a href="https://econsultancy.com/blog/63119-rich-media-mobile-ads-are-four-times-as-effective-as-banner-ads-report/" target="_blank">four times more effective</a> than banner adverts, but it’s crucial the user is put at the heart of any experience for the best results.</p>
@@ -71,7 +73,7 @@ $meta_image="blog/Think.png";
 <p>In our recent campaign for Adidas, engagement was three times more impactful than its previous campaigns due to the targeted and immersive experience. The ad creative carried an ‘Explore’ option, which directed consumers to a custom-built rich  page where they could learn about the product features. The landing page had ‘Watch Video’ and ‘Shop Now’ options that allowed users to view the video to understand the full product features, enabled instant purchases, and encouraged social interactions with the brand.</p>
 <p>However, creativity shouldn’t come at the cost of making an ad accessible. If the consumer needs to change their screen orientation or search for additional information – such as the location of the nearest store – marketers will lose their attention. We have found that ad performance improves when consumers have this information at their fingertips. In fact, in a campaign for Beer Wine Spirits Australia, location-targeted mobile ads displaying store distance saw 71% higher engagement levels compared with the same ads that did not include distance information.</p>
 
-<h2 style="text-align:left;">Attributing the consumer journey</h2>
+<h4>Attributing the consumer journey</h4>
 
 <p>Measuring mobile campaigns is challenging because of the cookie-less environment. Some marketers have looked to Apple’s IDFA system for tracking on iOS and Google ID for Android, but used in isolation these do not provide a full picture of the customer journey.</p>
 
@@ -157,79 +159,8 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
-
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
 
 </script>
-<script>
-var stickySidebar1 = $('.sticky1');
 
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
-</script>
   </body>
 </html>

@@ -83,7 +83,13 @@ jQuery.webshims.cfg.no$Switch = true;
   <button type="submit" class="btn btn-primary">Submit</button>
   <img alt="" id="career-form-submit-loader" src="<?php echo SITE_URL; ?>form/images/loader.gif" style="margin: 0 0 -12px 15px;display:none;" />
 </form>
-<?php include('../includes/_java_scripts.php'); ?>
+<script src="<?php JS('tether.min.js'); ?>"></script>
+<script src="<?php JS('jquery.min.js'); ?>"></script>
+<script src="<?php JS('bootstrap.min.js'); ?>"></script>
+<script src="<?php JS('modernizr.js'); ?>"></script>
+<script src="<?php JS('bootstrap-formhelpers.js'); ?>"></script>
+<script src="<?php JS('bootstrap-formhelpers-countries.js'); ?>"></script>
+<script src="<?php JS('custom.js'); ?>"></script>
 <script>
 $('#career-reason').change(function(){
     if( $(this).val() == 'Others'){

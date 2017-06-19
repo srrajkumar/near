@@ -8,7 +8,7 @@
   <br>But probably no one told you that a great culture is not just about work.</p>
     <hr style="margin: 35px 0;" />
     <h4>A great culture is not just about work, <br class="des-add">it's <span>work + life.</span> </h4>
-    <div class="col-md-3" style="padding-left: 0px;"> <a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php" class="button button--primary button--rounded users" style="margin: 20px 0 0 0; padding: 8px 40px;">Meet the team</a></div>
+    <div class="col-md-3 culture_btn" style="padding-left: 0px;"> <a href="<?php echo SITE_URL; ?>kyc/jils-joseph.php" class="button button--primary button--rounded users" style="margin: 20px 0 0 0; padding: 8px 40px;">Meet the team</a></div>
   </div>
   </div>
 </div>
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="space" style="margin: 10px 0"></div>
-  <div class="row" style="margin: 0;">
+  <div class="row culture_page_container" style="margin: 0;">
     <div class="col-md-3">
       <h2>We...</h2>
         <ul class="listing">
@@ -63,14 +63,27 @@
        Be either a go-getter or one who supports a go-getter Who are you?
       </p>
     </div>
-    <div class="col-md-3"> <a href="<?php echo SITE_URL; ?>careers" class="button button--primary button--rounded users car" style="margin: 40px 0 0 0; padding: 8px 40px;">VIEW OPEN POSITIONS</a></div>
+   <a href="<?php echo SITE_URL; ?>careers" class="button button--primary button--rounded users car" style="margin: 40px 0 0 0; padding: 8px 40px;">VIEW OPEN POSITIONS</a>
   </div>
-  
 </div>
-<div class="space"></div>
-
-
-
-
-
-
+  <div class="container-fluid culture_videobg" 
+  style="background-image:url('<?php IMAGE('culture.png') ?>');">
+    <div class="col-lg-9 inner_container_box">
+      <h1>VIDEO</h1>
+      <h4>Explore <span>The Near Culture.</span><br>
+A great culture is not just about work</h4>
+      <hr style="margin: 35px 0;" />
+      <div class="space" style="padding: 20px;"></div>
+      <a href="https://youtu.be/Nf0uenGabnY" class="custom_btn bla-2">
+        <span class="btn__text">
+            <span class="btn__text-inner">Play Video</span>
+        </span>            
+        <div class="icon">
+          <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+            <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+          </svg>
+        </div>
+      </a>
+      <div class="space" style="padding: 10px;"></div>
+    </div>
+  </div>

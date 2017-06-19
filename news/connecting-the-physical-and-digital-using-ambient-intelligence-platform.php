@@ -16,7 +16,9 @@ $title ="Connecting the Physical and Digital using Ambient Intelligence Platform
     <meta name="KEYWORDS" content="Ambient Intelligence, Data Products, Location Technology, Software, Location Data Analytics, Consumer Insights, SAAS Products, Machine Learning, Predictive Location Analytics, Cross-screen marketing, omni-channel marketing, Real World Audience Behavior, Attribution, ROI Measurement, Retail Analytics, Data-driven decisions, Connected Data, Smart Environments, Internet of Things, Mobile Data, Consumer Targeting, Consumer Journey, Footfall Analytics " />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

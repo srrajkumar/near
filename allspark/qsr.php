@@ -25,7 +25,9 @@ $image2=" ";
 </style>
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 <?php include('innerpage-banner.php'); ?>
 <div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
@@ -61,7 +63,7 @@ $image2=" ";
                                 </div>
                             </span>
                     </a>
-                   <a href="<?php echo SITE_URL; ?>pdf/infographic/qsr-consumers-in-australia.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                   <a href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/infographic/qsr-consumers-in-australia.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="400" style="background:#000">
                     <img src="<?php IMAGE('research/qsr.png') ?>" alt="" class="sq-ratio">
                    <span class="tile__content">
                             <h4>QSR Consumers in Australia</h4>
@@ -114,7 +116,7 @@ $image2=" ";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/icon-1.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/qsr-icons.png');?>); background-position: 0 2px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Discover</span> and understand their consumers, and their interests, preferences and behavior.
@@ -123,7 +125,7 @@ $image2=" ";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/qsr/icon-4.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/qsr-icons.png');?>); background-position: 0 300px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Analyse</span> spend behavior of their target audience in different places and during different events.
@@ -131,15 +133,15 @@ $image2=" ";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/qsr/icon-2.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/qsr-icons.png');?>); background-position: 0 530px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Curate,</span>, analyse and reach their target audience across multiple channels in real-time, in places of their choice, and map their journey.
+                        <span class="blue">Curate</span>, analyse and reach their target audience across multiple channels in real-time, in places of their choice, and map their journey.
                     </div>
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/qsr/icon-5.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/qsr-icons.png');?>); background-position: 0 200px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations.
@@ -148,7 +150,7 @@ $image2=" ";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/qsr/icon-6.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/qsr-icons.png');?>); background-position: 0 108px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Make</span> smarter business decisions by getting intelligence on their own and their competitor consumers, including peak day, peak time, consumers that visit both stores and percentage of consumers visiting their outlets from the overall set of QSR consumers.
@@ -157,7 +159,7 @@ $image2=" ";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/qsr/icon-3.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/qsr-icons.png');?>); background-position: 0 420px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Measure</span> store visits of their own and competitor stores, and define business strategy with these insights.
@@ -193,8 +195,7 @@ $image2=" ";
         });
     </script>
    <script>
-   function SetPage(url)
-{document.getElementById("myframe").setAttribute("src", url);}
+ 
     window.onload = function() {
   document.getElementById('qsr').className = 'active';
 document.getElementById('verticals').className = 'active';

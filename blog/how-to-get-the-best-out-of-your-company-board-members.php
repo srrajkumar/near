@@ -16,7 +16,9 @@ $title ='How to get the best out of your company’s board members';
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -49,7 +51,7 @@ $title ='How to get the best out of your company’s board members';
 <p>If CEOs want to get the biggest portion of that time, and the best out of their board members, they must ensure everyone is dedicated to the company’s success. And they’ll need to be prepared for the challenge of sustaining motivation – as with a long sales cycle, keeping individual interest strong requires continuous relationship building.</p>
 <p>So, how can CEOs achieve all of this? There’s no stock formula for success, but over the years I’ve found there are ways to help drive it:</p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">1. Communicate effectively</h2>
+<h4>1. Communicate effectively</h4>
 
 <p>It’s essential for the board members to work together as an efficient team. This means the first order of business for any CEO is defining the role of each of the board members – including their own role – and making sure it is clearly understood. A secondary but equally vital part of this understanding is communicating business activities.</p>
 
@@ -60,20 +62,20 @@ $title ='How to get the best out of your company’s board members';
 
 
 
-<h2 style="text-align:left; font-size:18px; margin-bottom: 0px;">2. Leave your ego at the door</h2>
+<h4>2. Leave your ego at the door</h4>
 
 <p>As the CEO, it’s crucial to maintain control of the business to keep things running smoothly, but that control shouldn’t be unyielding. This makes it paramount for ego and work to be firmly separate – remember the board is a valuable resource to help you steer the company in the right direction.</p>
 <p>If you make a mistake or need advice, don’t be afraid to consult the board; not only will this enable you to find a solution faster, but it will show you are human. It is also worthwhile regularly checking in with the board members for general feedback on how the business is going, strategic decisions, or your own performance.</p>
 <p>This opens up a two-way conversation that promotes honesty, provides you with useful perspectives, and prevents any unforeseen issues from arising in the future.</p>
 
 
-<h2 style="text-align:left; font-size:18px; margin-bottom:0px;">3. Get to know your board</h2>
+<h4>3. Get to know your board</h4>
 
 <p>Board members are individuals with unique abilities and quirks, and it’s impossible to make the most of them without getting to know each and every one. You’ll find that the more time you spend with your board members, the more you understand what they bring to the table and they in turn will have a greater inclination to assist you.</p>
 <p>What’s more, you don’t always have to meet in the boardroom; you could bring flexibility to relationships by communicating via Skype or visiting an event together.</p>
 <p>For example, I took my board member to a week-long roadshow, which was by far the most exciting and fruitful use of our time. Not only did it provide an opportunity to develop relationships, but it also re-affirmed their understanding of our business strategy, allowed them to see how we work first-hand, and bolstered their enthusiasm for what we do.</p>
 
-<h2 style="text-align:left; font-size:18px; margin-bottom:0px;">4. Hold valuable board meetings</h2>
+<h4>4. Hold valuable board meetings</h4>
 
 <p>When boardroom meetings are essential, it is important for the CEO to make them as swift and efficient as possible. To make sure everyone is prepared and on the same page when the meeting starts, it’s advisable to send out relevant materials at least a couple of days in advance.</p>
 <p>And to guard against wasting time, it’s also a wise plan to avoid an endless series of updates – during meetings it’s best to give an overview of general activities then dive into areas where the board can offer value: strategic issues and solutions for different business functions. Minor updates should be shared, but keep them brief when time is ticking.</p>
@@ -161,79 +163,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

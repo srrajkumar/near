@@ -15,7 +15,9 @@ $title ='Near raises US$19 million in Series B funding to accelerate global expa
 	<meta property="og:image" content="http://near.co/images/news/Near-growth-infographic.jpg" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

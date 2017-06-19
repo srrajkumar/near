@@ -16,7 +16,9 @@ $meta_image="blog/how-location-intelligence-helps-businesses-improve-marketing-e
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -48,7 +50,7 @@ $meta_image="blog/how-location-intelligence-helps-businesses-improve-marketing-e
 
 <p>In order to exploit the potential of location-based data, it has become necessary to plot geographical points of interest as they relate to the consumer trends, patterns, and distinct dependencies. Doing so will ultimately transform such data into authoritative information, capable of making a large sales-related impact for the business.</p>
 
-<h2 style="text-align:left; font-size:18px;">The Impact of Mobile Media on Marketers</h2>
+<h4>The Impact of Mobile Media on Marketers</h4>
 
 <p>The biggest impact of mobile media and location data on marketers lies in the ability to go beyond their given selling space. Additionally, there is the engagement factor where marketers can understand consumers on a more granular level. Having such an in-depth understanding of the consumer base allows these consumer insights to be used for broader business intelligence. </p>
 
@@ -57,7 +59,7 @@ $meta_image="blog/how-location-intelligence-helps-businesses-improve-marketing-e
 
 <p>According to our latest consumer insights study on the QSR industry, professionals and students formed the top audience in the QSRs in Singapore. Higher number of consumers were seen visiting the QSRs on Tuesdays, between 5pm to 8pm. This intelligence can be used by marketers to reach out to their consumers via mobile, and other channels, at the most relevant time. Also, marketers can feed this intelligence back to their different stores for upselling to these audiences. For example, the QSRs can run promotions on Tuesday for students, or introduce merchandise that could help with increasing sales.</p>
 
-<h2 style="text-align:left; font-size:18px;">Location Intelligence: Defining the Target</h2>
+<h4>Location Intelligence: Defining the Target</h4>
 
 <p>Location intelligence is quite literally a combination of geospatial data and business intelligence, linked with cartographic tools that help to better comprehend location-based relationships of the geographic content that lie within given data. New-age location intelligence software has been designed to access and connect operational data stores (SCM, CRM, ERP) and business intelligence combined with cartographic and opulent spatial capabilities. These new powerful software platforms allow marketers to transform data from analytical insight into actionable strategies, which they can deliver upon.</p>
 
@@ -66,7 +68,7 @@ $meta_image="blog/how-location-intelligence-helps-businesses-improve-marketing-e
 
 <p>Location data is the key enabler to providing marketers with real-time insight on their intended target. Studying such data offers an in-depth understanding of consumer’s demography, their interests, as well as their whereabouts. These added insights have the ability to reveal daily routes, commutes, and even particular types of content in which they prefer to consume on a daily basis. Armed with such data insights, businesses can continue to build on their current business intelligence.  A more profound understanding of consumers will aide companies in making their store-wide merchandise selections while improving their competitive appeal with marketing solutions aimed at defined audiences.</p>
 
-<h2 style="text-align:left; font-size:18px;">The Role Location Intelligence Plays in the Business Strategy</h2>
+<h4>The Role Location Intelligence Plays in the Business Strategy</h4>
 
 <p>Location intelligence transforms data into actionable insight that provides businesses with the knowledge necessary to improve a firm’s operational performance. By employing location analytics, businesses can more efficiently and quickly implement data into action, achieve tangible results and gain a competitive advantage. Some major roles that location intelligence will prove to play in a firm’s marketing strategy include:</p>
 <ul class="listing" >
@@ -83,12 +85,12 @@ $meta_image="blog/how-location-intelligence-helps-businesses-improve-marketing-e
 <p>For example, consider a beverage company. This beverage company is looking to increase its sales and to maximise its sales force efficiency. Ultimately, the company is targeting a total of a million potential consumers, which include bars and restaurants within the Asia-Pacific region. The sales force consists of a total of 500 sales representatives. Bearing these numbers in mind, each and every sales rep is therefore required to visit 2,000 potential clients; or broken down further, that is eight to ten potential consumers every working business day. </p>
 
 <p>The optimal sales productivity solution in this scenario would enhance territory coverage models and make routes more efficient for the representatives, not to mention prioritise the most profitable potential clients first. Location intelligence offers a better insight into such location-based relationships and geographical context. These types of solutions help businesses to enhance their predictive analytics, modeling potential outcomes to improve their tactical marketing campaign and augment sales planning.</p>
-<h2 style="text-align:left; font-size:18px;">Location-Based Relationships</h2>
+<h4>Location-Based Relationships</h4>
 
 <p>It is critical that businesses take advantage of location-based relationships that are found within CRM data. For example, if businesses can understand where existing or potential consumers are in relation to a precise point-of-sale, this data will help to uncover how far traveled in order to reach the store location. It will help to map exactly where these consumers are in relation to the store, in addition to evaluating market penetration and so much more. </p>
 <p>With better insights into their consumer location, marketers can more effectively and efficiently run marketing campaigns. With such understanding, these campaigns will run across the appropriate media, in the exact place they should, at just the exact moment they should be, in order to reach target consumers.</p>
 
-<h2 style="text-align:left; font-size:18px;">The bottom line</h2>
+<h4>The bottom line</h4>
 <p>Location intelligence plays an optimal role in allowing enterprise and merchants to overcome previous market impossibilities. Collecting and analysing mobile location data enables them to make effective and efficient marketing decisions like they have never been able to before.</p>
 <p>This is the dawn of a new age, as marketers can use the knowledge gained through location intelligence to more appropriately allocate their spending from across multiple channels to assigning it to specific moments in time. Location data now makes it possible for marketers to understand consumers at a much more intimate level, target them with pertinent messaging across relevant channels, measure the impact that such real-time targeting has on the consumer, and to stay relevant to target audience by broadening business intelligence through consumer insights.</p>
 
@@ -170,79 +172,6 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
-
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

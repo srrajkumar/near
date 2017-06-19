@@ -25,7 +25,7 @@
               c0,0.1,0,0.3,0,0.4v50.9c0,5.4,4.8,10.3,11.9,10.3c6.6,0,11.9-5,11.9-11.7l0-49.5c0-20.8,16.9-37.9,37.7-37.8
               c6.6,0,11.9-5.3,11.9-11.9C483.2,19,477.8,13.6,471.3,13.6"></path>
         </svg>   </span></div>         
-					<div class="col-sm-1 footer-links"  data-aos="fade-up" data-aos-delay="400">
+					<div class="col-sm-1 footer-links"  data-aos="fade-up" data-aos-delay="300">
 					   <a href="<?php echo SITE_URL; ?>careers" >CAREERS</a>   
                        <a href="<?php echo SITE_URL; ?>culture" >CULTURE</a>   
                        <a href="<?php echo SITE_URL; ?>news" >NEWSROOM</a>   
@@ -40,22 +40,12 @@
                        <a  href="<?php echo SITE_URL; ?>board" >BOARD</a>
                         <a href="<?php echo SITE_URL; ?>contact" class="link-mob">CONTACT US</a> 
                     </div>
-					<!--div class="col-sm-3 footer-links"  data-aos="fade-up" data-aos-delay="600">
-					      
-                       <span>CONNECT</span>   
-                       <p class="social-links" style="margin-top:12px;">
-                       <a target="_blank" href="#"><i class="fa fa-facebook" style="left: 14px;top: 11px;"></i></a>
-						<a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                           
-						   <a target="_blank" href="#"><i class="fa fa-linkedin" ></i></a>
-						</p>
-                       </div-->
-                       <div class="col-md-3 newsletter footer-mob"  data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-md-3 newsletter footer-mob"  data-aos="fade-up" data-aos-delay="500">
 					  <h5>NEWSROOM</h5>
                       <a class="news-link" href="<?php echo SITE_URL; ?>news/connecting-the-physical-and-digital-using-ambient-intelligence-platform.php" style="margin-top:5px;"><span>April 28, 2017 - United States</span><br>Connecting the Physical and Digital using Ambient Intelligence Platform: Shobhit Shukla</a> 
                        <a class="news-link" href="<?php echo SITE_URL; ?>news/more-male-tourists-seen-in-singapore-during-cny.php" style="margin-top:5px;"><span>February 20, 2017 - Singapore</span><br>More male tourists seen in Singapore during CNY</a>   
 					</div>
-					<div class="col-md-3 newsletter career-footer footer-mob"  data-aos="fade-up" data-aos-delay="800">
+					<div class="col-md-3 newsletter career-footer footer-mob"  data-aos="fade-up" data-aos-delay="600">
 						<h5>CAREERS</h5>
 						<a href="<?php echo SITE_URL; ?>careers/data-engineer.php" class="news-link" style="margin-top:5px;">
                         Data Engineer</a>
@@ -72,7 +62,7 @@
 						   <a target="_blank" href="<?php echo YOUTUBE_ACCOUNT_URL ;?>"><!--i class="fa fa-youtube"></i--><img src="<?php IMAGE('youtube-icon.png'); ?>" style="width: 17px; height: auto; margin-top: 5px;" /></a>
 						</p>
 					</div>
-                      <div class="col-sm-3 life"  data-aos="fade-up" data-aos-delay="1000">
+                      <div class="col-sm-3 life"  data-aos="fade-up" data-aos-delay="700">
                       
 
                       <h5>LIFE @ NEAR</h5>
@@ -96,7 +86,7 @@
 						<hr style="border-top:1px solid rgba(0,0,0,0.5) !important; border:none; width:100%; margin-bottom:10px;    margin-top: 30px; padding-bottom:10px;"/>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row copyright_container">
 					
 					 <div class="col-md-10 copyrights"  style="margin-top: 3px;">Copyright © 2016 - 2017 Near Pte. Ltd | <a href="<?php echo SITE_URL; ?>privacy" target="_blank">Privacy Policy</a><!-- | <a href="#" target="_blank"> Sitemap</a --></div>
 					 <div class="col-md-2 truste">

@@ -20,7 +20,9 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
 
 </head>
     <body>
-    <div class="preloader"></div>
+    <div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
     <?php include('../includes/_navigation.php'); ?>
         <div class="col-lg-12  k carousel-custom the-data" style="background-color: #fafafa; " data-particles='{"color":"#a2a2a2"}'> 
 <div class="banner-space container allspark-space" style="    height: 100px;"></div>
@@ -36,12 +38,20 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
   </div>
   <div class="banner-space container allspark-space"></div>
 </div>
-
+<div class="breadcumb-bg" style="background-color: #eceeef">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>"><span class="fa fa-home "></span></a></li>
+      <li class="breadcrumb-item"><a href="<?php echo SITE_URL; ?>about">About Us</a></li>
+      <li class="breadcrumb-item active">Leadership</li>
+    </ol>
+  </div>
+</div>
             <!-- BEGIN: Page content -->
       <!-- Career
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="container-fluid" style="padding:0px;">
+<div class="container-fluid leadership_page" style="padding:0px;">
 <div class="space"></div>
 	 <!-- Three columns of text below the carousel -->
       <div class="row" style="text-align:center">
@@ -51,7 +61,7 @@ $meta_keywords="Anil Mathews, Ambient Intelligence Platform, SaaS product, locat
 | <br class="mob-add"> Believe in Work plus Life  |  <br class="mob-add"> Are a perpetual Work In Progress.</p>
 <div class="space"></div>
 <div class="header-team">
- <h2><b>Executive</b> Team</h2>
+ <h2>Executive <span style="color: #5d5d5d">Team</span></h2>
 <div class="sub-nav-line-break"></div>
 </div>
 <div id="the-team" class="container" >

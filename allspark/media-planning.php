@@ -20,7 +20,9 @@ $image=  "allspark/allspark-media-planning.png";
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
     <?php include('innerpage-banner.php'); ?>
 	
@@ -42,7 +44,7 @@ $image=  "allspark/allspark-media-planning.png";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/media-planning/icon-1.png') ?>" alt />
+	                	<img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/media-planning-icons.png');?>); background-position: 0 0; background-size: 100% auto; width: 103px; height: 103px;" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Understanding</span> where their audience is, in the physical world and digital world.
@@ -50,7 +52,7 @@ $image=  "allspark/allspark-media-planning.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/media-planning/icon-4.png') ?>" alt />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/media-planning-icons.png');?>); background-position: 0 95px; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Estimating</span> reach across smartphones, desktops & outdoor sites in real-time.
@@ -58,7 +60,7 @@ $image=  "allspark/allspark-media-planning.png";
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/media-planning/icon-2.png') ?>" alt />
+	                	<img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/media-planning-icons.png');?>); background-position: 0 320px; background-size: 100% auto; width: 103px; height: 103px;" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Comparing</span> the audience engagement across devices and getting smarter with budget allocation.
@@ -66,7 +68,7 @@ $image=  "allspark/allspark-media-planning.png";
                 </div>
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/media-planning/icon-3.png') ?>" alt />
+	                	<img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/media-planning-icons.png');?>); background-position: 0 200px; background-size: 100% auto; width: 103px; height: 103px;" alt />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Comparing</span> which set of media work best together by doing A/B experiments on different media mix.

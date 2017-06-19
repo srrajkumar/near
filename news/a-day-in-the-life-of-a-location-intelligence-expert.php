@@ -16,7 +16,9 @@ $title ='A day in the life of... a location intelligence expert';
     <meta property="og:image" content="<?php IMAGE('news/a-day-in-the-life-of-a-location-intelligence-expert.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

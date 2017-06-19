@@ -18,7 +18,9 @@ $meta_image="blog/how-did-2016-put-location-on-the-map-for-businesses.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -48,7 +50,7 @@ $meta_image="blog/how-did-2016-put-location-on-the-map-for-businesses.png";
 
 <p>The real-time data mobile users generate when they order a takeaway, swipe at their favourite retail store, browse through news on their smartphones or hitch a ride, provides a rich resource of insight into who individuals are, what they do, and where they are going. This year, as smartphone sales tipped <a href="https://www.canalys.com/newsroom/media-alert-over-15-billion-smart-phones-ship-worldwide-2016"  target="_blank">one billion</a> globally and usage of location services soared (Uber is now the top taxi app in <a href="https://www.bloomberg.com/news/articles/2016-08-23/uber-is-the-most-popular-ride-hailing-app-in-108-countries" target="_blank">108 </a>countries) it’s no surprise location’s potential to give companies a competitive edge earned it a sizeable place on the business map.</p>
 
-<h2 style="font-size:18px; text-align:left; margin-bottom: 0px;">Location insight took centre stage</h2>
+<h4>Location insight took centre stage</h4>
 <p>No discussion of location in 2016 would be complete without talking about a certain fantasy game that aims to catch ‘em all. The launch – and global hysteria – of Pokémon GO in July enabled businesses of all sizes, across every industry, to recognise the value of targeting consumers by where they were, as well as what generally interested them or what they had bought before. </p>
 
 
@@ -57,14 +59,14 @@ $meta_image="blog/how-did-2016-put-location-on-the-map-for-businesses.png";
 
 <p>Awareness of the vast data stores produced by location-based activity increased and businesses began to see it as a possible way to enhance consumer understanding. Forward-thinking enterprises also started compiling, analysing and interpreting data to create actionable insights into consumer behaviour, and requirements, that formed a better basis for business wide decision-making.</p>
 
-<h2 style="font-size:18px; text-align:left; margin-bottom: 0px;">Retail crossed the digital divide</h2>
+<h4>Retail crossed the digital divide</h4>
 
 <p>The need for retailers to be as strong online as offline isn’t new — with <a href="http://www.pwc.com/gx/en/industries/retail-consumer/global-total-retail.html"  target="_blank">over half</a> (54 per cent) of global shoppers buying online weekly or monthly — but this year, retailers began to see location as the key to aligning in-store and ecommerce strategy, and boosting success in both. They recognised that location intelligence could be used to transform information from a variety of devices into detailed, unique shopper profiles that opened the door to higher engagement, loyalty, and sales across multiple channels — especially mobile. Now accounting for <a href="http://www.thedrum.com/news/2016/02/27/figures-reveal-mobile-accounts-51-uk-ecommerce-sales"  target="_blank">half </a>of ecommerce sales in the UK alone, mobile has quickly become a pillar of modern retail — making it the ideal link between the digital and real world, and a powerful means of carrying individual experiences from one channel to another.</p>
 
 <p>For example, this year <a href="https://www.starbucks.co.uk/coffeehouse/mobile-order" target="_blank">Starbucks </a>led the way with location-based order optimisation by enabling consumers to pay in advance for orders at nearby branches via a mobile app. In the US, it was the other way round. <a href="http://www.adweek.com/news/technology/omnichannel-marketing-finally-going-retail-dream-reality-174049" target="_blank">Timberland </a>used near-field-communication (NFC) to build a ‘TouchWall’ at its New York store, which allowed consumers to scan product info from the wall to their smartphone and save items for purchase online at a later date. And in 2017, this trend is set to continue.</p>
 <p>Retailers will increasingly utilise location insight enriched with spend data, which will make it possible to precisely track and attribute purchases in certain stores.   </p>
 
-<h2 style="font-size:18px; text-align:left; margin-bottom: 0px;">Using location data for good</h2>
+<h4>Using location data for good</h4>
 
 <p>But use of location data in 2016 wasn’t just restricted to retail and marketing; it was also harnessed as a force for social and environmental good. US-based company Pelagic Data Systems (PDS) made <a href="https://www.theguardian.com/sustainable-business/2016/nov/20/artificial-intelligence-illegal-fishing-tuna-sharks" target="_blank">headway </a>by installing tech that uses solar-powered radio and GPS receivers to track fishing boats globally — generating data that highlights activity in marine protected areas and thereby served to prevent illegal fishing.</p>
 <p>Meanwhile, students at Park House School in Newbury created the potentially life-changing <a href="http://www.tech2goodawards.com/finalist/ewaterpay/" target="_blank">eWATERpay </a>system, which fuels sustainable maintenance of water pumps in African villages. Using a mobile app, villagers pay a small fee for set volumes of water that can be collected from their local pump with a tracked tag. The activity of these water pumps is monitored to gauge when repairs are required — the cost of which is covered by revenue from water usage. Location has been quietly waiting for its potential to be recognised and at last, in 2016, its moment arrived.</p>
@@ -152,79 +154,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

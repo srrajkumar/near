@@ -15,7 +15,9 @@ $title ="How can retailers use location intelligence?";
     <meta property="og:image" content="<?php IMAGE('news/how-can-retailers-use-location-intelligence.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

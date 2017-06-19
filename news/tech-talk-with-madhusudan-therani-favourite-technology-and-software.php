@@ -16,7 +16,9 @@ $title ="Tech Talk with Madhusudan Therani: Favourite Technology & Software";
     <meta property="og:image" content="<?php IMAGE('news/tech-talk-with-madhusudan-therani-favourite-technology-and-software.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

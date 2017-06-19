@@ -22,7 +22,9 @@ iframe {width: 100%; border:0;  height:450px; margin-top:30px;}
  </head>
 	<body class="career-sub">
 
-		<div class="preloader"></div>
+		<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 	<div class="col-lg-12  k carousel-custom the-data" style="background-color: #fafafa; " data-particles='{"color":"#a2a2a2"}'> 
 <div class="banner-space container allspark-space" style="    height: 100px;"></div>

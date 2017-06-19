@@ -18,7 +18,9 @@ $keywords=" Ambient intelligence, Location intelligence, Data products, Data ana
 
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<div class="col-lg-12  k carousel-custom the-data" style="background-color: #fafafa; " data-particles='{"color":"#a2a2a2"}'> 
 <div class="banner-space container allspark-space" style="    height: 100px;"></div>

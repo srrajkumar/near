@@ -13,7 +13,7 @@
 <script>
 	var name = '<?php echo $_POST['name']; ?>';
 	var email = '<?php echo $_POST['email']; ?>';
-	var location = '<?php echo $_POST['location']; ?>';
+	var country = '<?php echo $_POST['location']; ?>';
 	var phone = '<?php echo $_POST['phone']; ?>'; 
 	var looking = '<?php echo $_POST['looking']; ?>';
 	var message = '<?php echo $_POST['message']; ?>';
@@ -23,17 +23,18 @@
 	data: { 
 		"entry_1229723962": name,
 		"entry_449986738": email,
-		"entry_1691333487": location,
-		"entry_2009616948": looking,
 		"entry_1033753284": phone,
+		"entry_1691333487": country,
+		"entry_2009616948": looking,		
 		"entry_1042402941": reason,
-		"entry_32108294053": message
+		"entry_2108294053": message
 	},
 	type: "POST",
 	dataType: "xml",
 		statusCode: {
 
-	}
+	},
+	timeout: 3000 
 	});
 </script>
 
@@ -54,7 +55,10 @@ require 'phpmailer/PHPMailerAutoload.php';
  $phone =$_POST['phone'];
  $looking =$_POST['looking'];
  $reason =$_POST['contact_reason'];
-
+if (empty($name) && empty($email) && empty($phone) && empty($contact_reason)) {
+    echo 'Please enter the values';
+    return false;
+}else{
  $mail = new PHPMailer;
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
@@ -69,7 +73,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-	//$mail->addCC('aditi@near.co');
+	//$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('smriti@near.co');
 	$mail->addCC('inbound@near.co');
 	
@@ -92,7 +96,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 							  <tbody>
 							    <tr>
 							      <td><img src='http://188.166.248.212/images/near-white.png' alt='Near' width='120' height='40'  style='display: block; float:left; padding: 5px 5px 5px 10px;' /></td>
-							      <td> <p style='margin: 15px 15px 0px 0;'>Partnership Enquiry</p>
+							      <td> <p style='margin: 15px 15px 0px 0;'>Interest in Data</p>
                             <p style='font-size:11px; padding: 0px 0px 10px 0px; color:rgba(255, 255, 255, 0.54); margin: 0px;'>$mon $date, $year</p></td>
 						        </tr>
 						      </tbody>
@@ -207,5 +211,5 @@ echo "<div class='form-wrapper clearfix container' style='text-align:center'>
        </div>
     </section>
   </div>";
-
+}
 ?>

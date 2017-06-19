@@ -16,7 +16,9 @@ $meta_image="blog/mobileadtech.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -41,23 +43,23 @@ $meta_image="blog/mobileadtech.png";
 											<h2 style="text-align:left;"><?php echo $title; ?></h2>
 											<p>Ad-tech has been going through massive reinvention and mobile is today leading the charge.  We could say 2014 was the year of mobile advertising but 2015 will be an even more exciting year for the industry. Here are 5 things that you’ll see a lot of and will change mobile advertising, again. </p>
 
-<h2  style="font-size:18px; text-align:left;">1.	Programmatic</h2>
+<h4>1.	Programmatic</h4>
 <p>Programmatic has been one of the buzzwords of 2014 and the industry is going to widen its usage in 2015.  eMarketer expects that US mobile programmatic spend will contribute 55% to the total US programmatic market in 2015, up from 44% in 2014. Not only brand advertising will become more programmatic, but also native will become programmatic.</p>
 
-<h2  style="font-size:18px; text-align:left;">2.	First-party data</h2>
+<h4>2.	First-party data</h4>
 
 
 <p>Data usage for better ad targeting will be seen a lot more in 2015. What will ensure some ad-tech companies get that clear advantage over others is access to and usage of first-party data: First-party data from Brands as well as Publishers. It differs from third-party data that is a collection of anonymized data from independent data providers.</p>
 
-<h2  style="font-size:18px; text-align:left;">3.	Native Adoption</h2>
+<h4>3.	Native Adoption</h4>
 
 <p>Native ad formats have been in talk since sometime. It’s become a cliché in the industry. But now with large publishers taking native ad formats seriously, ad exchanges will soon adopt an approach to this. According to Yahoo’s research smartphone users are 2.2 times more likely to agree that ‘If content is engaging then I don’t care it is an advert’. So this is inevitable for a win-win.</p>
 
-<h2  style="font-size:18px; text-align:left;">4.	Cross-Device</h2>
+<h4>4.	Cross-Device</h4>
 
 <p>Some companies have cracked this to an extent but 2015 will see a lot of action around cross-device targeting. This includes targeting across mobiles to desktops to tablets to even an extension of TV and OOH. Understanding users across and around these mediums particularly keeping mobile as the center point will be seen in 2015. Which means you could be seeing an ad on a billboard that get’s extended to your mobile and later at home you get an offer on the same ad on your desktop.</p>
 
-<h2  style="font-size:18px; text-align:left;">5.	Offline measurement</h2>
+<h4>5.	Offline measurement</h4>
 
 <p>Measuring engagement to the last mile has always been a challenge. Only the mobile medium has the power to address this. 2015 will see various approaches to measuring offline engagement via mobile advertising. Integrated offerings will make this possible, at-last. And brands could measure clearer offline effectiveness of their mobile ad campaigns. </p>
 	<p>Also published in <a href="http://e27.co/5-things-will-shape-mobile-advertising-2015-20150127/" target="_blank">e27</a>.</p>										
@@ -138,79 +140,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
 
   </body>

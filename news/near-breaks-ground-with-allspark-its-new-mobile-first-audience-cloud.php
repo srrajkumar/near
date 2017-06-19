@@ -15,7 +15,9 @@ $title ="Near breaks ground with Allspark, its new Mobile-first Audience Cloud";
     <meta property="og:image" content="<?php IMAGE('news/near-breaks-ground-with-allspark-its-new-mobile-first-audience-cloud.jpg'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

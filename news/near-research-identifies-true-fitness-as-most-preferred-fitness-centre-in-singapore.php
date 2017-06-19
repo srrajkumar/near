@@ -15,7 +15,9 @@ $title ="Near Research identifies True Fitness as the most preferred fitness cen
     <meta property="og:image" content="<?php IMAGE('news/near-research-identifies-true-fitness-as-most-preferred-fitness-centre-in-singapore.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

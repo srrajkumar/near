@@ -16,7 +16,9 @@ $meta_image="blog/harnessing-power-mobile-data-more-effective-cross-channel-mark
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -47,17 +49,17 @@ $meta_image="blog/harnessing-power-mobile-data-more-effective-cross-channel-mark
 
 <p>So, how can retailers successfully harness the power of mobile data for more effective cross-channel marketing?</p>
 
-<h2 style="text-align:left;">Getting to know customers through mobile data </h2>
+<h4>Getting to know customers through mobile data </h4>
 <p>Last year Deloitte found that 63% of UK and German shoppers used multiple retail channels before purchasing. A quarter (25%) of shoppers used their mobile to compare prices while browsing in a physical retail location. There is no question that such behaviour has made the path to purchase more complicated. Yet the use of smart devices also produces a data trail that allows the consumer’s journey to be tracked as they seamlessly switch from one channel to another.  </p>
 <p>Instead of relying on limited metrics — such as spend size, transaction history and CRM data — retailers can combine their existing analysis with mobile, significantly enhancing their understanding of purchase habits. With the addition of mobile data — such as location, audiences, content searches, and user preferences — retailers can gain a complete view of user activity from initial interest to the final conversion. Not only can retailers map individual paths to purchase, they can also gauge the effectiveness of each interaction with particular brands or products. </p>
 
-<h2 style="text-align:left;">Use mobile data to meet the consumer’s needs </h2>
+<h4>Use mobile data to meet the consumer’s needs </h4>
 
 <p>Mobile data equips retailers with the information needed to implement real-time, personalised targeting, increasing engagement, conversions and brand awareness. Online retailers can take advantage of individual consumer insights — such as interests and location — to identify potential customers. Not only can they target influential touchpoints in the customer journey, they can also deliver relevant offers to prospective customers, enhancing conversion rates.  </p>
 
 <p>Offline retailers can also utilise mobile data to understand consumers and build brand awareness. For example, a coffee chain looking to increase morning footfall could use geo-location technology to serve mobile ads to local consumers displaying the nearest store distance.  </p>
 
-<h2 style="text-align:left;">Look at the whole picture to understand results </h2>
+<h4>Look at the whole picture to understand results </h4>
 
 <p>For long-term success, retailers must ensure they focus on more than the numbers. By analysing patterns of data over a period of time, using location data and content consumption behaviour, they can identify and target the right audience.  </p>
 
@@ -146,79 +148,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
 
   </body>

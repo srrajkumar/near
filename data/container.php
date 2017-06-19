@@ -11,7 +11,7 @@
 
                 <div class="col col-md-8 data-sets" style="right: 0">
                 <div class="col col-md-12 row perspective" style="padding:0; margin: 0;">
-                <div class="icon-set-2 col-md-12 margin-padding row data_set">
+                <div class="icon-set-2 col-md-12 margin-padding row data_set data_ipad">
                     <div class="col-md-2" style="padding: 0">
                         <p class="highlite" style="text-align: left">Proprietary <span>Datasets</span></p>
                     </div>

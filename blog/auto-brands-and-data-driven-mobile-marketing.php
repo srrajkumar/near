@@ -14,7 +14,9 @@ $title ='Auto brands and data driven mobile marketing';
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -47,12 +49,12 @@ $title ='Auto brands and data driven mobile marketing';
 <p>The increasing number of smartphones, and the increasing amount of time spent by users on these devices is generating a huge amount of data. This data, when analysed to generate intelligence in the form of location or audience insights, is a previously untapped opportunity for marketers to build context around marketing.</p>
 
 
-<h2 style="text-align:left;">Access to predictive analytics</h2>
+<h4>Access to predictive analytics</h4>
 <p>The concept 'right time, right place and right consumer' is the recite chanted by many marketers today. Location data in the context of data driven marketing becomes essential and acts as the most powerful data point that enables us to connect a user’s online behavior with the offline context. Smartphones are the only source of location data at scale, and are unparalleled in their ability to be personal, relevant and measurable.</p>
 
 <p>This data, combined with interest data like content consumption behavior of the user helps us sketch audience profiles of consumers. Brands with a retail presence like McDonald’s, Pizza Hut, and Woolworths are using this real time intelligence for geo-audience insights and targeting and are reaping huge benefits from this strategy. Leading marketers are also using these data insights to tie in with traditional media like out-of-home media to amplify their reach and engagement.</p>
 
-<h2 style="text-align:left;">Present auto advertising environment</h2>
+<h4>Present auto advertising environment</h4>
 
 <p>The nature of campaigns by automotive brands varies according to the brand’s objectives:&nbsp; <br>
 	 <ul class="listing">
@@ -163,79 +165,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
 		
   </body>

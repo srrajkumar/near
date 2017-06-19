@@ -16,7 +16,9 @@ $title ='Near continues global growth path with expansion into Europe';
 	<meta property="og:image" content="http://near.co/images/news/ken.jpg" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

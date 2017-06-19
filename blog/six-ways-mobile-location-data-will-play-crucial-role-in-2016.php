@@ -17,7 +17,9 @@ $meta_image="blog/six-ways-mobile-location-data-will-play-a-crucial-role.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -42,24 +44,24 @@ $meta_image="blog/six-ways-mobile-location-data-will-play-a-crucial-role.png";
 											<h2 style="text-align:left;"><?php echo $title; ?> </h2>
 											<p>With almost three quarters (<a href="http://www.information-age.com/technology/mobile-and-networking/123460477/location-intelligence-its-time-tap-untold-revenue-we-all-generate-we-move" target="_blank"> 74%</a>) of smartphone users engaging with location-based services, mobile location data is rapidly becoming an indispensable marketing tool. In 2016, marketers will increasingly look to mobile location data to engage consumers across devices, measure multi-channel attribution and combat ad blocking. Here are six ways mobile location data will play a crucial role over the next year and beyond. </p>
 
-<h2 style="text-align:left; font-size:18px;">Navigating the world of wearables</h2>                                            
+<h4>Navigating the world of wearables</h4>                                            
 
 <p>With the wave of next-gen smartwatches and wearables on the horizon – including the <a href="http://www.wareable.com/smartwatches/next-gen-smartwatches-coming-2015-2016"  target="_blank"> Apple Watch 2 </a>– 2016 is set to be the year of the Internet of Things. As mobile devices and wearables become increasingly integrated into daily life, marketers will utilise the real-time insights afforded by mobile location data to create a frictionless multi-screen experience that delivers engaging content to consumers when they are most receptive. </p>
 
-<h2 style="text-align:left; font-size:18px;">Measuring attribution </h2>
+<h4>Measuring attribution </h4>
 
 <p>The rise of wearables and the Internet of Things is creating an even more complex and interwoven customer journey, further complicated by mobile’s cookieless environment. Through location footprints mapped to device identifiers, marketers will use location technology to measure online and offline attribution, and understand whether a purchase has come as a result of an in-app mobile marketing. </p>
 
 <h2 style="text-align:left; font-size:18px;">Combating ad blocking </h2>
 <p>Almost <a href="http://www.brandrepublic.com/article/one-five-use-ad-blockers-uk-says-iab-research/1372131?bulletin=brandrepublicnewsbulletin&utm_medium=EMAIL&utm_campaign=eNews%20Bulletin&utm_source=20151111&utm_content=www_brandrepublic_com_art_1" target="_blank">one in five</a> British adults online are currently using ad blocking software and the number is rising quickly. Instead of fighting ad blocking technology, marketers must consider why consumers are using it. Consumers will engage with ads that are useful and relevant to them, and mobile location data will become a critical tool for marketers to ensure consumers are served targeted ads at the right time, in the right place. </p>
 
-<h2 style="text-align:left; font-size:18px;">Creating personal experiences </h2>
+<h4>Creating personal experiences </h4>
 <p>Marketers are increasingly looking to acquire data from devices, derive insights, and use those insights intelligently to tailor content. Using mobile location data to better understand the consumer, marketers will be able to deliver tailored creative that creates a more enjoyable mobile experience for consumers.</p>
 
-<h2 style="text-align:left; font-size:18px;">Increasing competition between businesses  </h2>
+<h4>Increasing competition between businesses  </h4>
 <p>As consumers become increasingly mobile, they will demand more localised marketing. Smart businesses will utilise mobile location data for competitive advantages by recognising individuals at specific locations and targeting them by proximity and at competitor locations with localised marketing.</p>
 
-<h2 style="text-align:left; font-size:18px;">Fuelling the growth of programmatic</h2>
+<h4>Fuelling the growth of programmatic</h4>
 <p>With multiple marketing technologies at their disposal, marketers will need to consolidate and organise their data into one platform in order to manage current consumers, discover new ones, create audience segments, schedule cross-media actions and organise content. By providing marketers with access to a 360° view of the consumer, real-time mobile location data will play a key role in fuelling the continued growth of programmatic marketing.</p>
 <p>As published in <a href="http://www.marketingtechnews.net/news/2015/dec/16/six-ways-mobile-location-data-will-play-crucial-role-2016/" target="_blank">Marketing Tech News</a></p>
 
@@ -139,79 +141,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
 
   </body>

@@ -19,7 +19,9 @@ $meta_keywords="Data driven marketing news, location data industry, Omni-channel
 	</style>
 </head>
 	<body class="newsroom-main">
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 
@@ -29,6 +31,27 @@ $meta_keywords="Data driven marketing news, location data industry, Omni-channel
 					<div class="container" style="    margin-bottom: 100px;">
 						<div class="row">
 							<div id="easyPaginate" class="col-md-9">
+							<div class="row post">
+									<div class="col-md-3 post-meta">
+                                    <div class="post-date">
+										<div class="post-day">25</div>
+										<div class="post-month">May 2017</div></div>
+										<div class="post-author"><i class="fa fa-map-marker"></i>&nbsp; Australia and New Zealand</div>
+									</div>
+									<div class="col-md-9">
+										<div class="post-body background-75-e">
+											<div class="post-image">
+												<a class="page-transition" href="<?php echo SITE_URL; ?>news/allspark-recognised-as-the-iab-digital-product-for-2017.php"><img class="fluid-width" src="<?php IMAGE('news/allspark-recognised-as-the-iab-digital-product-for-2017.png'); ?>" alt="" /></a>
+											</div>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>news/allspark-recognised-as-the-iab-digital-product-for-2017.php">Allspark recognised as the IAB Digital Product for 2017</a></h2>
+											
+											<p>We are proud and honoured to announce that <a href="<?php echo SITE_URL ; ?>allspark/" target="_blank">Allspark</a>, Near’s SaaS audience product has won the Digital Product of the Year Award from IAB New Zealand...</p>
+											 
+											<a href="<?php echo SITE_URL; ?>news/allspark-recognised-as-the-iab-digital-product-for-2017.php" class="button2 button2--primary button2--rounded">Read more</a>
+						
+										</div>
+									</div>
+							</div>
                            <div class="row post">
 									<div class="col-md-3 post-meta">
                                     <div class="post-date">

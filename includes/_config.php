@@ -1,7 +1,7 @@
 <?php
 ini_set("display_errors", 0);
 define('SITE_NAME', 'Near');
-$mainurl = 'http://localhost/near_v3/';
+$mainurl = 'http://localhost/near.co/';
 //$mainurl = 'https://near.co/'; 
 //$cdnurl = 'https://druq9h2796z7c.cloudfront.net/';
 #$cdnurl = 'https://d2828ihewbtgvd.cloudfront.net/';
@@ -19,7 +19,7 @@ define('VDO_ASSETS_URL',  $mainurl .'assets/vdo/');
 define('PDF_ASSETS_URL', 'http://d2828ihewbtgvd.cloudfront.net/pdf/');
 define('TWITTER_ACCOUNT_URL', 'http://twitter.com/Near');
 define('FACEBOOK_ACCOUNT_URL', 'http://facebook.com/NearPlatform');
-define('LINKEDIN_ACCOUNT_URL', 'https://www.linkedin.com/company-beta/2811352/');
+define('LINKEDIN_ACCOUNT_URL', 'https://www.linkedin.com/company/-near');
 define('YOUTUBE_ACCOUNT_URL', 'https://www.youtube.com/channel/UCcZSqSHEBHDP_o3Ty-OVq-A');
 define('DEFAULT_COUNTRY_OPTION', 'INDIA');
 

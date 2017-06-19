@@ -16,7 +16,9 @@ $title ='How APAC organisations should leverage location-based marketing';
     <meta name="KEYWORDS" content="Location Data, Location-based Marketing, Consumer Analytics, Consumer Insights, APAC brands, Brand Marketers, Consumer Research, Allspark, Data Products, Data Convergence, IoT data, Consumer Footfall, Consumer Footprints, Retailers,Converging Data, CRM Data, Spend Data, Social Data, Interest Data, Marketing Strategy, Business Strategy" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

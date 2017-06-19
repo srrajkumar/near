@@ -15,7 +15,9 @@ $title ='Marketers Not Keeping Up In Mobile Race';
     <meta property="og:image" content="<?php IMAGE('news/marketers-not-keeping-up-in-mobile-race.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

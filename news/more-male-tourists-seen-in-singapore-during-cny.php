@@ -16,7 +16,9 @@ $title ="More male tourists seen in Singapore during CNY";
     <meta name="KEYWORDS" content="Location Data | SaaS products | Allspark | Attribution Analytics | Singapore Shoppers | Audience Analytics | Cross-Device Attribution | Chinese New Year | Consumer Insights | Smriti Kataria | Tourists Behavior | Locals Digital Behavior | Real-World Insights | Consumer Footprints " />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -15,7 +15,9 @@ $title ='Near Selected by AlwaysOn as one of the OnMedia 50 Companies to Watch';
 	<meta property="og:image" content="http://near.co/images/news/OnMedia-50-Companies.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

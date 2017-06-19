@@ -21,7 +21,9 @@ $image=  "allspark/allspark-auto.png";
 <style>.carousel-control{display:none !important;} .allspark-inner .line_break1{display:none;}</style>
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
     <?php include('innerpage-banner.php'); ?>
 
@@ -36,7 +38,7 @@ $image=  "allspark/allspark-auto.png";
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
               
-                <a href="<?php echo SITE_URL ;?>pdf/brand-insights/ford-everest-case-study.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="500">
+                <a href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL ;?>pdf/brand-insights/ford-everest-case-study.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="500">
                     <img src="<?php IMAGE('case-study/auto-ford-everest.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4> Auto Enthusiasts & Ford Everest</h4>
@@ -60,7 +62,7 @@ $image=  "allspark/allspark-auto.png";
                     </a>
 
                   
-                     <a href="<?php echo SITE_URL ;?>pdf/whitepaper/automotives-and-data-driven-marketing.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="600">
+                     <a  href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL ;?>pdf/whitepaper/automotives-and-data-driven-marketing.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="600">
                     <img src="<?php IMAGE('whitepaper/auto-automotive.png') ?>" alt="High Power" class="sq-ratio">
                      <span class="tile__content">
                             <h4>Automotives & Data-Driven Marketing</h4>
@@ -90,7 +92,7 @@ $image=  "allspark/allspark-auto.png";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-1.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 2px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Curate</span> their target audience in real-time and estimate reach in different places.
@@ -98,7 +100,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-3.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -228px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Engage</span> with the target audience in real-time, across channels.
@@ -106,7 +108,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-2.png') ?>" />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -118px; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the behaviour of audience in the digital and physical world, by mapping their journey with data from channels including mobile, desktops and tablets.
@@ -114,7 +116,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-7.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -658px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across products and places. 
@@ -123,7 +125,7 @@ $image=  "allspark/allspark-auto.png";
                 
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-8.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -758px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> Allspark data through DaaS API for making data-driven decisions. 
@@ -131,7 +133,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-5.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -438px; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Measure</span> and compare store visits to their own and competitor stores.
@@ -139,7 +141,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-4.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -328px; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Drive</span> footfall to their showrooms and events, to promote their products and raise brand awareness.
@@ -147,7 +149,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-9.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -868px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Identify</span> the best places to open their next stores with rich insights from smart environments.
@@ -155,7 +157,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/segment.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -968px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Segment </span> existing car owners into buckets based on residential location or driving behaviour.
@@ -164,7 +166,7 @@ $image=  "allspark/allspark-auto.png";
 
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/understand.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -1068px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> customer base of competitor vehicles to identify gaps in marketing and product offering.
@@ -172,7 +174,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/identify.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -1188px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Identify</span> people movement to determine the optimal size and capacity of vehicle to support changes in transportation requirements, and hence aid decisions in new product development.
@@ -180,7 +182,7 @@ $image=  "allspark/allspark-auto.png";
                 </div>
                   <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/auto/icon-6.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/auto-icons.png');?>); background-position: 0 -548px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> which channel (Mobile/Tablet/Desktop/OOH) influenced their consumer walk-in, and make smarter marketing decisions.
@@ -221,7 +223,18 @@ document.getElementById('verticals').className = 'active';
         });
     });
 });
+function SetPage(url)
+{document.getElementById("myframe").setAttribute("src", url);}
+$('.button').click(function(){
+      $('#modal').css('display','block');
+      $('.modal-bg').fadeIn();
+  });
 
+    $('#close').click(function(){
+        $('.modal-bg').fadeOut();   
+        $('#modal').fadeOut();
+      return false;
+    });
     </script>
     
 </body>

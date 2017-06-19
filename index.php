@@ -11,12 +11,19 @@ $meta_keywords="Ambient intelligence, Location intelligence, Data products, Data
 <html  lang="en">
 <head>
 	<?php include('includes/_head.php'); ?>
-</head>
+  <style>
+  #message{font-weight:400; margin-top:30px;}
+  </style>
+ </head>
 <body>
-<div class="preloader"></div>
+<div class="main_container">
+<div class="preloader">
+  <?php include('includes/preloader.php'); ?>
+</div>
 	<?php include('includes/_navigation.php'); ?>
 	<?php include('home.php'); ?>
 	<?php include('includes/_footer.php'); ?>
+  </div>
 	<?php include('includes/_java_scripts.php'); ?>
 	<script>
     function blink(){
@@ -40,9 +47,38 @@ $meta_keywords="Ambient intelligence, Location intelligence, Data products, Data
       blink();
       blink2();
       blink3();
-      
+      function validate()
+    {
   var email = $('#state').val();
-  console.log(email);
+
+$.ajax({
+url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLScrZGEWyiWprePwNepN_l8_Xw-vTtD7oiYWYII3POJpX4S41g/formResponse",
+data: { 
+"entry_1045781291": email
+
+  },
+    type: "POST",
+    dataType: "xml",
+   statusCode: {
+    
+                        0: function() {
+                           $('.news-form').hide();
+                     $('#message').append('Thank you for subscribing to the Near newsletter.').show();
+                    
+                        },
+                         200: function() {
+                            //Success Message
+                        }
+    },
+  timeout: 3000 
+  });
+}
+     $(document).ready(function(){
+                $('#form').submit(function() {
+                    validate();
+                    return false;
+                });
+            });
 </script>
 
 </body>

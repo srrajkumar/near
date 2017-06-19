@@ -16,7 +16,9 @@ $title ='Bad Data Remains a Big Challenge for Location Platforms';
     <meta name="KEYWORDS" content="Mobile Data, Location Data, Location Intelligence, Anil Mathews, Near platform, Location Graph, Consumer Graph, Consumer Insights, Cross-Screen Marketing, Cross-Screen Data, Data Accuracy, Location Analytics, Data Analytics, Data-Driven Marketing, Retail Analytics, Attribution Measurement, SaaS Product" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

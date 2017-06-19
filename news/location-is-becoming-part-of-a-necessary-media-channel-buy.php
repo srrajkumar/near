@@ -15,7 +15,9 @@ $title ="Location is Becoming Part of a Necessary Media Channel Buy";
     <meta property="og:image" content="<?php IMAGE('news/location-is-becoming-part-of-a-necessary-media-channel-buy.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

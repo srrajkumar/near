@@ -15,7 +15,9 @@ $title ='Thursday Evenings Top Choice for Australian Shoppers: Near';
 	<meta property="og:image" content="http://www.near.co/images/news/Thursday-Evenings-Top-Choice-for-Australian-Shoppers.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

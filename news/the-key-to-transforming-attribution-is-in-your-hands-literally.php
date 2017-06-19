@@ -15,7 +15,9 @@ $title ="The key to transforming attribution is in your hands (literally)";
     <meta property="og:image" content="<?php IMAGE('news/the-key-to-transforming-attribution-is-in-your-hands-literally.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -16,7 +16,9 @@ $title ="Near conducts Tokyo's first Location Intelligence seminar in collaborat
 	<meta property="og:image" content="http://near.co/images/news/sendenkaigi.jpg" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

@@ -15,7 +15,9 @@ $meta_keywords="Machine Learning, Artificial Intelligence, SaaS products, Data p
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -25,6 +27,29 @@ $meta_keywords="Machine Learning, Artificial Intelligence, SaaS products, Data p
 						<div class="row">
                         	<?php include('../includes/_blog-filter.php'); ?>
 							<div  class="col-md-9 col-md-pull-9">
+							<div class="row post">
+									<div class="col-md-3 post-meta">
+									<div class="post-date">
+										<div class="post-day">02</div>
+										<div class="post-month">Jun 2017</div></div>
+										<div class="post-author"><img src="<?php IMAGE('bb.png'); ?>" width="120" height="120" style="background: url(<?php IMAGE('near-team.png'); ?>); background-position: 0 -245px; background-size: 100% auto;" alt=""/></div>
+										<div class="post-author"><i class="fa fa-user"></i>&nbsp; <b>By Madhusudan Therani</b></div>
+
+										 <div class="post-author disgnation">Chief Technology Officer </div>
+									</div>
+									<div class="col-md-9">
+										<div class="post-body background-75-e">
+											<div class="post-image">
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/ai-and-robots-arent-about-to-take-over-the-world-yet.php"><img class="fluid-width" src="<?php IMAGE('blog/ai-and-robots-arent-about-to-take-over-the-world-yet.png'); ?>" alt=""></a>
+											</div>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/ai-and-robots-arent-about-to-take-over-the-world-yet.php">AI and Robots Aren’t About to Take Over the World, Yet</a></h2>
+											
+											<p>The concept of Artificial Intelligence (AI) – especially in the form of humanoid robots – is by no means a new phenomenon, with intelligent machines appearing on our screens as early as 1984...</p>
+											<p><a href="<?php echo SITE_URL; ?>blog/ai-and-robots-arent-about-to-take-over-the-world-yet.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
+											
+										</div>
+									</div>
+								</div>
                             <div class="row post">
 									<div class="col-md-3 post-meta">
 									<div class="post-date">
@@ -122,40 +147,6 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
-
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
 </script>
   </body>
 </html>

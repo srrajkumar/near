@@ -18,7 +18,9 @@ $meta_image="blog/a-marketers-line-up-to-festival-success.png";
 </head>
 
    <body>
-	<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -49,12 +51,12 @@ $meta_image="blog/a-marketers-line-up-to-festival-success.png";
 <p>Music tourism is already big business. In the UK alone, live festivals attract <a href="http://www.ukmusic.org/research/music-tourism-wish-you-were-here-2015/" target="_blank">9.5 million</a> people and generate £3.1 billion on an annual basis. Although the appeal of such lucrative events for brands is obvious, winning over the crowds is a challenge. Around <a href="http://www.festivalinsights.com/2013/12/uk-festival-market-report-2013/" target="_blank">60%</a> of attendees understand the need for brand sponsorship, but don’t feel it enhances their experience. Simply maintaining a presence at festivals is no longer enough to achieve cut-through. Brands must provide messages that are personalised, engaging, and genuinely useful for individual attendees. With smartphones making their way into the fields, the mobile intelligence available to brands is extensive and it is now possible to identify the right users amongst the crowds to target marketing messages accordingly. </p>
 <p>As any festival connoisseur knows, the most crucial factor for a successful event is the line-up. So what are acts do brands need to incorporate into their strategy to create a perfectly tuned marketing mix? </p>
 
-<h2 style="text-align:left; font-size:18px;">The crossover artist   </h2>
+<h4>The crossover artist   </h4>
 
 <p>Just like any artist whose music traverses a range of musical styles and genres, a brand’s festival campaign must work seamlessly across multiple channels. Capturing the attention of festivalgoers is not just a question of building a great mobile, out-of-home, or social media focused campaign, but of ticking every box at once. The most important act to include is therefore a multi-channel strategy that will maximise impact and outpace the competition by extending your brand presence across every channel with messages that are ideally suited to the environment. </p>
 
 
-<h2 style="text-align:left; font-size:18px;">The singer with personal appeal  </h2>
+<h4>The singer with personal appeal  </h4>
 
 <p>The foundation of any festival campaign is an in-depth understanding of who you are trying to reach, enabling you to deliver content that strikes a personal chord with individuals and develops a lasting emotional connection with the brand. As festival attendees use mobile devices non-identifiable personal data can be leveraged to build up a detailed picture of who they are and what they do. </p>
 
@@ -63,12 +65,12 @@ $meta_image="blog/a-marketers-line-up-to-festival-success.png";
 
 
 
-<h2 style="text-align:left; font-size:18px;">The right-on time band</h2>
+<h4>The right-on time band</h4>
 
 <p>Nothing has the ability to spoil a musical moment quite like bad timing and to connect with audiences campaign delivery must be planned with maximum precision. For example, a drinks brand will have far greater success targeting festivalgoers with a special offer during the break than when the headline act is playing. It’s vital your campaign slots into the festival schedule — a feat made much easier with mobile data that enables you to determine when your target consumer is near the beer tent and ready to receive a mobile message. </p>
 
 
-<h2 style="text-align:left; font-size:18px;">The fantastical finale </h2>
+<h4>The fantastical finale </h4>
 <p>The last but equally crucial ingredient to a great festival is an act that captures the audience’s imagination; there is no place here for generic or corporate messaging. Creative must be fun, utterly in tune with the feel of the festival, aligned with what festivalgoers want, and engaging enough to pique their interest. Location data can be used in combination with other insights, such as interest data, to construct fully rounded individual user profiles that define what makes users tick. </p>
 
 <p>As an example our location data revealed the Dairy Ground campsite was particularly popular with partygoers, with the majority of activity taking place between 2am and 4am, while early risers favoured the Campervans East and Cockmill Meadow campsites. Armed with this information, you can create campaigns targeted to the festival vibe knowing what is most likely inspire each attendee — boosting engagement and revenue. </p>
@@ -156,79 +158,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

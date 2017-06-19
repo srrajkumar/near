@@ -17,7 +17,9 @@ $meta_image="blog/how-will-the-virtual-reality-opportunity-develop-for-brands.pn
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -60,14 +62,14 @@ $meta_image="blog/how-will-the-virtual-reality-opportunity-develop-for-brands.pn
 
 
 
-<h2 style="text-align:left; font-size:18px;">Testing the water in a new environment</h2>
+<h4>Testing the water in a new environment</h4>
 
 <p>Yet while virtual reality offers brands a unique ability to develop deeper connections with consumers than ever before, they must tread carefully. Virtual experiences are immersive, personal, and user-centric. This means tolerance for interruptive and irrelevant intrusions will be even lower than it is for messages that disturb consumers when they are surfing the web, and marketers must strive to provide real value.</p>
 
 
 <p>As the technology advances, we will begin to see brands develop virtual reality experiences on a foundation of user-generated data and location intelligence that accurately — yet unobtrusively — create a complete picture of unique behaviours. In this way, marketers will be able to provide targeted virtual reality experiences that are engaging, contextually relevant, and highly impactful for individual consumers.</p>
 
-<h2 style="text-align:left; font-size:18px;">Large scale platforms for even bigger data</h2>
+<h4>Large scale platforms for even bigger data</h4>
 
 <p>With the ever-growing volume of activity creating a myriad of data sources, turning information into usable profiles will become increasingly difficult for brands. The greater the number of platforms in use, the more likely it is that reliability will fluctuate and key variables will be omitted, making datasets incomplete or incomparable, while negatively impacting user identification.</p>
 
@@ -156,79 +158,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

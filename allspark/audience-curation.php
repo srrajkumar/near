@@ -22,7 +22,9 @@ $image=  "allspark/allspark-audience-curation.png";
 <style>.carousel-control{display:none !important;} </style>
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 	<?php include('innerpage-banner.php'); ?>
 <div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
@@ -60,7 +62,52 @@ $image=  "allspark/allspark-audience-curation.png";
                    
                    
                     </a>
-                    
+                      <a href="https://youtu.be/Bep2bMl28Tc" class="col-md-4 bla-2" data-aos="3dflip" data-aos-delay="400">
+                    <img src="<?php IMAGE('allspark/bfsi-video.png') ?>" alt="" class="sq-ratio">
+
+                    <span class="tile__content">
+                            <h4>BFSI Industry</h4>
+                            <hr />
+                            <p class="description">
+                             Video/Case Studies
+                            </p>
+                        </span>
+                            <span class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Play Video</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
+                   
+                    </a>
+                     <a href="https://youtu.be/LSaX1G02ERs" class="col-md-4 bla-2" data-aos="3dflip" data-aos-delay="400" style="background:#000">
+                    <img src="<?php IMAGE('video/shell-video.png') ?>" alt="" class="sq-ratio">
+                     <span class="tile__content">
+                            <h4>Competitor Audience Targeting for Shell</h4>
+                            <hr />
+                            <p class="description">
+                            Video
+                            </p>
+                        </span>
+                            <span class="custom_btn">
+                                <span class="btn__text">
+                                    <span class="btn__text-inner">Play Video</span>
+                                </span>            
+                                <div class="icon">
+                                    <svg class="" viewBox="0 0 18 7" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14,3.09H0" fill="#fff"></path>
+                                        <polyline class="color_change" points="11.34 5.83 13.97 3.09 11.34 0.35" fill="#fff"></polyline>
+                                    </svg>
+                                </div>
+                            </span>
+                   
+                   
+                    </a>
                 </div>
 
                 <div class="space" style="padding:13px;"></div>
@@ -70,7 +117,7 @@ $image=  "allspark/allspark-audience-curation.png";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/audience-curation/icon-1.png') ?>" alt />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/audience-curation-icons.png');?>); background-position: 0 0; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">With</span> unique datasets including spend, demography, place visitation history, audience nature and content.
@@ -78,7 +125,7 @@ $image=  "allspark/allspark-audience-curation.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/audience-curation/icon-2.png') ?>" alt />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/audience-curation-icons.png');?>); background-position: 0 35%; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                        <span class="blue">With</span> granular rules such as visitation frequency, distance from a store, time of the day and day of the week.
@@ -86,7 +133,7 @@ $image=  "allspark/allspark-audience-curation.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/audience-curation/icon-3.png') ?>"  alt/>
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/audience-curation-icons.png');?>); background-position: 0 69%; background-size: 100% auto; width: 103px; height: 103px;"  alt/>
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">With</span> ease of applying combinations of OR, AND and NOT to various audiences and places.
@@ -94,7 +141,7 @@ $image=  "allspark/allspark-audience-curation.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/audience-curation/icon-4.png') ?>" alt />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/audience-curation-icons.png');?>); background-position: 0 100%; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         

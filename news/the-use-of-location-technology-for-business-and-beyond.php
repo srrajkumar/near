@@ -16,7 +16,9 @@ $title ="The use of location technology for business and beyond";
     <meta name="KEYWORDS" content="Location Data, Location Technology, Data-Driven Decisions, Location-based Marketing, Consumer Insights, Urban Planning, Traffic Patterns, Audience Data, IoT data, Augmented Reality, location Analytics, Data Analytics, Shobhit Shukla" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

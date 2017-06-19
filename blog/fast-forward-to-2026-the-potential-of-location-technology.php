@@ -16,7 +16,9 @@ $meta_image="blog/fast-forward-to-2026-the-potential-of-location-technologies.pn
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -51,12 +53,12 @@ $meta_image="blog/fast-forward-to-2026-the-potential-of-location-technologies.pn
 
 <p>So let’s fast-forward a few years to a location-centric future: life as it will be in 2026. Here are just a few of the changes that I predict will shape the next phase of the digital age, and some of them are already here:</p>
 
-<h2 style="text-align:left; font-size:18px;">Smart lighting and heating</h2>
+<h4>Smart lighting and heating</h4>
 
 <p>Internet of Things (IoT) services like <a href="https://nest.com/uk/" target="_blank">Nest</a> already allow users to manage heating in their homes remotely with a mobile control panel, but this is only stage one. In the future, smart heating and lighting systems will be able to access your smartphone location, use it to determine where you are and adjust themselves accordingly — turning the heat up if you are coming home or switching it off if you are on vacation.</p>
 
 <p>This technology could also be used to reduce electricity bills and save energy. For example, in a large publicly-owned building it could identify which rooms are being used and automatically adjust the temperature or lighting in unoccupied spaces.</p>
-<h2 style="text-align:left; font-size:18px;">Local healthcare services</h2>
+<h4>Local healthcare services</h4>
 
 <p>While the uptake of location technology in the medical sector is already high, with hospitals responding to medical emergencies armed with the real-time location of staff, patients and equipment – intelligence is poised to streamline healthcare processes even further.</p>
 
@@ -64,7 +66,7 @@ $meta_image="blog/fast-forward-to-2026-the-potential-of-location-technologies.pn
 
 <p>Location intelligence could also be used to deploy mobile screening units to areas frequented by high priority individuals, such as placing a mobile breast screening unit in an area which is identified as containing an above average number of women aged 50 and above.</p>
 
-<h2 style="text-align:left; font-size:18px;">Government and council decisioning</h2>
+<h4>Government and council decisioning</h4>
 
 <p>In the next decade, local councils will start to use location technology to send you direct messages about relevant public announcements or warnings. Location intelligence is also set to revolutionise how decisions are made at the highest level – giving government agencies the insight they need to take action quickly and effectively, enhancing their agility and mitigating risk.</p>
 
@@ -151,79 +153,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

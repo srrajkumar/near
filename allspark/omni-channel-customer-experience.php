@@ -20,7 +20,9 @@ $image=  "allspark/allspark-omni-channel.png";
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
     <?php include('innerpage-banner.php'); ?>
 	
@@ -35,7 +37,7 @@ $image=  "allspark/allspark-omni-channel.png";
 </div>
                 <div class="col col-md-9">
                 <div class="col col-md-12 custom-banner row perspective" style="padding:0; margin: 0;">
-                	<a href="<?php echo SITE_URL; ?>pdf/whitepaper/spacetime-marketing-whitepaper.pdf" class="col-md-4" data-aos="3dflip" data-aos-delay="200">
+                	<a href="#" onclick="SetPage('<?php echo SITE_URL; ?>allspark/pdf-form.php?link=<?php echo SITE_URL; ?>pdf/whitepaper/spacetime-marketing-whitepaper.pdf');" class="col-md-4 button" data-aos="3dflip" data-aos-delay="200">
                     <img src="<?php IMAGE('whitepaper/omni-channel-spacetime-marketing.png') ?>" alt="" class="sq-ratio">
                     <span class="tile__content">
                             <h4>Spacetime Marketing</h4>
@@ -71,7 +73,7 @@ $image=  "allspark/allspark-omni-channel.png";
                 
                 <div class="col-md-6 row">
 	                <div class="col-md-4">
-	                	<img src="<?php IMAGE('allspark/omni-channel/icon-3.png') ?>" />
+	                	<img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/omni-channel-icons.png');?>); background-position: 0 100px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
 	                </div>
 	                <div class="col-md-8 subcontent">
 	                	<span class="blue">Measuring</span> which channels work best for their target audience, and optimising marketing spends.
@@ -79,7 +81,7 @@ $image=  "allspark/allspark-omni-channel.png";
                 </div>
                <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/omni-channel/icon-2.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/omni-channel-icons.png');?>); background-position: 0 210px; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Reaching</span> their audience on the right channels, and continuing their brand story across media.
@@ -87,7 +89,7 @@ $image=  "allspark/allspark-omni-channel.png";
                 </div>
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/omni-channel/icon-1.png') ?>" />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/omni-channel-icons.png');?>); background-position: 0 305px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Mapping</span> consumer journeys in the digital and physical world, and getting insight into the right touchpoints for their target audience.
@@ -119,6 +121,18 @@ document.getElementById('usecases').className = 'active';
         });
     });
 });
+   function SetPage(url)
+{document.getElementById("myframe").setAttribute("src", url);}
+$('.button').click(function(){
+      $('#modal').css('display','block');
+      $('.modal-bg').fadeIn();
+  });
+
+    $('#close').click(function(){
+        $('.modal-bg').fadeOut();   
+        $('#modal').fadeOut();
+      return false;
+    });
     </script>
     
 </body>

@@ -20,14 +20,15 @@
 		data: {
 			"entry_2005620554": name,
 			"entry_1045781291": email,
-			"entry_1045781291": company,
-			"entry_1045781291": file
+			"entry_793952204": company,
+			"entry_1571904464": file
 		},
 		type: "POST",
 		dataType: "xml",
 		statusCode: {
 
-		}
+		},
+	timeout: 3000 
 	});
 </script>
 
@@ -46,7 +47,10 @@ require 'phpmailer/PHPMailerAutoload.php';
  $mon =  $mydate[month]; 
  $date = $mydate[mday];
  $year = $mydate[year];
-
+if (empty($name) && empty($email) && empty($phone) && empty($company)) {
+    echo 'Please enter the values';
+    return false;
+}else{
  $mail = new PHPMailer;
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
@@ -63,7 +67,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 	//$mail->addCC('gokul@near.co');
 	$mail->addCC('inbound@near.co');
 	//$mail->addCC('kiran@near.co');
-	//$mail->addCC('sowmya@near.co');
+	//$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('info@near.co');
 	
 	$mail->isHTML(true);                                  // Set email format to HTML
@@ -185,5 +189,5 @@ $main = " <div id='contact-wrapper' class='clearfix container'>
   </div>";
 
 echo $main;
-
+}
 ?>

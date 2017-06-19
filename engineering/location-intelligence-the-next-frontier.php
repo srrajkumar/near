@@ -16,7 +16,9 @@ $title = "Location Intelligence: The Next Frontier";
     <meta name="KEYWORDS" content="Data analytics, Data analysis tools, Business analysis techniques, Marketing data, Mobile advertising platforms" />
 </head>
 	<body>
-		<div class="preloader"></div>
+		<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('_banner.php'); ?>
 		

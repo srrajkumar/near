@@ -16,7 +16,9 @@ $title ="Madhusudan Therani, Chief Technology Officer at Near recognised as one 
     <meta name="KEYWORDS" content="SAAS products, Data Science, Data Engineering, Location Technology, Location Data, Mobile Data, Data Analytics, Consumer Insights, Location Intelligence Platform, Data Rockstar, Data-driven Marketing, Data-driven Solutions" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

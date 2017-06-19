@@ -16,7 +16,9 @@ $title ='Near scoops the Best Media Solution award for Audi at the Sparks Awards
 	<meta property="og:image" content="http://near.co/images/news/spark-awards.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

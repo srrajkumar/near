@@ -58,7 +58,7 @@
 	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="text-transform:none;">THE FIRST OF ITS KIND <br class="mob-add"> SaaS PRODUCT</h1>
 	<h2 data-aos="fade-zoom-in" data-aos-delay="200">for Data-Driven Decisions with</h2>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="300"></span>
-	<div class="row icon-row">
+	<div class="row icon-row allspark_icon_container">
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="400">
 			<div class="icons">
 				<svg id="fingerprint" class="fingerprint" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 304.26 437.46">
@@ -183,7 +183,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row icons-row" style="margin-top: 20px;">
+	<div class="row icons-row allspark_icon_container" style="margin-top: 20px;">
 		<div class="col-sm-3" data-aos="fade-up" data-aos-delay="800">
 			<div class="icons ">
 				<svg id="crossmatrix" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.6 395.2">
@@ -269,7 +269,7 @@
 </div> 
 <?php include( '_client-testimonials.php' );?>
 <div class="container-fluid spacing_margin text-center  casestudy-container">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="100" style="color: #444444;">GET STARTED <br class="mob-add"/><span style=" font-weight: 700;"> WITH ALLSPARK FOR</span></h1>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="100">GET STARTED <br class="mob-add"/> <span style="color: #5c5c5c;">WITH ALLSPARK FOR</span></h1>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="200"></span>
 	<div class="allspark-slider responsive2" style="margin-bottom:0px !important; margin-top: 30px;">
 		<div>
@@ -323,7 +323,7 @@
 	</div>
 </div>
 <div class="container spacing_margin text-center brand_logos">
-	<h1 data-aos="fade-zoom-in" data-aos-delay="100">ALLSPARK<span style="color: #444444; font-weight: 700;"> USERS</span><a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button demo_button button--primary button--rounded users">Setup a demo</a></h1>
+	<h1 data-aos="fade-zoom-in" data-aos-delay="100">ALLSPARK<span style="color: #5c5c5c;"> USERS</span><a href="<?php echo SITE_URL; ?>allspark/signup.php" class="button demo_button button--primary button--rounded users">Setup a demo</a></h1>
 	<span class="line" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="200"></span>
 	<div class="row">
 		<?php include('../includes/_brand-logos.php'); ?>

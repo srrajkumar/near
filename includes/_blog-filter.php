@@ -1,3 +1,6 @@
+<style>
+  #message{font-weight:300; margin-top:30px; font-size:13px;}
+  </style>
 <div class="col-md-3 sidebar page-transition col-md-push-3 sticky" id="sidebar">
 	
 	<ul id="accordion" class="accordion">
@@ -82,6 +85,8 @@
 			<div class="link accord">Month<i class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
 			</div>
 			<ul class="submenu drob-list1">
+			<li><a href="<?php echo SITE_URL; ?>blog/june2017.php" title="June 2017">June 2017</a>
+				</li>
 			<li><a href="<?php echo SITE_URL; ?>blog/may2017.php" title="May 2017">May 2017</a>
 				</li>
 			<li><a href="<?php echo SITE_URL; ?>blog/january2017.php" title="January 2017">January 2017</a>
@@ -135,4 +140,53 @@
 	</ul>
 	<br />
 <a href="<?php echo SITE_URL; ?>engineering/" class="blog-link red button2 button2--primary button2--rounded" style=" font-size: 16px; line-height: 25px;">Tech Blog</a>
+<div class="newsletter">	
+				<form action="" method="post"  enctype="multipart/form-data" onSubmit="" id="form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+						<div class="row">							
+							<span class="news-form">
+								<input class="balloon" type="email" value="" name="EMAIL" required id="state"  placeholder="Enter email to subscribe" /><label for="state">Subscribe to Newsletter</label>
+							</span>
+							<div class="submit_button news-form"><input type="submit" class="submit btn-xs" value="Subscribe" name="subscribe"></div>
+                            
+						</div>
+					</div>
+				</form>
+                <p id="message"></p>
+			</div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script>
+function validate()
+    {
+ var email = $('#state').val();
+
+$.ajax({
+url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLScrZGEWyiWprePwNepN_l8_Xw-vTtD7oiYWYII3POJpX4S41g/formResponse",
+data: { 
+"entry_1045781291": email
+
+  },
+    type: "POST",
+    dataType: "xml",
+   statusCode: {
+    
+                        0: function() {
+                           $('.news-form').hide();
+                     $('#message').append('Thank you for subscribing.').show();
+                    
+                        },
+                         200: function() {
+                            //Success Message
+                        }
+    },
+  timeout: 3000 
+  });
+}
+     $(document).ready(function(){
+                $('#form').submit(function() {
+                    validate();
+                    return false;
+                });
+            });
+</script>

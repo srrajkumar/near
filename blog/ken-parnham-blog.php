@@ -16,7 +16,9 @@ $title="Ken Parnham"
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -26,6 +28,28 @@ $title="Ken Parnham"
 						<div class="row">
                         	<?php include('../includes/_blog-filter.php'); ?>
 							<div  class="col-md-9 col-md-pull-9">
+							 <div class="row post">
+									<div class="col-md-3 post-meta">
+									<div class="post-date">
+										<div class="post-day">12</div>
+										<div class="post-month">Jun 2017</div></div>
+										<div class="post-author"><img src="<?php IMAGE('bb.png'); ?>" width="120" height="120" style="background: url(<?php IMAGE('near-team.png'); ?>); background-position: 0 -856px; background-size: 100% auto;" alt=""/></div>
+										<div class="post-author"><i class="fa fa-user"></i>&nbsp;<b> By Ken Parnham</b></div>
+                                        <div class="post-author disgnation">General Manager -<br> Europe</div>
+									</div>
+									<div class="col-md-9">
+										<div class="post-body background-75-e">
+											<div class="post-image">
+												<a class="page-transition" href="<?php echo SITE_URL; ?>blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.php"><img class="fluid-width" src="<?php IMAGE('blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.png'); ?>" alt=""></a>
+											</div>
+											<h2 style="text-align:left;"><a class="page-transition" href="<?php echo SITE_URL; ?>blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.php">Is untapped data the biggest missed opportunity for telcos?</a></h2>
+											
+											<p>Much has changed since Motorola first made mobile handsets accessible to the masses in 1984. Smartphones now account for over half of global mobile subscriptions and 8.4 billion connected devices are expected to be in use worldwide by the end of this year...</p>
+											<p><a href="<?php echo SITE_URL; ?>blog/is-untapped-data-the-biggest-missed-opportunity-for-telcos.php"   class="button2 button2--primary button2--rounded">Read more</a></p>
+											
+										</div>
+									</div>
+								</div>
                           <div class="row post">
 									<div class="col-md-3 post-meta">
 									<div class="post-date">
@@ -361,40 +385,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
 </script>
   </body>
 </html>

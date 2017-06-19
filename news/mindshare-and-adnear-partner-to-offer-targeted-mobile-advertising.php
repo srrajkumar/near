@@ -15,7 +15,9 @@ $title ='Mindshare and Near Partner to Offer Targeted Mobile Advertising';
 	<meta property="og:image" content="http://www.near.co/images/news/Mindshare-and-Near-Partner-to-Offer-Targeted-Mobile-Advertising.png" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

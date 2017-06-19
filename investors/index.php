@@ -17,7 +17,9 @@ $meta_keywords="Near Investors, Near Board, believers in ambient intelligence, l
 
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 	<?php include('container.php'); ?>
 	<?php include('../includes/_footer.php'); ?>

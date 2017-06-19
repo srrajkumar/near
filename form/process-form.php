@@ -7,7 +7,34 @@
 <html  lang="en">
 <head>
 <?php include('../includes/_head.php'); ?>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+	var name = '<?php echo $_POST['name']; ?>';
+	var email = '<?php echo $_POST['email']; ?>';
+	var phone = '<?php echo $_POST['phone']; ?>';
+	var reason = '<?php echo $_POST['contact_reason']; ?>';
+	var country = '<?php echo $_POST['location']; ?>';
+	var designation = '<?php echo $_POST['designation']; ?>';
+	var message = '<?php echo $_POST['message']; ?>';
+	$.ajax({
+	url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLScLIvzQmfX5_Sg0HVtkxsl3krN7tcYhJTLsxVKMyilpAMNVwA/formResponse",
+	data: { 
+		"entry_956528457": name,
+		"entry_1642179646": email,
+		"entry_213940237": phone,
+		"entry_1002107091": reason,
+		"entry_1141328561": designation,
+		"entry_1006047176": country,
+		"entry_495917586": message
+	},
+	type: "POST",
+	dataType: "xml",
+ statusCode: {
 
+	},
+	timeout: 3000 
+	});
+</script>
 
 </head>
 
@@ -26,7 +53,10 @@ require 'phpmailer/PHPMailerAutoload.php';
 $location = $_POST['location'];
 $designation = $_POST['designation'];
 $message = $_POST['message'];
-
+if (empty($name) && empty($email) && empty($phone) && empty($contact_reason)) {
+    echo 'Please enter the values';
+    return false;
+}else{
 
  $mail = new PHPMailer;
 	$mail->isSMTP();    
@@ -42,8 +72,8 @@ $message = $_POST['message'];
 	
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('gokul@near.co');
-$mail->addCC('inbound@near.co');
-	//$mail->addCC('kiran@near.co');
+	$mail->addCC('inbound@near.co');
+	//$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('sowmya@near.co');
 	//$mail->addCC('info@near.co');
 	
@@ -64,7 +94,7 @@ $mail->addCC('inbound@near.co');
 							  <tbody>
 							    <tr>
 							      <td width='160'><img src='http://188.166.248.212/images/near-white.png' alt='Near' width='120' height='40'  style='display: block; float:left; padding: 5px 5px 5px 10px;' /></td>
-							      <td> <p style='margin: 15px 15px 0px 0;'>Near Contact Form</p>
+							      <td> <p style='margin: 15px 15px 0px 0;'>Interest in Product</p>
                             <p style='font-size:11px; padding: 0px 0px 10px 0px; color:rgba(255, 255, 255, 0.54); margin: 0px;'>$mon $date, $year</p></td>
 						        </tr>
 						      </tbody>
@@ -163,6 +193,6 @@ $mail->addCC('inbound@near.co');
  
 echo "<h2 class='color-red'>Message Sent</h2> <br/><p >Thank you for your interest,<br> we will revert shortly. </p>";
 
-
+}
 ?>
 

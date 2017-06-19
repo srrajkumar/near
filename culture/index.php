@@ -13,6 +13,7 @@ $meta_keywords="Believers in Work plus Life, Near culture, fun at work, best rew
 	<?php include('../includes/_head.php'); ?>
  
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php CSS_PATH('popup.css'); ?>" />
 <style>
   .custom_btn{
     border: 1px solid #000 !important;
@@ -85,89 +86,22 @@ $meta_keywords="Believers in Work plus Life, Near culture, fun at work, best rew
 
 </head>
 <body  class="the-data">
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 	<?php include('container.php'); ?>
 	<?php include('../includes/_footer.php'); ?>
     <?php include('../includes/_java_scripts.php'); ?>
-  <script src="<?php JS('build/three.js'); ?>"></script>
-
-  <script src="<?php JS('build/Projector.js'); ?>"></script>
-  <script src="<?php JS('build/CanvasRenderer.js'); ?>"></script>
-      <script>
-
-      var $anchors = $('.icon-anim .icon_hover'), counter = 0;
-      setInterval(function(){
-        $anchors.removeClass('active');
-        $anchors.eq(counter++ % $anchors.length).addClass('active');
-
-      }, 3000);
-      $anchors.hover(
-        function () {
-          $anchors.removeClass('active');
-          $(this).addClass("active");
-      },
-      );
-
-function cycleImages(){
-      var $active = $('#cycler .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-    $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
-
-function cycleImages1(){
-      var $active = $('#cycler1 .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler1 img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-    $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
-function cycleImages2(){
-      var $active = $('#cycler2 .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler2 img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-    $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
-function cycleImages3(){
-      var $active = $('#cycler3 .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler3 img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-    $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
-$(document).ready(function(){
-// run every 7s
-setInterval('cycleImages()', 3000);
-setInterval('cycleImages1()', 4000);
-setInterval('cycleImages2()', 3000);
-setInterval('cycleImages3()', 4000);
-});
-
-  </script>
-   <script type="x-shader/x-vertex" id="vertexshader">
-
-      attribute float size;
-      attribute vec3 customColor;
-      varying vec3 vColor;
-
-      void main() {
-          vColor = customColor;
-          vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-          gl_PointSize = size * ( 10.0 / length( mvPosition.xyz ) );
-          gl_Position = projectionMatrix * mvPosition;
-      }
-  </script>
+ 
+       <script type="text/javascript" src="<?php JS ('lightbox/html5lightbox.js'); ?>"></script>   
+<script type="text/javascript" src="<?php JS ('popup.jquery.js'); ?>"></script>
+    <script type="text/javascript">
+        jQuery(function(){
+            
+            jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+        });
+    </script>
 </body>
 </html>
 

@@ -19,16 +19,30 @@ $(function(){
 
 
 if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)  { 
+  $('head').append('<link rel="stylesheet" type="text/css" href="https://near.co/assets/css/safari.css">');
+    //http://188.166.248.212/near_v3/assets/css/safari.css
    //i.e. apply safari class via jquery
-  $('.nav-link').css({'margin-top': '-15px'});
+ 
 }
-$("#burger-container").on('click', function(){
-  $(this).toggleClass("open");
-  $(".checkBox").toggleClass("anim-rect");
-  $(".slide-menu").toggleClass("show-slide-menu");
-  $(".main-container").toggleClass("overlay-in");
-});
 
+$(document).ready(function() {
+    $("#burger-container").click(function(e) {
+        e.stopPropagation();
+        $(this).toggleClass("open");
+        $(".checkBox").toggleClass("anim-rect");
+       $(".slide-menu").toggleClass("show-slide-menu");
+  $(".main-container").toggleClass("overlay-in");
+    });
+  $(document).click(function(e){
+      if(!e.target.closest(".test-menu div") && $("#burger-container").hasClass("open")){
+        $("#burger-container").toggleClass("open");
+         $(".checkBox").toggleClass("anim-rect");
+       $(".slide-menu").toggleClass("show-slide-menu");
+  $(".main-container").toggleClass("overlay-in");
+      }
+    })
+  
+});
 jQuery(document).ready(function($){
 	"use strict";
   var $lateral_menu_trigger = $('#cd-menu-trigger'),
@@ -613,9 +627,9 @@ var waves = new SineWaves({
     return $(window).width();
   },
   
-  height: function() {
+  /*height: function() {
     return $(window).height();
-  },
+  },*/
   
   ease: 'SineInOut',
   

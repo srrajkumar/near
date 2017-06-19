@@ -21,7 +21,9 @@ $image2="allspark/allspark-telco-2.png";
 <style>.allspark-inner .line_break1{display:none;}</style>
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
     <div id="particles-js" class="col-lg-12  k carousel-custom allspark-banner" style="background-color: #fff; " data-particles='{"color":"#a2a2a2"}'> 
 <div class="banner-space container allspark-space"></div>
@@ -32,7 +34,7 @@ $image2="allspark/allspark-telco-2.png";
   <div class="col-lg-12 col-sm-12">
 
   <div class="d-md-block "   id="box-one"  style="margin-bottom: 40px; text-align: center; margin-top: 50px;">
-          <h1 style="font-weight: 400; font-size: 42px;"><?php echo $heading; ?> <span style="color:#5C5C5C;">for</span></h1>
+          <h1 style="font-size: 42px;"><?php echo $heading; ?> <span style="color:#5C5C5C;">for</span></h1>
           <p class="innerpage-title"><?php echo $content; ?></p>
            <span class="line_break1 color-red"></span>
           <p style="font-size: 16px; color: #444;"><?php echo $content1; ?></p>
@@ -123,7 +125,7 @@ $image2="allspark/allspark-telco-2.png";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-1.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 2px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Curate</span> their audience segments and reach them in real-time, across channels.  
@@ -131,7 +133,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-8.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 312px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> switching patterns of consumers between telco players.
@@ -139,7 +141,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-2.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 962px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the behaviour of their audience in the digital and physical world, by mapping their journey with data from channels including mobile, desktops and tablets.
@@ -147,7 +149,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-3.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 852px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> deep insights of the audience that walks into their own and competitor stores such as demography, audience types, visitation rate, peak visitation day and time etc.
@@ -155,7 +157,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-4.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 752px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> insights on consumers that are connected to WiFi and Cellular Data such as usage patterns, devices used, telco operator and browsing patterns.
@@ -163,7 +165,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                  <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-5.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 632px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Ingest</span> their own datasets such as CRM data into Allspark to get an enhanced, unified view of their consumers across locations.  
@@ -171,7 +173,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-6.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 532px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Get</span> Allspark data through DaaS APIs for data-driven decisions in merchandising, staffing and other business operations.
@@ -179,7 +181,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/telco/icon-7.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 422px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the touchpoints (Mobile/Tablets/Desktop/OOH) that influence consumer walk-ins, and be smarter with mapping consumer journeys.
@@ -188,7 +190,7 @@ $image2="allspark/allspark-telco-2.png";
                 
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/identify.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 112px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Identify </span> where to install new cell towers for better coverage based on movement of your customers vs competitors' customers.
@@ -196,7 +198,7 @@ $image2="allspark/allspark-telco-2.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/curate.png') ?>" />
+                        <img  src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/telco-icons.png');?>); background-position: 0 212px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Curate </span> audience of people who live/work in certain areas and suburbs for Local Area Marketing.

@@ -20,7 +20,9 @@ $image=  "allspark/allspark-ooh-analytics.png";
 <link rel="stylesheet" type="text/css" href="<?php CSS_PATH('allspark.css'); ?>">
 </head>
 <body>
-<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 	<?php include('innerpage-banner.php'); ?>
 <div class="container container--fixed top-spacer allspark-subpages" style="padding: 100px 0">
@@ -40,7 +42,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                 <div class="row allspark-container" style="margin: 0; padding:0 ">
                 <div class="col-md-6 row" >
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-1.png') ?>" />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/ooh-analytics-icons.png');?>); background-position: 0 0; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the audience at each OOH site, and select the right site for the campaign.
@@ -48,7 +50,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-2.png') ?>" />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/ooh-analytics-icons.png');?>); background-position: 0 420px; background-size: 100% auto; width: 103px; height: 103px;" alt />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Understand</span> the audience their competitors are hitting with their OOH sites.
@@ -56,7 +58,7 @@ $image=  "allspark/allspark-ooh-analytics.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-3.png') ?>" />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/ooh-analytics-icons.png');?>); background-position: 0 315px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Continue</span> their OOH story with real-time and audience targeting over digital devices.
@@ -64,15 +66,15 @@ $image=  "allspark/allspark-ooh-analytics.png";
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-5.png') ?>" />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/ooh-analytics-icons.png');?>); background-position: 0 95px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
-                        <span class="blue">Get</span> apowerful analytics on the kind of audience engaging with their OOH campaigns.
+                        <span class="blue">Get</span> powerful analytics on the kind of audience engaging with their OOH campaigns.
                     </div>
                 </div>
                 <div class="col-md-6 row">
                     <div class="col-md-4">
-                        <img src="<?php IMAGE('allspark/ooh-analytics/icon-4.png') ?>" />
+                        <img src="<?php IMAGE('bb.png') ?>" style="background:url(<?php IMAGE('allspark/ooh-analytics-icons.png');?>); background-position: 0 200px; background-size: 100% auto; width: 103px; height: 103px;" alt  />
                     </div>
                     <div class="col-md-8 subcontent">
                         <span class="blue">Measure</span> attribution of their OOH campaigns, and how well these campaigns work together with other media.

@@ -15,7 +15,9 @@ $title ="Q&A with Ken Parnham: Retailers & Location Data";
     <meta property="og:image" content="<?php IMAGE('news/q-and-a-with-ken-parnham-retailers-and-location-data.png'); ?>" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

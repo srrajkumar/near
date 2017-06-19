@@ -16,7 +16,9 @@ $title ='How Ambient Intelligence Is Changing How Business Is Done';
     <meta name="KEYWORDS" content="Cross-device data, Omni-Channel attribution, location data, location analytics, attribution analytics, ROI measurement, Data products, SaaS products, SaaS platform, Allspark,  Real-time attribution, attribution data, brand marketers, cross-device marketing, location-based marketing, OOH Analytics, Data-Driven Decisions, Consumer Journeys, Unified Consumer, Omni-channel marketing, Enterprises, Ambient Intelligence, Data Intelligence, Cross-Device Data, DaaS API, Data Analyses, Ambient Data, Data Platforms" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 

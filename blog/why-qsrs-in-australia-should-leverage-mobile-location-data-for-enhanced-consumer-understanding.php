@@ -17,7 +17,9 @@ $meta_image="blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -57,10 +59,10 @@ $meta_image="blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for
 
 <p>From the study, one such piece of information that both restaurants could easily take advantage of was ‘when’ do consumers walk in these restaurants. Consumers who ate at McDonald’s did so in the early evening hours, while those who ate at Subway did so later in the evening.  This information could be used by both restaurants to fuel strategies aimed at drawing consumers away from the competitor.  For example, McDonald’s could introduce later hours or a special late night menu, while Subway could promote a late afternoon/early evening special.</p>
 
-<h2 style="text-align:left; font-size:18px;">Knowing the who’s &amp; their whereabouts that impacts business decisions</h2>
+<h4>Knowing the who’s &amp; their whereabouts that impacts business decisions</h4>
 
 <p>Another piece of information both McDonald’s and Subway would be interested in learning is who their audience is.  The majority of those who eat at QSRs, according to the Near study, are from the professional and affluent categories.  In fact, there were more professionals eating at McDonald’s and Subway than any other category, although affluent consumers were a close second in most cities (and actually made up a higher percentage of diners at McDonald’s in Perth). This tells QSRs (not just McDonald’s and Subway) that professionals tend to eat more fast food and that they should aim their strategies towards this group.  </p>
-<h2 style="text-align:left; font-size:18px;">The bottom line</h2>
+<h4>The bottom line</h4>
 
 <p>The insights that can be derived from using mobile location data can be used by brands in a number of ways.  From deriving consumer habits to looking at who is eating where and when, QSRs will be able to better measure how successful their marketing and business strategies are and will be able to better focus them on specific consumer groups. In the long run, this will allow businesses to improve sales and dominate the market.</p>
 
@@ -141,79 +143,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

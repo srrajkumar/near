@@ -17,7 +17,9 @@ $meta_image="blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting
 </head>
 
    <body>
-	<div class="preloader"></div>
+<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -47,7 +49,7 @@ $meta_image="blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting
 
 <p>This is especially vital in Asia-Pacific, where consumer needs, behaviours, tastes, and cultures change drastically from market to market. To use data effectively, and better improve their efforts and results, it is essential they consider the following in their data strategy: </p>
 
-<h2 style="text-align:left; font-size:18px;">1) Your data must be fresh</h2>
+<h4>1) Your data must be fresh</h4>
 
 <p>Historical data does have its uses; but real-time data is much more powerful because it shows up-to-the-minute information on consumer preferences and trends. This allows marketers to tailor their strategies to address these preferences.</p>
 
@@ -57,7 +59,7 @@ $meta_image="blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting
 <p>Or, an eatery using past buying patterns to predict the kinds of food their customers lean towards at different times of the year may be missing out on the sales they could be leveraging, by using fresh data sources to reveal the dynamic buying behaviour of their patrons.</p>
 <p>No matter the business case, there is really no industry that cannot benefit from using real-time data to predict, analyse, and market to their customers in real time.</p>
 
-<h2 style="text-align:left; font-size:18px;">2) Use the right medium</h2>
+<h4>2) Use the right medium</h4>
 
 <p>There is so much information coming from mobile data that brands simply can’t use it all, and they shouldn’t have to. They need to find the right insights, such as audience profiles, customer engagement, and foot traffic, that fit the audience they’re targeting.</p>
 
@@ -66,7 +68,7 @@ $meta_image="blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting
 
 <p>Considering the omnipresent nature of smartphones, mobile data is very valuable to extract these customer insights.</p>
 
-<h2 style="text-align:left; font-size:18px;">3) Know thy consumer</h2>
+<h4>3) Know thy consumer</h4>
 
 <p>Understanding what consumers want is vital to marketing and overall business success. Marketers must carefully analyse why a consumer bought their product, instead of going to a competitor, what they were doing when they made the purchase, and what other actions they engaged in before and after the purchase.</p>
 
@@ -74,13 +76,13 @@ $meta_image="blog/5-tips-apac-marketers-should-consider-in-data-driven-targeting
 
 <p>In Asia-Pacific, it’s also vital to understand the various consumer markets because these trends can change so drastically. Marketing strategies that work in Hong Kong, for example, may be useless in Malaysia or Thailand. It’s all about cultural perspective and knowing how consumers from each area behave in the market.</p>
 
-<h2 style="text-align:left; font-size:18px;">4) Invest in data products</h2>
+<h4>4) Invest in data products</h4>
 
 <p>Consumers interact with a brand through various platforms, devices, and channels. Linking all these engagement points will allow brands to better understand how to reach their audience and increase opportunities.</p>
 
 <p>This can be very challenging because companies collect a huge amount of data every day. It is, however, still achievable by leveraging new technologies that allow marketers to fuse various data sets, like demographics, interest, location, and CRM. The benefits of doing so certainly outweigh the cost of acquiring this technology.</p>
 
-<h2 style="text-align:left; font-size:18px;">5) Measure the impact of your strategy</h2>
+<h4>5) Measure the impact of your strategy</h4>
 
 <p>Before marketers launch their marketing strategy, they can use the data on hand to experiment and test potential marketing tools and plans. The insights will allow them to determine just how effective their strategies are.</p>
 <p>Marketers need to do as much A/B testing as they can for each campaign and for each medium, audience, and geographical location. Once they have measured the impact of their campaign, and compared it to others, they can optimise their marketing plans to reach a larger audience with reduced spend.</p>
@@ -166,79 +168,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

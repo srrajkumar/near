@@ -16,7 +16,6 @@ function isPhone($phone) {
 }
 
 
-
 	error_reporting(E_ALL);
 	require '../form/phpmailer/PHPMailerAutoload.php';
 	$name     = $_POST['name'];
@@ -27,12 +26,7 @@ function isPhone($phone) {
 	$find  = $_POST['find'];
 	$verify	= $_POST['verify'];
 	$refererurl =  $_COOKIE['RefererURL'];
-	$mydate=getdate(date('U'));
-	$mon = $mydate[month]; 
-	$date = $mydate[mday];
-	$year =	$mydate[year];
- 
- 	$mail = new PHPMailer;
+	$mail = new PHPMailer;
 	$mail->isSMTP();    
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'tls';  
@@ -47,7 +41,7 @@ function isPhone($phone) {
 	$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 	//$mail->addCC('kiran@near.co');
 	$mail->addCC('allspark@near.co');
-	//$mail->addCC('allspark@near.co');
+	//$mail->addCC('rajkumar@near.co');
 	//$mail->addCC('info@near.co');
 	$mail->isHTML(true);                                  // Set email format to HTML
 
@@ -106,7 +100,7 @@ if(trim($name) == '') {
 						<td  bgcolor='#2a3239' style='padding: 0px;font-size: 22px; color:#fff; font-weight: bold; font-family: Arial, sans-serif;'>
 							<img src='http://188.166.248.212/images/allspark-logo.jpg' alt='Allspark' width='56' height='48'  style='display: block; float:left; padding: 5px 5px 5px 10px;' />
                             <p style='margin: 10px 0 0px 0;'>Allspark Enquiry</p>
-                            <p style='font-size:11px; padding: 0px 0px 10px 0px; color:rgba(255, 255, 255, 0.54); margin: 0px;'>$mon $date, $year</p>
+                           
                            
 						</td>
                         
@@ -200,32 +194,3 @@ if(trim($name) == '') {
 	echo "</div>";
 	echo "</fieldset>";
 ?>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-	var name ='<?php echo $_POST['name']; ?>';
-	var email = '<?php echo $_POST['email']; ?>';
-	var phone = '<?php echo $_POST['phone']; ?>';
-	var find ='<?php echo $_POST['find']; ?>';
-	var country = '<?php echo $_POST['country']; ?>';
-	var company ='<?php echo $_POST['company']; ?>';
-
-	$.ajax({
-    url: "https://docs.google.com/a/near.co/forms/d/e/1FAIpQLSfYwwJ-3ugTUCz-NH6h9vEAHkXwpZZQYQ7-tG53UI47XuvToQ/formResponse",
-   /data: { 
-   "entry_710770568": name,
-   "entry_863893022": email,
-   "entry_257454762": phone,
-   "entry_3153749":find,
-    "entry_1168262239": company,
-   "entry_1157887187": country
-    	
-   },
-  type: "POST",
-    crossDomain: true,
-   dataType: "xml",
-     statusCode: {
-
-    }
-  });
-	
-</script>

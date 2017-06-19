@@ -13,7 +13,9 @@ $title ='How can brands use mobile data to turn browsers into buyers this Christ
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -42,15 +44,15 @@ $title ='How can brands use mobile data to turn browsers into buyers this Christ
 											 
 
 <p>Mobile commerce generates a wealth of real-time customer data that enables brands to make powerful audience connections and improve targeting accuracy. So how can brands use the insight afforded by mobile data to enjoy greater online and offline retail success during the festive season?</p>
-<h2 style="text-align:left; font-size:18px;">Understand and target consumers</h2>
+<h4>Understand and target consumers</h4>
 <p>Mobile data offers detailed insights into consumer interests, shopping habits and buying intentions. This data not only enables marketers to enhance seasonal sales by pinpointing and targeting influential touchpoints, it can also uncover surprising audience statistics.</p>
 <p>A recent report conducted by Near into shopping trends at Sainsbury’s, Tesco and Waitrose found that, contrary to expectations, <a href="<?php PDF('consumer-intelligence/consumer-insights-for-supermarkets-in-london.pdf'); ?>" target="_blank">more 16-24 year olds visited Waitrose than the other stores</a>. Sainsbury’s was more attractive to young professionals and Tesco saw higher footfall from groups of parenting age.</p>
 <p>Such data gives brands a unique understanding of their audience demographics and those of their competitors — a distinct advantage at the busiest time of the shopping year.</p>
-<h2 style="text-align:left; font-size:18px;">Measure cross-channel strategies</h2>
+<h4>Measure cross-channel strategies</h4>
 
 <p>Consumers interact with several offline and online channels before making their final purchase and location-based data enables marketers to attribute their path to conversion. Using location footprints mapped to device identifiers, brands can measure ROI on digital and out-of-home spend.</p>
 <p>This helps brands understand whether an in-app mobile advert contributed to a purchase or not.</p>
-<h2 style="text-align:left; font-size:18px;">Time activity perfectly</h2>
+<h4>Time activity perfectly</h4>
 <p>In the countdown to Christmas, timing is everything, and with an accurate idea of the time and day consumers are most likely to be browsing in-store, and online, brands can significantly increase conversions.</p>
 <p>The mobile location data from Near’s research reveals that Wednesday is the most popular shopping day and the peak time period is between 1pm and 7pm. For brand marketers, this insight could drastically reduce wastage from ads served at the wrong time.</p>
 <p>Mobile location data gives marketers an unprecedented understanding of how consumers interact with brands across channels and devices. It also offers brands a priceless tool in the age of austerity — attribution that uses mobile data to measure marketing effectiveness, allowing brands to optimise budgets and impact – not just at Christmas, but all year round.</p>
@@ -138,79 +140,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
 
 

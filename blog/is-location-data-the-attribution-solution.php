@@ -16,7 +16,9 @@ $meta_image="blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for
 </head>
 
    <body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('blog-banner.php'); ?>
 		<!-- BEGIN: Page content -->
@@ -46,25 +48,25 @@ $meta_image="blog/why-qsrs-in-australia-should-leverage-mobile-location-data-for
 <p>Proving that the tried and tested methods do not always equal success, the story is a reminder that assumption is no substitute for accurate data. Precise measurement of the impact marketing has on every channel — including mobile, TV, and out-of-home (OOH) — is vital to understanding current performance and informing the optimisation of future campaigns. Yet, mapping the interactions and conversions that arise from campaigns delivered across multiple channels and screens is notoriously difficult. </p>
 
 <p>So, how can marketers solve this dilemma and obtain the detailed, accurate attribution data they need? The answer is mobile location data. </p>
-<h2 style="text-align:left; font-size:18px;">Mobile data and digital attribution</h2>
+<h4>Mobile data and digital attribution</h4>
 <p>As the rise in connectivity drives an increase in the smart tech we carry with us, mobile has become an indispensable element of everyday life. </p>
 
 <p>According to the Cisco Visual Networking Index Forecast, mobile devices and connections grew to 7.3 billion worldwide last year, and by 2020 there will be 11.6 billion connected mobile devices in existence. </p>
 <p>For marketers, growing usage presents an opportunity to reach greater audiences and understand the complex, cross-channel path to purchase. Consequently, new tools have emerged to help marketers tie mobile data to digital interactions and conversions that take place across a myriad of screens. But the effect of marketing in the offline world has remained hard to measure — until now. </p>
 
-<h2 style="text-align:left; font-size:18px;">The real-world applications of mobile insight</h2>
+<h4>The real-world applications of mobile insight</h4>
 
 <p>Mobile location data is not limited to measuring digital activity — in fact, it can form a vital link between the online world and the offline world. </p>
 
 <p>By adding a location footprint to mobile data, marketers can follow consumers from initial online browsing to the final in-store purchase. Yet this is only the first step towards truly effective attribution and data-driven marketing; the next is to gain a cohesive understanding of the impact ad campaigns have on every online and offline channel. </p>
 
-<h2 style="text-align:left; font-size:18px;">Attribution and out-of-home</h2>
+<h4>Attribution and out-of-home</h4>
 
 <p>Just as location data has transformed targeting capabilities on mobile, it is now beginning to improve the relevance of OOH ads. Marketers are applying the location insights gathered from mobile usage to identify the best OOH locations for their target audience, and even serve dynamic digital creative. </p>
 
 <p>With access to more advanced mobile location data sets comes the ability to improve attribution accuracy for OOH campaigns. Ads on digital screens can be targeted to reach users at the right time and place to influence purchasing decisions, making their impact much easier to verify. Using location data, marketers can determine whether users who were detected passing OOH screens, later entered specific retail stores, highlighting the connection between ads and consumer activity. </p>
 
-<h2 style="text-align:left; font-size:18px;">Attribution and TV</h2>
+<h4>Attribution and TV</h4>
 
 <p>The applications of mobile location data in the real world are endless, and can even encompass long-established media channels such as TV. While the ability of TV advertising to engage consumers and boost brand awareness is unquestionable — the IAB states that 37% of consumers research products on a smartphone after seeing them on TV — its power to drive them into physical stores is less clear.</p>
 
@@ -153,79 +155,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-var stickySidebar = $('.sticky');
 
-if (stickySidebar.length > 0) { 
-  var stickyHeight = stickySidebar.height(),
-      sidebarTop = stickySidebar.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar.length > 0) { 
-    var scrollTop = $(window).scrollTop();
-            
-    if (sidebarTop < scrollTop) {
-      stickySidebar.css('top', scrollTop - sidebarTop);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom = stickySidebar.offset().top + stickyHeight,
-          stickyStop = $('.blog').offset().top + $('.blog').height();
-      if (stickyStop < sidebarBottom) {
-        var stopPosition = $('.blog').height() - stickyHeight;
-        stickySidebar.css('top', stopPosition);
-      }
-    }
-    else {
-      stickySidebar.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar.length > 0) { 
-    stickyHeight = stickySidebar.height();
-  }
-});
-
-
-
-</script>
-<script>
-var stickySidebar1 = $('.sticky1');
-
-if (stickySidebar1.length > 0) { 
-  var stickyHeight1 = stickySidebar1.height(),
-      sidebarTop1 = stickySidebar1.offset().top;
-}
-
-// on scroll move the sidebar
-$(window).scroll(function () {
-  if (stickySidebar1.length > 0) { 
-    var scrollTop1 = $(window).scrollTop();
-            
-    if (sidebarTop1 < scrollTop1) {
-      stickySidebar1.css('top', scrollTop1 - sidebarTop1);
-
-      // stop the sticky sidebar at the footer to avoid overlapping
-      var sidebarBottom1 = stickySidebar1.offset().top + stickyHeight1,
-          stickyStop1 = $('.post').offset().top + $('.post').height();
-      if (stickyStop1 < sidebarBottom1) {
-        var stopPosition1 = $('.post').height() - stickyHeight1;
-        stickySidebar1.css('top', stopPosition1);
-      }
-    }
-    else {
-      stickySidebar1.css('top', '0');
-    } 
-  }
-});
-
-$(window).resize(function () {
-  if (stickySidebar1.length > 0) { 
-    stickyHeight1 = stickySidebar1.height();
-  }
-});
 </script>
      </body>
 </html>

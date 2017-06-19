@@ -16,7 +16,9 @@ $title ="Q&A with Anil Mathews: Location Intelligence & BFSI Sectors";
     <meta name="KEYWORDS" content="location intelligence, location analytics, banking and finance, consumer insights, data analytics, consumer analytics, Anil Mathews, attribution analytics, millennials digital behavior, PlaceMatrix, spatial attributes, spatial precision" />
 </head>
 	<body>
-	<div class="preloader"></div>
+	<div class="preloader">
+  <?php include('../includes/preloader.php'); ?>
+</div>
 	<?php include('../includes/_navigation.php'); ?>
 		<?php include('news_banner.php'); ?>
 
