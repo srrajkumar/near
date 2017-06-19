@@ -1,19 +1,19 @@
 <?php
 ini_set("display_errors", 0);
 define('SITE_NAME', 'Near');
-$mainurl = 'http://localhost/near.co/';
+$mainurl = 'http://localhost/near_v3/';
 //$mainurl = 'https://near.co/'; 
 //$cdnurl = 'https://druq9h2796z7c.cloudfront.net/';
 #$cdnurl = 'https://d2828ihewbtgvd.cloudfront.net/';
 //$cdnurl = 'https://near.co/';
 define('SITE_URL', $mainurl );
 define(ROOT_PATH, dirname(__FILE__) );
-define('CSS_ASSETS_URL', $mainurl .'assets/css/minified.css.php');
-define('CSS_ASSETS_URL_PATH', $mainurl .'assets/css/');
-define('JS_ASSETS_URL', $mainurl .'assets/js/');
-define('IMAGE_ASSETS_URL', $mainurl .'assets/images/');
-define('VIDEO_ASSETS_URL', $mainurl .'assets/videos/');
-define('VDO_ASSETS_URL',  $mainurl .'assets/vdo/');
+define('CSS_ASSETS_URL', $mainurl .'media/css/minified.css.php');
+define('CSS_ASSETS_URL_PATH', $mainurl .'media/css/');
+define('JS_ASSETS_URL', $mainurl .'media/js/');
+define('IMAGE_ASSETS_URL', $mainurl .'media/images/');
+define('VIDEO_ASSETS_URL', $mainurl .'media/videos/');
+define('VDO_ASSETS_URL',  $mainurl .'media/vdo/');
 //define('IMAGES_ASSETS_URL', 'https://d2828ihewbtgvd.cloudfront.net/images/');
 //define('PDF_ASSETS_URL', $cdnurl .'pdf/');
 define('PDF_ASSETS_URL', 'http://d2828ihewbtgvd.cloudfront.net/pdf/');

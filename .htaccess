@@ -1,0 +1,38 @@
+RewriteEngine on
+RewriteRule ^(index\.php|stest\.php|video\.php|videos|images|javascripts|css|screenshots|files|style\.css|favicon\.ico) - [L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)?$ index.php?show=$1 [L,NC]
+ErrorDocument 404 /404.php
+
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/mp4 .m4v
+AddType video/webm .webm
+SetEnvIfNoCase Request_URI \.(ogv|mp4|m4v|webm)$ no-gzip dont-vary
+
+<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf|pdf|flv|mp3|woff)$">
+<IfModule mod_expires.c>
+ ExpiresActive on
+ ExpiresDefault "access plus 1 year"
+ Header set Cache-Control "public"
+ Header unset ETag
+ FileETag None
+
+</IfModule>
+</FilesMatch>
+<FilesMatch "\.(html|htm|xml|txt|xsl)$">
+ Header set Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>
+
+
+<IfModule mod_mime.c>
+	AddType application/x-javascript .js
+	AddType text/css .css
+   AddType application/vnd.ms-fontobject   eot
+    AddType application/x-font-ttf          ttf ttc
+    AddType font/opentype                   otf
+    AddType application/x-font-woff         woff
+    AddType image/svg+xml                   svg svgz 
+    AddEncoding gzip                        svgz
+</IfModule>
